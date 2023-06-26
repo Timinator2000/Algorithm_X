@@ -3,6 +3,27 @@
 A quick Google search will surely bring you to countless implementations of Algorithm X, usually solving a 9x9 Sudoku grid using the famous Dancing Links (DLX) technique proposed by the brillian Donald Knuth. This playground is NOT just another Sudoku demonstration. Rather, the goal here is to go deeper and explore using Algorithm X to teach both reusable problem solving techniques and reusable software architectures. By the time you're finished working your way through the material, you should feel confident solving any exact cover problem you run across!
 
 
+# What to Expect
+
+This tutorial is broken into the following topics:
+
+## Understanding Algorithm X
+
+Text here.
+
+## Using Algorithm X
+
+Text here.
+
+## Building a Black Box Algorithm X Solver
+
+Text here.
+
+## 18 Different Exact Cover Problems
+
+Text here.
+
+
 This Python template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
 
 
