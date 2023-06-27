@@ -7,8 +7,6 @@ plan:
       - title: MD2
         statement: introduction/MD2.md
 
-
-
   - title: Algorithm X
     plan:
   
