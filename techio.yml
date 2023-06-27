@@ -4,6 +4,10 @@ plan:
     plan:
       - title: Welcome
         statement: introduction/welcome.md
+      - title: MD2
+        statement: introduction/MD2.md
+
+
 
   - title: Algorithm X
     plan:
