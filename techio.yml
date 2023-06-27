@@ -8,3 +8,24 @@ projects:
     runner:
       name: python
       version: '3'
+
+
+title : Algorithm X
+plan:
+  - title: Introduction
+    plan:
+      - title: Welcome
+        statement: markdowns/welcome.md
+
+  - title: Algorithm X
+    plan:
+  
+  - title: Building a Solver
+    plan:
+  
+  - title: Exact Cover Problems
+    plan:
+      - title: Rectangular Puzzle Pieces
+  
+      - title: Sudoku
+
