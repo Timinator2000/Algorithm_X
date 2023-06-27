@@ -3,7 +3,7 @@ plan:
   - title: Introduction
     plan:
       - title: Welcome
-        statement: markdowns/welcome.md
+        statement: introduction/welcome.md
 
   - title: Algorithm X
     plan:
@@ -14,6 +14,8 @@ plan:
   - title: Exact Cover Problems
     plan:
       - title: Rectangular Puzzle Pieces
+        statement: puzzles/rectangular_puzzle_pieces.md
   
       - title: Sudoku
+        statement: puzzles/sudoku.md
 
