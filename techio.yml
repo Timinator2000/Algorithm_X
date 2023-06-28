@@ -37,3 +37,21 @@ plan:
         statement: introduction/welcome.md
       - title: Rectangular Puzzle Pieces
         statement: introduction/MD2.md
+  - title: Part 7
+    plan:
+      - title: Sudoku
+        statement: introduction/welcome.md
+      - title: Rectangular Puzzle Pieces
+        statement: introduction/MD2.md
+  - title: Part 8
+    plan:
+      - title: Sudoku
+        statement: introduction/welcome.md
+      - title: Rectangular Puzzle Pieces
+        statement: introduction/MD2.md
+  - title: Part 9
+    plan:
+      - title: Sudoku
+        statement: introduction/welcome.md
+      - title: Rectangular Puzzle Pieces
+        statement: introduction/MD2.md
