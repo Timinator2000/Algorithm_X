@@ -7,6 +7,10 @@ __What to Expect__
 
 This tutorial is broken into the following topics:
 
+__Try to Add a Project__
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["universye.py"], "command": "python3 test_universe.py"}]
+
+
 __Understanding Algorithm X__
 
 Text here.
@@ -28,5 +32,3 @@ __Example of Runnable Text Block__
 print('Hello World')
 ```
 
-__Try to Add a Project__
-@ [Luke, how many stars are there in these galaxies?]({"stubs": ["universye.py], "command": "python3 test_universe.py"}]
