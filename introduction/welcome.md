@@ -8,7 +8,8 @@ __What to Expect__
 This tutorial is broken into the following topics:
 
 __Try to Add a Project__
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["universye.py"], "command": "python3 test_universe.py"}]
+
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
 
 __Understanding Algorithm X__
