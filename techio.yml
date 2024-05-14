@@ -1,5 +1,11 @@
 title : Algorithm XYZ
 cover: cover.png
+
+projects:
+  python:
+    root: /python-project
+    runner: python:3
+    
 plan:
   - title: Introduction
     plan:
