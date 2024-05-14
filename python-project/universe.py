@@ -1,3 +1,5 @@
+from AlgorithmX import AlgorithmXSolver
+
 def count_all_stars(galaxies):
     total_stars = 0
     for stars in galaxies:
