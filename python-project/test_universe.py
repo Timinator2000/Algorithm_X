@@ -1,4 +1,4 @@
-from universe import count_all_stars
+from universe import count_all_stars, MySolver
 import builtins
 
 
@@ -48,6 +48,12 @@ def test_count_all_stars():
             send_msg("Kudos 🌟", "")
             send_msg("Kudos 🌟", "galaxies = [37, 3, 2]")
             send_msg("Kudos 🌟", "total_stars = sum(galaxies)  # 42")
+
+            solver = MySolver()
+            for solution in solver.solve():
+                for action in solution:
+                    send_msg("Solver Steps", f'{action}')
+                    
     except AssertionError as e:
         fail()
         send_msg("Oops! 🐞", e)
