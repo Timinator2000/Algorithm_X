@@ -1,11 +1,6 @@
 title : Algorithm XYZ
 cover: cover.png
 
-projects:
-  python:
-    root: /python-project
-    runner: python:3
-    
 plan:
   - title: Introduction
     plan:
@@ -61,3 +56,10 @@ plan:
         statement: introduction/welcome.md
       - title: Rectangular Puzzle Pieces
         statement: introduction/MD2.md
+
+projects:
+  python:
+    root: /python-project
+    runner:
+      name: python
+      version: '3'
