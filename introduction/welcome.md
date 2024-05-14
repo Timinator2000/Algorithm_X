@@ -23,6 +23,10 @@ __18 Different Exact Cover Problems__
 
 Text here.
 
+__Example of Runnable Text Block__
 ```python runnable
 print('Hello World')
 ```
+
+__Try to Add a Project__
+@ [Luke, how many stars are there in these galaxies?]({"stubs": ["universye.py], "command": "python3 test_universe.py"}]
