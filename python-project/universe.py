@@ -3,10 +3,10 @@ from AlgorithmX import AlgorithmXSolver
 class MySolver(AlgorithmXSolver):
 
     def __init__(self):
-        requirements = [('requirement 1', 5), ('requirement 2', 5)]
+        requirements = [('requirement 1', ), ('requirement 2', )]
         actions = {
-            ('Cover Req 1', 5):[('requirement 1', 5)],
-            ('Cover Req 2', 4):[('requirement 2', 5)]
+            ('Cover Req 1', ):[('requirement 1', )],
+            ('Cover Req 2', ):[('requirement 2', )]
         }
 
         super().__init__(requirements, actions)
