@@ -60,7 +60,7 @@ Test Case 2 - 4
 
 Test Case 3 - 10
 
-Test Case 4 - 6
+Test Case 4 - 4
 
 Test Case 5 - 27
 
