@@ -54,21 +54,21 @@ __Music Schedules Part II__
 
 Number of Iterations without using checking Troublesome Pairs and Loud Instruments:
 
-Test Case 1 - 
+Test Case 1 - 3
 
-Test Case 2 - 
+Test Case 2 - 4
 
-Test Case 3 - 
+Test Case 3 - 10
 
-Test Case 4 - 
+Test Case 4 - 6
 
-Test Case 5 - 
+Test Case 5 - 27
 
-Test Case 6 - 
+Test Case 6 - 18
 
-Test Case 7 - 
+Test Case 7 - 94
 
-Test Case 8 - 
+Test Case 8 - 78
 
 Test Case 9 - 
 
