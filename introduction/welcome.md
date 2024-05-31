@@ -26,7 +26,7 @@ Text here.
 
 __18 Different Exact Cover Problems__
 
-Music Schedules Part I
+__Music Schedules Part I__
 
 Number of Iterations without using Day-Instrument Constraint:
 
@@ -49,6 +49,38 @@ Test Case 12 - 83620
 Test Case 13 - stopped counting at 500k
 
 Test Case 14 - stopped counting at 500k
+
+__Music Schedules Part II__
+
+Number of Iterations without using checking Troublesome Pairs and Loud Instruments:
+
+Test Case 1 - 
+
+Test Case 2 - 
+
+Test Case 3 - 
+
+Test Case 4 - 
+
+Test Case 5 - 
+
+Test Case 6 - 
+
+Test Case 7 - 
+
+Test Case 8 - 
+
+Test Case 9 - 
+
+Test Case 10 - 
+
+Test Case 11 - 
+
+Test Case 12 - 
+
+Test Case 13 - stopped counting at 
+
+Test Case 14 - stopped counting at 
 
 __Example of Runnable Text Block__
 ```python runnable
