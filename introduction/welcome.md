@@ -31,16 +31,24 @@ Music Schedules Part I
 Number of Iterations without using Day-Instrument Constraint:
 
 Test Case 5 - 96
+
 Test Case 6 - 63
+
 Test Case 7 - 1818
+
 Test Case 8 - 1387
+
 Test Case 9 - 11414
+
 Test Case 10 - 10691
+
 Test Case 11 - 130235
+
 Test Case 12 - 83620
+
 Test Case 13 - stopped counting at 500k
+
 Test Case 14 - stopped counting at 500k
- stopped counting at 500k
 
 __Example of Runnable Text Block__
 ```python runnable
