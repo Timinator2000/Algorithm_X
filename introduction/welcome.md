@@ -70,17 +70,30 @@ Test Case 7 - 94
 
 Test Case 8 - 78
 
-Test Case 9 - 
+Test Case 9 - 290
 
-Test Case 10 - 
+Test Case 10 - 321
 
-Test Case 11 - 
+Test Case 11 - 362
 
-Test Case 12 - 
+Test Case 12 - 140
 
-Test Case 13 - stopped counting at 
+Test Case 13 - 5578
 
-Test Case 14 - stopped counting at 
+Test Case 14 - 2205
+
+Test Case 15 - 114
+
+Test Case 16 - 98
+
+Test Case 17 - 7738
+
+Test Case 18 - 4882
+
+Test Case 19 - 53101
+
+Test Case 20 - 
+
 
 __Example of Runnable Text Block__
 ```python runnable
