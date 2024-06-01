@@ -98,6 +98,54 @@ Test Case 21 - 65887
 
 Test Case 22 - 53101
 
+__Music Schedules Part III__
+
+Number of possibilities without multiplicity adaptation:
+
+Test Case 1 - 
+
+Test Case 2 - 
+
+Test Case 3 - 
+
+Test Case 4 - 
+
+Test Case 5 - 
+
+Test Case 6 - 
+
+Test Case 7 - 
+
+Test Case 8 - 
+
+Test Case 9 - 
+
+Test Case 10 - 
+
+Test Case 11 - 
+
+Test Case 12 - 
+
+Test Case 13 - 
+
+Test Case 14 - 
+
+Test Case 15 - 
+
+Test Case 16 - 
+
+Test Case 17 - 
+
+Test Case 18 - 
+
+Test Case 19 - 
+
+Test Case 20 - 
+
+Test Case 21 - 
+
+Test Case 22 - 
+
 
 __Example of Runnable Text Block__
 ```python runnable
