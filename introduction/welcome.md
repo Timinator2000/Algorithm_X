@@ -27,7 +27,8 @@ Requirements - what are the requirements that must be satisfied by a solution to
 * Each slot in the schedule must be filled.
 * Each student must be put somewhere on the schedule.
 * Each day must have one and only one student for each instrument type.
-* How many total requirements are there in the example problem? Mrs. Knuth is only teaching 3 total hours and all those hours are on the same day. There are 3 slots that must be filled. There are 3 students that must be placed on the schedule and there are 3 instruments types that must show up somewhere on the day she is teaching. There are 9 total requirements for the example problem. (In my playground, I will discuss how to properly construct a requirement and I will provide the details of exactly how I suggest defining all 9 requirements.)
+
+How many total requirements are there in the example problem? Mrs. Knuth is only teaching 3 total hours and all those hours are on the same day. There are 3 slots that must be filled. There are 3 students that must be placed on the schedule and there are 3 instruments types that must show up somewhere on the day she is teaching. There are 9 total requirements for the example problem. (In my playground, I will discuss how to properly construct a requirement and I will provide the details of exactly how I suggest defining all 9 requirements.)
 
 What are the actions that can be taken to try to solve the problem. There are only 5 possible actions. Ayla could be scheduled Thursday at 2pm. Bob could be schedule Thursday at 2pm or at 3pm. Alex could be scheduled at 2pm or 4pm.
 
