@@ -90,9 +90,9 @@ Test Case 17 - 7738
 
 Test Case 18 - 4882
 
-Test Case 19 - 20433
+Test Case 19 - 25281
 
-Test Case 20 - 
+Test Case 20 - 20433
 
 Test Case 21 - 53101
 
