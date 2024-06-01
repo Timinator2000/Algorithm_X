@@ -14,7 +14,9 @@ __Try to Add a Project__
 
 __Understanding Algorithm X__
 
-Text here.
+Part I - need to address MRV vs MRV for column selection and point out that MRV is the default for my AlgorithmX Solver.
+
+Part II - Two ways to implement secondary constraints. Adjust the algorithm so that secondary constraints never cause failure. Or, add a row to the matrix for each secondary constraint where the only column covered is that specific constraint. It essentially says, "If no other action covers this row, select this action that only covers this one single constraint."
 
 __Using Algorithm X__
 
