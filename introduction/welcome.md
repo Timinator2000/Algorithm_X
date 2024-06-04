@@ -11,6 +11,11 @@ __Try to Add a Project__
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
+__Regarding MRV vs non-MRV__
+
+* My AlgorithmXSolver uses MRV by default.
+* I recommend always trying MRV first.
+* My AlgorithmXSolver makes it very easy to customize the order in which columns are chosen.
 
 __Understanding Algorithm X__
 
