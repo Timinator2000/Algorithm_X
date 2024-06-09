@@ -208,7 +208,7 @@ ___Part III:___ Goal is to introduce multiplicity and evaluating all solutions t
 - possible multiple hours per student
 - need to find the best of all solutions
 
-___Part IV: ___ Goal is to introduce mutually inclusive actions and redirection of Algorithm X path finding
+___Part IV:___ Goal is to introduce mutually inclusive actions and redirection of Algorithm X path finding
 - sibling pairs - mutually inclusive actions
 - mornings/afternoons must be one of ... {BGBG, GBGBG, BGGB} since boys tend to require more energy than girls at this age.
 
