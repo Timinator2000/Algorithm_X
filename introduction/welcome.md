@@ -189,3 +189,16 @@ __Example of Runnable Text Block__
 print('Hello World')
 ```
 
+
+__Overview of Puzzles__
+
+_Part I_
+- primary constraints only
+- slots = students
+- unique instrument count per day == slots per day
+
+_Part II_
+- optional constraints
+- more slots than students
+- troublesome pairs
+- loud instruments cannot be back-to-back
