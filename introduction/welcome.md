@@ -192,7 +192,7 @@ print('Hello World')
 
 __Overview of Puzzles__
 
-_Part I_
+___Part I___
 - primary constraints only
 - slots = students
 - unique instrument count per day == slots per day
