@@ -192,13 +192,24 @@ print('Hello World')
 
 __Overview of Puzzles__
 
-___Part I___
+___Part I:___ Goal is to introduce requirements and actions (columns and rows)
 - primary constraints only
 - slots = students
 - unique instrument count per day == slots per day
 
-_Part II_
+___Part II:___ Goal is to introduce at ost one-time constraints and mutually exclusive actions
 - optional constraints
 - more slots than students
 - troublesome pairs
 - loud instruments cannot be back-to-back
+
+___Part III:___ Goal is to introduce multiplicity and evaluating all solutions to find the best
+- still more slots than students
+- possible multiple hours per student
+- need to find the best of all solutions
+
+___Part IV: ___ Goal is to introduce mutually inclusive actions and redirection of Algorithm X path finding
+- sibling pairs - mutually inclusive actions
+- mornings/afternoons must be one of ... {BGBG, GBGBG, BGGB} since boys tend to require more energy than girls at this age.
+
+___Other Ideas___
