@@ -213,3 +213,4 @@ ___Part IV:___ Goal is to introduce mutually inclusive actions and redirection o
 - mornings/afternoons must be one of ... {BGBG, GBGBG, BGGB} since boys tend to require more energy than girls at this age.
 
 ___Other Ideas___
+- find the best schedule if not all students need to be scheduled and not all slots need to be filled
