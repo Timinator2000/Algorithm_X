@@ -4,12 +4,12 @@ A quick Google search will surely bring you to countless implementations of Algo
 
 ## Heading Two
 
-### Heading Three
+## __Heading Two Bold__
 
 #### Heading Four
 
 
-__What to Expect__
+## __What to Expect__
 
 This tutorial is broken into the following topics:
 
