@@ -2,28 +2,21 @@
 
 A quick Google search will surely bring you to countless implementations of Algorithm X, usually solving a 9x9 Sudoku grid using the famous Dancing Links (DLX) technique proposed by the brilliant Donald Knuth. This playground is NOT just another Sudoku demonstration. Rather, the goal here is to go deeper and explore using Algorithm X to teach both reusable problem solving techniques and reusable software architectures. By the time you're finished working your way through the material, you should feel confident solving any exact cover problem you run across!
 
-## Heading Two
-
-## __Heading Two Bold__
-
-#### Heading Four
-
-
-## __What to Expect__
+## What to Expect
 
 This tutorial is broken into the following topics:
 
-__Try to Add a Project__
+## Try to Add a Project
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
-__Regarding MRV vs non-MRV__
+## Regarding MRV vs non-MRV
 
 * My AlgorithmXSolver uses MRV by default.
 * I recommend always trying MRV first.
 * My AlgorithmXSolver makes it very easy to customize the order in which columns are chosen.
 
-__Understanding Algorithm X__
+## Understanding Algorithm X
 
 Part I - need to address MRV vs MRV for column selection and point out that MRV is the default for my AlgorithmX Solver.
 
@@ -59,17 +52,19 @@ For a more mathematical discussion of Exact Cover and Algorithm X, I suggest Wik
 
 Wikipedia - Exact Cover 1
 
-__Using Algorithm X__
+## Using Algorithm X
 
 Text here.
 
-__Building a Black Box Algorithm X Solver__
+## Building a Black Box Algorithm X Solver__
 
 Text here.
 
-__18 Different Exact Cover Problems__
+## 18 Different Exact Cover Problems
 
-__Music Schedules Part I__
+Text here.
+
+## Music Schedules Part I
 
 Number of Iterations without using Day-Instrument Constraint:
 
@@ -93,7 +88,7 @@ Test Case 13 - stopped counting at 500k
 
 Test Case 14 - stopped counting at 500k
 
-__Music Schedules Part II__
+## Music Schedules Part II
 
 Number of Iterations without using checking Troublesome Pairs and Loud Instruments:
 
@@ -141,7 +136,7 @@ Test Case 21 - 65887
 
 Test Case 22 - 53101
 
-__Music Schedules Part III__
+## Music Schedules Part III
 
 Number of possibilities without multiplicity adaptation:
 
@@ -190,13 +185,13 @@ Test Case 21 -
 Test Case 22 - 
 
 
-__Example of Runnable Text Block__
+## Example of Runnable Text Block
 ```python runnable
 print('Hello World')
 ```
 
 
-__Overview of Puzzles__
+## Overview of Puzzles
 
 ___Part I:___ Goal is to introduce requirements and actions (columns and rows)
 - primary constraints only
