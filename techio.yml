@@ -6,7 +6,7 @@ plan:
     plan:
       - title: Welcome
         statement: introduction/welcome.md
-      - title: MD2
+      - title: List Comprehsion Exercise
         statement: introduction/MD2.md
   - title: Algorithm X
     plan:
