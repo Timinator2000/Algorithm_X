@@ -27,7 +27,7 @@ def fail():
     print("TECHIO> success false")
     
 
-def test_remove_odds():
+def test_num_spaces():
     try:
         spaces = num_spaces('Barkley and Lulu need to go for a walk.')
         assert spaces == 8, f"Trying num_spaces('Barkley and Lulu need to go for a walk.')... Expected 8, got {spaces}"
@@ -54,4 +54,4 @@ def test_remove_odds():
 
 
 if __name__ == "__main__":
-    num_spaces()
+    test_num_spaces()
