@@ -1,4 +1,3 @@
-import typing
 from list_comp_remove_odds import remove_odds
 
 def send_msg(channel, msg):
