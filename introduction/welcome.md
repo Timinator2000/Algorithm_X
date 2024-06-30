@@ -62,7 +62,11 @@ Text here.
 
 ## 18 Different Exact Cover Problems
 
-Text here.
+* [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares)
+* [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)
+* [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver)
+* [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver)
+
 
 ## Music Schedules Part I
 
