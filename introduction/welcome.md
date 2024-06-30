@@ -68,6 +68,15 @@ Text here.
 * [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver)
 
 
+|--------------------------------------|--------------|
+| [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) | 50xp |
+| [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) | 50xp |
+| [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) | 50xp |
+| [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) | 50xp |
+|--------------------------------------|--------------|
+
+
+
 ## Music Schedules Part I
 
 Number of Iterations without using Day-Instrument Constraint:
