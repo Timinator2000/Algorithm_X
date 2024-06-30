@@ -63,9 +63,9 @@ Text here.
 ## 18 Different Exact Cover Problems
 
 [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
-[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
-[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
-[Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
+<BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
+<BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
+<BR>[Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
 [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
 [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) (+50 XP)
 [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
