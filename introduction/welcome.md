@@ -62,18 +62,32 @@ Text here.
 
 ## 18 Different Exact Cover Problems
 
-* [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares)
-* [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)
-* [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver)
-* [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver)
+* [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
+* [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
+* [16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
+* [Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
+* [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
+* [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) (+50 XP)
+* [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
+* [Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver) (+50 XP)
+* [Winamax]( https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP)
+* [Three Little Piggies]( https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
+* [Takuzu Solver]( https://www.codingame.com/training/hard/takuzu-solver) (+50 XP)
+* [Hitori Solver]( https://www.codingame.com/training/hard/hitori-solver) (+50 XP)
+* [Kakuro Solver]( https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
+* [n Queens]( https://www.codingame.com/training/hard/n-queens) (+50 XP)
+* [There Is No Spoon – Episode 2]( https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) (+250 XP)
+* [Einstein’s Riddle Solver]( https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
+* [Breaking Bifid]( https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
+* [High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings) (+50 XP)
+
+* [25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
+* [Killer Sudoku]() (+50 XP)
+* [Killer Sudoku Extreme Challenge]() (+50 XP)
+* [Tetris Floor]() (+50 XP)
 
 
-|--------------------------------------|--------------|
-| [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) | 50xp |
-| [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) | 50xp |
-| [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) | 50xp |
-| [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) | 50xp |
-|--------------------------------------|--------------|
+
 
 
 
