@@ -1,3 +1,12 @@
+In August, 2022, I attempted to solve [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares), a recently published puzzle by [@darkhorse64]( https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292) on [Codingame](www.codingame.com). I noticed [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) had, a week earlier, posted a link to [Puzzles solvable by Algorithm X / Dancing Links](https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871), a post where he had compiled a list of puzzles on [Codingame](www.codingame.com) he had solved with [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X). I love processes that are repeatable and the idea of using a single algorithm to solve a long list of medium/hard puzzles intrigued me.
+
+For the next 18 months, I worked on [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782)’s list, reaching out to him over and over again with questions and ideas. I saw tremendous opportunity for not only a reusable software architecture, but also a repeatable engineering process for solving [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problems. Eventually, he suggested that a build an [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X) playground.
+
+I can’t thank [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) enough for all of his guidance, support, encouragement, questions, answers, poking, prodding, reviewing, etc. This playground belongs to him every bit as much as it belongs to me. His influence has made a permanent mark on who I am and how I approach problems. I am forever grateful.
+
+
+
+
 # Welcome!
 
 A quick Google search will surely bring you to countless implementations of Algorithm X, usually solving a 9x9 Sudoku grid using the famous Dancing Links (DLX) technique proposed by the brilliant Donald Knuth. This playground is NOT just another Sudoku demonstration. Rather, the goal here is to go deeper and explore using Algorithm X to teach both reusable problem solving techniques and reusable software architectures. By the time you're finished working your way through the material, you should feel confident solving any exact cover problem you run across!
