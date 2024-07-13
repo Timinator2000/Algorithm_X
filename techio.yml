@@ -4,14 +4,14 @@ cover: cover.png
 plan:
   - title: Welcome
     plan:
-      - title: Background
-        statement: welcome/background.md
-      - title: What is Algorithm X?
-        statement: welcome/what_is_algorithm_x.md
-      - title: What's in It for You?
-        statement: welcome/whats_in_it_for_you.md
-      - title: My Promise to You
-        statement: welcome/my_promise_to_you.md
+      - title: Introduction
+        statement: introduction/welcome.md
+      # - title: What is Algorithm X?
+      #   statement: welcome/what_is_algorithm_x.md
+      # - title: What's in It for You?
+      #   statement: welcome/whats_in_it_for_you.md
+      # - title: My Promise to You
+      #   statement: welcome/my_promise_to_you.md
   - title: Exact Cover
     plan:
       - title: Section 2 Part I
