@@ -1,14 +1,18 @@
-title : Algorithm XYZ
+title : Algorithm X
 cover: cover.png
 
 plan:
-  - title: Introduction
+  - title: Welcome
     plan:
-      - title: Welcome
-        statement: introduction/welcome.md
-      - title: List Comprehsion Exercises
-        statement: introduction/MD2.md
-  - title: Algorithm X
+      - title: Background
+        statement: welcome/background.md
+      - title: What is Algorithm X?
+        statement: welcome/what_is_algorithm_x.md
+      - title: What's in It for You?
+        statement: welcome/whats_in_it_for_you.md
+      - title: My Promise to You
+        statement: welcome/my_promise_to_you.md
+  - title: Exact Cover
     plan:
       - title: Section 2 Part I
         statement: introduction/welcome.md
@@ -34,6 +38,8 @@ plan:
         statement: introduction/MD2.md
   - title: Part 6
     plan:
+      - title: List Comprehsion Exercises
+        statement: introduction/MD2.md
       - title: Sudoku
         statement: introduction/welcome.md
       - title: Rectangular Puzzle Pieces
