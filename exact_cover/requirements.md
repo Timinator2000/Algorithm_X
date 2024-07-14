@@ -1,12 +1,15 @@
 # Capturing Requirements
 
 My Algorithm X journey was heavily influenced by [Ali Assaf]( https://www.cs.mcgill.ca/~aassaf9/index.html)’s [Algorithm X in 30 Lines!]( https://www.cs.mcgill.ca/~aassaf9/python/algorithm_x.html). Toward the bottom is a link to Assaf’s [Sudoku Solver]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt). I found his technique for capturing requirements and actions very helpful in my debugging and I’m going to suggest you also use that format.
-For each requirement, we will use a human readable tuple of data that clearly identifies the requirement. First, consider that each student must be put on Mrs. Knuth’s schedule. Since there are three students in our initial example, we start with the following 3 requirements:
+
+For each requirement, a human readable tuple of data clearly identifies the requirement. First, consider that each student must be put on Mrs. Knuth’s schedule. Since there are three students in our initial example, we start with the following 3 requirements:
+
 ```text
     (‘student scheduled’, Ayla)
     (‘student scheduled’, Bob)
     (‘student scheduled’, Alex)
 ```
+
 If we take any one of those requirements, it is very easy to answer “yes” or “no” to the following question: Has this requirement been satisfied yet or not? Ayla has either been placed on the schedule or she has not. There is no in-between. This is critical feature of requirements, they must be black or white. It must be obvious if the requirement has been satisfied or not.
 Next, we’ll add requirements for Mrs. Knuth’s availability. She only teaches at 2, 3 and 4 on Thursday. Each one of those slots must be filled:
 ```text
