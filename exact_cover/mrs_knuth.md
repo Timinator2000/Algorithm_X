@@ -29,7 +29,8 @@ Alex Tuba M Tu W Th 2 4 F
 ```
 
 In this sample problem, Mrs. Knuth is only available at 2, 3 and 4 on Thursday. There are 3 students that need to be scheduled. Ayla (Trumpet) is available only at 2 on Thursday, Bob (Drums) is available at 2 and 3 on Thursday, and Alex (Tuba) is available at 2 and 4 on Thursday.
-This initial Part I puzzle also has some interesting puzzle constraints that should be considered as we identify requirements.
+
+This initial Part I puzzle also has some interesting puzzle constraints that should be considered as we build our understanding of the problem.
 
 1)	numStudents = Mrs. Knuth's available hours per week.
 2)	count of each type of instrument = count of days with hours in teacherAvailability, meaning the student roster will always contain the appropriate number of instruments to make sure no duplication of instruments on any one day is possible.
