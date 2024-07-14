@@ -11,6 +11,7 @@ Ayla is available on Thursday at 2, so only one action is possible: We can place
 ```
 
 Notice that 3 pieces of data are required to distinguish one potential action from another. We need to know the name of the student being placed, the day and the hour.
+
 Bob is available on Thursday at 2 and 3. Alex is available on Thursday at 2 and 4. We need to add two possible actions for placing Bob on the schedule and 2 more possible actions for placing Alex on the schedule. If we add these 4 actions to the one action we already identified, our full list of possible actions looks like this:
 
 ```text
@@ -21,7 +22,10 @@ Bob is available on Thursday at 2 and 3. Alex is available on Thursday at 2 and 
 (‘place student’, ‘Alex’, ‘Th’, 4)
 ```
 
+# Linking Actions to Requirements
+
 So far, we’ve built a complete list of requirements that must be satisfied by any potential solution and we have a list of actions that can be used to build potential solutions. The last thing we need to define is a map between the actions and the requirements. For each action, we must identify the requirements satisfied by that action. 
+
 Let look at the first action in our list: (‘place student’, ‘Ayla’, ‘Th’, 2). If we add this action to a potential solution, which requirements from our requirements list will be satisfied? A simple example like this makes it easy to go through the requirements one by one to determine which requirements are satisfied and we end up with the following:
 
 ```text
