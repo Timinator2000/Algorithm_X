@@ -10,7 +10,8 @@ For each requirement, a human readable tuple of data clearly identifies the requ
     (‘student scheduled’, 'Alex')
 ```
 
-If we take any one of those requirements, it is very easy to answer “yes” or “no” to the following question: Has this requirement been satisfied yet or not? Ayla has either been placed on the schedule or she has not. There is no in-between. This is critical feature of requirements, they must be black or white. It must be obvious if the requirement has been satisfied or not.
+If we take any one of those requirements, it is very easy to answer “yes” or “no” to the following question: Has this requirement been satisfied yet or not? Ayla has either been placed on the schedule or she has not. There is no in-between. This is a critical feature of requirements, they must be black or white. It must be obvious if the requirement has been satisfied or not.
+
 Next, we’ll add requirements for Mrs. Knuth’s availability. She only teaches at 2, 3 and 4 on Thursday. Each one of those slots must be filled:
 
 ```text
