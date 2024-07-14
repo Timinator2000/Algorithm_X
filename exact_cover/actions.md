@@ -30,7 +30,6 @@ Let look at the first action in our list: (‘place student’, ‘Ayla’, ‘T
 
 ```text
 Action: (‘place student’, ‘Ayla’, ‘Th’, 2)
-
     Satisfied Requirements: (‘student scheduled’, ‘Ayla’)
     			(‘slot filled’, ‘Th’, 2)
     			(‘instrument on day’, ‘Th’, ‘Trumpet’)
