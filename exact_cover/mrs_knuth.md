@@ -41,3 +41,5 @@ Our initial analysis identifies 3 areas for potential requirements:
 1)	Each student must be put on Mrs. Knuth’s schedule.
 2)	Each slot in Mrs. Knuth’s availability must get filled.
 3)	Each instrument must show up once on each day Mrs. Knuth teaches.
+
+Our next step is to formally identify each and ever requirements a potential solution must satisfy.
