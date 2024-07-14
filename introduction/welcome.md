@@ -14,11 +14,13 @@ I can’t thank @5DN1L enough for all of his guidance, support, ideas, encourage
 
 A quick Google search will surely bring you to countless implementations of [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X), usually solving a 9x9 Sudoku grid using the famous [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) technique proposed by the brilliant [Donald Knuth]( https://www-cs-faculty.stanford.edu/~knuth/). This playground is NOT just another Sudoku demonstration. By the time you're finished working your way through this material, you should feel confident solving any [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problem you run across, including…
 
+__Puzzles Included in this Playground:__
 [Algorithm X – Part I]( https://www.codingame.com) -  Mrs. Knuth Tutorial (+50 XP)
 <BR>[Algorithm X – Part II]( https://www.codingame.com) -  Mrs. Knuth Tutorial (+50 XP)
 <BR>[Algorithm X – Part III]( https://www.codingame.com) - Mrs. Knuth Tutorial (+50 XP)
 <BR>[Equation Finder]( https://www.codingame.com) - Algorithm X – Part III Bonus Exercise (+50 XP)
 
+__Great Candidates for Algorithm X:__
 [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
 <BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
 <BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
@@ -38,6 +40,7 @@ A quick Google search will surely bring you to countless implementations of [Alg
 <BR>[Breaking Bifid]( https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings) (+50 XP)
 
+__Puzzles I Solved with Algorithm X, but...:__
 [25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
 <BR>[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) (+50 XP)
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
