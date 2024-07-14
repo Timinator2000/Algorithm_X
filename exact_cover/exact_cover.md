@@ -1,8 +1,12 @@
+# Exact Cover Definition
+
 This playground is titled Algorithm X and we’ll get to that, but we need to start by understanding what types of problems can be classified as “Exact Cover” problems. Algorithm X is a backtracking algorithm proposed by Donald Knuth for solving exact cover problems. So, how do we identify candidate problems for Algorithm X?
 
 Let’s start with the formal explanation on Wikipedia:
 
 [Wikipedia - Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover)
+
+# A Less Formal Definition
 
 Now that we’ve covered the formal definition, I’ll restate it in my own words. An exact cover problem is a type of problem that can be modeled as a set of constraints and a set of options where solutions are made up of a subset of the options that exactly satisfies all the constraints. Rather than using the terms constraints and options, I’m going to use the terms requirements and actions.
 
