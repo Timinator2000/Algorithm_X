@@ -40,7 +40,7 @@ __Great Candidates for Algorithm X:__
 <BR>[Breaking Bifid]( https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings) (+50 XP)
 
-__Puzzles I Solved with Algorithm X, but...:__
+__Puzzles I Solved with Algorithm X, but...__
 <BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
 <BR>[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) (+50 XP)
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
