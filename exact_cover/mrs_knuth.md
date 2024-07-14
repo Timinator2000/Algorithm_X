@@ -4,7 +4,7 @@ It is highly unlikely that Mrs. Knuth is any relation to Donald Knuth, but one n
 
 [Algorithm X – Part I](www.codingame.com)
 
-# Puzle Overview
+# Puzzle Overview
 
 Of course, you’ll need to properly organize your input and format your output, but the algorithm for building the schedules is a perfect candidate for Algorithm X. For your convenience, I have copied the most important portion of the goal section here:
 
