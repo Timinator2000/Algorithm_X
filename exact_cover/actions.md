@@ -35,7 +35,7 @@ Action: (‘place student’, ‘Ayla’, ‘Th’, 2)
                             (‘instrument on day’, ‘Th’, ‘Trumpet’)
 ```
 
-The first two should be obvious, but what about the 3rd requirement? Why is that requirement satisfied? We know from the input that Ayla plays the Trumpet. We could keep a separate list of instruments played by each student, but I don’t recommend that. Because each student has exactly one instrument, my preference is to update our list of actions to include each student’s instrument:
+The first two should be obvious, but what about the 3rd requirement? Why is that requirement satisfied? We know from the input that Ayla plays the Trumpet. We could keep a separate list of instruments played by each student, but I recommend another approach. Because each student has exactly one instrument, my preference is to update our list of actions to include each student’s instrument:
 
 ```text’
 (‘place student’, ‘Ayla’, ‘Trumpet’, ‘Th’, 2)
