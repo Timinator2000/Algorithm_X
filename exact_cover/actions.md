@@ -1,5 +1,9 @@
-These 9 requirements perfectly define the problem in Test Case #1. All we have to do now is find a set of actions that “exactly covers” these requirements, but first we have to identify actions that _could_ be taken as we try to build a solution.
+# Identifying Actions
+
+The 9 requirements, identified previously, perfectly define the problem in Test Case #1. All we have to do now is find a set of actions that “exactly covers” these requirements, but first we have to identify actions that _could_ be taken as we try to build a solution.
+
 A schedule is built for Mrs. Knuth by placing students into her available teaching slots. Every action we could take to build a solution comes down to placing one student into one slot. Of course, we need to make sure the student’s availability and Mrs. Knuth’s availability are properly honored, but I’ll leave those details to you. Let’s look at each student independently.
+
 Ayla is available on Thursday at 2, so only one action is possible: We can place Ayla on the schedule on Thursday at 2. Again, we will distinguish each action with a human readable tuple.
 
 ```text
