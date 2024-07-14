@@ -6,18 +6,18 @@ plan:
     plan:
       - title: Introduction
         statement: introduction/welcome.md
-      # - title: What is Algorithm X?
-      #   statement: welcome/what_is_algorithm_x.md
-      # - title: What's in It for You?
-      #   statement: welcome/whats_in_it_for_you.md
-      # - title: My Promise to You
-      #   statement: welcome/my_promise_to_you.md
   - title: Exact Cover
     plan:
-      - title: Section 2 Part I
-        statement: introduction/welcome.md
-      - title: Section 2 Part II
-        statement: introduction/MD2.md
+      - title: Exact Cover
+        statement: exact_cover/exact_cover.md
+      - title: Introducing Mrs. Knuth
+        statement: exact_cover/mrs_knuth.md
+      - title: Identifying Requirements
+        statement: exact_cover/requirements.md
+      - title: Identifying Actions
+        statement: exact_cover/actions.md
+      - title: Visualizing Your Model with a Matrix
+        statement: exact_cover/matrix.md
   - title: Building a Solver
     plan:
       - title: Section 3 Part I
