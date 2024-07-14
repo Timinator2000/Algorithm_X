@@ -31,8 +31,8 @@ Let look at the first action in our list: (‘place student’, ‘Ayla’, ‘T
 ```text
 Action: (‘place student’, ‘Ayla’, ‘Th’, 2)
     Satisfied Requirements: (‘student scheduled’, ‘Ayla’)
-    			(‘slot filled’, ‘Th’, 2)
-    			(‘instrument on day’, ‘Th’, ‘Trumpet’)
+                            (‘slot filled’, ‘Th’, 2)
+                            (‘instrument on day’, ‘Th’, ‘Trumpet’)
 ```
 
 The first two should be obvious, but what about the 3rd requirement? Why is that requirement satisfied? We know from the input that Ayla plays the Trumpet. We could keep a separate list of instruments played by each student, but I don’t recommend that. Because each student has exactly one instrument, my preference is to update our list of actions to include each student’s instrument:
@@ -46,6 +46,9 @@ The first two should be obvious, but what about the 3rd requirement? Why is that
 ```
 
 Instead of “placing Ayla on Thursday at 2”, we are now “placing Ayla, with her Trumpet, on Thursday at 2. Later in this playground I will explain why these human readable tuples never impact out AlgorithXSolver’s performance, which is why I always prefer having a little extra data in a tuple as compared to having to keep track of a separate list that identifies what instrument each student plays.
+
+# A Complete Model
+
 We have now created a model of the problem using requirements, actions and a mapping from actions to satisfied requirements. Putting it all in one place looks like this:
 
 ```text
