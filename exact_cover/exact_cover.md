@@ -6,6 +6,8 @@ Let’s start with the formal explanation on Wikipedia:
 
 [Wikipedia - Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover)
 
+If you've got the math background to understand all that, I aplaud you! (I'm also a bit jealous.) Unfortunately, I am, at best, an amateur mathmetician, so please forgive me for skipping over a few of the intricate details.
+
 # A Less Formal Discussion
 
 Now that we’ve covered the formal definition, I’ll restate it in my own words. An exact cover problem is a type of problem that can be modeled as a set of constraints and a set of options where solutions are made up of a subset of the options that exactly satisfies all the constraints. Rather than using the terms constraints and options, I’m going to use the terms requirements and actions.
