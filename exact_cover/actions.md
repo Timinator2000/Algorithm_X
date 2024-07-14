@@ -73,8 +73,8 @@ Action: (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 2)
     			            (‘slot filled’, ‘Th’, 2)
                  			(‘instrument on day’, ‘Th’, ‘Tuba’)
 
-Action: (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 4)
-    Satisfied Requirements: (‘student scheduled’, ‘Alex’)
+__Action:__ (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 4)
+    __Satisfied Requirements:__ (‘student scheduled’, ‘Alex’)
                             (‘slot filled’, ‘Th’, 4)
                             (‘instrument on day’, ‘Th’, ‘Tuba’)
 ```
