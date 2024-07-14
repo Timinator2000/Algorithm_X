@@ -55,27 +55,27 @@ Requirements:
 
 Action: (‘place student’, ‘Ayla’, ‘Trumpet’, ‘Th’, 2)
     Satisfied Requirements: (‘student scheduled’, ‘Ayla’)
-                      			(‘slot filled’, ‘Th’, 2)
-    			                  (‘instrument on day’, ‘Th’, ‘Trumpet’)
+                      		(slot filled’, ‘Th’, 2)
+    			            (‘instrument on day’, ‘Th’, ‘Trumpet’)
 
 Action: (‘place student’, ‘Bob’, ‘Drums’, ‘Th’, 2)
     Satisfied Requirements: (‘student scheduled’, ‘Bob’)
-    	                  		(‘slot filled’, ‘Th’, 2)
-                      			(‘instrument on day’, ‘Th’, ‘Drums’)
+    	                  	(‘slot filled’, ‘Th’, 2)
+                      		(‘instrument on day’, ‘Th’, ‘Drums’)
    
 Action: (‘place student’, ‘Bob’, ‘Drums’, ‘Th’, 3)
     Satisfied Requirements: (‘student scheduled’, ‘Bob’)
-    			                  (‘slot filled’, ‘Th’, 3)
-    			                  (‘instrument on day’, ‘Th’, ‘Drums’)
+    			            (‘slot filled’, ‘Th’, 3)
+    			            (‘instrument on day’, ‘Th’, ‘Drums’)
 
 Action: (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 2)
     Satisfied Requirements: (‘student scheduled’, ‘Alex’)
-    			                  (‘slot filled’, ‘Th’, 2)
-                 			      (‘instrument on day’, ‘Th’, ‘Tuba’)
+    			            (‘slot filled’, ‘Th’, 2)
+                 			(‘instrument on day’, ‘Th’, ‘Tuba’)
 
 Action: (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 4)
     Satisfied Requirements: (‘student scheduled’, ‘Alex’)
-    			                  (‘slot filled’, ‘Th’, 4)
-    			                  (‘instrument on day’, ‘Th’, ‘Tuba’)
+    			            (‘slot filled’, ‘Th’, 4)
+    			            (‘instrument on day’, ‘Th’, ‘Tuba’)
 ```
 
