@@ -6,7 +6,7 @@ Let’s start with the formal explanation on Wikipedia:
 
 [Wikipedia - Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover)
 
-If you've got the math background to understand all that, I aplaud you! (I'm also a bit jealous.) Unfortunately, I am, at best, an amateur mathmetician, so please forgive me for skipping over a few of the intricate details.
+If you've got the math background to understand all that, I applaud you! (I'm also a bit jealous.) Unfortunately, I am, at best, an amateur mathmetician, so please forgive me for skipping over a few of the intricate details.
 
 # A Less Formal Discussion
 
