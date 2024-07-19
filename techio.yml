@@ -11,13 +11,13 @@ plan:
       - title: Exact Cover
         statement: 02 - exact_cover/01 - exact_cover.md
       - title: Introducing Mrs. Knuth
-        statement: exact_cover/mrs_knuth.md
+        statement: 02 - exact_cover/02 - mrs_knuth.md
       - title: Identifying Requirements
-        statement: exact_cover/requirements.md
+        statement: 02 - exact_cover/03 - requirements.md
       - title: Identifying Actions
-        statement: exact_cover/actions.md
+        statement: 02 - exact_cover/04 - actions.md
       - title: Visualizing Your Model with a Matrix
-        statement: exact_cover/matrix.md
+        statement: 02 - exact_cover/05 - matrix.md
   - title: Building a Solver
     plan:
       - title: Section 3 Part I
