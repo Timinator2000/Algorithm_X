@@ -9,21 +9,25 @@ plan:
   - title: Exact Cover
     plan:
       - title: Definition
-        statement: 02 - exact_cover/01 - exact_cover.md
+        statement: 02 - exact_cover/01 - exact cover.md
       - title: Mrs. Knuth
-        statement: 02 - exact_cover/02 - mrs_knuth.md
+        statement: 02 - exact_cover/02 - mrs knuth.md
       - title: Requirements
         statement: 02 - exact_cover/03 - requirements.md
       - title: Actions
         statement: 02 - exact_cover/04 - actions.md
       - title: The Matrix
         statement: 02 - exact_cover/05 - matrix.md
-  - title: Building a Solver
+  - title: AlgorithmXSolver
     plan:
-      - title: Section 3 Part I
-        statement: 01 - introduction/welcome.md
-      - title: Section 3 Part II
-        statement: 01 - introduction/MD2.md
+      - title: the AlgorithmXSolver
+        statement: 03 - AlgorithmXSolver/01 - the AlgorithmXSolver.md
+      - title: Your Solver
+        statement: 03 - AlgorithmXSolver/02 - your solver.md
+      - title: Finding Solutions
+        statement: 03 - AlgorithmXSolver/03 - finding solutions.md
+      - title: Troubleshooting
+        statement: 03 - AlgorithmXSolver/04 - troubleshooting.md
   - title: Exact Cover Problems
     plan:
       - title: Sudoku
