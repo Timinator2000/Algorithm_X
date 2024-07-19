@@ -5,11 +5,11 @@ plan:
   - title: Welcome
     plan:
       - title: Introduction
-        statement: introduction/welcome.md
+        statement: 01 - introduction/welcome.md
   - title: Exact Cover
     plan:
       - title: Exact Cover
-        statement: exact_cover/exact_cover.md
+        statement: 02 - exact_cover/01 - exact_cover.md
       - title: Introducing Mrs. Knuth
         statement: exact_cover/mrs_knuth.md
       - title: Identifying Requirements
