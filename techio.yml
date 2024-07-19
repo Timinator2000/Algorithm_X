@@ -20,7 +20,7 @@ plan:
         statement: 02 - exact_cover/05 - matrix.md
   - title: AlgorithmXSolver
     plan:
-      - title: the AlgorithmXSolver
+      - title: The AlgorithmXSolver
         statement: 03 - AlgorithmXSolver/01 - the AlgorithmXSolver.md
       - title: Your Solver
         statement: 03 - AlgorithmXSolver/02 - your solver.md
