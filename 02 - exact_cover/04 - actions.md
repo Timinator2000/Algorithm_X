@@ -93,3 +93,4 @@ Action: (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 4)
                             (‘instrument on day’, ‘Th’, ‘Tuba’)
 ```
 
+This text-based model might work well for you, but for those of you that might prefer a more visual model, we must step into The Matrix...
