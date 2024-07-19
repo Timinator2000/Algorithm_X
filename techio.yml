@@ -8,15 +8,15 @@ plan:
         statement: 01 - introduction/welcome.md
   - title: Exact Cover
     plan:
-      - title: Exact Cover
+      - title: Definition
         statement: 02 - exact_cover/01 - exact_cover.md
-      - title: Introducing Mrs. Knuth
+      - title: Mrs. Knuth
         statement: 02 - exact_cover/02 - mrs_knuth.md
-      - title: Identifying Requirements
+      - title: Requirements
         statement: 02 - exact_cover/03 - requirements.md
-      - title: Identifying Actions
+      - title: Actions
         statement: 02 - exact_cover/04 - actions.md
-      - title: Visualizing Your Model with a Matrix
+      - title: The Matrix
         statement: 02 - exact_cover/05 - matrix.md
   - title: Building a Solver
     plan:
