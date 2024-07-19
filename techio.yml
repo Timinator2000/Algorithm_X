@@ -43,7 +43,7 @@ plan:
       - title: Sudoku
         statement: 01 - introduction/welcome.md
       - title: Rectangular Puzzle Pieces
-        statement: introduction/MD2.md
+        statement: 01 - introduction/MD2.md
   - title: Part 7
     plan:
       - title: Sudoku
