@@ -50,7 +50,6 @@
 #
 #  https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871
 #
-// }
 
 
 # On to the solver...
@@ -151,7 +150,7 @@ class DLXCell:
             node = node.prev_x
         node.col_header.restore_column()
         node.restore_y()
-
+// }
 
 
 class AlgorithmXSolver():
