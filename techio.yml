@@ -28,42 +28,10 @@ plan:
         statement: 03 - AlgorithmXSolver/03 - finding solutions.md
       - title: Troubleshooting
         statement: 03 - AlgorithmXSolver/04 - troubleshooting.md
-  - title: Exact Cover Problems
-    plan:
-      - title: Sudoku
-        statement: 01 - introduction/welcome.md
-      - title: Rectangular Puzzle Pieces
-        statement: 01 - introduction/MD2.md
-  - title: Part 5
-    plan:
-      - title: Sudoku
-        statement: 01 - introduction/welcome.md
-      - title: Rectangular Puzzle Pieces
-        statement: 01 - introduction/MD2.md
-  - title: Part 6
-    plan:
-      - title: List Comprehsion Exercises
-        statement: 01 - introduction/MD2.md
-      - title: Sudoku
-        statement: 01 - introduction/welcome.md
-      - title: Rectangular Puzzle Pieces
-        statement: 01 - introduction/MD2.md
-  - title: Part 7
-    plan:
-      - title: Sudoku
-        statement: 01 - introduction/welcome.md
-      - title: Rectangular Puzzle Pieces
-        statement: 01 - introduction/MD2.md
-  - title: Part 8
-    plan:
-      - title: Sudoku
-        statement: 01 - introduction/welcome.md
-      - title: Rectangular Puzzle Pieces
-        statement: 01 - introduction/MD2.md
   - title: Scratchpad
     plan:
       - title: List Comprehension
-        statement: 01 - introduction/welcome.md
+        statement: welcome/MD2.md
       - title: Scratchpad
         statement: welcome/scratchpad.md
 
@@ -71,6 +39,5 @@ projects:
   python:
     root: /python-project
     runner: 
-      root: /python-project
       name: python
       version: '3'
