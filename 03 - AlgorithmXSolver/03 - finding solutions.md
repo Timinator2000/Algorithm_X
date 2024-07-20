@@ -1,6 +1,9 @@
 # Finding Solutions
 
 ```python runnable
+
+html { box-sizing: border-box }
+
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
 # { autofold
