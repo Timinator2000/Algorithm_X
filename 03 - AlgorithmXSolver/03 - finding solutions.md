@@ -1,17 +1,15 @@
 # Finding Solutions
 
 ```python runnable
+// { autofold
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
-
-// { autofold
 #
 #   https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X
 #
 #  June 02, 2024 - history added to allow subclasses to make adaptations for multiplicity.
 #                - giving this Solver similar functionality to Knuth's Algorithm M.
 #
-// }
 
 #  To study the implementation of Algorithm X, I originally used the following write-up
 #  by Ali Assaf (ali.assaf.mail@gmail.com) titled "Algorithm X in 30 Lines!" 
@@ -26,6 +24,7 @@
 #       Dominoes Solver          : https://www.codingame.com/training/hard/dominoes-solver
 #       Sudoku Solver            : https://www.codingame.com/training/medium/sudoku-solver
 #
+// }
 
 #  To understand this DLX based solver will require what I consider mind-bending study
 #  of Knuth's Dancing Links. I believe I was only able to become proficient with DLX
