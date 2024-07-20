@@ -26,11 +26,10 @@ plan:
         statement: 03 - AlgorithmXSolver/02 - your solver.md
       - title: Finding Solutions
         statement: 03 - AlgorithmXSolver/03 - finding solutions.md
-        python:
+        runner: 
           root: /python-project
-          runner: 
-            name: python
-            version: '3'
+          name: python
+          version: '3'
       - title: Troubleshooting
         statement: 03 - AlgorithmXSolver/04 - troubleshooting.md
   - title: Scratchpad
