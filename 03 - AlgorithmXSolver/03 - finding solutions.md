@@ -150,7 +150,6 @@ class DLXCell:
             node = node.prev_x
         node.col_header.restore_column()
         node.restore_y()
-// }
 
 
 class AlgorithmXSolver():
@@ -366,6 +365,7 @@ class AlgorithmXSolver():
 # Below here is the only code specific to the { some puzzle name } puzzle.
 #
 #------------------------------------------------------------------------------------------------------
+// }
 
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
