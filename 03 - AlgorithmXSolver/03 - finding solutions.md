@@ -154,7 +154,7 @@ class DLXCell:
 // }
 
 # AlgorithmXSolver Class Definition
-// { autofold
+{ autofold
 
 class AlgorithmXSolver():
     # R - a list of requirements.  The __init__() method converts R to a dictionary, but R must
@@ -328,7 +328,6 @@ class AlgorithmXSolver():
         return node.size
     
     
-// }
     #  The following method can be overridden by a subclass to add logic to perform more detailed solution
     #  checking if invalid paths are possible through Matrix A.  Some problems have requirements that
     #  cannot be captured in the basic requirements list passed into the __init__() method.  For instance,
@@ -367,10 +366,11 @@ class AlgorithmXSolver():
 #
 # Everything above this point could easily be put into a package and reused on any exact cover problem.
 #
-# Below here is the only code specific to the { some puzzle name } puzzle.
+# Below here is the only code specific to the ( some puzzle name ) puzzle.
 #
 #------------------------------------------------------------------------------------------------------
 
+}
 
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
