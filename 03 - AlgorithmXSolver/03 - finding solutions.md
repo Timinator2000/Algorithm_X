@@ -1,9 +1,9 @@
 # Finding Solutions
 
 ```python runnable
-// { autofold
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
+// { autofold
 #
 #   https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X
 #
@@ -50,9 +50,10 @@
 #
 #  https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871
 #
+// }
 
-
-# On to the solver...
+# @RoboStac's DLX Cell Class Definition
+// { autofold
 
 # DLXCell is one cell in Matrix A. This implementation was mostly copied 
 # from @RoboStac's solution to Constrained Latin Squares on Codingame.com.
@@ -150,7 +151,10 @@ class DLXCell:
             node = node.prev_x
         node.col_header.restore_column()
         node.restore_y()
+// }
 
+# AlgorithmXSolver Class Definition
+// { autofold
 
 class AlgorithmXSolver():
     # R - a list of requirements.  The __init__() method converts R to a dictionary, but R must
