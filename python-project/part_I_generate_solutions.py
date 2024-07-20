@@ -6,7 +6,7 @@ from AlgorithmX import AlgorithmXSolver
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
-    def __init__(self):
+    def __init__(self, teacher_availability, students):
         
         requirements = [(‘student scheduled’, ‘Ayla’),
                         (‘student scheduled’, ‘Bob’),
@@ -54,7 +54,10 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
 
 def main_program():
 
-    solver = MrsKnuthPartISolver()
+    teacher_availability = None
+    students = None
+
+    solver = MrsKnuthPartISolver(teacher_availability, students)
           
     for solution in solver.solve():
         for action in solution:
