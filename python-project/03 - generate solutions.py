@@ -15,8 +15,11 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
 
         super().__init__(requirements, actions)
 
-def count_all_stars(galaxies):
-    total_stars = 0
-    for stars in galaxies:
-        total_stars = stars  # fix me!
-    return total_stars
+
+def main_program:
+
+    solver = MrsKnuthPartISolver()
+          
+    for solution in solver.solve():
+        for action in solution:
+            print(action)
