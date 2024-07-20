@@ -4,7 +4,7 @@
 class MrsKnuthPartISolver():
 
   def __init__(self):
-    pringt('Ready!')
+    print('Ready!')
 
 solver = MrsKnuthPartISolver()
 
