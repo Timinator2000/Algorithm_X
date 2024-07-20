@@ -5,7 +5,7 @@
 
 # Try a Projec
 
-@[Use Algorithm X to find a schedule for Mrs. Knuth Part I!]({"stubs": ["part_I_generate_solutions.py"], "command": "python3 part_I_generate_solutions_test.py"})
+@[Use Algorithm X to find a schedule for Mrs. Knuth Part I]({"stubs": ["part_I_generate_solutions.py"], "command": "python3 part_I_generate_solutions_test.py"})
 
 
 
