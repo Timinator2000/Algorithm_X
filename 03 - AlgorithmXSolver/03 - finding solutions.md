@@ -50,10 +50,8 @@
 #
 #  https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871
 #
-# }
 
-# @RoboStac's DLX Cell Class Definition
-# { autofold
+# On to the solver...
 
 # DLXCell is one cell in Matrix A. This implementation was mostly copied 
 # from @RoboStac's solution to Constrained Latin Squares on Codingame.com.
@@ -151,10 +149,7 @@ class DLXCell:
             node = node.prev_x
         node.col_header.restore_column()
         node.restore_y()
-# }
 
-# AlgorithmXSolver Class Definition
-# { autofold
 
 class AlgorithmXSolver():
     # R - a list of requirements.  The __init__() method converts R to a dictionary, but R must
