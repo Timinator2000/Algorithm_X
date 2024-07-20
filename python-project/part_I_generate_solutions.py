@@ -8,46 +8,46 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
 
     def __init__(self, teacher_availability, students):
         
-        requirements = [(‘student scheduled’, ‘Ayla’),
-                        (‘student scheduled’, ‘Bob’),
-                        (‘student scheduled’, ‘Alex’),
-                        (‘slot filled’, ‘Th’, 2),
-                        (‘slot filled’, ‘Th’, 3),
-                        (‘slot filled’, ‘Th’, 4),
-                        (‘instrument on day’, ‘Th’, ‘Trumpet’),
-                        (‘instrument on day’, ‘Th’, ‘Drums’),
-                        (‘instrument on day’, ‘Th’, ‘Tuba’)]
+        requirements = [('student scheduled', 'Ayla'),
+                        ('student scheduled', 'Bob'),
+                        ('student scheduled', 'Alex'),
+                        ('slot filled', 'Th', 2),
+                        ('slot filled', 'Th', 3),
+                        ('slot filled', 'Th', 4),
+                        ('instrument on day', 'Th', 'Trumpet'),
+                        ('instrument on day', 'Th', 'Drums'),
+                        ('instrument on day', 'Th', 'Tuba')]
         
         actions = dict()
 
-        action = (‘place student’, ‘Ayla’, ‘Trumpet’, ‘Th’, 2)
-        actions[action] = [(‘student scheduled’, ‘Ayla’),
-                            (slot filled’, ‘Th’, 2),
-                            (‘instrument on day’, ‘Th’, ‘Trumpet’)]
+        action = ('place student', 'Ayla', 'Trumpet', 'Th', 2)
+        actions[action] = [('student scheduled', 'Ayla'),
+                            (slot filled', 'Th', 2),
+                            ('instrument on day', 'Th', 'Trumpet')]
         
-        action = (‘place student’, ‘Bob’, ‘Drums’, ‘Th’, 2)
+        action = ('place student', 'Bob', 'Drums', 'Th', 2)
         
-        actions[action] = [(‘student scheduled’, ‘Bob’),
-                            (‘slot filled’, ‘Th’, 2),
-                            (‘instrument on day’, ‘Th’, ‘Drums’)]
+        actions[action] = [('student scheduled', 'Bob'),
+                            ('slot filled', 'Th', 2),
+                            ('instrument on day', 'Th', 'Drums')]
 
-        actions = (‘place student’, ‘Bob’, ‘Drums’, ‘Th’, 3)
+        actions = ('place student', 'Bob', 'Drums', 'Th', 3)
         
-        actions[action] = [(‘student scheduled’, ‘Bob’),
-                            (‘slot filled’, ‘Th’, 3),
-                            (‘instrument on day’, ‘Th’, ‘Drums’)]
+        actions[action] = [('student scheduled', 'Bob'),
+                            ('slot filled', 'Th', 3),
+                            ('instrument on day', 'Th', 'Drums')]
 
-        actions = (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 2)
+        actions = ('place student', 'Alex', 'Drums', 'Th', 2)
         
-        actions[action] = [(‘student scheduled’, ‘Alex’),
-                            (‘slot filled’, ‘Th’, 2),
-                            (‘instrument on day’, ‘Th’, ‘Tuba’)]
+        actions[action] = [('student scheduled', 'Alex'),
+                            ('slot filled', 'Th', 2),
+                            ('instrument on day', 'Th', 'Tuba')]
 
-        actions = (‘place student’, ‘Alex’, ‘Drums’, ‘Th’, 4)
+        actions = ('place student', 'Alex', 'Drums', 'Th', 4)
         
-        actions[action] = [(‘student scheduled’, ‘Alex’)
-                            (‘slot filled’, ‘Th’, 4)
-                            (‘instrument on day’, ‘Th’, ‘Tuba’)]
+        actions[action] = [('student scheduled', 'Alex')
+                            ('slot filled', 'Th', 4)
+                            ('instrument on day', 'Th', 'Tuba')]
         
         super().__init__(requirements, actions)
 
