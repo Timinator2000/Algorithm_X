@@ -1,5 +1,6 @@
 from part_I_generate_solutions import main_program
-
+from AlgorithmXPlayground import CONGRATS
+import random
 
 def send_msg(channel, msg):
     print("TECHIO> message --channel \"{}\" \"{}\"".format(channel, msg))
@@ -48,4 +49,4 @@ def fail():
 
 if __name__ == "__main__":
     main_program()
-    send_msg("Kudos 🌟", "Hopefully the actions printed!")
+    send_msg(f"{random.choice(CONGRATS)} 🌟", "Hopefully the actions printed!")
