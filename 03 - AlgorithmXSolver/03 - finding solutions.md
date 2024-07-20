@@ -24,7 +24,6 @@
 #       Dominoes Solver          : https://www.codingame.com/training/hard/dominoes-solver
 #       Sudoku Solver            : https://www.codingame.com/training/medium/sudoku-solver
 #
-// }
 
 #  To understand this DLX based solver will require what I consider mind-bending study
 #  of Knuth's Dancing Links. I believe I was only able to become proficient with DLX
@@ -51,6 +50,7 @@
 #
 #  https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871
 #
+// }
 
 
 # On to the solver...
