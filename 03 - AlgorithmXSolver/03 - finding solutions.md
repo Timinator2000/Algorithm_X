@@ -2,7 +2,7 @@
 
 ```python runnable
 
-// {autofold
+// { autofold
 
 print("hello world")
 
