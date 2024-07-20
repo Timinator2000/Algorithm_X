@@ -60,12 +60,12 @@ plan:
         statement: 01 - introduction/welcome.md
       - title: Rectangular Puzzle Pieces
         statement: 01 - introduction/MD2.md
-  - title: Part 9
+  - title: Scratchpad
     plan:
       - title: Sudoku
         statement: 01 - introduction/welcome.md
-      - title: Rectangular Puzzle Pieces
-        statement: 01 - introduction/MD2.md
+      - title: Scratchpad
+        statement: welcome/scratchpad.md
 
 projects:
   python:
