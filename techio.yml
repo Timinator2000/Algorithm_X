@@ -62,7 +62,7 @@ plan:
         statement: 01 - introduction/MD2.md
   - title: Scratchpad
     plan:
-      - title: Sudoku
+      - title: List Comprehension
         statement: 01 - introduction/welcome.md
       - title: Scratchpad
         statement: welcome/scratchpad.md
@@ -70,6 +70,6 @@ plan:
 projects:
   python:
     root: /python-project
-    runner:
+    runner: /python-project
       name: python
       version: '3'
