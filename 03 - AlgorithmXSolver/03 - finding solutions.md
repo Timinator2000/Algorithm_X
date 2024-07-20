@@ -215,6 +215,7 @@ class AlgorithmXSolver():
                 else:
                     previous_cell = next_cell
 
+// }
 
     def solve(self):
         
@@ -365,7 +366,6 @@ class AlgorithmXSolver():
 # Below here is the only code specific to the { some puzzle name } puzzle.
 #
 #------------------------------------------------------------------------------------------------------
-// }
 
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
