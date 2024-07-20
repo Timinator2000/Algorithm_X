@@ -31,22 +31,22 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
                             ('slot filled', 'Th', 2),
                             ('instrument on day', 'Th', 'Drums')]
 
-        actions = ('place student', 'Bob', 'Drums', 'Th', 3)
+        action = ('place student', 'Bob', 'Drums', 'Th', 3)
         
         actions[action] = [('student scheduled', 'Bob'),
                             ('slot filled', 'Th', 3),
                             ('instrument on day', 'Th', 'Drums')]
 
-        actions = ('place student', 'Alex', 'Drums', 'Th', 2)
+        action = ('place student', 'Alex', 'Tuba', 'Th', 2)
         
         actions[action] = [('student scheduled', 'Alex'),
                             ('slot filled', 'Th', 2),
                             ('instrument on day', 'Th', 'Tuba')]
 
-        actions = ('place student', 'Alex', 'Drums', 'Th', 4)
+        action = ('place student', 'Alex', 'Tuba', 'Th', 4)
         
-        actions[action] = [('student scheduled', 'Alex')
-                            ('slot filled', 'Th', 4)
+        actions[action] = [('student scheduled', 'Alex'),
+                            ('slot filled', 'Th', 4),
                             ('instrument on day', 'Th', 'Tuba')]
         
         super().__init__(requirements, actions)
