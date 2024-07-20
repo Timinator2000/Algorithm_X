@@ -16,7 +16,7 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
         super().__init__(requirements, actions)
 
 
-def main_program:
+def main_program():
 
     solver = MrsKnuthPartISolver()
           
