@@ -48,4 +48,4 @@ def fail():
 
 if __name__ == "__main__":
     main_program()
-    send_msg("Hopefully the actions printed!")
+    send_msg("Kudos 🌟", "Hopefully the actions printed!")
