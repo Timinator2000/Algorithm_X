@@ -6,10 +6,8 @@
 
 print("hello world")
 
-// }
 
 
-// { autofold
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
 #
@@ -18,6 +16,7 @@ print("hello world")
 #  June 02, 2024 - history added to allow subclasses to make adaptations for multiplicity.
 #                - giving this Solver similar functionality to Knuth's Algorithm M.
 #
+// }
 
 #  To study the implementation of Algorithm X, I originally used the following write-up
 #  by Ali Assaf (ali.assaf.mail@gmail.com) titled "Algorithm X in 30 Lines!" 
@@ -374,7 +373,7 @@ class AlgorithmXSolver():
 # Below here is the only code specific to the { some puzzle name } puzzle.
 #
 #------------------------------------------------------------------------------------------------------
-// }
+
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
