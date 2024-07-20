@@ -1,4 +1,4 @@
-from 03_generate_solutions import main_program
+from part_I_generate_solutions import main_program
 
 
 def send_msg(channel, msg):
