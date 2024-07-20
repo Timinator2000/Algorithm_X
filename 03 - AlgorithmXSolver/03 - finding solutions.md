@@ -1,7 +1,7 @@
 # Finding Solutions
 
 ```python runnable
-class MrsKnuthPart1Solver():
+class MrsKnuthPartISolver():
 
   def __init__(self):
     pringt('Ready!')
