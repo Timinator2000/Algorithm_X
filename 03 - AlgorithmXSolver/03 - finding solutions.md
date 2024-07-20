@@ -154,7 +154,7 @@ class DLXCell:
 // }
 
 # AlgorithmXSolver Class Definition
-{ autofold
+// { autofold
 
 class AlgorithmXSolver():
     # R - a list of requirements.  The __init__() method converts R to a dictionary, but R must
@@ -370,7 +370,7 @@ class AlgorithmXSolver():
 #
 #------------------------------------------------------------------------------------------------------
 
-}
+// }
 
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
