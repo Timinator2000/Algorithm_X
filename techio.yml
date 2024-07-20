@@ -70,6 +70,7 @@ plan:
 projects:
   python:
     root: /python-project
-    runner: /python-project
+    runner: 
+      root: /python-project
       name: python
       version: '3'
