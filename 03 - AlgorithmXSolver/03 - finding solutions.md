@@ -1,9 +1,7 @@
 # Finding Solutions
 
 ```python runnable
-from AlgorithmX import AlgorithmXSolver
-
-class MrsKnuthPart1Solver(AlgorithmXSolver):
+class MrsKnuthPart1Solver():
 
   def __init__(self):
     pringt('Ready!')
