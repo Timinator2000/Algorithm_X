@@ -1,7 +1,7 @@
 # Finding Solutions
 
 ```python runnable
-{ autofold
+# { autofold
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
 #
@@ -366,7 +366,7 @@ class AlgorithmXSolver():
 # Below here is the only code specific to the { some puzzle name } puzzle.
 #
 #------------------------------------------------------------------------------------------------------
-}
+# }
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
