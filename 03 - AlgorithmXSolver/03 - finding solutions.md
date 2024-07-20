@@ -369,6 +369,7 @@ class AlgorithmXSolver():
 # Below here is the only code specific to the { some puzzle name } puzzle.
 #
 #------------------------------------------------------------------------------------------------------
+
 // }
 
 
