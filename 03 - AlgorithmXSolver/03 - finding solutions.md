@@ -1,15 +1,10 @@
 # Finding Solutions
 
 ```python runnable
-
-// { autofold
-
-print("hello world")
-
-
-
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
+
+// { autofold
 #
 #   https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X
 #
