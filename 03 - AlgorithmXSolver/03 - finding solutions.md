@@ -291,7 +291,6 @@ class AlgorithmXSolver():
             pass
 
 
-// }
     # Algorithm X Step 4 - Clean Up:
     #
     # The select() method selects a row as part of the solution being explored.  Eventually that
@@ -329,6 +328,7 @@ class AlgorithmXSolver():
         return node.size
     
     
+// }
     #  The following method can be overridden by a subclass to add logic to perform more detailed solution
     #  checking if invalid paths are possible through Matrix A.  Some problems have requirements that
     #  cannot be captured in the basic requirements list passed into the __init__() method.  For instance,
