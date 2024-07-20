@@ -291,6 +291,7 @@ class AlgorithmXSolver():
             pass
 
 
+// }
     # Algorithm X Step 4 - Clean Up:
     #
     # The select() method selects a row as part of the solution being explored.  Eventually that
@@ -370,7 +371,6 @@ class AlgorithmXSolver():
 #
 #------------------------------------------------------------------------------------------------------
 
-// }
 
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
