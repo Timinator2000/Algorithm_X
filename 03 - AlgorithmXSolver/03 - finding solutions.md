@@ -1,8 +1,10 @@
+
+
 # Finding Solutions
 
 ```python runnable
 
-
+from AlgorithmXSolver import AlgorithmXSolver
 
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
