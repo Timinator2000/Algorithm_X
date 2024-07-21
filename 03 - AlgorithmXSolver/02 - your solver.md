@@ -67,6 +67,7 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
         actions = dict()
 
         action = ('place student', 'Ayla', 'Trumpet', 'Th', 2)
+
         actions[action] = [('student scheduled', 'Ayla'),
                             ('slot filled', 'Th', 2),
                             ('instrument on day', 'Th', 'Trumpet')]
