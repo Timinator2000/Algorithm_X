@@ -18,7 +18,7 @@ The last step is to ask our solver to give us the solutions. Some exact cover pr
 ```python
 for solution in solver.solve():
     for action in solution:
-        # use the action to build your solution
+        # use the action to build your problem's answer
 ```
 
 I prefer to "unpack" the action tuple so that I have easy access to the information I need. For Mrs. Knuth Part I, each action is a tuple with 5 pieces of data - a title (not really needed right now), name, instrument, day and hour.
