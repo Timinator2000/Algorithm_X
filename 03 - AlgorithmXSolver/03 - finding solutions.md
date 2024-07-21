@@ -37,10 +37,10 @@ print(schedule)    # Don't forget how particular Mrs. Knuth is about her schedul
 
 Let's put this all together now. As you look over this code example, keep in mind that the details of _how_ Algorithm X works have been abstracted away. Solving Mrs. Knuth's _Exact Cover_ problem comes down to these fairly reasonable steps:
 
-* Identifying the Requirements
-* Identifying the Actions
-* Identifying the Requirements Satisfied by Each Action
-* Processing a List of Actions Algorithm X Identifies as a Valid Solution
+* Identify the Requirements
+* Identify the Actions
+* Identify the Requirements Satisfied by Each Action
+* Process a List of Actions Algorithm X Identified as a Valid Solution
 
 @[Use Algorithm X to find a schedule for Mrs. Knuth Part I]({"stubs": ["part_I_generate_solutions.py"], "command": "python3 part_I_generate_solutions_test.py"})
 
