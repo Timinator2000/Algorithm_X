@@ -14,7 +14,7 @@ If you use my AlgorithmXSolver, you will need to copy the code into your coding 
 from AlgorithmX import AlgorithmXSolver
 ```
 
-__This import statement will not work in your coding environment. You will need to copy all of the following code into your source file.__
+__This import statement will not work in your coding environment unless you have the ability to import from files other than your main code file. In an IDE like Codingame, you will need to copy all of the following code into your source file.__
 
 ```python
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
