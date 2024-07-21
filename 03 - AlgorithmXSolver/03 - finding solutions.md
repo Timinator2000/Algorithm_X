@@ -34,29 +34,13 @@ print(schedule)    # Don't forget how particular Mrs. Knuth is about her schedul
 
 # Putting it All Together
 
-Let's put this all together now. 
+Let's put this all together now. As you look over this code example, keep in mind that the details of __how__ Algorithm X works have been abstracted away. Solving Mrs. Knuth's _Exact Cover_ problem comes down to these fairly reasonable steps:
+
+* Identifying the Requirements
+* Identifying the Actions
+* Identifying the Requirements Satisfied by Each Action
+* Processing a List of Actions Algorithm X Identifies as a Valid Solution
 
 @[Use Algorithm X to find a schedule for Mrs. Knuth Part I]({"stubs": ["part_I_generate_solutions.py"], "command": "python3 part_I_generate_solutions_test.py"})
 
-
-
-# Try a Snippet
-
-```python runnable
-
-from AlgorithmXSolver import AlgorithmXSolver
-
-class MrsKnuthPartISolver(AlgorithmXSolver):
-
-  def __init__(self, teacher_availability, students):
-    print("Let's Go!")
-
-solver = MrsKnuthPartISolver(None, None)
-
-for solution in solver.solve():
-  pass
-
-print('Finished!')
-```
-
-
+As is always the case with computer programming, bugs will work their way into your code. In the next section, I'll give you some common debugging tips when using this AlgorithmXSolver.
