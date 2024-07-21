@@ -15,7 +15,7 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
         super().__init__(requirements, actions)
 ```
 
-The last line might be a bit unfamiliar. When overriding a method, such as the constructor in this case, the goal is sometimes to simply add functionality to the existing functionality. There is actually a lot going in the AlgorithmXSolver constructor and it all depends on having a list of requirements and dictionary of actions that are needed to build the matrix. Once the requirements and actions are built, use `super()` to invoke the inherited AlgorithmXSolver constructor with the newly identified requirements and actions.
+The last line might be a bit unfamiliar. When overriding a method, such as the constructor in this case, the goal is sometimes to simply add functionality to the existing functionality. There is actually a lot going on in the AlgorithmXSolver constructor and it all depends on having a list of requirements and dictionary of actions that are needed to build the matrix. Once the requirements and actions are built, use `super()` to invoke the inherited AlgorithmXSolver constructor with the newly identified requirements and actions.
 
 # Build the Requirements
 
