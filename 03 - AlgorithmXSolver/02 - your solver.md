@@ -3,8 +3,6 @@
 Creating a customized solver only has two required steps. First, create a solver class that inherits from AlgorithmXSolver. Second, override the constructor to build your requirements and actions. Let's create a solver to help Mrs. Knuth:
 
 ``` python
-from AlgorithmX import AlgorithmXSolver
-
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
     def __init__(self):
@@ -22,8 +20,6 @@ The last line might be a bit unfamiliar. When overriding a method, such as the c
 Of course, the MrsKnuthPartISolver will need to know about Mrs. Knuth's availability and all the students that need to be scheduled. For now, I’m going to add parameters to the constructor, but I will leave the details of those parameters up to you. For this toy example, I’m going to ignore those parameters and I’m going to _hard code_ the actions and requirements. Obviously, this will not be sufficient for anything other than the first test case in the puzzle.
 
 ```python
-from AlgorithmX import AlgorithmXSolver
-
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
     def __init__(self, teacher_availability, students):
@@ -48,8 +44,6 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
 Notice that I copied those requirements right out of our previous discussion. The last thing we need to do is build the dictionary of actions and for each action, I need to add a list of requirements that are satisfied if that action is included in the solution. The complete, customized solver looks like this:
 
 ```python
-from AlgorithmX import AlgorithmXSolver
-
 class MrsKnuthPartISolver(AlgorithmXSolver):
 
     def __init__(self, teacher_availability, students):
