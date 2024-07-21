@@ -3,7 +3,8 @@
 So far, all we have is a MrsKnuthPartISolver class. We need to create an instance of that class. You’ll need to get the input data and organize that data so that you can pass it to the constructor.
 
 ```python
-# Coding the following input is left to you. 
+# Coding the following input is left to you.
+
 # teacher_availability = 
 # students =
 
@@ -12,20 +13,20 @@ solver = MrsKnuthPartISolver(teacher_availability, students)
 
 # solver.solve()
 
-The last step is ot ask our solver to give us the solutions. Some exact cover problems have multiple solutions and AlgorithmXSolver will always search for __all__ the solutions. Each solution found is returned one-by-one via a generator and each solution is a list of actions that make up that solution. Even if your problem is guaranteed to have a single solution, you should use the following format to get all solutions form your solver.
+The last step is to ask our solver to give us the solutions. Some exact cover problems have multiple solutions and AlgorithmXSolver will always search for __all__ solutions. Each solution found is returned one-by-one via a generator and each solution is a list of actions that make up that solution. Even if your problem is guaranteed to have a single solution, you should use the following format to get all solutions form your solver.
 
 ```python
-for solution in solver.solver():
+for solution in solver.solve():
     for action in solution:
         # use the action to build your solution
 ```
 
-I prefer to "unpack" the action tuple so that I have easy access to the information I need. For Mrs. Knuth Part I, each action is a tuple with 5 pieces of data - a title (that I don't really need right now), name, instrument, day and hour.
+I prefer to "unpack" the action tuple so that I have easy access to the information I need. For Mrs. Knuth Part I, each action is a tuple with 5 pieces of data - a title (not really needed right now), name, instrument, day and hour.
 
 ```python
 schedule = some data structure to manage the answer to the puzzle
 
-for solution in solver.solver():
+for solution in solver.solve():
     for _, name, instrument, day, hour in solution:
         # add name/instrument on day/hour to schedule
 
