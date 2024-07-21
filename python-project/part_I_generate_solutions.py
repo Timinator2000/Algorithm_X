@@ -1,6 +1,6 @@
 # TECH.IO allows me to use this import statement to make my examples concise and easy
 # to study. Unless your coding environment will let you create an AlgorithmX package,
-# you will need to copy all of the AlgorithmXSolver code into your coding environment.
+# you will need to copy all of the AlgorithmXSolver code into your code.
 
 from AlgorithmX import AlgorithmXSolver
 
