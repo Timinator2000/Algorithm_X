@@ -10,9 +10,9 @@ So far, all we have is a MrsKnuthPartISolver class. We need to create an instanc
 solver = MrsKnuthPartISolver(teacher_availability, students)
 ```
 
-# Ask Solver to Find Solutions
+# solver.solve()
 
-So The last thing we need to do is ask our solver to give us the solutions. Some exact cover problems have multiple solutions and AlgorithmXSolver will always search for __all__ the solutions. Each solution found is returned one-by-one via a generator and each solution is a list of actions that make up that solution. Even if your problem is guaranteed to have a single solution, you should use the following format to get all solutions form your solver.
+The last step is ot ask our solver to give us the solutions. Some exact cover problems have multiple solutions and AlgorithmXSolver will always search for __all__ the solutions. Each solution found is returned one-by-one via a generator and each solution is a list of actions that make up that solution. Even if your problem is guaranteed to have a single solution, you should use the following format to get all solutions form your solver.
 
 ```python
 for solution in solver.solver():
