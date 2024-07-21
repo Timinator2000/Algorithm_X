@@ -1,4 +1,4 @@
-# Your Customized Solver Inherites from AlgorithmXSolver
+# Inherits from AlgorithmXSolver
 
 Creating a customized solver only has two require steps. First, create a solver class that inherits from AlgorithmXSolver. Second, override the constructor to build your requirements and actions. Let's create a solver to help Mrs. Knuth:
 
