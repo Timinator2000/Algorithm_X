@@ -13,7 +13,7 @@ solver = MrsKnuthPartISolver(teacher_availability, students)
 
 # solver.solve()
 
-The last step is to ask our solver to give us the solutions. Some exact cover problems have multiple solutions and AlgorithmXSolver will always search for __all__ solutions. Each solution found is returned one-by-one via a generator and each solution is a list of actions that make up that solution. Even if your problem is guaranteed to have a single solution, you should use the following format to get all solutions form your solver.
+The last step is to ask our solver to give us the solutions. Some exact cover problems have multiple solutions and AlgorithmXSolver will always search for __all__ solutions. Each solution found is returned one-by-one via a generator and each solution is a list of actions that make up that solution. Even if your problem is guaranteed to have a single solution, you should use the following format to get all solutions from your solver.
 
 ```python
 for solution in solver.solve():
