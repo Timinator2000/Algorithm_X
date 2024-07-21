@@ -61,5 +61,5 @@ def main_program():
     solver = MrsKnuthPartISolver(teacher_availability, students)
           
     for solution in solver.solve():
-        for action in solution:
-            print(action)
+        for _, name, instrument, day, hour in solution:
+            print(f'Need to add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}.)
