@@ -8,7 +8,7 @@ Here's the best news of all. You are welcome to study DLX and implement it yours
 
 # Using the AlgorithmXSolver Class
 
-If you use my AlgorithmXSolver, you will need to copy the code into your coding environment. In this playground, I am able to simplify things by using the following import statement.
+In this playground, I am able to simplify things by using the following import statement.
 
 ```python
 from AlgorithmX import AlgorithmXSolver
