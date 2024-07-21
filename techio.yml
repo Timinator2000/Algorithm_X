@@ -22,7 +22,7 @@ plan:
     plan:
       - title: The AlgorithmXSolver
         statement: 03 - AlgorithmXSolver/01 - the AlgorithmXSolver.md
-      - title: Your Solver
+      - title: Your Solver Subclass
         statement: 03 - AlgorithmXSolver/02 - your solver.md
       - title: Finding Solutions
         statement: 03 - AlgorithmXSolver/03 - finding solutions.md
