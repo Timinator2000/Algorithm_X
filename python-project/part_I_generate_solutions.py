@@ -62,4 +62,4 @@ def main_program():
           
     for solution in solver.solve():
         for _, name, instrument, day, hour in solution:
-            print(f'Need to add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}.)
+            print(f'Need to add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}.')
