@@ -1,5 +1,5 @@
 from part_I_generate_solutions import main_program
-from AlgorithmXPlayground import CONGRATS
+from timinator import CONGRATS
 import random
 
 def send_msg(channel, msg):
