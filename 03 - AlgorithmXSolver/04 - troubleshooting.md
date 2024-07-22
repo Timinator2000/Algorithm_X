@@ -32,8 +32,10 @@ Traceback (most recent call last):
   File "/project/target/AlgorithmX.py", line 201, in __init__
     current_col_header   = self.R[requirement]
                            ~~~~~~^^^^^^^^^^^^^
-KeyError: ('slot filed', 'Th', 3)
+KeyError: ('slot filled', 'Thurs', 4)
 ```
+
+In this playground, you will want to ignore the `Traceback`. It probably won't make sense unless you are familiar with making code exercises on TECH.IO.
 
 # No Solutions Found
 
