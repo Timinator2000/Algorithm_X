@@ -49,7 +49,7 @@ In this section, I have duplicated the full _hard coded_ solution to the Mrs. Kn
 
 1) Print out all the requirements, actions and the requirements satisfied by each action.
 
-2) Make very minor changes in the requirements to create `KeyError`s.
+2) Make very minor changes in the requirements to create a `KeyError`.
 
 3) Find a way to make a very minor change that doesn't result in any runtime issues, but Algorithm X fails to find a solution.
 
