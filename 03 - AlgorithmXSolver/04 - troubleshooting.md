@@ -39,7 +39,7 @@ In this playground, you will want to ignore the `Traceback`. It probably won't m
 
 # No Solutions Found
 
-Algorithm X not finding any solutions can be the most frustrating of all and it always comes down to some issue with your model. Assuming your problem is guaranteed to have a solution, the only reason Algorithm X will fail to find a solution is that something in your model is not sufficient. __Some requirement is not being covered by any possible combination of actions.__ Something is wrong in your mapping of satisfied requirements for each action.
+Algorithm X not finding any solutions can be the most frustrating situation of all and it always comes down to some issue with your model. Assuming your problem is guaranteed to have a solution, the only reason Algorithm X will fail to find a solution is that something in your model is not sufficient. __Some requirement is not being covered by any possible combination of actions.__ Something is wrong in your mapping of satisfied requirements for each action.
 
 Although this can be frustrating, you will get better and better at building models with practice. The flip side of this frustration is that after you become proficient at building models you will experience elation when you suprise yourself by solving an exact cover problem much faster than you ever expected!
 
