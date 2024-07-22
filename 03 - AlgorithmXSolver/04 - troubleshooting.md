@@ -45,7 +45,7 @@ Although this can be frustrating, you will get better and better at building mod
 
 # Practice Makes Perfect
 
-Down below, I have duplicated full _hard coded_ solution to Mrs. Knuth Part I. Use this code to do the following:
+In this section, I have duplicated the full _hard coded_ solution to the Mrs. Knuth Part I example test case. Use this code to do the following:
 
 1) Print out all the requirements, actions and the requirements satisfied by each action.
 
