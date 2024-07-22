@@ -18,7 +18,7 @@ _Given Mrs. Knuth’s open availability and each student’s instrument and less
 
 # Example Test Case
 
-To make the this a bit more concrete, let’s look at the example test case input:
+To make this a bit more concrete, let’s look at the example test case input:
 
 ```text
 M Tu W Th 2 3 4 F
