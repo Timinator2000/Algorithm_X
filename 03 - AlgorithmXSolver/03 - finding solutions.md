@@ -21,7 +21,7 @@ for solution in solver.solve():
         # use the action to build your problem's answer
 ```
 
-I prefer to "unpack" the action tuple so that I have easy access to the information I need. For Mrs. Knuth Part I, each action is a tuple with 5 pieces of data - a title (not really needed right now), name, instrument, day and hour.
+I prefer to "unpack" the action tuple so that I have easy access to the information I need. For Mrs. Knuth Part I, each action is a tuple with 5 pieces of data - a title (not needed right now), name, instrument, day and hour.
 
 ```python
 schedule = some data structure to manage the answer to the puzzle
