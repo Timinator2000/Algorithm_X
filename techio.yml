@@ -28,6 +28,10 @@ plan:
         statement: 03 - AlgorithmXSolver/03 - finding solutions.md
       - title: Troubleshooting
         statement: 03 - AlgorithmXSolver/04 - troubleshooting.md
+  - title: Mrs. Knuth - Part I
+    plan:
+      - title: Your Turn!
+        statement: 04 - mrs knuth - part I/your_turn.md
   - title: Scratchpad
     plan:
       - title: List Comprehension
