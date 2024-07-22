@@ -20,6 +20,21 @@ If you decide to print the requirements and actions, I suggest doing so right be
 
 It is critical the tuples you use for requirements and actions always line up with each other so you don’t get `KeyError`s when AlgorithmXSolver is setting up the DLX matrix. For instance, ('slot filled', 'Th', 4) is __not__ the same as ('slot filled', 'Thurs', 4). I’m sure that seems obvious, but when you get a `KeyError`, look for places that you might have requirements specs that are supposed to be the same, but are slightly different.
 
+``` python
+Traceback (most recent call last):
+  File "/project/target/part_I_generate_solutions_test.py", line 51, in <module>
+    main_program()
+  File "/project/target/part_I_generate_solutions.py", line 70, in main_program
+    solver = MrsKnuthPartISolver(teacher_availability, students)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project/target/part_I_generate_solutions.py", line 62, in __init__
+    super().__init__(requirements, actions)
+  File "/project/target/AlgorithmX.py", line 201, in __init__
+    current_col_header   = self.R[requirement]
+                           ~~~~~~^^^^^^^^^^^^^
+KeyError: ('slot filed', 'Th', 3)
+```
+
 # No Solutions Found
 
 Algorithm X not finding any solutions can be the most frustrating of all and it always comes down to some issue with your model. Assuming your problem is guaranteed to have a solution, the only reason Algorithm X will fail to find a solution is that something in your model is not sufficient.
