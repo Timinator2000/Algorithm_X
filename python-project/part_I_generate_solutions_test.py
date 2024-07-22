@@ -49,4 +49,5 @@ def fail():
 
 if __name__ == "__main__":
     main_program()
+    success()
     send_msg(f"{random.choice(CONGRATS)} 🌟", "Hopefully the actions printed!")
