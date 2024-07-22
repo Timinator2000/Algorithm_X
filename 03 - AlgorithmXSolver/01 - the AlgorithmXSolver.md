@@ -14,7 +14,7 @@ In this playground, I am able to simplify things by using the following import s
 from AlgorithmX import AlgorithmXSolver
 ```
 
-__This import statement will not work in your coding environment unless you have the ability to import from files other than your main code file. In an IDE like Codingame, you will need to copy all of the following code into your source file.__
+__This import statement will not work in your coding environment unless you have the ability to import from files outside your main code file. In an IDE like Codingame, you will need to copy all of the following code into your source file.__
 
 ```python
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
