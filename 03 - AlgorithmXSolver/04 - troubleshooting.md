@@ -2,7 +2,7 @@
 
 The first troubleshooting step you will want to take is simply printing the requirements, the actions and the requirements satisfied by each action. Hopefully, this can be done on a reasonably small test case. If the test case is big and there are a lot of requirements and actions, sifting through the printed data can be daunting.
 
-If you decide to print the requirements and actions, I suggest doing so right before you invoke the inherited AlgorithmXSolver constructor.
+When printing the requirements and actions, I suggest doing it right before you invoke the inherited AlgorithmXSolver constructor, similar to this:
 
 ``` python
         for r in requirements:
