@@ -53,5 +53,5 @@ In this section, I have duplicated the full _hard coded_ solution to the Mrs. Kn
 
 3) Find a way to make a very minor change that doesn't result in any runtime issues, but Algorithm X fails to find a solution.
 
-@[Try to create the three error situations above.]({"stubs": ["part_I_generate_solutions.py"], "command": "python3 part_I_generate_solutions_test_2.py"})
+@[Try to create the three error situations above.]({"stubs": ["03 - AlgorithmXSolver/part_I_generate_solutions.py"], "command": "python3 03 - AlgorithmXSolver/part_I_generate_solutions_test_2.py"})
 
