@@ -44,4 +44,4 @@ Let's put this all together now. As you look over this code example, keep in min
 
 @[Use Algorithm X to find a schedule for Mrs. Knuth Part I]({"stubs": ["03 - AlgorithmXSolver/part_I_generate_solutions.py"], "command": "python3 03 - AlgorithmXSolver/part_I_generate_solutions_test.py"})
 
-As is always the case with computer programming, bugs will work their way into your code. In the next section, I'll give you some common debugging tips when using this AlgorithmXSolver.
+As is always the case with computer programming, bugs will work their way into your code. In the next section, I'll give you some debugging tips when using this AlgorithmXSolver.
