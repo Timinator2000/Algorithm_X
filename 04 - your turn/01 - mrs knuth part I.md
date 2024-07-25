@@ -4,7 +4,7 @@ You have everything you need to finish Mrs. Knuth's first puzzle and get her thr
 
 [Codingame](https://www.codingame.com/home)
 
-Here's a little pseudocode to help you finish up the first puzzle:
+Here's a little pseudocode to help as you put together your full solution:
 
 ```text
 copy all the AlgorithmX code
