@@ -2,7 +2,7 @@
 
 You have everything you need to finish Mrs. Knuth's first puzzle and get her through the summer. Again, that puzzle can be found here:
 
-[Codingame](www.codingame.com)
+[Codingame](https://www.codingame.com/home)
 
 Here's a little pseudocode to help you through finishing up Mrs. Knuth Part I:
 
@@ -15,7 +15,9 @@ define MrsKnuthPartISolver as a subclass of AlgorithmXSolver
 
 read all input
 organize input - two main data structures: teacher_availability and students
-create an instance of your new Solver class
+
+create an instance of your new Solver class, passing teacher_availability and students to the constructor
+
 for each soution in solver.solve()
     for each action in solution
         add the student/instrument to schedule
