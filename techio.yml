@@ -32,8 +32,14 @@ plan:
     plan:
       - title: Mrs. Knuth Part I
         statement: 04 - your turn/01 - mrs knuth part I.md
-      - title: 9x9 Sudoku
+      - title: Sudoku Solver
         statement: 04 - your turn/02 - 9x9 sudoku.md
+      - title: 16x16 Sudoku
+        statement: 04 - your turn/03 - 16x16 sudoku.md
+      - title: Mini Sudoku Solver
+        statement: 04 - your turn/04 - mini sudoku solver.md
+      - title: Dominoes Solver
+        statement: 04 - your turn/05 - dominoes solver.md
   - title: Scratchpad
     plan:
       - title: List Comprehension
