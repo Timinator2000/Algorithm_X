@@ -1,4 +1,4 @@
-# Specifications
+# Puzzle Details
 
 Puzzle: [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver)
 
