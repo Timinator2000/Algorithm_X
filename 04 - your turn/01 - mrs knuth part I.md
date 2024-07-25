@@ -14,15 +14,17 @@ define MrsKnuthPartISolver as a subclass of AlgorithmXSolver
     the passed in techer_availability and students
 
 read all input
-organize input - two main data structures: teacher_availability and students
+organize input
+    teacher_availability
+    students
 
-create an instance of your new Solver class, passing teacher_availability and students to the constructor
+create an instance of your new MrsKnuthPartISolver class, passing teacher_availability and students to the constructor
 
-for each soution in solver.solve()
+for each solution in solver.solve()
     for each action in solution
-        add the student/instrument to schedule
+        add the student/instrument to schedule at hour/day
 
 print the schedule
 ```
 
-Now that Mrs. Knuth is ready to teach all summer long, let's look at a few other puzzles you are already fully prepared to solve!
+If you run into trouble, review the previous sections and I think you will find everythig you need. Now that Mrs. Knuth is ready to teach all summer long, let's look at a few other puzzles you are already fully prepared to solve!
