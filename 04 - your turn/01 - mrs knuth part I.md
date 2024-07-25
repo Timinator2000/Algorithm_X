@@ -4,7 +4,7 @@ You have everything you need to finish Mrs. Knuth's first puzzle and get her thr
 
 [Codingame](https://www.codingame.com/home)
 
-Here's a little pseudocode to help you through finishing up Mrs. Knuth Part I:
+Here's a little pseudocode to help you finish up the first puzzle:
 
 ```text
 copy all the AlgorithmX code
@@ -27,4 +27,4 @@ for each solution in solver.solve()
 print the schedule
 ```
 
-If you run into trouble, review the previous sections and I think you will find everythig you need. Now that Mrs. Knuth is ready to teach all summer long, let's look at a few other puzzles you are already fully prepared to solve!
+If you run into trouble, review the previous sections and I think you will find everythig you need. Now that Mrs. Knuth is ready to go, let's look at a few other puzzles you are already fully prepared to solve!
