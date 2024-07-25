@@ -27,4 +27,4 @@ for each solution in solver.solve()
 print the schedule
 ```
 
-If you run into trouble, review the previous sections and I think you will find everythig you need. Now that Mrs. Knuth is ready to go, let's look at a few other puzzles you are already fully prepared to solve!
+If you run into trouble, review the previous sections in this playground and I think you will find everythig you need. Now that Mrs. Knuth is ready to go, let's look at a few other puzzles you are already fully prepared to solve!
