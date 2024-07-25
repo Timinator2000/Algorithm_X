@@ -31,9 +31,9 @@ plan:
   - title: Your Turn!
     plan:
       - title: Mrs. Knuth Part I
-        statement: 04 - your turn/mrs knuth part I.md
+        statement: 04 - your turn/01 - mrs knuth part I.md
       - title: 9x9 Sudoku
-        statement: 04 - your turn/9x9 sudoku.md
+        statement: 04 - your turn/02 - 9x9 sudoku.md
   - title: Scratchpad
     plan:
       - title: List Comprehension
