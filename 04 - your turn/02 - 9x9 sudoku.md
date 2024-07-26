@@ -68,7 +68,7 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
 
 # Restrict Possible Actions – à la [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
 
-I used Assaf’s technique for quite a while, but I eventually started restricting my possible actions when building my dictionary of actions. For 9x9 Sudoku, I loop through all the cells of the grid. If the cell is empty, I add 9 possible actions. If the cell already has a value, I only add a single action. The pseudocode looks like this:
+I used Assaf’s technique for a while, but I eventually started restricting my possible actions when building my dictionary of actions. For 9x9 Sudoku, I loop through all the cells of the grid. If the cell is empty, I add 9 possible actions. If the cell already has a value, I only add a single action. The pseudocode looks like this:
 
 ```python
     for each cell in the grid:
@@ -84,3 +84,21 @@ I used Assaf’s technique for quite a while, but I eventually started restricti
 Algorithm X will immediately select the actions associated with pre-filled cells because they are the only actions that cover the requirement that a value be placed in a particular cell.
 
 __NOTE: If you choose to use my provided Algorithm X solver, it is currently imperative that you restrict the possible actions to truly possible actions, rather than following Assaf’s example of “selecting” certain actions after setting up the problem but before performing the backtracking.__
+
+# A Challenge!
+
+Between Assaf’s code, my AlgorithmXSolver and my suggestions, you should be able to complete the Sudoku Solver puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
+
+
+My challenge to you is to create a solver that works for all 4 Sudoku puzzles on Codingame. Let me get you started:
+
+```python
+class SudokuSolver(AlgorithmXSolver):
+
+    def __init__(self, grid: List[List[str]], values: str):
+```
+
+All Sudokus on Codingame have equal width and height, so that is easy enough to determine by the width or height of the grid. It might not be possible to determine all possible values that may be used to fill the grid, so those values need to be explicitly passed in via the `values` parameter.
+
+Good luck!
+
