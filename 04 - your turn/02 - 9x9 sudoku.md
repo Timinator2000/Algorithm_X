@@ -89,10 +89,15 @@ __NOTE: If you choose to use my provided Algorithm X solver, it is currently imp
 
 Between Assaf’s code, my AlgorithmXSolver and my suggestions, you should be able to complete the Sudoku Solver puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
 
+<BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku)
+<BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
+<BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver)
 
 My challenge to you is to create a solver that works for all 4 Sudoku puzzles on Codingame. Let me get you started:
 
 ```python
+from typing import List
+
 class SudokuSolver(AlgorithmXSolver):
 
     def __init__(self, grid: List[List[str]], values: str):
