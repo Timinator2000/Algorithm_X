@@ -35,7 +35,7 @@ print(schedule)    # Don't forget how particular Mrs. Knuth is about her schedul
 
 # solver.solve() – Only One Solution
 
-Some exact cover problems are guaranteed to have a single solution. When that is the case, you can add a `break` statement after processing the first solution to prevent Algorithm X from continuing to look for solutions that you know are not to be found. This `break` statement will decrease the amount of time required to solve the problem, and, in extreme cases, this may be exactly what your code needs to solve the problem within the given time limit.
+Some exact cover problems are guaranteed to have a single solution. When that is the case, you can add a `break` statement after processing the first solution to prevent Algorithm X from continuing to look for solutions that you know are not to be found. This `break` statement will decrease the amount of time required to finish the problem, and, in extreme cases, this may be exactly what your code needs to finish the problem within the given time limit.
 
 ```python
 for solution in solver.solve():
