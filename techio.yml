@@ -40,8 +40,10 @@ plan:
         statement: 04 - your turn/04 - 25x25 sudoku.md
       - title: Mini Sudoku Solver
         statement: 04 - your turn/05 - mini sudoku solver.md
+      - title: Constrained Latin Squares
+        statement: 04 - your turn/06 - constrained latin squares.md
       - title: Dominoes Solver
-        statement: 04 - your turn/06 - dominoes solver.md
+        statement: 04 - your turn/07 - dominoes solver.md
   - title: Scratchpad
     plan:
       - title: List Comprehension
