@@ -45,7 +45,7 @@ In this next line, Assaf makes a call to `exact cover` which converts his `X` li
     X, Y = exact_cover(X, Y)
 ```
 
-Now that the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the solutions. He loops through all cells in the Sudoku grid and `if` there is a number (`n`) in the cell, Assaf makes a call to `select` to add the appropriate action to the solution.
+Now that the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the solutions. He loops through all cells in the Sudoku grid and `if` there is a number (`n`) in the cell, Assaf makes a call to `select` to add the appropriate action to the solution and make the necessary adjustments to the matrix.
 
 ```python
     for i, row in enumerate(grid):
