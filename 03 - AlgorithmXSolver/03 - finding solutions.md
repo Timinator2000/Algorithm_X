@@ -33,6 +33,18 @@ for solution in solver.solve():
 print(schedule)    # Don't forget how particular Mrs. Knuth is about her schedule formatting.
 ```
 
+# solver.solve() – Only One Solution
+
+Some exact cover problems are guaranteed to have a single solution. When that is the case, you can add a `break` statement after processing the first solution to prevent Algorithm X from continuing to look for solutions that you know are not to be found. This `break` statement will often decrease the amount of time required to solve the problem, and, in extreme cases, this may be exactly what your code needs to solve the problem within a giving time limit.
+
+```python
+for solution in solver.solve():
+    for action in solution:
+        # use the action to build your problem's answer
+    break
+```
+It is often helpful to leave the `break` statement out of your code until you are fairly confident in your solution. If your solver is incorrectly generating multiple solutions, the `break` statement will possibly “hide” your error from you. After you are confident that your code is working properly, add the `break` statement if you need to minimize processing time.
+
 # Putting it All Together
 
 Let's put this all together now. As you look over this code example, keep in mind that the details of _how_ Algorithm X works have been abstracted away. Solving Mrs. Knuth's _Exact Cover_ problem comes down to these fairly reasonable steps:
