@@ -89,7 +89,7 @@ __NOTE: If you choose to use my provided AlgorithmXSolver, it is imperative that
 
 Between Assaf’s code, my AlgorithmXSolver and my suggestions, you should be able to complete the Sudoku Solver puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
 
-<BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku)
+[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku)
 <BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
 <BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver)
 
