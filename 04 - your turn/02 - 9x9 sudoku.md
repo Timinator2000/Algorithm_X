@@ -54,7 +54,7 @@ Now that the matrix is built and ready to go, Assaf uses the following code to a
                 select(X, Y, (i, j, n))
 ```
 
-Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial AlgorithmXSolver was simply the Assaf code you see right here, organizing inside an AlgorithmXSolver class.
+Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial AlgorithmXSolver was simply the Assaf code we have just gone over, organized inside an AlgorithmXSolver class.
 
 
 ```python
