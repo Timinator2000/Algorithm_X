@@ -17,6 +17,8 @@ __Assaf’s technique will NOT currently work with my provided AlgorithmXSolver.
 
 Assaf first builds a list of requirements (`X`).
 
+Note: In Assaf's code, `R` and `C` are the numbers of rows and columns in a Sudoku box or subgrid. A 9x9 Sudoku grid has 9 boxes and each box is 3x3. For a traditional 9x9 Sudoku, `N` = 9 in Assaf's code, but `R` and `C` are both 3.
+
 ```python
     R, C = size
     N = R * C
