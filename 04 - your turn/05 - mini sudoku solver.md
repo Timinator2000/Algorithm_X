@@ -7,3 +7,5 @@ Author: [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd
 Difficulty: Hard
 
 # Strategy
+
+Everything you need to know about this puzzle has already been covered in the section on 9x9 Sudoku.
