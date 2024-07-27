@@ -1,4 +1,4 @@
-# 16 x 16 Sudoku
+# 16x16 Sudoku
 
 Puzzle: [16x16 Sudoku](https://www.codingame.com/training/medium/16x16-sudoku)
 
