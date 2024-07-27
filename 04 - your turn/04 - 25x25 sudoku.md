@@ -1,4 +1,4 @@
-# Puzzle Details
+# 25x25 Sudoku
 
 Puzzle: [25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
 
