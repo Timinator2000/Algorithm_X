@@ -70,7 +70,7 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
 
 I used Assaf’s technique for a while, but I eventually started restricting my possible actions when building my dictionary of actions. For 9x9 Sudoku, I loop through all the cells of the grid. If the cell is empty, I add 9 possible actions. If the cell already has a value, I only add a single action. The pseudocode looks like this:
 
-```python
+```text
     for each cell in the grid:
         if the cell is empty
             possible values = all possible values
