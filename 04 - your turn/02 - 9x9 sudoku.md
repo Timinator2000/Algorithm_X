@@ -1,4 +1,4 @@
-# Puzzle Details
+# Sudoku Solver
 
 Puzzle: [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)
 
