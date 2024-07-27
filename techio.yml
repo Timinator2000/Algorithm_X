@@ -60,6 +60,10 @@ plan:
     plan:
       - title: Mrs. Knuth - Part II
         statement: 06 - your turn/01 - mrs knuth part II.md
+  - title: Multiplicity
+    plan:
+      - title: Multiplicty Definition
+        statement: 07 - multiplicity/01 - multiplicity.md
 
 projects:
   python:
