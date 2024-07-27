@@ -1,4 +1,4 @@
-# Puzzle Details
+# Mini Sudoku Solver
 
 Puzzle: [Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)
 
