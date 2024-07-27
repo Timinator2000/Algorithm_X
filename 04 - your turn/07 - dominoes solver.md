@@ -14,7 +14,7 @@ How do you distinguish one action from another? Is it enough to say “place a d
 
 When distinguishing actions for Algorithm X, it is critical that each action specification be enough to distinguish that action from all other actions. Remember too, only include legitimate actions. If there is a `2` at location `(row=0, col=0)`, you are not allowed to place domino `1-1` anywhere that covers `(row=0, col=0)`.
 
-How about the requirements? We know from the `Output` specification that all lines of output consist of only `|` or `=`, so we know the entire grid must be covered with dominoes. This seems similar to 9x9 Sudoku where the entire grid must be covered with numbers.
+How about the requirements? We know from the __Output__ specification that all lines of output consist of only `|` or `=`, so we know the entire grid must be covered with dominoes. This seems similar to 9x9 Sudoku where the entire grid must be covered with numbers.
 
 Just covering the grid is not enough. There is another category of requirements you will need to distinguish to complete a model for Algorithm X. What else __must happen__ to build a full solution? I’ll give you a hint: the number of requirements in the second category of requirements is equal to `(n + 1) ^ 2`.
 
