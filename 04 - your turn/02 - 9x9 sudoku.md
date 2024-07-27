@@ -81,7 +81,7 @@ I used Assaf’s technique for a while, but I eventually started restricting my 
             add a possible action for placing this value in this cell
 ```
 
-Algorithm X will immediately select the actions associated with pre-filled cells because they are the only actions that cover the requirement that a value be placed in a particular cell.
+Algorithm X will immediately select the actions associated with pre-filled cells because they are the only actions that cover the requirements values be placed in those cells.
 
 __NOTE: If you choose to use my provided AlgorithmXSolver, it is imperative that you restrict the possible actions to truly possible actions, rather than following Assaf’s example of “selecting” certain actions after setting up the problem but before performing the backtracking.__
 
