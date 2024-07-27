@@ -58,7 +58,7 @@ plan:
         statement: 05 - generalized exact cover/05 - your solver.md
   - title: Your Turn
     plan:
-      - title: Solving Mrs. Knuth - Part II
+      - title: Mrs. Knuth - Part II
         statement: 06 - your turn/01 - mrs knuth part II.md
   - title: Multiplicity
     plan:
@@ -66,7 +66,7 @@ plan:
         statement: 07 - multiplicity/01 - multiplicity.md
   - title: Your Turn
     plan:
-      - title: Solving Mrs. Knuth - Part III
+      - title: Mrs. Knuth - Part III
         statement: 08 - your turn/01 - mrs knuth part III.md
       - title: Equation Finder
         statement: 08 - your turn/02 - equation finder.md
