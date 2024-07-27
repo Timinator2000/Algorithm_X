@@ -1,4 +1,4 @@
-# Puzzle Details
+# Constrained Latin Squares
 
 Puzzle: [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares)
 
