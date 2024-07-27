@@ -10,7 +10,7 @@ Difficulty: Hard
 
 Other than Mrs. Knuth, Dominoes Solver is the first puzzle we have looked at that does not involve some sort of Latin Square. The goal of the puzzle is to “find the disposition of [the] dominoes”. Did you ever do a color-by-number when you were young? Similar to the picture with numbers in the areas to color, we have a grid with numbers and we need to lay the dominoes down on the grid, making sure the numbers of the dominoes match up with the grid. It seems clear the actions we can take to solve the puzzle are simply putting each domino somewhere on the grid.
 
-How do you distinguish one action from another. Is it enough to say “place a domino at location `(row=0, col=0)` on the grid”. No, it is not. Which domino are you placing at that location? How about “place domino `1-1` at location `(row=0, col=0)`”? That is still not enough! Are you placing the domino horizontally or are you placing the domino vertically?
+How do you distinguish one action from another? Is it enough to say “place a domino at location `(row=0, col=0)` on the grid”. No, it is not. Which domino are you placing at that location? How about “place domino `1-1` at location `(row=0, col=0)`”? That is still not enough! Are you placing the domino horizontally or are you placing the domino vertically?
 
 When distinguishing actions for Algorithm X, it is critical that each action specification be enough to distinguish that action from all other actions. Remember too, only include legitimate actions. If there is a `2` at location `(row=0, col=0)`, you are not allowed to place domino `1-1` anywhere that covers `(row=0, col=0)`.
 
