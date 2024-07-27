@@ -64,6 +64,12 @@ plan:
     plan:
       - title: Multiplicty Definition
         statement: 07 - multiplicity/01 - multiplicity.md
+  - title: Your Turn
+    plan:
+      - title: Solving Mrs. Knuth - Part III
+        statement: 08 - your turn/01 - mrs knuth part II.md
+      - title: Equation Finder
+        statement: 08 - your turn/02 - equation finder.md
 
 projects:
   python:
