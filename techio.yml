@@ -28,9 +28,9 @@ plan:
         statement: 03 - AlgorithmXSolver/03 - finding solutions.md
       - title: Troubleshooting
         statement: 03 - AlgorithmXSolver/04 - troubleshooting.md
-  - title: Your Turn!
+  - title: Your Turn
     plan:
-      - title: Mrs. Knuth Part I
+      - title: Mrs. Knuth - Part I
         statement: 04 - your turn/01 - mrs knuth part I.md
       - title: Sudoku Solver
         statement: 04 - your turn/02 - 9x9 sudoku.md
@@ -56,6 +56,10 @@ plan:
         statement: 05 - generalized exact cover/04 - mrs knuth.md
       - title: Your Solver Subclass
         statement: 05 - generalized exact cover/05 - your solver.md
+  - title: Your Turn
+    plan:
+      - title: Mrs. Knuth - Part II
+        statement: 06 - your turn/01 - mrs knuth part II.md
 
 projects:
   python:
