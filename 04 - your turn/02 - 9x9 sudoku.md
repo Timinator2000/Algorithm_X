@@ -78,7 +78,7 @@ I used Assaf’s technique for a while, but I eventually started restricting my 
             possible values = cell value
 
         for each value in possible values
-            add a possible action for placing this value in this cell
+            add an action for placing this value in this cell
 ```
 
 Algorithm X will immediately select the actions associated with pre-filled cells because they are the only actions that cover the requirements values be placed in those cells.
