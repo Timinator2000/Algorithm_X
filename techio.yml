@@ -8,7 +8,7 @@ plan:
         statement: 01 - introduction/welcome.md
   - title: Exact Cover
     plan:
-      - title: Definition
+      - title: Exact Cover Definition
         statement: 02 - exact_cover/01 - exact cover.md
       - title: Mrs. Knuth
         statement: 02 - exact_cover/02 - mrs knuth.md
@@ -46,7 +46,7 @@ plan:
         statement: 04 - your turn/07 - dominoes solver.md
   - title: Generalized Exact Cover
     plan:
-      - title: Definition
+      - title: Generalized Exact Cover Definition
         statement: 05 - generalized exact cover/01 - generalized exact cover.md
       - title: n Queens
         statement: 05 - generalized exact cover/02 - n queens.md
