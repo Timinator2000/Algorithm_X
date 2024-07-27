@@ -44,12 +44,18 @@ plan:
         statement: 04 - your turn/06 - constrained latin squares.md
       - title: Dominoes Solver
         statement: 04 - your turn/07 - dominoes solver.md
-  - title: Scratchpad
+  - title: Generalized Exact Cover
     plan:
-      - title: List Comprehension
-        statement: welcome/MD2.md
-      - title: Scratchpad
-        statement: welcome/scratchpad.md
+      - title: Definition
+        statement: 05 - generalized exact cover/01 - generalized exact cover.md
+      - title: n Queens
+        statement: 05 - generalized exact cover/02 - n queens.md
+      - title: Mutually Exclusive Actions
+        statement: 05 - generalized exact cover/03 - mutually exclusive actions.md
+      - title: Mrs. Knuth
+        statement: 05 - generalized exact cover/04 - mrs knuth.md
+      - title: Your Solver Subclass
+        statement: 05 - generalized exact cover/05 - your solver.md
 
 projects:
   python:
