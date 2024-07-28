@@ -6,7 +6,7 @@ Wikipedia concisely states:
 
 # Requirements 
 
-Obviously, the first requirement is that 8 queens need to be placed somewhere on the chessboard. Since there are only 8 rows and 8 columns and no two queens are allowed to be in the same row or column , we can say that a queen must be placed in each row and a queen must be placed in each column. To fully specify these requirements, we will need 16 distinct requirements:
+Obviously, the first requirement is that 8 queens need to be placed somewhere on the chessboard. Since there are only 8 rows and 8 columns and no two queens are allowed to be in the same row or column, we can say that a queen must be placed in each row and a queen must be placed in each column. To fully specify these requirements, we will need 16 distinct requirements:
 
 ``` text
 ('queen in row', 1)
@@ -24,7 +24,7 @@ But, what about the diagonals? Take a look at the following image I found on [ma
 
 ![Chess Diagonals](chessdiagonals.png)
 
-There are 15 diagonals on the image and those are just the up-and-to-the-right diagonals. That doesn’t include another 15 down-and-to-the-right diagonals. We only have 8 queens, making it impossible to fully cover either set of 15 diagonals. However, if a diagonal is occupied by a queen, it is critical that no other queen be in that same diagonal.
+There are 15 diagonals in the image and those are just the up-and-to-the-right diagonals. That doesn’t include another 15 down-and-to-the-right diagonals. We only have 8 queens, making it impossible to fully cover either set of 15 diagonals. However, if a diagonal is occupied by a queen, it is critical that no other queen be in that same diagonal.
 
 These diagonals perfectly fit the definition of an optional requirement. While rows and columns on the board __must__ have exactly one queen, the diagonals __may or may not__ have a queen, but if a diagonal is covered by a queen, it __must not__ be covered by more than one queen.
 
@@ -52,4 +52,19 @@ optional_requirements = 30 diagonals
 
 # Actions
 
+Hopefully, you already see there are 64 actions that can be taken. You can place a queen on any one of the 64 squares. The hardest part about the 8 Queens puzzle is building the list of requirements satisfied by each action. Assuming rows are numbered from top to bottom and columns are numbered from left to right, let's look at placing a queen in the top left corner.
 
+``` text
+action = ('place queen', 1, 1)
+
+covered requirements = ('queen in row', 1)
+                       ('queen in col', 1)
+                       ('queen in diagonal', 1)
+                       ('queen in diagonal', 23)
+```
+
+Remember, I previously suggested numbering the down-and-to-the-right diagonals from 16 to 30, starting in the bottom-left corner. When solving the 8 Queens puzzle with Algorithm X, you might find determining the unique identifiers of the diagonals to be challenging. You won't want to hard-code all of your actions and requirements, so you will need to develop a formula that takes a (row, col) combination and gives you two diagonal identifiers.
+
+# Moving On...
+
+That is all there is to it! Looking at the 8 Queens puzzle as a generalized exact cover makes the entire problem easier to digest. Before we apply these new concepts to a few puzzles, we need to circle back to Mrs. Knuth. Another school year has flown by and she has requested you add a few features to the scheduling program you built her last summer.
