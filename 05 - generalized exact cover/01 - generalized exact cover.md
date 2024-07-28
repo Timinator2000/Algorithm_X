@@ -2,8 +2,6 @@
 
 Until now, I have been completely focused on requirements and actions. The next table summarizes what we have covered so far.
 
-<BR>
-
 | Playground Term | Equivalent Terms          | Definition                                |
 |:--|:----|:------------------------------------------------------------------|
 | requirements|<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
