@@ -2,7 +2,7 @@
 
 
 | actions | requirements |
-|: ------ :|: -----------:|
+|:------:|:-----------:|
 | options| constraints |
 | rows | columns |
 |    | primary constraints |
