@@ -61,7 +61,7 @@ plan:
       - title: Mrs. Knuth - Part II
         statement: 06 - your turn/01 - mrs knuth part II.md
       - title: n Queens
-        statement: 06 - generalized exact cover/02 - n queens.md
+        statement: 06 - your turn/02 - n queens.md
   - title: Multiplicity
     plan:
       - title: Multiplicty Definition
