@@ -60,7 +60,7 @@ action = ('place queen', 1, 1)
 covered requirements = ('queen in row', 1)
                        ('queen in col', 1)
                        ('queen in diagonal', 1)
-                       ('queen in diagonal', 23)
+                       ('queen in diagonal', 24)
 ```
 
 Remember, I previously suggested numbering the down-and-to-the-right diagonals from 16 to 30, starting in the bottom-left corner. When solving the 8 Queens puzzle with Algorithm X, you might find determining the unique identifiers of the diagonals to be challenging. You won't want to hard-code all of your actions and requirements, so you will need to develop a formula that takes a (row, col) combination and gives you two diagonal identifiers.
