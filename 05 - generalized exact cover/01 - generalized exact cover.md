@@ -1,6 +1,6 @@
 # Generalized Exact Cover
 
-
+Until now, I have been completely focused on requirements and actions. The next table summarizes what we have covered so far.
 
 <BR>
 
@@ -10,6 +10,8 @@
 | actions |<BR>options<BR>rows<BR><BR>| The individual steps that can be taken to build a solution.|
 
 <BR>
+
+Hold everything! What is up with the word "primary"?
 
 This is the first time I’ve used the terms “primary constraint” and “primary column”, and there is a good reason for that. _Generalized Exact Cover_ adds the concept of “secondary constraints”, often referred to as “secondary columns” when referenced in terms of a matrix. I want you to know these terms, but in this playground, I’m going to use the term “optional requirement”.
 
