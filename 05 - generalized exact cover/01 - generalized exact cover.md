@@ -22,6 +22,6 @@ There is a reason the term “optional requirement” works for me. There is onl
 
 | Playground Term | Equivalent Terms          | Definition                                |
 |:--|:----|:------------------------------------------------------------------|
-| requirements|<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR>| __Must__ be satisfied exactly once. |
+| requirements|<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
 | optional requirements|<BR>secondary constraints<BR>secondary columns<BR>at-most-one-time constraints<BR><BR>| __May__ be satisfied, but if so, one time only. |
-| actions |<BR>options<BR>rows<BR>| The steps that can be taken to find a solution.|
+| actions |<BR>options<BR>rows<BR><BR>| The steps that can be taken to find a solution.|
