@@ -1,4 +1,4 @@
-title : Algorithm X
+htitle : Algorithm X
 cover: cover.png
 
 plan:
@@ -48,8 +48,8 @@ plan:
     plan:
       - title: Generalized Exact Cover Definition
         statement: 05 - generalized exact cover/01 - generalized exact cover.md
-      - title: n Queens
-        statement: 05 - generalized exact cover/02 - n queens.md
+      - title: Eight Queens
+        statement: 05 - generalized exact cover/02 - eight queens.md
       - title: Mutually Exclusive Actions
         statement: 05 - generalized exact cover/03 - mutually exclusive actions.md
       - title: Mrs. Knuth - Part II
