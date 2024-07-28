@@ -26,7 +26,7 @@ But, what about the diagonals? Take a look at the following image I found on [ma
 
 There are 15 diagonals on the image and those are just the up-and-to-the-right diagonals. That doesn’t include another 15 down-and-to-the-right diagonals. We only have 8 queens, making it impossible to fully cover either set of 15 diagonals. However, if a diagonal is occupied by a queen, it is critical that no other queen be in that same diagonal.
 
-These diagonals perfectly fit the definition of an optional requirement. While rows and columns on the board __must__ have exactly one queen, the diagonals __may or may__ not have a queen, but if a diagonal is covered by a queen, it __must not__ be covered by more than one queen.
+These diagonals perfectly fit the definition of an optional requirement. While rows and columns on the board __must__ have exactly one queen, the diagonals __may or may not__ have a queen, but if a diagonal is covered by a queen, it __must not__ be covered by more than one queen.
 
 The picture above assigns a unique integer to each of the up-and-to-the-right diagonals. For completeness, let’s assign the numbers 16 to 30 to the down-and-to-the-right diagonals, starting in the bottom-left corner. This results in the following 30 distinct _optional requirements_:
 
