@@ -1,9 +1,7 @@
 # Generalized Exact Cover
 
 
-| actions | requirements |
+| Playground Term | Equivalent Terms |
 |:------:|:-----------:|
-| options| constraints |
-| rows | columns |
-|    | primary constraints |
-|    | primary columns |
+| requirements| constraints, columns, primary constraints, primary columns |
+| actions | options, rows |
