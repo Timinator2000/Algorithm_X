@@ -13,7 +13,7 @@ If you completed all, or at least some portion, of the suggested puzzles, you sh
 
 Hold everything! What is up with the word "primary"?
 
-This is the first time I’ve used the terms “primary constraint” and “primary column”, and there is a good reason for that. _Generalized Exact Cover_ adds the concept of “secondary constraints”, often referred to as “secondary columns” when referenced in terms of a matrix. I want you to know these terms, but in this playground, I’m going to use the term “optional requirement”.
+This is the first time I have used the terms “primary constraint” and “primary column”, and there is a good reason for that. _Generalized Exact Cover_ adds the concept of “secondary constraints”, often referred to as “secondary columns” when referenced in terms of a matrix. I want you to know these terms, but in this playground, I’m going to use the term “optional requirement”.
 
 What is the difference between a requirement (primary constraint/column) and an optional requirement (secondary constraint/column)? A requirement must be satisfied exactly once by a proper solution. It may not be left uncovered and it may not be covered more than once. On the other hand, an optional requirement is just what it says. It is optional. It does not need to be covered, but if it is covered, it can only be covered once.
 
