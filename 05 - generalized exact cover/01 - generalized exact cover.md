@@ -20,7 +20,7 @@ There is a reason the term “optional requirement” works for me. There is onl
 
 <BR>
 
-| Playground Term | Equivalent Terms         | Definition                                |
+| Playground Term | Equivalent Terms | Definition                                |
 |:--|:----|:-----------------|
 | requirements| constraints, columns, primary constraints, primary columns | __Must__ be satisfied exactly once. |
 | optional requirements| secondary constraints, secondary columns, at most one-time constraints | __May__ be satisfied, but if so, one time only. |
