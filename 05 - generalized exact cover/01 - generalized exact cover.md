@@ -3,6 +3,7 @@
 
 
 <BR>
+
 | Playground Term | Equivalent Terms |
 |:------|:-----------|
 | requirements| constraints, columns, primary constraints, primary columns |
@@ -17,6 +18,7 @@ I’m going to add one last equivalent term to the table above: At Most One-Time
 There is a reason the term “optional requirement” works for me. There is only one difference between a requirement and an optional requirement. With an optional requirement, not being covered never causes failure. As Algorithm X is looking for solutions, having no ability to cover a remaining requirement causes a failure condition causing Algorithm X to backtrack. That is not the case with optional requirements. Algorithm X doesn’t care if these optional requirements get covered at all, but Algorithm X does care that these optional requirements never get covered more than once.
 
 <BR>
+
 | Playground Term | Equivalent Terms |
 |:------|:-----------|
 | requirements| constraints, columns, primary constraints, primary columns |
