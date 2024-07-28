@@ -24,4 +24,4 @@ There is a reason the term “optional requirement” works for me. There is onl
 |:------|:-----------|
 | requirements| constraints, columns, primary constraints, primary columns |
 | actions | options, rows |
-| optional requirements| secondary constraints, secondary columns |
+| optional requirements| secondary constraints, secondary columns, at most one-time constraints |
