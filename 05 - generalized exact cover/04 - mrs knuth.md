@@ -1,4 +1,4 @@
-# She's Back!
+# Puzzle Overview - Mrs. Knuth is Back!
 
 How about the good news first? Most of the input and of the output has not changed for Mrs. Knuth – Part II. Let’s see what changes she has requested…
 
