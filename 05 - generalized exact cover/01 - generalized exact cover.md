@@ -1,6 +1,8 @@
 # Generalized Exact Cover
 
-Until now, I have been completely focused on requirements and actions. The next table summarizes what we have covered so far.
+If you completed all, or at least some portion, of the suggested puzzles, you should be gaining confidence in your ability to use Algorithm X to find solutions to an exact cover problem. Until now, I have been completely focused on requirements and actions, as summarized in the following table.
+
+<BR>
 
 | Playground Term | Equivalent Terms          | Definition                                |
 |:--|:----|:------------------------------------------------------------------|
