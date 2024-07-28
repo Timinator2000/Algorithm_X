@@ -67,4 +67,4 @@ Remember, I previously suggested numbering the down-and-to-the-right diagonals f
 
 # Moving On...
 
-That is all there is to it! Looking at the 8 Queens puzzle as a generalized exact cover makes the entire problem easier to digest. Before we apply these new concepts to a few puzzles, we need to circle back to Mrs. Knuth. Another school year has flown by and she has requested you add a few features to the scheduling program you built for her last summer.
+That is all there is to it! Looking at the 8 Queens puzzle as a generalized exact cover makes the entire problem easier to digest. Before we apply these new concepts to a few puzzles, we need to take a look at one of the most common places optional requirements show up in models...__mutually exclusive actions__.
