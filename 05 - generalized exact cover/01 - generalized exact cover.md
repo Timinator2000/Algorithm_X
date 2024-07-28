@@ -4,10 +4,10 @@
 
 <BR>
 
-| Playground Term | Equivalent Terms |
-|:---|:---------------|
-| requirements| constraints, columns, primary constraints, primary columns |
-| actions | options, rows |
+| Playground Term | Equivalent Terms          | Definition                                |
+|:--|:----|:------------------------------------------------------------------|
+| requirements|<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
+| actions |<BR>options<BR>rows<BR><BR>| The steps that can be taken to find a solution.|
 
 <BR>
 This is the first time I’ve used the terms “primary constraint” and “primary column”, and there is a good reason for that. _Generalized Exact Cover_ adds the concept of “secondary constraints”, often referred to as “secondary columns” when referenced in terms of a matrix. I want you to know these terms, but in this playground, I’m going to use the term “Optional Requirement”.
