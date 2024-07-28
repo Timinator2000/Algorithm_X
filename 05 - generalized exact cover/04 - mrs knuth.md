@@ -6,6 +6,8 @@ _Mrs. Knuth's schedule needs to be more flexible than she first thought. She isn
 
 We see here that Mrs. Knuth might have more hours of availability than students. In Part I, it was __required__ that each slot in Mrs. Knuth’s availability must get filled. It appears now that some slots might not get filled. Of course, she can’t teach two students at the same time, so if a slot is filled, it can only be filled with one student. Hmmm….sounds like an optional requirement.
 
+It is also important to note that Mrs. Knuth might not teach the same number of hours on each day and becuase of that, it is not guaranteed that she will teach all the same instruments on each day. Still, we must make sure she does not teach a single instrument more than one time per day.
+
 _You might be impressed with Mrs. Knuth's newfound flexibility, but don't get too relaxed. She still requires that no instrument be taught more than one hour on any one day._
 
 This appears to be the same as Part I.
