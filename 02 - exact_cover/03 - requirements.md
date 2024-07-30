@@ -58,17 +58,17 @@ Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day fo
 
 How many solutions get eliminated? Because all test cases are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want to make unless we look at how many solutions need to be checked.
 
-Test Cases 1 and 2 only have Mrs. Knuth teach on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of those solutions needs to be eventually checked to make sure no two instruments are taught on the same day.
+Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of these possible solutions needs to be eventually checked to make sure no two instruments are taught on the same day.
 
-* Test Case 3 - 96
+* Test Case 3 - 96 possible solutions
 
-* Test Case 4 - 1818
+* Test Case 4 - 1818 possible solutions
 
-* Test Case 5 - 11414
+* Test Case 5 - 11414 possible solutions
 
-* Test Case 6 - 130235
+* Test Case 6 - 130235 possible solutions
 
-* Test Case 7 – I stopped counting at 500k
+* Test Case 7 – I stopped counting at 500k possible solutions
 
 There is a point to this exercises. It is always best to restrict Algorithm X as much as possible with requirements/constraints. You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but it is always best to provide Algorithm X with as much information as possible. You will be rewarded with a significantly smaller set of possible solutions, and in many cases, the only valid solution.
 
