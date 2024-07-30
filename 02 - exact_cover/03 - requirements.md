@@ -68,7 +68,7 @@ Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no
 
 * Test Case 6 - 130,235 possible solutions
 
-* Test Case 7 – I stopped counting at 500k possible solutions
+* Test Case 7 – I stopped counting at 53,000,000 possible solutions
 
 There is a point to this exercises. It is best to restrict Algorithm X as much as possible with constraints (requirements). You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but, by maximizing the knowledge passed to Algorithm X, you will be rewarded with a significantly smaller set of possible solutions, and in many cases, you will be rewarded with the _only_ valid solution.
 
