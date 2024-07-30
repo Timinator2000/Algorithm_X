@@ -52,7 +52,7 @@ Keep in mind, each of one of these requirements must be satisfied exactly one ti
 
 # Constraining the Realm of Possibility
 
-I have chosen to use the word “requirement”, but you will often see the word “constraint” used in terms of Algorithm X. Each word is powerful in its own way. I want to briefly discuss where the word “constraint” comes from and how it applies to a problem’s solution set.
+I have chosen to use the word “requirement”, but you will often see the word “constraint” used with Algorithm X. Each word is powerful in its own way. I want to briefly demonstrate where the word “constraint” really helps us understand the big picture of Algorithm X.
 
 Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day for any instrument. One approach is to build all possible schedules and then check each schedule to see if any day has a repeated instrument. Because Algorithm X is _less constrained_, it will generate many solutions that eventually get eliminated when the days are checked for duplicate instrument lessons.
 
