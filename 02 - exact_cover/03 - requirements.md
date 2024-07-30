@@ -70,5 +70,5 @@ Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no
 
 * Test Case 7 – I stopped counting at 500k possible solutions
 
-There is a point to this exercises. It is always best to restrict Algorithm X as much as possible with requirements/constraints. You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but it is always best to provide Algorithm X with as much information as possible. You will be rewarded with a significantly smaller set of possible solutions, and in many cases, the only valid solution.
+There is a point to this exercises. It is always best to restrict Algorithm X as much as possible with requirements/constraints. You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but it is always best to provide Algorithm X with as much information as possible. You will be rewarded with a significantly smaller set of possible solutions, and in many cases, you will be rewarded with the _only_ valid solution.
 
