@@ -56,7 +56,7 @@ I have chosen to use the word “requirement”, but you will often see the word
 
 Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day for any instrument. One approach is to build all possible schedules and then check each schedule to see if any day has multiple instruments. Because Algorithm X is _less constrained_, it will generate many solutions that eventually get eliminated when the days are checked for duplicate instrument lessons.
 
-How many solutions get eliminated? Because all test cases are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want to make unless we look at how many solutions need to be checked.
+How many solutions get eliminated? Because all test cases in Mrs. Knuth - Part I are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want to make unless we look at how many solutions need to be checked.
 
 Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of these possible solutions needs to be eventually checked to make sure no two instruments are taught on the same day.
 
