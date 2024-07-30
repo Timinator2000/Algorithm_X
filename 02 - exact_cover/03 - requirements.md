@@ -54,7 +54,7 @@ Keep in mind, each of one of these requirements must be satisfied exactly one ti
 
 I have chosen to use the word “requirement”, but you will often see the word “constraint” used in terms of Algorithm X. Each word is powerful in its own way. I want to briefly discuss where the word “constraint” comes from and how it applies to a problem’s solution set.
 
-Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day for any instrument. One approach is to build all possible schedules and then check each schedule to see if any day has multiple instruments. Because Algorithm X is _less constrained_, it will generate many solutions that eventually get eliminated when the days are checked for duplicate instrument lessons.
+Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day for any instrument. One approach is to build all possible schedules and then check each schedule to see if any day has a repeated instrument. Because Algorithm X is _less constrained_, it will generate many solutions that eventually get eliminated when the days are checked for duplicate instrument lessons.
 
 How many solutions get eliminated? Because all test cases in Mrs. Knuth - Part I are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want to make unless we look at how many solutions need to be checked.
 
