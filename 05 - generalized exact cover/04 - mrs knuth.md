@@ -1,6 +1,6 @@
 # Puzzle Overview - Mrs. Knuth is Back!
 
-How about the good news first? Most of the input and of the output has not changed for Mrs. Knuth – Part II. Let’s see what changes she has requested…
+How about the good news first? Most of the input and all of the output has not changed for Mrs. Knuth – Part II. Let’s see what changes she has requested…
 
 _Mrs. Knuth's schedule needs to be more flexible than she first thought. She isn't able to always teach the same number of hours on her teaching days. She also doesn't always have enough students to completely fill her `teacherAvailability`. You'll need to adjust your algorithm to handle her `teacherAvailability` possibly containing different numbers of hours for each day she teaches and you'll need to be able to handle hours in her `teacherAvailability` for which there ends up being no student scheduled._
 
