@@ -52,4 +52,23 @@ Keep in mind, each of one of these requirements must be satisfied exactly one ti
 
 # Constraining the Realm of Possibility
 
+I have chosen to use the word “requirement”, but you will often see the word “constraint” used in terms of Algorithm X. Each word is powerful in its own way and I want to briefly discuss where the word “constraint” comes from and how it applies to a problem’s solution set.
+
+Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day for any instrument. One approach is to build all possible schedules and then check each schedule to see if any day has multiple instruments. Because Algorithm X is _less constrained_, it will generate many solutions that eventually get eliminated when the days are checked for duplicate instrument lessons.
+
+How many solutions get eliminated? Because all test cases are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want make unless we look at how many solutions need to be checked.
+
+Test Cases 1 and 2 only have Mrs. Knuth teach on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of those solutions needs to be eventually checked to make sure no two instruments are taught on the same day.
+
+* Test Case 3 - 96
+
+* Test Case 4 - 1818
+
+* Test Case 5 - 11414
+
+* Test Case 6 - 130235
+
+* Test Case 7 – I stopped counting at 500k
+
+There is a point to this exercises. It is always best to restrict Algorithm X as much as possible with requirements/constraints. You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but it is always best to provide Algorithm X with as much information as possible. You will be rewarded with a significantly smaller set of possible solutions, and in many cases, the only valid solution.
 
