@@ -4,7 +4,7 @@ How about the good news first? Most of the input and all of the output has not c
 
 _Mrs. Knuth's schedule needs to be more flexible than she first thought. She isn't able to always teach the same number of hours on her teaching days. She also doesn't always have enough students to completely fill her `teacherAvailability`. You'll need to adjust your algorithm to handle her `teacherAvailability` possibly containing different numbers of hours for each day she teaches and you'll need to be able to handle hours in her `teacherAvailability` for which there ends up being no student scheduled._
 
-We see here that Mrs. Knuth might have more hours of availability than students. In Part I, it was __required__ that each slot in Mrs. Knuth’s availability must get filled. It appears now that some slots might not get filled. Of course, she can’t teach two students at the same time, so if a slot is filled, it can only be filled with one student. Hmmm….sounds like an optional requirement.
+This appears important. Mrs. Knuth might have more hours of availability than students. In Part I, it was __required__ that each slot in Mrs. Knuth’s availability must get filled. It appears now that some slots might not get filled. Of course, she can’t teach two students at the same time, so if a slot is filled, it can only be filled with one student. Hmmm….sounds like an optional requirement.
 
 _You might be impressed with Mrs. Knuth's newfound flexibility, but don't get too relaxed. She still requires that no instrument be taught more than one hour on any one day._
 
