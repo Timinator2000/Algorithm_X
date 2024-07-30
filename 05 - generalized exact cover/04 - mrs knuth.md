@@ -12,7 +12,7 @@ It is important to note that Mrs. Knuth might not teach the same number of hours
 
 _On top of that, she has struggled with `loudInstrument`s, specifically the __Trumpet__, the __Drums__ and the __Trombone__. In the interest of her long-term hearing, she has asked that you make sure no two `loudInstrument`s are ever scheduled back-to-back. (A lesson at 11am and a lesson at 1pm are not considered back-to-back since there is an hour lunch break between the two.)_
 
-No two loud instruments are ever to be scheduled back-to-back, meaning if a trumpet is scheduled on Friday at 10, we must not schedule a trombone on Friday at 11. Definitely sounds like mutual exclusivity, doesn’t it?
+No two loud instruments are ever to be scheduled back-to-back, meaning, if a trumpet is scheduled on Friday at 10, we must not schedule a trombone on Friday at 11. Definitely sounds like mutual exclusivity, doesn’t it?
 
 _For the most part, the kids in school are good kids, but some kids get a bit rowdy when they are with certain friends. To avoid disruptions to her schedule, Mrs. Knuth has given you a list of `troublesomePair`s. It's important the individuals in these pairs never be scheduled back-to-back. There must be at least an hour of time between the two individuals to ensure they don't get each other wound up and start causing trouble._
 
@@ -24,6 +24,8 @@ Definitely seems like each student being schedule remains a requirement.
 
 # Example Test Case
 
+Let's take a look at the example test case:
+
 ```text
 M Tu W Th F 8 9 10 11 1
 3
@@ -33,3 +35,5 @@ Lola Drums M Tu W Th F 11 1
 1
 Drew Ella
 ```
+
+
