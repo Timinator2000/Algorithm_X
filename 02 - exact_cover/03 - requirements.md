@@ -62,11 +62,11 @@ Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no
 
 * Test Case 3 - 96 possible solutions
 
-* Test Case 4 - 1818 possible solutions
+* Test Case 4 - 1,818 possible solutions
 
-* Test Case 5 - 11414 possible solutions
+* Test Case 5 - 11,414 possible solutions
 
-* Test Case 6 - 130235 possible solutions
+* Test Case 6 - 130,235 possible solutions
 
 * Test Case 7 – I stopped counting at 500k possible solutions
 
