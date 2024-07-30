@@ -1,20 +1,3 @@
-In August, 2022, I attempted to solve [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares), a recently published puzzle by [@darkhorse64]( https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292) on [Codingame](www.codingame.com). I noticed [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) had, a week earlier, posted a link to [Puzzles solvable by Algorithm X / Dancing Links](https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871), a post where he had compiled a list of puzzles on [Codingame](www.codingame.com) he had solved with [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X). I love processes that are repeatable and the idea of using a single algorithm to solve a long list of medium/hard puzzles intrigued me.
-
-For the next 18 months, I worked on [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782)’s list, reaching out to him over and over again with questions and ideas. I saw tremendous opportunity for not only a reusable software architecture, but also a repeatable engineering process for solving [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problems. Eventually, he suggested that a build an [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X) playground.
-
-I can’t thank [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) enough for all of his guidance, support, encouragement, questions, answers, poking, prodding, reviewing, etc. This playground belongs to him every bit as much as it belongs to me. His influence has made a permanent mark on who I am and how I approach problems. I am forever grateful.
-
-
-
-
-# Welcome!
-
-A quick Google search will surely bring you to countless implementations of Algorithm X, usually solving a 9x9 Sudoku grid using the famous Dancing Links (DLX) technique proposed by the brilliant Donald Knuth. This playground is NOT just another Sudoku demonstration. Rather, the goal here is to go deeper and explore using Algorithm X to teach both reusable problem solving techniques and reusable software architectures. By the time you're finished working your way through the material, you should feel confident solving any exact cover problem you run across!
-
-## What to Expect
-
-This tutorial is broken into the following topics:
-
 ## Try to Add a Project
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
@@ -60,45 +43,6 @@ By the way…I am not the “genius” that coded up the algorithm. I copied the
 For a more mathematical discussion of Exact Cover and Algorithm X, I suggest Wikipedia. (fyi - the formal math makes my head hurt, but I do like the example with the matrix):
 
 Wikipedia - Exact Cover 1
-
-## Using Algorithm X
-
-Text here.
-
-## Building a Black Box Algorithm X Solver__
-
-Text here.
-
-## 18 Different Exact Cover Problems
-
-[Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
-<BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
-<BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
-<BR>[Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
-<BR>[Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
-<BR>[Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) (+50 XP)
-<BR>[Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
-<BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver) (+50 XP)
-<BR>[Winamax]( https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP)
-<BR>[Three Little Piggies]( https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
-<BR>[Takuzu Solver]( https://www.codingame.com/training/hard/takuzu-solver) (+50 XP)
-<BR>[Hitori Solver]( https://www.codingame.com/training/hard/hitori-solver) (+50 XP)
-<BR>[Kakuro Solver]( https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
-<BR>[n Queens]( https://www.codingame.com/training/hard/n-queens) (+50 XP)
-<BR>[There Is No Spoon – Episode 2]( https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) (+250 XP)
-<BR>[Einstein’s Riddle Solver]( https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
-<BR>[Breaking Bifid]( https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
-<BR>[High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings) (+50 XP)
-
-[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
-<BR>[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) (+50 XP)
-<BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
-<BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
-
-
-
-
-
 
 ## Music Schedules Part I
 
