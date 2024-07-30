@@ -49,3 +49,7 @@ That’s all we need! A complete list of requirements for this first test case l
 Look through that list again and ask yourself this question: Does each requirement clearly identify something that must happen? Ayla must get scheduled. Bob must get scheduled. Alex must get scheduled. Thursday at 3 on Mrs. Knuth’s schedule must get filled. A Tuba lesson must be scheduled on Thursday. I think you get the idea.
 
 Keep in mind, each of one of these requirements must be satisfied exactly one time by any proposed solution. This is where the term “exact” comes from in exact cover. __All requirements must be covered exactly once by a proper solution. None can be left uncovered and none can be covered multiple times by overlapping actions.__
+
+# Constraining the Realm of Possibility
+
+
