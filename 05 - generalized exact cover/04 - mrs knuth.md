@@ -75,12 +75,14 @@ Optional Requirements:
 What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid. Based on their availability, the only way we could create a problem is by scheduling Ella on Friday at 10 and Drew on Friday at 11. We need to create an optional requirement that can make sure this never happens. It is important to make sure this requirement has two components, similar to the `(A, B)` used in the mutual exclusivity example. We will use a tuple of two tuples. One of the tuples applies to Ella and the other applies to Drew.
 
 ```text
+Optional Requirements to Handle Mutual Exclusivity of Troublesome Pairs:
     (('Ella', 'F', 10), ('Drew', 'F', 11))
 ```
 
 The last detail we need to handle is making sure not two loud instruments are scheduled back-to-back. Because this is a very simple sample problem, it will be tempting to look at the students and see where two loud instruments might conflict, like what we did above with Emma and Drew. Do your best to avoid that temptation! As the test cases get harder, this will not work. Instead, only focus on Mrs. Knuth’s availability and add an optional requirement for every pair of back-to-back time slots:
 
 ```text
+Optional Requirements to Handle Mutual Exclusivity of Back-to-Back Loud Instruments:
     (('loud instrument', 'F', 8), ('loud instrument', 'F', 9))
     (('loud instrument', 'F', 9), ('loud instrument', 'F', 10))
     (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
@@ -109,4 +111,4 @@ Optional Requirements:
     (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
 ```
 
-That's a bunch more requirements than we needed to model Part I. There is a lot more going on now more slots than students and the mutual exclusivity that affects troublesome pairs and back-to-back loud instruments. Next, we will take a look at the actions, the relationship between the requirements and the actions, and the matrix.
+That's a bunch more requirements than we needed to model Part I. There is a lot more going on now more slots than students and the mutual exclusivity that affects troublesome pairs and back-to-back loud instruments. Each of the 3 requirements __must__ be covered exactly once. The 12 optional requirements __may or may not__ be covered, but if they are, they can only be covered one time. Next, we will take a look at the actions, the relationship between the requirements and the actions, and the matrix.
