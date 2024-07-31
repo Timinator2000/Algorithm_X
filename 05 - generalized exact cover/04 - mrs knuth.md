@@ -60,7 +60,7 @@ Optional Requirements:
 
 You may have noticed that none of the students are available on Friday before 10, so you could reduce the problem space and eliminate the top two optional requirements. However, I don’t recommend doing that currently. I’ll talk about problem space reduction later in the playground. For now, stick to the process as there is a more-than-reasonable chance that later test cases will be more complex and might not be conducive to the same reductions.
 
-Let’s think ahead a bit about the 'instrument on day' requirements. In this simple example, there are three instruments and there is only one day, but we know from the problem statement that Mrs. Knuth might not teach the same number of hours on every day. During any one day of teaching, an instrument might not be taught or it can be taught one time. It cannot be taught more than one time on the same day. We will add these requirements to our list of optional requirements.
+Let’s think ahead a bit about the 'instrument on day' requirements. In this simple example, there are three instruments and there is only one day, but we know from the problem statement that Mrs. Knuth might not teach the same number of hours on every day. During any one day of teaching, an instrument might not be taught or it might be taught one time. It cannot be taught more than one time on the same day. We will add these requirements to our list of optional requirements.
 
 ```
 Optional Requirements:
