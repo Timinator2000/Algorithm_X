@@ -53,9 +53,11 @@ plan:
       - title: Mutually Exclusive Actions
         statement: 05 - generalized exact cover/03 - mutually exclusive actions.md
       - title: Mrs. Knuth - Part II
-        statement: 05 - generalized exact cover/04 - mrs knuth.md
+        statement: 05 - generalized exact cover/04 - mrs knuth - requirements.md
+      - title: Finishing Up Mrs. Knuth - Part II
+        statement: 05 - generalized exact cover/05 - mrs knuth - actions.md
       - title: Your Solver Subclass
-        statement: 05 - generalized exact cover/05 - your solver.md
+        statement: 05 - generalized exact cover/06 - your solver.md
   - title: Your Turn
     plan:
       - title: Mrs. Knuth - Part II
