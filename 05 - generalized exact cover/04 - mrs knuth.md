@@ -75,5 +75,5 @@ Optional Requirements:
 ('instrument on day', 'Fr', 'Flute')
 ```
 
-What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and Ella and identify where we could have a situation we need to avoid.  
+What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid.  
 
