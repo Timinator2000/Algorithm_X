@@ -42,18 +42,18 @@ Mrs. Knuth is available on Fridays at 8, 9, 10, 11 and 1. Three students need to
 Requirements:
     ('student scheduled', 'Drew')
     ('student scheduled', 'Ella')
-    ('student scheduled', 'Lola’)
+    ('student scheduled', 'Lola')
 ```
 
 What about filling the teacher availability slots? We already know some slots might remain empty and we know that is definitely the case here since there are 3 students and 5 teacher slots. Even though slots don’t need to be filled, any slot that is filled can only be filled once. This perfectly fits the definition of an optional requirement.
 
 ```
 Optional Requirements:
-    ('slot filled', 'Fr', 8)
-    ('slot filled', 'Fr', 9)
-    ('slot filled', 'Fr', 10)
-    ('slot filled', 'Fr', 11)
-    ('slot filled', 'Fr', 1)
+    ('slot filled', 'F', 8)
+    ('slot filled', 'F', 9)
+    ('slot filled', 'F', 10)
+    ('slot filled', 'F', 11)
+    ('slot filled', 'F', 1)
 ```
 
 You may have noticed that none of the students are available on Friday before 10, so you could reduce the problem space and eliminate the top two optional requirements. However, I don’t recommend doing that currently. I’ll talk about problem space reduction later in the playground. For now, stick to the process as there is a more-than-reasonable chance that later test cases will be more complex and might not be conducive to the same reductions.
@@ -62,15 +62,51 @@ Let’s think ahead a bit about the 'instrument on day' requirements. In this si
 
 ```
 Optional Requirements:
-    ('slot filled', 'Fr', 8)
-    ('slot filled', 'Fr', 9)
-    ('slot filled', 'Fr', 10)
-    ('slot filled', 'Fr', 11)
-    ('slot filled', 'Fr', 1)
-    ('instrument on day', 'Fr', 'Trombone')
-    ('instrument on day', 'Fr', 'Drums')
-    ('instrument on day', 'Fr', 'Flute')
+    ('slot filled', 'F', 8)
+    ('slot filled', 'F', 9)
+    ('slot filled', 'F', 10)
+    ('slot filled', 'F', 11)
+    ('slot filled', 'F', 1)
+    ('instrument on day', 'F', 'Trombone')
+    ('instrument on day', 'F', 'Drums')
+    ('instrument on day', 'F', 'Flute')
 ```
 
-What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid.  
+What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid. Based on their availability, the only way we could create a problem is by scheduling Ella on Friday at 10 and Drew on Friday at 11. We need to create an optional requirement that can make sure this never happens. It is important to make sure this requirement has two components, similar to the `(A, B)` used in the mutual exclusivity example. We will use a tuple of two tuples. One of the tuples applies to Ella and the other applies to Drew.
 
+```text
+    (('Ella', 'F', 10), ('Drew', 'F', 11))
+```
+
+The last detail we need to handle is making sure not two loud instruments are scheduled back-to-back. Because this is a very simple sample problem, it will be tempting to look at the students and see where two loud instruments might conflict, like what we did above with Emma and Drew. Do your best to avoid that temptation! As the test cases get harder, this will not work. Instead, only focus on Mrs. Knuth’s availability and add an optional requirement for every pair of back-to-back time slots:
+
+```text
+    (('loud instrument', 'F', 8), ('loud instrument', 'F', 9))
+    (('loud instrument', 'F', 9), ('loud instrument', 'F', 10))
+    (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
+```
+
+Putting all the requirements in once place results in the following:
+
+```text
+Requirements:
+    ('student scheduled', 'Drew')
+    ('student scheduled', 'Ella')
+    ('student scheduled', 'Lola')
+
+Optional Requirements:
+    ('slot filled', 'F', 8)
+    ('slot filled', 'F', 9)
+    ('slot filled', 'F', 10)
+    ('slot filled', 'F', 11)
+    ('slot filled', 'F', 1)
+    ('instrument on day', 'F', 'Trombone')
+    ('instrument on day', 'F', 'Drums')
+    ('instrument on day', 'F', 'Flute')
+    (('Ella', 'F', 10), ('Drew', 'F', 11))
+    (('loud instrument', 'F', 8), ('loud instrument', 'F', 9))
+    (('loud instrument', 'F', 9), ('loud instrument', 'F', 10))
+    (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
+```
+
+That's a bunch more requirements than we needed to model Part I. There is a lot more going on now more slots than students and the mutual exclusivity that affects troublesome pairs and back-to-back loud instruments. Next, we will take a look at the actions, the relationship between the requirements and the actions, and the matrix.
