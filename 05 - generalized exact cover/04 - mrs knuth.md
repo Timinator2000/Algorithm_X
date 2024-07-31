@@ -36,4 +36,44 @@ Lola Drums M Tu W Th F 11 1
 Drew Ella
 ```
 
+Mrs. Knuth is available on Fridays at 8, 9, 10, 11 and 1. Three students need to be scheduled. Drew (trombone) is available on Friday at 10, 11 and 1, Ella (flute) is available on Friday at 10 and 1, and Lola (drums) is available on Friday at 11 and 1. We know all students __must__ be scheduled, so these are standard, must-be-covered-exactly-one-time requirements.
+
+```
+Requirements:
+
+('student scheduled', 'Drew')
+('student scheduled', 'Ella')
+('student scheduled', 'Lola’)
+```
+
+What about filling the teacher availability slots? We already know some slots might remain empty and we know that is definitely the case here since there are 3 students and 5 teacher slots. Even though slots don’t need to be filled, any slot that is filled can only be filled once. This perfectly fits the definition of an optional requirement.
+
+```
+Optional Requirements:
+
+('slot filled', 'Fr', 8)
+('slot filled', 'Fr', 9)
+('slot filled', 'Fr', 10)
+('slot filled', 'Fr', 11)
+('slot filled', 'Fr', 1)
+```
+
+You may have noticed that none of the students are available on Friday before 10, so you could reduce the problem space and eliminate the top two optional requirements. However, I don’t recommend doing that currently. I’ll talk about problem space reduction later in the playground. For now, stick to the process as there is a more-than-reasonable chance that later test cases will be more complex and might not be conducive to the same reductions.
+
+Let’s think ahead a bit about the 'instrument on day' requirements. In this simple example, there are three instruments and there is only one day, but we know from the problem statement that Mrs. Knuth might not teach the same number of hours on every day. During any one day of teaching, an instrument might not be taught or it can be taught one time. It cannot be taught more than one time on the same day. We will add these requirements to our list of optional requirements.
+
+```
+Optional Requirements:
+
+('slot filled', 'Fr', 8)
+('slot filled', 'Fr', 9)
+('slot filled', 'Fr', 10)
+('slot filled', 'Fr', 11)
+('slot filled', 'Fr', 1)
+('instrument on day', 'Fr', 'Trombone')
+('instrument on day', 'Fr', 'Drums')
+('instrument on day', 'Fr', 'Flute')
+```
+
+What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and Ella and identify where we could have a situation we need to avoid.  
 
