@@ -74,14 +74,14 @@ Optional Requirements:
     ('instrument on day', 'F', 'Flute')
 ```
 
-What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid. Based on their availability, the only way we could create a problem is by scheduling Ella on Friday at 10 and Drew on Friday at 11. We need to create an optional requirement that can make sure this never happens. It is important to make sure this requirement has two components, similar to the `(A, B)` used in the mutual exclusivity example. We will use a tuple of two tuples. One of the tuples applies to Ella and the other applies to Drew.
+What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid. Based on their availability, the only way we could create a problem is by scheduling Ella on Friday at 10 and Drew on Friday at 11. We need to create an optional requirement that can make sure this never happens. It is important this new requirement have two components, similar to the `(A, B)` used in the previous mutual exclusivity example. We will use a tuple of two tuples. One of the tuples applies to Ella and the other applies to Drew.
 
 ```text
 Optional Requirements to Handle Mutual Exclusivity of Troublesome Pairs:
     (('Ella', 'F', 10), ('Drew', 'F', 11))
 ```
 
-The last detail we need to handle is making sure not two loud instruments are scheduled back-to-back. Because this is a very simple sample problem, it will be tempting to look at the students and see where two loud instruments might conflict, like what we did above with Emma and Drew. Do your best to avoid that temptation! As the test cases get harder, this will not work. Instead, only focus on Mrs. Knuth’s availability and add an optional requirement for every pair of back-to-back time slots:
+The last detail we need to handle is making sure not two loud instruments are scheduled back-to-back. Because this is a very simple sample problem, it will be tempting to look at the students and see where two loud instruments might conflict, like what we did above with Emma and Drew. Do your best to avoid that temptation! As the test cases get harder, this will be more challenging and it just is not necessary. Instead, only focus on Mrs. Knuth’s availability and add an optional requirement for every pair of back-to-back time slots:
 
 ```text
 Optional Requirements to Handle Mutual Exclusivity of Back-to-Back Loud Instruments:
@@ -89,6 +89,8 @@ Optional Requirements to Handle Mutual Exclusivity of Back-to-Back Loud Instrume
     (('loud instrument', 'F', 9), ('loud instrument', 'F', 10))
     (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
 ```
+
+The first requirement states, I can put a loud instrument in the Friday at 8 timeslot __or__ I can put a loud instrument in the Friday at 9 timeslot, but I cannot do both. I can't do both becuase actions in our scheduling domain all involve placing one student with that student's instrument on some day at some time. Since the requirement may only be covered once, either the first action could happen or the second action could happen, not both.
 
 Putting all the requirements in once place results in the following:
 
