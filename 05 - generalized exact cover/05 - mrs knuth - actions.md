@@ -2,7 +2,7 @@
 
 Actions in Mrs. Knuth - Part II are identical in format to actions in Mrs. Knuth - Part I. One possible action is needed for each student for each day/hour of the student’s availability. The possible actions in our sample are:
 
-```python
+```text
 ('place student', 'Drew', 'Trombone', 'F', 10)
 ('place student', 'Drew', 'Trombone', 'F', 11)
 ('place student', 'Drew', 'Trombone', 'F', 1)
@@ -14,7 +14,7 @@ Actions in Mrs. Knuth - Part II are identical in format to actions in Mrs. Knuth
 
 Next, we identify the requirements satisfied by each of those actions. I’ll add the full list of requirements and optional requirements so that the next segment captures a full model of the sample problem for Mrs. Knuth – Part II.
 
-```python
+```text
 Requirements:
     ('student scheduled', 'Drew')
     ('student scheduled', 'Ella')
