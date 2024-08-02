@@ -59,7 +59,7 @@ plan:
       - title: Mrs. Knuth - Part II - Matrix
         statement: 05 - generalized exact cover/06 - mrs knuth - matrix.md
       - title: Your Solver Subclass
-        statement: 05 - generalized exact cover/06 - your solver.md
+        statement: 05 - generalized exact cover/07 - your solver.md
   - title: Your Turn
     plan:
       - title: Mrs. Knuth - Part II
