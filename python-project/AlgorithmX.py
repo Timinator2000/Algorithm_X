@@ -1,10 +1,16 @@
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
-#  (DLX Based Algorithm X Solver Last Revised 06/02/2024)
+#  (DLX Based Algorithm X Solver Last Revised 08/02/2024)
 #
 #   https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X
 #
 #  June 02, 2024 - history added to allow subclasses to make adaptations for multiplicity.
 #                - giving this Solver similar functionality to Knuth's Algorithm M.
+#
+#  August 02, 2024 - abstracted history into a single call to self._remember()
+#                  - added self.solution_count
+#                  - self.process_solution can now set self.solution_is_valid to False
+#                    and the solution will not be part of the full solution set.
+#                  - self.solution_is_valid automatically set to True upon backtracking
 #
 
 #  To study the implementation of Algorithm X, I originally used the following write-up
@@ -167,6 +173,7 @@ class AlgorithmXSolver():
 
         # The list of actions (rows) that produce the current path through Matrix A.
         self.solution = []
+        self.solution_count = 0
         
         # A history can be added to a subclass to allow Algorithm X to handle "multiplicity".
         # In the basic Solver, nothing is ever put into the history. A subclass can override
@@ -239,7 +246,9 @@ class AlgorithmXSolver():
             
         if best_column == self.matrix_a_root:
             self._process_solution()
-            yield self.solution
+            if self.solution_is_valid:
+                self.solution_count += 1
+                yield self.solution
         else:
 
             # Build a list of all actions (rows) that cover the chosen requirement (column).
@@ -263,6 +272,9 @@ class AlgorithmXSolver():
                     for s in self.solve():
                         yield s
                 self.deselect(node=node)
+
+                # All backtracking results in going back to a solution that is valid.
+                self.solution_is_valid = True
 
             self.history.pop()
 
@@ -301,6 +313,14 @@ class AlgorithmXSolver():
         if title:
             pass
         
+
+    #  MEMORY
+    def _remember(self, item_to_remember: tuple) -> None:
+        if item_to_remember in self.history[-1]:
+            self.solution_is_valid = False
+        else:
+            self.history[-1].add((item_to_remember))
+
         
     #  In some cases it may be beneficial to have Algorithm X try certain paths through Matrix A.
     #  This can be the case when there is reason to believe certain actions have a better chance than
@@ -353,5 +373,3 @@ class AlgorithmXSolver():
     #  considers valid, but ultimate validity requires the solution passing some last bit of logic.
     def _process_solution(self):
         pass
-
-
