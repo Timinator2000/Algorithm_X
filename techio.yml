@@ -44,7 +44,7 @@ plan:
         statement: 04 - your turn/06 - constrained latin squares.md
       - title: Dominoes Solver
         statement: 04 - your turn/07 - dominoes solver.md
-      - title: Dominoes Solver
+      - title: Shikaku Solver
         statement: 04 - your turn/08 - shikaku solver.md
   - title: Generalized Exact Cover
     plan:
