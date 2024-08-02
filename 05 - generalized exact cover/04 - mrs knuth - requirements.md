@@ -74,7 +74,7 @@ Optional Requirements:
     ('instrument on day', 'F', 'Flute')
 ```
 
-What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid. Based on their availability, the only way we could create a problem is by scheduling Ella on Friday at 10 and Drew on Friday at 11. We need to create an optional requirement that can make sure this never happens. It is important this new requirement have two components, similar to the `(A, B)` used in the previous mutual exclusivity example. We will use a tuple of two tuples. One of the tuples applies to Ella and the other applies to Drew.
+What about Drew and Ella being a troublesome pair? We need to look at the availability of Drew and and the availability of Ella and identify where we could have a situation we need to avoid. Based on their availability, the only way we could create a problem is by scheduling Ella on Friday at 10 and Drew on Friday at 11. We need to create an optional requirement that can make sure this never happens. It is important this new requirement have two components, similar to the `(A, C)` used in the previous mutual exclusivity example. We will use a tuple of two tuples. One of the tuples applies to Ella and the other applies to Drew.
 
 ```text
 Optional Requirements to Handle Mutual Exclusivity of Troublesome Pairs:
