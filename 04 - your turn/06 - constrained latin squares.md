@@ -14,10 +14,21 @@ You will also need to handle grids of different sizes in the same puzzle. In all
 
 # Counting Multiple Solutions
 
-This is the first puzzle we have encountered where no single solution has an meaningful importance. Rather, it is only necessary to count the solutions. Keep it simple:
+This is the first puzzle we have encountered where no single solution has an meaningful importance. Rather, it is only necessary to count the solutions. You always have the option to keep it simple:
 
 ```python
 count = 0
 for solution in solver.solve():
     count += 1
+
+print(count)
+```
+
+AlgorithmXSolver does automatically counts the number of solutions is returns. You still need to loop through all the solutions due to the nature of the generator used to return solutions one-by-one, but you can then access the `solution_count` attribute.
+
+```python
+for solution in solver.solve():
+    pass
+
+print(solver.solution_count)
 ```
