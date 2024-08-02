@@ -1,6 +1,6 @@
 # Mrs Knuth Part II - Actions
 
-Actions in Mrs. Knuth - Part II are identical in format to actions in Mrs. Knuth - Part I. One possible action is needed for each student for each day/hour of the student’s availability. The possible actions in our sample are:
+Actions in Mrs. Knuth - Part II are identical in format to actions in Mrs. Knuth - Part I. One possible action is needed for each student for each day/hour of the student’s availability. The possible actions in the sample test case are:
 
 ```text
 ('place student', 'Drew', 'Trombone', 'F', 10)
@@ -12,7 +12,7 @@ Actions in Mrs. Knuth - Part II are identical in format to actions in Mrs. Knuth
 ('place student', 'Lola', 'Drums', 'F', 1)
 ```
 
-Next, we identify the requirements satisfied by each of those actions. I’ll add the full list of requirements and optional requirements so that the next segment captures a full model of the sample problem for Mrs. Knuth – Part II.
+Next, we identify the requirements satisfied by each of those actions. I’ll add the full list of requirements and optional requirements so that the next segment captures a full model of the sample test case for Mrs. Knuth – Part II.
 
 ```text
 Requirements:
