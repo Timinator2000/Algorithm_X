@@ -4,7 +4,9 @@ Puzzle: [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)
 
 Author: [@AllTheKingsMen](https://www.codingame.com/profile/571927d715f15c3dec7693f461e2a63c6671233)
 
-Difficulty: Medium
+Published Difficulty: Medium
+
+Algorithm X Complexity: Straightforward
 
 # Strategy
 
