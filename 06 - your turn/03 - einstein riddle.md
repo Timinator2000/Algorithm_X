@@ -4,8 +4,9 @@ Puzzle: [Einstein's Riddle Solver](https://www.codingame.com/training/hard/einst
 
 Author: [@OroshiX](https://www.codingame.com/profile/045d3b89723c9acafb728c9fd1d8cb297970931)
 
-Difficulty: Hard
+Published Difficulty: Hard
+
+Algorithm X Difficulty:
 
 # Strategy
-
 
