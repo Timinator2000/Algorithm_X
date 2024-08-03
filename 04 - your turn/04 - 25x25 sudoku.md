@@ -4,7 +4,9 @@ Puzzle: [25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
 
 Author: [@yoch](https://www.codingame.com/profile/14a6f9fb972f723d06789c969370ff2e7411725)
 
-Difficulty: Very Hard
+Published Difficulty: Very Hard
+
+Algorithm X Complexity: Should Be Straightforward, but Can Be Challenging (see below)
 
 # Strategy
 
