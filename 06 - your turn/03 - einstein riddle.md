@@ -6,7 +6,7 @@ Author: [@OroshiX](https://www.codingame.com/profile/045d3b89723c9acafb728c9fd1d
 
 Published Difficulty: Hard
 
-Algorithm X Complexity Rating: 
+Algorithm X Complexity:
 
 # Strategy
 
