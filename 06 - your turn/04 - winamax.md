@@ -4,6 +4,6 @@ Puzzle: [Winamax Sponsored Contest](https://www.codingame.com/training/hard/wina
 
 Difficulty: Hard
 
-Algorithm X Complexity Rating: 
+Algorithm X Complexity: 
 
 # Strategy
