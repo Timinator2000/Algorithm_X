@@ -4,7 +4,9 @@ Puzzle: [Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku
 
 Author: [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd2627479878)
 
-Difficulty: Hard
+Published Difficulty: Hard
+
+Algorithm X Complexity: Straightforward
 
 # Strategy
 
