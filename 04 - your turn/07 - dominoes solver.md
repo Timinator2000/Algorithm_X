@@ -4,7 +4,9 @@ Puzzle: [Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solve
 
 Author: [@VilBoub](https://www.codingame.com/profile/bd6706892e49290fb119aa5ddae4238a318297)
 
-Difficulty: Hard
+Published Difficulty: Hard
+
+Algorithm X Complexity: A Reasonable Challenge
 
 # Strategy
 
