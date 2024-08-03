@@ -68,6 +68,14 @@ plan:
         statement: 06 - your turn/01 - mrs knuth part II.md
       - title: n Queens
         statement: 06 - your turn/02 - n queens.md
+      - title: Einstein's Riddle Solver
+        statement: 06 - your turn/03 - einstein riddle.md
+      - title: Winamax Sponsored Contest
+        statement: 06 - your turn/04 - winamax.md
+      - title: Three Little Piggies
+        statement: 06 - your turn/05 - three little piggies.md
+      - title: Breaking Bifid
+        statement: 06 - your turn/06 - breaking bifid.md
   - title: Multiplicity
     plan:
       - title: Multiplicty Definition
@@ -78,6 +86,38 @@ plan:
         statement: 08 - your turn/01 - mrs knuth part III.md
       - title: Equation Finder
         statement: 08 - your turn/02 - equation finder.md
+      - title: Dumbbells Solver
+        statement: 08 - your turn/03 - dumbbells solver.md
+  - title: Problem Space Reduction
+    plan:
+      - title: Take the Easy Ones
+        statement: 09 - problem space reduction/01 - take the easy ones.md
+  - title: Your Turn
+    plan:
+      - title: There is No Spoon - Episode 2
+        statement: 10 - your turn/01 - no spoon 2.md
+      - title: Suguru Solver
+        statement: 10 - your turn/02 - suguru solver.md
+      - title: High Rise Buildings
+        statement: 10 - your turn/03 - high rise buildings.md
+      - title: Kakuo Solver
+        statement: 10 - your turn/04 - kakuro solver.md
+      - title: Tetris Floor
+        statement: 10 - your turn/05 - tetris floor.md
+  - title: TBD
+    plan:
+      - title: Futoshiki Solver
+        statement: 20 - tbd/01 - futoshiki solver.md
+      - title: Takuzu Solver
+        statement: 20 - tbd/02 - takuzu solver.md
+      - title: Hitori Solver
+        statement: 20 - tbd/03 - hitori solver.md
+      - title: Killer Sudoku
+        statement: 20 - tbd/04 - killer sudoku.md
+      - title: Killer Sudoku Extreme
+        statement: 20 - tbd/05 - killer sudoku extreme.md
+      - title: Assorted Rectangular Pieces
+        statement: 20 - tbd/06 - assorted rectangular pieces.md
 
 projects:
   python:
