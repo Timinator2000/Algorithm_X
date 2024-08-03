@@ -106,7 +106,7 @@ plan:
         statement: 10 - your turn/04 - kakuro solver.md
       - title: Tetris Floor
         statement: 10 - your turn/05 - tetris floor.md
-  - title: TBD
+  - title: TBD - Need to Place in Playground
     plan:
       - title: Futoshiki Solver
         statement: 20 - tbd/01 - futoshiki solver.md
