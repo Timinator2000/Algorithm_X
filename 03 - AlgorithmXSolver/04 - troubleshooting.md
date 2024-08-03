@@ -20,7 +20,7 @@ When printing the requirements and actions, I suggest doing it right before you 
 
 It is critical the tuples you use for requirements and actions always line up with each other so you don’t get `KeyError`s when AlgorithmXSolver is setting up the DLX matrix. For instance, ('slot filled', 'Th', 4) is __not__ the same as ('slot filled', 'Thurs', 4). I’m sure that seems obvious, but when you get a `KeyError`, look for places that you might have requirement specs that are supposed to be the same, but are slightly different.
 
-``` python
+```text
 Traceback (most recent call last):
   File "/project/target/part_I_generate_solutions_test.py", line 51, in <module>
     main_program()
