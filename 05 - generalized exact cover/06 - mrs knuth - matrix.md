@@ -6,7 +6,7 @@ The matrix below shows which requirements are satisfied by each action. Mrs. Knu
 ![Mrs. Knuth Part II Model](KnuthPartIIModel.png)
 
 <BR>
-In the next matrix, the rows that make up a solution are highlighted. It is very easy to see columns that really are not necessary. Eventually, it may be important to optimize your matrix where possible, but you can trust me for now, Algorithm X quickly handles _all_ Mrs. Knuth test cases without any effort to make sure empty columns have been eliminated.
+In the next matrix, the rows that make up the only solution are highlighted. It is very easy to see columns that are not necessary since they are not covered by any rows. Eventually, it may be important to optimize your matrix where possible, but you can trust me for now, Algorithm X quickly handles _all_ Mrs. Knuth test cases without any effort to make sure empty columns have been eliminated.
 <BR><BR>
 
 ![Mrs. Knuth Part II Solution](KnuthPartIISolution1.png)
