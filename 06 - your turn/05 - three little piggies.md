@@ -6,6 +6,6 @@ Author: [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd
 
 Published Difficulty: Hard
 
-Algorithm X Complexity Rating: 
+Algorithm X Complexity: 
 
 # Strategy
