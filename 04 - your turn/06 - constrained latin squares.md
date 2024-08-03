@@ -4,7 +4,9 @@ Puzzle: [Constrained Latin Squares](https://www.codingame.com/training/medium/co
 
 Author: [@darkhorse64](https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292)
 
-Difficulty: Medium
+Published Difficulty: Medium
+
+Algorithm X Complexity: Straightforward
 
 # Strategy
 
