@@ -88,12 +88,12 @@ plan:
         statement: 08 - your turn/02 - equation finder.md
       - title: Dumbbells Solver
         statement: 08 - your turn/03 - dumbbells solver.md
-  - title: Advanced Concepts
+  - title: Advanced Techniques
     plan:
       - title: Problem Space Reduction
-        statement: 09 - advanced concepts/01 - problem space reduction.md
+        statement: 09 - advanced techniques/01 - problem space reduction.md
       - title: Requirements Outside the Matrix
-        statement: 09 - advanced concepts/02 - reqs outside the matrix.md
+        statement: 09 - advanced techniqes/02 - reqs outside the matrix.md
   - title: Your Turn
     plan:
       - title: There is No Spoon - Episode 2
