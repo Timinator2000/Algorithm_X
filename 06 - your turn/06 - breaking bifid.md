@@ -6,6 +6,6 @@ Author: [@therealbeef](https://www.codingame.com/profile/ecad91b9a50d51a3d9515d3
 
 Published Difficulty: Hard
 
-Algorithm X:
+Algorithm X Complexity:
 
 # Strategy
