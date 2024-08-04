@@ -51,6 +51,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
                     actions[action] += [me for me in me_requirements if (student name, day, hour) in me]
 
                     # Use a list comprehension to add any applicable loud instrument ME requirements.
+                    # This is why the class variable was added above.
                     if the student plays a loud instrument
                         actions[action] += [me for me in me_requirements if ('loud instrument', day, hour) in me]
 
