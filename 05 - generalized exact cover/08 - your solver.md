@@ -13,7 +13,7 @@ __With my AlgorithmXSolver, you never need to add extra rows as is suggested in 
 In the genreal sense, your new solver subclass is now going to take the following form:
 
 ```python
-class YourNewSolver(AlgorithmXSolver):
+class MrsKnuthPartIISolver(AlgorithmXSolver):
 
     def __init__(self, arguments):
 
@@ -28,3 +28,5 @@ class YourNewSolver(AlgorithmXSolver):
 Next, I will walk through building a hard-coded MrsKnuthPartIISolver
 
 # Build the Requirements
+
+@[Use Algorithm X to find a schedule for Mrs. Knuth Part II]({"stubs": ["part_II_solver.py"], "command": "python3 part_I_solver_test.py"})
