@@ -6,6 +6,6 @@ Adding optional requirements to your solver is as easy passing a third argument 
 
 The next paragraph in the Wikipedia article goes on to explain:
 
-But Knuth goes on to explain that it is better working with the generalized problem directly, because the generalized algorithm is simpler and faster: __A simple change to his Algorithm X allows secondary columns to be handled directly.__ [emphasis added]
+>But Knuth goes on to explain that it is better working with the generalized problem directly, because the generalized algorithm is simpler and faster: __A simple change to his Algorithm X allows secondary columns to be handled directly.__ [emphasis added]
 
 __With my AlgorithmXSolver, you never need to add extra rows
