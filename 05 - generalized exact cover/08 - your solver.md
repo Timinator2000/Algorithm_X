@@ -10,3 +10,21 @@ The next paragraph in the Wikipedia article goes on to explain:
 
 __With my AlgorithmXSolver, you never need to add extra rows as is suggested in the first paragraph. Coud you? Yes, you could. You could add the extra rows and only use the requirements argument. You could do some of both. However, I don’t recommend any of that. Conceptually, problems have requirements (primary constraints) and optional requirements (secondary constraints). I recommend always keeping them separate, passing them to the AlgorithmXSolver constructor separately, and letting the AlgorithmXSolver handle the needed algorithmic changes.__
 
+In the genreal sense, your new solver subclass is now going to take the following form:
+
+```python
+class YourNewSolver(AlgorithmXSolver):
+
+    def __init__(self, arguments):
+
+        requirements = list()
+        optional_requirements = list()
+
+        actions = dict()
+
+        super().__init__(requirements, actions, optional_requirements)
+```
+
+Next, I will walk through building a hard-coded MrsKnuthPartIISolver
+
+# Build the Requirements
