@@ -55,6 +55,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
 
         # Now that relationships between requirements and actions have been identified, make sure the
         # ME requirements are properly included with the rest of the optional requirements.
+
         optional_requirements += me_requirements 
 
         super().__init__(requirements, actions, optional_requirements)
