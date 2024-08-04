@@ -1,21 +1,21 @@
 # Constraining the Realm of Possibility
 
-I have chosen to use the word “requirement”, but you will often see the word “constraint” used with Algorithm X. Each word is powerful in its own way. I want to briefly demonstrate where the word “constraint” really helps us understand the big picture of Algorithm X.
+Could you use the solver you wrote for Mrs. Knuth – Part I to solve this new Part II? You sure could., but that solver doesn’t know anything about Troublesome Pairs and Loud Instruments. If you used that original solver, solutions found by Algorithm X would simply need to be checked after they were generated. The puzzle guarantees that every test case has a unique solution, so you could stop checking solutions as soon as you found the proper one, but, in the worst-case scenario, here are the numbers of solutions you might have to check in order to find the proper solution.
 
-Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day for any instrument. An alternate approach to what was discussed above might be to build all possible schedules and then check each schedule to see if any day has a repeated instrument. Because Algorithm X is _less constrained_, it will generate many solutions that eventually get eliminated when the days are checked for duplicate instrument lessons.
+Test Case 1 - 3
+Test Case 2 - 10
+Test Case 3 - 27
+Test Case 4 - 94
+Test Case 5 - 290
+Test Case 6 - 362
+Test Case 7 - 5578
+Test Case 8 - 114
+Test Case 9 - 7738
+Test Case 10 - 25281
+Test Case 11 – 65887
 
-How many solutions get eliminated? Because all test cases in Mrs. Knuth - Part I are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want to make unless we look at how many solutions need to be checked.
+The execution times required to find and count all these solutions are significantly higher than the time it takes Algorithm X to completely process the matrix and find the unique solution. When I say “completely process the matrix”, I mean that I am __not__ using a `break` statement to stop Algorithm X after if finds the first solution. After finding the first solution, Algorithm X continues searching for a second solution until it has exhausted all options.
 
-Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of these possible solutions would need to be checked to make sure no instrument is taught more than once on the same day!
+My analysis simply counts the solutions that need to be tested. None of the time required to check those solutions has even been included. Even the most efficient checking code would need to be executed up to 65,887 times to find the correct solution for Test Case 11.
 
-* Test Case 3 - 96 possible solutions
-
-* Test Case 4 - 1,818 possible solutions
-
-* Test Case 5 - 11,414 possible solutions
-
-* Test Case 6 - 130,235 possible solutions
-
-* Test Case 7 – 241,460,379 possible solutions
-
-There is a moral to this story. It is best to restrict Algorithm X as much as possible with constraints (requirements). You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but, by maximizing the knowledge passed to Algorithm X, you will probably be rewarded with a significantly smaller set of possible solutions, and in many cases, you will be rewarded with the _only_ valid solution.
+Just like in Mrs. Knuth – Part I, we see there is tremendous power in providing as much knowledge as possible to Algorithm X. Later in this playground, we will work with situations that require additional processing outside of the standard Algorithm X backtracking. For now, I want to emphasize, Algorithm X (and DLX) is specifically designed to handle the backtracking and maximizing the knowledge passed to Algorithm X will maximize the backtracking efficiency and, most likely, the overall problem efficiency.
