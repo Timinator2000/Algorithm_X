@@ -29,4 +29,4 @@ Next, I will walk through building a hard-coded MrsKnuthPartIISolver
 
 # Build the Requirements
 
-@[Use Algorithm X to find a schedule for Mrs. Knuth Part II]({"stubs": ["part_II_solver.py"], "command": "python3 part_I_solver_test.py"})
+@[Use Algorithm X to find a schedule for Mrs. Knuth Part II]({"stubs": ["part_II_solver.py"], "command": "python3 part_II_solver_test.py"})
