@@ -56,12 +56,14 @@ plan:
         statement: 05 - generalized exact cover/03 - mutually exclusive actions.md
       - title: Mrs. Knuth - Part II
         statement: 05 - generalized exact cover/04 - mrs knuth - requirements.md
+      - title: Part I vs Part II Analysis
+        statement: 05 - generalized exact cover/05 - mrs knuth - analysis.md
       - title: Mrs. Knuth - Part II - Actions
-        statement: 05 - generalized exact cover/05 - mrs knuth - actions.md
+        statement: 05 - generalized exact cover/06 - mrs knuth - actions.md
       - title: Mrs. Knuth - Part II - Matrix
-        statement: 05 - generalized exact cover/06 - mrs knuth - matrix.md
+        statement: 05 - generalized exact cover/07 - mrs knuth - matrix.md
       - title: Your Solver Subclass
-        statement: 05 - generalized exact cover/07 - your solver.md
+        statement: 05 - generalized exact cover/08 - your solver.md
   - title: Your Turn
     plan:
       - title: Mrs. Knuth - Part II
@@ -102,7 +104,7 @@ plan:
         statement: 10 - your turn/02 - suguru solver.md
       - title: High Rise Buildings
         statement: 10 - your turn/03 - high rise buildings.md
-      - title: Kakuo Solver
+      - title: Kakuro Solver
         statement: 10 - your turn/04 - kakuro solver.md
       - title: Tetris Floor
         statement: 10 - your turn/05 - tetris floor.md
