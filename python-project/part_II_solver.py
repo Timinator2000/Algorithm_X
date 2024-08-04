@@ -6,8 +6,6 @@ from AlgorithmX import AlgorithmXSolver
 
 class MrsKnuthPartIISolver(AlgorithmXSolver):
 
-    LOUD_INSTRUMENTS = ['Trumpet', 'Trombone', 'Drums']
-
     def __init__(self, teacher_availability, students):
         
         requirements = [('student scheduled', 'Drew'),
