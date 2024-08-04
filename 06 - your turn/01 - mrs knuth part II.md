@@ -32,7 +32,6 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
                            (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))]
 
         # Rather than hard-coding the actions, I will provide more generic pseudocode.
-
         actions = dict()
 
         for each student:
@@ -56,7 +55,6 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
 
         # Now that relationships between requirements and actions have been identified, make sure the
         # ME requirements are properly included with the rest of the optional requirements.
-
         optional_requirements += me_requirements 
 
         super().__init__(requirements, actions, optional_requirements)
