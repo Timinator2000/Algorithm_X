@@ -1,4 +1,5 @@
 from part_II_solver import main_program
+from timinator import CONGRATS
 import random
 
 def send_msg(channel, msg):
@@ -6,4 +7,4 @@ def send_msg(channel, msg):
 
 if __name__ == "__main__":
     main_program()
-    send_msg(f"Mission Accomplished? 🌟", "Hopefully all the actions printed!")
+    send_msg(f"{random.choice(CONGRATS)} 🌟", "Hopefully the actions printed!")
