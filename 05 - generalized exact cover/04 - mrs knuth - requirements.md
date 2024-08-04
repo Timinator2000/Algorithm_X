@@ -115,4 +115,6 @@ Optional Requirements:
     (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
 ```
 
-That is a bunch more requirements than we needed to model Mrs. Knuth - Part I. There is a lot more going on now with more slots than students and the mutual exclusivity that affects troublesome pairs and back-to-back loud instruments. Each of the 3 requirements __must__ be covered exactly once. The 12 optional requirements __may or may not__ be covered, but if they are, they can only be covered one time. Next, we will take a look at the actions, the relationship between the requirements and the actions, and the matrix.
+That is a bunch more requirements than we needed to model Mrs. Knuth - Part I. There is a lot more going on now with more slots than students and the mutual exclusivity that affects troublesome pairs and back-to-back loud instruments. Each of the 3 requirements __must__ be covered exactly once. The 12 optional requirements __may or may not__ be covered, but if they are, they can only be covered one time.
+
+Before we finish our model for Mrs. Knuth - Part II, let's see if we can quantify, just a bit, how much more power is given to Algorithm X by identifying these optional requirements.
