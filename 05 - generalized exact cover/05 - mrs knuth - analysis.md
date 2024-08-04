@@ -26,7 +26,7 @@ Test Case 11 – 65887
 
 The execution times required to find and count all these solutions are significantly higher than the time it takes Algorithm X to completely process the matrix and find the unique solution. When I say “completely process the matrix”, I mean that I am __not__ using a `break` statement to stop Algorithm X after if finds the first solution. To compare total processing time, Algorithm X continues searching for a second solution until it has exhausted all options.
 
-My analysis simply counts the solutions that need to be tested. None of the time required to check those solutions has even been included. Even the most efficient checking code would need to be executed up to 65,887 times to find the correct solution for Test Case 11.
+My analysis simply counts the solutions that need to be tested. None of the time required to check those solutions has been included. Even the most efficient checking code would need to be executed up to 65,887 times to find the correct solution for Test Case 11.
 
 Just like in Mrs. Knuth – Part I, we see there is tremendous power in providing as much knowledge as possible to Algorithm X. Later in this playground, we will work with situations that require additional processing outside of the standard Algorithm X backtracking. For now, I want to emphasize, Algorithm X (and DLX) is specifically designed to handle the backtracking and maximizing the knowledge passed to Algorithm X will maximize the backtracking efficiency and, most likely, the overall problem efficiency.
 
