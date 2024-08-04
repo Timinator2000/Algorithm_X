@@ -1,4 +1,4 @@
-from part_I_generate_solutions import main_program
+from part_I_solver import main_program
 from timinator import CONGRATS
 import random
 
