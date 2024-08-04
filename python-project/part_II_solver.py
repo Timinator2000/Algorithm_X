@@ -69,40 +69,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
         actions[action] = [('student scheduled', 'Lola'),
                            ('slot filled', 'F', 1),
                            ('instrument on day', 'F', 'Drums')]
-
-        
-
-
-        
-
-        actions[action] = [('student scheduled', 'Ayla'),
-                            ('slot filled', 'Th', 2),
-                            ('instrument on day', 'Th', 'Trumpet')]
-        
-        action = ('place student', 'Bob', 'Drums', 'Th', 2)
-        
-        actions[action] = [('student scheduled', 'Bob'),
-                            ('slot filled', 'Th', 2),
-                            ('instrument on day', 'Th', 'Drums')]
-
-        action = ('place student', 'Bob', 'Drums', 'Th', 3)
-        
-        actions[action] = [('student scheduled', 'Bob'),
-                            ('slot filled', 'Th', 3),
-                            ('instrument on day', 'Th', 'Drums')]
-
-        action = ('place student', 'Alex', 'Tuba', 'Th', 2)
-        
-        actions[action] = [('student scheduled', 'Alex'),
-                            ('slot filled', 'Th', 2),
-                            ('instrument on day', 'Th', 'Tuba')]
-
-        action = ('place student', 'Alex', 'Tuba', 'Th', 4)
-        
-        actions[action] = [('student scheduled', 'Alex'),
-                            ('slot filled', 'Th', 4),
-                            ('instrument on day', 'Th', 'Tuba')]
-        
+    
         super().__init__(requirements, actions, optional_requirements)
 
 
