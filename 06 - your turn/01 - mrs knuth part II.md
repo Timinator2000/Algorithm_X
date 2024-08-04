@@ -35,9 +35,9 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
 
         actions = dict()
 
-        for each student
-            for each day in the student's availability
-                for each hour of availability on this day
+        for each student:
+            for each day in the student's availability:
+                for each hour of availability on this day:
                     action = ('place student', student anme, student instrument, day, hour)
                     actions[action] = [('student scheduled', student name),
                                        ('slot filled', day, hour),
