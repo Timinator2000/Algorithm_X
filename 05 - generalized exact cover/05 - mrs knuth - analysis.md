@@ -1,17 +1,27 @@
 # Constraining the Realm of Possibility
 
-Could you use the solver you wrote for Mrs. Knuth – Part I to solve this new Part II? You sure could., but that solver doesn’t know anything about Troublesome Pairs and Loud Instruments. If you used that original solver, solutions found by Algorithm X would simply need to be checked after they were generated. The puzzle guarantees that every test case has a unique solution, so you could stop checking solutions as soon as you found the proper one, but, in the worst-case scenario, here are the numbers of solutions you might have to check in order to find the proper solution.
+Could you use the solver you wrote for Mrs. Knuth – Part I to solve this new Part II? You sure could, but your Part I solver doesn’t know anything about Troublesome Pairs and Loud Instruments. If you used that original solver, solutions found by Algorithm X would simply need to be checked after they were generated. The puzzle guarantees that every test case has a unique solution, so you could stop checking solutions as soon as you found the proper one, but, in the worst-case scenario, here are the numbers of solutions you might have to check in order to find the proper solution.
 
 Test Case 1 - 3
+
 Test Case 2 - 10
+
 Test Case 3 - 27
+
 Test Case 4 - 94
+
 Test Case 5 - 290
+
 Test Case 6 - 362
+
 Test Case 7 - 5578
+
 Test Case 8 - 114
+
 Test Case 9 - 7738
+
 Test Case 10 - 25281
+
 Test Case 11 – 65887
 
 The execution times required to find and count all these solutions are significantly higher than the time it takes Algorithm X to completely process the matrix and find the unique solution. When I say “completely process the matrix”, I mean that I am __not__ using a `break` statement to stop Algorithm X after if finds the first solution. After finding the first solution, Algorithm X continues searching for a second solution until it has exhausted all options.
