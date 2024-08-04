@@ -52,7 +52,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
 
                     # Use a list comprehension to add any applicable loud instrument ME requirements.
                     if the student plays a loud instrument
-                      actions[action] += [me for me in me_requirements if ('loud instrument', day, hour) in me]
+                        actions[action] += [me for me in me_requirements if ('loud instrument', day, hour) in me]
 
         # Now that relationships between requirements and actions have been identified, make sure the
         # ME requirements are properly included with the rest of the optional requirements.
