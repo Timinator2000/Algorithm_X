@@ -42,4 +42,4 @@ What if Ella wanted 3 lesons? What if each of the students wanted 2 lessons? The
 | 19 - Here Comes the Weekend|2,517|241,632|
 | 20 - Hump Day!|8,297|265,504|
 
-As you can see, the numbers can get pretty significant. To finish Mrs. Knuth - Part III, you will need to properly account for multiplicity in your requirements and your actions. For the latter test cases, you will need to account for duplicate solutions if you hope to finish before timing out. Before we move on to some puzzles, let's see the memory in action.
+As you can see, the numbers can get pretty significant. To finish Mrs. Knuth - Part III, you will need to properly account for multiplicity in your requirements and your actions. For the latter test cases, you will need to account for duplicate solutions if you hope to finish before timing out. In the next section, we'll add memory to the solver and make sure we only get the 2 solutions we expected.
