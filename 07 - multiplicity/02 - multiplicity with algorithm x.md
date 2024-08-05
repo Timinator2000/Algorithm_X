@@ -14,7 +14,7 @@ Drew Ella
 
 Requirements must be binary in Algorithm X. They have either been covered or they have not been covered. It is important to make sure there is no middle ground, such as Emma being scheduled is "half-way covered" because 1 of her 2 lessons has been scheduled and the other still needs to be scheduled.
 
-As problems get more complex, it is often helpful to quickly identify the steps that need to be taken to solve a simply or “toy” version of the problem and the example test case works perfectly. What needs to happen to build a solution?
+As problems get more complex, it is often helpful to quickly identify the steps that need to be taken to solve a simple or “toy” version of the problem and the example test case works perfectly. What needs to happen to build a solution?
 
 1. Drew’s one lesson must be scheduled.
 
