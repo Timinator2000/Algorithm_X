@@ -48,6 +48,7 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
         actions[action] = [('student scheduled', 'Drew', 1),
                            ('slot filled', 'F', 10),
                            ('instrument on day', 'F', 'Trombone'),
+                           (('Drew', 'F', 10), ('Ella', 'F', 11)),
                            (('loud instrument', 'F', 9), ('loud instrument', 'F', 10)),
                            (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))]
 
@@ -55,7 +56,6 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
         actions[action] = [('student scheduled', 'Drew', 1),
                            ('slot filled', 'F', 11),
                            ('instrument on day', 'F', 'Trombone'),
-                           (('Ella', 'F', 10), ('Drew', 'F', 11)),
                            (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))]
 
         action = ('place student', 'Ella', 'Flute', 'M', 8, 1)
@@ -81,12 +81,14 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
         action = ('place student', 'Ella', 'Flute', 'F', 11, 1)
         actions[action] = [('student scheduled', 'Ella', 1),
                            ('slot filled', 'F', 11),
-                           ('instrument on day', 'F', 'Flute')]
+                           ('instrument on day', 'F', 'Flute'),
+                           (('Drew', 'F', 10), ('Ella', 'F', 11))]
 
         action = ('place student', 'Ella', 'Flute', 'F', 11, 2)
         actions[action] = [('student scheduled', 'Ella', 2),
                            ('slot filled', 'F', 11),
-                           ('instrument on day', 'F', 'Flute')]
+                           ('instrument on day', 'F', 'Flute'),
+                           (('Drew', 'F', 10), ('Ella', 'F', 11))]
 
         action = ('place student', 'Lola', 'Drums', 'F', 11, 1)
         actions[action] = [('student scheduled', 'Lola', 1),
