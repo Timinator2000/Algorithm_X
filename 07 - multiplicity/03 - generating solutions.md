@@ -20,6 +20,14 @@ Make sure you scroll to the bottom and click on “run” as there is a quiz aft
 
 @[Count the solutions to Mrs. Knuth - Part III Example Problem]({"stubs": ["part_III_v1.py"], "command": "python3 part_III_v1_test.py"})
 
+# A Bit About the Code
+
+I want you to know it is way harder to hard-code all those requirements and actions than it is to build them algorithmically with loops. I probably had to fix 20+ typos before it worked properly. Proof that algorithms are much more precise than us humans!
+
+Does it make sense where all the requirements come from? `'instrument on day'` requirements had to be added for every day of the week because Mrs. Knuth has availability on all 5 days. There are also a bunch more `'slot filled'` requirements.
+
+Understanding the multiplicity can be challenging. Keep in mind that scheduling a student's first lesson is a different action than scheduling a student's second lesson. That is why Ella now has 6 entries in the actions dictionary even though she only has 3 hours of availability.
+
 # Quiz Time!
 
 ?[How many solutions did Algorithm X find?]
