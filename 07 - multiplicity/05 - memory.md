@@ -8,7 +8,7 @@ I used the word “never” and that is a tiny bit misleading. The Algorithm X m
 
 # Enough Already, Just Show Me How to Fix It!
 
-The AlgorithmXSolver class has a method called `_process_row_selection(self, row)`. Your AlgorithmXSolver subclass needs to override this method and simple direct Algorithm X to “remember” the important details it needs to avoid creating duplicates. In our example problem, each time Algorithm X tries adding a row of the matrix to the solution, we want Algorithm X to remember the `(name, day, hour)` so that it knows not to try this same combination again at this level of the recursion. It is as simple as this:
+The AlgorithmXSolver class has a method called `_process_row_selection(self, row)`. Your AlgorithmXSolver subclass needs to override this method and simply direct Algorithm X to “remember” the important details it needs to avoid creating duplicates. In our example problem, each time Algorithm X tries adding a row of the matrix to the solution, we want Algorithm X to remember the `(name, day, hour)` so that it knows not to try this same combination again at this level of the recursion. It is as simple as this:
 
 ```
     def _process_row_selection(self, row):
