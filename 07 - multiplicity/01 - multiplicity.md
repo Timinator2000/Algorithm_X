@@ -20,7 +20,7 @@ Lola Drums 1 M Tu W Th F 11 1
 Drew Ella
 ```
 
-Ella wants two lessons! How can such a minor change make such an impact on our existing model? Using what we learned in each of the previous two Mrs. Knuth puzzles, we would have identified the following three requirements:
+Ella wants two lessons! How can such a minor change make such an impact on our existing model? Using what we learned in each of the previous two Mrs. Knuth puzzles, we would identify the following three requirements:
 
 ```text
 ('student scheduled', 'Drew')
