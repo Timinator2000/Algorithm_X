@@ -89,7 +89,7 @@ plan:
       - title: The Challenge
         statement: 07 - multiplicity/04 - the challenge.md
       - title: Adding Memory to Algorithm X
-        statement: 07 - multiplicity/04 - memory.md
+        statement: 07 - multiplicity/05 - memory.md
   - title: Your Turn
     plan:
       - title: Mrs. Knuth - Part III
