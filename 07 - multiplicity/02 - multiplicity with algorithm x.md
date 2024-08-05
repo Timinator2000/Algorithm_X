@@ -1,4 +1,4 @@
-# Multiplicity with Algorithm X
+# Requirements Need More Precision
 
 Let's take another look at the example problem:
 
@@ -30,3 +30,6 @@ Hopefully you see that 4 requirements are now needed to make sure these 3 studen
 ```
 
 Now we have a much more complete set of requirements. 4 requirements must be covered, resulting in 4 lessons being scheduled, one for Drew, one for Lola and two for Ella.
+
+# Actions Need More Precision
+
