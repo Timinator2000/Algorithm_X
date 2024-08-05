@@ -50,6 +50,6 @@ Solution 4
    Add Ella/Flute to Mrs. Knuth's schedule on M at 8. This is Ella's second lesson.
 ```
 
-Do you see the problem? Algorithm X considers solution 1 and solution 2 to be different because for solution 1, Ella is doing her first lesson on Monday while in solution 2, Ella is doing her second solution on Monday. We created this problem when we told Algorithm X that scheduling Ella’s first lesson is distinct from scheduling her second lesson.
+Do you see the problem? Algorithm X considers solution 1 and solution 2 to be different because for solution 1, Ella is doing her first lesson on Monday while in solution 2, Ella is doing her second lesson on Monday. We created this problem when we told Algorithm X that scheduling Ella’s first lesson is distinct from scheduling her second lesson.
 
 Fortunately, there is an easy fix!
