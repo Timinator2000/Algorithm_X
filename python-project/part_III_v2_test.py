@@ -7,5 +7,5 @@ def send_msg(channel, msg):
 
 if __name__ == "__main__":
     main_program()
-    # channel = f"{random.choice(CONGRATS)} 🌟"
+    channel = f"{random.choice(CONGRATS)} 🌟"
     send_msg(channel, "So much better without those duplicates, right?")
