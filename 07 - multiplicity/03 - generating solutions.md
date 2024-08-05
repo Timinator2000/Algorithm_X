@@ -20,6 +20,8 @@ Make sure you scroll to the bottom and click on “run” as there is a quiz aft
 
 @[Count the solutions to Mrs. Knuth - Part III Example Problem]({"stubs": ["part_II_solver.py"], "command": "python3 part_II_solver_test.py"})
 
+# Quiz Time!
+
 ?[How many solutions did Algorithm X find?]
 - [ ] None - I was too lazy to click “run”.
 - [ ] 2 – Exactly what I expected!
