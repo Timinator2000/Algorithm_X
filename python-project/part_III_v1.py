@@ -116,5 +116,4 @@ def main_program():
         count += 1
         print(f'Solution {count}')
         for _, name, instrument, day, hour, lesson_num in solution:
-            # print(f'   Add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}.')
-            print(f"   Add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}. This is {name}'s {['first', 'second'][lesson_num - 1]} lesson.")
+            print(f'   Add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}.')
