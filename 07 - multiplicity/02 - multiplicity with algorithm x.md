@@ -49,7 +49,7 @@ Looking at each student’s availability, we initially come up with this list of
 ('place student', 'Lola', 'Drums', 'F', 1)
 ```
 
-If you think through those actions, you realize the action specification does not have enough information. If we schedule Ella on Friday at 11, are we scheduling her first lesson or her second lesson? It is critical that we schedule both her first lesson and her second lesson, but right now, we know way to distinguish which lesson is being scheduled. We need to add a lesson number to our action specification:
+If you think through those actions, you realize the action specification does not have enough information. If we schedule Ella on Friday at 11, are we scheduling her first lesson or her second lesson? It is critical that we schedule both her first and second lesson, but right now, we have no way to distinguish which lesson is being scheduled. We need to add a `lesson number` to our action specification:
 
 ```
 updated action specification = (‘place student’, student name, instrument, day, hour, lesson number)
