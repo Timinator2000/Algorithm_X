@@ -9,12 +9,12 @@ What if Ella wanted 3 lesons? What if each of the students wanted 2 lessons? The
 
 <BR>
 
-| Test Case | Distinct Solutions     | Solutions Found with Duplicates      |
+| Test Case | Distinct Solutions     | Solutions Found if Multiplicity Not Handled     |
 |:--|:----:|:------------------------------------------------------------------:|
 | 1 - 2 Lessons Per Week for Ella|2|4|
 | 2 - 3 Lessons Per Week for Ella|2|12|
-| 3 - |||
-| 4 - |||
+| 3 - 4 Lessons Per Week for Ella|||
+| 4 - Mornings are Better|||
 | 5 - |||
 | 6 - |||
 | 7 - |||
