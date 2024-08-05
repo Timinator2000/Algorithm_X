@@ -86,7 +86,7 @@ plan:
         statement: 07 - multiplicity/02 - multiplicity with algorithm x.md
       - title: Generating Solutions
         statement: 07 - multiplicity/03 - generating solutions.md
-      - title: The Challenge
+      - title: The Multiplicity Challenge
         statement: 07 - multiplicity/04 - the challenge.md
       - title: Adding Memory to Algorithm X
         statement: 07 - multiplicity/05 - memory.md
