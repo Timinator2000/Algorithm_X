@@ -80,7 +80,7 @@ plan:
         statement: 06 - your turn/06 - breaking bifid.md
   - title: Multiplicity
     plan:
-      - title: Multiplicty Definition
+      - title: Emma Wants More Lessons!
         statement: 07 - multiplicity/01 - multiplicity.md
   - title: Your Turn
     plan:
@@ -90,7 +90,7 @@ plan:
         statement: 08 - your turn/02 - equation finder.md
       - title: Dumbbells Solver
         statement: 08 - your turn/03 - dumbbells solver.md
-  - title: Advanced Techniques
+  - title: Additional Techniques
     plan:
       - title: Problem Space Reduction
         statement: 09 - advanced techniques/01 - problem space reduction.md
