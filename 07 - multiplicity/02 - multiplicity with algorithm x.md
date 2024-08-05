@@ -24,7 +24,7 @@ As problems get more complex, it is often helpful to quickly identify the steps 
 
 1. Ella’s second lesson must be scheduled.
 
-We now see four requirements are needed to make sure these three students are properly scheduled. More precisely, a requirement specification now needs more than just a name. It also needs to identify which lesson has been scheduled. Is it the student’s first lesson? Second lesson? Third lesson? Let’s add lesson number to each requirement specification.
+We now see four requirements are needed to make sure these three students are properly scheduled. More precisely, a requirement specification now needs more than just a name. It also needs to identify which lesson has been scheduled. Is it the student’s first lesson? Second lesson? Third lesson? Let’s add `lesson number` to each requirement specification.
 
 ```text
 ('student scheduled', 'Drew', 1)
