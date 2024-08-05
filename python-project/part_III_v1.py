@@ -37,7 +37,7 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
                                  ('instrument on day', 'F', 'Trombone'),
                                  ('instrument on day', 'F', 'Drums'),
                                  ('instrument on day', 'F', 'Flute'),
-                                 (('Ella', 'F', 10), ('Drew', 'F', 11)),
+                                 (('Drew', 'F', 10), ('Ella', 'F', 11)),
                                  (('loud instrument', 'F', 8), ('loud instrument', 'F', 9)),
                                  (('loud instrument', 'F', 9), ('loud instrument', 'F', 10)),
                                  (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))]
