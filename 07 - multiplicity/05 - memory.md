@@ -1,7 +1,22 @@
 # Making Algorithm X Smarter About Duplicates
 
-Algorithm X doesn't know that trying Ella's first lesson on Monday at 8 is exactly the same as trying Ella's second lesson on Monday at 8. Remember, Algorithm X is a backtracking algorithm.
+Algorithm X doesn't know that trying Ella's first lesson on Monday at 8 is exactly the same as trying Ella's second lesson on Monday at 8. Remember, Algorithm X is a backtracking algorithm and backtracking involves trying all possibilities, one-by-one. Whenever a dead-end is found, the algorithm backtracks and tries the next option. In our example, trying Ella’s first lesson on Monday at 8 and trying Ella’s second lesson on Monday at 8 are both options.
 
+The solution is to use the AlgorithmXSolver’s built-in memory. We need Algorithm X to __remember__ that it already tried Ella on Monday at 8. In our case, it worked, but even if it didn’t work, we want Algorithm X to make sure it never again tries Ella on Monday at 8.
+
+I used the word “never” and that is a tiny bit misleading. The Algorithm X memory mirrors the process of recursive backtracking. Each level deeper in the recursion adds a new compartment to the memory. Each time Algorithm X backtracks, the most recent compartment is discarded. The closer you get to the root of the recursion, the smaller the size of memory. The deeper Algorithm X goes into the recursion looking for solutions, the more built-up memory it has to check.
+
+# Enough Already, Just Tell Me How to Fix It!
+
+The AlgorithmXSolver class has a method called `_process_row_selection(self, row)`. Your AlgorithmXSolver subclass needs to override this method and simple direct Algorithm X to “remember” the important details it needs to avoid creating duplicates. In our example problem, each time Algorithm X tries adding a row of the matrix to the solution, we want Algorithm X to remember the `(name, day, hour)` so that it knows not to try this same combination again at this level of the recursion. It is as simple as this:
+
+```
+    def _process_row_selection(self, row):
+        _, name, instrument, day, hour, lesson_num = row
+        self._remember((name, day, hour))
+```
+
+That really is all there is to it. If Algorithm X encounters a `(name, day, hour)` combination that it already has in memory, it will move along to the next option.
 
 # How Important is This?
 
@@ -26,3 +41,5 @@ What if Ella wanted 3 lesons? What if each of the students wanted 2 lessons? The
 | 18 - So Many Options|12,561|200,976|
 | 19 - Here Comes the Weekend|2,517|241,632|
 | 20 - Hump Day!|8,297|265,504|
+
+As you can see, the numbers can get pretty significant. To finish Mrs. Knuth - Part III, you will need to properly account for multiplicity in your requirements and your actions. For the latter test cases, you will need to account for duplicate solutions if you hope to finish before timing out. Before we move on to some puzzles, let's see the memory in action.
