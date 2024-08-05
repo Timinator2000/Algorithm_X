@@ -53,7 +53,7 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
 
         action = ('place student', 'Drew', 'Trombone', 'F', 11, 1)
         actions[action] = [('student scheduled', 'Drew', 1),
-                           ('slot filled', 'F', 11, 1),
+                           ('slot filled', 'F', 11),
                            ('instrument on day', 'F', 'Trombone'),
                            (('Ella', 'F', 10), ('Drew', 'F', 11)),
                            (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))]
