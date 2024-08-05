@@ -33,7 +33,7 @@ Hopefully you see that four requirements are now needed to make sure these three
 ('student scheduled', 'Ella', 2)
 ```
 
-Now we have a much more complete set of requirements. four requirements must be covered, resulting in 4 lessons being scheduled, one for Drew, one for Lola and two for Ella.
+Now we have a much more complete set of requirements. Four requirements must be covered, resulting in four lessons being scheduled, one for Drew, one for Lola and two for Ella.
 
 # Actions Need More Precision
 
