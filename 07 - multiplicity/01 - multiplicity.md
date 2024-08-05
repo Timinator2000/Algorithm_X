@@ -20,7 +20,7 @@ Lola Drums 1 M Tu W Th F 11 1
 Drew Ella
 ```
 
-Ella wants two lessons! How can such a little change make such an impact on our existing algorithms? In each of the previous two Mrs. Knuth puzzles, we would have identified the following three requirements:
+Ella wants two lessons! How can such a little change make such an impact on our existing algorithm? Using what we learned in each of the previous two Mrs. Knuth puzzles, we would have identified the following three requirements:
 
 ```text
 ('student scheduled', 'Drew')
@@ -28,6 +28,6 @@ Ella wants two lessons! How can such a little change make such an impact on our 
 ('student scheduled', 'Lola')
 ```
 
-Until now, requirements needed to be covered exactly once, but now the Emma requirement needs to be covered twice and in future test cases, students are request even more than 2 hours of instruction. Houston, we have a problem.
+Until now, requirements needed to be covered exactly once, but now the Emma requirement needs to be covered twice and in future test cases, students are request even more than 2 hours of instruction. This list of requirements is not sufficient. Remember that requirements can be answer "yes" or "no". We can tell if Ella has been scheduled or not, but we cannot tell if she has been schduled once or twice. This list of requirements is not enough to capture the full scope of the problem.
 
 In his book, [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html), Donald Knuth discusses Algorithm M for handling problems with requirements/constraints that might need to be covered multiple time and I suggest you add learning about Algorithm M to your to-do list. However, this playground is an Algorithm X tutorial and an overarching goal of mine is to explore how much we can accomplish with one, out-of-the-box AlgorithmXSolver!
