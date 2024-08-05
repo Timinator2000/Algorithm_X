@@ -6,7 +6,7 @@ The solution is to use the AlgorithmXSolver’s built-in memory. We need Algorit
 
 I used the word “never” and that is a tiny bit misleading. The Algorithm X memory mirrors the process of recursive backtracking. Each level deeper in the recursion adds a new compartment to the memory. Each time Algorithm X backtracks, the most recent compartment is discarded. The closer you get to the root of the recursion, the smaller the size of memory. The deeper Algorithm X goes into the recursion looking for solutions, the more built-up memory it has to check.
 
-# Enough Already, Just Tell Me How to Fix It!
+# Enough Already, Just Show Me How to Fix It!
 
 The AlgorithmXSolver class has a method called `_process_row_selection(self, row)`. Your AlgorithmXSolver subclass needs to override this method and simple direct Algorithm X to “remember” the important details it needs to avoid creating duplicates. In our example problem, each time Algorithm X tries adding a row of the matrix to the solution, we want Algorithm X to remember the `(name, day, hour)` so that it knows not to try this same combination again at this level of the recursion. It is as simple as this:
 
