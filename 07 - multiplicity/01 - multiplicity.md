@@ -6,7 +6,7 @@ Mrs. Knuth is moving up the ladder at school and she is once again requesting ch
 
 There seems to be a lot of new information in the puzzle, but only this key paragraph affects our Algorithm X approach:
 
-_Mrs. Knuth has received some wonderful news! This summer, she will only be working with a handful of honor students. Although she'll have many fewer students, each student is now allowed to request multiple hours of instruction per week. This creates a situation where many potential schedules exist. Based on her preferences, Mrs. Knuth needs you to find the best schedule possible._
+_Mrs. Knuth has received some wonderful news! This summer, she will only be working with a handful of honor students. Although she'll have fewer students, each student is now allowed to request multiple hours of instruction per week. This creates a situation where many potential schedules exist. Based on her preferences, Mrs. Knuth needs you to find the best schedule possible._
 
 Let's jump right into the example:
 
@@ -28,5 +28,6 @@ Ella wants two lessons! How can such a little change make such an impact on our 
 ('student scheduled', 'Lola')
 ```
 
-Up until now, requirements needed to be covered exactly once, but now the Emma requirement needs to be covered twice. Houston, we have a problem.
+Until now, requirements needed to be covered exactly once, but now the Emma requirement needs to be covered twice and in future test cases, students are request even more than 2 hours of instruction. Houston, we have a problem.
 
+In his book, [The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html), Donald Knuth discusses Algorithm M for handling problems with requirements/constraints that might need to be covered multiple time and I suggest you add learning about Algorithm M to your to-do list. However, this playground is an Algorithm X tutorial and an overarching goal of mine is to explore how much we can accomplish with one, out-of-the-box AlgorithmXSolver!
