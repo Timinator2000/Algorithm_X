@@ -36,4 +36,4 @@ Understanding the multiplicity can be challenging. Keep in mind that scheduling 
 - [x] 4 – Is Algorithm X broken?
 - [  ] 37 – Ella just stopped by and bumped her request to 5 lessons per week.
 
-Did you get the result you expected? Either way, don’t worry. In the next section, we’ll discuss how to teach Algorithm X to do better.
+Did you get the result you expected? Either way, don’t worry. In the two sections, we will dig deeper into what is happening and discuss how to teach Algorithm X to do better.
