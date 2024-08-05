@@ -84,6 +84,8 @@ plan:
         statement: 07 - multiplicity/01 - multiplicity.md
       - title: Multiplicity with Algorithm X
         statement: 07 - multiplicity/02 - multiplicity with algorithm x.md
+      - title: Generating Solutions
+        statement: 07 - multiplicity/03 - generating solutions.md
   - title: Your Turn
     plan:
       - title: Mrs. Knuth - Part III
