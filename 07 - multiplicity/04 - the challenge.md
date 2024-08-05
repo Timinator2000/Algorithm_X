@@ -1,6 +1,6 @@
 # Duplicate Solutions
 
-Here is the output from that previous code block:
+Here is the output from the previous code block:
 
 ```text
 Solution 1
