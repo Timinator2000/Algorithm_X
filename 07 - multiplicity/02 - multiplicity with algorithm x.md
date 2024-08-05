@@ -16,8 +16,11 @@ Requirements must be binary in Algorithm X. They have either been covered or the
 As problems get more complex, it is often helpful to quickly identify the steps that need to be taken to solve a simply or “toy” version of the problem and the example test case works perfectly. What needs to happen to build a solution?
 
 1 Drew’s one lesson must be scheduled.
+
 1 Lola’s one lesson must be scheduled.
+
 1 Emma’s first lesson must be scheduled.
+
 1 Emma’s second lesson must be scheduled.
 
 Hopefully you see that 4 requirements are now needed to make sure these 3 students are properly scheduled. More precisely, a requirement specification now needs more than just a name. It also needs to identify which lesson has been scheduled. Is it the student’s first lesson? Second lesson? Third lesson? Let’s add lesson number to each requirement specification.
