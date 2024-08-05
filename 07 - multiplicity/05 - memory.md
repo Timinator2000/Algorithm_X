@@ -1,6 +1,6 @@
 # Making Algorithm X Smarter About Duplicates
 
-
+Algorithm X doesn't know that trying Ella's first lesson on Monday at 8 is exactly the same as trying Ella's second lesson on Monday at 8. Remember, Algorithm X is a backtracking algorithm.
 
 
 # How Important is This?
