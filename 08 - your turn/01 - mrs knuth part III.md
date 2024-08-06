@@ -4,7 +4,7 @@ You already have everything you need to instruct Algorithm X to find scheduling 
 
 Your code will need to evaluate a bunch of scheduling options and score each option. In order to keep track of the current best score and the current best option, let’s create a couple of new attributes in your subclass constructor.
 
-```
+```python
 class MrsKnuthPartIIISolver(AlgorithmXSolver):
 
     def __init__(self, teacher_availability, students, troublesome_pairs):
@@ -31,7 +31,7 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
 What is that second method definition? Each time Algorithm X finds a potential solution, the method `_process_solution(self)` is called before the `yield` statement sends that solution to the code looping through solutions. (You will have to look through the AlgorithmXSolver code if you want to see where solutions are yielded.) If you would like to use this built-in functionality, you simply override this method and add your specific scoring logic. Your code should look something like this:
 
 
-```
+```python
     def _process_solution(self):
 
         score = 0
