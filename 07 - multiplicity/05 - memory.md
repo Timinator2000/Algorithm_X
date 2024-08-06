@@ -16,7 +16,13 @@ The AlgorithmXSolver class has a method called `_process_row_selection(self, row
         self._remember((name, day, hour))
 ```
 
-That really is all there is to it. If Algorithm X encounters a `(name, day, hour)` combination that it already has in memory, it will move along to the next option.
+That really is all there is to it. If Algorithm X encounters a `(name, day, hour)` combination that it already has in memory, it will move along to the next option. Of course, because `instrument` and `lesson num` are not used, it is more common to see the unpacking done like this:
+
+```
+    def _process_row_selection(self, row):
+        _, name, _, day, hour, _ = row
+        self._remember((name, day, hour))
+```
 
 # How Important is This?
 
