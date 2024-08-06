@@ -50,4 +50,4 @@ What is that second method definition? Each time Algorithm X finds a potential s
             self.best_solution = self.solution.copy()
 ```
 
-Hopefully, that is enough to get you going in the right direction. There is still plenty of work to be done on your scoring algorithm, generating a visual of the best schedule and printing the scoring intermediate steps. You've got this!
+That is enough to get you going in the right direction. There is still plenty of work to be done on your scoring algorithm, generating a visual of the best schedule and printing the scoring intermediate steps. You've got this!
