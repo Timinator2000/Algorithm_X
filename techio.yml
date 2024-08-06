@@ -44,8 +44,12 @@ plan:
         statement: 04 - your turn/06 - constrained latin squares.md
       - title: Dominoes Solver
         statement: 04 - your turn/07 - dominoes solver.md
+  - title: Skill Building - Generating Actions
+    plan:
+      - title: Finding ALL Possibile Actions
+        statement: 045 - generating actions/01 - finding all.md
       - title: Shikaku Solver
-        statement: 04 - your turn/08 - shikaku solver.md
+        statement: 045 - generating actions/02 - shikaku solver.md
   - title: Generalized Exact Cover
     plan:
       - title: Generalized Exact Cover Definition
