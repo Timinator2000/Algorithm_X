@@ -33,21 +33,20 @@ What is that second method definition? Each time Algorithm X finds a potential s
 
 ```
     def _process_solution(self):
-        if self.handle_multiplicity:
 
-            score = 0
-
-            # Your code to score the current solution goes here. The actions that make up the
-            # current solution are stored by your solver subclass in the attribute self.solution.
-            # You can loop through this list of actions, just like we have already done in
-            # Mrs. Knuth - Parts I and II.
-
-            # If the current score is better than the best score, update the best score
-            # and save a copy of the solution as the new best_solution.
-
-            if score > self.best_score:
-                self.best_score = score
-                self.best_solution = self.solution.copy()
+        score = 0
+    
+        # Your code to score the current solution goes here. The actions that make up the
+        # current solution are stored by your solver subclass in the attribute self.solution.
+        # You can loop through this list of actions, just like we have already done in
+        # Mrs. Knuth - Parts I and II.
+    
+        # If the current score is better than the best score, update the best score
+        # and save a copy of the solution as the new best_solution.
+    
+        if score > self.best_score:
+            self.best_score = score
+            self.best_solution = self.solution.copy()
 ```
 
 Hopefully, that is enough to get you going in the right direction. There is still plenty of work to be done on your scoring algorithm, generating a visual of the best schedule and printing the scoring intermediate steps. You've got this!
