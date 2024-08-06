@@ -24,7 +24,7 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
         # need to override this AlgorithmXSolver method
 ```
 
-What is that second method definition? Each time Algorithm X finds a potential solution, the method `_process_solution(self)` is called before the `yield` statement sends that solution to the code looping through solutions. (You will have to look through the AlgorithmXSolver code if you want to see where solutions are generated.) If you would like to use this built in functionality, you simply override this method and add your specific scoring logic. Your code should look something like this:
+What is that second method definition? Each time Algorithm X finds a potential solution, the method `_process_solution(self)` is called before the `yield` statement sends that solution to the code looping through solutions. (You will have to look through the AlgorithmXSolver code if you want to see where solutions are yielded.) If you would like to use this built in functionality, you simply override this method and add your specific scoring logic. Your code should look something like this:
 
 
 ```
