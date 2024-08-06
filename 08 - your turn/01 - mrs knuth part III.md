@@ -20,6 +20,7 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
 
         super().__init__(requirements, actions, optional_requirements)
 
+
     def _process_solution(self):
         # need to override this AlgorithmXSolver method
 ```
