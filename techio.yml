@@ -104,6 +104,8 @@ plan:
         statement: 08 - your turn/02 - equation finder.md
       - title: Dumbbells Solver
         statement: 08 - your turn/03 - dumbbells solver.md
+      - title: There is No Spoon - Episode 2
+        statement: 08 - your turn/04 - no spoon 2.md
   - title: Additional Techniques
     plan:
       - title: Problem Space Reduction
