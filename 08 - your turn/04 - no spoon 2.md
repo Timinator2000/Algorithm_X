@@ -15,7 +15,7 @@ Let’s first talk about Test Cases 1 through 7, 9 and 10. They can all be solve
 Lot’s of challenging multiplicity.
 
 
-Algorithm X will generate multiple solutions for Test Cases 11 and 12 and you will need to find a solution with a __single connected group__ of nodes.
+Algorithm X will generate multiple solutions for Test Cases 11 and 12 and you will need to determine which solution has a __single connected group__ of nodes.
 
 
 
