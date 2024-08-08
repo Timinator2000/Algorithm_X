@@ -20,10 +20,7 @@ Algorithm X doesn’t know how to “divide” things up. Algorithm X is very go
 
 In the Shikaku Sill Building puzzle, the grids start very small and even the largest grid is just the smallest test case from the Shikaku Solver. The goal of the puzzle is to practice enumerating all the possible actions. Let’s do a couple of examples.
 
-?[Given the following grid, how many way can you place a tile with area 9 on the grid such that the 9 is covered?
-    0 0 0
-    0 9 0
-    0 0 0]
+?[Given the following grid, how many way can you place a tile with area 9 on the grid such that the 9 is covered?<BR>0 0 0<BR>0 9 0<BR>0 0 0<BR>]
 - [ ] I have no idea. 
 - [ ] 9
 - [ ] 2 
