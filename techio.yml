@@ -42,14 +42,18 @@ plan:
         statement: 04 - your turn/05 - mini sudoku solver.md
       - title: Constrained Latin Squares
         statement: 04 - your turn/06 - constrained latin squares.md
-      - title: Dominoes Solver
-        statement: 04 - your turn/07 - dominoes solver.md
   - title: Skill Building - Generating Actions
     plan:
       - title: Finding ALL Possibile Actions
         statement: 045 - generating actions/01 - finding all.md
+      - title: Shikaku Skill Builder
+        statement: 045 - generating actions/02 - shikaku skill builder.md
+  - title: Your Turn
+    plan:
       - title: Shikaku Solver
-        statement: 045 - generating actions/02 - shikaku solver.md
+        statement: 048 - your turn/01 - shikaku solver.md
+      - title: Dominoes Solver
+        statement: 048 - your turn/02 - dominoes solver.md
   - title: Generalized Exact Cover
     plan:
       - title: Generalized Exact Cover Definition
