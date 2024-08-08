@@ -27,7 +27,7 @@ In the Shikaku Sill Building puzzle, the grids start very small and even the lar
 - [  ] 37 – Ella just stopped by and bumped her request to 5 lessons per week.
 
 
-?[You have a 3x3 grid with all spaces empty, except a 9 in the middle square. How many different ways can you put a tile with area 9 on the grid so that the 9 in the middle square is covered by the tile?] 
+?[You have a 3x3 grid with all spaces empty, except a 9 in the middle square. How many different ways can you put a tile with area 9 on the grid so that the 9 in the middle square is covered by the tile] 
 - [ ] I have no idea. 
 - [ ] 9
 - [] 2 
