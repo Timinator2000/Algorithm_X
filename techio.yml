@@ -47,7 +47,7 @@ plan:
       - title: Finding ALL Possibile Actions
         statement: 045 - generating actions/01 - finding all.md
       - title: Shikaku Skill Builder
-        statement: 045 - generating actions/02 - shikaku skill builder.md
+        statement: 045 - generating actions/02 - shikaku skill building.md
   - title: Your Turn
     plan:
       - title: Shikaku Solver
