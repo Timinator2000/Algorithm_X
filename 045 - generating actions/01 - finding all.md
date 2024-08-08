@@ -1,11 +1,12 @@
 # Critical Skill
 
-All exact cover problems can be visualized as placing tiles or game pieces on a grid or board to build a solution. For Mrs. Knuth, we have a blank weekly calendar 
+Every exact cover problem I’ve looked at could be visualized as placing tiles or game pieces on a grid or board to build a solution. For Mrs. Knuth has a blank weekly calendar with the unavailable slots greyed out. I have a bunch of tiles. Each tile has a different students name and instrument on it. The task is to place those tiles on the calendar such that all constraints are obeyed and all requirements are satisfied. Every one of those tiles represents one possible action I could take as I try to build a solution.
 
-For that solution to be proper, all constraints must be obeyed and all requirements must be satisfied.
+9x9 Sudoku is pretty easy to visualize since most of us have seen a 9x9 Sudoku grid in the back of an inflight magazine. What are the tiles? We think of completing a Sudoku board with a pen or pencil, but can it be fit into the tile analogy? Sure it can! Consider that you have 81 tiny tiles and 9 of those tiles have a ‘1’ on them, 9 have a ‘2’ on them, etc. Sudoku grids normally start with some numbers already in the grid. Don’t think of these tiles already being in place. Consider that the Sudoku grid has some numbers already “penciled in”. What are you going to do first? Your going to take the appropriate tiles and immediately place them on top of the “penciled in” numbers. 
 
-I call the process of “placing a tile/piece on the grid/board” an action. These actions are the steps that can be taken to build a solution. It is important that an exhaustive list of all possible actions be created and given to Algorithm X so that Algorithm X can find all valid solutions.
+I call the process of “placing a tile/game piece on the grid/board” an action. These actions are the steps that can be taken to build a solution. It is important that an exhaustive list of all possible actions be created and given to Algorithm X so that Algorithm X can find all valid solutions.
 
-Visualizing the grid/board and the tiles/pieces is often a powerful first step when trying to tackle an exact cover problem and build a model for Algorithm X. For many of the puzzles covered later, I will go over how I visualize the problem. This is not a completely objective process, so you might come up with ways that work better for you. Even if we visualize a problem slightly differently, we both still need to come up with an exhaustive list of actions to feed into Algorithm X.
+Visualizing the grid/board and the tiles/pieces is often a powerful first step when trying to tackle an exact cover problem and build a model for Algorithm X. For many of the puzzles covered later, I will go over how I visualize the problem. This is not a completely objective process, so you might come up with ways that work better for you. Even if we visualize a problem differently, we both still need to come up with an exhaustive list of actions to feed into Algorithm X.
 
-You might not believe this, but I have a great puzzle to help you practice coming up with an exhaustive list of actions!
+What we need now is a little practice!
+
