@@ -6,7 +6,22 @@ Author: [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efa
 
 Published Difficulty: Easy
 
-Algorithm X Complexity: A Walk in the Park
+# Visualizing the Problem
 
-# Strategy
+Shikaku is a great place to start because the directions have a decent chance of putting you on a path that might lead to a dead end. According to the Shikaku Solver puzzle specification:
 
+>The objective is to divide the grid into rectangular pieces such that each piece contains exactly one number, and that number represents the area of the rectangle.
+
+That is all true, but “dividing” is not something discussed in terms of visualizing a problem. Let’s look at Shikaku a different way. Consider that you start with an outline of the grid with some numbers penciled in. You also have a large pile of rectangular tiles, each one having a certain width and height, from which you can calculate the area of the tile. Your job is to place tiles on the grid one-by-one, appropriately covering the penciled-in numbers, until the entire grid is covered with tiles.
+
+Algorithm X doesn’t know how to “divide” things up. Algorithm X is very good at finding a subset of a “large pile” of options and it is critical that we give Algorithm X a __complete__ set of “tiles” from which it can pick and choose to build valid solutions.
+
+# Skill Building
+
+In the Shikaku Sill Building puzzle, the grids start very small and even the largest grid is just the smallest test case from the Shikaku Solver. The goal of the puzzle is to practice enumerating all the possible actions. Let’s do a couple of examples.
+
+?[You have a 3x3 grid with all spaces empty, except a 9 in the middle square. How many different ways can you put a tile with area 9 on the grid so that the 9 in the middle square is covered by the tile?] 
+-[ ] I have no idea. 
+-[ ] 9
+-[] 2 
+-[x] 1
