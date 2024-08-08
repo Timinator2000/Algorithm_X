@@ -20,6 +20,8 @@ Algorithm X doesn’t know how to “divide” things up. Algorithm X is very go
 
 In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the Shikaku Solver. The goal of the puzzle is to practice enumerating all the possible actions. Let’s test your understanding.
 
+# Start Out Easy
+
 ```
           0 0 0
           0 9 0
@@ -32,11 +34,16 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 - [ ] 3 
 - [x] 1
 
+# {INSERT SOLUTUION GRAPHIC}
+
+# Width < Length vs Width > Length
+
 ```
           0 2 0 0
           0 0 4 0
           0 0 0 0
 ```
+
 
 ?[Given the grid above, how many way can you place a tile with area 2 on the grid such that the 2 is covered? Remember your tile must cover the 2, but it MUST NOT cover any other number]
 - [ ] I have no idea. 
@@ -44,6 +51,9 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 - [x] 3 
 - [ ] 1
 
+# Ractangles Cannot Cover Two Numbers
+
+# {INSERT SOLUTUION GRAPHIC}
 
 ```
           0 2 0 0
@@ -56,3 +66,9 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 - [x] 4
 - [ ] 2 
 - [ ] 1
+
+# {INSERT SOLUTUION GRAPHIC}
+
+# Wrapping It Up
+
+With this puzzle, the goal is not to cover the grid. The goal is just to identify __every__ rectangle that could be used to build a potential solution. As I said before, Algorithm X is really good at finding a set of actions that make a valid solution, but it cannot do its job unless you give it a full set of possible actions to consider. Hopefull this seems obvious and somewhat easy right now. As the puzzles grow in complexity, this process will get more and more challenging!
