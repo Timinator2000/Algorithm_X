@@ -36,7 +36,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 
 # {INSERT SOLUTUION GRAPHIC}
 
-# 1x2 vs 2x1
+# 2x1 vs 1x2
 
 ```
           0 2 0 0
@@ -69,6 +69,6 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 
 # {INSERT SOLUTUION GRAPHIC}
 
-# Wrapping It Up
+# Ready for the Puzzle!
 
-With this puzzle, the goal is not to cover the grid. The goal is just to identify __every__ rectangle that could be used to build a potential solution. As I said before, Algorithm X is really good at finding a set of actions that make a valid solution, but it cannot do its job unless you give it a full set of possible actions to consider. Hopefull this seems obvious and somewhat easy right now. As the puzzles grow in complexity, this process will get more and more challenging!
+With the Shikaku Skill Builder puzzle, the goal is not to cover the grid. The goal is to identify __every__ rectangle that could be used to build a potential solution. As I said before, Algorithm X is really good at finding a set of actions that make a valid solution, but it cannot do its job unless you give it a full set of possible actions to consider. Hopefull this seems obvious and somewhat easy right now. As the puzzles grow in complexity, this process will get more and more challenging!
