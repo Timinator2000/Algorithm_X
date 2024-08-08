@@ -1,4 +1,4 @@
-# Finding All Actions
+Critical Skill: Generating All Actions
 
 Every exact cover problem I’ve looked at could be visualized as placing tiles or game pieces on a grid or board to build a solution. Mrs. Knuth has a blank weekly calendar with the unavailable slots greyed out. A bunch of tiles need to be placed on calendar. Each tile has a different student name and instrument on it. The task is to place those tiles on the calendar such that all constraints are obeyed and all requirements are satisfied. Every tile represents one possible action that could be taken as part of building a solution.
 
