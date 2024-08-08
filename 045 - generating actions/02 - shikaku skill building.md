@@ -36,7 +36,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 
 # {INSERT SOLUTUION GRAPHIC}
 
-# Width < Length vs Width > Length
+# 1x2 vs 2x1
 
 ```
           0 2 0 0
