@@ -75,7 +75,7 @@ In this second example, rectangles of different widths and heights exist. In the
 - [ ] 2 
 - [ ] 1
 
-In this third example, we see there is one place a 2x2 grid will not work because it covers a second number. Don’t forget to try all combinations of width and height!
+In this third example, we see there is one place a 2x2 grid will not work because it covers a second number. Don’t forget to try all combinations of width and height! Just looking at this grid visually, it is easy to miss the 4x1 rectangle.
 
 <BR>
 
