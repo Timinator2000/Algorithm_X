@@ -18,7 +18,7 @@ Algorithm X doesn’t know how to “divide” things up. Algorithm X is extreme
 
 # Skill Building
 
-In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of [Shikaku Skill Builder]() LINK NEEDED is to practice enumerating all the possible actions. Let’s test your understanding.
+In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of [Shikaku Skill Builder]() __LINK NEEDED__ is to practice enumerating all the possible actions. Let’s test your understanding.
 
 # Start Out Easy
 
