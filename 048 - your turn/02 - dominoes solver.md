@@ -8,9 +8,11 @@ Published Difficulty: Hard
 
 Algorithm X Complexity: A Reasonable Challenge
 
-# Strategy
+# Visualizing the Problem
 
 The goal of Dominoes Solver is to “find the disposition of [the] dominoes”. Did you ever do a color-by-number when you were young? Similar to the picture with numbers in the areas to color, we have a grid with numbers and we need to lay the dominoes down on the grid, making sure the numbers of the dominoes match up with the grid. It seems clear the actions we can take to solve the puzzle are simply putting each domino somewhere on the grid.
+
+# Strategy
 
 How do you distinguish one action from another? Is it enough to say “place a domino at location `(row=0, col=0)` on the grid”. No, it is not. Which domino are you placing at that location? How about “place domino `1-1` at location `(row=0, col=0)`”? That is still not enough! Are you placing the domino horizontally or are you placing the domino vertically?
 
