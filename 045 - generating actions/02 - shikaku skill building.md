@@ -12,7 +12,7 @@ Shikaku is a great place to start because the directions have a decent chance of
 
 >The objective is to divide the grid into rectangular pieces such that each piece contains exactly one number, and that number represents the area of the rectangle.
 
-That is all true, but “dividing” is not something we have discussed in terms of visualizing a problem. Let’s look at Shikaku a different way. Consider that you start with an outline of the grid with some numbers penciled in. You also have a large pile of rectangular tiles, each one having a certain width and height. Your job is to place tiles on the grid one-by-one, appropriately covering the penciled-in numbers with tiles that have the proper area, until the entire grid is covered with tiles.
+That is all true, but “dividing” is not something we have discussed in terms of visualizing an exact cover problem. Let’s look at Shikaku a different way. Consider that you start with an outline of the grid with some numbers penciled in. You also have a large pile of rectangular tiles, each one having a certain width and height. Your job is to place tiles on the grid one-by-one, covering the penciled-in numbers with appropriately tiles (tile area equal to number on grid), until the entire grid is covered with tiles.
 
 Algorithm X doesn’t know how to “divide” things up. Algorithm X is very good at finding a subset of a “large pile” of options and it is critical that we give Algorithm X a __complete__ set of “tiles” from which it can pick and choose to build valid solutions.
 
