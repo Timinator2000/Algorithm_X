@@ -28,7 +28,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
           0 0 0
 ```
 
-?[Given the grid above, how many way can you place a tile with area 9 on the grid such that the 9 is covered?]
+?[Given the grid above, how many ways can you place a tile with area 9 on the grid such that the number 9 is covered?]
 - [ ] I have no idea. 
 - [ ] 4
 - [ ] 3 
@@ -45,7 +45,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 ```
 
 
-?[Given the grid above, how many way can you place a tile with area 2 on the grid such that the 2 is covered? Remember your tile must cover the 2, but it MUST NOT cover any other number]
+?[Given the grid above, how many ways can you place a tile with area 2 on the grid such that the number 2 is covered? Remember your tile must cover the 2, but it MUST NOT cover any other number]
 - [ ] I have no idea. 
 - [ ] 4
 - [x] 3 
@@ -61,7 +61,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
           0 0 0 0
 ```
 
-?[Given the grid above, how many way can you place a tile with area 4 on the grid such that the 4 is covered? Remember your tile must cover the 4, but it MUST NOT cover any other number.]
+?[Given the grid above, how many ways can you place a tile with area 4 on the grid such that the number 4 is covered? Remember your tile must cover the 4, but it MUST NOT cover any other number.]
 - [ ] I have no idea. 
 - [x] 4
 - [ ] 2 
