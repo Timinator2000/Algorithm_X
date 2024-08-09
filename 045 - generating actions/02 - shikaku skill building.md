@@ -8,7 +8,7 @@ Published Difficulty: Easy
 
 # Visualizing the Problem
 
-Shikaku is a great place to start because the directions have a decent chance of putting you on a path that might lead to a dead end. According to the Shikaku Solver puzzle specification:
+Shikaku is a great place to start because the directions have a decent chance of putting you on a path that might lead to a dead end. According to the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle specification:
 
 >The objective is to divide the grid into rectangular pieces such that each piece contains exactly one number, and that number represents the area of the rectangle.
 
