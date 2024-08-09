@@ -36,6 +36,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 
 "Starting out easy" might have been an understatement, right? There are only 3 ways to create a rectangle with area equal to 9: 3x3, 1x9 and 9x1. Since the grid is only 3 squares wide and 3 squares high, the only option is a 3x3 square that covers the entire grid.
 
+<BR>
 ![Start Out Easy Solution](CoverArea9.png)
 
 # 2x1 vs 1x2
@@ -55,6 +56,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 
 In this second example, rectangles of different widths and heights exist. In the puzzle, you will need to find every combination of height and width that creates the proper area and then figure out each location you could put the top-left corner and __only__ cover the number in question.
 
+<BR>
 ![2x1 vs 1x2](CoverArea2.png)
 
 # Ractangles Cannot Cover Two Numbers
@@ -73,6 +75,7 @@ In this second example, rectangles of different widths and heights exist. In the
 
 In this third example, we see there is one place a 2x2 grid will not work because it covers a second number. Don’t forget to try all combinations of width and height!
 
+<BR>
 ![Rectangles Cannot Cover Two Numbers](CoverArea4.png)
 
 # Ready for the Puzzle!
