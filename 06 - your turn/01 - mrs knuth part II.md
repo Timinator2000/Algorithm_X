@@ -42,7 +42,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
                                        ('slot filled', day, hour),
                                        ('instrument on day', day, instrument)]
 
-                    # At this point, only the requirements and option requirements have been
+                    # At this point, only the requirements and optional requirements have been
                     # added to the list. We still need to add ME requirements for potential
                     # troublesome pairs and/or loud instrument conflicts.
 
