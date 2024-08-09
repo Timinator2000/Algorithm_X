@@ -34,7 +34,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 - [ ] 3 
 - [x] 1
 
-# {INSERT SOLUTUION GRAPHIC}
+![Start Out Easy Solution](Cover9.png)
 
 # 2x1 vs 1x2
 
@@ -51,9 +51,9 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 - [x] 3 
 - [ ] 1
 
-# Ractangles Cannot Cover Two Numbers
+![2x1 vs 1x2](Cover2.png)
 
-# {INSERT SOLUTUION GRAPHIC}
+# Ractangles Cannot Cover Two Numbers
 
 ```
           0 2 0 0
@@ -67,7 +67,7 @@ In the Shikaku Skill Builder puzzle, the grids start very small and even the lar
 - [ ] 2 
 - [ ] 1
 
-# {INSERT SOLUTUION GRAPHIC}
+![Rectangles Cannot Cover Two Numbers](Cover4.png)
 
 # Ready for the Puzzle!
 
