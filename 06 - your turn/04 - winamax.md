@@ -12,7 +12,7 @@ __250 XP!!!__ Need I say more? Puzzles on Codingame that offer unusually high XP
 
 # Visualizing the Problem
 
-Let’s start with a quote right from the problem statement:
+Let’s start with a quote from the problem statement:
 
 > In this puzzle, you are given a grid representing a golf course. On each course is a certain amount of balls and an equal amount of holes. The objective is to find the route for each ball to a different hole without their paths ever crossing.
 
