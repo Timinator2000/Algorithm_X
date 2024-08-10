@@ -4,6 +4,6 @@ Puzzle: [Winamax Sponsored Contest](https://www.codingame.com/training/hard/wina
 
 Difficulty: Hard
 
-Algorithm X Complexity: 
+Algorithm X Complexity: Setting Up Algorithm X - Very Reasonable, Enumerating a Complete List of Possible Actions - Your Head Might Hurt!
 
 # Strategy
