@@ -20,7 +20,7 @@ Using the analogy of laying tiles on a grid, it seems pretty obvious the grid is
 
 What are the tiles we can lay down on the grid? It might be tempting to consider each individual ball movement a tile, but that would be similar to considering each square in a Shikaku rectangle a separate tile. In Shikaku, Algorithm X needed a full list of possible rectangles and each one of those rectangles, possibly covering many grid cells, is a tile that can be placed on the grid. Let’s again look to the problem statement for a hint:
 
->The objective is to find the _route_ for each ball to a different hole without their paths ever crossing. (emphasis added).
+>The objective is to find the <u>route</u> for each ball to a different hole without their paths ever crossing. (emphasis added).
 
 Each possible route from a ball to a hole is a tile that could be placed on the grid. Given 5 balls and 5 holes and a bunch of possible routes from the balls to the holes, Algorithm X will find a set of routes where each ball goes “to a different hole without their paths ever crossing”.
 
