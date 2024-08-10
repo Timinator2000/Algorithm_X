@@ -1,10 +1,10 @@
 # Winamax Sponsored Contest
 
-Puzzle: [Winamax Sponsored Contest](https://www.codingame.com/training/hard/winamax-sponsored-contest)
+__Puzzle:__ [Winamax Sponsored Contest](https://www.codingame.com/training/hard/winamax-sponsored-contest)
 
-Difficulty: Hard
+__Difficulty:__ Hard
 
-Algorithm X Complexity: Requirements are Straightforward, Actions are Complex (You May Need Aspirin)
+__Algorithm X Complexity:__ Requirements are Straightforward, Actions are Complex (You May Need Aspirin)
 
 # Big Payoff
 
