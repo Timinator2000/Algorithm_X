@@ -4,9 +4,9 @@ Puzzle: [Winamax Sponsored Contest](https://www.codingame.com/training/hard/wina
 
 Difficulty: Hard
 
-Algorithm X Complexity: Requirements are Straightforward, Actions are Complex (Are You Prone to Headaches?)
+Algorithm X Complexity: Requirements are Straightforward, Actions are Complex (You May Need Aspirin)
 
-# Big Payoff!
+# Big Payoff
 
 __250 XP!!!__ Need I say more? Puzzles on Codingame that offer unusually high XP are always popular. This puzzle is so creative, I am not sure it even needs the high XP.
 
