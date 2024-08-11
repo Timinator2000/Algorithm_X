@@ -18,7 +18,7 @@ Let’s start with a quote from the problem statement:
 
 Using the analogy of laying tiles on a grid, it seems pretty obvious the grid is the map of the golf course given in the input. Per the statement above, the grid will indicate where the holes are and where the balls are. Later in the problem statement, we are told the grid also identifies water hazards and open fairway spaces.
 
-What are the tiles we can lay down on the grid? It might be tempting to consider each individual ball movement a tile, but that would be like considering each square in a Shikaku rectangle a separate tile. In Shikaku, Algorithm X needed a full list of possible rectangles and each one of those rectangles, possibly covering many grid cells, is a tile that can be placed on the grid. Let’s again look to the problem statement for a hint:
+What are the tiles we can lay down on the grid? It might be tempting to consider each individual ball movement a tile, but that is like considering each square in a Shikaku rectangle a separate tile. In Shikaku, Algorithm X needed a full list of possible rectangles and each one of those rectangles, possibly covering many grid cells, is a tile that can be placed on the grid. Let’s again look to the problem statement for a hint:
 
 >The objective is to find the <ins>route</ins> for each ball to a different hole without their paths ever crossing. (emphasis added).
 
