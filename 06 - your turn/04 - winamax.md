@@ -44,5 +44,5 @@ What about the requirement that a "ball [...] cannot stop in a water hazard."? I
 
 # Putting It All Together
 
-Winamax is a great fit for Algorithm X. Once you separate the process of identifying routes and the process of finding a set of routes that exactly matches up the balls to holes, the problem becomes much more manageable than it might have seemed at first. You still need to carefully identify every requirement covered by each route, but when you do, Algorithm X will quickly return a solution.
+Winamax is a great fit for Algorithm X. Once you separate the process of identifying routes and the process of finding a set of routes that exactly matches up the balls to the holes, the problem becomes much more manageable than it might have seemed at first. You still need to carefully identify every requirement covered by each route, but when you do, Algorithm X will quickly return a solution.
 
