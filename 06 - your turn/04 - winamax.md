@@ -40,7 +40,7 @@ To be honest, generating an exhaustive list of routes in this puzzle is harder t
 
 The Winamax problem statement is very well written. From the problem statement excerpt above we know all ball locations must be covered and all hole locations must be covered. What about the requirement that paths never cross? Since any two paths would cross at a single point on the grid, it sounds like any point on the grid that is not a ball or a hole does not need to be covered by any route, but if it is covered, it can only be covered once. That is a pretty straitforward optional requirement.
 
-What about the requirement that a "ball [...] cannot stop in a water hazard."? Is that something Algorithm X needs to know about? No, it is not. This requirement is part of your algorithm that generates all possible routes from balls to holes. A route is not legitimate if any section of that route lands in a water hazard. By the time these routes get to Algorithm X, they need to be propre routes.
+What about the requirement that a "ball [...] cannot stop in a water hazard."? Is that something Algorithm X needs to know about? No, it is not. This requirement is part of your algorithm that generates all possible routes from balls to holes. A route is not legitimate if any section of that route lands in a water hazard. By the time these routes get to Algorithm X, they need to be proper routes.
 
 # Putting It All Together
 
