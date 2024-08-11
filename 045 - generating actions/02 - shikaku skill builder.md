@@ -72,7 +72,7 @@ In this second example, rectangles of different widths and heights exist. In the
 ?[Given the grid above, how many ways can you place a tile with area 4 on the grid such that the number 4 is covered? Remember your tile must cover the 4, but it MUST NOT cover any other number.]
 - [ ] I have no idea. 
 - [x] 4
-- [ ] 2 
+- [ ] 3 
 - [ ] 1
 
 In this third example, we see there is one place a 2x2 grid will not work because it covers a second number. Don’t forget to try all combinations of width and height! Just looking at this grid visually, it is easy to miss the 4x1 rectangle.
