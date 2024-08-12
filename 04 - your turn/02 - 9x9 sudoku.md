@@ -1,12 +1,12 @@
 # Sudoku Solver
 
-Puzzle: [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)
+__Puzzle:__ [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)
 
-Author: [@AllTheKingsMen](https://www.codingame.com/profile/571927d715f15c3dec7693f461e2a63c6671233)
+__Author:__ [@AllTheKingsMen](https://www.codingame.com/profile/571927d715f15c3dec7693f461e2a63c6671233)
 
-Published Difficulty: Medium
+__Published Difficulty:__ Medium
 
-Algorithm X Complexity: Straightforward
+__Algorithm X Complexity:__ Straightforward
 
 # Strategy
 
