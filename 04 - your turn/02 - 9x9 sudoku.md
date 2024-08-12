@@ -6,7 +6,7 @@ __Author:__ [@AllTheKingsMen](https://www.codingame.com/profile/571927d715f15c3d
 
 __Published Difficulty:__ Medium
 
-__Algorithm X Complexity:__ Straightforward
+__Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 # Strategy
 
