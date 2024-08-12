@@ -11,6 +11,7 @@ Algorithm X Complexity: Straightforward
 # Strategy
 
 Sudoku is a great place to start because a Sudoku always comes with a partial solution already in place. Some portion of the grid has already been filled in. Some number of actions have already been taken and are required to be a part of any complete solution.
+
 Many exact cover problems will start with a partial solution and there are a couple of ways to handle that. Let’s take a look at how the known cells are address in [Assaf's Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code.
 
 __Assaf’s technique will NOT currently work with my provided AlgorithmXSolver. It is on my to-do list to add the necessary functionality, but it is not currently available.__ After going through Assaf's code, I will demonstrate how to handle partial solutions with my AlgorithmXSolver.
