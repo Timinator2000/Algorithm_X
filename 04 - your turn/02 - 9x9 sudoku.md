@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 # Strategy
 
-Sudoku is a great place to start because a Sudoku always comes with a partial solution already in place. Some portion of the grid has already been pre-filled. Some number of actions have already been taken and are required to be a part of any complete solution.
+Sudoku is a great place to start because a Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution.
 
 Many exact cover problems will start with a partial solution and there are a couple of ways to handle that. Let’s take a look at how the known cells are address in [Assaf's Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code.
 
