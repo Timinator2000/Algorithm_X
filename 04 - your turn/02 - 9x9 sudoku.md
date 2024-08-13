@@ -16,7 +16,7 @@ Many exact cover problems will start with a partial solution and there are a cou
 
 __Assaf’s technique will NOT currently work with my provided AlgorithmXSolver. It is on my to-do list to add the necessary functionality, but it is not currently available.__ After going through Assaf's code, I will demonstrate how to handle partial solutions with my AlgorithmXSolver.
 
-# Pre-Select Known Actions – à la Ali Assaf
+# Preselect Known Actions – à la Ali Assaf
 
 Assaf first builds a list of requirements (`X`).
 
