@@ -10,13 +10,11 @@ __Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 # Strategy
 
-Sudoku is a great place to start because a Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution.
+Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution.
 
-Many exact cover problems will start with a partial solution and there are a couple of ways to handle that. Let’s take a look at how the known cells are address in [Assaf's Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code.
+Many exact cover problems will start with a partial solution and there are several ways to handle that. Let’s first take a look at how the known cells are addressed in [Assaf's Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code.
 
-__Assaf’s technique will NOT currently work with my provided AlgorithmXSolver. It is on my to-do list to add the necessary functionality, but it is not currently available.__ After going through Assaf's code, I will demonstrate how to handle partial solutions with my AlgorithmXSolver.
-
-# Preselect Known Actions – à la Ali Assaf
+# Option 1: Preselect Known Actions – à la Ali Assaf
 
 Assaf first builds a list of requirements (`X`).
 
@@ -69,44 +67,41 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
         yield grid
 ```
 
-# Restrict Possible Actions – à la [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
+# Option 1:  Preselect Known Actions - à la [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
+You can preselect known actions with my AlgorithmXSolver, just like was done in Assaf’s code, but the syntax is slightly different. To preselect an action, you will call the AlgorithmXSolver `select()` method and pass in the appropriate action as a keyword argument. For a 9x9 Sudoku, the following code will preselect all cells that already have a number penciled in.
 
-I used Assaf’s technique for a while, but I eventually started restricting my possible actions when building my dictionary of actions. For 9x9 Sudoku, I loop through all the cells of the grid. If the cell is empty, I add 9 possible actions. If the cell already has a value, I only add a single action. The pseudocode looks like this:
+```
+        # preselecting cells for a Sudoku should be done right after calling the inherited __init__()
 
-```text
-    for each cell in the grid:
-        if the cell is empty
-            possible values = all possible values
-        else
-            possible values = cell value
+        requirements = []
+        actions = dict()
 
-        for each value in possible values
-            add an action for placing this value in this cell
+        super().__init__(requirements, actions)
+
+        # assume all actions are a tuple formatted as (‘place value’, row , col, value) 
+        for row in range(9):
+            for col in range(9):
+                if grid[row][col] has a number penciled in:
+                    self.select(action=('place value', row, col, grid[row][col]))
+
+```
+# Option 1 Will Not Always Work
+
+Assaf’s technique is simple and straightforward, but it will not always work. It will only work when the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any newly impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
+For example, do solutions exist for the Sudoku board below?
+
+```
+0 0 6 0 0 0 6 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
 ```
 
-Algorithm X will immediately select the actions associated with pre-filled cells because they are the only actions that cover the requirements values be placed in those cells.
-
-__NOTE: If you choose to use my provided AlgorithmXSolver, it is imperative that you restrict the possible actions to truly possible actions, rather than following Assaf’s example of “selecting” certain actions after setting up the problem but before performing the backtracking.__
-
-# A Challenge!
-
-Between Assaf’s code, my AlgorithmXSolver and my suggestions, you should be able to complete the Sudoku Solver puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
-
-[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku)
-<BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
-<BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver)
-
-My challenge to you is to create a solver that works for all 4 Sudoku puzzles on Codingame. After all, the only difference between one Sudoku and another is the size of the grid and the values that can be put in each cell. Let me get you started:
-
-```python
-from typing import List
-
-class SudokuSolver(AlgorithmXSolver):
-
-    def __init__(self, grid: List[List[str]], values: str):
-```
-
-All Sudokus on Codingame have equal width and height, so that is easy enough to determine by the width or height of the grid. It might not be possible to determine all possible values that may be used to fill the grid, so those values need to be explicitly passed in via the `values` parameter.
-
-Good luck!
+You and I can easily see there are two 6s in the first row, so it is impossible to ever create a proper solution. Obviously, this is a toy example, but play along with me.  Assume you want to use Algorithm X to determine if the Sudoku can be solved or not. You first create the requirements and the actions. Then you try to preselect the actions that puts a 6 in row 1, col 3 and the action that puts a 6 in row 1, col 7. As soon as you preselect the first action, the DLX matrix is adjusted and there is no longer an option to put the second 6 in row 1, col 7. You tried to preselect an action that is no longer possible.
+The solution is simple. The solution is to leave Algorithm X in charge. Let’s look at 3 more options, all of which leave Algorithm X completely in charge of managing the DLX matrix, but still accomplish the same preselection process.
 
