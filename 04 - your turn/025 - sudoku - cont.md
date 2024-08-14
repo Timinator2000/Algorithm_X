@@ -37,3 +37,4 @@ I have never used Option 3 as part of an exact cover solution, but you will run 
 
 # Option 4: Give Algorithm X a Partial Problem
 
+I NEED TO REVISIT THIS AFTER REWORKING THE HARDER PUZZLES
