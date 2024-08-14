@@ -1,4 +1,4 @@
-# A Sudoku Challenge!
+# A Sudoku Challenge
 
 Between Assaf’s code, my AlgorithmXSolver and my suggestions, you should be able to complete the [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
 
