@@ -34,6 +34,10 @@ plan:
         statement: 04 - your turn/01 - mrs knuth part I.md
       - title: Sudoku Solver
         statement: 04 - your turn/02 - 9x9 sudoku.md
+      - title: Sudoku (cont.)
+        statement: 04 - your turn/025 - sudoku - cont.md
+      - title: Sudoku Challenge
+        statement: 04 - your turn/028 - sudoku challenge.md
       - title: 16x16 Sudoku
         statement: 04 - your turn/03 - 16x16 sudoku.md
       - title: 25x25 Sudoku
