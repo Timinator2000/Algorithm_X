@@ -25,14 +25,12 @@ If you search the internet for DLX Sudoku solutions, you will find solutions tha
 
 ```text
     for each cell in the grid
-        if the cell is empty
-            hint = None
-        else
+        if the cell is prefilled
             add a new requirement -> (‘hint’, row, col)
         for all possible values
             add an action for placing the value in the cell
-            if the value needs to be preselected
-                add the hint to the list of satisfied requirements
+            if the value = the value in the cell
+                add the new "hint" to the list of satisfied requirements
 ```
 
 I have never used Option 3 as part of an exact cover solution, but you will run into this technique if you study other Algorithm X solutions found online.
