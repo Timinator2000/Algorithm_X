@@ -87,7 +87,7 @@ You can preselect known actions with my AlgorithmXSolver, just like was done in 
 ```
 # Option 1 Will Not Always Work
 
-Assaf’s technique is simple and straightforward, but it will not always work. It will only work when the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any newly impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
+Assaf’s technique is simple and straightforward, but it will not always work. It will only work when the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
 For example, do solutions exist for the Sudoku board below?
 
 ```
