@@ -37,7 +37,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
         for each student:
             for each day in the students availability:
                 for each hour of availability on this day:
-                    action = ('place student', student anme, student instrument, day, hour)
+                    action = ('place student', student name, student instrument, day, hour)
                     actions[action] = [('student scheduled', student name),
                                        ('slot filled', day, hour),
                                        ('instrument on day', day, instrument)]
