@@ -18,7 +18,7 @@ __Codingame uses the term links instead of the term bridges to identify a connec
 
 # Visualizing the Problem
 
-I believe using the analogy of tiles on a gameboard is the key to a successful Algorithm X approach to this puzzle. What does the gameboard look like? At first glance, the gameborad appears to a blank slate with nothing except a bunch of nodes that have number on them indicating how many links need to be connected to the node.
+I believe using the analogy of tiles on a gameboard is the key to a successful Algorithm X approach to this puzzle. What does the gameboard look like? At first glance, the gameborad appears to be a blank slate with nothing except a bunch of nodes, each with a number indicating how many links need to be connected to the node.
 
 <<Initial Graphic>>
 
