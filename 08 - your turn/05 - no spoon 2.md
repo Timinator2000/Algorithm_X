@@ -20,22 +20,26 @@ __Codingame uses the term links instead of the term bridges to identify a connec
 
 I believe using the analogy of tiles on a gameboard is the key to a successful Algorithm X approach to this puzzle. What does the gameboard look like? At first glance, the gameborad appears to be a blank slate with nothing except a bunch of nodes, each with a number indicating how many links need to be connected to the node.
 
-<<Initial Graphic>>
+<Initial Graphic>
 
- I contend there is much more to the grid that is subtly hidden. I will come back to that, but first we will investigate the action steps that can be taken to create a solution. It seems straightforward that they only action that we can take to work toward a solution is to put a link between two nodes, similar to this:
+I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action that we can take to work toward a solution is to put a link between two nodes, similar to this:
 
-<<Link Between Two Nodes>>
+<Link Between Two Nodes>
 
 Where do I put think? Yes, I know the link goes between two nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between nodes, but I can’t put three? There is something between the nodes that isn’t explicit in the description, but it is definitely there. I’m going to call that a Channel. If I add channels to my gameboard, it now looks like this:
 
-<<Link Between Two Nodes>>
-I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the board anywhere I see an open slot inside a channel between nodes.
+<Link Between Two Nodes with Channel>
+
+I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the board anywhere I see an open slot (dashed line) inside a channel between nodes.
 
 <<Nodes with Channels>>
 
 What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection. Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links an ever be placed in that second Channel.
+
 Summarizing the gameboard now, we see:
+
 Nodes – a location on the gameboard that needs a certain number of links.
+
 Channels – a trench between two nodes, inside of which can be placed some number of links. A channel’s link capacity is determined by several factors discussed below, but it can never be more than 2.
 Intersection – a location on the gameboard that knows about any Channel that passes through that location
 
@@ -47,7 +51,7 @@ Exception #2: In the above diagram, each Node connected by the Channel needs 2 l
 
 What does our gameboard look like now?
 
-<<Final Gameboard>>
+<Final Gameboard>
 
 
 
