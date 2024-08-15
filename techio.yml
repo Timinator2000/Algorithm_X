@@ -112,8 +112,10 @@ plan:
         statement: 08 - your turn/02 - equation finder.md
       - title: Dumbbells Solver
         statement: 08 - your turn/03 - dumbbells solver.md
+      - title: Hitori Solver
+        statement: 08 - your turn/04 - hitori solver.md
       - title: There is No Spoon - Episode 2
-        statement: 08 - your turn/04 - no spoon 2.md
+        statement: 08 - your turn/05 - no spoon 2.md
   - title: Additional Techniques
     plan:
       - title: Problem Space Reduction
@@ -138,8 +140,6 @@ plan:
         statement: 20 - tbd/01 - futoshiki solver.md
       - title: Takuzu Solver
         statement: 20 - tbd/02 - takuzu solver.md
-      - title: Hitori Solver
-        statement: 20 - tbd/03 - hitori solver.md
       - title: Killer Sudoku
         statement: 20 - tbd/04 - killer sudoku.md
       - title: Killer Sudoku Extreme
