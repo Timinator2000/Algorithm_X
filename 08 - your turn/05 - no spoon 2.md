@@ -8,7 +8,7 @@ Algorithm X Complexity: Strap in and hold on tight!
 
 # A Past Contest
 
-Did you know [There is No Spoon]( https://www.codingame.com/contests/there-is-no-spoon/leaderboard) was a contest back in April 2015? The winner passed all test cases and validators in less than 90 minutes! The puzzle is based off the logic puzzle, [Hashiwokakero]( https://en.wikipedia.org/wiki/Hashiwokakero), which translates to “build a bridge”. You will find websites that refer to the game as “bridge building”, “bridges” or some other variation. Today, it is easy to find websites that will let you work puzzles if you’d like to get a better feel for how the game is played.
+Did you know [There is No Spoon]( https://www.codingame.com/contests/there-is-no-spoon/leaderboard) was a contest back in April 2015? The winner passed all test cases and validators in less than 90 minutes! The puzzle is based off the logic puzzle, [Hashiwokakero]( https://en.wikipedia.org/wiki/Hashiwokakero), which translates to “build a bridge”. You will find websites that refer to the game as “bridge building”, “bridges” or some other variation. Today, it is easy to find websites that will let you work Hashiwokakero puzzles if you’d like to get a better feel for how the game is played.
 
 [Bridges from Simon Tatham’s Portable Puzzle Collection]( https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/bridges.html)
 
