@@ -6,7 +6,7 @@ Author: [@VilBoub](https://www.codingame.com/profile/bd6706892e49290fb119aa5ddae
 
 Published Difficulty: Hard
 
-Algorithm X Complexity:
+Algorithm X Complexity: A Crossroads of Multiplicity Might Have Your Eyes Crossing
 
 # Strategy
 
