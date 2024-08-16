@@ -116,6 +116,8 @@ plan:
         statement: 08 - your turn/04 - hitori solver.md
       - title: There is No Spoon - Episode 2
         statement: 08 - your turn/05 - no spoon 2.md
+      - title: There is No Spoon - Episode 2 (cont.)
+        statement: 08 - your turn/05 - no spoon 2 cont.md
   - title: Additional Techniques
     plan:
       - title: Problem Space Reduction
