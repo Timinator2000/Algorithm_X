@@ -81,7 +81,7 @@ _Exception #2_: In the above diagram, each Node connected by the Channel needs 2
 
 # Object-Oriented Analysis
 
-Object-Oriented Programming is a popular topic in the world of Computer Science, but how did it come about? Thought leaders believe the world we live in is object-oriented and matching our programming style to the world we observe has tremendous benefits. I contend we have just finished building an object-oriented understanding of our problem space. Next, I'll show you how to turn that _Object-Oriented Analysis_ into an _Object-Oriented Design_ that makes the job of identifying actions and requirements for Algorithm X significantly easier than it probably seemed at first.
+Object-Oriented Programming is a popular topic in the world of Computer Science, but how did it come about? Thought leaders believe the world we live in is object-oriented and matching our programming style to the world we observe has benefits. I contend we have just finished building an object-oriented understanding of our problem space. Next, I'll show you how to turn that _Object-Oriented Analysis_ into an _Object-Oriented Design_ that makes the job of identifying actions and requirements for Algorithm X significantly easier than it probably seemed at first.
 
 
 
