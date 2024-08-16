@@ -14,7 +14,7 @@ Did you know [There is No Spoon]( https://www.codingame.com/contests/there-is-no
 
 [Play Hashiwokakero on SilverGames.com]( https://www.silvergames.com/en/hashiwokakero)
 
-__Codingame uses the term links instead of the term bridges to identify a connection between two nodes. From here on out, I am going to use the term LINKS.__
+__Codingame uses the term _LINK_ instead of the term _bridge_ to identify a connection between two nodes. From here on out, I am going to use the term _LINK_.__
 
 # Visualizing the Problem
 
@@ -43,6 +43,7 @@ Summarizing the gameboard now, we see:
 Nodes – a location on the gameboard that needs a certain number of links.
 
 Channels – a trench between two nodes, inside of which can be placed some number of links. A channel’s link capacity is determined by several factors discussed below, but it can never be more than 2.
+
 Intersection – a location on the gameboard that knows about any Channel that passes through that location
 
 Channel Capacity – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to that rule.
