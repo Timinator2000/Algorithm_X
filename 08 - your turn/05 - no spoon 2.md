@@ -20,7 +20,9 @@ __Codingame uses the term _LINK_ instead of the term _bridge_ to identify a conn
 
 I believe using the analogy of tiles on a gameboard is the key to a successful Algorithm X approach to this puzzle. What does the gameboard look like? At first glance, the gameborad appears to be a blank slate with nothing except a bunch of nodes, each with a number indicating how many links need to be connected to the node.
 
-__INITIAL GRAPHIC__
+<BR><BR>
+![Initial Gameboard](Nodes.png)
+<BR>
 
 I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action that we can take to work toward a solution is to put a link between two nodes, similar to this:
 
@@ -40,7 +42,17 @@ I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Chann
 ![Two Nodes with a Channel and Slots](TwoNodesOneChannelWithSlots.png)
 <BR>
 
-What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection. Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links an ever be placed in that second Channel.
+What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection. The updated gameboard looks like this:
+
+<BR><BR>
+![Nodes and Intersections](NodesAndIntersections.png)
+<BR>
+
+Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can an ever be placed in that second Channel. This next diagram displays the entire gameboard before any links are placed. For just a minute or two consider how much more detailed this gameboard is compared to the original gameboard up above. No actions have been taken. No links have been placed. We have only taken the time to identify a more detailed, and I contend meaningful, understanding of the gameboard.
+
+<BR><BR>
+![Full Gameboard](FullGameboard.png)
+<BR>
 
 Summarizing the gameboard now, we see:
 
