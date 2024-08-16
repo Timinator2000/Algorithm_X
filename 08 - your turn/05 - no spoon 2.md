@@ -42,7 +42,7 @@ I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Chann
 ![Two Nodes with a Channel and Slots](TwoNodesOneChannelWithSlots.png)
 <BR>
 
-What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection and build our full gameboard from scratch, starting with just nodes and intersections:
+What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection and build our full gameboard from scratch, starting with just Nodes and Intersections:
 
 <BR><BR>
 ![Nodes and Intersections](NodesAndIntersections.png)
