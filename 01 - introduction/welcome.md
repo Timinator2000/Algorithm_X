@@ -14,7 +14,7 @@ I can’t thank @5DN1L enough for all of his guidance, support, ideas, encourage
 
 A quick Google search will surely bring you to countless implementations of [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X), usually solving a 9x9 Sudoku grid using the famous [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) technique proposed by the brilliant [Donald Knuth]( https://www-cs-faculty.stanford.edu/~knuth/). This playground is NOT just another Sudoku demonstration. By the time you're finished working your way through this material, you should feel confident solving any [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problem you run across, including…
 
-__Algorithm X Puzzles Created for this Playground:__
+__Exact Cover (Algorithm X Candidate) Puzzles Created for this Playground:__
 <BR>[Mrs. Knuth – Part I]( https://www.codingame.com) (+50 XP)
 <BR>[Mrs. Knuth – Part II]( https://www.codingame.com) (+50 XP)
 <BR>[Mrs. knuth – Part III]( https://www.codingame.com) (+50 XP)
