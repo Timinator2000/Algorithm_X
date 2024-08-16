@@ -28,7 +28,9 @@ __LINK BETWEEN NODES__
 
 Where do I put think? Yes, I know the link goes between two nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between nodes, but I can’t put three? There is something between the nodes that isn’t explicit in the description, but it is definitely there. I’m going to call that a Channel. If I add channels to my gameboard, it now looks like this:
 
-__LINK BETWEEN NODES WITH A CHANNEL__
+<BR><BR>
+![Two Nodes with a Channel](TwoNodesOneChannel.png)
+<BR>
 
 I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the board anywhere I see an open slot (dashed line) inside a channel between nodes.
 
