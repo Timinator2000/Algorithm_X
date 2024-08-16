@@ -14,16 +14,17 @@ I can’t thank @5DN1L enough for all of his guidance, support, ideas, encourage
 
 A quick Google search will surely bring you to countless implementations of [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X), usually solving a 9x9 Sudoku grid using the famous [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) technique proposed by the brilliant [Donald Knuth]( https://www-cs-faculty.stanford.edu/~knuth/). This playground is NOT just another Sudoku demonstration. By the time you're finished working your way through this material, you should feel confident solving any [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problem you run across, including…
 
-__Puzzles Included in this Playground:__
-<BR>[Algorithm X – Part I]( https://www.codingame.com) -  Mrs. Knuth Tutorial (+50 XP)
-<BR>[Algorithm X – Part II]( https://www.codingame.com) -  Mrs. Knuth Tutorial (+50 XP)
-<BR>[Algorithm X – Part III]( https://www.codingame.com) - Mrs. Knuth Tutorial (+50 XP)
-<BR>[Equation Finder]( https://www.codingame.com) - Algorithm X – Part III Bonus Exercise (+50 XP)
+__Puzzles Created for this Playground:__
+<BR>[Mrs. Knuth – Part I]( https://www.codingame.com) (+50 XP)
+<BR>[Mrs. Knuth – Part II]( https://www.codingame.com) (+50 XP)
+<BR>[Mrs. knuth – Part III]( https://www.codingame.com) (+50 XP)
+<BR>[Equation Finder]( https://www.codingame.com) (+50 XP)
 
 __Great Candidates for Algorithm X:__
 <BR>[Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
 <BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
 <BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
+<BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
 <BR>[Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
 <BR>[Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
 <BR>[Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) (+50 XP)
@@ -31,17 +32,16 @@ __Great Candidates for Algorithm X:__
 <BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver) (+50 XP)
 <BR>[Winamax]( https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP)
 <BR>[Three Little Piggies]( https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
-<BR>[Takuzu Solver]( https://www.codingame.com/training/hard/takuzu-solver) (+50 XP)
-<BR>[Hitori Solver]( https://www.codingame.com/training/hard/hitori-solver) (+50 XP)
-<BR>[Kakuro Solver]( https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
-<BR>[n Queens]( https://www.codingame.com/training/hard/n-queens) (+50 XP)
-<BR>[There Is No Spoon – Episode 2]( https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) (+250 XP)
-<BR>[Einstein’s Riddle Solver]( https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
-<BR>[Breaking Bifid]( https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
+<BR>[Takuzu Solver](https://www.codingame.com/training/hard/takuzu-solver) (+50 XP)
+<BR>[Hitori Solver](https://www.codingame.com/training/hard/hitori-solver) (+50 XP)
+<BR>[Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
+<BR>[n Queens](https://www.codingame.com/training/hard/n-queens) (+50 XP)
+<BR>[There Is No Spoon – Episode 2](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) (+250 XP)
+<BR>[Einstein’s Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
+<BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings) (+50 XP)
 
 __Puzzles I Solved with Algorithm X, but...__
-<BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
 <BR>[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) (+50 XP)
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
 <BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
@@ -54,4 +54,4 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to 1700 [Codingame](www.codingame.com) XP!
+* You will earn up to 1700 [Codingame](https://www.codingame.com) XP!
