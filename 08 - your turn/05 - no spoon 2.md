@@ -48,7 +48,7 @@ What about the places where channels cross? These seem to be very important loca
 ![Nodes and Intersections](NodesAndIntersections.png)
 <BR>
 
-Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can an ever be placed in the second Channel.
+Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing Channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other Channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can an ever be placed in the second Channel.
 
 This next diagram displays the entire gameboard before any links are placed. For just a minute, consider how much more detailed this gameboard is compared to the original gameboard. No actions have been taken. No links have been placed. We have only taken the time to build a more detailed, and possibly more meaningful, understanding of the gameboard.
 
