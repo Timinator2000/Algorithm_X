@@ -14,7 +14,7 @@ __Algorithm X Complexity:__ Strap in and hold on tight!
 
 [Play Hashiwokakero on SilverGames.com]( https://www.silvergames.com/en/hashiwokakero)
 
-__Codingame uses the terms _NODE_ and _LINK_ instead of the terms _island_ and _bridge_ to identify a connection between two islands/nodes. From here on out, I am going to use the Codingame puzzle terms _NODE_ and _LINK_.__
+__Codingame uses the terms _NODE_ and _LINK_ instead of the terms _island_ and _bridge_ to identify a connection between two islands/nodes. From here forward, I am going to use the Codingame puzzle terms _NODE_ and _LINK_.__
 
 # Visualizing the Problem
 
