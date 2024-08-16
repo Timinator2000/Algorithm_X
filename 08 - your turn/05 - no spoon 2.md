@@ -30,7 +30,7 @@ I contend there is much more to the gameboard that is subtly hidden. I will come
 ![Two Nodes with a Link](TwoNodesOneLink.png)
 <BR>
 
-Where do I put the link? Yes, I know the link goes between the two nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between nodes, but I cannot put three? There is something between the nodes that is not explicit in the description, but it is definitely there. I’m going to call this space between nodes, where a link can be placed, a Channel.
+Where do I put the link? Yes, I know the link goes between the two Nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between Nodes, but I cannot put three? There is something between the Nodes that is not explicit in the description, but it is definitely there. I’m going to call this space between Nodes, where a link can be placed, a Channel.
 
 <BR><BR>
 ![Two Nodes with a Channel](TwoNodesOneChannel.png)
