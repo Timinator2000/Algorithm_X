@@ -52,7 +52,16 @@ Intersection – a location on the gameboard that knows about any Channel that p
 
 Channel Capacity – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to that rule.
 
+
+<BR><BR>
+![Two Power 1 Nodes](TwoPower1Nodes.png)
+<BR>
+
 Exception #1: In the above diagram, each Node connected by the Channel needs 1 link. If these are the only two Nodes in the puzzle, the Channel capacity is 1. If there are more than two Nodes in the puzzle, the Channel capacity is zero since putting a link between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
+
+<BR><BR>
+![Two Power 2 Nodes](TwoPower2Nodes.png)
+<BR>
 
 Exception #2: In the above diagram, each Node connected by the Channel needs 2 links. If these are the only two Nodes in the puzzle, the Channel capacity is 2. If there are more than two Nodes in the puzzle, the Channel capacity is 1 since putting two links between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
 
