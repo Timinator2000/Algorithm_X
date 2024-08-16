@@ -56,30 +56,33 @@ This next diagram displays the entire gameboard before any links are placed. For
 ![Full Gameboard](FullGameboard.png)
 <BR>
 
-Summarizing the gameboard now, we see:
+Summarizing the gameboard now, we see the following components:
 
-Nodes – a location on the gameboard that needs a certain number of links.
+__Node__ – a location on the gameboard that needs a certain number of links.
 
-Channels – a trench between two nodes, inside of which can be placed some number of links. A channel’s link capacity is determined by several factors discussed below, but it can never be more than 2.
+__Channel__ – a trench between two nodes, inside of which can be placed some number of links. A channel’s link capacity is determined by several factors discussed below, but it can never be more than 2.
 
-Intersection – a location on the gameboard that knows about any Channel that passes through that location
+__Intersection__ – a location on the gameboard that knows about any Channel that passes through that location
 
-Channel Capacity – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to that rule.
+__Channel Capacity__ – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to that rule.
 
 
 <BR><BR>
 ![Two Power 1 Nodes](TwoPower1Nodes.png)
 <BR>
 
-Exception #1: In the above diagram, each Node connected by the Channel needs 1 link. If these are the only two Nodes in the puzzle, the Channel capacity is 1. If there are more than two Nodes in the puzzle, the Channel capacity is zero since putting a link between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
+_Exception #1_: In the above diagram, each Node connected by the Channel needs 1 link. If these are the only two Nodes in the puzzle, the Channel capacity is 1. If there are more than two Nodes in the puzzle, the Channel capacity is zero since putting a link between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
 
 <BR><BR>
 ![Two Power 2 Nodes](TwoPower2Nodes.png)
 <BR>
 
-Exception #2: In the above diagram, each Node connected by the Channel needs 2 links. If these are the only two Nodes in the puzzle, the Channel capacity is 2. If there are more than two Nodes in the puzzle, the Channel capacity is 1 since putting two links between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
+_Exception #2_: In the above diagram, each Node connected by the Channel needs 2 links. If these are the only two Nodes in the puzzle, the Channel capacity is 2. If there are more than two Nodes in the puzzle, the Channel capacity is 1 since putting two links between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
 
-Next, I will show you how this new gameboard makes it significantly easier to identify the requirements and actions necessary for Algorithm X.
+# Object-Oriented Analysis
+
+Object-Oriented Programming is a popular topic in the world of Computer Science, but how did it come about? Thought leaders believe the world we live in is object-oriented and matching our programming style to the world we observe has tremendous benefits. I contend we have just finished building an object-oriented understanding of our problem space. Next, I'll show you how to turn that _Object-Oriented Analysis_ into an _Object-Oriented Design_ that makes the job of identifying actions and requirements for Algorithm X significantly easier than it probably seemed at first.
+
 
 
 
