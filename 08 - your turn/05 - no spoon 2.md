@@ -24,31 +24,33 @@ I believe using the analogy of tiles on a gameboard is the key to a successful A
 ![Initial Gameboard](Nodes.png)
 <BR>
 
-I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action that we can take to work toward a solution is to put a link between two nodes, similar to this:
+I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action we can take to work toward a solution is to put a link between two nodes, similar to this:
 
 <BR><BR>
 ![Two Nodes with a Link](TwoNodesOneLink.png)
 <BR>
 
-Where do I put think? Yes, I know the link goes between two nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between nodes, but I can’t put three? There is something between the nodes that isn’t explicit in the description, but it is definitely there. I’m going to call that a Channel.
+Where do I put the link? Yes, I know the link goes between the two nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between nodes, but I can’t put three? There is something between the nodes that is not explicit in the description, but it is definitely there. I’m going to call that a Channel.
 
 <BR><BR>
 ![Two Nodes with a Channel](TwoNodesOneChannel.png)
 <BR>
 
-I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the board anywhere I see an open slot (dashed line) inside a channel between nodes.
+I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the gameboard anywhere I see an open slot (dashed line) inside a channel between nodes.
 
 <BR><BR>
 ![Two Nodes with a Channel and Slots](TwoNodesOneChannelWithSlots.png)
 <BR>
 
-What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection. The updated gameboard looks like this:
+What about the places where channels cross? These seem to be very important locations since links are not allowed to cross each other. Any two channels that cross each other could create future problems. Channels can only cross each other at grid locations that are not Nodes. Let’s call every non-Node grid location an Intersection. Let's build our full gameboard, starting with just nodes and intersections:
 
 <BR><BR>
 ![Nodes and Intersections](NodesAndIntersections.png)
 <BR>
 
-Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can an ever be placed in that second Channel. This next diagram displays the entire gameboard before any links are placed. For just a minute or two consider how much more detailed this gameboard is compared to the original gameboard up above. No actions have been taken. No links have been placed. We have only taken the time to identify a more detailed, and I contend meaningful, understanding of the gameboard.
+Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can an ever be placed in the second Channel.
+
+This next diagram displays the entire gameboard before any links are placed. For just a minute, consider how much more detailed this gameboard is compared to the original gameboard. No actions have been taken. No links have been placed. We have only taken the time to build a more detailed, and I contend meaningful, understanding of the gameboard.
 
 <BR><BR>
 ![Full Gameboard](FullGameboard.png)
@@ -77,10 +79,7 @@ Exception #1: In the above diagram, each Node connected by the Channel needs 1 l
 
 Exception #2: In the above diagram, each Node connected by the Channel needs 2 links. If these are the only two Nodes in the puzzle, the Channel capacity is 2. If there are more than two Nodes in the puzzle, the Channel capacity is 1 since putting two links between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
 
-What does our gameboard look like now?
-
-__FINAL GAMEBOARD__
-
+Next, I will show you how this new gameboard makes it significantly easier to identify the requirements and actions necessary for Algorithm X.
 
 
 
