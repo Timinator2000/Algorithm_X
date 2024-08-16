@@ -14,11 +14,14 @@ I can’t thank @5DN1L enough for all of his guidance, support, ideas, encourage
 
 A quick Google search will surely bring you to countless implementations of [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X), usually solving a 9x9 Sudoku grid using the famous [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) technique proposed by the brilliant [Donald Knuth]( https://www-cs-faculty.stanford.edu/~knuth/). This playground is NOT just another Sudoku demonstration. By the time you're finished working your way through this material, you should feel confident solving any [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problem you run across, including…
 
-__Puzzles Created for this Playground:__
+__Algorithm X Puzzles Created for this Playground:__
 <BR>[Mrs. Knuth – Part I]( https://www.codingame.com) (+50 XP)
 <BR>[Mrs. Knuth – Part II]( https://www.codingame.com) (+50 XP)
 <BR>[Mrs. knuth – Part III]( https://www.codingame.com) (+50 XP)
 <BR>[Equation Finder]( https://www.codingame.com) (+50 XP)
+
+__Support Puzzle Created for this Playground__
+<BR>[Shikaku Skill Builder](https://www.codingame.com) (+50 XP)
 
 __Great Candidates for Algorithm X:__
 <BR>[Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
@@ -46,6 +49,7 @@ __Puzzles I Solved with Algorithm X, but...__
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
 <BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
 
+
 # My Promise to You
 
 I wholeheartedly believe that working through this playground and the accompanying puzzles will be a great experience on multiple levels. How can I say this? All these things happened for me as I studied [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X) and applied it to as many puzzles as possible. I promise…
@@ -54,4 +58,4 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to 1700 [Codingame](https://www.codingame.com) XP!
+* You will earn up to 1750 [Codingame](https://www.codingame.com) XP!
