@@ -14,8 +14,8 @@ __THREE BASIC CLASSES__
 
 How will we manage the relationships among instances of these three classes? What would somebody need to be able to recreate the gameboard? Consider the following:
 
-| Class | Observations      |
-|:-----:|:---------------------------------------------------|
+| Class | Observations                                      |
+|:-----|:---------------------------------------------------|
 |Node|- has a (row, col) location on the gameboard<BR>- is connected to between 1 and 4 Channels<BR>- needs a certain number of links connected to it|
 |Intersection|- has a (row, col) location on the gameboard<BR>- has 0, 1 or 2 Channels passing through it|
 |Channel|- connects exactly 2 Nodes<BR>- has a capacity, some number of unused slots where links can be placed<BR>- has some number of used slots where links have been placed<BR>- has a list of 0 to many Intersections it passes through|
