@@ -24,7 +24,9 @@ __INITIAL GRAPHIC__
 
 I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action that we can take to work toward a solution is to put a link between two nodes, similar to this:
 
-__LINK BETWEEN NODES__
+<BR><BR>
+![Two Nodes with a Link](TwoNodesOneLink.png)
+<BR>
 
 Where do I put think? Yes, I know the link goes between two nodes, but where exactly do I place my “link tile” on the gameboard? How does the gameboard indicate to me that I can put one or two links between nodes, but I can’t put three? There is something between the nodes that isn’t explicit in the description, but it is definitely there. I’m going to call that a Channel.
 
