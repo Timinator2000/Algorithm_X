@@ -14,14 +14,12 @@ __THREE BASIC CLASSES__
 
 How will we manage the relationships among instances of these three classes? What would somebody need to be able to recreate the gameboard? Consider the following:
 
-•	A Node has a (row, col) location on the gameboard.
+* A Node has a (row, col) location on the gameboard.
+* A Node is connected to between 1 and 4 Channels.
+* A Node needs a certain number of links connected to it.
 
-•	A Node is connected to between 1 and 4 Channels.
-
-•	A Node needs a certain number of links connected to it.
-
-•	An Intersection as a (row, col) location on the gameboard.
-•	An Intersection has 0, 1 or 2 Channels passing through it.
+* An Intersection as a (row, col) location on the gameboard.
+* An Intersection has 0, 1 or 2 Channels passing through it.
 
 •	A Channel connects exactly 2 Nodes
 •	A Channel has a capacity, some number of unused slots where links can be placed.
