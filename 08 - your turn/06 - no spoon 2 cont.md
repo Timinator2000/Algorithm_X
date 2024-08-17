@@ -37,15 +37,19 @@ I am streamlining the process a bit, but if we add a few attributes to the class
 
 __OOD Model__
 
-# Setting Algorithm X Up for Success
+# Beginning to Give the Gameboard Life
 
-Here is a step-by-step process for organizing what is known about the problem space and using that data to create the requirements and actions needed by Algorithm X.
+At this point, classes exist for each key abstraction on the gamboard. It is time to create instances of each class and build the relationships among the objects.
 
 __Step 1:__ For every Node location on the initial gameboard, create an instance of the Node class. The only information available for a Node is the (row, col) location on the gameboard the number of needed links.
 
 __Step 2:__ For every non-Node location on the initial gameboard, create an instance of an Intersection with nothing more than a (row, col) location.
 
-__Step 3:__ Do you complete There is No Spoon – Episode 1? 
+Did you complete There is No Spoon – Episode 1? Now is the time to use what you learned on that puzzle. For every Node, determine if it has a horizontal neighbor to the right and determine if it has a vertical neighbor below. It is only necessary to check in 2 directions. As long as every node is explored in those two directions, all Channels will be found. 
+
+__Step 3:__ For every Node, if there is a neighbor to the right, create a Channel and if there is neighbor below, create a second Channel. It should be straightforward to build a list of Intersections as you search for neighbors. When a Channel is created, it needs to know about the 2 Nodes it connects and it needs a list of Intersections it passes through.
+
+That all for now. Not a single link has been placed, but the gameboard has been explored in tremendous detail and the perspective, with which the gameboard has been understood, is the key to the next step where the preliminary Object-Oriented Design guides the process of creating the matrix for Algorithm X.
 
 
 
