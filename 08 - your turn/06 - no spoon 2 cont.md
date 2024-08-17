@@ -14,7 +14,7 @@ Before we identify requirements and actions for Algorithm X, let’s take an inv
 ![No Spoon 2 - Classes](Classes.png)
 <BR>
 
-How will the relationships among instances of these three classes be managed? What would somebody need to be able to recreate the gameboard? Consider the following:
+How will the relationships among instances of these three classes be managed? What information is needed to recreate the gameboard from scratch? Consider the following:
 
 * __Node__
     * has a (row, col) location on the gameboard
