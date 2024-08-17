@@ -28,8 +28,7 @@ How will the relationships among instances of these three classes be managed? Wh
 * __Channel__
     - connects exactly 2 Nodes
     - has a capacity, some number of unused slots where links can be placed
-    - has some number of used slots where links have been placed
-    - has a list of 0 to many Intersections it passes through
+    - passes through 0 to many Intersections
 
 These observations lead us to create the following object-oriented model of our problem space. 
 
@@ -43,7 +42,9 @@ I am streamlining the process a bit, but if we add a few attributes to the class
 ![No Spoon 2 - OOD](ClassesWithLists.png)
 <BR>
 
-# Beginning to Give the Gameboard Life
+Looking at the problem space this way is probably not the first thought most people have. It is likely more common to think each Node will need to know about its neighbor Nodes. In the model created here, Nodes do not know anything about other Nodes on the gameboard. All important information for a Node is found in its Channels. A Node is interested in how many Channels it is connected to and how much link capacity those Channels provide. A Channel becomes the manager of the relationship betwen 2 Nodes. It is important to remember where this perspective originated. It came from thinking of the problem as a gameboard and a number of tiles that need to be placed on the gameboard.
+
+# Giving Life to the Gameboard
 
 At this point, classes exist for each key abstraction on the gamboard. It is time to create instances of each class and build the relationships among the objects.
 
@@ -56,22 +57,3 @@ Did you complete [There is No Spoon – Episode 1](https://www.codingame.com/tra
 __Step 3:__ For every Node, if there is a neighbor to the right, create a Channel and if there is neighbor below, create a second Channel. It should be straightforward to build a list of Intersections as you search for neighbors. When a Channel is created, it needs to know about the 2 Nodes it connects and it needs a list of Intersections it passes through.
 
 That all for now. Not a single link has been placed, but the gameboard has been explored in tremendous detail and the perspective, with which the gameboard has been understood, is the key to the next step where the preliminary Object-Oriented Design guides the process of creating the matrix for Algorithm X.
-
-
-
-# To Figure Out
-
-This might be the toughest Algorithm X puzzle on Codingame. Using the techniques covered so far, you can solve most of the test cases. However, Test Case 8: Advanced and Test Case 13: Expert are just too big to solve purely with backtracking. A little later in the playground, I will cover problem-space reduction, and I’ll revisit this puzzle with a few more ideas that might help you find the finish line.
-
-Let’s first talk about Test Cases 1 through 7, 9 and 10. They can all be solved with Algorithm X by following the processes covered in the Mrs. Knuth puzzles, but it will not be easy.
-
-Lot’s of challenging multiplicity.
-
-
-Algorithm X will generate multiple solutions for Test Cases 11 and 12 and you will need to determine which solution has a __single connected group__ of nodes.
-
-
-
-Backtracking is guessing. Using only logic, no backtracking at all, you can solve 1 – 8 and 10.
-
-Only a combination of pre-backtracking logic and Algorithm X can solve all the test cases.
