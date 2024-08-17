@@ -6,11 +6,11 @@ Let's take another look at the Object-Oriented Design model. Everything Algorith
 ![No Spoon 2 - OOD](ClassesWithLists.png)
 <BR>
 
-This might be the toughest Algorithm X puzzle on Codingame due to the amount of multiplicity. The requirements are straightforward. Just like Emma needed some number of lessons for Mrs. Knuth – Part III, each Node needs some number of links. Let’s dig a bit deeper into the actions.
+This might be the toughest Algorithm X puzzle on Codingame due to the amount of multiplicity. The requirements are straightforward. Just like Emma needed some number of lessons for Mrs. Knuth – Part III, each Node needs some number of links.
 
 __Step 1:__ Loop through all Nodes and create the appropriate requirements.
 
-As mentioned earlier, all actions involve putting some link between two Nodes, but what does that actually look like? Looking at the gameboard, the link must be placed in a specific slot and it needs to be tied to one of the link requirements for each node. Looks like triple multiplicity, doesn’t it!
+Let’s dig a bit deeper into the actions. As mentioned earlier, all actions involve putting some link between two Nodes, but what does that actually look like? Looking at the gameboard, the link must be placed in a specific slot and it needs to be tied to one of the link requirements for each node. Looks like triple multiplicity, doesn’t it!
 
 __Step 2:__ Loop through all Channels and create the appropriate actions, including the lists of requirements covered by each action. Make sure you properly handle all the multiplicity.
 
