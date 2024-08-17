@@ -118,6 +118,8 @@ plan:
         statement: 08 - your turn/05 - no spoon 2.md
       - title: There is No Spoon - Episode 2 (cont.)
         statement: 08 - your turn/06 - no spoon 2 cont.md
+      - title: There is No Spoon - Episode 2 Wrap-Up
+        statement: 08 - your turn/07 - no spoon 2 matrix.md
   - title: Additional Techniques
     plan:
       - title: Problem Space Reduction
