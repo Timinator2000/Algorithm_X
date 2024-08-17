@@ -42,7 +42,7 @@ I am streamlining the process a bit, but if we add a few attributes to the class
 ![No Spoon 2 - OOD](ClassesWithLists.png)
 <BR>
 
-Looking at the problem space this way is probably not the first thought most people have. It is likely more common to think each Node will need to know about its neighbor Nodes. In the model created here, Nodes do not know anything about other Nodes on the gameboard. All important information for a Node is found in its Channels. A Node is interested in how many Channels it is connected to and how much link capacity those Channels provide. A Channel becomes the manager of the relationship betwen 2 Nodes. It is important to remember where this perspective originated. It came from thinking of the problem as a gameboard and a number of tiles that need to be placed on the gameboard.
+Looking at the problem space this way is probably not the first thought most people have. It is likely more common to think each Node will need to know about its neighbor Nodes. In the model created here, Nodes do not know anything about other Nodes on the gameboard. Much of the information a Node needs access to is found in its Channels. A Node is interested in how many Channels it is connected to and how much link capacity those Channels provide. A Channel becomes the manager of the relationship betwen 2 Nodes. Without the Channel, those 2 Nodes really don't have any relationship at all. It is important to remember where this perspective originated. It came from thinking of the problem as a gameboard and a number of tiles that need to be placed on the gameboard.
 
 # Giving Life to the Gameboard
 
