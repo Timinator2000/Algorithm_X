@@ -32,4 +32,6 @@ __Test Cases 11 and 12:__ Algorithm X will generate multiple solutions and you w
 self.solution_is_valid = False
 ```
 
+You never need to concern yourself with setting this attribute back to `True`. Invalid solutions immediately cause backtracking and AlgorithXSolver automatically sets this attribute back to `True` every time backtracking happens.
+
 In the next section, I’ll discuss how to solve part of a problem with logic so that the task given to Algorithm X is more manageable. Much of There is No Spoon – Episode 2 can be solve with only logic, no backtracking. However, only a combination of logical problem-space reduction and backtracking can solve all test cases and validators.
