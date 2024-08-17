@@ -10,7 +10,9 @@ We just finished building the following detailed gameboard and a link can be pla
 
 Before we identify requirements and actions for Algorithm X, let’s take an inventory of what we see on our gameboard. We see a bunch of Nodes, a bunch of Intersections and a bunch of channels. Let’s create a class for each one of them.
 
-__THREE BASIC CLASSES__
+<BR><BR>
+![No Spoon 2 - Classes](Classes.png)
+<BR>
 
 How will the relationships among instances of these three classes be managed? What would somebody need to be able to recreate the gameboard? Consider the following:
 
@@ -31,11 +33,15 @@ How will the relationships among instances of these three classes be managed? Wh
 
 These observations lead us to create the following object-oriented model of our problem space. 
 
-__OOA Model__
+<BR><BR>
+![No Spoon 2 - OOA](ClassesWithRelationships.png)
+<BR>
 
 I am streamlining the process a bit, but if we add a few attributes to the classes, we can make our model a bit more concrete. Some might call these features the difference between the object-oriented analysis model of the problem space and an object-oriented design model that guides us to an implementation.
 
-__OOD Model__
+<BR><BR>
+![No Spoon 2 - OOD](ClassesWithLists.png)
+<BR>
 
 # Beginning to Give the Gameboard Life
 
