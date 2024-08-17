@@ -14,7 +14,7 @@ Let’s dig a bit deeper into the actions. As mentioned earlier, all actions inv
 
 __Step 2:__ Loop through all Channels and create the appropriate actions, including the lists of requirements covered by each action. Make sure you properly handle all the multiplicity.
 
-What about those pesky Intersections? Putting a link in a Channel might eliminate any possibility of putting links in a crossing Channel. Sounds like textbook mutual exclusivity, right? You’ll need to create optional requirements to handle all the multiplicity.
+What about those pesky Intersections? Putting a link in a Channel might eliminate any possibility of putting links in a crossing Channel. Sounds like textbook mutual exclusivity, right? You’ll need to create optional requirements to handle all the mutual exclusivity.
 
 __Step 3:__ Loop through all Intersections and create the appropriate optional requirements to handle all mutual exclusivity created by Channels that pass through the same Intersection.
 
