@@ -1,6 +1,6 @@
 # There Is No Spoon - Episode 2 (cont.)
 
-We just finished building the following detailed gameboard that clearly shows where all possible links could be placed.
+We just finished building the following detailed gameboard and a link can be placed on any dashed lines.
 
 <BR><BR>
 ![Full Gameboard](FullGameboard.png)
@@ -12,7 +12,7 @@ Before we identify requirements and actions for Algorithm X, let’s take an inv
 
 __THREE BASIC CLASSES__
 
-How will we manage the relationships among instances of these three classes? What would somebody need to be able to recreate the gameboard? Consider the following:
+How will the relationships among instances of these three classes be managed? What would somebody need to be able to recreate the gameboard? Consider the following:
 
 * __Node__
     * has a (row, col) location on the gameboard
@@ -39,9 +39,9 @@ __OOD Model__
 
 # Setting Algorithm X Up for Success
 
-Here is a step-by-step process for organizing what you know about your problem space and using that data to create the requirements and actions needed by Algorithm X.
+Here is a step-by-step process for organizing what is known about the problem space and using that data to create the requirements and actions needed by Algorithm X.
 
-__Step 1:__ For every Node location on the initial gameboard, create an instance of your Node class. The only information available for a Node is the (row, col) location on the gameboard the number of needed links.
+__Step 1:__ For every Node location on the initial gameboard, create an instance of the Node class. The only information available for a Node is the (row, col) location on the gameboard the number of needed links.
 
 __Step 2:__ For every non-Node location on the initial gameboard, create an instance of an Intersection with nothing more than a (row, col) location.
 
