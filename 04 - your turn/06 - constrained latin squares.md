@@ -1,12 +1,12 @@
 # Constrained Latin Squares
 
-Puzzle: [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares)
+__Puzzle:__ [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares)
 
-Author: [@darkhorse64](https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292)
+__Author:__ [@darkhorse64](https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292)
 
-Published Difficulty: Medium
+__Published Difficulty:__ Medium
 
-Algorithm X Complexity: Straightforward
+__Algorithm X Complexity:__ Straightforward
 
 # Strategy
 
