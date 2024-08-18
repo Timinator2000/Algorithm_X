@@ -12,8 +12,8 @@ __Algorithm X Complexity:__ A Crossroads of Multiplicity Might Have Your Eyes Cr
 
 My solution for Hitori Solver is surprisingly similar to Mrs. Knuth – Part III. The goal statement is extremely short:
 
-* Each puzzle consists of a square grid with numbers appearing in all squares. The object is to shade squares so:
-    * No number appears in a row or column more than once.
-    * Shaded squares do not touch each other vertically or horizontally.
-    * When completed, all un-shaded squares create a single continuous area.
+    *  Each puzzle consists of a square grid with numbers appearing in all squares. The object is to shade squares so:
+        * No number appears in a row or column more than once.
+        * Shaded squares do not touch each other vertically or horizontally.
+        * When completed, all un-shaded squares create a single continuous area.
 
