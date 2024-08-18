@@ -1,12 +1,12 @@
 # Tetris Floor
 
-Puzzle: [Tetris Floor](https://www.codingame.com/training/hard/tetris-floor)
+__Puzzle:__ [Tetris Floor](https://www.codingame.com/training/hard/tetris-floor)
 
-Author: [@cedricdd]()https://www.codingame.com/profile/20f5f88d86185be4439fc7297df0aa073968164
+__Author:__ [@cedricdd]()https://www.codingame.com/profile/20f5f88d86185be4439fc7297df0aa073968164
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__
 
 # Strategy
 
