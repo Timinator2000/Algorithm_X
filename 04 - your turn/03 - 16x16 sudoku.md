@@ -1,12 +1,12 @@
 # 16x16 Sudoku
 
-Puzzle: [16x16 Sudoku](https://www.codingame.com/training/medium/16x16-sudoku)
+__Puzzle:__ [16x16 Sudoku](https://www.codingame.com/training/medium/16x16-sudoku)
 
-Author: [@yoch](https://www.codingame.com/profile/14a6f9fb972f723d06789c969370ff2e7411725)
+__Author:__ [@yoch](https://www.codingame.com/profile/14a6f9fb972f723d06789c969370ff2e7411725)
 
-Published Difficulty: Medium
+__Published Difficulty:__ Medium
 
-Algorithm X Complexity: Straightforward
+__Algorithm X Complexity:__ Straightforward
 
 # Strategy
 
