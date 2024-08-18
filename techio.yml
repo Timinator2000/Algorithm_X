@@ -90,6 +90,8 @@ plan:
         statement: 06 - your turn/05 - three little piggies.md
       - title: Breaking Bifid
         statement: 06 - your turn/06 - breaking bifid.md
+      - title: Futoshiki Solver
+        statement: 06 - your turn/07 - futoshiki solver.md
   - title: Multiplicity
     plan:
       - title: Emma Wants More Lessons!
@@ -130,6 +132,8 @@ plan:
     plan:
       - title: There is No Spoon - Episode 2
         statement: 10 - your turn/01 - no spoon 2.md
+      - title: Futoshiki Solver
+        statement: 10 - your turn/015 - futoshiki solver.md
       - title: Suguru Solver
         statement: 10 - your turn/02 - suguru solver.md
       - title: High Rise Buildings
@@ -140,8 +144,6 @@ plan:
         statement: 10 - your turn/05 - tetris floor.md
   - title: TBD
     plan:
-      - title: Futoshiki Solver
-        statement: 20 - tbd/01 - futoshiki solver.md
       - title: Takuzu Solver
         statement: 20 - tbd/02 - takuzu solver.md
       - title: Killer Sudoku
