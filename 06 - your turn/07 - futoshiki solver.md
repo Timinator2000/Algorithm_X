@@ -26,8 +26,10 @@ I will skip going over the requirements and actions since they have been covered
 
 All inequalities in a Futoshiki can be expressed as `a < b` where `a` and `b` are the values in two cells that share a horizontal or vertical border. Given a 6x6 Futoshiki with no hints, we know that every cell is a number between 1 and 6.
 
+```
 Possible values for `a` = 1, 2, 3, 4, 5, 6
 Possible values for `b` = 1, 2, 3, 4, 5, 6
+```
 
 ?[What is wrong with the above statements. Select all that apply?]
 -[] Nothing is wrong. In the absence of hints, either cell could take any of those values.
