@@ -33,8 +33,8 @@ Possible values for b = 1, 2, 3, 4, 5, 6
 
 ?[What is wrong with the above statements? Select all that apply]
 -[] Nothing is wrong. In the absence of hints, either cell could take any of those values.
--[x] _b_ cannot be 1 since there are no values for _a_ that allow _a < b_ to be true. 
--[] _a_ must be 1 and _b_ must be 2 because _a < b_.
+-[x] __b__ cannot be 1 since there are no values for _a_ that allow _a < b_ to be true. 
+-[] (a) must be 1 and (b) must be 2 because (a < b).
 -[x] _a_ cannot be 6 since there are no values for _b_ that allow _a < b_ to be true. 
 
 Very interesting! What if `b` already had a value in the box? That would make it easy to reduce the possible values for `a`.
