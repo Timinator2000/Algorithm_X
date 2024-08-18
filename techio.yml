@@ -130,9 +130,9 @@ plan:
         statement: 09 - advanced techniques/02 - reqs outside the matrix.md
   - title: Your Turn
     plan:
-      - title: There is No Spoon - Episode 2
+      - title: There is No Spoon - Episode 2 (Revisited)
         statement: 10 - your turn/01 - no spoon 2.md
-      - title: Futoshiki Solver
+      - title: Futoshiki Solver (Revisited)
         statement: 10 - your turn/015 - futoshiki solver.md
       - title: Suguru Solver
         statement: 10 - your turn/02 - suguru solver.md
