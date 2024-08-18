@@ -1,12 +1,12 @@
 # Shikaku Solver
 
-Puzzle: [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver)
+__Puzzle:__ [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver)
 
-Author: Anonymous Codingamer
+__Author:__ Anonymous Codingamer
 
-Published Difficulty: Medium
+__Published Difficulty:__ Medium
 
-Algorithm X Complexity: The Puzzle Will Make You Smile
+__Algorithm X Complexity:__ The Puzzle Will Make You Smile
 
 # Strategy
 
