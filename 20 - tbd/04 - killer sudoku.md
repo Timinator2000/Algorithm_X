@@ -1,11 +1,11 @@
 # Killer Sudoku
 
-Puzzle: [Killer Sudoku](https://www.codingame.com/training/medium/killer-sudoku-solver)
+__Puzzle:__ [Killer Sudoku](https://www.codingame.com/training/medium/killer-sudoku-solver)
 
-Author: [@odaxav](https://www.codingame.com/profile/23863af73ab30aa34c1abeb77f21de4e2878884)
+__Author:__ [@odaxav](https://www.codingame.com/profile/23863af73ab30aa34c1abeb77f21de4e2878884)
 
-Published Difficulty: Medium
+__Published Difficulty:__ Medium
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__
 
 # Strategy
