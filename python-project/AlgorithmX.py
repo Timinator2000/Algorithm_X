@@ -12,6 +12,12 @@
 #                    and the solution will not be part of the full solution set.
 #                  - self.solution_is_valid automatically set to True upon backtracking
 #
+#  August 13, 2024 - Made changes to allow rows to be preselected by action before
+#                    backtracking begins. This is to mimic the way Assaf preselects
+#                    rows in the matrix that correspond to prefilled cells in a Sudoku.
+#                    Algorithm X uses DLX to select rows by node. A subclass would have
+#                    a hard time knowing about nodes, whereas selecting a row by action
+#                    is straightforward.
 
 #  To study the implementation of Algorithm X, I originally used the following write-up
 #  by Ali Assaf (ali.assaf.mail@gmail.com) titled "Algorithm X in 30 Lines!" 
@@ -21,12 +27,6 @@
 #  Assaf's Algorithm X implementation is not DLX based, but it was extremely helpful in my
 #  journey that resulted in the DLX based solver below.
 #
-#  For a detailed discussion of my non-DLX solver, see my solutions for:
-#
-#       Dominoes Solver          : https://www.codingame.com/training/hard/dominoes-solver
-#       Sudoku Solver            : https://www.codingame.com/training/medium/sudoku-solver
-#
-
 #  To understand this DLX based solver will require what I consider mind-bending study
 #  of Knuth's Dancing Links. I believe I was only able to become proficient with DLX
 #  because I was able to study @RoboStac's solution to Constrained Latin Squares on
@@ -191,6 +191,9 @@ class AlgorithmXSolver():
         self.matrix_a_root.title = 'root'
         
         self.col_headers = [DLXCell(requirement) for requirement in self.R]
+
+        # Row headers are never attached to the rest of the DLX matrix. They are only used 
+        # currently to keep track of the action associated with each row.
         self.row_headers = {action:DLXCell(action) for action in self.A}
 
         self.R = {requirement:self.col_headers[i] for i, requirement in enumerate(self.R)}
@@ -200,19 +203,13 @@ class AlgorithmXSolver():
 
         # Create a row in Matrix A for every action.
         for action in self.A:
-            current_row_header = self.row_headers[action]
-            
             previous_cell = None
             for requirement in A[action]:
                 next_cell = DLXCell()
-                current_col_header   = self.R[requirement]
-                next_cell.col_header = current_col_header
-                next_cell.row_header = current_row_header
-                current_col_header.attach_vert(next_cell)
+                next_cell.col_header = self.R[requirement]
+                next_cell.row_header = self.row_headers[action]
+                next_cell.col_header.attach_vert(next_cell)
                 next_cell.col_header.size += 1
-                
-#                 THIS WOULD BE MORE APPROPRIATE, BUT I WOULD NEED TO FIX A FEW OTHER THINGS
-#                 current_col_header.attach_horiz(next_cell)
                 
                 if previous_cell:
                     previous_cell.attach_horiz(next_cell)
@@ -283,17 +280,39 @@ class AlgorithmXSolver():
     # The select method updates Matrix A when a row is selected as part of a solution path.
     # Other rows that satisfy overlapping requirements need to be deleted and in the end,
     # all columns satisfied by the selected row get removed from Matrix A.
-    def select(self, node=None, title=None):
+    def select(self, node=None, action=None):
 
         if node:
             node.select()
             self.solution.append(node.row_header.title)
             self._process_row_selection(node.row_header.title)
 
-        # This is currently never used. I have some thoughts about what might be possible
-        # if a row could be selected by title as compared to being selected by none.
-        if title:
-            pass
+        # This is only used to preselect rows and make them part of the solution. This should
+        # be done before the backtracking and cannot be undone. It is meant for problems that
+        # have partial solutions, such as a partially prefilled Sudoku.
+        elif action:
+
+            finished = False
+
+            # Loop through all columns.
+            col_node = self.matrix_a_root.next_x
+            while not finished and col_node != self.matrix_a_root:
+
+                # Loop through all the rows, looking for a cell with proper header title.
+                row_node = col_node.next_y
+                while not finished and row_node != col_node:
+                    if row_node.row_header.title == action:
+                        row_node.select()
+                        self.solution.append(action)
+                        self._process_row_selection(action)
+                        finished = True
+
+                    row_node = row_node.next_y                
+                
+                col_node = col_node.next_x
+                
+            if not finished:
+                print(f'ALGO X NEVER FOUND A WAY TO SELECT {action}.\n', file=sys.stderr, flush=True)
 
 
     # Algorithm X Step 4 - Clean Up:
@@ -301,20 +320,24 @@ class AlgorithmXSolver():
     # The select() method selects a row as part of the solution being explored.  Eventually that
     # exploration ends and it is time to move on to the next row (action).  Before moving on,
     # Matrix A and the partial solution need to be restored to its prior state.
-    def deselect(self, node=None, title=None):
+    def deselect(self, node=None, action=None):
 
         if node:
             node.unselect()
             self.solution.pop()
             self._process_row_deselection(node.row_header.title)
 
-        # This is currently never used. I have some thoughts about what might be possible
-        # if a row could be selected by title as compared to being selected by none.
-        if title:
+        # This is not currently allowed. Selecting by action can be used to preselect rows
+        # before starting the backtracking, but those rows cannot be deselected.
+        if action:
             pass
         
 
-    #  MEMORY
+    # In cases of multiplicity, this method can be used to ask Algorithm X to remember that
+    # it has already tried certain things. For instance, if Emma wants two music lessons per
+    # week, trying to put her first lesson on Monday at 8am is no different than trying to put
+    # her second lesson on Monday at 8am. See my Algorithm X Playground for more details, 
+    # specifically Mrs. Knuth - Part III.
     def _remember(self, item_to_remember: tuple) -> None:
         if item_to_remember in self.history[-1]:
             self.solution_is_valid = False
@@ -322,54 +345,54 @@ class AlgorithmXSolver():
             self.history[-1].add((item_to_remember))
 
         
-    #  In some cases it may be beneficial to have Algorithm X try certain paths through Matrix A.
-    #  This can be the case when there is reason to believe certain actions have a better chance than
-    #  other actions at producing complete paths through Matrix A.  The method included here does
-    #  nothing, but can be overridden in the case a subclass wishes to influence the order in which
-    #  Algorithm X tries rows (actions) that cover some particular column.
+    # In some cases it may be beneficial to have Algorithm X try certain paths through Matrix A.
+    # This can be the case when there is reason to believe certain actions have a better chance than
+    # other actions at producing complete paths through Matrix A.  The method included here does
+    # nothing, but can be overridden in the case a subclass wishes to influence the order in which
+    # Algorithm X tries rows (actions) that cover some particular column.
     def _action_sort_criteria(self, node):
         return 0
     
 
-    #  In some cases it may be beneficial to have Algorithm X try covering certain requirements
-    #  before others as it looks for paths through Matrix A.  The default is to sort the requirements
-    #  by how many actions cover each requirement, but in some case there might be several 
-    #  requirements covered by the same number of actions.  By overriding this method, the
-    #  Algorithm X Solver can be directed to break ties a certain way or consider some other way
-    #  of prioritizing the requirements.
+    # In some cases it may be beneficial to have Algorithm X try covering certain requirements
+    # before others as it looks for paths through Matrix A.  The default is to sort the requirements
+    # by how many actions cover each requirement, but in some case there might be several 
+    # requirements covered by the same number of actions.  By overriding this method, the
+    # Algorithm X Solver can be directed to break ties a certain way or consider some other way
+    # of prioritizing the requirements.
     def _requirement_sort_criteria(self, node):
         return node.size
     
     
-    #  The following method can be overridden by a subclass to add logic to perform more detailed solution
-    #  checking if invalid paths are possible through Matrix A.  Some problems have requirements that
-    #  cannot be captured in the basic requirements list passed into the __init__() method.  For instance,
-    #  a solution might only be valid if it fits certain parameters that can only be checked at intermediate
-    #  steps.  In a case like that, this method can be overridden to add the functionality necessary to 
-    #  check the solution.
+    # The following method can be overridden by a subclass to add logic to perform more detailed solution
+    # checking if invalid paths are possible through Matrix A.  Some problems have requirements that
+    # cannot be captured in the basic requirements list passed into the __init__() method.  For instance,
+    # a solution might only be valid if it fits certain parameters that can only be checked at intermediate
+    # steps.  In a case like that, this method can be overridden to add the functionality necessary to 
+    # check the solution.
     #
-    #  If the subclass logic results in an invalid solution, the 'solution_is_valid' attribute should be set
-    #  to False instructing the Algorithm X to stop progressing down this path in Matrix A.
+    # If the subclass logic results in an invalid solution, the 'solution_is_valid' attribute should be set
+    # to False instructing the Algorithm X to stop progressing down this path in Matrix A.
     def _process_row_selection(self, row):
         pass
 
 
-    #  This method can be overridden by a subclass to add logic to perform more detailed solution
-    #  checking if invalid paths are possible through Matrix A.  This method goes hand-in-hand with the
-    #  _process_row_selection() method above.
+    # This method can be overridden by a subclass to add logic to perform more detailed solution
+    # checking if invalid paths are possible through Matrix A.  This method goes hand-in-hand with the
+    # _process_row_selection() method above.
     #
-    #  If the subclass logic results in an invalid solution, the 'solution_is_valid' attribute should be
-    #  set to False instructing Algorithm X to stop progressing down this path in Matrix A.  When the
-    #  Algorithm X backtracking comes back to deselect this row, the 'solution_is_valid' attribute must 
-    #  be reset to True. That should be done here.
+    # If the subclass logic results in an invalid solution, the 'solution_is_valid' attribute should be
+    # set to False instructing Algorithm X to stop progressing down this path in Matrix A.  When the
+    # Algorithm X backtracking comes back to deselect this row, the 'solution_is_valid' attribute must 
+    # be reset to True. That should be done here.
     def _process_row_deselection(self, row):
         pass
 
 
-    #  This method can be overridden to instruct Algorithm X to do something every time a solution is found.
-    #  For example, this method could be updated to simply count the number of solutions. It's also possible 
-    #  that not all full paths through Matrix A are truly valid, but maybe that cannot be determined until 
-    #  the very end. In that case, logic could be added here to perform some checking on a solution Algorithm X 
-    #  considers valid, but ultimate validity requires the solution passing some last bit of logic.
+    # This method can be overridden to instruct Algorithm X to do something every time a solution is found.
+    # For example, this method could be updated to simply count the number of solutions. It's also possible 
+    # that not all full paths through Matrix A are truly valid, but maybe that cannot be determined until 
+    # the very end. In that case, logic could be added here to perform some checking on a solution Algorithm X 
+    # considers valid, but ultimate validity requires the solution passing some last bit of logic.
     def _process_solution(self):
         pass
