@@ -1,12 +1,12 @@
 # Futoshiki Solver
 
-Puzzle: [Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver)
+__Puzzle:__ [Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver)
 
-Author: [@Sundiver](https://www.codingame.com/profile/a4d5c1786311a05772d1b2f5dadac78e6102203)
+__Author:__ [@Sundiver](https://www.codingame.com/profile/a4d5c1786311a05772d1b2f5dadac78e6102203)
 
-Published Difficulty: Medium
+__Published Difficulty:__ Medium
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__
 
 # Strategy
 
