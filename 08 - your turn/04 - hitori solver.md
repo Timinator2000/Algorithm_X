@@ -18,8 +18,11 @@ My solution for Hitori Solver is surprisingly similar to Mrs. Knuth – Part III
     * When completed, all un-shaded squares create a single continuous area.
 
 What are the action steps that can be taken to build a solution? _The object is to shade squares._
+
 What are the requirements? _No number can appear in a row or column more than once._
+
 Is there any mutual exclusivity? _Shaded squares must not touch vertically or horizontally._
+
 Will solutions need to be processed to determine if they are valid? _When completed, all unshaded squares must create a single continuous area._
 
 Thank you [@VilBoub]( https://www.codingame.com/profile/bd6706892e49290fb119aa5ddae4238a318297) for making the goal statement line up with the questions I had in my head already!
