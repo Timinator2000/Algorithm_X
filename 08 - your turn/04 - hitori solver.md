@@ -37,7 +37,7 @@ Let’s dig into the requirements a bit more. Consider the Example Test Case:
 
 We see three 1s in the first row. Two of those 1s will need to be shaded. Of course, requirements need to be specific and with Algorithm X, multiplicity is handled with multiple requirements. It is more proper to say that the requirements include removing a 1 from the first row for the first time and removing a 1 from the first row for the second time. Two separate requirements need to be satisfied.
 
-The only action that can be taken to build a solution is to shade a cell. Will you then create an action for every cell on the gameboard? Probably not. There is no reason to ever shade a cell unless the number in the cell appears more than once in the row _or_ the column.
+The only action that can be taken to build a solution is to shade a cell. Will you then create an action for every cell on the gameboard? Probably not. There is no reason to ever shade a cell unless the number in the cell appears more than once in its row _or_ its column.
 
 This puzzle has a unique multiplicity twist not seen in other puzzles and you will run into it when you are identifying the requirements satisfied by each action. Consider the grid for __Test Case 4: Even Bigger__:
 
