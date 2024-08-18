@@ -30,20 +30,20 @@ Possible values for `a` = 1, 2, 3, 4, 5, 6
 Possible values for `b` = 1, 2, 3, 4, 5, 6
 
 ?[What is wrong with the above statements. Select all that apply?]
-[] Nothing is wrong. In the absence of hints, either cell could take any of those values.
-[x] `b` cannot be 1 since there are no values for `a` that allow `a < b` to be true. 
-[] `a` must be 1 and `b` must be 2 because `a < b`.
-[x] `a` cannot be 6 since there are no values for `b` that allow `a < b` to be true. 
+-[] Nothing is wrong. In the absence of hints, either cell could take any of those values.
+-[x] `b` cannot be 1 since there are no values for `a` that allow `a < b` to be true. 
+-[] `a` must be 1 and `b` must be 2 because `a < b`.
+-[x] `a` cannot be 6 since there are no values for `b` that allow `a < b` to be true. 
 
 Very interesting! What if `b` already had a value in the box? That would make it easy to reduce the possible values for `a`.
 
 Ultimately, an inequality identifies what must be true, and from that, it is easy to determine what cannot happen. If `a` < `b`, then making `a = 3` and `b = 2` is not allowed. 
 
 ?[How do we tell Algorithm X certain things are not allowed?]
-[] Send an email.
-[] Post a message in the Codingame Forum. 
-[x] Create requirements to handle mutual exclusivity.
-[] Call a special AlgorithmXSolver method.
+-[] Send an email.
+-[] Post a message in the Codingame Forum. 
+-[x] Create requirements to handle mutual exclusivity.
+-[] Call a special AlgorithmXSolver method.
 
 It looks like you will need some requirements to handle the mutual exclusivity created by each inequality.
 
