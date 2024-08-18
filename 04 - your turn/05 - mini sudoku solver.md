@@ -1,12 +1,12 @@
 # Mini Sudoku Solver
 
-Puzzle: [Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)
+__Puzzle:__ [Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)
 
-Author: [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd2627479878)
+__Author:__ [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd2627479878)
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity: Straightforward
+__Algorithm X Complexity:__ Straightforward
 
 # Strategy
 
