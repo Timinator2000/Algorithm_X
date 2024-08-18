@@ -1,12 +1,12 @@
 # Einstein's Riddle Solver
 
-Puzzle: [Einstein's Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver)
+__Puzzle:__ [Einstein's Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver)
 
-Author: [@OroshiX](https://www.codingame.com/profile/045d3b89723c9acafb728c9fd1d8cb297970931)
+__Author:__ [@OroshiX](https://www.codingame.com/profile/045d3b89723c9acafb728c9fd1d8cb297970931)
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__ A Subtle Shift In Perspective Can Make Life a Lot Easier
 
 # Strategy
 
