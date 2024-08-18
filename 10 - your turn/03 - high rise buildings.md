@@ -1,11 +1,11 @@
 # High-Rise Buildings
 
-Puzzle: [High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings)
+__Puzzle:__ [High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings)
 
-Author: [@dwarfie](https://www.codingame.com/profile/2ad5cc4919ed368f16de4aecd570e21e477551)
+__Author:__ [@dwarfie](https://www.codingame.com/profile/2ad5cc4919ed368f16de4aecd570e21e477551)
 
-Published Difficulty: Very Hard
+__Published Difficulty:__ Very Hard
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__
 
 # Strategy
