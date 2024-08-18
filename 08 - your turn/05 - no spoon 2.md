@@ -64,6 +64,8 @@ __Channel__ – a trench between two nodes, inside of which can be placed some n
 
 __Intersection__ – a location on the gameboard that knows about any Channel that passes through that location
 
+Every Channel has capacity for a certain number of links. For now, this is the only attribute that requires a bit discussion:
+
 __Channel Capacity__ – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to that rule.
 
 
