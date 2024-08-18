@@ -1,12 +1,12 @@
 # Kakuro Solver
 
-Puzzle: [Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver)
+__Puzzle:__ [Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver)
 
-Author: [@Q12](https://www.codingame.com/profile/b683bbb0b3a4c1d61f3ac36f8201d98a6101573)
+__Author:__ [@Q12](https://www.codingame.com/profile/b683bbb0b3a4c1d61f3ac36f8201d98a6101573)
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__
 
 # Strategy
 
