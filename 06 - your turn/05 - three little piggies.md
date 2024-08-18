@@ -1,11 +1,11 @@
 # Three Little Piggies
 
-Puzzle: [Three Little Piggies](https://www.codingame.com/training/hard/three-little-piggies)
+__Puzzle:__ [Three Little Piggies](https://www.codingame.com/training/hard/three-little-piggies)
 
-Author: [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd2627479878)
+__Author:__ [@nicola](https://www.codingame.com/profile/21bf42f790de293c3aef398f18cd2627479878)
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity: 
+__Algorithm X Complexity:__ Pigs In Houses? Day? Night? Lot's of Options Create Complexity
 
 # Strategy
