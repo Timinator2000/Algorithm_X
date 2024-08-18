@@ -1,11 +1,11 @@
 # Dumbbells Solver
 
-Puzzle: [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver)
+__Puzzle:__ [Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver)
 
-Author: [@VilBoub](https://www.codingame.com/profile/bd6706892e49290fb119aa5ddae4238a318297)
+__Author:__ [@VilBoub](https://www.codingame.com/profile/bd6706892e49290fb119aa5ddae4238a318297)
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__ A Perfect Introduction to Multiplicity
 
 # Strategy
