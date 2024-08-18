@@ -8,6 +8,23 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__
 
-# Strategy
+Parsing and organizing input for this puzzle is plenty challenging on its own. Fortunately, once the input is understood, the puzzle starts to look very familiar.
 
-Does something need to go here?
+# A Special Latin Square
+Both the puzzle statement and Wikipedia confirm a Futoshiki has a lot in common with Sudoku and other Latin Square puzzles.
+
+From the puzzle goal:
+
+>Futoshiki is a Japanese numeric logic puzzle similar to the more popular Sudoku.
+
+From Wikipedia:
+
+>A solved futoshiki puzzle is a Latin square.
+
+I will skip going over the requirements and actions since they have been covered in great detail already, but the inequalities add an important twist.
+
+# Inequalities
+
+An inequality takes the general form:
+
+$a < b$
