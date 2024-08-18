@@ -1,10 +1,10 @@
 # There Is No Spoon - Episode 2
 
-Puzzle: [There Is No Spoon - Episode 2](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2)
+__Puzzle:__ [There Is No Spoon - Episode 2](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2)
 
-Published Difficulty: Hard
+__Published Difficulty:__ Hard
 
-Algorithm X Complexity: Strap in and hold on tight!
+__Algorithm X Complexity:__ Strap in and hold on tight!
 
 # Strategy
 
