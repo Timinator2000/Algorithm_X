@@ -22,7 +22,7 @@ __Step 4:__ Make sure all the proper `me_requirements` are added to the lists of
 
 # Your Goal
 
-Using the techniques covered so far, you can solve most of the test cases for this puzzle, but you cannot solve them all. Test Case 8: Advanced and Test Case 13: Expert are just too big to solve purely with backtracking. In the next section, I will cover problem-space reduction, and I’ll revisit this puzzle with a few more ideas that might help you find the finish line. Before moving on, let’s discuss a few things about the test cases you should be able to solve.
+Using the techniques covered so far, you can solve most of the test cases for this puzzle, but you cannot solve them all. __Test Case 8: Advanced__ and __Test Case 13: Expert__ are just too big to solve purely with backtracking. In the next section, I will cover problem-space reduction, and I’ll revisit this puzzle with a few more ideas that might help you find the finish line. Before moving on, let’s discuss a few things about the test cases you should be able to solve.
 
 __Test Cases 1 through 7, 9 and 10:__ These can all be solved with Algorithm X by following the processes covered in the Mrs. Knuth puzzles and the guidelines given here.
 
