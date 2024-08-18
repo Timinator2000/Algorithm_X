@@ -1,11 +1,11 @@
 # Assorted Rectangular Pieces Puzzle
 
-Puzzle: [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255)
+__Puzzle:__ [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255)
 
-Author: [@docgunthrop](https://www.codewars.com/users/docgunthrop)
+__Author:__ [@docgunthrop](https://www.codewars.com/users/docgunthrop)
 
-Published Difficulty: [2 kyu](https://docs.codewars.com/gamification/ranks)
+__Published Difficulty:__ [2 kyu](https://docs.codewars.com/gamification/ranks)
 
-Algorithm X Complexity:
+__Algorithm X Complexity:__ No Worse than Trying to Survive a Zombie Apocalypse
 
 # Strategy
