@@ -27,11 +27,11 @@ I will skip going over the requirements and actions since they have been covered
 All inequalities in a Futoshiki can be expressed as `a < b` where `a` and `b` are the values in two cells that share a horizontal or vertical border. Given a 6x6 Futoshiki with no hints, we know that every cell is a number between 1 and 6.
 
 ```
-Possible values for `a` = 1, 2, 3, 4, 5, 6
-Possible values for `b` = 1, 2, 3, 4, 5, 6
+Possible values for a = 1, 2, 3, 4, 5, 6
+Possible values for b = 1, 2, 3, 4, 5, 6
 ```
 
-?[What is wrong with the above statements. Select all that apply?]
+?[What is wrong with the above statements? Select all that apply]
 -[] Nothing is wrong. In the absence of hints, either cell could take any of those values.
 -[x] `b` cannot be 1 since there are no values for `a` that allow `a < b` to be true. 
 -[] `a` must be 1 and `b` must be 2 because `a < b`.
@@ -46,6 +46,7 @@ Ultimately, an inequality identifies what must be true, and from that, it is eas
 -[] Post a message in the Codingame Forum. 
 -[x] Create requirements to handle mutual exclusivity.
 -[] Call a special AlgorithmXSolver method.
+-[] Ask @5DN1L to reach out to Codingame directly.
 
 It looks like you will need some requirements to handle the mutual exclusivity created by each inequality.
 
