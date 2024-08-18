@@ -32,9 +32,10 @@ Let’s dig into the requirements a bit more. Consider the Example Test Case:
 224
 ```
 
-We see three 1s in the first row. Two of those 1s will need to be shaded. Of course, requirements need to be specific and with Algorithm X, multiplicity is handled with multiple requirements. It is more proper to say that the requirements include removing the first 1 from the first row and removing the second 1 from the first row. Two separate requirements need to be satisfied.
+We see three 1s in the first row. Two of those 1s will need to be shaded. Of course, requirements need to be specific and with Algorithm X, multiplicity is handled with multiple requirements. It is more proper to say that the requirements include removing a 1 from the first row for the first time and removing a 1 from the first row for the second time. Two separate requirements need to be satisfied.
 
 The only action that can be taken to build a solution is to shade a cell. Will you then create an action for every cell on the gameboard? Probably not. There is no reason to ever shade a cell unless the number in the cell appears more than once in the row _or_ the column.
+
 This puzzle has a unique multiplicity twist not seen in other puzzles and you will run into it when you are identifying the requirements satisfied by each action. Consider the grid for __Test Case 4: Even Bigger__:
 
 ```text
@@ -59,4 +60,5 @@ This creates a potential crossroads of multiplicity at each grid location, which
 I hope it is obvious you will need some optional requirements to make sure no two squares that touch are both shaded.
 
 # Memory
+
 Even without memory, Algorithm X is able to find solutions extremely fast, especially since you can `break` as soon as your solver returns a solution, assuming you have validated that solution by overriding the `_process_solution(self)` method. Adding memory reduced my solver’s time to find a solution by roughly 30% to 40%, but this is a little challenging to measure due to how fast Algorithm X finds the solutions even without memory.
