@@ -52,4 +52,4 @@ It looks like you will need some requirements to handle the mutual exclusivity c
 
 # Your Goal
 
-All test cases except __Test Case 5: 7x7__ can be solved with nothing more than requirements, actions and optional requirements. To solve __Test Case 5: 7x7__, you might need a very small amount of problem-space reduction. I have already discussed how inequalities limit the realm of possibility for the cells on either side. Later in the playground, I will discuss other techniques for problem-space reduction.
+All test cases except __Test Case 5: 7x7__ can be solved with nothing more than requirements, actions and optional requirements. To solve __Test Case 5: 7x7__, you might need a very small amount of problem-space reduction. I have already discussed one option using the inequalities to limit the realm of possibility for the cells on either side. Later in the playground, I will discuss other techniques for problem-space reduction.
