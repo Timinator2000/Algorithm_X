@@ -51,7 +51,7 @@ The action steps I can take to build a solution are pretty simple. Each of the 2
 
 >To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
 
-Each letter's coordinates are unknown so I will add subscripts to refer to the row and columns of the letters.
+Each letter's coordinates are unknown so I will add subscripts to refer to the rows and columns of the letters.
 
 <BR><BR>
 ![Toy Example - Step 1](Toy1.png)
