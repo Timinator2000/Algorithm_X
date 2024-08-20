@@ -4,7 +4,7 @@ __Puzzle:__ [There Is No Spoon - Episode 2](https://www.codingame.com/training/h
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ Strap in and hold on tight!
+__Algorithm X Complexity:__ Strap In and Hold On Tight
 
 # A Past Contest
 
