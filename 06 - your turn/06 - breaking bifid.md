@@ -41,10 +41,28 @@ I was able to put together a working solution using Algorithm X very quickly, bu
 
 # Looking at the Puzzle as an Exact Cover
 
-Let’s now consider an example similar in structure to the text cases and try to identify actions and requirements for Algorithm X. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1, but the entire Polybius square is completely blank.
+Let’s now consider an example similar in structure to the test cases and try to identify actions and requirements for Algorithm X in hopes that Algorithm X can identify how the Polybius Square should be constructed. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1, but the entire Polybius square is completely blank.
 
 <BR><BR>
 ![Toy Example](ToyBifid.png)
 <BR>
 
-The action steps I can take to build a solution are pretty simple. Each of the 25 letters (J is excluded) of the alphabet must be placed in one of the 25 squares. As for requirements, it 
+The action steps I can take to build a solution are pretty simple. Each of the 25 letters (J is excluded) of the alphabet must be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered. That is not super helpful because every possible combination of actions satisfies those requirements. Let's work through the process laid out by the author knowing we don't know the letters in the key.
+
+>To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
+
+<BR><BR>
+![Toy Example - Step 1](Toy1.png)
+<BR>
+
+>The two lines of numbers are written after each other:
+
+<BR><BR>
+![Toy Example - Step 2](Toy2.png)
+<BR>
+
+>The numbers are then grouped in pairs, and the pairs are used as coordinates into the Polybius square (the first number being the row, and second being the column), to find the letters of the ciphertext:
+
+<BR><BR>
+![Toy Example - Step 3](Toy3.png)
+<BR>
