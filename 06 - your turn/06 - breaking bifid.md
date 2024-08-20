@@ -80,4 +80,4 @@ row of A = row of S
 row of N = col of S
 ```
 
-We finally have a requirement more interesting than a letter needing to be put on the grid. We know that A and S must be in the same row! This feels like mutual inclusivity considering these two things that must happen together. Hopefully you did Einstein's Riddle Solver and you remember how to create requirements to handle mutual inclusivity. If not, it might be time to go back and finish that one first!
+We finally have some requirements more interesting than a letter needing to be put on the grid. We know that A and S must be in the same row! This feels like mutual inclusivity considering these two things must be the same, or in other words...they must not be different. Hopefully you did Einstein's Riddle Solver and you remember how to turn mutually inclusive items into a set of mutually exclusive items. If not, it might be time to go back and finish that puzzle first! 
