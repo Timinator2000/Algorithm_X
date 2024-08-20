@@ -17,7 +17,7 @@ I was able to put together a working solution using Algorithm X very quickly, bu
 >Bifid uses a Polybius square as a key. This is a 5 by 5 square containing 25 letters of the alphabet (the J is merged with I), in an arbitrary order. For example:
 
 <BR><BR>
-![Polybius Square](PolybiusSquare.png)
+![Polybius square](PolybiusSquare.png)
 <BR>
 
 >To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
@@ -41,7 +41,7 @@ I was able to put together a working solution using Algorithm X very quickly, bu
 
 # Looking at the Puzzle as an Exact Cover
 
-Let’s now consider an example similar in structure to the test cases and try to identify actions and requirements for Algorithm X in hopes that Algorithm X can identify how the Polybius Square should be constructed. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1`, but the entire Polybius square is completely blank.
+Let’s now consider an example similar in structure to the test cases and try to identify actions and requirements for Algorithm X in hopes that Algorithm X can identify how the Polybius square should be constructed. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1`, but the entire Polybius square is completely blank.
 
 <BR><BR>
 ![Toy Example](ToyBifid.png)
