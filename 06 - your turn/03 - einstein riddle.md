@@ -14,7 +14,7 @@ Einstein’s Riddle Solver lends itself perfectly to the tiles on a gameboard an
 
 >solve the riddle and print it as a grid, separated by space and newline, with each person in their own column and each characteristic category on its own line.
 
-And what are the tiles? They are the characteristics, of course. Your job is to place all tiles on the grid. I’ll bet that sounds familiar.
+And what are the tiles? They are the characteristics, of course. Your job is to place all the tiles on the grid. I’ll bet that sounds familiar.
 
 In Sudoku, some cells are prefilled and I suggested handling that by limiting the actions available for those cell to a single action, putting the correct number tile on that grid position. This puzzle has essentially prefilled the entire first row:
 
