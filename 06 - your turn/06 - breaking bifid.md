@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Imagine Untangling the Biggest Pile of Christmas Lig
 
 # Puzzle Overview
 
-In Breaking Bifid, you are given a `plainText1` string and a `cipherText1` string. You need to figure out the makeup of the key, the _ Polybius_ square, used to encrypt `plainText1`. Once you have the key, you can decode a `cipherText2`.
+In Breaking Bifid, you are given a `plainText1` string and a `cipherText1` string. You need to figure out the makeup of the key, the _Polybius square_, used to encrypt `plainText1`. Once you have the key (a completed square) you can decode a third string, `cipherText2`.
 
 I was able to put together a working solution using Algorithm X very quickly, but I have yet to find a way to make that solution fast. Maybe a variation of Algorithm X would help or maybe Algorithm X is just not the best fit for the problem. Either way, I found the puzzle to be a great Algorithm X learning exercise despite my solution being somewhat slow. Before we explore how to look at this problem as an exact cover, let’s first review the process laid out in the goal statement.
 
