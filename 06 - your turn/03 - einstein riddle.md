@@ -25,10 +25,10 @@ You can choose to put any characteristic in any column, as long as you obey the 
 1)	Georges & Salad which means Georges eats Salad
 2)	Georges ! Salad which means Georges doesn't eat Salad.
 
-#1 is very clear. You cannot put salad in the same column as George! Sounds like mutual exclusivity, right? But what about #2. How can we handle mutual inclusivity, actions that __must__ happen together?
+#1 is very clear. You cannot put salad in the same column as George! Sounds like mutual exclusivity, right? But what about #2. How can we handle mutual inclusivity, actions that _must_ happen together?
 
 Assume I have a set of items: `{a, b, c, d, e}` and it is given that `a` and `c` are mutually inclusive. I have to choose two items from the set, but if I choose `a`, I must also choose `c` or if I first choose `c`, I must also choose `a`. Any combination of `b`, `d` and `e` would be fine. In this playground, we have only covered mutual exclusivity, never inclusivity. Is there a way we can handle this situation with what we already know? There sure is!
 
-If `a` and `c` must be chose together, I could restate that as `a` must not be chosen with `b`, `a` must not be chosen with `d` and `a` must not be chosen with `d`. The only options left are to choose both `a` and `c` or to choose some combination of  `b`, `d` and `e`.
+If `a` and `c` must be chosen together, I could shift my perspective and say that `a` _must not_ be chosen with `b`, `a` _must not_ be chosen with `d` and `a` _must not_ be chosen with `d`. The only options left are to choose both `a` and `c` or to choose some combination of  `b`, `d` and `e`.
 
-If Georges must have Salad, you can accomplish that by making sure Georges cannot have any of the other food options. Later in the playground, I’ll discuss another way to handle mutual inclusivity, but changing the mutually inclusive requirement to a set of mutually exclusive requirements is an easy and often effective solution.
+If Georges must have Salad, you can accomplish that by making sure Georges cannot have any of the other food options. Later in the playground, I’ll discuss another way to handle mutual inclusivity, but changing the mutually inclusive requirement to a set of mutually exclusive requirements is an easy and often effective solution that works wonderfully on Einstein's various riddles.
