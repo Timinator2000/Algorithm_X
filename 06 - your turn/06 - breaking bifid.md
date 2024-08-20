@@ -41,7 +41,7 @@ I was able to put together a working solution using Algorithm X very quickly, bu
 
 # Looking at the Puzzle as an Exact Cover
 
-Let’s now consider an example similar in structure to the test cases and try to identify actions and requirements for Algorithm X in hopes that Algorithm X can identify how the Polybius Square should be constructed. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1, but the entire Polybius square is completely blank.
+Let’s now consider an example similar in structure to the test cases and try to identify actions and requirements for Algorithm X in hopes that Algorithm X can identify how the Polybius Square should be constructed. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1`, but the entire Polybius square is completely blank.
 
 <BR><BR>
 ![Toy Example](ToyBifid.png)
