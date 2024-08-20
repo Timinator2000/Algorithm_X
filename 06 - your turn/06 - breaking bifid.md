@@ -51,7 +51,7 @@ The action steps I can take to build a solution are pretty simple. Each of the 2
 
 >To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
 
-We do not know the coordinates of each letter, so I will add subscripts to refer to the row or column of each letter.
+Each letter's coordinates are unknown so I will add subscripts to refer to the row and columns of the letters.
 
 <BR><BR>
 ![Toy Example - Step 1](Toy1.png)
@@ -68,3 +68,16 @@ We do not know the coordinates of each letter, so I will add subscripts to refer
 <BR><BR>
 ![Toy Example - Step 3](Toy3.png)
 <BR>
+
+At the risk of being repetitive, I will quote the author's problem statement one last time:
+
+>the pairs are used as coordinates into the Polybius square (the first number being the row, and second being the column), to find the letters of the ciphertext:
+
+The first pair, (row of A, row of N), tells us where to look in the Polybius square to find the first ciphertext letter, S. From that, we know:
+
+```text
+row of A = row of S
+row of N = col of S
+```
+
+We finally have a requirement more interesting than a letter needing to be put on the grid. We know that A and S must be in the same row! This feels like mutual inclusivity considering these two things that must happen together. Hopefully you did Einstein's Riddle Solver and you remember how to create requirements to handle mutual inclusivity. If not, it might be time to go back and finish that one first!
