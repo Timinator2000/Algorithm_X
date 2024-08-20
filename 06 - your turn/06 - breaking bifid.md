@@ -6,7 +6,7 @@ __Author:__ [@therealbeef](https://www.codingame.com/profile/ecad91b9a50d51a3d95
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ Imagine Untangling the Biggest Pile of Christmas Lights Ever
+__Algorithm X Complexity:__ Imagine Untangling the World's Largest Pile of Holiday Lights
 
 # Puzzle Overview
 
