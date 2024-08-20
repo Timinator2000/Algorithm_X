@@ -20,7 +20,7 @@ In Sudoku, some cells are prefilled and I suggested handling that by limiting th
 
 >The characteristics in the first line will be ordered alphabetically…
 
-You could choose to put any characteristic in any column, as long as you obey the rules. The examples given in the problem statement are:
+You can choose to put any characteristic in any column, as long as you obey the rules. The examples given in the problem statement are:
 
 1)	Georges & Salad which means Georges eats Salad
 2)	Georges ! Salad which means Georges doesn't eat Salad.
