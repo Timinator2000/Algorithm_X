@@ -47,7 +47,7 @@ Let’s now consider an example similar in structure to the test cases and try t
 ![Toy Example](ToyBifid.png)
 <BR>
 
-The action steps I can take to build a solution are pretty simple. The 25 letters (J is excluded) of the alphabet need to be placed in the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered. That is not super helpful because a tremendous number of possible combinations satisfy those requirements. Let's work through the process laid out by the author once again, this time taking into account we don't know the letters in the key.
+The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered. That is not super helpful because a tremendous number of possible combinations satisfy those requirements. Let's work through the process laid out by the author once again, this time taking into account we don't know the letters in the key.
 
 >To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
 
