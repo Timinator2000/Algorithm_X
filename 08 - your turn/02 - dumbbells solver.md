@@ -34,3 +34,21 @@ I was surprised that I did not see an increase in speed when I added memory to m
 ```
 
 What did I find? Although memory did force backtracking, it was extremely rare. Since it did not happen often, there really was not much impact on overall speed.
+
+# How Important is the Break Statement?
+
+If the break statement is removed, Algorithm X will search for all solutions. Using the code above, you will see memory forces a fair amount of backtracking. After searching for all solutions, add the following line to see how many solutions Algorithm X found.
+
+```
+print(f'{solver.solution_count=}', file=sys.stderr, flush=True)
+```
+
+What do you see? As long as memory is properly used, Algorithm X only finds a single solution for each test case. What if you delete the memory code? Algorithm X finds 6 solutions for Test Case 1 and 24 solutions for Test Case 2. For the last 3 test cases, the time limit is hit before Algorithm X finishes searching for solutions.
+
+# Takeaways
+
+Hopefully you are flying through some of these puzzles for which Algorithm X is such a great fit. If you run into issues, you might check some of your small details:
+
+1) Are you using a `break` statement as soon as Algorithm X finds a solution?
+
+2) Are you correctly using AlgorithmXSolver's memory?
