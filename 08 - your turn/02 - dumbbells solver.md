@@ -37,7 +37,7 @@ What did I find? Although memory did force backtracking, it was extremely rare. 
 
 # How Important is the Break Statement?
 
-If the break statement is removed, Algorithm X will search for all solutions. Using the code above, you will see memory forces a fair amount of backtracking. After searching for all solutions, add the following line to see how many solutions Algorithm X found.
+If the break statement is removed, Algorithm X will search for all solutions. Let's give it a try! Using the code above, you will see memory forces a fair amount of backtracking. After searching for all solutions, add the following line to see how many solutions Algorithm X found.
 
 ```
 print(f'{solver.solution_count=}', file=sys.stderr, flush=True)
