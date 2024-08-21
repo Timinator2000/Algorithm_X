@@ -14,7 +14,7 @@ The most important part to creating an Algorithm X solution for Equation Search 
 
 {gameboard 1}
 
-As tiles are put on the gameboard, some sort of validation would need to be done to see if there is some way to put the operands and the operator together to come up with the right-side value. This feels a bit like making tiles in Winamax correspond to every cell in the grid. With Winamax, it ultimately was better to build routes and consider each possible route a tile that could be placed on the gameboard. A similar approach might work better here.
+As tiles are put on the gameboard, some sort of validation would need to be done to see if there is some way to put the operands and the operator together to come up with the right-side value. This feels a bit like making tiles in Winamax correspond to every cell in the grid. With Winamax, it ultimately was better to build routes and consider each possible route a tile that could be placed on the gameboard. A similar approach will work better here.
 
 Let’s make gameboard nothing more than a list of right-side value. Using the strategy we know worked for Winamax, we can make each tile here a full equation, including the right-side value. The goal becomes to place the equation tiles on the matching right-side values found on the gameboard.
 
