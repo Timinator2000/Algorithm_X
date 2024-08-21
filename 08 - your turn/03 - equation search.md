@@ -38,4 +38,8 @@ The correct answer is 6! Remember, because of the multiplicity, you can use the 
 
 {Ways to make 10}
 
-There is a fair amount of multiplicity in this puzzle and to solve the bigger test cases, you will need to properly use AlgorithmXSolver’s memory. What is it you will want Algorithm X to remember?
+There is a fair amount of multiplicity in this puzzle and to solve the bigger test cases, you will need to properly use AlgorithmXSolver’s memory. Without proper use of memory, you will generate a lot more solutions than necessary.
+
+
+
+What is it you will want Algorithm X to remember?
