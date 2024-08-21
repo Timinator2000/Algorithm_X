@@ -16,11 +16,11 @@ Where is the multiplicity in this puzzle? Consider the dumbbells. In the Example
 
 The requirements are straightforward. Some locations on the floor are marked and one end of a dumbbell _must_ cover each marked location. Every other location on the floor _may_ or _may not_ be covered. Any location that gets covered can only be covered one time since the puzzle states, “the dumbbells can touch but not cross each other.
 
-How about the actions you can take to build a solution? This puzzle looks very similar to Dominoes Solver in that regard. Combine what you learned on Dominoes Solver with the sills you solidified on Shikaku Solver and you should have a clear path forward. Of course, you’ll need to make sure you properly add precision to the requirements and actions, as was discussed in the approach Mrs. Knuth – Part III.
+How about the actions you can take to build a solution? This puzzle looks very similar to Dominoes Solver in that regard. Combine what you learned on Dominoes Solver with the skills you solidified on Shikaku Solver and you should have a clear path forward. Of course, you will need to make sure you properly add precision to the requirements and actions, as was discussed in the approach to Mrs. Knuth – Part III.
 
 # Memory to Avoid Duplicates
 
-Because there is a unique solution to every Test Case, you may use a `break` statement as soon as Algorithm X returns the first solution. Dumbbells Solver is a great fit for Algorithm X and your solver should find the first solution very fast on every test case.
+Because there is a unique solution to every test case, you may use a `break` statement as soon as Algorithm X returns the first solution. Dumbbells Solver is a great fit for Algorithm X and your solver should find the first solution very fast on every test case.
 
 I was surprised that I did not see an increase in speed when I added memory to my DumbbellsSolver. When a call is made to `self._remember(self, item_to_remember: tuple)` AlgorithmXSolver looks for the item in its memory and if that item is already in memory, the attribute `self.solution_is_valid` is set to `False`. I added the following lines to code to my DumbbellsSolver to take a look at how often memory was causing backtracking.
 
