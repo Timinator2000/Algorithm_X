@@ -110,10 +110,10 @@ plan:
     plan:
       - title: Mrs. Knuth - Part III
         statement: 08 - your turn/01 - mrs knuth part III.md
-      - title: Equation Search
-        statement: 08 - your turn/02 - equation search.md
       - title: Dumbbells Solver
-        statement: 08 - your turn/03 - dumbbells solver.md
+        statement: 08 - your turn/02 - dumbbells solver.md
+      - title: Equation Search
+        statement: 08 - your turn/03 - equation search.md
       - title: Hitori Solver
         statement: 08 - your turn/04 - hitori solver.md
       - title: There is No Spoon - Episode 2
