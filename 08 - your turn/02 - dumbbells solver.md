@@ -14,7 +14,7 @@ Dumbbells Solver is the perfect puzzle for practicing what you just learned abou
 
 Where is the multiplicity in this puzzle? Consider the dumbbells. In the Example Test Case, three dumbbells need to be placed on the floor. In real life, these dumbbells might be different colors, or they might be different weights, but in this puzzle there is nothing to tell one dumbbell from another. Is there any difference between placing 3 dumbbells on the floor and scheduling 3 lessons for Emma with Mrs. Knuth? No, there really is not.
 
-The requirements are straightforward. Some locations on the floor are marked and one end of dumbbell _must_ cover each marked location. Every other location on the floor _may_ be covered. Any location that gets covered can only be covered one time since the puzzle states, “the dumbbells can touch but not cross each other.
+The requirements are straightforward. Some locations on the floor are marked and one end of a dumbbell _must_ cover each marked location. Every other location on the floor _may_ be covered. Any location that gets covered can only be covered one time since the puzzle states, “the dumbbells can touch but not cross each other.
 
 How about the actions you can take to build a solution? This puzzle looks very similar to Dominoes Solver in that regard. Combine what you learned on Dominoes Solver with the sills you solidified on Shikaku Solver and you should have a clear path forward. Of course, you’ll need to make sure you properly add precision to the requirements and actions, as was discussed in the approach Mrs. Knuth – Part III.
 
