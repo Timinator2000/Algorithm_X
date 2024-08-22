@@ -51,15 +51,16 @@ There is a fair amount of multiplicity in this puzzle and to solve the bigger te
 <BR>
 | Test Case | Distinct Solutions     | Solutions Found if Duplicates Not Avoided |
 |:--|:----:|:------------------------------------------------------------------:|
-| 4 - 6 Equations, 1 Solution|1|72|
-| 5 - 6 Equations, Multiple Solutions|3|96|
-| 6 - 10 Equations, 1 Solution|1|69,120|
-| 7 - 10 Equations, Multiple Solutions|31|445,824|
-| 8 - 13 Equations|227||
-| 9 - 14 Equations|674||
-| 10 - 15 Equations, 1 Solutions|1||
-| 11 - 15 Equations, Multiple Solutions|2898||
-| 12 - So Many Solutions|4059||
+|4 - 6 Equations, 1 Solution|1|72|
+|5 - 6 Equations, Multiple Solutions|3|96|
+|6 - 10 Equations, 1 Solution|1|69,120|
+|7 - 10 Equations, Multiple Solutions|31|445,824|
+|8 - 13 Equations|227|?|
+|9 - 14 Equations|674|?|
+|10 - 15 Equations, 1 Solutions|1|?|
+|11 - 15 Equations, Multiple Solutions|2898|?|
+|12 - So Many Solutions|4059|?|
+<BR>
 
 # Setting Up Algorithm X
 
