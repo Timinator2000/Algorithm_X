@@ -40,7 +40,7 @@ The correct answer is 3. Putting a single equation tile on the gameboard covers 
 -[ ] 8
 -[ ] 13
 
-The correct answer is 6! Remember, because of the multiplicity, you can use the first 5, the second 5 or the third 5. The possible equations look like this:
+The correct answer is 6! Remember, because of the multiplicity, you can use the first 5, the second 5 or the third 5. The possible equations, depicted as tiles to put on the gameboard, look like this:
 
 <BR><BR>
 ![Ways to Make 10](WaysToMake10.png)
