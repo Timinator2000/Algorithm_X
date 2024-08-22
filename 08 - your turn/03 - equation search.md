@@ -51,7 +51,14 @@ There is a fair amount of multiplicity in this puzzle and to solve the bigger te
 <BR>
 | Test Case | Distinct Solutions     | Solutions Found if Duplicates Not Avoided |
 |:--|:----:|:------------------------------------------------------------------:|
-|4 - 6 Equations, 1 Solution|1|72|
+|4 - 6 Equations 1 Solution|1|72|
+
+
+
+
+
+
+
 |5 - 6 Equations, Multiple Solutions|3|96|
 |6 - 10 Equations, 1 Solution|1|69,120|
 |7 - 10 Equations, Multiple Solutions|31|445,824|
