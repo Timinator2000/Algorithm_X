@@ -10,13 +10,13 @@ __Algorithm X Complexity:__ Specifically Designed to Test What You Have Learned 
 
 # Strategy
 
-The most important part to creating an Algorithm X solution for Equation Search is coming up with a gameboard/tiles analogy. What does the gameboard look like? There could be a temptation to make every operand and every operator a tile. The gameboard would be made up of several equations, each equation having 3 spots for 2 operands and 1 operator. Given right sides of 5, 7 and 10, the gameboard might look like:
+An important part to creating an Algorithm X solution for Equation Search is coming up with a gameboard/tiles analogy. What does the gameboard look like? It is temptating to make every operand and every operator a tile. The gameboard would be made up of several equations, each equation having 3 spots for 2 operands and 1 operator. Given right sides of 5, 7 and 10, the gameboard might look like:
 
 <BR><BR>
 ![Initial Gameboard](Gameboard1.png)
 <BR>
 
-As tiles are put on the gameboard, some sort of validation is needed to see if there is some way to put the operands and the operator together to come up with the right-side value. This feels a bit like making tiles in Winamax correspond to every cell in the grid. With Winamax, it ultimately was better to build routes and consider each possible route a tile that could be placed on the gameboard. A similar approach will work better here.
+As tiles are put on the gameboard, some sort of validation is needed to see if there is a way to put the operands and the operator together to come up with the right-side value. This feels a bit like making tiles in Winamax correspond to every cell in the grid. With Winamax, it ultimately was better to build routes and consider each possible route a tile that could be placed on the gameboard as a whole. A similar approach will work better here.
 
 Let’s make the gameboard nothing more than a list of right-side value. 
 
