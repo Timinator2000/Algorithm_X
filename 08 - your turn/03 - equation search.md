@@ -34,9 +34,7 @@ Using the strategy we know worked for Winamax, we can make each tile here a full
 
 The correct answer is 3. Putting a single equation tile on the gameboard covers one of the right-side numbers and it covers one of the necessary occurrences for each operand. Of course, if the operands are the same, it covers two of the necessary occurrences for that operand. Let’s look at an example. 
 
-Assume the operand counts include one 2 and three 5s. 
-
-?[How many different ways are there to create an equation that equals 10?]
+?[Given operand counts of one 2 and three 5s, how many different ways are there to create an equation that equals 10?]
 -[ ] 4
 -[x] 6
 -[ ] 8
