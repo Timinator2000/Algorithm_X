@@ -48,6 +48,23 @@ The correct answer is 6! Remember, because of the multiplicity, you can use the 
 
 There is a fair amount of multiplicity in this puzzle and to solve the bigger test cases, you will need to properly use AlgorithmXSolver’s memory. Without proper use of memory, you will generate a lot more solutions than necessary.
 
-{ADD TABLE with DATA}
+<BR>
+| Test Case | Distinct Solutions     | Solutions Found if Duplicates Not Avoided |
+|:--|:----:|:------------------------------------------------------------------:|
+| 4 - 6 Equations, 1 Solution|1|72|
+| 5 - 6 Equations, Multiple Solutions|3|96|
+| 6 - 10 Equations, 1 Solution|1|69,120|
+| 7 - 10 Equations, Multiple Solutions|31|445,824|
+| 8 - 13 Equations|227||
+| 9 - 14 Equations|674||
+| 10 - 15 Equations, 1 Solutions|1||
+| 11 - 15 Equations, Multiple Solutions|2898||
+| 12 - So Many Solutions|4059||
 
-What is it you will want Algorithm X to remember?
+# Setting Up Algorithm X
+
+The requirements for this puzzle are straightforward multiplicity. Each opperand needs to occur a certain number of times. Successfully solving this problem will require good answers to these questions:
+
+* What are the individual action steps you can use to build a solution?
+  
+* When setting up the memory, what is it you want Algorithm X to remember?
