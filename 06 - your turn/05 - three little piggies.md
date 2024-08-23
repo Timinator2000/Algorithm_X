@@ -47,6 +47,27 @@ for i in range(4):
     print()
 
     # rotate the house 90 degrees to the right
-    house = [line[::-1] for line in house]
     house = list(zip(*house))
+    house = [line[::-1] for line in house]
+```
+
+Keep in mind that each time the house rotates in this case, the height and width of the house changes and you will need to be aware of that when you are looking to see if the house will fit on the grid.
+
+Have you played around with Numpy Arrays? Many puzzles that involve 2-dimension grids are great places to experiment with Numpy and learn how to use Arrays. This next code block rotates the hrick house 4 times just like the code block above.
+
+```python runnable
+import numpy as np
+
+# store the brick house as a 2-dimnsional numpy array
+house = np.array([['H', 'B', 'B'], [' ', ' ', 'B']])
+
+# print the house and rotate it 4 times
+for i in range(4):
+    print(f'Rotation: {i}')
+    for row in house:
+        print(*row, sep='')
+    print()
+
+    # rotate the house 90 degrees to the right
+    house = np.rot90(house)
 ```
