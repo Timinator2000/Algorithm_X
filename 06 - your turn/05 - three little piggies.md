@@ -14,7 +14,7 @@ Three Little Piggies is likely to get you going in circles and wondering why you
 
 # Requirements
 
-The three main requirements of the puzzle are that each of the three houses be placed on the gameboard. If it is nighttime, it is also required that all pig locations on the gameboard be covered. Additionally, all _X_ locations on the gameboard can be covered by a house, but if they are covered by a house, they can only be covered by one house. Easy enough right? The actions are not quite so straightforward.
+The three main requirements of the puzzle are that each of the three houses be placed on the gameboard. If it is nighttime, it is also required that all pig locations on the gameboard be covered. Additionally, all `X` locations on the gameboard may be covered by a house, but if they are covered by a house, they can only be covered by one house. Easy enough right? The actions are not quite so straightforward.
 
 # Enumerating the Actions
 
