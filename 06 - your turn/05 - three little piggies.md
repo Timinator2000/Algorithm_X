@@ -33,7 +33,7 @@ This puzzle is a perfect fit for Algorithm X, but setting up the matrix will tak
 
 # Rotating a 2-Dimensional Array
 
-I first learned how to rotate a 2-demensional array by looking at another Codingamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting our own. Let’s look at rotating the 
+I first learned how to rotate a 2-demensional array by looking at another Codingamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting our own. Let’s look at rotating the brick house.
 
 ```python runnable
 # store the brick house as a 2-dimnsional array
@@ -50,6 +50,8 @@ for i in range(4):
     house = list(zip(*house))
     house = [line[::-1] for line in house]
 ```
+
+<BR>
 
 Keep in mind that each time the house rotates in this case, the height and width of the house changes and you will need to be aware of that when you are looking to see if the house will fit on the grid.
 
