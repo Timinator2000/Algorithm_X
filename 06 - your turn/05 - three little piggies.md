@@ -10,14 +10,43 @@ __Algorithm X Complexity:__ Pigs In Houses? Day? Night? Lot's of Options Create 
 
 # Strategy
 
-Where do I so often start? How should we visualize placing tiles on a gameboard? The easy answer is the gameboard is what is given in the input and the tiles are the 3 houses. Seems easy, but I opted for another route.
-
-Once again, I chose to consider the gameboard a mostly blank canvas. Some locations have pencil marks indicating where pigs need to be, where the wolf needs to be if it is night and where the trees need to be. Rather than just placing houses on the gameboard, I prefer having to place all the elements on the gameboard – the trees, the pigs, the wolf __and__ the houses.
+Three Little Piggies is likely to get you going in circles and wondering why you seem to be right back where you started. The situation is different at night than during the day. Houses can be rotated any number of times. This probably doesn’t help, but the key to success is to keep it simple
 
 # Requirements
 
-This puzzle is interesting because the requirements are different depending on day or night. At night, the wolf must be placed on the board. During the day pigs must be placed on the board. At night, pig locations must be properly covered by houses. During the day, trees must be placed on the board.
+The three main requirements of the puzzle are that each of the three houses be placed on the gameboard. If it is nighttime, it is also required that all pig locations on the gameboard be covered. Additionally, all _X_ locations on the gameboard can be covered by a house, but if they are covered by a house, they can only be covered by one house. Easy enough right? The actions are not quite so straightforward.
 
-Do the _requirements_ actually change from day to night? Let’s look at this another way. Maybe the requirements do not change as much as we think. Maybe it is the list of possible actions where most change takes place. For instance, all pig locations must be covered. This is the same for day and night. However, during the day, those locations are covered by pig “tiles”, while at night those locations are covered by house “tiles”.
+# Enumerating the Actions
 
-Remember, the tiles are the action steps I can take to build a solution. At night I have a wolf tile. During the day, I do not. During the day, I have 2 or 3 pig tiles. At night, I don’t have any pig tiles. During the day, I also requirements that force 
+It is time to once again use what you learned in Shikaku Skill Builder. Unfortunately, building an exhaustive list of locations you could place each house is no easy task. Here are the key issues you need to work around:
+
+* A house cannot cover any tree location on the gameboard.
+* If it is daytime, a house cannot cover a pig location.
+
+If it is nighttime:
+* A house cannot cover the wolf’s location
+* Each pig location must be covered by a house and the pig must be in the proper location of the house.
+
+Setting Algorithm X up for success comes down to generating an exhaustive list of every possible location a could be placed on the gameboard in such a way that all rules are obeyed. Of course, that includes all rotations of the house. 
+
+This puzzle is a perfect fit for Algorithm X, but setting up the matrix will take some time and a lot of attention to detail.
+
+# Rotating a 2-Dimensional Array
+
+I first learned how to rotate a 2-demensional array by looking at another Codingamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting our own. Let’s look at rotating the 
+
+```python runnable
+# store the brick house as a 2-dimnsional array
+house = [['H', 'B', 'B'], [' ', ' ', 'B']]
+
+# print the house and rotate it 4 times
+for i in range(4):
+    print(f'Rotation: {i}')
+    for row in house:
+        print(*row, sep='')
+    print()
+
+    # rotate the house 90 degrees to the right
+    house = [line[::-1] for line in house]
+    house = list(zip(*house))
+```
