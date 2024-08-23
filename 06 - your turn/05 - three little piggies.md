@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Pigs In Houses? Day? Night? Lot's of Options Create 
 
 # Strategy
 
-Three Little Piggies is likely to get you going in circles and wondering why you seem to be right back where you started. The situation is different at night than during the day. Houses can be rotated any number of times. This probably doesn’t help, but the key to success is to keep it simple
+Three Little Piggies is likely to get you going in circles and wondering why you seem to be right back where you started. The situation is different at night than during the day. Houses can be rotated any number of times. This probably doesn’t help, but the key to success is to keep it simple.
 
 # Requirements
 
