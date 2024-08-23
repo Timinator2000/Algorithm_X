@@ -41,8 +41,8 @@ house = [['H', 'B', 'B'], [' ', ' ', 'B']]
 # print the house and rotate it 4 times
 for i in range(4):
     print(f'Rotation: {i}')
-    for row in house:
-        print(*row, sep='')
+    for line in house:
+        print(*line, sep='')
     print()
 
     # rotate the house 90 degrees to the right
@@ -65,8 +65,8 @@ house = np.array([['H', 'B', 'B'], [' ', ' ', 'B']])
 # print the house and rotate it 4 times
 for i in range(4):
     print(f'Rotation: {i}')
-    for row in house:
-        print(*row, sep='')
+    for line in house:
+        print(*line, sep='')
     print()
 
     # rotate the house 90 degrees to the right
