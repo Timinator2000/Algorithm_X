@@ -124,10 +124,16 @@ plan:
         statement: 08 - your turn/07 - no spoon 2 matrix.md
   - title: Additional Techniques
     plan:
-      - title: Problem Space Reduction
-        statement: 09 - advanced techniques/01 - problem space reduction.md
+      - title: Problem-Space Reduction
+        statement: 09 - advanced techniques/01 - problem space-reduction.md
+      - title: Sudoku Problem-Space Reduction
+        statement: 09 - advanced techniques/02 - sudoku problem-space reduction.md
+      - title: Sudoku Data Structure
+        statement: 09 - advanced techniques/03 - sudoku data structure.md
+      - title: Reducing a Sudoku
+        statement: 09 - advanced techniques/04 - reduce_.md
       - title: Requirements Outside the Matrix
-        statement: 09 - advanced techniques/02 - reqs outside the matrix.md
+        statement: 09 - advanced techniques/09 - reqs outside the matrix.md
   - title: Your Turn
     plan:
       - title: There is No Spoon - Episode 2 (Revisited)
