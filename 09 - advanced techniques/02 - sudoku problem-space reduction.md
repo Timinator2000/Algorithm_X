@@ -1,6 +1,6 @@
 # Sudoku Problem-Space Reduction
 
-To reduce the problem space of any problem, it is helpful to consider how you would go about solving the problem with a pencil and paper. With a Sudoku, you would look at each row, column and box separately. You would consider what you know about each group of cells and how that knowledge allows you to reduce the problem you still need to solve.
+To reduce the problem space of any problem, it is helpful to consider how you might go about solving the problem with a pencil and paper. With a Sudoku, you would look at each row, column and box separately. You would consider what you know about each group of cells and how that knowledge allows you to reduce the problem you still need to solve.
 
 As a starting point with the Sudoku identified on the previous page, let's create a list of all possible numbers for each cell. If the cell is already known, that list constains a single number. If the cell is unknown, the initial list of possibile numbers contains all the numbers from 1 to 9.
 
