@@ -54,6 +54,6 @@ We have come full circle and it is again time to look at row 2 where we now see 
 
 # Putting It All Together
 
-In a Sudoku, you have 9 rows, 9 columns and 9 boxes. All rows, columns and boxes behave exactly the same. Rather than using the terms rows, columns and boxes, I will call them all _Sudoku Cell Groups_. The problem can be generalized to 27 groups of cells. Each group has 9 cells and each group must contain all the numbers from 1 to 9.
+In a Sudoku, you have 9 rows, 9 columns and 9 boxes. All rows, columns and boxes behave exactly the same. Rather than using the terms rows, columns and boxes, I will call them all _Sudoku Cell Groups_. The problem can be generalized to 27 sudoku cell groupsf. Each group has 9 cells and each group must contain all the numbers from 1 to 9.
 
 To reduce a Sudoku problem space, by hand or by algorithm, you must repeatedly loop through all 27 groups, logically reducing the possible numbers of any cell where you can. If you loop through all 27 groups and not a single update is made, your logic is either missing something or maybe the puzzle just cannot be solved completely with logic. Either way, you have no choice but to start guessing and backtracking where necessary.
