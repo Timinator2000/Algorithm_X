@@ -14,7 +14,9 @@ There are many ways to approach problem-space reduction. You will need or choose
 
 Consider __Test Case 1: Very Easy__ from [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) on [Codingame](https://www.codingame.com). In the test cases, a '0' represents an unknown cell. For the visual effect, the following diagram leaves the unknown cells empty.
 
-{BasicSudoku}
+<BR><BR>
+![Sudoku Test Case 1](sudoku01.png)
+<BR>
 
 From the problem statement:
 
@@ -22,6 +24,8 @@ From the problem statement:
 
 In the following diagram, I have assigned numbers to each row, col and box (sub-grid square). Because Python is 0-indexed, I have started numbering at zero.
 
-{SudokuRowsColsBoxes}
+<BR><BR>
+![Rows, Columns and Boxes](sudoku02.png)
+<BR>
 
 We are ready to use logic to try to find more numbers in the Sudoku before starting any backtracking.
