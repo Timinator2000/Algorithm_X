@@ -125,7 +125,7 @@ plan:
   - title: Additional Techniques
     plan:
       - title: Problem-Space Reduction
-        statement: 09 - advanced techniques/01 - problem space-reduction.md
+        statement: 09 - advanced techniques/01 - problem-space reduction.md
       - title: Sudoku Problem-Space Reduction
         statement: 09 - advanced techniques/02 - sudoku problem-space reduction.md
       - title: Sudoku Data Structure
