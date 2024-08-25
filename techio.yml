@@ -128,10 +128,12 @@ plan:
         statement: 09 - advanced techniques/01 - problem-space reduction.md
       - title: Sudoku Problem-Space Reduction
         statement: 09 - advanced techniques/02 - sudoku problem-space reduction.md
+      - title: Python Variables
+        statement: 09 - advanced techniques/03 - variables are pointers.md
       - title: Sudoku Data Structure
-        statement: 09 - advanced techniques/03 - sudoku data structure.md
+        statement: 09 - advanced techniques/04 - sudoku data structure.md
       - title: Reducing a Sudoku
-        statement: 09 - advanced techniques/04 - reduce_.md
+        statement: 09 - advanced techniques/05 - reduce_.md
       - title: Requirements Outside the Matrix
         statement: 09 - advanced techniques/09 - reqs outside the matrix.md
   - title: Your Turn
