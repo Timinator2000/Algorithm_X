@@ -1,12 +1,14 @@
 # Problem Space Reduction
 
-At some point in your Algorithm X jouney, you will encounter problems that are too big for backtracking alone. The problem space that must be explored to find all solutions requires an unacceptable amount of time. In these cases, the solution is often to use logic to reduce the problem space before starting the backtracking. As has already been demonstrated, backtracking via Algorithm X can solve plenty of problems without any problem-space reduction. We will soon see that logical, problem-space reduction can also solve some problems with no need for any backtracking. In the end, most medium and hard puzzles eventually present test cases that require a combination of both.
+At some point in your Algorithm X journey, you will encounter problems that are too big for backtracking alone. The problem space that must be explored to find all solutions requires an unacceptable amount of time. In these cases, the solution is often to use logic to reduce the problem space before starting the backtracking. As has already been demonstrated, backtracking via Algorithm X can solve plenty of problems without any problem-space reduction. We will soon see that logical, problem-space reduction can also solve some problems with no need for any backtracking. In the end, most medium and hard puzzles eventually present test cases that require a combination of both.
 
-If simply solving the puzzle is your goal, a small amount of problem-space reduction before the backtracking will probably get there. However, if you really want to harvest as much eduction as possible out of these puzzles, I suggest you do the following:
+If simply solving the puzzle is your goal, a small amount of problem-space reduction before the backtracking will probably get you there. However, if you want to harvest as much education as possible from these puzzles, I suggest you do the following:
 
 1 Solve as many test cases as possible with backtracking alone.
-2 Solve as many test cases as possible with problem-space reduction alone.
-3 Only after you have exhausted all options for 1 and 2, use a combination of both.
+
+1 Solve as many test cases as possible with problem-space reduction alone.
+
+1 Only after you have exhausted all options for 1 and 2, use a combination of both.
 
 There are many ways to approach problem-space reduction. You will need or choose various data structures and build an algorithm to mimick what you would do if you were trying to solve the puzzle with a pencil on paper. In the rest of this section, I will lay out a structue and a process I have used over and over that has worked well for me.
 
