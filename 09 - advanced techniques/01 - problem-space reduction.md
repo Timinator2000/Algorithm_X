@@ -4,11 +4,11 @@ At some point in your Algorithm X journey, you will encounter problems that are 
 
 If simply solving the puzzle is your goal, a small amount of problem-space reduction before the backtracking will probably get you there. However, if you want to harvest as much education as possible from these puzzles, I suggest you do the following:
 
-1 Solve as many test cases as possible with backtracking alone.
+1. Solve as many test cases as possible with backtracking alone.
 
-1 Solve as many test cases as possible with problem-space reduction alone.
+1. Solve as many test cases as possible with problem-space reduction alone.
 
-1 Only after you have exhausted all options for 1 and 2, use a combination of both.
+1. Only after you have exhausted all options for 1 and 2, use a combination of both.
 
 There are many ways to approach problem-space reduction. You will need or choose various data structures and build an algorithm to mimick what you would do if you were trying to solve the puzzle with a pencil on paper. In the rest of this section, I will lay out a structue and a process I have used over and over that has worked well for me.
 
