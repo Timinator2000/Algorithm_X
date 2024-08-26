@@ -10,11 +10,11 @@ If simply solving the puzzle is your goal, a small amount of problem-space reduc
 
 1. Only after you have exhausted all options for 1 and 2, use a combination of both.
 
-There are many ways to approach problem-space reduction. You will need or choose various data structures and build an algorithm to mimick what you would do if you were trying to solve the puzzle with a pencil on paper. In the rest of this section, I will lay out a structue and a process I have used over and over that has worked well for me.
+There are many ways to approach problem-space reduction. You will need or choose various data structures and build an algorithm to mimic what you would do if you were trying to solve the puzzle with a pencil on paper. In the rest of this section, I will lay out a structure and a process I have used repeatedly that has worked well for me.
 
 # One More Round of Sudoku
 
-Consider __Test Case 1: Very Easy__ from [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) on [Codingame](https://www.codingame.com). In the test cases, a '0' represents an unknown cell. For the visual effect, the following diagram leaves the unknown cells empty.
+Consider __Test Case 1: Very Easy__ from [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) on [Codingame](https://www.codingame.com). In the test cases, a `0` represents an unknown cell. The following diagram leaves the unknown cells empty.
 
 <BR><BR>
 ![Sudoku Test Case 1](sudoku01.png)
@@ -24,10 +24,10 @@ From the problem statement:
 
 >A sudoku is a Latin Square which has the numbers 1-9 in each row, column, and 3x3 square.
 
-In the following diagram, I have assigned numbers to each row, col and box (sub-grid square). Because Python is 0-indexed, I have started numbering at zero.
+In the following diagram, I have assigned numbers to each row, column and box (sub-grid square). Because Python is 0-indexed, I have started numbering at zero.
 
 <BR><BR>
 ![Rows, Columns and Boxes](sudoku02.png)
 <BR>
 
-We are ready to use logic to try to find more numbers in the Sudoku before starting any backtracking.
+It is time to use logic to find more numbers in the Sudoku before starting any backtracking.
