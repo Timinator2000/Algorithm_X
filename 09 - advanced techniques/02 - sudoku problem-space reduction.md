@@ -16,7 +16,7 @@ The next diagram shows the possible numbers for each cell in row 1.
 ![Sudoku Test Case 1](sudoku04.png)
 <BR>
 
-Because numbers cannot be duplicated in a row, the numbers in the known cells can be removed from each cell's list of possible numbers.
+Because numbers cannot be duplicated in a row, the numbers in the known cells can be removed from each cell's list of possible values.
 
 <BR><BR>
 ![Sudoku Test Case 1](sudoku05.png)
