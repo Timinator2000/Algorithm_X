@@ -28,7 +28,7 @@ Each of the unknown cells is also in column where, again, numbers cannot repeat.
 ![Sudoku Test Case 1](sudoku06.png)
 <BR>
 
-Based on the known numbers found in the other cells of each of the three columns, the lists of possible numbers can be reduced even further. The three unknown cells in row 1 are now down to only 2 possibilities each.
+Based on the known numbers found in the other cells of each of the three columns, the lists of possible values can be reduced even further. The three unknown cells in row 1 now have only 2 possibilities each.
 
 <BR><BR>
 ![Sudoku Test Case 1](sudoku07.png)
