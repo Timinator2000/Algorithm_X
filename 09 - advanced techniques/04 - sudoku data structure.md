@@ -29,22 +29,21 @@ class SudokuGroup():
         # your reducing code goes here
 ```
 
-Next, in the constructor of my SudokuSolver class, I will use a dictionary comprehension to create an instance of a `SudokuCell` for each location in the grid. Using the `(row, col)` tuple as the dictionary key makes it easy to get a pointer to a cell as the groups are built.
+Next, in the constructor of my `SudokuSolver` class, I use a dictionary comprehension to create an instance of a `SudokuCell` for each location in the grid. Using the `(row, col)` tuple as the dictionary key makes it easy to get a pointer to a cell as the groups are built.
 
 ```
 class SudokuSolver(AlgorithmXSolver):
 
     def __init__(self, grid: List[List[str]], values: str):
 
-        # Calculate size and box size so that one 
-        # class works for different size Sudokus.
+        # Calculate size and box size so that one class works for different size Sudokus.
         size = len(grid)
         box_size = int(size ** 0.5)
 
         self.grid = {(row, col): SudokuCell(grid[row][col], values) for row in range(size) for col in range(size)}
 
 ```
-It would have been just as easy to create a two-dimensional array of `SudokuCell` instances. I chose to use a dictionary to hold the cells to intentionally blur the visual of a Sudoku grid. It can be beneficial to think in terms of rows, columns and boxs as compared to hanging on to the visual of a two-dimensional grid.
+It would have been just as easy to create a two-dimensional array of `SudokuCell` instances. I chose to use a dictionary to hold the cells to intentionally blur the visual of a Sudoku grid. I find it beneficial to think in terms of rows, columns and boxs as compared to maintaining the visual of a two-dimensional grid.
 
 Continuing in the constructor, I create a list of `SudokuGroup`s for the rows, another for the columns and a third for the boxes.
 
@@ -54,7 +53,7 @@ Continuing in the constructor, I create a list of `SudokuGroup`s for the rows, a
         boxes = [SudokuGroup() for _ in range(size)]
 ```
 
-The last step is to put all the cells into the groups to which they belong. The values of `self.grid` are all pointers to an instance of a `SudokuCell`. After the following code executes, what remains is 27 groups and each group has a list of pointers to the cells that make up that group. A change to one cell is seen by all groups to which that cell belongs.
+The last step is to put all the cells into the groups to which they belong. The values of `self.grid` are all pointers to an instance of a `SudokuCell`. After the following code executes, what remains is 27 groups, each group having a list of pointers to the cells that make up that group. A change to one cell is seen by all groups to which that cell belongs.
 
 ```
         for row in range(size):
@@ -68,7 +67,7 @@ The last step is to put all the cells into the groups to which they belong. The 
 
 # A Short Algorithm to Fascilate Problem-Space Reduction
 
-All that is left now is to loop over all 27 groups, one at a time, reducing the problem space where possible.
+All that is left is to loop over all 27 groups, one at a time, reducing the problem space where possible.
 
 ```
         need_to_reduce = True
@@ -79,8 +78,8 @@ All that is left now is to loop over all 27 groups, one at a time, reducing the 
                     need_to_reduce = True
 ```
 
-The `while` loop will continue as long as at least one group is able to reduce the problem space in some way. Only after all 27 groups indicate no reduction is possible does the code exit the `while` loop and I’m sure you know what comes next, building the requirements and actions for Algorithm X.
+The `while` loop will continue as long as at least one group is able to reduce the problem space in some way. Only after all 27 groups indicate no reduction is possible does the code exit the `while` loop and if any cells remain unknown, I’m sure you know what comes next - building the requirements and actions for Algorithm X.
 
-# Reducing a Sudoku
+# How Much Reducing is Necessary?
 
-This framework cwill get you going in a good direction, but there is still a lot of code to write. You may have already completed all the Sudoku puzzles using Algorithm X, but there is a lot to be learned if you take on the challenge of solving those puzzles again using only logic. On the next page, I'll give you a few hints as to what is possible on all the Sudoku puzzles using only logical, problem-space reduction. Later in the playground, I'll explore a few puzzles that need a combination of both to fully complete.
+This framework will get you going in a good direction, but there is still a lot of code to write. You may have already completed all the Sudoku puzzles using Algorithm X, but there is a lot to be learned if you take on the challenge of solving those puzzles again using only logic this time. Fortunately, Sudoku has been well studied and a simple Google search will give us many strategies for solving a Sudoku by hand. On the next page, I'll give you a few hints as to what is possible on all the Sudoku puzzles using only logical, problem-space reduction. Later in the playground, I'll explore a few puzzles that need a combination of both to fully complete.
