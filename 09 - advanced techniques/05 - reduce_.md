@@ -1,1 +1,11 @@
+# This Will Be Important Later
 
+You may have already finished all the Sudoku puzzles without any problem-space reduction. I strongly suggest you consider following through with what I'm about to suggest and the reason is because of [Killer Sudoku Extreme](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge). 100% of any effort you put forward on this exercise will benefit you when you solve Killer Sudoku Extreme, which begins with all the same rules as Sudoku and then adds a few details you can tackle later.
+
+# Initial Challenge
+
+My initial challenge is for you implement the reduction technique coverd in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be use to reduce the candidate lists of all other cells in the same groups. With just this one reduction technique, you can sucessfully solve the following test cases on each of the [Codingame](https://www.codingame.com/) Sudoku puzzles.
+
+
+
+# If You NEED More
