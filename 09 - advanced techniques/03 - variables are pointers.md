@@ -14,4 +14,4 @@ For even more detail, check out this write-up on [LaunchSchool.com](https://laun
 
 # Why Is This Important?
 
-In the next section, I am going to suggest making every cell in your Sudoku grid an object. Each grouping of cells (rows, columns and boxes) then becomes a list of pointers to a group of 9 cell objects. Let's take a closer look.
+In the next section, I am going to suggest making every cell in your Sudoku grid an object. Each grouping of cells (rows, columns and boxes) then becomes a list of 9 pointers to the cell objects that make up that group. Let's take a closer look.
