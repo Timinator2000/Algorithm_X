@@ -10,7 +10,7 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
-| Sudoku Solver|<BR><span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">❌ Test Case 2: Easy - Oh, so close!<BR>❌ Test Case 3: Intermediate/Hard - Some reduction, but minimal.<BR>❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
+|[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">❌ Test Case 2: Easy - Oh, so close!<BR>❌ Test Case 3: Intermediate/Hard - Some reduction, but minimal.<BR>❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
 
 | Sudoku Solver|
 ✅ <span style="color:green">Test Case 1: Very Easy</span><BR>
