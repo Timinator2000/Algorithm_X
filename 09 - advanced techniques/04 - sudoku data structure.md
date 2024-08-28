@@ -38,13 +38,13 @@ Next, in the constructor of my `SudokuSolver` class, I use a dictionary comprehe
 ```python
 class SudokuSolver(AlgorithmXSolver):
 
-    def __init__(self, grid: List[List[str]], values: str):
+    def __init__(self, grid: List[List[str]], all_possible_values: str):
 
         # Calculate size and box size so that one class works for different size Sudokus.
         size = len(grid)
         box_size = int(size ** 0.5)
 
-        self.grid = {(row, col): SudokuCell(grid[row][col], values) for row in range(size) for col in range(size)}
+        self.grid = {(r, c): SudokuCell(grid[r][c], all_possible_values) for r in range(size) for c in range(size)}
 
 ```
 
