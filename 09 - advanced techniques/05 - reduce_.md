@@ -6,11 +6,16 @@ You may have already finished all the Sudoku puzzles without any problem-space r
 
 My initial challenge is for you implement the reduction technique coverd in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be removed from the candidate lists of all other cells in the same groups. With just this one reduction technique, you can achieve the following results on each of the [Codingame](https://www.codingame.com/) Sudoku puzzles...without any backtracking.
 
+* Sudoku Solver
+  * <span style="color:green">Test Case 1: Very Easy</span>
+  * <BR>Test Case 2: Easy
+  * <BR><span style="color:red">Test Case 3: Intermediate/Hard in Blue</splan>
+
 <BR>
 
 | Puzzle | Comments                                |
 |:--|:------------------------------------------------------------------|
-| Sudoku Solver|<BR><span style="color:green">__Test Case 1__<BR>__Test Case 2__<BR><span style="color:red">Test Case 3 in Blue</span><BR>Test Case 4<BR><BR>|
+| Sudoku Solver|<BR><span style="color:green">Test Case 1: Very Easy</span><BR>Test Case 2: Easy<BR><span style="color:red">Test Case 3: Intermediate/Hard in Blue</span><BR>Test Case 4: World's Hardest Sudoku<BR><BR>|
 | 16x16 Sudoku |<BR>Test Case 1<BR>Test Case 2<BR>Test Case 3<BR>Test Case 4<BR><BR>|
 
 <BR>
