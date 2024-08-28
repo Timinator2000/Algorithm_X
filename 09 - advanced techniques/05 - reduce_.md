@@ -2,7 +2,7 @@
 
 You may have already finished all the Sudoku puzzles without any problem-space reduction. I strongly suggest you consider following through with what I'm about to suggest and the reason is because of [Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) and [Killer Sudoku Extreme](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge). 100% of any effort you put forward on this exercise will benefit you when you solve the Killer Sudoku puzzles, which begin with all the same rules as Sudoku and then add a few details you can tackle later.
 
-# Initial Challenge
+# Initial Challenge - Lone Singles
 
 My initial challenge is for you implement the reduction technique coverd in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be removed from the candidate lists of all other cells in the same groups. With just this one reduction technique, you can achieve the following results on each of the [Codingame](https://www.codingame.com/) Sudoku puzzles...without any backtracking.
 
@@ -16,7 +16,7 @@ My initial challenge is for you implement the reduction technique coverd in the 
 |[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR>✅ Test Case 3: Test 3<BR>✅ Test Case 4: Test 4<BR><BR></span>|
 
 
-# Level 2 Challenge
+# Level 2 Challenge - Hidden Singles
 
 Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fairly easy technique, [Hidden Singles](https://learn-sudoku.com/hidden-singles.html). A hidden single is a cell in group that has one candidate that does not appear in the candidate list of any other cell in the group. Because this candidate only appears in a single cell in the group, it is known where the candidate belongs. Adding this one additional basic technique will improve your results.
 
