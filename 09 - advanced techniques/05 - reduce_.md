@@ -1,10 +1,10 @@
 # This Will Be Important Later
 
-You may have already finished all the Sudoku puzzles without any problem-space reduction. I strongly suggest you consider following through with what I'm about to suggest and the reason is because of [Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) and [Killer Sudoku Extreme](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge). 100% of any effort you put forward on this exercise will benefit you when you solve the Killer Sudoku puzzles, which begin with all the same rules as Sudoku and then add a few details you can tackle later.
+You may have already finished all the Sudoku puzzles without any problem-space reduction. I strongly suggest you consider following through with what I'm about to propose and the reason is because of [Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) and [Killer Sudoku Extreme](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge). 100% of any effort you put forward on this exercise will benefit you when you solve the Killer Sudoku puzzles, which begin with all the same rules as Sudoku and then add a few details you can tackle later.
 
 # Initial Challenge - Lone Singles
 
-My initial challenge is for you implement the reduction technique coverd in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be removed from the candidate lists of all other cells in the same groups. With just this one reduction technique, you can achieve the following results on each of the [Codingame](https://www.codingame.com/) Sudoku puzzles...without any backtracking.
+My initial challenge is for you to implement the reduction technique covered in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be removed from the candidate lists of all other cells in the same groups. With just this one reduction technique, you can achieve the following results on each of the [Codingame](https://www.codingame.com/) Sudoku puzzles...without any backtracking.
 
 <BR>
 
@@ -33,7 +33,7 @@ Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fa
 
 # Ultimate Sudoku Logic Challenge
 
-[Learn-Sudoku.com](https://learn-sudoku.com) has a bunch more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I do have one suggestion for your data structure. I have found it helpful if each cell has a list of the groups to wich it belongs. Conceptionally, the object model has one small addition shown below.
+[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I do have one suggestion for your data structure. I have found it helpful if each cell has a list of the groups to which it belongs. Conceptionally, the object model has one small addition shown below.
 
 {second object model}
 
@@ -69,7 +69,7 @@ Second, as the groups are being built, give each cell a list of pointers to the 
 
 <BR>
 
-As promised, here is my status in regard to solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
+As promised, here is where I am at in solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
@@ -77,5 +77,3 @@ As promised, here is my status in regard to solving all Sudoku puzzles with logi
 |[16x16 Sudoku Solver](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR><span style="color:red">❌ Test Case 3: Test 3 - 49 more cells found.<BR>❌ Test Case 4: Test 4 - 14 more cells found.<BR>❌ Test Case 5: Test 5 - 65 more cells found.<BR>❌ Test Case 6: Test 6 - 56 more cells found.<BR><BR></span>|
 |[25x25 Sudoku Solver](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1</span><BR><span style="color:red">❌ Test Case 2: Test 2 - 56 more cells found.<BR>❌ Test Case 3: Test 3 - 73 more cells found.<BR>❌ Test Case 4: Test 4 - 58 more cells found.<BR>❌ Test Case 5: Test 5 - 66 more cells found.<BR><BR><BR></span>|
 |[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR>✅ Test Case 3: Test 3<BR>✅ Test Case 4: Test 4<BR><BR></span>|
-
-<BR>
