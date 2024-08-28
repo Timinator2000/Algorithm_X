@@ -18,7 +18,7 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 # Level 2 Challenge - Hidden Singles
 
-Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fairly easy technique, [Hidden Singles](https://learn-sudoku.com/hidden-singles.html). A hidden single is a cell in group that has one candidate that does not appear in the candidate list of any other cell in the group. Because this candidate only appears in a single cell in the group, it is known where the candidate belongs. Adding this one additional basic technique will improve your results.
+Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fairly easy technique, [Hidden Singles](https://learn-sudoku.com/hidden-singles.html). A hidden single is a cell in a group that has one candidate that does not appear in the candidate list of any other cell in the group. Because this candidate only appears in a single cell in the group, it is known where the candidate belongs. Adding this one additional basic technique will improve your results.
 
 <BR>
 
