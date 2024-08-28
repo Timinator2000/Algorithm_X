@@ -11,12 +11,7 @@ My initial challenge is for you implement the reduction technique coverd in the 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
 |[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">❌ Test Case 2: Easy - Oh, so close!<BR>❌ Test Case 3: Intermediate/Hard - Some reduction, but minimal.<BR>❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
-
-| Sudoku Solver|
-✅ <span style="color:green">Test Case 1: Very Easy</span><BR>
-❌ <span style="color:red">Test Case 2: Easy - Oh, so close!</span><BR>
-❌ <span style="color:red">Test Case 3: Intermediate/Hard - Some reduction, but minimal.</span><BR>
-❌ <span style="color:red">Test Case 4: World's Hardest Sudoku - No reduction at all.</span>|
+|[16x16 Sudoku Solver](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1><BR>✅ Test Case 2</span<BR><span style="color:red">❌ Test Case 3 - Minimal reduction.<BR>❌ Test Case 4 - Minimal reduction.<BR>❌ Test Case 5 - Minimal reduction.<BR>❌ Test Case 6 - Minimal reduction.<BR><BR></span>|
  
 <BR>
 
