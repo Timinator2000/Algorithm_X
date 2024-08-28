@@ -10,8 +10,8 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
-| Sudoku Solver|<span style="color:green">✅ Test Case 1: Very Easy</span><BR><BR><span style="color:red">__More Work Needed:__<BR>Test Case 2: Easy<BR>Test Case 3: Intermediate/Hard</span><BR>Test Case 4: World's Hardest Sudoku</span>|
-| 16x16 Sudoku |Test Case 1<BR>Test Case 2<BR>Test Case 3<BR>Test Case 4|
+| Sudoku Solver|<span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">Test Case 2: Easy - Oh, so close!<BR>Test Case 3: Intermediate/Hard - Some reduction, but minimal.<BR>Test Case 4: World's Hardest Sudoku - No reduction at all.</span>|
+| Sudoku Solver|<span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">Test Case 2: Easy<BR>Test Case 3: Intermediate/Hard</span><BR>Test Case 4: World's Hardest Sudoku</span>|
  
 <BR>
 
