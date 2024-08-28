@@ -8,8 +8,8 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 * Sudoku Solver
   * <span style="color:green">__SUCCESS__
-    * __Test Case 1: Very Easy__ &#9989
-    * Test Case 1a: Very Easy</span> &#9989
+    * __Test Case 1: Very Easy__ </span>
+    * <span style="color:lime">Test Case 1a: Very Easy</span> &#9989
   * <span style="color:red">__More Work Needed__
     * Test Case 2: Easy
     * Test Case 3: Intermediate/Hard
