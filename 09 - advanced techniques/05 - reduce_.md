@@ -50,6 +50,8 @@ class SudokuCell():
         self.groups = []
 ```
 
+<BR>
+
 Second, as the groups are being built, give each cell a list of pointers to the groups to which it belongs.
 
 ```python
@@ -65,9 +67,9 @@ Second, as the groups are being built, give each cell a list of pointers to the 
                 cell.groups = [rows[row], cols[col], boxes[box]]
 ```
 
-As promised, here is my status in regard to solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
-
 <BR>
+
+As promised, here is my status in regard to solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
