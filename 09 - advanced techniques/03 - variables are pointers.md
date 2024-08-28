@@ -8,6 +8,8 @@ On the website [Python Morsels](https://www.pythonmorsels.com/variables-are-poin
 
 https://www.youtube.com/watch?v=g-iNz91YyGw
 
+<BR>
+
 For even more detail, check out this write-up on [LaunchSchool.com](https://launchschool.com/books/python/read/variables_pointers).
 
 # Why Is This Important?
