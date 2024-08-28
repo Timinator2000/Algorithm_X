@@ -31,11 +31,9 @@ Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fa
 
 <BR>
 
-
-
 # Ultimate Sudoku Logic Challenge
 
-[Learn-Sudoku.com](https://learn-sudoku.com) has plenty more techniques. Can you implement enough to sover __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I will make one suggestion for your data structure that might help with some of the other techniques. I have found it helpful if each cell has a list of the groups to wich it belongs. Conceptionally, the object model has one small addition shown below.
+[Learn-Sudoku.com](https://learn-sudoku.com) has a bunch more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I do have one suggestion for your data structure. I have found it helpful if each cell has a list of the groups to wich it belongs. Conceptionally, the object model has one small addition shown below.
 
 {second object model}
 
