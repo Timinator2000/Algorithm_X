@@ -10,7 +10,7 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
-| Sudoku Solver|<BR><span style="color:lime">Test Case 1: Very Easy<BR><BR></span><BR><span style="color:red">__More Work Needed:__<BR>Test Case 2: Easy<BR>Test Case 3: Intermediate/Hard</span><BR>Test Case 4: World's Hardest Sudoku</span><BR><BR>|
+| Sudoku Solver|<BR><span style="color:green">__Test Case 1: Very Easy__</span><BR><span style="color:red">__More Work Needed:__<BR>Test Case 2: Easy<BR>Test Case 3: Intermediate/Hard</span><BR>Test Case 4: World's Hardest Sudoku</span><BR><BR>|
 | 16x16 Sudoku |<BR>Test Case 1<BR>Test Case 2<BR>Test Case 3<BR>Test Case 4<BR><BR>|
 
 <BR>
