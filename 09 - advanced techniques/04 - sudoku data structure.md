@@ -64,9 +64,11 @@ The last step is to put all the cells into the groups to which they belong. The 
         for row in range(size):
             for col in range(size):
                 box = row // box_size * box_size + col // box_size
-                rows[row].cells.append(self.grid[(row, col)])
-                cols[col].cells.append(self.grid[(row, col)])
-                boxes[box].cells.append(self.grid[(row, col)])
+                cell = self.grid[(row, col)]
+
+                rows[row].cells.append(cell)
+                cols[col].cells.append(cell)
+                boxes[box].cells.append(cell)
 
 ```
 
