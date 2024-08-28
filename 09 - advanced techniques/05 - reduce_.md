@@ -8,7 +8,8 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 * Sudoku Solver
   * <span style="color:green">__SUCCESS__
-    * __Test Case 1: Very Easy__</span>
+    * __Test Case 1: Very Easy__
+    * Test Case 1a: Very Easy</span>
   * <span style="color:red">__More Work Needed__
     * Test Case 2: Easy
     * Test Case 3: Intermediate/Hard
@@ -18,7 +19,7 @@ My initial challenge is for you implement the reduction technique coverd in the 
 
 | Puzzle | Comments                                |
 |:--|:------------------------------------------------------------------|
-| Sudoku Solver|<BR><span style="color:green">__Test Case 1: Very Easy__</span><BR><span style="color:red">__Test Case 2: Easy<BR>Test Case 3: Intermediate/Hard in Blue</span><BR>Test Case 4: World's Hardest Sudoku__</span><BR><BR>|
+| Sudoku Solver|<BR><span style="color:green">__Test Case 1: Very Easy__<BR>Test Case 1a: Very Easy</span><BR><span style="color:red">__Test Case 2: Easy<BR>Test Case 3: Intermediate/Hard__</span><BR>Test Case 4: World's Hardest Sudoku</span><BR><BR>|
 | 16x16 Sudoku |<BR>Test Case 1<BR>Test Case 2<BR>Test Case 3<BR>Test Case 4<BR><BR>|
 
 <BR>
