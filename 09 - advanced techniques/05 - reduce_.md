@@ -12,9 +12,68 @@ My initial challenge is for you implement the reduction technique coverd in the 
 |:--|:------------------------------------------------------------------|
 |[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">❌ Test Case 2: Easy - Oh, so close!<BR>❌ Test Case 3: Intermediate/Hard - Minimal reduction.<BR>❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
 |[16x16 Sudoku Solver](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR><span style="color:red">❌ Test Case 3: Test 3 - Minimal reduction.<BR>❌ Test Case 4: Test 4 - Minimal reduction.<BR>❌ Test Case 5: Test 5 - Minimal reduction.<BR>❌ Test Case 6: Test 6 - Minimal reduction.<BR><BR></span>|
-|[25x25 Sudoku Solver](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:red">❌ Test Case 1: Test 1<BR>❌ Test Case 2: Test 2<BR>❌ Test Case 3: Test 3 - Minimal reduction.<BR>❌ Test Case 4: Test 4 - Minimal reduction.<BR>❌ Test Case 5: Test 5 - Minimal reduction.<BR><BR><BR></span>|
+|[25x25 Sudoku Solver](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:red">❌ Test Case 1: Test 1 - 77 more cells found.<BR>❌ Test Case 2: Test 2 - Minimal reduction.<BR>❌ Test Case 3: Test 3 - Minimal reduction.<BR>❌ Test Case 4: Test 4 - Minimal reduction.<BR>❌ Test Case 5: Test 5 - Minimal reduction.<BR><BR><BR></span>|
 |[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR>✅ Test Case 3: Test 3<BR>✅ Test Case 4: Test 4<BR><BR></span>|
+
+
+# Level 2 Challenge
+
+Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fairly easy technique, [Hidden Singles](https://learn-sudoku.com/hidden-singles.html). A hidden single is a cell in group that has one candidate that does not appear in the candidate list of any other cell in the group. Because this candidate only appears in a single cell in the group, it is known where the candidate belongs. Adding this one additional basic technique will improve your results.
 
 <BR>
 
-# If You NEED More
+| Puzzle | Results                                |
+|:--|:------------------------------------------------------------------|
+|[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy</span><BR><span style="color:red">❌ Test Case 2: Easy - Oh, so close!<BR>❌ Test Case 3: Intermediate/Hard - Minimal reduction.<BR>❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
+|[16x16 Sudoku Solver](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR><span style="color:red">❌ Test Case 3: Test 3 - Minimal reduction.<BR>❌ Test Case 4: Test 4 - Minimal reduction.<BR>❌ Test Case 5: Test 5 - Minimal reduction.<BR>❌ Test Case 6: Test 6 - Minimal reduction.<BR><BR></span>|
+|[25x25 Sudoku Solver](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1</span><BR><span style="color:red">❌ Test Case 2: Test 2 - 56 more cells found.<BR>❌ Test Case 3: Test 3 - 68 more cells found.<BR>❌ Test Case 4: Test 4 - 58 more cells found.<BR>❌ Test Case 5: Test 5 - 66 more cells found.<BR><BR><BR></span>|
+
+<BR>
+
+
+
+# Ultimate Sudoku Logic Challenge
+
+[Learn-Sudoku.com](https://learn-sudoku.com) has plenty more techniques. Can you implement enough to sover __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I will make one suggestion for your data structure that might help with some of the other techniques. I have found it helpful if each cell has a list of the groups to wich it belongs. Conceptionally, the object model has one small addition shown below.
+
+{second object model}
+
+As the `SudokuGroup`s are being filled with `SudokuCell`s, it is easy enough to give each cell a list of 3 pointers, one to each of the groups where it is a member.
+
+First, add an attribute to the `SudokuCell` class:
+
+```python
+class SudokuCell():
+
+    def __init__(self, value: str, all_possible_values: str):
+        self.value = value
+        self.candidates = set(all_possible_values) if value == UNKNOWN else {value}
+        self.groups = []
+```
+
+Second, as the groups are being built, give each cell a list of pointers to the groups to which it belongs.
+
+```python
+        for row in range(size):
+            for col in range(size):
+                box = row // box_size * box_size + col // box_size
+                cell = self.grid[(row, col)]
+
+                rows[row].cells.append(cell)
+                cols[col].cells.append(cell)
+                boxes[box].cells.append(cell)
+
+                cell.groups = [rows[row], cols[col], boxes[box]]
+```
+
+As promised, here is my status in regard to solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
+
+<BR>
+
+| Puzzle | Results                                |
+|:--|:------------------------------------------------------------------|
+|[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy<BR>✅ Test Case 2: Easy<BR>✅ Test Case 3: Intermediate/Hard<BR></span><span style="color:red">❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
+|[16x16 Sudoku Solver](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR><span style="color:red">❌ Test Case 3: Test 3 - ??? Minimal reduction.<BR>❌ Test Case 4: Test 4 - 14 more cells found.<BR>❌ Test Case 5: Test 5 - ??? Minimal reduction.<BR>❌ Test Case 6: ??? Test 6 - Minimal reduction.<BR><BR></span>|
+|[25x25 Sudoku Solver](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1</span><BR><span style="color:red">❌ Test Case 2: Test 2 - ??? 56 more cells found.<BR>❌ Test Case 3: Test 3 - ??? 68 more cells found.<BR>❌ Test Case 4: Test 4 - 58 more cells found.<BR>❌ Test Case 5: Test 5 - 66 more cells found.<BR><BR><BR></span>|
+
+<BR>
