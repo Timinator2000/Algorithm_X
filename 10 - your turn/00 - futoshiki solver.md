@@ -40,7 +40,7 @@ Finally, I will copy the exact code structure from the earlier Sudoku discussion
 
 If you properly reduce the candidates based on the inequalities, you will completely solve several of the test cases before starting the backtracking. More importantly, reducing the candidates based on the inequalities puts Algorithm X in a position to solve __all__ test cases very fast.
 
-As I alluded to earlier, a bit more than just basic `SudokuGroup` reduction logic is necessary to solve all test cases with no guessing, but it is very doable. If you would like to take on that challenge, I’ll get you started with the reduction loop, which probably doesn’t have any big surprises.
+As I alluded to earlier, a bit more than just basic `SudokuGroup` reduction logic is necessary to solve all test cases strictly with logic, no guessing, but it is very doable. If you would like to take on that challenge, I’ll get you started with the reduction loop, which probably does not come as a surprise by now.
 
 ```python
         finished_reducing = False
