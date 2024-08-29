@@ -42,7 +42,7 @@ If you properly reduce the candidates based on the inequalities, you will comple
 
 As I alluded to earlier, a bit more than just basic `SudokuGroup` reduction logic is necessary to solve all test cases with no guessing, but it is very doable. If you would like to take on that challenge, I’ll get you started with the reduction loop, which probably doesn’t have any big surprises.
 
-```
+```python
         finished_reducing = False
         while not finished_reducing:
             finished_reducing = True
