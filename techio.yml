@@ -136,10 +136,10 @@ plan:
         statement: 09 - problem-space reduction/05 - reduce_.md
   - title: Your Turn
     plan:
+      - title: Futoshiki Solver (Revisited)
+        statement: 10 - your turn/00 - futoshiki solver.md
       - title: There is No Spoon - Episode 2 (Revisited)
         statement: 10 - your turn/01 - no spoon 2.md
-      - title: Futoshiki Solver (Revisited)
-        statement: 10 - your turn/015 - futoshiki solver.md
       - title: Suguru Solver
         statement: 10 - your turn/02 - suguru solver.md
       - title: High Rise Buildings
