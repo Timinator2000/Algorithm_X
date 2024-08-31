@@ -2,7 +2,7 @@
 
 A few pages ago, I intentionally drew the original sudoku grid as 81 disconnected cells to create the perception of each cell being a standalone entity, or object. Since each cell is a standalone object, I can put a pointer to that cell into each group to which it belongs. I will demonstrate how to do this with Sudoku, and later I will give an overview of how this same general structure can be used on several other puzzles.
 
-Conceptually, I will create two classes, one for a `SudokuCell` and another for a `SudokuGroup`. The `SudokuGroup` will have an attribute that is a list of pointers to the 9 `SudokuCell`s that are part of that group.
+Conceptually, I create two classes, one for a `SudokuCell` and another for a `SudokuGroup`. The `SudokuGroup` will have an attribute that is a list of pointers to the 9 `SudokuCell`s that are part of that group.
 
 ((( First Graphic )))
 
