@@ -20,7 +20,7 @@ To do some problem-space reduction, it seems reasonable we will add a `reduce()`
 
 `Channel` - this again seems like an unlikely location for a `reduce()` method. What would it even mean to reduce a `Channel`? Sure, the `Channel` knows about the `Nodes` on either side, but that is not enough to know whether or not a link must be placed in the `Channel`. I see a `Channel` needing to be able to react to two events:
 
-1.	A `Node` might tell to place 1 or 2 links in its slots.
+1.	A `Node` might tell a `Channel` to place 1 or 2 links in its slots.
 2.	A `Node` or an `Intersection` could send an event asking the `Channel`  to remove itself from the problem space. We already saw how this could happen with an `Intersection`. With a `Node`, links in other `Channel`s could bring the `Node`’s needed links down to zero. At that point, all `Channel`s attached to that `Node` become extraneous to the problem space.
 
 `Node` - this seems like a very appropriate place for a `reduce()` method. A `Node` knows how many links it needs and it can easily calculate the total capacity of its `Channel`s. It seems very reasonable that reducing a `Node` could result in the `Node` asking one or more of its `Channels` to place a link.
