@@ -130,9 +130,9 @@ plan:
         statement: 09 - problem-space reduction/02 - sudoku problem-space reduction.md
       - title: Python Variables
         statement: 09 - problem-space reduction/03 - variables are pointers.md
-      - title: Sudoku Data Structure
+      - title: Setting Up Sudoku
         statement: 09 - problem-space reduction/04 - setting up sudoku.md
-      - title: Reducing a Sudoku
+      - title: Sudoku Challenge
         statement: 09 - problem-space reduction/05 - sudoku challenge.md
   - title: Your Turn
     plan:
