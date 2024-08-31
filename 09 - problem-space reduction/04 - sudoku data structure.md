@@ -66,7 +66,7 @@ Continuing in the constructor, I create a list of `SudokuGroup`s for the rows, a
         boxes = [SudokuGroup() for _ in range(size)]
 ```
 
-The last setup step is to put all the cells into the groups to which they belong. The values of `self.grid` are all pointers to an instance of a `SudokuCell`. After the following code executes, what remains is 27 groups, each group having a list of pointers to the cells that make up that group. A change to one cell is seen by all groups to which that cell belongs.
+The last setup step is to put all the cells into the groups to which they belong. The values of `self.grid` are all pointers to instances of `SudokuCell`s. After the following code executes, what remains is 3 lists of 9 groups, each group having a list of pointers to the cells that make up that group. Because of the pointers, a change to one cell is seen by all groups to which that cell belongs.
 
 ```python
         for row in range(size):
