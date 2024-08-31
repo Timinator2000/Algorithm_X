@@ -52,7 +52,7 @@ class SudokuCell():
 
 <BR>
 
-As the groups are being built, give each cell a tuple of pointers to the groups to which it belongs.
+As the groups are being built in the `SudokuSolver` constructor, give each cell a tuple of pointers to the groups to which it belongs.
 
 ```python
         for row in range(size):
