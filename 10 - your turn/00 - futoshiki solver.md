@@ -33,7 +33,7 @@ What I am about to say should not be a surprise and I hope I have not made a mis
 
 Every `Inequality` needs two pointers. The first points to the `SudokuCell` that must be less than the other side. The second pointer points to the `SudokuCell` that must be greater than the other side. The only critical `Inequality` method is `reduce_()`. You will need to fill in the details of what it means to __reduce__ an inequality. As you know, reduction in this type of puzzle is all about eliminating candidates from cells. What candidates can be eliminated from the cells on either side of the inequality based on the rules that govern how inequalies work?
 
-Finally, I will copy the exact code structure from the earlier Sudoku discussion into the FutoshikiSolver class constructor.
+Finally, I will copy the exact reduction code structure from the earlier Sudoku discussion into the FutoshikiSolver class constructor.
 
 ```python
         finished_reducing = False
