@@ -47,7 +47,7 @@ class SudokuCell():
     def __init__(self, value: str, all_possible_values: str):
         self.value = value
         self.candidates = set(all_possible_values) if value == UNKNOWN else {value}
-        self.groups = None
+        self.groups = CellGroups(None, None, None)
 ```
 
 <BR>
