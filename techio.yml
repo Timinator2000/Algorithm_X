@@ -161,7 +161,7 @@ plan:
         statement: 12 - your turn/99 - killer sudoku.md
       - title: Killer Sudoku Extreme
         statement: 12 - your turn/99 - killer sudoku extreme.md
-  - title: TBD
+  - title: TBD 
     plan:
       - title: Assorted Rectangular Pieces
         statement: 20 - tbd/99 - assorted rectangular pieces.md
