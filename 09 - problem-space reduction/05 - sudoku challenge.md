@@ -37,8 +37,6 @@ Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fa
 
 {second object model}
 
-As you can see, 
-
 As the `SudokuGroup`s are being filled with `SudokuCell`s, it is easy enough to give each cell 3 pointers, one to each of the groups where it is a member. I have used a named tuple to hold these three pointers. In the constructor, the new `groups` attribute is initialized to `None`.
 
 ```python
@@ -54,7 +52,7 @@ class SudokuCell():
 
 <BR>
 
-Second, as the groups are being built, give each cell a list of pointers to the groups to which it belongs.
+As the groups are being built, give each cell a tuple of pointers to the groups to which it belongs.
 
 ```python
         for row in range(size):
