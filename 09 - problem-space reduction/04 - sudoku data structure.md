@@ -29,6 +29,8 @@ class SudokuCell():
         # your code goes here – make sure all unavailable_values are removed from the candidates
 ```
 
+<BR>
+
 Second, a class for a Sudoku group:
 
 ```python
@@ -40,6 +42,8 @@ class SudokuGroup():
     def reduce_(self):
         # your reducing code goes here
 ```
+
+<BR>
 
 Next, in the constructor of my `SudokuSolver` class, I use a dictionary comprehension to create an instance of a `SudokuCell` for each location in the grid. Using the `(row, col)` tuple as the dictionary key makes it easy to get a pointer to a cell as the groups are built.
 
@@ -56,6 +60,8 @@ class SudokuSolver(AlgorithmXSolver):
 
 ```
 
+<BR>
+
 It would have been just as easy to create a two-dimensional array of `SudokuCell` instances. I chose to use a dictionary to hold the cells to intentionally blur the visual of a Sudoku grid. I find it beneficial to think in terms of rows, columns and boxs as compared to maintaining the visual of a two-dimensional grid.
 
 Continuing in the constructor, I create a list of `SudokuGroup`s for the rows, another for the columns and a third for the boxes.
@@ -65,6 +71,8 @@ Continuing in the constructor, I create a list of `SudokuGroup`s for the rows, a
         cols = [SudokuGroup() for _ in range(size)]
         boxes = [SudokuGroup() for _ in range(size)]
 ```
+
+<BR>
 
 The last setup step is to put all the cells into the groups to which they belong. The values of `self.grid` are all pointers to instances of `SudokuCell`s. After the following code executes, what remains is 3 lists of 9 groups, each group having a list of pointers to the cells that make up that group. Because of the pointers, a change to one cell is seen by all groups to which that cell belongs.
 
@@ -79,6 +87,10 @@ The last setup step is to put all the cells into the groups to which they belong
                 boxes[box].cells.append(cell)
 
 ```
+
+<BR>
+
+I cannot emphasize enough how powerful this pointer-based structure can be. In an object-oriented approach, objects have relationships with other objects. Despite any bad memories the word "pointer" might stir up, Python makes pointers very straightforward and pointers are the most common way for one object to "have a relationship" with another object.
 
 # A Short Algorithm to Fascilate Problem-Space Reduction
 
