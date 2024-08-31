@@ -33,21 +33,23 @@ Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fa
 
 # Ultimate Sudoku Logic Challenge
 
-[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I do have one suggestion for your data structure. I have found it helpful if each cell has a list of the groups to which it belongs. Conceptionally, the object model has one small addition shown below.
+[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I do have one suggestion for your data structure. I have found it helpful if each cell has pointers to the groups to which it belongs. Conceptionally, the object model has one small addition shown below.
 
 {second object model}
 
-As the `SudokuGroup`s are being filled with `SudokuCell`s, it is easy enough to give each cell a list of 3 pointers, one to each of the groups where it is a member.
+As you can see, 
 
-First, add an attribute to the `SudokuCell` class:
+As the `SudokuGroup`s are being filled with `SudokuCell`s, it is easy enough to give each cell 3 pointers, one to each of the groups where it is a member. I have used a named tuple to hold these three pointers. In the constructor, the new `groups` attribute is initialized to `None`.
 
 ```python
+CellGroups = namedtuple('CellGroups', 'row col box')
+
 class SudokuCell():
 
     def __init__(self, value: str, all_possible_values: str):
         self.value = value
         self.candidates = set(all_possible_values) if value == UNKNOWN else {value}
-        self.groups = []
+        self.groups = None
 ```
 
 <BR>
@@ -64,12 +66,12 @@ Second, as the groups are being built, give each cell a list of pointers to the 
                 cols[col].cells.append(cell)
                 boxes[box].cells.append(cell)
 
-                cell.groups = [rows[row], cols[col], boxes[box]]
+                cell.groups = CellGroups(rows[row], cols[col], boxes[box])
 ```
 
 <BR>
 
-As promised, here is where I am at in solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
+As promised, here is my progress toward solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
