@@ -4,9 +4,17 @@ A few pages ago, I intentionally drew the original sudoku grid as 81 disconnecte
 
 Conceptually, I create two classes, one for a `SudokuCell` and another for a `SudokuGroup`. The `SudokuGroup` will have an attribute that is a list of pointers to the 9 `SudokuCell`s that are part of that group.
 
-((( First Graphic )))
+<BR><BR>
+![Sudoku Data Structure](SudokuDataStructure.png)
+<BR>
 
-First, a class for an individual cell:
+In the interest of code reuse across all Sudoku puzzles, I have decided that my SudokuSolver will require all Sudoku input to be conform to the following rules:
+
+1. Unknown cells must use a `.` to indicate an unknown cell. Some puzzles use a `0` which is easy to fix with a call to `str.replace('0', '.')`.
+2. All cell values must be characters.
+3. `all_possible_values` will be a string of all characters that are found in the Sudoku
+
+Let's make the conceptual classes a bit more concrete. First, a class for an individual cell:
 
 ```python
 UNKNOWN = '.'
