@@ -2,7 +2,7 @@
 
 To reduce the problem space, it is helpful to consider how you might go about solving the problem by hand. With a Sudoku, you might start by looking at each row, column and box separately. You could consider what you know about each group of cells and how that knowledge allows you to reduce the possible values of other cells.
 
-Using the Sudoku identified on the previous page, first create a list of all possible numbers, or _candidates_, for each cell. If the cell is already known, that list contains a single number. If the cell is unknown, the initial list of candidates contains all the numbers from 1 to 9.
+Using the Sudoku identified on the previous page, first create a list of all possible numbers, or _candidate values_, for each cell. If the cell is already known, that list contains a single number. If the cell is unknown, the initial list of candidates contains all the numbers from 1 to 9.
 
 We know from the rules of Sudoku that a row must have all the numbers from 1 to 9. Row 1 already has 6 known numbers, which makes it a good place to start.
 
