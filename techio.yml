@@ -137,31 +137,33 @@ plan:
   - title: Your Turn
     plan:
       - title: Futoshiki Solver (Revisited)
-        statement: 10 - your turn/00 - futoshiki solver.md
+        statement: 10 - your turn/01 - futoshiki solver.md
       - title: There is No Spoon - Episode 2 (Revisited)
-        statement: 10 - your turn/01 - no spoon 2.md
-      - title: Suguru Solver
-        statement: 10 - your turn/02 - suguru solver.md
-      - title: High Rise Buildings
-        statement: 10 - your turn/03 - high rise buildings.md
-      - title: Kakuro Solver
-        statement: 10 - your turn/04 - kakuro solver.md
-      - title: Tetris Floor
-        statement: 10 - your turn/05 - tetris floor.md
+        statement: 10 - your turn/02 - no spoon 2.md
   - title: Requirements Outside the Matri
     plan:
       - title: Requirements Outside the Matrix
         statement: 11 - reqs outside the matrix/01 - reqs outside the matrix.md
+  - title: Your Turn
+    plan:
+      - title: Suguru Solver
+        statement: 12 - your turn/99 - suguru solver.md
+      - title: High Rise Buildings
+        statement: 12 - your turn/99 - high rise buildings.md
+      - title: Kakuro Solver
+        statement: 12 - your turn/99 - kakuro solver.md
+      - title: Tetris Floor
+        statement: 12 - your turn/99 - tetris floor.md
+      - title: Takuzu Solver
+        statement: 12 - your turn/99 - takuzu solver.md
+      - title: Killer Sudoku
+        statement: 12 - your turn/99 - killer sudoku.md
+      - title: Killer Sudoku Extreme
+        statement: 12 - your turn/99 - killer sudoku extreme.md
   - title: TBD
     plan:
-      - title: Takuzu Solver
-        statement: 20 - tbd/02 - takuzu solver.md
-      - title: Killer Sudoku
-        statement: 20 - tbd/04 - killer sudoku.md
-      - title: Killer Sudoku Extreme
-        statement: 20 - tbd/05 - killer sudoku extreme.md
       - title: Assorted Rectangular Pieces
-        statement: 20 - tbd/06 - assorted rectangular pieces.md
+        statement: 20 - tbd/99 - assorted rectangular pieces.md
 
 projects:
   python:
