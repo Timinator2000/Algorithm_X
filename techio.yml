@@ -137,7 +137,7 @@ plan:
   - title: Your Turn
     plan:
       - title: Futoshiki Solver (Revisited)
-        statement: 10 - your turn/011 - futoshiki solver.md
+        statement: 10 - your turn/01 - futoshiki solver.md
       - title: There is No Spoon - Episode 2 (Revisited)
         statement: 10 - your turn/02 - no spoon 2.md
   - title: Requirements Outside the Matri
