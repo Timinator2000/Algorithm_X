@@ -46,9 +46,9 @@ Finally, I will copy the exact reduction code structure from the earlier Sudoku 
 
 <BR>
 
-__Test Case 2: Comparisons only horizontal__ and __Test Case 3: Comparisons only vertical__ are the only two interesting test cases you can completely solve simply by reducing the problem space based on inqualities. However, this one small reduction effort puts Algorithm X in position to find solutions to <u>all remaining</u> test cases very fast.
+__Test Case 2: Comparisons only horizontal__ and __Test Case 3: Comparisons only vertical__ are the only two interesting test cases you can completely solve simply by reducing the problem space based on inequalities. However, this one small reduction effort puts Algorithm X in position to find solutions to <u>all remaining</u> test cases very fast.
 
-As I alluded to earlier, a bit more than just basic `SudokuGroup` reduction logic is necessary to solve all test cases strictly with logic, no guessing, but it is very doable. If you would like to take on that challenge, I’ll get you started with the reduction loop, which probably does not come as a surprise by now.
+As I alluded to earlier, a bit more than just basic `SudokuGroup` reduction logic is necessary to solve all test cases strictly with logic, no guessing, but it is very doable. If you would like to take on that challenge, I will get you started with the reduction loop, which probably does not come as a surprise by now.
 
 ```python
         finished_reducing = False
