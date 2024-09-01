@@ -10,3 +10,7 @@ __Algorithm X Complexity:__
 
 # Strategy
 
+No reducing at all - still solve 1, 2 & 3 very fast. Test cases 2 and 3 generate a pretty good handful of solutions before a solution is met that meets the requirements. 30 and 78. ME requirements are critical. Without them, you will probably not pass Test case 3.
+
+To be fast on all test cases requires good reducing + me_requirements.
+
