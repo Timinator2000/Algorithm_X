@@ -140,16 +140,16 @@ plan:
         statement: 10 - your turn/01 - futoshiki solver.md
       - title: There is No Spoon - Episode 2 (Revisited)
         statement: 10 - your turn/02 - no spoon 2.md
+      - title: Takuzu Solver
+        statement: 10 - your turn/03 - takuzu solver.md
       - title: Suguru Solver
-        statement: 10 - your turn/03 - suguru solver.md
+        statement: 10 - your turn/04 - suguru solver.md
   - title: Requirements Outside the Matrix
     plan:
       - title: Requirements Outside the Matrix
         statement: 11 - reqs outside the matrix/01 - reqs outside the matrix.md
   - title: Your Turn
     plan:
-      - title: Takuzu Solver
-        statement: 12 - your turn/99 - takuzu solver.md
       - title: High Rise Buildings
         statement: 12 - your turn/99 - high rise buildings.md
       - title: Kakuro Solver
