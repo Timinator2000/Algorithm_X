@@ -136,8 +136,6 @@ plan:
         statement: 09 - problem-space reduction/05 - sudoku challenge.md
   - title: Your Turn
     plan:
-      - title: Tim
-        statement: 10 - your turn/01 - tim.md
       - title: Futoshiki Solver (Revisited)
         statement: 10 - your turn/01 - futoshiki solver.md
       - title: There is No Spoon - Episode 2 (Revisited)
