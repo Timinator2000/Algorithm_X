@@ -50,9 +50,9 @@ I share this code simply to demonstrate the power of a reusable approach to simi
 
 There is a lot of great problem-space reduction possible in Takuzu and the best place to start is with the objectives, straight out of the puzzle description.
 >The objective is to fill the grid with 1s and 0s, constraints are :
->- an equal number of 1s and 0s in each row and column
->- no more than two of either number adjacent to each other
->- no identical rows and no identical columns
+> - an equal number of 1s and 0s in each row and column
+> - no more than two of either number adjacent to each other
+> - no identical rows and no identical columns
 
 
 
