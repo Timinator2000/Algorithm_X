@@ -42,7 +42,7 @@ You can solve the first 3 test cases with no problem-space reduction, only Algor
 > - no more than two of either number adjacent to each other
 > - no identical rows and no identical columns
 
-If you want to set Algorithm X up in steps consider this. Even if you completely ignore mutual exclusivity, your solve will easily find solutions for __Test Case 1: Test 4x4__ and __Test Case 2: Test 6x6__. Without adding optional requirements to handle mutual exclusivity, I expect you will timeout on 3rd test case.
+If you want to set Algorithm X up in steps, consider this. Even if you completely ignore mutual exclusivity, your solver will easily find solutions for __Test Case 1: Test 4x4__ and __Test Case 2: Test 6x6__. Without adding optional requirements to handle mutual exclusivity, I expect you will timeout on 3rd test case.
 
 This puzzle is a great example of the power of mutual exclusivity. With decent problem-space reduction, you can pass all validators even if you completely ignore mutual exclusivity. However, if you want super fast solutions for every test case and every validator, mutual exclusivity is critical.
 
@@ -67,8 +67,7 @@ class TakuzuSolver(AlgorithmXSolver):
         self.cols = [TakuzuGroup([self.grid[(r, c)] for r in range(self.size)]) for c in range(self.size)]
 ```
 
-I then use an almost identical loop for problem-space reduction.
-
+The loop for problem-space reduction should look very familar.
 
 ```
         need_to_reduce = True
@@ -79,7 +78,7 @@ I then use an almost identical loop for problem-space reduction.
                     need_to_reduce = True
 ```
 
-I share this code simply to demonstrate the power of a reusable approach to similar problems. You might come up with a completely different approach and that is perfectly okay. Keep in mind that there are many logic puzzles and a significant number of those puzzles are a grid of cells grouped into rows, cols, boxes, cages, etc. More generally,  _a significant number of those puzzles are a grid of cells organized into groups._ Whatever structure works for you, I invite you to look for opportunities to reuse the work you have already done.
+I share this code again to demonstrate the power of a reusable approach to similar problems. You might come up with a completely different approach and that is perfectly okay. Keep in mind that there are many logic puzzles and a significant number of those puzzles are a grid of cells grouped into rows, cols, boxes, cages, etc. More generally,  _a significant number of those puzzles are a grid of cells organized into groups._ Whatever structure works for you, I invite you to look for opportunities to reuse the work you have already done.
 
  Unfortunately, this is where the similarities to Sudoku end!
 
@@ -94,4 +93,4 @@ There is a lot of great problem-space reduction possible in Takuzu and the best 
 
 The third bullet point does not help. Logical problem-space reduction is only concerned with finding pieces of the solution that __must__ be part of a proper solution. Identical rows or columns are an indicator of an improper solution.
 
-The first two bullet points are the guidance you need to logically fill in more cells of the grid before Algorithm X begins searching for a full soluion.
+The first two bullet points are the guidance you need to logically fill in more cells of the grid before Algorithm X begins searching for a full soluion. There are a pretty good handful of techniques you can find to fill in unknown cells. You do not have to find them all to pass every test cases and validators, but if you feel the logic pulling at you like the Death Star's tracktor beam, it might be best not to resist. [Wookieepedia- Tractor Beam](https://starwars.fandom.com/wiki/Tractor_beam/Legends)
