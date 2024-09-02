@@ -37,7 +37,7 @@ Although a pattern of `...` appears to be a dead end, what about a series of 3 c
 
 # Algorithm X Alone, No Problem-Space Reduction
 
-You can solve the first 3 test cases with no problem-space reduction, only Algorithm X. You will need to override AlgorithmXSolver's `_process_solution()` method to check your final grid for the following.
+You can solve the first 3 test cases with no problem-space reduction, only Algorithm X. You will need to override `AlgorithmXSolver`'s `_process_solution()` method to check your final grid for the following.
 
 > - no more than two of either number adjacent to each other
 > - no identical rows and no identical columns
