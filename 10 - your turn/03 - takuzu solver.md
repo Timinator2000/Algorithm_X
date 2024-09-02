@@ -35,7 +35,7 @@ The puzzle allows `00` or `11` to occur in a row or a column, but a series of 3 
 
 Although a pattern of `...` appears to be a dead end, what about a series of 3 cells where only one of cells is known, for instance `..0`? You could put a zero in either unknown spot, but you cannot put a zero in both spots. This sounds much more in line with the Algorithm X mutual exclusivity discussed in this playground. Actually, it sounds just like Mrs. Knuth putting a loud instrument in one slot or the other, but not being allowed to put a loud instrument in both slots.
 
-__Algorithm X Alone, No Problem-Space Reduction__
+# Algorithm X Alone, No Problem-Space Reduction
 
 You can solve the first 3 test cases with no problem-space reduction, only Algorithm X. You will need to override AlgorithmXSolver's `_process_solution()` method to check your final grid for the following.
 
