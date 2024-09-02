@@ -21,7 +21,7 @@ Let's start with an excerpt from the goal statement for the puzzle:
 > - no more than two of either number adjacent to each other
 > - no identical rows and no identical columns
 
-The basic Algorithm X requirements and actions seem straightforward. Every cell must be covered with a `0` or a `1`, while the actions are all putting a `0` or a `1` into some cell. Is everything truly as straightforward as it appears? Were you able to quickly see the multiplicty in this puzzle?
+The basic Algorithm X requirements and actions seem straightforward. Every cell must be covered with a `0` or a `1`, while the actions are all putting a `0` or a `1` into some cell. Is everything truly as straightforward as it appears? Were you able to see the multiplicty in this puzzle?
 
 >- an equal number of 1s and 0s in each row and column
 
