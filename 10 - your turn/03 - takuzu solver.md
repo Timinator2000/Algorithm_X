@@ -33,7 +33,7 @@ Mutual exclusivity is where Takuzu Solver gets very interesting. Any time you se
 
 The puzzle allows `00` or `11` to occur in a row or a column, but a series of 3 or more like numbers is not allowed. All discussions of mutual exclusivity so far have involved 2 items being mutually exclusive, but here we have 3 unknown items and our solver needs to make sure not to fill those cells with `000` or `111`. Maybe there is a way to address this, but if there is, I am not aware of it and this is a dead-end tangent.
 
-Although a pattern of `...` appears to be a dead end, what about a series of 3 cells where only one of cells is known, for instance `..0`? You could put a zero in either unknown spot, but you cannot put a zero in both spots. This sounds much more in line with the Algorithm X mutual exclusivity discussed in this playground. Actually, it sounds just like putting a loud instrument in one slot or the other, but not being allowed to put a loud instrument in both slots.
+Although a pattern of `...` appears to be a dead end, what about a series of 3 cells where only one of cells is known, for instance `..0`? You could put a zero in either unknown spot, but you cannot put a zero in both spots. This sounds much more in line with the Algorithm X mutual exclusivity discussed in this playground. Actually, it sounds just like Mrs. Knuth putting a loud instrument in one slot or the other, but not being allowed to put a loud instrument in both slots.
 
 __Algorithm X Alone, No Problem-Space Reduction__
 
