@@ -67,6 +67,8 @@ class TakuzuSolver(AlgorithmXSolver):
         self.cols = [TakuzuGroup([self.grid[(r, c)] for r in range(self.size)]) for c in range(self.size)]
 ```
 
+# Reducing the Problem Space
+
 The loop for problem-space reduction should look very familar.
 
 ```
@@ -80,11 +82,7 @@ The loop for problem-space reduction should look very familar.
 
 I share this code again to demonstrate the power of a reusable approach to similar problems. You might come up with a completely different approach and that is perfectly okay. Keep in mind that there are many logic puzzles and a significant number of those puzzles are a grid of cells grouped into rows, cols, boxes, cages, etc. More generally,  _a significant number of those puzzles are a grid of cells organized into groups._ Whatever structure works for you, I invite you to look for opportunities to reuse the work you have already done.
 
- Unfortunately, this is where the similarities to Sudoku end!
-
-# Reducing the Problem Space
-
-There is a lot of great problem-space reduction possible in Takuzu and the best place to start is again with the puzzle description.
+Unfortunately, this is where the similarities to Sudoku end! There is a lot of great problem-space reduction possible in Takuzu and the best place to start is again with the puzzle description.
 
 >The objective is to fill the grid with 1s and 0s, constraints are :
 > - an equal number of 1s and 0s in each row and column
