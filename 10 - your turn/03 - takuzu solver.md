@@ -27,7 +27,7 @@ The basic Algorithm X requirements and actions seem straightforward. Every cell 
 
 If a row is 8 characters long and it already has 2 zeroes and 1 one, you know you must place an additional 2 zeros and 3 ones in that row. This is textbook multiplicity.
 
-Mutual exclusivity is where Takuzu Solver gets very interesting. It seems that the following puzzle constraint might create situations for mutual exclusivity.
+Mutual exclusivity is where Takuzu Solver gets very interesting. Any time you see that something cannot happen, you should look for mutual exclusivity.
 
 > - no more than two of either number adjacent to each other
 
