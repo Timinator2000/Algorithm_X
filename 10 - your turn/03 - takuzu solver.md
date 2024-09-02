@@ -21,7 +21,7 @@ Let's start with an excerpt from the goal statement for the puzzle:
 > - no more than two of either number adjacent to each other
 > - no identical rows and no identical columns
 
-The basic Algorithm X requirements and actions seem straightforward. Every cell must be covered with a `0` or a `1`, while the actions are all putting a `0` or a `1` into some cell. Is everything truly as straightforward as it appears? Were you able to see the multiplicty in this puzzle?
+The basic Algorithm X requirements and actions seem straightforward. Every cell must be covered with a `0` or a `1`, while the actions are all putting a `0` or a `1` into some cell. Is everything truly as straightforward as it appears? Were you able to see the multiplicity in this puzzle?
 
 >- an equal number of 1s and 0s in each row and column
 
@@ -31,9 +31,9 @@ Mutual exclusivity is where Takuzu Solver gets very interesting. Any time you se
 
 > - no more than two of either number adjacent to each other
 
-The puzzle allows `00` or `11` to occurr in a row or a column, but a series of 3 or more like numbers is not allowed. All discussions of mutual exclusivity so far have invloved 2 items being mutually exclusive, but here we have 3 unknown items and our solver needs to make sure not to fill those cells with `000` or `111`. Maybe there is a way to address this, but if there is, I am not aware of it and this is a dead-end tangent.
+The puzzle allows `00` or `11` to occur in a row or a column, but a series of 3 or more like numbers is not allowed. All discussions of mutual exclusivity so far have involved 2 items being mutually exclusive, but here we have 3 unknown items and our solver needs to make sure not to fill those cells with `000` or `111`. Maybe there is a way to address this, but if there is, I am not aware of it and this is a dead-end tangent.
 
-Although a pattern of `...` appears to be a deadend, what about a series of 3 cells where only one of cells is known, for instance `..0`? You could put a zero in either unknown spot, but you cannot put a zero in both spots. This sounds much more in line with the Algorithm X mutual exclusivity discussed in this playground. Actually, it sounds just like putting a loud instrument in one slot or the other, but not being allowed to put a loud instrument in both slots.
+Although a pattern of `...` appears to be a dead end, what about a series of 3 cells where only one of cells is known, for instance `..0`? You could put a zero in either unknown spot, but you cannot put a zero in both spots. This sounds much more in line with the Algorithm X mutual exclusivity discussed in this playground. Actually, it sounds just like putting a loud instrument in one slot or the other, but not being allowed to put a loud instrument in both slots.
 
 __Algorithm X Alone, No Problem-Space Reduction__
 
@@ -46,7 +46,7 @@ When there are three or more unknown cells next to each other, you solver will g
 
 If you want to set Algorithm X up in steps consider this. Even if you completely ignore mutual exclusivity, your solve will easily find solutions for __Test Case 1: Test 4x4__ and __Test Case 2: Test 6x6__. Without adding optional requirements to handle mutual exclusivity, I expect you will timeout on 3rd test case.
 
-This puzzle is a great example of the power of mutual exclusivity. With decent problem-space reduction, you can pass all validators even if you completely ignore mutual_exclusivity. However, if you want super fast solutions for every test case and every validator, mutual exclusivity is critical.
+This puzzle is a great example of the power of mutual exclusivity. With decent problem-space reduction, you can pass all validators even if you completely ignore mutual exclusivity. However, if you want super fast solutions for every test case and every validator, mutual exclusivity is critical.
 
 
 # Problem Space Setup
