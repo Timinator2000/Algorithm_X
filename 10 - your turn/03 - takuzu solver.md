@@ -8,6 +8,8 @@ __Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ Enjoyably Complex: A Bit of Everything Covered So Far
 
+<BR>
+
 Unlike many logic puzzles, Takuzu has very limited options. Each cell can be a `0` or a `1`. Solving a Takuzu is still plenty challenging, but the limited cell options might make it a bit easier to focus on problem-space reduction and setting up Algorithm X.
 
 # Algorithm X Setup
