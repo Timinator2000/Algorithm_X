@@ -22,6 +22,6 @@ Again from the puzzle description:
 
 > Adjacent cells, even diagonally, may never contain the same digit.
 
-The second significant difference in Suguru is the puzzle requirement to make sure neighbor cells, even diagonally, never have the same value. If a `1` is placed in a certain cell, there are between 3 and 8 neighbor cells that must not have `1` placed in them. That sounds like a tremendous amount of mutual exclusivity.
+The second significant difference in Suguru is the puzzle requirement to make sure neighbor cells, even diagonally, never have the same value. If a `1` is placed in a certain cell, there are between 3 and 8 neighbor cells that must not be covered with a `1`. That sounds like a tremendous amount of mutual exclusivity.
 
 Parsing the grid and setting up Algorithm X will take a good bit more effort that Sudoku required, but all test cases and validators can be passed well within the time limit with just what you know from the Mrs. Knuth puzzles. Later in the playground, I will revisit Suguru and discuss a few ideas you might use to make your solver significantly faster.
