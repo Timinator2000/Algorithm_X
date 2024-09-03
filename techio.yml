@@ -92,6 +92,8 @@ plan:
         statement: 06 - your turn/06 - breaking bifid.md
       - title: Futoshiki Solver
         statement: 06 - your turn/07 - futoshiki solver.md
+      - title: Suguru Solver
+        statement: 06 - your turn/08 - suguru solver.md
   - title: Multiplicity
     plan:
       - title: Emma Wants More Lessons!
@@ -142,7 +144,7 @@ plan:
         statement: 10 - your turn/02 - no spoon 2.md
       - title: Takuzu Solver
         statement: 10 - your turn/03 - takuzu solver.md
-      - title: Suguru Solver
+      - title: Suguru Solver (Revisited)
         statement: 10 - your turn/04 - suguru solver.md
   - title: Requirements Outside the Matrix
     plan:
