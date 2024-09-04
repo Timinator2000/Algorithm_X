@@ -11,7 +11,7 @@ __Algorithm X Complexity:__ Strap in and hold on tight!
 When we last discussed There is No Spoon – Episode 2, I left you with the following class diagram:
 
 <BR><BR>
-![No Spoon 2 - OOD](ClassesWithLists.png)
+![No Spoon 2 - OOD](NoSpoon2ClassesWithLists.png)
 <BR>
 
 To do some problem-space reduction, it seems reasonable we will add a `reduce()` method to one or more of the classes, but which ones? Distributing behavior to classes can be difficult and sometimes easy to argue one way or another. Let’s look at each class individually.
