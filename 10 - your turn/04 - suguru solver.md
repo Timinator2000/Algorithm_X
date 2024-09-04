@@ -26,4 +26,4 @@ self.grid = dictionary of SuguruCell instances with each key being a (row, col) 
 self.cages = list of SuguruGroup instances, each with a list of pointers to the cells in the group
 ```
 
-Once that is complete, you are ready for a standard reduction loop. Hopefully this sounds repetitive. Seeing the similarities in various problems and applying reusable problem solving techniques can be a very powerful approach to your software engineering projects.
+Once that is complete, you are ready for a standard reduction loop. Hopefully this sounds repetitive. Seeing the similarities in various problems and applying reusable problem solving techniques and design architectures can be a very powerful approach to your software engineering projects.
