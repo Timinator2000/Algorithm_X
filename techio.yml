@@ -148,8 +148,8 @@ plan:
         statement: 10 - your turn/04 - suguru solver.md
   - title: Steering Algorithm X
     plan:
-      - title: More Speed, Captain!
-        statement: 11 - steering algorithm x/01 - when speed is critical.md
+      - title: Backseat Driving
+        statement: 11 - steering algorithm x/01 - backseat driving.md
   - title: Your Turn
     plan:
       - title: High Rise Buildings
