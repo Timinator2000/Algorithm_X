@@ -16,14 +16,12 @@ The cages make Suguru a bit tougher to get organized at first, but a `SuguruCell
 
 { Suguru classes }
 
-Unless you are trying to build a generic logic puzzle structure, I see no need to inherit from a common class at this time, but you should be able to reuse some code. Ultimately, you will want to parse the input and end up with the following:
+Unless you are trying to build a generic logic puzzle structure, I see no need to inherit from a common class at this time, but you should be able to reuse some code. Ultimately, you will want to parse the input and end up with the following two attributes in your `SuguruSolver` class:
 
 ```
-self.grid = dictionary of SuguruCell instances with
-            each key being a (row, col) tuple
+self.grid = dictionary of SuguruCell instances with each key being a (row, col) tuple
 
-self.cages = list of SuguruGroup instances, each with a list
-             of pointers to the cells in the group
+self.cages = list of SuguruGroup instances, each with a list of pointers to the cells in the group
 ```
 
 Once that is complete, you are ready for a standard reduction loop. Hopefully this sounds repetitive. Seeing the similarities in various problems and applying reusable problem solving techniques can be a very powerful approach to your software engineering projects.
