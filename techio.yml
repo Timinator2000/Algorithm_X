@@ -146,10 +146,10 @@ plan:
         statement: 10 - your turn/03 - takuzu solver.md
       - title: Suguru Solver (Revisited)
         statement: 10 - your turn/04 - suguru solver.md
-  - title: Requirements Outside the Matrix
+  - title: Steering Algorithm X
     plan:
-      - title: Requirements Outside the Matrix
-        statement: 11 - reqs outside the matrix/01 - reqs outside the matrix.md
+      - title: More Speed, Captain!
+        statement: 11 - steering algorithm x/01 - when speed is critical.md
   - title: Your Turn
     plan:
       - title: High Rise Buildings
