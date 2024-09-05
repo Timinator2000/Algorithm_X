@@ -35,31 +35,3 @@ If you implement this approach, you must also override the method `_process_row_
 <BR>
 
 This is a very minimal amount of code that can provide tremendous horsepower to Algorithm X. To see how it works, let’s take a closer look at the puzzle, [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings).
-
-
-
-
-Here is diagram 1:
-
-<BR><BR>
-![High Rise Buildings Example](HighRise1.png)
-<BR>
-
-Here is diagram 2:
-
-<BR><BR>
-![City View Example](HighRise2.png)
-<BR>
-
-Here is diagram 3:
-
-<BR><BR>
-![Multiple City Views](HighRise3.png)
-<BR>
-
-
-Here is diagram 3:
-
-<BR><BR>
-![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
-<BR>
