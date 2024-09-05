@@ -25,7 +25,9 @@ As you get more and more experienced with Algorithm X, puzzles like High-Rise bu
 Did I read that correctly? The puzzle goal couldn’t be any clearer about the requirements for Algorithm X.
 
 >build towers on each square
+
 >Each row contains every possible height of tower exactly once;
+
 >Each column contains every possible height of tower exactly once;
 
 # Every Story Needs a Hero
