@@ -12,17 +12,15 @@ __Algorithm X Complexity:__ Setting Up Algorithm X is the Easy Part
 
 As you get more and more experienced with Algorithm X, puzzles like High-Rise buildings should be screaming “Solve me with Algorithm X!” to you. Let’s consider the toy example and the puzzle rules from the goal section.
 
-Here is diagram 1:
-
 <BR><BR>
 ![High Rise Buildings Example](HighRise1.png)
 <BR>
 
 >Given a grid of dimension NxN, you must build towers on each square in such a way that:
-- The heights of the towers range from 1 to N;
-- Each row contains every possible height of tower exactly once;
-- Each column contains every possible height of tower exactly once;
-- Each numeric clue describes the number of towers that can be seen if you look into the square from that position.
+>- The heights of the towers range from 1 to N;
+>- Each row contains every possible height of tower exactly once;
+>- Each column contains every possible height of tower exactly once;
+>- Each numeric clue describes the number of towers that can be seen if you look into the square from that position.
 
 Did I read that correctly? The puzzle goal couldn’t be any clearer about the requirements for Algorithm X.
 
