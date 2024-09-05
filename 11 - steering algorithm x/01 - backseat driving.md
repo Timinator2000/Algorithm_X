@@ -22,7 +22,7 @@ Each time Algorithm X selects a row to be part of a potential solution, a call i
 
 <BR>
 
-Anytime you implement this approach, you must also override the method `_process_row_deselection` to “undo” what was done when the row was selected. The pseudocode looks like this:
+If you implement this approach, you must also override the method `_process_row_deselection` to “undo” what was done when the row was selected. The pseudocode looks like this:
 
 <BR>
 
