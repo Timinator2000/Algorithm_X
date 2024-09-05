@@ -150,10 +150,10 @@ plan:
     plan:
       - title: Backseat Driving
         statement: 11 - steering algorithm x/01 - backseat driving.md
+      - title: High Rise Buildings
+        statement: 11 - steering algorithm x/02 - high rise buildings.md
   - title: Your Turn
     plan:
-      - title: High Rise Buildings
-        statement: 12 - your turn/99 - high rise buildings.md
       - title: Kakuro Solver
         statement: 12 - your turn/99 - kakuro solver.md
       - title: Tetris Floor
