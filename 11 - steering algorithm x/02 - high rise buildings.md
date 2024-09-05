@@ -44,7 +44,7 @@ In the next diagram, two different superheroes have views into the city from two
 ![City View Example](HighRise3.png)
 <BR>
 
-These superheroes are not important, but they are there to illustrate a point. From the perspective of a superhero, there is no difference between one viewing position and another viewing position. Each view into the city has:
+These superheroes are not important, but they illustrate a point. From the perspective of a superhero, there is no difference between one viewing position and another viewing position. Each view into the city has:
 
 1.	A number of buildings that can be seen from that position.
 2.	A list of buildings ordered from closest to furthest away.
