@@ -10,27 +10,49 @@ __Algorithm X Complexity:__ Setting Up Algorithm X is the Easy Part
 
 # Strategy
 
+As you get more and more experienced with Algorithm X, puzzles like High-Rise buildings should be screaming “Solve me with Algorithm X!” to you. Let’s consider the toy example and the puzzle rules from the goal section.
+
 Here is diagram 1:
 
 <BR><BR>
 ![High Rise Buildings Example](HighRise1.png)
 <BR>
 
-Here is diagram 2:
+>Given a grid of dimension NxN, you must build towers on each square in such a way that:
+- The heights of the towers range from 1 to N;
+- Each row contains every possible height of tower exactly once;
+- Each column contains every possible height of tower exactly once;
+- Each numeric clue describes the number of towers that can be seen if you look into the square from that position.
+
+Did I read that correctly? The puzzle goal couldn’t be any clearer about the requirements for Algorithm X.
+
+>build towers on each square
+>Each row contains every possible height of tower exactly once;
+>Each column contains every possible height of tower exactly once;
+
+# Every Story Needs a Hero
+
+If anything, the last rule is the most challenging. For an `N` x `N`square, there are `4 * N` “positions” from which you can look into the square. For each position, a clue is given indicating how many buildings can been seen. Each building blocks the view of any shorter buildings behind it. In the diagram below, the superhero has a view into the city from the top left-side position.
 
 <BR><BR>
-![City View Example](HighRise2.png)
+![Multiple City Views](HighRise2.png)
 <BR>
 
-Here is diagram 3:
+In the next diagram, two different superheroes have views into the city from two different positions.
 
 <BR><BR>
-![Multiple City Views](HighRise3.png)
+![City View Example](HighRise3.png)
 <BR>
 
+These superheroes are not important, but they are there to illustrate a point. From the perspective of a superhero, there is no difference between one viewing position and another viewing position. Each view into the city has:
 
-Here is diagram 3:
+1.	A number of buildings that can be seen from that position.
+2.	A list of buildings ordered from closest to furthest away.
+
+I will call each of the `4 * N` positions a `CityView`. If you think about it, the layout of this puzzle is incredibly similar to every grid-based logic puzzle we have already looked at. There is some number of Cells and some number of groupings of those cells. Once again, I suggest you use the exact same code structure to create a dictionary of all Cells and the create the appropriate groups. To honor the storyline of the puzzle, I am going to use the class names `Building` and `CityView` instead of a variation of `Cell` and `Group` like we have seen multiple times before.
 
 <BR><BR>
 ![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
 <BR>
+
+Finally, you will need to override your solver's `_process_solution()` method and make sure every `CityView` is valid. I suggest you focus on __Test Case 2: Test 2__. Algorithm X should find a solution to that test case in plenty of time. I suspect you may time out on the remaining test cases.
