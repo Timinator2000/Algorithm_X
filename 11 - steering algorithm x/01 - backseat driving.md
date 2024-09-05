@@ -14,3 +14,22 @@
         _, _, row, col = row
         self.grid[(row, col)].height = 0
 ```
+
+
+Here is diagram 1:
+
+<BR><BR>
+![High Rise Buildings Example](HighRise1.png)
+<BR>
+
+Here is diagram 2:
+
+<BR><BR>
+![City View Example](HighRise2.png)
+<BR>
+
+Here is diagram 3:
+
+<BR><BR>
+![Multiple City Views](HighRise3.png)
+<BR>
