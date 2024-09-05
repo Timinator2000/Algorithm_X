@@ -153,7 +153,7 @@ plan:
       - title: High Rise Buildings
         statement: 11 - steering algorithm x/02 - high rise buildings.md
       - title: High Rise Buildings (cont.)
-        statement: 11 - steering algorithm x/02 - high rise buildings - cont.md
+        statement: 11 - steering algorithm x/03 - high rise buildings - cont.md
   - title: Your Turn
     plan:
       - title: Kakuro Solver
