@@ -6,9 +6,9 @@ Of course, the answer is, “It depends.” Your friend might be the kind of per
 
 It is sometimes not possible to give Algorithm X every bit of knowledge necessary to find solutions with maximum speed. We only have requirements, optional requirements and actions with which to work. Some knowledge just doesn’t fit into those parameters.
 
-Many pages ago, we discussed the matrix Algorithm X uses to find solutions. The columns are the requirements while the rows are the actions. Algorithm X uses backtracking to find a set of rows that _exactly covers_ the primary columns. In Mrs. Knuth – Part III, we added a couple lines of code to the `AlgorithmXSolver` method `_process_row_selection()` to ask Algorithm X to “remember” certain combinations it had already tried. We are going to override this method again, but this time I will add some logic to determine if Algorithm X is headed for a dead end and needs to be put back on a better path.
+Many pages ago, we discussed the matrix Algorithm X uses to find solutions. The columns are the requirements while the rows are the actions. Algorithm X uses backtracking to find a set of rows that _exactly covers_ the primary columns. In Mrs. Knuth – Part III, we added a couple lines of code by overriding the `AlgorithmXSolver` method `_process_row_selection()` to ask Algorithm X to “remember” certain combinations it had already tried. We are going to override this method again, but this time I will add some logic to determine if Algorithm X is headed for a dead end and needs to be put back on a better path.
 
-Each time Algorithm X selects a row to be part of a potential solution, a call is made to `_process_row_selection()`. In the following code, I am overriding that method and adding a very small amount of logic to update the state of the problem space and redirect Algorithm X if necessary. The pseudocode looks like this:
+Each time Algorithm X selects a row to be part of a potential solution, a call is made to `_process_row_selection()`. In the following code, the `AlgorithmXSolver` subclass overrides the `_process_row_selection()` method and adds a very small amount of logic to update the state of the problem space and redirect Algorithm X if necessary. The pseudocode looks like this:
 
 <BR>
 
@@ -22,7 +22,7 @@ Each time Algorithm X selects a row to be part of a potential solution, a call i
 
 <BR>
 
-If you implement this approach, you must also override the method `_process_row_deselection` to “undo” what was done when the row was selected. The pseudocode looks like this:
+If you implement this approach, your solver subclass must also override the method `_process_row_deselection` to “undo” what was done when the row was selected. The pseudocode looks like this:
 
 <BR>
 
