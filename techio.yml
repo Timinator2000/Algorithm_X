@@ -162,10 +162,10 @@ plan:
         statement: 12 - your turn/99 - killer sudoku.md
       - title: Killer Sudoku Extreme
         statement: 12 - your turn/99 - killer sudoku extreme.md
-  - title: TBD 
+  - title: Coming Soon
     plan:
       - title: Assorted Rectangular Pieces
-        statement: 20 - tbd/99 - assorted rectangular pieces.md
+        statement: 20 - coming soon/99 - assorted rectangular pieces.md
 
 projects:
   python:
