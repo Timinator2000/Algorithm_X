@@ -20,6 +20,7 @@ Each time Algorithm X selects a row to be part of a potential solution, a call i
             self.solution_is_valid = False
 ```
 
+<BR>
 
 Anytime you implement this approach, you must also override the method `_process_row_deselection` to “undo” what was done when the row was selected. The pseudocode looks like this:
 
@@ -30,6 +31,8 @@ Anytime you implement this approach, you must also override the method `_process
         action variables = unpack the row
         update the state of the problem space to "undo" the selected action
 ```
+
+<BR>
 
 This is a very minimal amount of code that can provide tremendous horsepower to Algorithm X. To see how it works, let’s take a closer look at the puzzle, [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings).
 
