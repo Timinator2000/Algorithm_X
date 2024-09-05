@@ -10,16 +10,20 @@ Many pages ago, we discussed the matrix Algorithm X uses to find solutions. The 
 
 Each time Algorithm X selects a row to be part of a potential solution, a call is made to `_process_row_selection()`. In the following code, I am overriding that method and adding a very small amount of logic to update the state of the problem space and redirect Algorithm X if necessary. The pseudocode looks like this:
 
+<BR>
+
 ```text
     def _process_row_selection(self, row):
         action variables = unpack the row
         update the state of the problem space to include the selected action
         if the problem space is no longer valid:
-            self.solution_is_valid = True
+            self.solution_is_valid = False
 ```
 
 
 Anytime you implement this approach, you must also override the method `_process_row_deselection` to “undo” what was done when the row was selected. The pseudocode looks like this:
+
+<BR>
 
 ```text
     def _process_row_deselection(self, row):
