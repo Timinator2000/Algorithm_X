@@ -2,7 +2,7 @@
 
 You and a friend are driving from one side of Switzerland to the other. Your friend is driving while you study the map. Your friend turns down a road that your map clearly indicates is a dead end. Do you say anything?
 
-Of course, the answer is, “It depends.” Your friend might be the kind of person that cannot tolerate a backseat driver. Your friend may be convinced the map is wrong. (I’m ashamed to admit I have been that friend.) However, if you share a common goal of getting to your destination quickly, you let your friend know the current path is a dead end and you change course.
+Of course, the answer is, “It depends.” Your friend might be the kind of person that cannot tolerate a backseat driver. Your friend may be convinced the map is wrong. (I’m ashamed to admit I have been that friend.) However, if you share the goal of getting to your destination quickly, you let your friend know the current path is a dead end and you change course.
 
 It is sometimes not possible to give Algorithm X every bit of knowledge necessary to find solutions with maximum speed. We only have requirements, optional requirements and actions with which to work. Some knowledge just doesn’t fit into those parameters.
 
