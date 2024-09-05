@@ -33,3 +33,10 @@ Here is diagram 3:
 <BR><BR>
 ![Multiple City Views](HighRise3.png)
 <BR>
+
+
+Here is diagram 3:
+
+<BR><BR>
+![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
+<BR>
