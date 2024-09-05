@@ -49,7 +49,7 @@ These superheroes are not important, but they illustrate a point. From the persp
 1.	A number of buildings that can be seen from that position.
 2.	A list of buildings ordered from closest to furthest away.
 
-I will call each of the `4 * N` positions a `CityView`. If you think about it, the layout of this puzzle is incredibly similar to every grid-based logic puzzle we have already looked at. There is some number of _cells_ and some number of _groupings_ of those cells. Once again, I suggest you use the exact same code structure to create a dictionary of all Cells and the create the appropriate groups. To honor the storyline of the puzzle, I am going to use the class names `Building` and `CityView` instead of a variation of `Cell` and `Group` like we have seen multiple times before.
+I will call each of the `4 * N` positions a `CityView`. If you think about it, the layout of this puzzle is incredibly similar to every grid-based logic puzzle we have already looked at. There is some number of _cells_ and some number of _groupings_ of those cells. Once again, I suggest you use the exact same code structure to create a dictionary of all cells and then create a list of all the groups. To honor the storyline of the puzzle, I am going to use the class names `Building` and `CityView` instead of a variation of `Cell` and `Group` like we have seen multiple times before.
 
 <BR><BR>
 ![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
