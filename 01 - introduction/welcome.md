@@ -37,16 +37,14 @@ __Great Candidates for Algorithm X:__
 <BR>[Three Little Piggies]( https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
 <BR>[Takuzu Solver](https://www.codingame.com/training/hard/takuzu-solver) (+50 XP)
 <BR>[Hitori Solver](https://www.codingame.com/training/hard/hitori-solver) (+50 XP)
-<BR>[Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
 <BR>[n Queens](https://www.codingame.com/training/hard/n-queens) (+50 XP)
 <BR>[There Is No Spoon – Episode 2](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) (+250 XP)
 <BR>[Einstein’s Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
 <BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[High-Rise Buildings](https://www.codingame.com/training/expert/high-rise-buildings) (+50 XP)
-
-__Puzzles I Solved with Algorithm X, but...__
 <BR>[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) (+50 XP)
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
+<BR>[Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
 <BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
 
 
