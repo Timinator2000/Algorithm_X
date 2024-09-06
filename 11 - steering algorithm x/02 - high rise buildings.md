@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Setting Up Algorithm X is the Easy Part
 
 # Strategy
 
-As you get more and more experienced with Algorithm X, puzzles like High-Rise buildings should be screaming to you, “Solve me with Algorithm X!” Let’s consider the toy example and the puzzle rules from the goal section.
+As you get more and more experienced with Algorithm X, puzzles like High-Rise Buildings should be screaming to you, “Solve me with Algorithm X!” Let’s consider the toy example and the puzzle rules from the goal section.
 
 <BR><BR>
 ![High Rise Buildings Example](HighRise1.png)
