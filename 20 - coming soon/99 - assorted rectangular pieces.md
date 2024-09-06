@@ -9,3 +9,5 @@ __Published Difficulty:__ [2 kyu](https://docs.codewars.com/gamification/ranks)
 __Algorithm X Complexity:__ No Worse than Trying to Survive a Zombie Apocalypse
 
 # Strategy
+
+Comings soon...
