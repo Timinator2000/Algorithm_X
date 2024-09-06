@@ -4,11 +4,11 @@ For some problems, it is beneficial to keep track of the solution steps Algorith
 
 Each time Algorithm X chooses a row from the matrix to make part of the solution, we will update the grid of the city to reflect the height assigned to one of the buildings. If any part of the grid indicates one of the `CityView`s is invalid, Algorithm X can be redirected.
 
-I am making a bit of an assumption that you came up with the same actions for Algorithm X that I believe are necessary. What are the tiles that can be place on the gameboard? The only option for those tiles I see is that each tile is a height that is assigned to a building by putting that tile on the gameboard's '(row, col)` coordinate. Running with that assumption, the next step is to override the following two `AlgorithmXSolver` methods.
+I am making a bit of an assumption that you came up with the same actions for Algorithm X that I believe are necessary. What are the tiles that can be place on the gameboard? The only option for those tiles I see is that each tile is a height that is assigned to a building by putting that tile on the gameboard's `(row, col)` coordinate. Running with that assumption, the next step is to override the following two `AlgorithmXSolver` methods.
 
 <BR>
 
-```text
+```python
     def _process_row_selection(self, row):
         action variables (most importantly height, row and col) = unpack the row
         building at (row, col) height = height
