@@ -156,14 +156,14 @@ plan:
         statement: 11 - steering algorithm x/03 - high rise buildings - cont.md
   - title: Your Turn
     plan:
-      - title: Kakuro Solver
-        statement: 12 - your turn/99 - kakuro solver.md
-      - title: Tetris Floor
-        statement: 12 - your turn/99 - tetris floor.md
       - title: Killer Sudoku
-        statement: 12 - your turn/99 - killer sudoku.md
+        statement: 12 - your turn/01 - killer sudoku.md
       - title: Killer Sudoku Extreme
-        statement: 12 - your turn/99 - killer sudoku extreme.md
+        statement: 12 - your turn/02 - killer sudoku extreme.md
+      - title: Kakuro Solver
+        statement: 12 - your turn/03 - kakuro solver.md
+      - title: Tetris Floor
+        statement: 12 - your turn/04 - tetris floor.md
   - title: Coming Soon
     plan:
       - title: Assorted Rectangular Pieces
