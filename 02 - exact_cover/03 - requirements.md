@@ -50,6 +50,10 @@ Look through that list again and ask yourself this question: Does each requireme
 
 Keep in mind, each of one of these requirements must be satisfied exactly one time by any proposed solution. This is where the term “exact” comes from in exact cover. __All requirements must be covered exactly once by a proper solution. None can be left uncovered and none can be covered multiple times by overlapping actions.__
 
+# Structuring Your Requirements
+
+To use the Algorithm X solver provided in this playground, requirements need to be structured as tuples and each tuple must uniquely identify one requirement of the puzzle. __I strongly recommend you adopt the format used in this section where the first element of each tuple is a string that describes the category the requirement belongs to. These strings are actually unnecessary, but they have essentially zero cost to the provided solver and they will help you avoid situations where you think all your tuples are unique when there are actually duplicates.__ You will also see benefits when it comes time for troubleshooting.
+
 # Constraining the Realm of Possibility
 
 I have chosen to use the word “requirement”, but you will often see the word “constraint” used with Algorithm X. Each word is powerful in its own way. I want to briefly demonstrate where the word “constraint” really helps us understand the big picture of Algorithm X.
