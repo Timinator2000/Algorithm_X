@@ -8,7 +8,7 @@ I am making a bit of an assumption that you came up with the same actions for Al
 
 <BR>
 
-```python
+```text
     def _process_row_selection(self, row):
         action variables (most importantly height, row and col) = unpack the row
         building at (row, col) height = height
