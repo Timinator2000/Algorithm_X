@@ -32,7 +32,7 @@ Did I read that correctly? The puzzle goal couldn’t be any clearer about the r
 
 # Every Story Needs a Hero
 
-If anything, the last rule is the most challenging. For an `N` x `N`square, there are `4 * N` “positions” from which you can look into the square. For each position, a clue is given indicating how many buildings can been seen. Each building blocks the view of any shorter buildings behind it. In the diagram below, the superhero has a view into the city from the top left-side position.
+If anything, the last rule is the most challenging. For an `N` x `N`square, there are `4 * N` “positions” from which you can look into the square. A clue is given for viewing position indicating how many buildings can been seen. Each building blocks the view of any shorter buildings behind it. In the diagram below, the superhero has a view into the city from the top left-side position.
 
 <BR><BR>
 ![Multiple City Views](HighRise2.png)
@@ -49,7 +49,7 @@ These superheroes are not important, but they illustrate a point. From the persp
 1.	A number of buildings that can be seen from that position.
 2.	A list of buildings ordered from closest to furthest away.
 
-I will call each of the `4 * N` positions a `CityView`. If you think about it, the layout of this puzzle is incredibly similar to every grid-based logic puzzle we have already looked at. There is some number of _cells_ and some number of _groupings_ of those cells. Once again, I suggest you use the exact same code structure to create a dictionary of all cells and then create a list of all the groups. To honor the puzzle's storyline, I am going to use the class names `Building` and `CityView` instead of a variation of `Cell` and `Group` like what was done multiple times before.
+I will call each of the `4 * N` viewing positions a `CityView`. If you think about it, the layout of this puzzle is incredibly similar to every grid-based logic puzzle we have already looked at. There is some number of _cells_ and some number of _groupings_ of those cells. Once again, I suggest you use the exact same code structure to create a dictionary of all cells and then create a list of all the cell groups. To honor the puzzle's storyline, I will use the class names `Building` and `CityView` instead of a variation of `Cell` and `Group` like what was done multiple times before.
 
 <BR><BR>
 ![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
