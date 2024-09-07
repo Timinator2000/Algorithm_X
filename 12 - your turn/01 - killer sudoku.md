@@ -10,4 +10,21 @@ __Algorithm X Complexity:__ Would You Like a Bit of Everything???
 
 # Strategy
 
-This puzzle contains every topic covered in this playground except multiplicity. 
+Killer Sudoku seems easy enough. It is just Sudoku with one twist. The cells of the Sudoku grid are grouped into cages that must sum to a given amount. Easy enough, right?
+
+This puzzle is extremely interesting, especially when you look at __Test Case 4: Expert__ where the entire grid is initially empty. We know Algorithm X can easily solve a Sudoku, so how about having Algorithm X generate every possible Sudoku grid until one is generated that does not violate any of the given cage sums? There is a tiny problem with that approach. According to [Brittanica.com]( https://www.britannica.com/story/will-we-ever-run-out-of-sudoku-puzzles):
+
+>There are 6,670,903,752,021,072,936,960 possible solvable Sudoku grids that yield a unique result (that’s 6 sextillion, 670 quintillion, 903 quadrillion, 752 trillion, 21 billion, 72 million, 936 thousand, 960 in case you were wondering). That's way more than the number of stars in the universe.
+
+Unless you have a tremendous amount of computing (and a good amount of time on your hands), some problem-space reduction will be critical.
+
+More than any other puzzle covered so far, this puzzle can be attacked in many ways. First, you will need a good set of requirements and actions. Since Killer Sudoku extends the traditional Sudoku, you should be able to reuse much of your previous work. After that, you will have a lot of options, but ultimately, you will need some combination of the following:
+
+1.	You could add some optional requirements.
+2.	There is an opportunity to add optional requirements to handle mutual exclusivity.
+3.	You could reuse your Sudoku problem-space reduction.
+4.	You could add problem-space reduction based on cages.
+5.	You could validate cage sums when solutions are generated.
+6.	You could validate cage sums along the way so you can redirect Algorithm X when necessary.
+
+No idea above is significantly more important than the rest. I suggest you experiment with them all until you find solution fast enough to solve all the test cases.
