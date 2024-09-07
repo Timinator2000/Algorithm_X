@@ -6,7 +6,7 @@ __Author:__ [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b3
 
 __Published Difficulty:__ Hard
 
-__Algorithm X Complexity:__ That Depends
+__Algorithm X Complexity:__ It Depends
 
 # Strategy
 
