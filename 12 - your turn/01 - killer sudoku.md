@@ -27,4 +27,8 @@ More than any other puzzle covered so far, this puzzle can be attacked in many w
 5.	You could validate cage sums when solutions are generated.
 6.	You could validate cage sums along the way so you can redirect Algorithm X when necessary.
 
-No idea above is significantly more important than the rest. I suggest you experiment with them all until you find solution fast enough to solve all the test cases.
+No idea above is significantly more important than the rest. I suggest you experiment with them all until you find a solution fast enough to solve all the test cases.
+
+To get started, I recommend you work on setting up Algorithm X with no problem-space reduction at all. A basic Sudoku Algorithm X setup will quickly solve __Test Case 1: Easy__ and __Test Case 2: Medium__. Of course, you will need to make sure all the cage sums are properly honored. From there it gets tougher. A hardcore Algorithm X setup will quickly solve __Test Case 3: Hard__, but that is as far as Algorithm X can take you without some problem-space reduction.
+
+As you work through this puzzle, keep in mind that everything you lean will help you cross the next hurdle, [Killer Sudoku Extreme Challenge]( https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge).
