@@ -16,7 +16,7 @@ This puzzle is extremely interesting, especially when you look at __Test Case 4:
 
 >There are 6,670,903,752,021,072,936,960 possible solvable Sudoku grids that yield a unique result (that’s 6 sextillion, 670 quintillion, 903 quadrillion, 752 trillion, 21 billion, 72 million, 936 thousand, 960 in case you were wondering). That's way more than the number of stars in the universe.
 
-Unless you have a tremendous amount of computing (and a good amount of time on your hands), some problem-space reduction will be critical.
+Unless you have a tremendous amount of computing power and a good amount of time on your hands, some problem-space reduction will be critical.
 
 More than any other puzzle covered so far, this puzzle can be attacked in many ways. First, you will need a good set of requirements and actions. Since Killer Sudoku extends the traditional Sudoku, you should be able to reuse much of your previous work. After that, you will have a lot of options, but ultimately, you will need some combination of the following:
 
