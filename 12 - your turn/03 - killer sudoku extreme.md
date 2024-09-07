@@ -14,7 +14,7 @@ In Killer Sudoku Extreme Challenge, your algorithm needs to solve up to 40 __Exp
 
 # Solving Every Grid Logically
 
-Backtracking involves making a guess and then backtracking if that guess leads to a dead end or the path has been fully explored. It is possible to solve every Killer Sudoku grid in the puzzle without making a single guess. In the original puzzle, did you use a class structure similar to this?
+Backtracking involves making a guess and then backing up if that guess leads to a dead end or the path has been fully explored. It is possible to solve every Killer Sudoku grid in the puzzle without making a single guess. In the original puzzle, did you use a class structure similar to this?
 
 { Class Diagram 1 }
 
