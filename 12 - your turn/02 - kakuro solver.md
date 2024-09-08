@@ -18,9 +18,9 @@ The input for Kakuro Solver is a bit challenging, but I encourage you to make yo
 
 This puzzle validates the choice of a dictionary for the grid over any type of 2-dimensional array. Why? The only important cells to put in the dictionary are cells in the Kakuro grid that are either empty or already contain a number. A number of cells in the Kakuro grid are used to tell us how to group cells and what the sum of the cells in the group must be. The information obtained from those cells is used to build the groups, but that information never changes. There is no need to store these cells in the dictionary.
 
-Step 1: Parse the input, creating an instance of a `KakuroCell` in the `self.grid` dictionary. 
+1. Parse the input, creating an instance of a `KakuroCell` in the `self.grid` dictionary. 
 
-Step 2: Parse the input again, this time looking for locations in the Kakuro input that indicate how to group the cells and the sum of each group.
+1. Parse the input again, this time looking for locations in the Kakuro input that indicate how to group the cells and the sum of each group. Create a new group with a list of pointers to the cells in the group.
 
 # Sum of a Group of Cells?
 
