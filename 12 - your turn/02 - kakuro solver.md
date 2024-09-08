@@ -26,14 +26,14 @@ This puzzle validates the choice of a dictionary for the grid over any type of 2
 
 Unlike many of the puzzles covered so far, the goal statement does not give a name to the groups of cells. The puzzle statement tells us:
 
-> Rules:
+>Rules:
 >- All empty cells need to be filled in with digits, in such a way that all the given sums are respected.
 >- You are not allowed to use the same digit more than once to obtain a given sum.
 
-> - Cell with backslash : the required sum of the corresponding cells.
-- X\ : the vertical sum X of the cells downwards,
-- \X : the horizontal sum X of the cells to the right,
-- X\Y : the vertical sum X of the cells downwards, and the horizontal sum Y of the cells to the right.
+>- Cell with backslash : the required sum of the corresponding cells.
+>- X\ : the vertical sum X of the cells downwards,
+>- \X : the horizontal sum X of the cells to the right,
+>- X\Y : the vertical sum X of the cells downwards, and the horizontal sum Y of the cells to the right.
 
 Do you see the similarities between these groups and the cages you just explored in [Killer Sudoku Solver]( https://www.codingame.com/training/medium/killer-sudoku-solver)? What are the differences?
 
