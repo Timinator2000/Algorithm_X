@@ -57,9 +57,9 @@ __Groups in Kakuro are 100% identical to cages in Killer Sudoku.__ Hopefully you
 
 The big-picture structure of your code can be exactly the same as what you wrote for [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings) and [Killer Sudoku Solver]( https://www.codingame.com/training/medium/killer-sudoku-solver).
 
-* Create a diction of cells.
-* Create a list of groups.
-* Reduce the groups as much as possible.
+* Create a dictionary of cells.
+* Create a list of cages.
+* Reduce the cell candidates using what you know must be true about the cages.
 *	Run Algorithm X.
     *	Update cells when Algorithm X selects/deselects rows.
     *	Validate cages and redirect Algorithm X as necessary.
