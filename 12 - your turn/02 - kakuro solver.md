@@ -10,9 +10,19 @@ __Algorithm X Complexity:__ Algorithm X Setup Is a Subset of Killer Sudoku
 
 # Strategy
 
-To solve Kakuro Solver, you will need to do more problem space reduction that you have done for any puzzle so far. The cell groups must add up to certain numbers, but other than that, you have very little with which to work. Consider __Example 1__ from the puzzle goal. The Kakuro grid is a 3 x 3 grid, but only 4 of the 9 cells need to be determined. The other 5 cells are either unused or informational.
+To solve Kakuro Solver, you will need to do more problem space reduction that you have done for any puzzle so far. The cell groups must add up to certain numbers, but other than that, you have very little with which to work. Consider __Example 1__ from the puzzle goal. The Kakuro grid is a 3x3 grid, but only 4 of the 9 cells need to be determined. The other 5 cells are either unused or informational. The important part of a Kakuro is how the cells are grouped together and what the sum of each group needs to be.
 
+<BR><BR>
+![Kakuro Example 1](Kakuro1.png)
+<BR>
 
+The next graphic summarizes all important information on the Kakuro grid in a way that resembles the cell and group approach we have used many times before.
+
+<BR><BR>
+![Kakuro Example 1 Summary](Kakuro2.png)
+<BR>
+
+It might be helpfu to keep a copy of the original Kakuro 3x3 grid considering the output needs all elements of the 3x3 grid, including the proper values for the 4 empty cells.
 
 # Tougher Input to Parse
 
