@@ -58,7 +58,7 @@ Start by setting up Algorithm X with no problem-space reduction at all. A basic 
 <summary>Spoiler Alert: What is meant by a "slightly more dialed-in" Algorithm X setup?</summary>
 <br>
   
-Cages cannot have duplicate numbers. Are you using optional requirements to make sure numbers are not duplicated in a cage. If you need to refresh your memory, go back and revisit the way Mrs. Knuth made sure instruments did not repeat on any particular day.
+Cages cannot have duplicate numbers. Are you using optional requirements to make sure numbers are not duplicated in a cage? If you need to refresh your memory, go back and revisit the way Mrs. Knuth made sure instruments did not repeat on any particular day.
 </details>
 
 <details>
