@@ -27,8 +27,8 @@ This puzzle validates the choice of a dictionary for the grid over any type of 2
 Unlike many of the puzzles covered so far, the goal statement does not give a name to the groups of cells. The puzzle statement tells us:
 
 > Rules:
-- All empty cells need to be filled in with digits, in such a way that all the given sums are respected.
-- You are not allowed to use the same digit more than once to obtain a given sum.
+>- All empty cells need to be filled in with digits, in such a way that all the given sums are respected.
+>- You are not allowed to use the same digit more than once to obtain a given sum.
 
 > - Cell with backslash : the required sum of the corresponding cells.
 - X\ : the vertical sum X of the cells downwards,
