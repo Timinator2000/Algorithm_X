@@ -35,7 +35,7 @@ Unlike many of the puzzles covered so far, the goal statement does not give a na
 >- \X : the horizontal sum X of the cells to the right,
 >- X\Y : the vertical sum X of the cells downwards, and the horizontal sum Y of the cells to the right.
 
-Do you see the similarities between these groups and the cages you just explored in [Killer Sudoku Solver]( https://www.codingame.com/training/medium/killer-sudoku-solver)? What are the differences?
+Do you see the similarities between these groups and the `Cage`s you just explored in [Killer Sudoku Solver]( https://www.codingame.com/training/medium/killer-sudoku-solver)? What are the differences?
 
 One difference is that in Kakuro, the groups are either a horizontal line of cells or a vertical line of cells. Although this is true, is it important. In both puzzles, all that matters is that the cells add up to a certain value and the numbers in the group do not repeat.
 
