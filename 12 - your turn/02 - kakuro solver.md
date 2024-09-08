@@ -52,5 +52,18 @@ The big-picture structure of your code can be exactly the same as what you wrote
     *	Update cells when Algorithm X selects/deselects rows.
     *	Validate cages and redirect Algorithm X as necessary.
 
-Start by setting up Algorithm X with no problem-space reduction at all. A basic Algorithm X setup with requirements and actions will quickly solve the first 6 test cases. A slightly more dialed-in Algorithm X setup might solve all of the first 9 test cases, but you might see a few timeouts. A hardcore Algorithm X setup will solve the first 9 test cases without ever getting close to the time limit. To solve __Test Case 10: Test 10 (7 * 7)__, you will need to do some problem space reduction.
+Start by setting up Algorithm X with no problem-space reduction at all. A basic Algorithm X setup with requirements and actions will quickly solve the first 6 test cases assuming you properly validating all the `Cage`s. A slightly more dialed-in Algorithm X setup might solve all of the first 9 test cases, but you might see a few timeouts. A hardcore Algorithm X setup will solve the first 9 test cases without ever getting close to the time limit. To solve __Test Case 10: Test 10 (7 * 7)__, you will need to do some problem space reduction.
 
+<details>
+<summary>Spoiler Alert: What is meant by a "slightly more dialed-in" Algorithm X setup?</summary>
+<br>
+  
+Cages cannot have duplicate numbers. Are you using optional requirements to make sure numbers are not duplicated in a cage. If you need to refresh your memory, go back and revisit the way Mrs. Knuth made sure instruments did not repeat on any particular day.
+</details>
+
+<details>
+<summary>Spoiler Alert: What is meant by a "hardcore" Algorithm X setup?</summary>
+<br>
+  
+Cages present significant opportunity for optional requirements to handle mutual exclusivity. Adding these me_requirements will add significant speed to Algorithm X. Is there a way to determine that placing a number in a cell makes it impossible to place another number in another cell? Remember, you are looking for knowledge that is not already captured by existing requirements, such as no duplicte numbers allowed in a cage.
+</details>
