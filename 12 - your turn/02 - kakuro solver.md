@@ -49,5 +49,5 @@ The big-picture structure of your code can be exactly the same as what you wrote
 * Create a list of groups.
 * Reduce the groups as much as possible.
 *	Run Algorithm X.
-   *	Update cells when Algorithm X selects rows.
-   *	Validate cages and redirect Algorithm X as necessary.
+    *	Update cells when Algorithm X selects rows.
+    *	Validate cages and redirect Algorithm X as necessary.
