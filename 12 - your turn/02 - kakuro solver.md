@@ -39,7 +39,7 @@ Do you see the similarities between these groups and the `Cage`s you just explor
 
 One difference is that in Kakuro, the groups are either a horizontal line of cells or a vertical line of cells. Although this is true, it is not meaningful. In Killer Sudoku, all cells of a `Cage` could also be in a line vertically or horizontally. Another difference is that in Kakura, a single cell coule be part of two difference groups. Again, not a meaningful differecne. In both puzzles, all that matters is that the cells add up to a certain value and the numbers in the group do not repeat.
 
-__Groups in Kakuro are 100% identical to `Cage`s in Killer Sudoku.__ Hopefully you got a good start on reducing these `Cage`s. Regardless of how much `Cage` reducing you already implemented, my guess is you will now need more.
+__Groups in Kakuro are 100% identical to `Cage`s in Killer Sudoku.__ Hopefully you got a good start on reducing these `Cage`s. Regardless of how much `Cage` reduction you already implemented, my guess is you will now need more.
 
 # Suggested Path Forward
 
