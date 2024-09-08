@@ -21,11 +21,16 @@ Unless you have a tremendous amount of computing power and a good amount of time
 More than any other puzzle covered so far, this puzzle can be attacked in many ways. First, you will need a good set of requirements and actions. Since Killer Sudoku extends the traditional Sudoku, you should be able to reuse much of your previous work. After that, you will have a lot of options, but ultimately, you will need some combination of the following:
 
 1.	You could add some optional requirements.
-2.	There is an opportunity to add optional requirements to handle mutual exclusivity.
-3.	You could reuse your Sudoku problem-space reduction.
-4.	You could add problem-space reduction based on cages.
-5.	You could validate cage sums when solutions are generated.
-6.	You could validate cage sums along the way so you can redirect Algorithm X when necessary.
+
+1.	There is an opportunity to add optional requirements to handle mutual exclusivity.
+
+1.	You could reuse your Sudoku problem-space reduction.
+
+1.	You could add problem-space reduction based on cages.
+
+1.	You could validate cage sums when solutions are generated.
+
+1.	You could validate cage sums along the way so you can redirect Algorithm X when necessary.
 
 No idea above is significantly more important than the rest. I suggest you experiment with them all until you find a solution fast enough to solve all the test cases.
 
