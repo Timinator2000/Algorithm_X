@@ -89,7 +89,7 @@ The last setup step is to put all the cells into the groups to which they belong
 
 <BR>
 
-I cannot emphasize enough how powerful this pointer-based structure can be. In an object-oriented approach, objects have relationships with other objects. Despite any bad memories the word "pointer" might stir up, Python makes pointers very straightforward and pointers are the most common way for one object to "have a relationship" with another object.
+I cannot emphasize enough how powerful this pointer-based structure can be. In an object-oriented approach, objects have relationships with other objects. Despite any bad memories the word "pointer" might stir up, Python makes pointers very straightforward and pointers are a very common way for one object to "have a relationship" with another object.
 
 # A Short Algorithm to Fascilate Problem-Space Reduction
 
