@@ -16,7 +16,9 @@ In Killer Sudoku Extreme Challenge, your algorithm needs to solve up to 40 __Exp
 
 Backtracking involves making a guess and then backing up if that guess leads to a dead end or the path has been fully explored. It is possible to solve every Killer Sudoku grid in the puzzle without making a single guess. In the original puzzle, did you use a class structure similar to this?
 
-{ Class Diagram 1 }
+<BR><BR>
+![Killer Sudoku Classes](KillerSudokuClasses.png)
+<BR>
 
 A `SudokuGroup`could be a row, a column or a box. All `SudokuGroup`s behave identically. `Cage`s are another way to group cells and these groups have significantly different behavior which calls for a separate class. If you study how cells behave on a Killer Sudoku grid, you will find even more interesting behavior that can help you find the values of more unknown cells. For an example click below.
 
