@@ -73,7 +73,7 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 As promised, here is my progress toward solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
 
-[Jump](/solving-with-logic-only)
+[Jump](#solving-with-logic-only)
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
