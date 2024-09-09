@@ -168,6 +168,10 @@ plan:
     plan:
       - title: Assorted Rectangular Pieces
         statement: 20 - coming soon/99 - assorted rectangular pieces.md
+  - title: Odds & Ends
+    plan:
+      - title: Solving With Logic Only
+        statement: 26 - odds and ends/01 - solving with logic only.md
 
 projects:
   python:
