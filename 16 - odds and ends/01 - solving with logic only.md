@@ -1,0 +1,13 @@
+# Solving Logic Puzzles Logically
+
+Many logic puzzles can be solved with no guessing at all. On this page, I will keep track of my personal progress toward solving all logic puzzles with logic alone, no guessing.
+
+| Puzzle | Results                                |
+|:--|:------------------------------------------------------------------|
+|[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy<BR>✅ Test Case 2: Easy<BR>✅ Test Case 3: Intermediate/Hard<BR></span><span style="color:red">❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
+|[16x16 Sudoku](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR><span style="color:red">❌ Test Case 3: Test 3 - 49 more cells found.<BR>❌ Test Case 4: Test 4 - 14 more cells found.<BR>❌ Test Case 5: Test 5 - 65 more cells found.<BR>❌ Test Case 6: Test 6 - 56 more cells found.<BR><BR></span>|
+|[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1</span><BR><span style="color:red">❌ Test Case 2: Test 2 - 56 more cells found.<BR>❌ Test Case 3: Test 3 - 73 more cells found.<BR>❌ Test Case 4: Test 4 - 58 more cells found.<BR>❌ Test Case 5: Test 5 - 66 more cells found.<BR><BR><BR></span>|
+|[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2<BR>✅ Test Case 3: Test 3<BR>✅ Test Case 4: Test 4<BR><BR></span>|
+|[Suguru Solver](https://www.codingame.com/training/medium/suguru-solver)|<BR><span style="color:green">✅ Test Case 1: 4x5</span><BR><span style="color:red">❌ Test Case 2: 8x8</span><BR>✅ Test Case 3: 15x10<BR>✅ Test Case 4: 20x20<BR><BR></span>|
+|[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Easy<BR>✅ Test Case 2: Medium<BR>✅ Test Case 3: Hard<BR>✅ Test Case 4: Expert<BR><BR></span>|
+|[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge)|<BR><span style="color:green">✅ Test Case 1: 1 Puzzle - Easy<BR>✅ Test Case 2: 1 Hard Puzzle - Fewer Cages<BR>✅ Test Case 3: 2 Puzzles<BR>✅ Test Case 4: 8 Puzzles<BR>✅ Test Case 5: 16 Puzzles<BR>✅ Test Case 6: 32 Puzzles<BR>✅ Test Case 7: 40 Puzzles<BR><BR></span>|
