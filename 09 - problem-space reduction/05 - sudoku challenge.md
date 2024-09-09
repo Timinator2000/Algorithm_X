@@ -73,6 +73,8 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 As promised, here is my progress toward solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
 
+[Jump](../solving-with-logic-only)
+
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
 |[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy<BR>✅ Test Case 2: Easy<BR>✅ Test Case 3: Intermediate/Hard<BR></span><span style="color:red">❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
