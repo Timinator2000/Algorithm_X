@@ -33,7 +33,7 @@ Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fa
 
 # Ultimate Sudoku Logic Challenge
 
-[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my progress updated in the table below and I do have one suggestion for your data structure. I have found it helpful if each cell has pointers to the groups to which it belongs. Conceptionally, the object model has one small addition shown below.
+[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my own progress updated in a table at the end of this playground. If you take on this challenge, I do have one suggestion for your data structure. I have found it helpful if each cell has pointers to the groups to which it belongs. Conceptionally, the object model has one small addition shown below.
 
 <BR><BR>
 ![Sudoku Data Structure](SudokuDataStructure2.png)
@@ -71,13 +71,6 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 <BR>
 
-As promised, here is my progress toward solving all Sudoku puzzles with logic alone. No guessing. No backtracking.
+As promised, follow this link to my progress toward solving logic puzzles with logic alone. No guessing. No backtracking
 
-[Jump](@algorithm-x/solving-with-logic-only)
-
-| Puzzle | Results                                |
-|:--|:------------------------------------------------------------------|
-|[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Very Easy<BR>✅ Test Case 2: Easy<BR>✅ Test Case 3: Intermediate/Hard<BR></span><span style="color:red">❌ Test Case 4: World's Hardest Sudoku - No reduction at all.<BR><BR></span>|
-|[16x16 Sudoku](https://www.codingame.com/training/medium/16x16-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2</span><BR><span style="color:red">❌ Test Case 3: Test 3 - 49 more cells found.<BR>❌ Test Case 4: Test 4 - 14 more cells found.<BR>❌ Test Case 5: Test 5 - 65 more cells found.<BR>❌ Test Case 6: Test 6 - 56 more cells found.<BR><BR></span>|
-|[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)|<BR><span style="color:green">✅ Test Case 1: Test 1</span><BR><span style="color:red">❌ Test Case 2: Test 2 - 56 more cells found.<BR>❌ Test Case 3: Test 3 - 73 more cells found.<BR>❌ Test Case 4: Test 4 - 58 more cells found.<BR>❌ Test Case 5: Test 5 - 66 more cells found.<BR><BR><BR></span>|
-|[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver)|<BR><span style="color:green">✅ Test Case 1: Test 1<BR>✅ Test Case 2: Test 2<BR>✅ Test Case 3: Test 3<BR>✅ Test Case 4: Test 4<BR><BR></span>|
+[LINK NEEDED AFTER PUBLISHING](https://tech.io/playgrounds/2071a7f1064372d0332845cf7b679eca767121/algorithm-x/solving-with-logic-only)
