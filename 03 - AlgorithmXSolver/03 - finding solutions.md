@@ -41,6 +41,7 @@ Some exact cover problems are guaranteed to have a single solution. When that is
 for solution in solver.solve():
     for action in solution:
         # use the action to build your problem's answer
+
     break
 ```
 It can be helpful to leave the `break` statement out of your code until you are fairly confident in your solution. If your solver is incorrectly generating multiple solutions, the `break` statement will possibly “hide” your error from you. After you are confident that your code is working properly, add the `break` statement if you need to minimize processing time.
