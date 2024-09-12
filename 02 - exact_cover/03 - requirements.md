@@ -62,7 +62,7 @@ Consider Mrs. Knuth’s desire to avoid teaching more than one lesson per day fo
 
 How many solutions get eliminated? Because all test cases in Mrs. Knuth - Part I are guaranteed to have a unique solution, we know all possible solutions _except one_ will be eliminated. That doesn’t really make the point I want to make unless we look at how many solutions need to be checked.
 
-Test Cases 1 and 2 only have Mrs. Knuth teaching on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of these possible solutions would need to be checked to make sure no instrument is taught more than once on the same day!
+The first two test cases only have Mrs. Knuth teaching on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of these possible solutions would need to be checked to make sure no instrument is taught more than once on the same day!
 
 * Test Case 3 - 96 possible solutions
 
