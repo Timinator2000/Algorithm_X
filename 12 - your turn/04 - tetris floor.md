@@ -16,4 +16,4 @@ Once you have Algorithm X finding solutions, you will need to determine the chea
 
 If you use Algorithm X, it will be just part of a fairly complex solution. You will need to implement several clever problem-space reduction techniques. The test cases are well designed, and they will lead you down a path that might seem to always end in a timeout. Use the early test cases to make sure you have a strong Algorithm X setup. The later test cases will then come down to finding ways to make the problem easier before asking Algorithm X to find solutions.
 
-I am no 100% convinced Algorithm X is the best way to approach this puzzle, but it is doable. I will avoid any spoilers and leave it at that.
+I am not 100% convinced Algorithm X is the best way to approach this puzzle, but it is doable. I will avoid any spoilers and leave it at that.
