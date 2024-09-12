@@ -70,19 +70,16 @@ Requirements:
     ('instrument on day', 'Th', 'Tuba')
 
 Action: ('place student', 'Ayla', 'Trumpet', 'Th', 2)
-
     Satisfied Requirements: ('student scheduled', 'Ayla')
                             ('slot filled', 'Th', 2)
                             ('instrument on day', 'Th', 'Trumpet')
 
 Action: ('place student', 'Bob', 'Drums', 'Th', 2)
-
     Satisfied Requirements: ('student scheduled', 'Bob')
                             ('slot filled', 'Th', 2)
                             ('instrument on day', 'Th', 'Drums')
    
 Action: ('place student', 'Bob', 'Drums', 'Th', 3)
-
     Satisfied Requirements: ('student scheduled', 'Bob')
                             ('slot filled', 'Th', 3)
                             ('instrument on day', 'Th', 'Drums')
