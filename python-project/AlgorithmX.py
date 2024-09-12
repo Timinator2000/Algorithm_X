@@ -1,9 +1,10 @@
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
 #  (DLX Based Algorithm X Solver Last Revised 09/12/2024)
 #
-#  For a detailed explanation and tutorial, please see my 
-#  Algorithm X playgound on Tech.io.
+#  For a detailed explanation and tutorial, please see my Algorithm X
+#  playgound on Tech.io by following the link in my Codingame profile:
 #
+#  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
 #
 #  June 02, 2024 - history added to allow subclasses to make adaptations for multiplicity.
 #                - giving this Solver similar functionality to Knuth's Algorithm M.
