@@ -18,6 +18,6 @@ Let's eliminate the unused rows to really highlight the "exact cover".
 ![Mrs. Knuth Solution Rows](KnuthSolution2.png)
 
 <BR>
-Think about the size of the matrix for 9x9 Sudoku: 243 columns and 729 rows, yet Algorithm X easily processes a matrix of that size to find all solutions! Later in this playground, I’ll demonstrate how Algorithm X works. For now, I need you to trust me. If you can build a proper model (requirements, actions and mapping from actions to the satisfied requirements), Algorithm X will easily find all the solutions.
+Think about the size of the matrix for 9x9 Sudoku: 243 columns and 729 rows, yet Algorithm X easily processes a matrix of that size to find all solutions! Later in this playground, I’ll demonstrate how Algorithm X works. For now, I need you to trust me. If you can build a proper model (requirements, actions and a mapping from actions to the satisfied requirements), Algorithm X will easily find all the solutions.
 
 In the next section, I’ll show you how to use an out-of-the-box AlgorithmXSolver to generate solutions for your models.
