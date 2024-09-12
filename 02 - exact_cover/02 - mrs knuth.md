@@ -32,14 +32,17 @@ In this sample problem, Mrs. Knuth is only available at 2, 3 and 4 on Thursday. 
 
 This initial Part I puzzle also has some interesting puzzle constraints that should be considered as we build our understanding of the problem.
 
-1)	numStudents = Mrs. Knuth's available hours per week.
-2)	count of each type of instrument = count of days with hours in teacherAvailability, meaning the student roster will always contain the appropriate number of instruments to make sure no duplication of instruments on any one day is possible.
+1. numStudents = Mrs. Knuth's available hours per week.
+
+1. count of each type of instrument = count of days with hours in teacherAvailability, meaning the student roster will always contain the appropriate number of instruments to make sure no duplication of instruments on any one day is possible.
 
 Why are these constraints important? Because of (1), we know that all of Mrs. Knuth’s available slots must be filled. Because of (2) above, we know that each instrument must show up on each day Mrs. Knuth teaches.
 Our initial analysis identifies 3 areas for potential requirements:
 
-1)	Each student must be put on Mrs. Knuth’s schedule.
-2)	Each slot in Mrs. Knuth’s availability must get filled.
-3)	Each instrument must show up once on each day Mrs. Knuth teaches.
+1. Each student must be put on Mrs. Knuth’s schedule.
+
+1. Each slot in Mrs. Knuth’s availability must get filled.
+
+1. Each instrument must show up once on each day Mrs. Knuth teaches.
 
 Our next step is to formally identify each requirement a potential solution must satisfy.
