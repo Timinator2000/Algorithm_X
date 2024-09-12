@@ -49,7 +49,9 @@ Instead of “placing Ayla on Thursday at 2”, we are now “placing Ayla, with
 
 # A Complete Model
 
-The [Texas Gateway for Online Resources](https://www.texasgateway.org/resource/scientific-models) makes this simple statement about models on their website: "Models can help you visualize, or picture in your mind, something that is difficult to see or understand. Models can help scientists communicate their ideas, understand processes, and make predictions."
+The [Texas Gateway for Online Resources](https://www.texasgateway.org/resource/scientific-models) makes this simple statement about models on their website: 
+
+>Models can help you visualize, or picture in your mind, something that is difficult to see or understand. Models can help scientists communicate their ideas, understand processes, and make predictions.
 
 Models show up everywhere in life. Architects build models of buildings. Engineers build models of new products. Computer Scientists use the Unified Modeling Language (UML) to build models of software solutions before
 
