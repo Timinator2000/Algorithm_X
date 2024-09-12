@@ -91,6 +91,6 @@ Unfortunately, this is where the similarities to Sudoku end! There is a lot of g
 
 The third bullet point does not help. Logical problem-space reduction is only concerned with finding pieces of the solution that __must__ be part of a proper solution. Identical rows or columns are an indicator of an improper solution.
 
-The first two bullet points are the guidance you need to logically fill in more cells of the grid before Algorithm X begins searching for a full soluion. There are plenty of techniques you can find to fill in unknown cells. You do not have to find them all to pass every test case and validator, but if you are overcome by the logic pulling at you like the Death Star's tracktor beam, it might be best not to resist.
+The first two bullet points are the guidance you need to logically fill in more cells of the grid before Algorithm X begins searching for a full soluion. There are plenty of techniques you can find to fill in unknown cells. You do not have to find them all to pass every test case and validator. However, if you are overcome by the sweet, sweet logic pulling at you like the Death Star's tracktor beam, it might be best not to fight it.
 
 [Wookieepedia- Tractor Beam](https://starwars.fandom.com/wiki/Tractor_beam/Legends)
