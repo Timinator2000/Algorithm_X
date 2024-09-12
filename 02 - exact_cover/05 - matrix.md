@@ -1,6 +1,6 @@
 # Visualizing the Model
 
-An exact cover problem is often displayed as a matrix. The problem requirements are listed across the top as column headers. The possible actions are listed down the left side as row headers. 1s are placed in the appropriate boxes to indicate which requirements are covered by each action. 0s are often placed in the other cells, but I’m going to leave those cells blank in order to draw your attention to the locations of the 1s. Let’s take a look.
+An exact cover problem is often displayed as a matrix. The problem requirements are listed across the top as column headers. The possible actions are listed down the left side as row headers. 1s are placed in the appropriate boxes to indicate which requirements are covered by each action. 0s are often placed in the other cells, but Iam going to leave those cells blank in order to draw your attention to the locations of the 1s. Let’s take a look.
 <BR><BR>
 
 ![Mrs. Knuth Model](KnuthModel.png)
