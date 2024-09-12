@@ -53,7 +53,7 @@ The [Texas Gateway for Online Resources](https://www.texasgateway.org/resource/s
 
 >Models can help you visualize, or picture in your mind, something that is difficult to see or understand. Models can help scientists communicate their ideas, understand processes, and make predictions.
 
-Models show up everywhere in life. Architects build models of buildings. Engineers build models of new products. Computer Scientists use the Unified Modeling Language (UML) to build models of software solutions before
+Models show up everywhere in life. Architects build models of buildings. Engineers build models of new products. Computer Scientists use the Unified Modeling Language (UML) to build models of software solutions before writing code.
 
 We have now created a model of the problem using requirements, actions and a mapping from actions to satisfied requirements. Putting it all in one place looks like this:
 
