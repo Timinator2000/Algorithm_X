@@ -1,6 +1,6 @@
 # Exact Cover Definition
 
-This playground is titled Algorithm X and we’ll get to that, but we need to start by understanding what types of problems can be classified as “Exact Cover” problems. Algorithm X is a backtracking algorithm proposed by Donald Knuth for solving exact cover problems. So, how do we identify candidate problems for Algorithm X?
+This playground is titled Algorithm X and we will get to that, but we need to start by understanding what types of problems can be classified as “Exact Cover” problems. Algorithm X is a backtracking algorithm proposed by Donald Knuth for solving exact cover problems. So, how do we identify candidate problems for Algorithm X?
 
 Let’s start with the formal explanation on Wikipedia:
 
