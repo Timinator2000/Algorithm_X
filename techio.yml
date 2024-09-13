@@ -139,7 +139,7 @@ plan:
   - title: Your Turn
     plan:
       - title: 25x25 Sudoku (Revisited)
-        statement: 10 - your turn/05 - 25x25 sudoku.md
+        statement: 10 - your turn/005 - 25x25 sudoku.md
       - title: Futoshiki Solver (Revisited)
         statement: 10 - your turn/01 - futoshiki solver.md
       - title: There is No Spoon - Episode 2 (Revisited)
