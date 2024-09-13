@@ -126,4 +126,4 @@ for solution in solver.solve():
 
 # Why is This Important
 
-I believe Assaf's code has been vital to any Python programmer studying Algorithm X. As you can see, my `AlgorithmXSolver` has been heavily influenced by Assaf's code, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although the technique is elegant, I ran into issues on more complex puzzles. In the next section, I will cover several other options.
+I believe Assaf's code has been vital to any Python programmer studying Algorithm X. As you can see, my `AlgorithmXSolver` has been heavily influenced by Assaf's code, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although Assaf's technique is elegant, I have chosen to limit actions as a standard process across all puzzles.
