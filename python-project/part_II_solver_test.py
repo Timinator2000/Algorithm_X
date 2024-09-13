@@ -7,4 +7,4 @@ def send_msg(channel, msg):
 
 if __name__ == "__main__":
     main_program()
-    send_msg(f"{random.choice(CONGRATS)} 🌟", "Hopefully the actions printed!")
+    send_msg(f"{random.choice(CONGRATS)} 🌟", "Algorithm X can handle as much responsibility as you can give it!")
