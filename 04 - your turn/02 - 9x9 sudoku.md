@@ -59,7 +59,7 @@ Now that the matrix is built and ready to go, Assaf uses the following code to a
                 select(X, Y, (i, j, n))
 ```
 
-Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial AlgorithmXSolver was simply the Assaf code we just covered, organized inside an AlgorithmXSolver class.
+Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial `AlgorithmXSolver` was simply the Assaf code we just covered, organized inside an `AlgorithmXSolver` `class`.
 
 
 ```python
@@ -70,6 +70,7 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
 ```
 
 # Option 1:  Preselect Known Actions - à la [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
+
 You can preselect known actions with my AlgorithmXSolver, just like was done in Assaf’s code, but the syntax is slightly different. To preselect an action, you will call the AlgorithmXSolver `select()` method and pass in the appropriate action as a keyword argument. For a 9x9 Sudoku, the following code will preselect all cells that already have a number penciled in.
 
 ```
