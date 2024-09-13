@@ -16,7 +16,7 @@ You will also need to handle grids of different sizes in the same puzzle. In all
 
 # Counting Multiple Solutions
 
-This is the first puzzle we have encountered where no single solution has an meaningful importance. Rather, it is only necessary to count the solutions. You always have the option to keep it simple:
+This is the first puzzle looked at where no single solution has any meaningful importance. Rather, it is only necessary to count the solutions. You always have the option to keep it simple:
 
 ```python
 count = 0
