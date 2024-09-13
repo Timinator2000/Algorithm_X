@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Should Be Straightforward, but Can Be Challenging (s
 
 # Strategy
 
-Everything you need to know about this puzzle has already been covered in the section on 9x9 Sudoku. However, I do want to add a few comments. Please note, my comments are strictly related to my experience solving this puzzle with Algorithm X, DLX and Python.
+Everything you need to know about this puzzle has already been covered in the section on 9x9 Sudoku. Again, I will add a few comments. Please note, my comments are strictly related to my experience solving this puzzle with Algorithm X, DLX and Python.
 
 I found this puzzle to be more than just an Exact Cover problem. Algorithm X is a backtracking technique and DLX is a backtracking implementation. Any backtracking problem has many paths that need to be explored and the order in which you choose to explore those paths makes a difference. 
 
