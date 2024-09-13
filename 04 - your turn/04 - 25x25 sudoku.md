@@ -10,10 +10,6 @@ __Algorithm X Complexity:__ Should Be Straightforward, but Can Be Challenging (s
 
 # Strategy
 
-Everything you need to know about this puzzle has already been covered in the section on 9x9 Sudoku. Again, I will add a few comments. Please note, my comments are strictly related to my experience solving this puzzle with Algorithm X, DLX and Python.
+You can successfully finish 25x25 Sudoku just with what you have learned so far, but you might run into timing issues. These large Sudoku grids translate into large Algorithm X matrices that take time to process. You might find that running your code multiple times produces very different run times and there is a reason for that. To understand why that happens, it is important to identify how many rows make up the matrix for each test case.
 
-I found this puzzle to be more than just an Exact Cover problem. Algorithm X is a backtracking technique and DLX is a backtracking implementation. Any backtracking problem has many paths that need to be explored and the order in which you choose to explore those paths makes a difference. 
-
-In the world of Algorithm X, the ordering of the columns and the rows in the matrix has an impact on the order in which paths are explored. For now, just know that in order to finish this puzzle within the time limit, I had to find the same matrix organization that the author used. The organizational difference between my original implementation and the author’s implementation was very small, but it was enough to slow me down and I couldn’t finish in time.
-
-Because I only ran into this situation on this one puzzle, my AlgorithmXSolver now defaults to the necessary organizational structure needed by this puzzle and you might not have any problems. However, if you run into timeout issues trying to solve this puzzle, please reach out to me in the [Codingame Forum]( https://www.codingame.com/forum). I will do what I can to help you determine if your issue just comes down to matrix organization or if there is something else slowing you down.
+Using the basic strategy laid out for 9x9 Sudoku, each known cell only adds one row to the matrix, while each unknown cell adds 25 rows to the matrix. Looking at each test case results in the following:
