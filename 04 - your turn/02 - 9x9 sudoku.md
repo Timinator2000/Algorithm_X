@@ -44,7 +44,7 @@ Assaf then builds a dictionary of actions (`Y`). Notice that __all__ possible ac
             ("bn", (b, n))]
 ```
 
-In this next line, Assaf makes a call to `exact cover` which converts his `X` list to a dictionary necessary for his implementation of Algorithm X.
+In this next line, Assaf makes a call to `exact_cover` which converts his `X` list to a dictionary necessary for his implementation of Algorithm X.
 
 ```python
     X, Y = exact_cover(X, Y)
