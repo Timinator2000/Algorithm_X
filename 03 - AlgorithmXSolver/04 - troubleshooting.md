@@ -1,8 +1,8 @@
 # Print Your Requirements & Actions
 
-The first troubleshooting step you will want to take is simply printing the requirements, the actions and the requirements satisfied by each action. Hopefully, this can be done on a reasonably small test case. If the test case is big and there are a lot of requirements and actions, sifting through the printed data can be daunting.
+The first troubleshooting to take is simply printing the requirements, the actions and the requirements satisfied by each action. Hopefully, this can be done on a reasonably small test case. If the test case is big and there are a lot of requirements and actions, sifting through the printed data can be daunting.
 
-When printing the requirements and actions, I suggest doing it right before you invoke the inherited AlgorithmXSolver constructor, similar to this:
+When printing the requirements and actions, I suggest doing it right before you invoke the inherited `AlgorithmXSolver` constructor, similar to this:
 
 ``` python
         for r in requirements:
@@ -18,7 +18,7 @@ When printing the requirements and actions, I suggest doing it right before you 
 
 # Study Your Errors
 
-It is critical the tuples you use for requirements and actions always line up with each other so you don’t get `KeyError`s when AlgorithmXSolver is setting up the DLX matrix. For instance, ('slot filled', 'Th', 4) is __not__ the same as ('slot filled', 'Thurs', 4). I’m sure that seems obvious, but when you get a `KeyError`, look for places you might have requirement specs that are supposed to be the same, but are slightly different.
+It is critical the tuples you use for requirements and actions always line up with each other so you don’t get `KeyError`s when `AlgorithmXSolver` is setting up the DLX matrix. For instance, ('slot filled', 'Th', 4) is __not__ the same as ('slot filled', 'Thurs', 4). I’m sure that seems obvious, but when you get a `KeyError`, look for places you might have requirement specs that are supposed to be the same, but are slightly different.
 
 ```text
 Traceback (most recent call last):
@@ -35,7 +35,7 @@ Traceback (most recent call last):
 KeyError: ('slot filled', 'Thurs', 4)
 ```
 
-In this playground, you will want to ignore the `Traceback`. It probably won't make sense unless you are familiar with making code exercises on TECH.IO.
+In this playground, is is best to ignore the `Traceback`. It is unlikely to make sense unless you are familiar with making code exercises on TECH.IO.
 
 # No Solutions Found
 
