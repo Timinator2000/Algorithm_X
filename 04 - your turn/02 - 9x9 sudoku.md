@@ -72,7 +72,7 @@ Here is a key difference between Assaf’s code and mine. As I build the diction
 
 # Step 3: Build the Matrix – à la Ali Assaf
 
-In this next line, Assaf makes a call to `exact_cover` which converts his `X` list to a dictionary necessary for his implementation of Algorithm X.
+In this next line, Assaf makes a call to `exact_cover` which converts the `X` list to a dictionary.
 
 ```python
     X, Y = exact_cover(X, Y)
@@ -88,7 +88,7 @@ I too must make one final call to the inherited `AlgorithmXSolver` constructor t
 
 # Step 4: Preselect Known Actions – à la Ali Assaf
 
-Now that the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the remaining actions that solve the entire Sudoku. He loops through all cells in the Sudoku grid and `if` there is a number (`n`) in the cell, Assaf makes a call to `select` to add the appropriate action to the solution and make the necessary adjustments to the matrix.
+Now that the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the remaining actions that solve the entire Sudoku. For each cell in the Sudoku grid that is prefilled with a number (`n`), Assaf makes a call to `select` to add the appropriate action to the solution and make the necessary adjustments to the matrix.
 
 ```python
     for i, row in enumerate(grid):
@@ -103,7 +103,7 @@ Because I have limited the actions to only what is possible, no preselection is 
 
 # Step 5: Generate Solutions – à la Ali Assaf
 
-Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial `AlgorithmXSolver` was simply the Assaf code we just covered, organized inside an `AlgorithmXSolver` `class`.
+Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial `AlgorithmXSolver` was simply Assaf's code, organized inside an `AlgorithmXSolver` `class`.
 
 ```python
     for solution in solve(X, Y, []):
@@ -126,4 +126,4 @@ for solution in solver.solve():
 
 # Why is This Important
 
-I believe Assaf's code has been vital to any Python programmer studying Algorithm X. As you can see, my `AlgorithmXSolver` has been heavily influenced by Assaf's code, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although Assaf's technique is elegant, I have chosen to limit actions as a standard process across all puzzles.
+I believe Assaf's code has been vital to me and other Python programmers studying Algorithm X. My `AlgorithmXSolver` has been heavily influenced by Assaf, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although Assaf's technique is elegant, I have chosen to limit actions as a standard process across all solutions. I want to point this out for anyone that might be familiar with Assaf's solver and wonder why <u>it is not possible<\u> to preselect actions with the `AlgorithmXSolver` provided in this playgroudn.
