@@ -12,7 +12,7 @@ __Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution.
 
-I mentioned earlier that my Algorithm X journey was heavily influenced by Ali Assaf’s code. The rest of this page is broken up into sections where each section compares [Assaf’s Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt)) code to my current code as applied to Sudoku. Ultimately, I will end with a discussion of how to handle the prefilled Sudoku cells.
+I mentioned earlier that my Algorithm X journey was heavily influenced by Ali Assaf’s code. The rest of this page is broken up into sections where each section compares [Assaf’s Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code to my current code as applied to Sudoku. Ultimately, I will end with a discussion of how to handle the prefilled Sudoku cells.
 
 # Step 1: Identify Requirements – à la Ali Assaf
 
