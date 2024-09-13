@@ -53,14 +53,6 @@ Assaf builds a dictionary of actions (`Y`). Notice that __all__ possible actions
             ("bn", (b, n))]
 ```
 
-In this next line, Assaf makes a call to `exact_cover` which converts his `X` list to a dictionary necessary for his implementation of Algorithm X.
-
-```python
-    X, Y = exact_cover(X, Y)
-```
-
-
-
 # Step 2: Identify Actions – à la Timinator
 
 Here is a key difference between Assaf’s code and mine. As I build the dictionary of actions, I limit the actions to only what is possible. A cell that is prefilled only has one candidate, while a blank cell has many candidates.
@@ -78,7 +70,23 @@ Here is a key difference between Assaf’s code and mine. As I build the diction
                                        ('value in box', box, val)]
 ```
 
-# Step 3: Preselect Known Actions – à la Ali Assaf
+# Step 3: Build the Matrix – à la Ali Assaf
+
+In this next line, Assaf makes a call to `exact_cover` which converts his `X` list to a dictionary necessary for his implementation of Algorithm X.
+
+```python
+    X, Y = exact_cover(X, Y)
+```
+
+# Step 3: Build the Matrix – à la Timinator
+
+I too must make one final call to the inherited `AlgorithmXSolver` constructor to finish my Algorithm X setup.
+
+```python
+        super().__init__(requirements, actions)
+```
+
+# Step 4: Preselect Known Actions – à la Ali Assaf
 
 Now that the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the remaining actions that solve the entire Sudoku. He loops through all cells in the Sudoku grid and `if` there is a number (`n`) in the cell, Assaf makes a call to `select` to add the appropriate action to the solution and make the necessary adjustments to the matrix.
 
@@ -89,11 +97,11 @@ Now that the matrix is built and ready to go, Assaf uses the following code to a
                 select(X, Y, (i, j, n))
 ```
 
-# Step 3: Preselect Known Actions – à la Timinator
+# Step 4: Preselect Known Actions – à la Timinator
 
 Because I have limited the actions to only what is possible, no preselection is done. Algorithm X has no choice but to select the appropriate action to include the prefilled numbers as part of the full solution.
 
-# Step 4: Generate Solutions – à la Ali Assaf
+# Step 5: Generate Solutions – à la Ali Assaf
 
 Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial `AlgorithmXSolver` was simply the Assaf code we just covered, organized inside an `AlgorithmXSolver` `class`.
 
@@ -104,7 +112,7 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
         yield grid
 ```
 
-# Step 4: Generate Solutions – à la Timinator
+# Step 5: Generate Solutions – à la Timinator
 
 I finish with an almost identical loop.
 
@@ -116,3 +124,6 @@ for solution in solver.solve():
     break
 ```
 
+# Why is This Important
+
+I believe Assaf's code has been vital to any Python programmer studying Algorithm X. As you can see, my `AlgorithmXSolver` has been heavily influenced by Assaf's code, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although the technique is elegant, I ran into issues on more complex puzzles. In the next section, I will cover several other options.
