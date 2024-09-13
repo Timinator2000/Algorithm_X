@@ -31,7 +31,7 @@ Note: In Assaf's code, `R` and `C` are the numbers of rows and columns in a Sudo
 
 My tuples are flatter, and my strings are a bit longer. These tuples are stored in header nodes in my DLX implementation where they have no impact on performance. Assaf’s code assumes integer values in the Sudoku cells. Because I know 16x16 Sudoku and 25x25 Sudoku both use letters of the alphabet, I have chosen to always use characters for this basic solver.
 
-```
+```python
         requirements = [('cell covered', row, col) for row in range(size) for col in range(size)] + \
                        [('value in row', row, val) for row in range(size) for val in all_possible_values] + \
                        [('value in col', col, val) for col in range(size) for val in all_possible_values] + \
@@ -65,7 +65,7 @@ In this next line, Assaf makes a call to `exact_cover` which converts his `X` li
 
 Here is a key difference between Assaf’s code and mine. As I build the dictionary of actions, I limit the actions to only what is possible. A cell that is prefilled only has one candidate, while a blank cell has many candidates.
 
-```
+```python
         actions = dict()
         for row in range(size):
             for col in range(size):
@@ -108,7 +108,7 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
 
 I finish with an almost identical loop.
 
-```
+```python
 for solution in solver.solve():
     for _, row, col, val in solution:
         sudoku[row][col] = val
