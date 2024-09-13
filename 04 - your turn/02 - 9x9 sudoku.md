@@ -14,6 +14,8 @@ Sudoku is a great place to start because a basic Sudoku always comes with a part
 
 Many exact cover problems will start with a partial solution and there are several ways to handle that. Let’s first take a look at how the known cells are addressed in [Assaf's Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code.
 
+__I have intentionally left Assaf's technique out of my `AlgorithmXSolver`. Although it works well in some cases, it can cause issues on more complex puzzles. The other alternatives I present always work. There is still significant benefit to be gained by going through Assaf's code.__
+
 # Option 1: Preselect Known Actions – à la Ali Assaf
 
 Assaf first builds a list of requirements (`X`).
