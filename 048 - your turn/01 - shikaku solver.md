@@ -2,7 +2,7 @@
 
 __Puzzle:__ [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver)
 
-__Author:__ Anonymous Codingamer
+__Author:__ [@Westicles](https://www.codingame.com/profile/613b8dd7e3f3f21da489c27a933e15d67334533)
 
 __Published Difficulty:__ Medium
 
