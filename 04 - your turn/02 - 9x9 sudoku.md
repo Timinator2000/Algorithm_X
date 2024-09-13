@@ -99,7 +99,7 @@ Now that the matrix is built and ready to go, Assaf uses the following code to a
 
 # Step 4: Preselect Known Actions – à la Timinator
 
-Because I have limited the actions to only what is possible, no preselection is done. Algorithm X has no choice but to select the appropriate action to include the prefilled numbers as part of the full solution.
+Because I have limited the actions to only what is possible, no preselection is done. Algorithm X has no choice but to select the appropriate actions to include the prefilled numbers as part of the solution.
 
 # Step 5: Generate Solutions – à la Ali Assaf
 
