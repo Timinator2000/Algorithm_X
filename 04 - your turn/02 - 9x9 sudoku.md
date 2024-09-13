@@ -88,9 +88,9 @@ You can preselect known actions with my AlgorithmXSolver, just like was done in 
                     self.select(action=('place value', row, col, grid[row][col]))
 
 ```
-# Where Assaf's Technique Breaks Down
+# Algorithm X Needs to Be In Charge
 
-Assaf’s technique is simple and straightforward, but it will not always work. It will only work when the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
+Assaf’s technique is simple and straightforward, but it is meant for situations where the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
 
 Consider the following example. Do solutions exist for the Sudoku board below?
 
@@ -108,5 +108,4 @@ Consider the following example. Do solutions exist for the Sudoku board below?
 
 You and I can easily see there are two 6s in the first row, making it is impossible to ever find a proper solution. Obviously, this is a toy example, but play along with me.  Assume you want to use Algorithm X to determine if the Sudoku can be solved or not. You first create the requirements and the actions. Then you try to preselect the action that puts a 6 in row 1, col 3 and the action that puts a 6 in row 1, col 7. As soon as you preselect the first action, the DLX matrix is adjusted and there is no longer an option to put the second 6 in row 1, col 7. You tried to preselect an action that is no longer possible. My AlgorithmXSolver will tell you it cannot comply with your request and it __will not put a 6 in row 1, col 7__. If you then ask Algorithm X to look for solutions, it will find many proper solutions since it is starting with a blank Sudoku with a single 6 preselect in row 1, col 3. 
 
-The solution is simple. The solution is to leave Algorithm X in charge. I'm not saying you should never use Assaf's technique, but you need to recognize when other options are required. Let’s look at 3 more options, all of which leave Algorithm X completely in charge of managing the DLX matrix, but still accomplish the same preselection process.
-
+The solution is simple. The solution is to __leave Algorithm X in charge__. Next, I will discuss options that accomplish the same preselection process, but since Algorithm X is in charge, error situations are more easily avoided.
