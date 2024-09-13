@@ -12,15 +12,11 @@ __Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution.
 
-Many exact cover problems will start with a partial solution and there are several ways to handle that. Let’s first take a look at how the known cells are addressed in [Assaf's Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code.
+I mentioned earlier that my Algorithm X journey was heavily influenced by Ali Assaf’s code. The rest of this page is broken up into sections where each section compares [Assaf’s Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt)) code to my current code as applied to Sudoku. Ultimately, I will end with a discussion of how to handle the prefilled Sudoku cells.
 
-__I have intentionally left Assaf's technique out of my `AlgorithmXSolver`. Although it works well in some cases, it can cause issues on more complex puzzles. The other alternatives I present always work. There is still significant benefit to be gained by going through Assaf's code.__
+# Step 1: Identify Requirements – à la Ali Assaf
 
-# Option 1: Preselect Known Actions – à la Ali Assaf
-
-Assaf first builds a list of requirements (`X`).
-
-Note: In Assaf's code, `R` and `C` are the numbers of rows and columns in a Sudoku box or subgrid. A 9x9 Sudoku grid has 9 boxes and each box is 3x3. For a traditional 9x9 Sudoku, `N` = 9 in Assaf's code, but `R` and `C` are both 3.
+Note: In Assaf's code, `R` and `C` are the numbers of rows and columns in a Sudoku box or sub grid. A 9x9 Sudoku grid has 9 boxes and each box is 3x3. For a traditional 9x9 Sudoku, `N` = 9 in Assaf's code, but `R` and `C` are both 3.
 
 ```python
     R, C = size
@@ -31,7 +27,20 @@ Note: In Assaf's code, `R` and `C` are the numbers of rows and columns in a Sudo
          [("bn", bn) for bn in product(range(N), range(1, N + 1))])
 ```
 
-Assaf then builds a dictionary of actions (`Y`). Notice that __all__ possible actions are included in the dictionary. Assaf does not limit the actions for cells that already contain a value.
+# Step 1: Identify Requirements – à la Timinator
+
+My tuples are flatter, and my strings are a bit longer. These tuples are stored in header nodes in my DLX implementation where they have no impact on performance. Assaf’s code assumes integer values in the Sudoku cells. Because I know 16x16 Sudoku and 25x25 Sudoku both use letters of the alphabet, I have chosen to always use characters for this basic solver.
+
+```
+        requirements = [('cell covered', row, col) for row in range(size) for col in range(size)] + \
+                       [('value in row', row, val) for row in range(size) for val in all_possible_values] + \
+                       [('value in col', col, val) for col in range(size) for val in all_possible_values] + \
+                       [('value in box', box, val) for box in range(size) for val in all_possible_values]
+```
+
+# Step 2: Identify Actions – à la Ali Assaf
+
+Assaf builds a dictionary of actions (`Y`). Notice that __all__ possible actions are included in the dictionary. Assaf does not limit the actions for cells that already contain a value.
 
 ```python 
     Y = dict()
@@ -50,6 +59,27 @@ In this next line, Assaf makes a call to `exact_cover` which converts his `X` li
     X, Y = exact_cover(X, Y)
 ```
 
+
+
+# Step 2: Identify Actions – à la Timinator
+
+Here is a key difference between Assaf’s code and mine. As I build the dictionary of actions, I limit the actions to only what is possible. A cell that is prefilled only has one candidate, while a blank cell has many candidates.
+
+```
+        actions = dict()
+        for row in range(size):
+            for col in range(size):
+                box = (row // box_size) * box_size + (col // box_size) 
+                for val in self.grid[(row, col)].candidates:
+                    action = ('place value', row, col, val)
+                    actions[action] = [('cell covered', row, col),
+                                       ('value in row', row, val),
+                                       ('value in col', col, val),
+                                       ('value in box', box, val)]
+```
+
+# Step 3: Preselect Known Actions – à la Ali Assaf
+
 Now that the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the remaining actions that solve the entire Sudoku. He loops through all cells in the Sudoku grid and `if` there is a number (`n`) in the cell, Assaf makes a call to `select` to add the appropriate action to the solution and make the necessary adjustments to the matrix.
 
 ```python
@@ -58,6 +88,12 @@ Now that the matrix is built and ready to go, Assaf uses the following code to a
             if n:
                 select(X, Y, (i, j, n))
 ```
+
+# Step 3: Preselect Known Actions – à la Timinator
+
+Because I have limited the actions to only what is possible, no preselection is done. Algorithm X has no choice but to select the appropriate action to include the prefilled numbers as part of the full solution.
+
+# Step 4: Generate Solutions – à la Ali Assaf
 
 Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial `AlgorithmXSolver` was simply the Assaf code we just covered, organized inside an `AlgorithmXSolver` `class`.
 
@@ -68,24 +104,15 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
         yield grid
 ```
 
-# Algorithm X Needs to Be In Charge
+# Step 4: Generate Solutions – à la Timinator
 
-Assaf’s technique is simple and straightforward, but it is meant for situations where the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
-
-Consider the following example. Do solutions exist for the Sudoku board below?
+I finish with an almost identical loop.
 
 ```
-0 0 6 0 0 0 6 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
-0 0 0 0 0 0 0 0 0
+for solution in solver.solve():
+    for _, row, col, val in solution:
+        sudoku[row][col] = val
+
+    break
 ```
 
-You and I can easily see there are two 6s in the first row, making it is impossible to ever find a proper solution. This is a toy example, but play along with me.  Assume you want to use Algorithm X to determine if the Sudoku can be solved or not. You first create the requirements and the actions. Then you try to preselect the action that puts a 6 in row 1, col 3 and the action that puts a 6 in row 1, col 7. As soon as you preselect the first action, the DLX matrix is adjusted and there is no longer an option to put the second 6 in row 1, col 7. You tried to preselect an action that is no longer possible. You will either get an error, or your solver might produce many solutions since it is starting with a blank Sudoku with a single 6 preselected in row 1, col 3. 
-
-The solution is simple. The solution is to __leave Algorithm X in charge__. Next, I will discuss options that handle preselected cells, but since Algorithm X is in charge, error situations are more easily avoided.
