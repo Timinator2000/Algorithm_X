@@ -30,7 +30,7 @@ Using the basic strategy laid out for 9x9 Sudoku, each known cell only adds one 
 
 Seven to eight thousand rows are manageable for Algorithm X, but how those rows are ordered makes a difference. If Algorithm X is trying to cover the cell at `(0, 0)` and there are 10 options to try, the order in which those 10 options are tried impacts run time. While Algorithm X will always try to optimize the order in which it tries options, there are times when a handful of options appear to be equally viable. In that case, if the correct option is toward the beginning of the list vs the end of the list makes a difference.
 
-If you would like to see this in action, try the following. For unknown cells, shuffle the list of candidates before you build the actions dictionary. You could use a `set` since members of a `set` are unordered or you could use `random.shuffle()`. Either way, you will see that run times that vary quite a bit.
+If you would like to see this in action, try the following. For unknown cells, shuffle the list of candidates before you build the actions dictionary. You could use a `set` since members of a `set` are unordered or you could use `random.shuffle()`. Either way, you will experience run times that vary quite a bit.
 
 # Where to Go From Here
 
