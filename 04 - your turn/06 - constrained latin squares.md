@@ -26,7 +26,7 @@ for solution in solver.solve():
 print(count)
 ```
 
-`AlgorithmXSolver` does automatically counts the number of solutions is returns. You still need to loop through all the solutions due to the nature of the generator used to return solutions one-by-one, but you can then access the `solution_count` attribute.
+`AlgorithmXSolver` automatically counts the number of solutions it returns. You still need to loop through all the solutions due to the nature of the generator used to return solutions one-by-one, but you can then access the `solution_count` attribute.
 
 ```python
 for solution in solver.solve():
