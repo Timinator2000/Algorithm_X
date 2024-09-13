@@ -79,6 +79,6 @@ def main_program():
     solver = MrsKnuthPartIISolver(teacher_availability, students)
           
     for solution in solver.solve():
-        print(f'These are the steps to build a solution:')
+        print(f'These are the steps to build a solution:') 
         for _, name, instrument, day, hour in solution:
             print(f'   Add {name}/{instrument} to Mrs. Knuth\'s schedule on {day} at {hour}.')
