@@ -25,3 +25,13 @@ Using the basic strategy laid out for 9x9 Sudoku, each known cell only adds one 
 | Test Case 5: Test 5|326|299|8449|
 
 <BR>
+
+# The Nature of Searching
+
+Seven to eight thousand rows are manageable for Algorithm X, but how those rows are ordered makes a difference. If Algorithm X is trying to cover the cell at `(0, 0)` and there are 10 options to try, the order in which those 10 options are tried impacts run time. While Algorithm X will always try to optimize the order in which it tries options, there are times when a handful of options appear to be equally viable. In that case, if the correct option is toward the beginning of the list vs the end of the list makes a difference.
+
+If you would like to see this in action, try the following. For unknown cells, shuffle the list of candidates before you build the actions dictionary. You could use a `set` since members of a `set` are unordered or you could use `random.shuffle()`. Either way, you will see that run times that vary quite a bit.
+
+# Where to Go From Here
+
+If patience is not your strong suit, you might be able to pass all test cases and validators just by making sure your matrix is shuffled up a bit each time you run your code. Later in the playground, I will revisit 25x25 Sudoku when I discuss using logic to reduce the problem space. By logically filling in a few more cells of the grid and reducing the candidates for unknown cells, you can shrink the size of the matrix and create a solution that works 100% of the time completely independent of how your matrix gets constructed.
