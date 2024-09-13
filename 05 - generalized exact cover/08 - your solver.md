@@ -1,6 +1,6 @@
 # Extending your AlgorithmXSolver Subclass
 
-Adding optional requirements to your solver is as easy passing a third argument to the AlgorithmXSolver constructor. Before I walk through the code, I need to address an alternate option that allows Algorithm X to handle a generalized exact cover. In the [Wikipedia Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) discussion, you will see the following:
+Adding optional requirements to your solver is as easy as passing a third argument to the AlgorithmXSolver constructor. Before I walk through the code, I need to address an alternate option that allows Algorithm X to handle a generalized exact cover. In the [Wikipedia Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) discussion, you will see the following:
 
 >As Knuth explains, a generalized exact cover problem can be converted to an equivalent exact cover problem by simply appending one row for each secondary column, containing a single 1 in that column.[6] If in a particular candidate solution a particular secondary column is satisfied, then the added row isn't needed. But if the secondary column isn't satisfied, as is allowed in the generalized problem but not the standard problem, then the added row can be selected to ensure the column is satisfied.
 
