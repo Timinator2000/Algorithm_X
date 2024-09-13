@@ -61,7 +61,6 @@ Now that the matrix is built and ready to go, Assaf uses the following code to a
 
 Finally, Assaf builds a solved Sudoku grid with code that should look somewhat familiar. For the most part, my initial `AlgorithmXSolver` was simply the Assaf code we just covered, organized inside an `AlgorithmXSolver` `class`.
 
-
 ```python
     for solution in solve(X, Y, []):
         for (r, c, n) in solution:
@@ -69,25 +68,6 @@ Finally, Assaf builds a solved Sudoku grid with code that should look somewhat f
         yield grid
 ```
 
-# Option 1:  Preselect Known Actions - à la [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
-
-You can preselect known actions with my AlgorithmXSolver, just like was done in Assaf’s code, but the syntax is slightly different. To preselect an action, you will call the AlgorithmXSolver `select()` method and pass in the appropriate action as a keyword argument. For a 9x9 Sudoku, the following code will preselect all cells that already have a number penciled in.
-
-```
-        # preselecting cells for a Sudoku should be done right after calling the inherited __init__()
-
-        requirements = []
-        actions = dict()
-
-        super().__init__(requirements, actions)
-
-        # assume all actions are a tuple formatted as (‘place value’, row , col, value) 
-        for row in range(9):
-            for col in range(9):
-                if grid[row][col] has a number penciled in:
-                    self.select(action=('place value', row, col, grid[row][col]))
-
-```
 # Algorithm X Needs to Be In Charge
 
 Assaf’s technique is simple and straightforward, but it is meant for situations where the actions you are preselecting are proper actions. The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
