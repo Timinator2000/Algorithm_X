@@ -28,7 +28,7 @@ It is time to once again use what you learned in Shikaku Skill Builder. Unfortun
 
 Setting Algorithm X up for success comes down to generating an exhaustive list of every possible location a house could be placed on the gameboard in such a way that all rules are obeyed. Of course, that includes all rotations of the house. 
 
-This puzzle is a perfect fit for Algorithm X, but setting up the matrix will take some time and a lot of attention to detail.
+This puzzle is another great fit for Algorithm X, but setting up the matrix will take some time and a lot of attention to detail.
 
 # Rotating a 2-Dimensional Array
 
