@@ -16,7 +16,7 @@ From the puzzle goal:
 
 >Futoshiki is a Japanese numeric logic puzzle similar to the more popular Sudoku.
 
-From Wikipedia:
+From [Wikipedia](https://en.wikipedia.org/wiki/Futoshiki):
 
 >A solved Futoshiki puzzle is a Latin Square.
 
