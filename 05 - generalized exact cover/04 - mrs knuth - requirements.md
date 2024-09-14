@@ -22,7 +22,7 @@ Here we see another classic example of mutual exclusivity. If Emma and Anna are 
 
 _Despite Mrs. Knuth's wacky requests, all students must get a spot on her schedule._
 
-Definitely seems like each student being schedule remains a requirement.
+It definitely seems like each student being scheduled remains a requirement.
 
 # Example Test Case
 
