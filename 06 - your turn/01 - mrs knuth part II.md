@@ -5,7 +5,7 @@ You have everything you need to finish up [Mrs. Knuth - Part II](https://www.cod
 ```python
 class MrsKnuthPartIISolver(AlgorithmXSolver):
 
-    # Add a class variable to identify loud instruments.
+    # Add a class attribute to identify loud instruments.
     LOUD_INSTRUMENTS = ['Trumpet', 'Trombone', 'Drums']
 
     def __init__(self, teacher_availability, students):
