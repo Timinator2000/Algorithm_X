@@ -22,8 +22,9 @@ In Sudoku, some cells are prefilled and I suggested handling that by limiting th
 
 You can choose to put any characteristic in any column, as long as you obey the rules. The examples given in the problem statement are:
 
-1)	Georges & Salad which means Georges eats Salad
-2)	Georges ! Salad which means Georges doesn't eat Salad.
+1. Georges & Salad which means Georges eats Salad
+
+1. Georges ! Salad which means Georges doesn't eat Salad.
 
 #1 is very clear. You cannot put salad in the same column as Georges! Sounds like mutual exclusivity, right? But what about #2. How can we handle mutual inclusivity, actions that _must_ happen together?
 
