@@ -12,7 +12,7 @@ __Algorithm X Complexity:__ Imagine Untangling the World's Largest Pile of Holid
 
 In Breaking Bifid, you are given a `plainText1` string and a `cipherText1` string. You need to figure out the makeup of the key, the _Polybius square_, used to encrypt `plainText1`. Once you have the key (a completed square) you can decode a third string, `cipherText2`.
 
-I was able to put together a working solution using Algorithm X very quickly, but I have yet to find a way to make that solution fast. Maybe a variation of Algorithm X would help or maybe Algorithm X is just not the best fit for the problem. Either way, I found the puzzle to be a great Algorithm X learning exercise despite my solution being somewhat slow. Before we explore how to look at this problem as an exact cover, let’s first review the process laid out in the goal statement.
+Before we explore how to look at this problem as an exact cover, let’s first review the process laid out in the goal statement.
 
 >Bifid uses a Polybius square as a key. This is a 5 by 5 square containing 25 letters of the alphabet (the J is merged with I), in an arbitrary order. For example:
 
