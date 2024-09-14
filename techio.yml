@@ -172,10 +172,6 @@ plan:
         statement: 12 - your turn/03 - killer sudoku extreme.md
       - title: Tetris Floor
         statement: 12 - your turn/04 - tetris floor.md
-  - title: Coming Soon
-    plan:
-      - title: Assorted Rectangular Pieces
-        statement: 20 - coming soon/99 - assorted rectangular pieces.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
