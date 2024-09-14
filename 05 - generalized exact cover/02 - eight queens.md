@@ -6,7 +6,7 @@
 
 # Requirements 
 
-Obviously, the first requirement is that 8 queens need to be placed somewhere on the chessboard. Since there are only 8 rows and 8 columns and no two queens are allowed to be in the same row or column, we can say that a queen must be placed in each row and a queen must be placed in each column. To fully specify these requirements, we will need 16 distinct requirements:
+Obviously, the first requirement is that 8 queens be placed somewhere on the chessboard. Since there are only 8 rows and 8 columns and no two queens are allowed to be in the same row or column, we can say that a queen must be placed in each row and a queen must be placed in each column. To fully specify these requirements, we will need 16 distinct requirements:
 
 ``` text
 ('queen in row', 1)
