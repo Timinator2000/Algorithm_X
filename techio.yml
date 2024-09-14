@@ -126,6 +126,8 @@ plan:
         statement: 08 - your turn/06 - no spoon 2 cont.md
       - title: There is No Spoon - Episode 2 Wrap-Up
         statement: 08 - your turn/07 - no spoon 2 matrix.md
+      - title: Assorted Rectangular Pieces
+        statement: 08 - your turn/08 - assorted rectangular pieces.md
   - title: Problem-Space Reduction
     plan:
       - title: Problem-Space Reduction
@@ -150,6 +152,8 @@ plan:
         statement: 10 - your turn/03 - takuzu solver.md
       - title: Suguru Solver (Revisited)
         statement: 10 - your turn/04 - suguru solver.md
+      - title: Assorted Rectangular Pieces (Revisited)
+        statement: 10 - your turn/05 - assorted rectangular pieces.md
   - title: Steering Algorithm X
     plan:
       - title: Backseat Driving
