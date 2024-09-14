@@ -82,6 +82,8 @@ plan:
         statement: 06 - your turn/01 - mrs knuth part II.md
       - title: n Queens
         statement: 06 - your turn/02 - n queens.md
+      - title: Finish the Eight Queens
+        statement: 06 - your turn/025 - finish eight queens.md
       - title: Einstein's Riddle Solver
         statement: 06 - your turn/03 - einstein riddle.md
       - title: Winamax Sponsored Contest
