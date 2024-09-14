@@ -14,7 +14,7 @@ From the puzzle description:
 
 > Suguru (also known as Tectonics) is a puzzle game similar to Sudoku.
 
-I am sure you have heard, “The devil is in the details.” Suguru is very similar to Sudoku, but the differences are just enough to make it a surprising challenge. There are no rows, columns or boxes. Instead cells are grouped into cages, which are extremely similar to the various groups in Sudoku. There is just one key difference. Every box, column and row in Sudoku has the same number of cells. In Suguru, every cage can be a different size with between 1 and 6 cells.
+I am sure you have heard, “The devil is in the details.” Suguru is somewhat similar to Sudoku, but the differences are just enough to make it a surprising challenge. There are no rows, columns or boxes. Instead cells are grouped into cages, which are extremely similar to the various groups in Sudoku. There is just one key difference. Every box, column and row in Sudoku has the same number of cells. In Suguru, every cage can be a different size with between 1 and 6 cells.
 
 Because cages can be made up different numbers of cells, the possible values for any cell is determined by the size of the cage. This is a significant change from Sudoku where every cell had the exact same possible values.
 
