@@ -3,18 +3,18 @@
 Could you use the solver you wrote for Mrs. Knuth – Part I to solve this new Part II? You sure could, but your Part I solver doesn’t know anything about Troublesome Pairs and Loud Instruments. If you used that original solver, solutions found by Algorithm X would simply need to be checked after they were generated. The puzzle guarantees that every test case has a unique solution, so you could stop checking solutions as soon as you found the proper one, but, in the worst-case scenario, here are the numbers of solutions you have to check in order to find the proper solution.
 
 | Test Case | Solutions To Test if Not Handling Mutual Exclusivity |
-|:--|:------------------------------------------------------------------:|
-| 1 - |3|
-| 2 - |10|
-| 3 - |27|
-| 4 - |94|
-| 5 - |290|
-| 6 - |362|
-| 7 - |5,578|
-| 8 - |114|
-| 9 - |7,738|
-| 10 - |25,281|
-| 11 - |65,887|
+|:--:|:------------------------------------------------------------------:|
+| 1 - Basic|3|
+| 2 - Still Pretty Easy|10|
+| 3 - Long Day of Potential Conflicts|27|
+| 4 - Two Moderate Days|94|
+| 5 - Three-Day Workweek|290|
+| 6 - Four Moderate Days|362|
+| 7 - Four Days with Many Options|5,578|
+| 8 - Significant Free Time|114|
+| 9 - Five-Day Workweek|7,738|
+| 10 - Five Very Full Days I|25,281|
+| 11 - Five Very Full Days II|65,887|
 
 
 Test Case 1 - 3
