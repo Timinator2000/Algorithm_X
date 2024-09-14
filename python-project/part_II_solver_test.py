@@ -16,9 +16,11 @@ if __name__ == "__main__":
 
     send_msg(channel, message)
 
+    send_msg(channel, '')
+
     message = 'Identifying requirements for mutual exclusivity can significantly boost the performance ' + \
               'of Algorithm X. For some problems, it isn’t even important to identify all the ' + \
-              'mutual exclusivity. Simply identifying <u>some</u> of the mutual exclusivity ' + \
+              'mutual exclusivity. Simply identifying SOME of the mutual exclusivity ' + \
               'gives Algorithm X the intelligence necessary to refine its search and produce results much quicker.'
    
     send_msg(channel, message)
