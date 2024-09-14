@@ -10,7 +10,7 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
 
     def __init__(self, teacher_availability, students):
 
-        # In this example, the requirements are still hard-coded for the sample test case.
+        # In this example, the requirements are still hard-coded for the example test case.
 
         requirements = [('student scheduled', 'Drew'),
                         ('student scheduled', 'Ella'),
