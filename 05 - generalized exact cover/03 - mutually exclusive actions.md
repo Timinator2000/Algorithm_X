@@ -9,7 +9,7 @@ Assume I have an exact over problem and the possible actions are `(A, B, C, D)`.
 
 # Optional Requirements to the Rescue
 
-Mutual exclusivity comes up frequently in generalized exact cover problems and the solution is fairly simple. For each set of mutually exclusive actions, create a new optional requirement. The example above only needs a single optional requirement:
+Mutual exclusivity comes up frequently in generalized exact cover problems and the solution is fairly simple. For each set of mutually exclusive items, create a new optional requirement. The example above only needs a single optional requirement:
 
 ``` text
 ('A', 'C')
