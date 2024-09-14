@@ -38,6 +38,7 @@ __Great Candidates for Algorithm X:__
 <BR>[Takuzu Solver](https://www.codingame.com/training/hard/takuzu-solver) (+50 XP)
 <BR>[Hitori Solver](https://www.codingame.com/training/hard/hitori-solver) (+50 XP)
 <BR>[n Queens](https://www.codingame.com/training/hard/n-queens) (+50 XP)
+<BR>[Finish the Eight Queens](https://www.codingame.com/training/medium/finish-the-eight-queens) (+50 XP)
 <BR>[There Is No Spoon – Episode 2](https://www.codingame.com/training/hard/there-is-no-spoon-episode-2) (+250 XP) 🚀🚀🚀
 <BR>[Einstein’s Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
 <BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
@@ -56,4 +57,4 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to 1750 [Codingame](https://www.codingame.com) XP!
+* You will earn up to 1800 [Codingame](https://www.codingame.com) XP!
