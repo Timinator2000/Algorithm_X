@@ -66,7 +66,7 @@ __Intersection__ – a non-Node location on the gameboard that knows about any C
 
 Every Channel has capacity for a certain number of links. For now, this is the only attribute that requires a bit discussion:
 
-__Channel Capacity__ – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to that rule.
+__Channel Capacity__ – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to this rule.
 
 
 <BR><BR>
