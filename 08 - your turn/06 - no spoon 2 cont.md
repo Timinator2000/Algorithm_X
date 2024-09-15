@@ -8,7 +8,7 @@ We just finished building the following detailed gameboard and a link can be pla
 
 # An Object-Oriented Model of the Problem Space
 
-Before we identify requirements and actions for Algorithm X, let’s take an inventory of what we see on our gameboard. We see a bunch of Nodes, a bunch of Intersections and a bunch of channels. Let’s create a class for each.
+Before we identify requirements and actions for Algorithm X, let’s take an inventory of what we see on our gameboard. We see a bunch of Nodes, a bunch of Intersections and a bunch of channels. Let’s create a class for each of these.
 
 <BR><BR>
 ![No Spoon 2 - Classes](Classes.png)
