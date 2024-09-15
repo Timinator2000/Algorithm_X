@@ -16,7 +16,7 @@ Where is the multiplicity in this puzzle? Consider the dumbbells. In the Example
 
 The requirements are straightforward. Some locations on the floor are marked and one end of a dumbbell _must_ cover each marked location. Every other location on the floor _may_ or _may not_ be covered. Any location that gets covered can only be covered one time since the puzzle states:
 
->the dumbbells can touch but not cross each other.
+>The dumbbells can touch but not cross each other.
 
 How about the actions you can take to build a solution? This puzzle looks very similar to Dominoes Solver in that regard. Combine what you learned on Dominoes Solver with the skills you solidified on Shikaku Solver and you should have a clear path forward. Of course, you will need to make sure you properly add precision to the requirements and actions, as was discussed in the approach to Mrs. Knuth – Part III.
 
