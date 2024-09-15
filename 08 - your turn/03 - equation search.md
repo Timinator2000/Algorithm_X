@@ -46,7 +46,7 @@ The correct answer is 6! Remember, because of the multiplicity, you can use the 
 ![Ways to Make 10](WaysToMake10.png)
 <BR>
 
-There is a fair amount of multiplicity in this puzzle and to solve the bigger test cases, you will need to properly use AlgorithmXSolver’s memory. Without proper use of memory, you will generate a lot more solutions than necessary.
+There is a fair amount of multiplicity in this puzzle and to solve the bigger test cases, you will need to properly use `AlgorithmXSolver`’s memory. Without proper use of memory, you will generate a lot more solutions than necessary.
 
 <BR>
 
@@ -56,7 +56,7 @@ There is a fair amount of multiplicity in this puzzle and to solve the bigger te
 |5 - 6 Equations, Multiple Solutions|3|96|
 |6 - 10 Equations, 1 Solution|1|69,120|
 |7 - 10 Equations, Multiple Solutions|31|445,824|
-|8 - 13 Equations|227|?|
+|8 - 13 Equations|227|I stopped counting at 250M.|
 |9 - 14 Equations|674|?|
 |10 - 15 Equations, 1 Solutions|1|?|
 |11 - 15 Equations, Multiple Solutions|2898|?|
