@@ -25,7 +25,7 @@ Solution 4
    Add Ella/Flute to Mrs. Knuth's schedule on M at 8.
 ```
 
-What is going on? Solution 1 and solution 2 are perfect duplicates. The same is true for solution 3 and solution 4. To get to the bottom of things, I will regenerate the output, but his time, I will include the `lesson_number` include in each action tuple.
+What is going on? Solution 1 and solution 2 are perfect duplicates. The same is true for solution 3 and solution 4. To get to the bottom of things, I will regenerate the output, but his time, I will include the `lesson_number` included in each action tuple.
 
 ```
 Solution 1
