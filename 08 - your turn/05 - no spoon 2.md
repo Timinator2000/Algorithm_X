@@ -62,7 +62,7 @@ __Node__ – a location on the gameboard that needs a certain number of links.
 
 __Channel__ – a trench between two nodes, inside of which can be placed some number of links. A Channel’s link capacity is determined by several factors discussed below, but it can never be more than 2. A Channel may or may not pass through Intersections as it travels between the two Nodes it connects
 
-__Intersection__ – a location on the gameboard that knows about any Channel that passes through that location
+__Intersection__ – a non-Node location on the gameboard that knows about any Channel that passes through that location
 
 Every Channel has capacity for a certain number of links. For now, this is the only attribute that requires a bit discussion:
 
