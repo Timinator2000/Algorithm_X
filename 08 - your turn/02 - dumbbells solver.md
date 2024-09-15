@@ -35,7 +35,7 @@ I was surprised I did not see an increase in speed when I added memory to my `Du
             print('Memory is forcing backtracking...', file=sys.stderr, flush=True)
 ```
 
-What did I find? Although memory did force backtracking, it was extremely rare. Since it did not happen often, there was not much impact on overall speed. As a doctor once said to a friend of mine receiving treatment for a rare blood disorder, "Don't worry. It will get worse."
+What did I find? Although memory did force backtracking, it was extremely rare. Since it did not happen often, there was not much impact on overall speed.
 
 # How Important is the Break Statement?
 
