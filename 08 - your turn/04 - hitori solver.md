@@ -17,22 +17,30 @@ My solution for Hitori Solver is surprisingly similar to Mrs. Knuth – Part III
 >    * Shaded squares do not touch each other vertically or horizontally.
 >    * When completed, all un-shaded squares create a single continuous area.
 
-What are the action steps that can be taken to build a solution? _The object is to shade squares._
+What are the action steps that can be taken to build a solution?
 
-What are the requirements? _No number can appear in a row or column more than once._
+>_The object is to shade squares._
 
-Is there any mutual exclusivity? _Shaded squares must not touch vertically or horizontally._
+What are the requirements?
 
-Will solutions need to be processed to determine if they are valid? _When completed, all unshaded squares must create a single continuous area._
+>_No number can appear in a row or column more than once._
+
+Is there any mutual exclusivity?
+
+>_Shaded squares must not touch vertically or horizontally._
+
+Will solutions need to be processed to determine if they are valid?
+
+>_When completed, all unshaded squares must create a single continuous area._
 
 Thank you [@VilBoub]( https://www.codingame.com/profile/bd6706892e49290fb119aa5ddae4238a318297) for making the goal statement line up with the questions I had in my head already!
 
 Let’s dig into the requirements a bit more. Consider the Example Test Case:
 
 ```text
-111
-234
-224
+    111
+    234
+    224
 ```
 
 We see three 1s in the first row. Two of those 1s will need to be shaded. Of course, requirements need to be specific and with Algorithm X, multiplicity is handled with multiple requirements. It is more proper to say that the requirements include removing a 1 from the first row for the first time and removing a 1 from the first row for the second time. Two separate requirements need to be satisfied.
@@ -42,11 +50,11 @@ The only action that can be taken to build a solution is to shade a cell. Will y
 This puzzle has a unique multiplicity twist not seen in other puzzles and you will run into it when you are identifying the requirements satisfied by each action. Consider the grid for __Test Case 4: Even Bigger__:
 
 ```text
-22153
-23145
-11135
-13542
-54321
+    22153
+    23145
+    11135
+    13542
+    54321
 ```
 
 Would you ever shade the top-left corner? It is definitely possible. There are multiple 2s in the row and multiple 2s in the column. Shading the top-left corner covers requirements associated with the row _and_ requirements associated with the column.
