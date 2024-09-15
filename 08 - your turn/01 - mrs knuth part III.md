@@ -12,8 +12,8 @@ class MrsKnuthPartIIISolver(AlgorithmXSolver):
         self.best_score = 0             # score of the best solution found so far
         self.best_solution = []         # a copy of the best solution found so far
 
-        # You might need to keep track of more than just those two things above since
-        # you need to "show your work".
+        # You might need to keep track of more than just those
+        # two things above since you need to "show your work".
 
         requirements = []
         optional_requirements = []
