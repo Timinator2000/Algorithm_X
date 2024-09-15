@@ -43,7 +43,7 @@ Let’s dig into the requirements a bit more. Consider the Example Test Case:
     224
 ```
 
-We see three 1s in the first row. Two of those 1s will need to be shaded. Of course, requirements need to be specific and with Algorithm X, multiplicity is handled with multiple requirements. It is more proper to say that the requirements include removing a 1 from the first row for the first time and removing a 1 from the first row for the second time. Two separate requirements need to be satisfied.
+We see three `1`s in the first row. Two of those `1`s will need to be shaded. Of course, requirements need to be specific and with Algorithm X, multiplicity is handled with multiple requirements. It is more proper to say that the requirements include removing a `1` from the first row for the first time and removing a `1` from the first row for the second time. Two separate requirements need to be satisfied.
 
 The only action that can be taken to build a solution is to shade a cell. Will you then create an action for every cell on the gameboard? Probably not. There is no reason to ever shade a cell unless the number in the cell appears more than once in its row _or_ its column.
 
@@ -57,13 +57,16 @@ This puzzle has a unique multiplicity twist not seen in other puzzles and you wi
     54321
 ```
 
-Would you ever shade the top-left corner? It is definitely possible. There are multiple 2s in the row and multiple 2s in the column. Shading the top-left corner covers requirements associated with the row _and_ requirements associated with the column.
+Would you ever shade the top-left corner? It is definitely possible. There are multiple `2`s in the row and multiple `2`s in the column. Shading the top-left corner covers requirements associated with the row _and_ requirements associated with the column.
 
-What about the second 2 in the top row? Absolutely possible. However, shading the top row, second from the left removes a 2 from the top row, but what does it do for the column? The answer is nothing! There is only a single 2 in the column. Shading that square does not cover any column requirements because there are no column requirements for the second column from left.
+What about the second `2` in the top row? Absolutely possible. However, shading the top row, second from the left removes a `2` from the top row, but what does it do for the column? The answer is nothing! There is only a single `2` in the column. Shading that square does not cover any column requirements because there are no column requirements for the second column from left.
 
 The tricky part of this puzzle is that every square you might want to shade could do any of the following:
+
 -	Remove a problem number from both the row and the column.
+
 -	Remove a problem number from just the row.
+
 -	Remove a problem number from just the column.
 
 This creates a potential crossroads of multiplicity at each grid location, which is unique to this puzzle and you will need to take all these scenarios into consideration when identifying the requirements satisfied by each action.
