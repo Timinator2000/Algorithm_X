@@ -120,14 +120,14 @@ plan:
         statement: 08 - your turn/03 - equation search.md
       - title: Hitori Solver
         statement: 08 - your turn/04 - hitori solver.md
+      - title: Assorted Rectangular Pieces
+        statement: 08 - your turn/045 - assorted rectangular pieces.md
       - title: There is No Spoon - Episode 2
         statement: 08 - your turn/05 - no spoon 2.md
       - title: There is No Spoon - Episode 2 (cont.)
         statement: 08 - your turn/06 - no spoon 2 cont.md
       - title: There is No Spoon - Episode 2 Wrap-Up
         statement: 08 - your turn/07 - no spoon 2 matrix.md
-      - title: Assorted Rectangular Pieces
-        statement: 08 - your turn/08 - assorted rectangular pieces.md
   - title: Problem-Space Reduction
     plan:
       - title: Problem-Space Reduction
