@@ -24,7 +24,7 @@ How about the actions you can take to build a solution? This puzzle looks very s
 
 Because there is a unique solution to every test case, you may use a `break` statement as soon as Algorithm X returns the first solution. Dumbbells Solver is a great fit for Algorithm X and your solver should find the first solution very fast on every test case.
 
-I was surprised that I did not see an increase in speed when I added memory to my DumbbellsSolver. When a call is made to `self._remember(self, item_to_remember: tuple)` AlgorithmXSolver looks for the item in its memory and if that item is already in memory, the attribute `self.solution_is_valid` is set to `False`. I added the following lines to code to my DumbbellsSolver to take a look at how often memory was causing backtracking.
+I was surprised that I did not see an increase in speed when I added memory to my DumbbellsSolver. When a call is made to `self._remember(self, item_to_remember: tuple)` `AlgorithmXSolver` looks for the item in its memory and if that item is already in memory, the attribute `self.solution_is_valid` is set to `False`. I added the following lines to code to my `DumbbellsSolver` to take a look at how often memory was causing backtracking.
 
 ```
     def _process_row_selection(self, row):
@@ -35,7 +35,7 @@ I was surprised that I did not see an increase in speed when I added memory to m
             print('Memory is forcing backtracking...', file=sys.stderr, flush=True)
 ```
 
-What did I find? Although memory did force backtracking, it was extremely rare. Since it did not happen often, there really was not much impact on overall speed.
+What did I find? Although memory did force backtracking, it was extremely rare. Since it did not happen often, there was not much impact on overall speed. As a doctor once said to my wife as she was receiving treatment for a rare blood disorder, "Don't worry. It will get worse."
 
 # How Important is the Break Statement?
 
