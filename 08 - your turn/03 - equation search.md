@@ -18,7 +18,7 @@ An important part to creating an Algorithm X solution for Equation Search is com
 
 As tiles are put on the gameboard, some sort of validation is needed to see if there is a way to put the operands and the operator together to come up with the right-side value. This feels a bit like making tiles in [Winamax](https://www.codingame.com/training/hard/winamax-sponsored-contest) correspond to every cell in the grid. With Winamax, it ultimately was better to build routes and consider each possible route a tile that could be placed on the gameboard as a whole. A similar approach will work better here.
 
-Let’s make the gameboard nothing more than a list of right-side value. 
+Let’s make the gameboard nothing more than a list of right-side values.
 
 <BR><BR>
 ![Simplified Gameboard](Gameboard2.png)
