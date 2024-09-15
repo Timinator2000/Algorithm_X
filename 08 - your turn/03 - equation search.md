@@ -56,7 +56,7 @@ There is a fair amount of multiplicity in this puzzle and to solve the bigger te
 |5 - 6 Equations, Multiple Solutions|3|96|
 |6 - 10 Equations, 1 Solution|1|69,120|
 |7 - 10 Equations, Multiple Solutions|31|445,824|
-|8 - 13 Equations|227|I stopped counting at 250M.|
+|8 - 13 Equations|227|I stopped counting at 250,000,000.|
 |9 - 14 Equations|674|?|
 |10 - 15 Equations, 1 Solutions|1|?|
 |11 - 15 Equations, Multiple Solutions|2898|?|
