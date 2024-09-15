@@ -22,7 +22,7 @@ Make sure you scroll to the bottom and click on “run” as there is a quiz aft
 
 # A Bit About the Code
 
-I want you to know it is way harder to hard-code all those requirements and actions than it is to build them algorithmically with loops. I probably had to fix 20+ typos before it worked properly. Proof that algorithms are much more precise than us humans!
+I want you to know it is way harder to hard-code all those requirements and actions than it is to build them algorithmically with loops. I had to fix 20 or more typos before it worked properly; proof that algorithms are much more precise than us humans!
 
 Does it make sense where all the requirements come from? `'instrument on day'` requirements had to be added for every day of the week because Mrs. Knuth has availability on all 5 days. There are also a bunch more `'slot filled'` requirements.
 
