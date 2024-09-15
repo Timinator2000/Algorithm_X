@@ -10,9 +10,13 @@ This is one of the toughest Algorithm X puzzle on [Codingame](https://www.coding
 
 __Step 1:__ Loop through all `Node`s and create the appropriate requirements.
 
+<BR>
+
 Let’s dig a bit deeper into the actions. As mentioned earlier, all actions involve putting some link between two `Node`s, but what does that actually look like? Looking at the gameboard, the link must be placed in a specific slot and it needs to be tied to one of the link requirements for each `Node`. That looks like triple multiplicity, doesn’t it!
 
 __Step 2:__ Loop through all `Channel`s and create the appropriate actions, including the lists of requirements covered by each action. Make sure you properly handle all the multiplicity.
+
+<BR>
 
 What about those pesky `Intersection`s? Putting a link in a `Channel` might eliminate any possibility of putting links in a crossing `Channel`. Sounds like textbook mutual exclusivity, right? You’ll need to create optional requirements to handle all the mutual exclusivity.
 
