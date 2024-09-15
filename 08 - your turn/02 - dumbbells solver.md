@@ -24,7 +24,7 @@ How about the actions you can take to build a solution? This puzzle looks very s
 
 Because there is a unique solution to every test case, you may use a `break` statement as soon as Algorithm X returns the first solution. Dumbbells Solver is a great fit for Algorithm X and your solver should find the first solution very fast on every test case.
 
-I was surprised I did not see an increase in speed when I added memory to my `DumbbellsSolver`. When a call is made to `self._remember(self, item_to_remember: tuple)` `AlgorithmXSolver` looks for the item in its memory and if that item is already in memory, the attribute `self.solution_is_valid` is set to `False`. I added the following lines of code to my `DumbbellsSolver` to take a look at how often memory was causing backtracking.
+I was surprised I did not see an increase in speed when I added memory to my `DumbbellsSolver`. When a call is made to `self._remember(self, item_to_remember: tuple)`, `AlgorithmXSolver` looks for the item in its memory and if that item is already in memory, the attribute `self.solution_is_valid` is set to `False`. I added the following lines of code to my `DumbbellsSolver` to take a look at how often memory was causing backtracking.
 
 ```
     def _process_row_selection(self, row):
