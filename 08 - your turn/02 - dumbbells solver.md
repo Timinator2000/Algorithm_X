@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ A Perfect Introduction to Multiplicity
 
 # Strategy
 
-Dumbbells Solver is the perfect puzzle for practicing what you just learned about multiplicity and it works wonderfully with the tiles on a gameboard analogy. You are given a gameboard with some markings on it indicating some of the weight locations. The tiles you will place on the gameboard are the dumbbells.
+Dumbbells Solver is the perfect puzzle for practicing what you just learned about multiplicity and it works wonderfully with the tiles on a gameboard analogy. You are given a gameboard with some markings indicating some of the weight locations. The tiles you will place on the gameboard are the dumbbells.
 
 Where is the multiplicity in this puzzle? Consider the dumbbells. In the Example Test Case, three dumbbells need to be placed on the floor. In real life, these dumbbells might be different colors, or they might be different weights, but in this puzzle there is nothing to tell one dumbbell from another. Is there any difference between placing 3 dumbbells on the floor and scheduling 3 lessons for Emma with Mrs. Knuth? No, there really is not.
 
