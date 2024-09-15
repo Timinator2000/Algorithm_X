@@ -4,7 +4,7 @@ Algorithm X doesn't know that trying Ella's first lesson on Monday at 8 is exact
 
 The solution is to use `AlgorithmXSolver`’s built-in memory. We need Algorithm X to __remember__ that it already tried Ella on Monday at 8. In our case, it worked, but even if it didn’t work, we want Algorithm X to make sure it never again tries Ella on Monday at 8.
 
-I used the word “never” and that is a tiny bit misleading. The Algorithm X memory mirrors the process of recursive backtracking. Each level deeper in the recursion adds a new compartment to the memory. Each time Algorithm X backtracks, the most recent compartment is discarded. The closer you get to the root of the recursion, the smaller the size of memory. The deeper Algorithm X goes into the recursion looking for solutions, the more built-up memory it has to check.
+I used the word “never” and that is a tiny bit misleading. The Algorithm X memory mirrors the process of recursive backtracking. Each level deeper in the recursion adds a new compartment to the memory. Each time Algorithm X backtracks, the most recent compartment is discarded. The closer you get to the root of the recursion, the smaller the size of memory. The deeper Algorithm X goes into the recursion looking for solutions, the more built-up memory it needs to check.
 
 # Enough Already, Just Show Me How to Fix It!
 
