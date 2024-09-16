@@ -26,4 +26,22 @@ In the `AlgorithmXSolver` code below, you can see the default is to return `node
         return node.size
 ```
 
+In the following code block, I sketch out what an override might look like. I have made no effort to definite requirements for this example, so for illustration, I will assume the requirement tuple can be unpacked into 5 distinct elements.
+
+```python
+    def _requirement_sort_criteria(self, node):
+        _, _, c, d, e = node.title
+        return minimum([c, d, e])
+```
+
+Or another example could be:
+
+```python
+    def _requirement_sort_criteria(self, node):
+        _, _, c, d, _ = node.title
+        return (node.size, c, d, e)
+```
+
+In this second example, the default `node.size` is still being used as the primary sort criteria, but ties are being broken first by `c` and then by `d`.
+
 Often, MRV is a very good choice for column selection, so you may find it rare that you consider overriding how columns are sorted. In the next section, I will look at the rows of the matrix.
