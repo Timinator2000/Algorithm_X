@@ -8,73 +8,12 @@ In the next graphic, I have copied the algorithm provided on Wikipedia. I strong
 ![Algorithm X](AlgorithmX.png)
 <BR>
 
-# The Solver
+# Long Pause
 
-As I have mentioned a few times already, I took Ali Assaf's Algorithm X code and wrapped it inside an `AlgorithmXSolver` class. In the next code block is the `solve()` method with all comments removed to make the visual concise. 
+As I move forward with customization options, I will assume you have a reasonable idea how the above algorithm works. I am sure you noticed you can solve a lot of exact cover problems without understanding the details of the algorithm, but if you want to do any customization, you will need a basic understanding of the internal Algorithm X mechanics. I must admit I went through the example on Wikipedia more times than I can count as I worked my way through the various exact cover puzzles. Take as much time as you need!
 
-```python
-    def solve(self):
-        
-        # Algorithm X Step 1:
-        #
-        # Choose the column (requirement) with the best value for "sort criteria". For
-        # the basic implementation of sort criteria, Algorithm X always chooses the column
-        # covered by thew fewest number of actions. Optional requirements are not eligible 
-        # for this step.
-        best_column = self.matrix_a_root
-        best_value  = 'root'
-        
-        node = self.matrix_a_root.next_x
-        while node != self.matrix_a_root:
-            
-            # Optional requirements (at most one time constraints) are never chosen as best.
-            if node.title not in self.O:
-                
-                # Get the sort criteria for this requirement (column).
-                value = self._requirement_sort_criteria(node)
-                if best_column == self.matrix_a_root or value < best_value:
-                    best_column = node
-                    best_value  = value
-                node = node.next_x
+# What Can Be Customized?
 
-            else:
+Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all columns in the matrix that have not yet been covered. Once a column is chosen, Step 3 loops through all rows that cover that column. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
 
-                # Optional requirements stop the search for the best column.
-                node = self.matrix_a_root
-            
-        if best_column == self.matrix_a_root:
-            self._process_solution()
-            if self.solution_is_valid:
-                self.solution_count += 1
-                yield self.solution
-        else:
-
-            # Build a list of all actions (rows) that cover the chosen requirement (column).
-            actions = []
-            node = best_column.next_y
-            while node != best_column:
-                actions.append(node)
-                node = node.next_y
-
-            # The next step is to loop through all possible actions. To prepare for this,
-            # a new level of history is created. The history for this new level starts out
-            # as a complete copy of the most recent history.
-            self.history.append(self.history[-1].copy())    
-                
-            # Loop through the possible actions sorted by the given sort criteria. A basic
-            # Algorithm X implementation does not provide sort criteria. Actions are tried
-            # in the order they happen to occur in the matrix.
-            for node in sorted(actions, key=lambda a:self._action_sort_criteria(a)):
-                self.select(node=node)
-                if self.solution_is_valid:
-                    for s in self.solve():
-                        yield s
-                self.deselect(node=node)
-
-                # All backtracking results in going back to a solution that is valid.
-                self.solution_is_valid = True
-
-            self.history.pop()
-```
-
-
+Before I cover how to customize each of these selection processes, we must first have a short discussion about Dancing Links (DLX) and the DLX implementation used in `AlgorithmXSolver`.
