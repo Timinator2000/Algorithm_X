@@ -28,7 +28,7 @@ The `node`s passed into `self._action_sort_criteria(self, node)` are nodes from 
         return val
 ```
 
-The following override will make sure numbers for a Sudoku cell are always tried in descending order:
+The following override will make sure integers for a Sudoku cell are always tried in descending order:
 
 ```python
     def _action_sort_criteria(self, node):
@@ -36,7 +36,7 @@ The following override will make sure numbers for a Sudoku cell are always tried
         return -val
 ```
 
-The following override will make sure numbers are again tried in descending order, but this time all even numbers are chosen before odd numbers:
+The following override will make sure integers are again tried in descending order, but this time all even numbers are chosen before odd numbers:
 
 ```python
     def _action_sort_criteria(self, node):
