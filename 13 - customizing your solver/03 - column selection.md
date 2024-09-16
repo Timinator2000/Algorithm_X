@@ -1,6 +1,6 @@
 # Customizing Column Selection
 
-In Step 2 of Algorithm X, a column is chosen from all remaining yet-to-be-covered columns. As is often the case with backtracking, `AlgorithmXSolver`’s default is to choose the column covered by the fewest number of rows. The technique is often referred to as Minimum Remaining Value (MRV). Two situations could prompt you to override this default.
+In Step 2 of Algorithm X, a column is chosen from all remaining yet-to-be-covered columns. As is often the case with backtracking, `AlgorithmXSolver`’s default is to choose the column covered by the fewest number of rows. This technique is referred to as Minimum Remaining Value (MRV). Two situations could prompt you to override this default.
 
 1. You may want to specify how ties are broken when multiple columns are covered by the same number of rows.
 
