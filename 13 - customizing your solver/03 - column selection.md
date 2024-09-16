@@ -15,7 +15,7 @@ To customize the sort criteria, you must override `AlgorithmXSolver`’s `self._
 
 In the `AlgorithmXSolver` code below, you can see the default is to return `node.size`.
 
-```
+```python
     # In some cases it may be beneficial to have Algorithm X try covering certain requirements
     # before others as it looks for paths through the matrix. The default is to sort the requirements
     # by how many actions cover each requirement, but in some case there might be several 
