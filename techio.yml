@@ -175,7 +175,7 @@ plan:
       - title: Customizing Column Selection
         statement: 13 - customizing your solver/02 - column selection.md
       - title: Customizing Row Selection
-        statement: 13 - customizing your solver/02 - row selection.md
+        statement: 13 - customizing your solver/03 - row selection.md
       - title: Assorted Rectangular Pieces
         statement: 13 - customizing your solver/05 - assorted rectangular pieces.md
   - title: Odds & Ends
