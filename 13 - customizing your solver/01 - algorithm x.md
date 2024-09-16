@@ -14,6 +14,6 @@ As I move forward with customization options, I will assume you have a reasonabl
 
 # What Can Be Customized?
 
-Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all columns in the matrix that have not yet been covered. Once a column is chosen, Step 3 loops through all rows that cover that column. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
+Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all columns in the matrix that have not yet been covered. Once a column is chosen, Step 3 loops through all rows that cover that column and those rows and the rows are chosen in some order. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
 
 Before I cover how to customize each of these selection processes, we must first have a short discussion about Dancing Links (DLX) and the DLX implementation used in `AlgorithmXSolver`.
