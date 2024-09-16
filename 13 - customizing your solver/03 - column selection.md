@@ -7,7 +7,7 @@ In Step 2 of Algorithm X, a column is chosen from all remaining yet-to-be-covere
 1. You may want to specify some non-MRV-based criteria.
 
 
-To customize the sort criteria, you must override `AlgorithmXSolver`’s `self._requirement_sort_criteria(self, node)` method. Algorithm X loops through the column headers to determine which column to chooset. Because each `node` passed into the method is a column header, it is easy to accesss:
+To customize the sort criteria, you must override `AlgorithmXSolver`’s `self._requirement_sort_criteria(self, node)` method. Algorithm X loops through the column headers to determine which column to choose. Because each `node` passed into the method is a column header, it is easy to accesss:
 
 1. `node.size` - the number of rows that cover this column
 
