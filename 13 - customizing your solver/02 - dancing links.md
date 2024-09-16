@@ -1,10 +1,10 @@
 # `DLXCell`
 
-My `AlgorithmXSolver` DLX implementation is based on [@RoboStac](https://www.codingame.com/profile/771485904355a5f6267beb29429cad302257061)'s. Each instance of `DLXCell` is once cell in the DLX matrix. I add one key attribute that will be critical when customizing Algorithm X.
+My `AlgorithmXSolver` DLX implementation is based on [@RoboStac](https://www.codingame.com/profile/771485904355a5f6267beb29429cad302257061)'s solution to [Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares) on [Codingame](https://www.codingame.com). Each instance of `DLXCell` is either a column or row header or a location of a `1` in the matrix. I add one key attribute that will be critical when customizing Algorithm X.
 
 * `self.title` - This attribute is used by the row and column headers to store the original requirements and action tuples used to setup Algorithm X.
 
-The cells of the matrix never use this attribute. Instead, each cell has two pointers, one to the column header and one to the row header. This gives every cell in the matrix quick access to the tuples used to create the model for Algorithm X.
+The cells of the matrix never use this attribute. Instead, each cell has two pointers, one to the column header and one to the row header. This gives every cell in the matrix quick access to the tuples used to create the Algorithm X model.
 
 The `DLXCell` attributes are shown below:
 
