@@ -120,8 +120,6 @@ plan:
         statement: 08 - your turn/03 - equation search.md
       - title: Hitori Solver
         statement: 08 - your turn/04 - hitori solver.md
-      - title: Assorted Rectangular Pieces
-        statement: 08 - your turn/045 - assorted rectangular pieces.md
       - title: There is No Spoon - Episode 2
         statement: 08 - your turn/05 - no spoon 2.md
       - title: There is No Spoon - Episode 2 (cont.)
@@ -152,8 +150,6 @@ plan:
         statement: 10 - your turn/03 - takuzu solver.md
       - title: Suguru Solver (Revisited)
         statement: 10 - your turn/04 - suguru solver.md
-      - title: Assorted Rectangular Pieces (Revisited)
-        statement: 10 - your turn/05 - assorted rectangular pieces.md
   - title: Steering Algorithm X
     plan:
       - title: Backseat Driving
@@ -172,6 +168,16 @@ plan:
         statement: 12 - your turn/03 - killer sudoku extreme.md
       - title: Tetris Floor
         statement: 12 - your turn/04 - tetris floor.md
+  - title: Customizing Your Solver
+    plan:
+      - title: How Does Algorithm X Work?
+        statement: 13 - customizing your solver/01 - algorithm x.md
+      - title: Customizing Column Selection
+        statement: 13 - customizing your solver/02 - column selection.md
+      - title: Customizing Row Selection
+        statement: 13 - customizing your solver/02 - row selection.md
+      - title: Assorted Rectangular Pieces
+        statement: 13 - customizing your solver/05 - assorted rectangular pieces.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
