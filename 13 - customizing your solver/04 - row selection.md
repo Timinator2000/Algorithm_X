@@ -20,7 +20,7 @@ To demonstrate an override situation, let’s again look at Sudoku where every a
 action = ('place value', row, col, val)
 ```
 
-The `node`s passed into `self. def _action_sort_criteria(self, node)` are nodes from the matrix. To get access to the row title, it is necessary to first follow the pointer to the row header. The following override will make sure integers for a Sudoku cell are always tried in ascending order:
+The `node`s passed into `self._action_sort_criteria(self, node)` are nodes from the matrix. To get access to the row title, it is necessary to first follow the pointer to the row header. The following override will make sure integers for a Sudoku cell are always tried in ascending order:
 
 ```python
     def _action_sort_criteria(self, node):
