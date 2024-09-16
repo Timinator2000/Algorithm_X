@@ -1,6 +1,6 @@
 # Algorithm X
 
-In order to have a conversation about customizing Algorithm X, it is necessary to first understand how Algorithm X works. You are welcome to study a detailed discussion in [Knuth’s The Art of Computer Programming] or a well-done summary on [Wikipedia]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X). There is no benefit me trying to repeat that material here.
+In order to have a conversation about customizing Algorithm X, it is necessary to first understand how Algorithm X works. You are welcome to study a detailed discussion in [Knuth’s The Art of Computer Programming](https://www-cs-faculty.stanford.edu/~knuth/taocp.html) or a well-done summary on [Wikipedia]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X). There is no benefit me trying to repeat that material here.
 
 In the next graphic, I have copied the algorithm provided on Wikipedia which came from Knuth. I strongly recommend you work your way through the step-by-step Algorithm X example provided on Wikipedia to gain an understanding of how Algorithm X processes the matrix rows and columns to find solutions. 
 
@@ -14,6 +14,6 @@ As I move forward with customization options, I will assume you have a reasonabl
 
 # What Can Be Customized?
 
-Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all columns in the matrix that have not yet been covered. Once a column is chosen, Step 3 loops through all rows that cover that column and those rows and the rows are chosen in some order. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
+Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all columns in the matrix that have not yet been covered. Once a column is chosen, Step 3 loops through all rows that cover that column and those rows are chosen in some order. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
 
-Before I cover how to customize each of these selection processes, we must first have a short discussion about Dancing Links (DLX) and the DLX implementation used in `AlgorithmXSolver`.
+Before I cover how to customize each of these selection processes, we must first have a short discussion about [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) and the DLX implementation used in `AlgorithmXSolver`.
