@@ -36,10 +36,12 @@ The following override will make sure numbers for a Sudoku cell are always tried
         return -val
 ```
 
-The following override will make sure even numbers are chosen before odd numbers with numbers in each group being tried in descending order:
+The following override will make sure numbers are again tried in descending order, but this time all even numbers are chosen before odd numbers:
 
 ```python
     def _action_sort_criteria(self, node):
         _, _, _, val = node.row_header.title
         return (val % 2, -val)
 ```
+
+With these new tools in place, let's take a look at the [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255) found on [CodeWars](https://www.codewars.com).
