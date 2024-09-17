@@ -25,7 +25,14 @@
 #  Sept 02, 2024 - Significant speed increase by changing O to a set and skipping
 #                - optional requirements when looking for next column to cover. 
 #
-#  Sept 12, 2024 - Removed the August 13th changes and updated comments. 
+#  Sept 12, 2024 - Removed the August 13th changes and updated comments.
+#
+#  Sept 17, 2024 - Changed matrix_a_root to matrix_root.
+#                  Change parameter for _action_sort_criteria() and _requirement_sort_criteria()
+#                  Just a name change for requirements. For actions, I the parameter is now
+#                  the row_header, so when the method is overridden, the action tuple is easy
+#                  to access by using {passed in parameter}.title.
+#                  Parameters were changed from 'node' to 'col_header' and 'row_header'
 #
 
 # DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
@@ -126,7 +133,6 @@ class DLXCell:
         node.restore_y()
 
 
-
 class AlgorithmXSolver():
     # R - a list of requirements.  The __init__() method converts R to a dictionary, but R must
     #     originally be passed in as a simple list of requirements. Each requirement is a tuple
@@ -143,7 +149,7 @@ class AlgorithmXSolver():
         self.R  = R + list(O)
         self.O  = set(O)
 
-        # The list of actions (rows) that produce the current path through the matrix..
+        # The list of actions (rows) that produce the current path through the matrix.
         self.solution = []
         self.solution_count = 0
         
@@ -158,9 +164,9 @@ class AlgorithmXSolver():
         self.solution_is_valid = True
 
         # Create a column in the matrix for every requirement.
-        self.matrix_a_root = DLXCell()
-        self.matrix_a_root.size = 10000000
-        self.matrix_a_root.title = 'root'
+        self.matrix_root = DLXCell()
+        self.matrix_root.size = 10000000
+        self.matrix_root.title = 'root'
         
         self.col_headers = [DLXCell(requirement) for requirement in self.R]
 
@@ -171,7 +177,7 @@ class AlgorithmXSolver():
         self.R = {requirement:self.col_headers[i] for i, requirement in enumerate(self.R)}
 
         for i in range(len(self.col_headers)):
-            self.matrix_a_root.attach_horiz(self.col_headers[i])
+            self.matrix_root.attach_horiz(self.col_headers[i])
 
         # Create a row in the matrix for every action.
         for action in self.A:
@@ -197,18 +203,18 @@ class AlgorithmXSolver():
         # the basic implementation of sort criteria, Algorithm X always chooses the column
         # covered by thew fewest number of actions. Optional requirements are not eligible 
         # for this step.
-        best_column = self.matrix_a_root
+        best_column = self.matrix_root
         best_value  = 'root'
         
-        node = self.matrix_a_root.next_x
-        while node != self.matrix_a_root:
+        node = self.matrix_root.next_x
+        while node != self.matrix_root:
             
             # Optional requirements (at most one time constraints) are never chosen as best.
             if node.title not in self.O:
                 
                 # Get the sort criteria for this requirement (column).
                 value = self._requirement_sort_criteria(node)
-                if best_column == self.matrix_a_root or value < best_value:
+                if best_column == self.matrix_root or value < best_value:
                     best_column = node
                     best_value  = value
                 node = node.next_x
@@ -216,9 +222,9 @@ class AlgorithmXSolver():
             else:
 
                 # Optional requirements stop the search for the best column.
-                node = self.matrix_a_root
+                node = self.matrix_root
             
-        if best_column == self.matrix_a_root:
+        if best_column == self.matrix_root:
             self._process_solution()
             if self.solution_is_valid:
                 self.solution_count += 1
@@ -240,7 +246,7 @@ class AlgorithmXSolver():
             # Loop through the possible actions sorted by the given sort criteria. A basic
             # Algorithm X implementation does not provide sort criteria. Actions are tried
             # in the order they happen to occur in the matrix.
-            for node in sorted(actions, key=lambda a:self._action_sort_criteria(a)):
+            for node in sorted(actions, key=lambda n:self._action_sort_criteria(n.row_header)):
                 self.select(node=node)
                 if self.solution_is_valid:
                     for s in self.solve():
@@ -268,7 +274,7 @@ class AlgorithmXSolver():
     #
     # The select() method selects a row as part of the solution being explored.  Eventually that
     # exploration ends and it is time to move on to the next row (action).  Before moving on,
-    # Matrix A and the partial solution need to be restored to its prior state.
+    # the matrix and the partial solution need to be restored to their prior states.
     def deselect(self, node):
 
         node.unselect()
@@ -293,7 +299,7 @@ class AlgorithmXSolver():
     # other actions at producing complete paths through the matrix. The method included here does
     # nothing, but can be overridden in the case a subclass wishes to influence the order in which
     # Algorithm X tries rows (actions) that cover some particular column.
-    def _action_sort_criteria(self, node):
+    def _action_sort_criteria(self, row_header: DLXCell):
         return 0
     
 
@@ -303,8 +309,8 @@ class AlgorithmXSolver():
     # requirements covered by the same number of actions. By overriding this method, the
     # Algorithm X Solver can be directed to break ties a certain way or consider some other way
     # of prioritizing the requirements.
-    def _requirement_sort_criteria(self, node):
-        return node.size
+    def _requirement_sort_criteria(self, col_header: DLXCell):
+        return col_header.size
     
     
     # The following method can be overridden by a subclass to add logic to perform more detailed solution
