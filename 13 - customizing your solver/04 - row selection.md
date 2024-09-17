@@ -20,7 +20,7 @@ To demonstrate an override situation, let’s again look at Sudoku where every a
 action = ('place value', row, col, val)
 ```
 
-The argument passed into `_action_sort_criteria(self, row_header: DLXCell)` is a row header `DLXCell` which gives us easy access to the row title where the identifier tuple is stored. The following override will make sure integers for a Sudoku cell are always tried in ascending order:
+The argument passed into `_action_sort_criteria(self, row_header: DLXCell)` is a row header `DLXCell` which allows easy access to the row `title` where the identifier tuple is stored. The following override will make sure integers for a Sudoku cell are always tried in ascending order:
 
 ```python
     def _action_sort_criteria(self, row_header: DLXCell):
