@@ -28,4 +28,4 @@ class DLXCell:
 
 As long as the tuples you created to build a model for Algorithm X are easy to decipher, they will provide the information needed to customize the sorting of columns and/or rows.
 
-* Note: Per the style of @RoboStac, instances of `DLXCell` are referred to as `node`s throughout the `AlgorithmXSolver` code. 
+* Note: Per the style of @RoboStac, instances of `DLXCell` are often referred to as `node`s throughout the `AlgorithmXSolver` code. 
