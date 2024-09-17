@@ -1,5 +1,5 @@
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
-#  (DLX Based Algorithm X Solver Last Revised 09/12/2024)
+#  (DLX Based Algorithm X Solver Last Revised 09/17/2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
 #  playgound on Tech.io by following the link in my Codingame profile:
