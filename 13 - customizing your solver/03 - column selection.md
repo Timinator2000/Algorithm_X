@@ -6,14 +6,13 @@ In Step 2 of Algorithm X, a column is chosen from all remaining yet-to-be-covere
 
 1. You may want to specify some non-MRV-based criteria.
 
+To customize the sort criteria, you must override `AlgorithmXSolver`’s `self. _requirement_sort_criteria(self, col_header: DLXCell)` method. Algorithm X loops through the column headers to determine which column to choose. Because each argument passed into the method is a column header `DLXCell`, it is easy to accesss:
 
-To customize the sort criteria, you must override `AlgorithmXSolver`’s `self._requirement_sort_criteria(self, node)` method. Algorithm X loops through the column headers to determine which column to choose. Because each `node` passed into the method is a column header, it is easy to accesss:
+1. `col_header.size` - the number of rows that cover this column
 
-1. `node.size` - the number of rows that cover this column
+1. `col_header.title` - the requirement tuple
 
-1. `node.title` - the requirement tuple
-
-In the `AlgorithmXSolver` code below, you can see the default is to return `node.size`.
+In the `AlgorithmXSolver` code below, you can see the default is to return `col_header.size`.
 
 ```python
     # In some cases it may be beneficial to have Algorithm X try covering certain requirements
@@ -22,18 +21,18 @@ In the `AlgorithmXSolver` code below, you can see the default is to return `node
     # requirements covered by the same number of actions. By overriding this method, the
     # Algorithm X Solver can be directed to break ties a certain way or consider some other way
     # of prioritizing the requirements.
-    def _requirement_sort_criteria(self, node):
-        return node.size
+    def _requirement_sort_criteria(self, col_header: DLXCell):
+        return col_header.size
 ```
 
-In the following code block, I sketch out what an override might look like. I have made no effort to definite requirements for this example, so for illustration, I will assume the requirement tuple can be unpacked into 5 distinct elements.
+In the following code block, I sketch out what an override might look like. I have made no effort to define requirements for this example, so for illustration, I will assume the requirement tuple can be unpacked into 5 distinct elements.
 
 ```python
-    def _requirement_sort_criteria(self, node):
-        _, _, c, d, _ = node.title
-        return (node.size, c, d)
+    def _requirement_sort_criteria(self, col_header: DLXCell):
+        _, _, c, d, _ = col_header.title
+        return (col_header.size, c, d)
 ```
 
-In this example, the default `node.size` is still being used as the primary sort criteria, but ties are being broken first by `c` and then by `d`.
+In this example, the default `col_header.size` is still being used as the primary sort criteria, but ties are being broken first by `c` and then by `d`.
 
 Often, MRV is a very good choice for column selection, so you may find it rare that you consider overriding how columns are sorted. In the next section, I will look at the rows of the matrix.
