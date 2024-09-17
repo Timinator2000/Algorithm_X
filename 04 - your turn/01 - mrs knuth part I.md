@@ -9,7 +9,7 @@ Here's a little pseudocode to help as you put together your full solution:
 ```text
 copy all the AlgorithmX code
 
-define MrsKnuthPartISolver as a subclass of AlgorithmXSolver
+define MrsKnuthPartISolver as a subclass of AlgorithmXSolver 
     override the constructor to build your requirements and actions from 
     the passed in techer_availability and students
 
