@@ -4,7 +4,7 @@ My `AlgorithmXSolver` DLX implementation is based on [@RoboStac](https://www.cod
 
 * `self.title` - This attribute is used by the row and column headers to store the original requirement and action tuples used to set up Algorithm X.
 
-The cells of the matrix never use this attribute. Instead, each cell has two pointers, one to the column header and one to the row header. This gives every cell in the matrix quick access to the tuples used to create the Algorithm X model.
+The cells of the matrix never use this attribute. Instead, each cell has two pointers, one to the column header and one to the row header. This gives every cell in the matrix quick access to the tuples used to create the Algorithm X matrix.
 
 The `DLXCell` attributes are shown below:
 
