@@ -36,7 +36,7 @@ The following override will make sure integers for a Sudoku cell are always trie
         return -val
 ```
 
-The following override will make sure integers are again tried in descending order, but this time all even numbers are chosen before odd numbers:
+If you really want to get crazy with your sort criteria, the following override will make sure integers are again tried in descending order, but this time all even numbers are tried before odd numbers:
 
 ```python
     def _action_sort_criteria(self, row_header: DLXCell):
