@@ -185,9 +185,3 @@ plan:
       - title: Solving With Logic Only
         statement: 16 - odds and ends/01 - solving with logic only.md
 
-projects:
-  python:
-    root: /python-project
-    runner: 
-      name: python
-      version: '3'
