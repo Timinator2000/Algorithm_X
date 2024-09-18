@@ -14,12 +14,12 @@ This puzzle on [Codewars](https://www.codewars.com) is a complex exact cover pro
 
 Once you get a working Algorithm X setup, the real work begins. When you attempt to pass the full test suite, you get 12 seconds to complete 75 tests. I was stuck for quite a while timing out on many different variations of my solver. I tried every technique discussed in this playground.
 
-Right after you call the inherited `AlgorithmXSolver` constructor, add this to print the number of columns and rows in the matrix:
+Right after you call the inherited `AlgorithmXSolver` constructor, add this line of code to print the number of columns and rows in the matrix:
 
 ```
         print(len(requirements), len(actions), file=sys.stderr, flush=True)
 ```
 
-With my Algorithm X setup, a number of the 75 test cases have between 3000 and 5000 rows. One test case actually has many more rows than that. What does this tell you? It should tell you the matrix is pretty big and influencing how Algorithm X chooses columns and/or chooses rows could make a significant difference.
+With my Algorithm X setup, a number of the 75 test cases have between 3000 and 5000 rows. One test case actually has many more rows than that. What does this tell you? It should tell you the matrix is big and influencing how Algorithm X chooses columns and/or chooses rows could make a significant difference.
 
-Finally, if you want a fast solution that always works, you might need to add some problem-space reduction. Are there any ways you can reduce the size of the problem before building the matrix for Algorithm X? Keep in mind that this process takes time. If you attempt to add problem-space reduction, is there a way you can quantify how much benefit you are getting and at what cost?
+Finally, if you want a fast solution, you might need to add some problem-space reduction. Are there any ways you can reduce the size of the problem before building the matrix for Algorithm X? Keep in mind that this process takes time. If you attempt to add problem-space reduction, is there a way you can quantify how much benefit you are getting and at what cost?
