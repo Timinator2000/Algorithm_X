@@ -22,4 +22,4 @@ Right after you call the inherited `AlgorithmXSolver` constructor, add this line
 
 With my Algorithm X setup, a number of the 75 test cases have between 3000 and 5000 rows. One test case actually has many more rows than that. What does this tell you? It should tell you the matrix is big and influencing how Algorithm X chooses columns and/or chooses rows could make a significant difference.
 
-Finally, if you want a fast solution, you might need to add some problem-space reduction. Are there any ways you can reduce the size of the problem before building the matrix for Algorithm X? Keep in mind that this process takes time. If you attempt to add problem-space reduction, is there a way you can quantify how much benefit you are getting and at what cost?
+Finally, if you want a fast solution, you might need to add some problem-space reduction. Are there any ways you can reduce the size of the problem before building the matrix for Algorithm X? Keep in mind that this process takes time. If you attempt to add problem-space reduction, is there a way you can quantify how much benefit you are get and at what cost?
