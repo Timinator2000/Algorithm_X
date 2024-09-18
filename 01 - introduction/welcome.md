@@ -5,7 +5,7 @@ In August, 2022, I attempted to solve [Constrained Latin Squares]( https://www.c
 For the next 18 months, I worked on @5DN1L’s list, reaching out to him over and over again with questions and ideas. I saw tremendous opportunity for not only a reusable software architecture, but also a repeatable engineering process for solving [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problems. Eventually, he suggested I build an Algorithm X playground, and here we are!
 
 I can’t thank @5DN1L enough for all of his guidance, support, ideas, encouragement, questions, answers, poking, prodding, reviewing, etc. This playground is his creation every bit as much as it is mine. His influence has made a permanent mark on who I am and how I approach problems. I am forever grateful.
-
+ 
 # What is Algorithm X?
 
 [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X) is a promise. If you can build a proper model to a particular problem space, Algorithm X promises to find all solutions to that problem space. Papers have been written and projects have been done to demonstrate “how” Algorithm X works. That is not the goal here. Instead, the focus of this exercise is to build expertise in the realm of modeling. The goal is to build models that Algorithm X easily digests and returns solutions. Only a cursory understanding of Algorithm X is required, and the implementation details will barely be covered. Instead, you will be asked to build models of problems and you will have the opportunity to see how well you modeled each problem simply by seeing how easily Algorithm X converts your models into solutions.
