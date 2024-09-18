@@ -18,7 +18,9 @@ In the following code block, I have hard-coded the setup for the example test ca
 
 Make sure you scroll to the bottom and click on “run” as there is a quiz afterward.
 
+```
 @[Count the solutions to Mrs. Knuth - Part III Example Problem]({"stubs": ["part_III_v1.py"], "command": "python3 part_III_v1_test.py"})
+```
 
 # A Bit About the Code
 
