@@ -10,4 +10,5 @@ __Algorithm X Complexity:__ No Worse than Trying to Survive a Zombie Apocalypse
 
 # Strategy
 
-Comings soon...
+This puzzle on [Codewars](https://www.codewars.com) is a complex exact cover problem. You are given a number of rectangular puzzle pieces and you need to use those pieces to cover all the open locations on the puzzle board. Pieces can be rotated if necessary. The Sample Test Suite has 5 test cases and the last 3 test cases all have shapes that repeat. Because there might be multiple `2 x 3` shapes or `3 x 5` shapes, you will need to put together a strong problem-space model to handle that multiplicity.
+
