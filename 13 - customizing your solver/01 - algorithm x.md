@@ -6,7 +6,7 @@ In the next graphic, I have copied the algorithm provided on Wikipedia which cam
 
 <BR><BR>
 ![Algorithm X](AlgorithmX.png)
-<BR>
+<BR> 
 
 # Long Pause
 
