@@ -16,6 +16,16 @@ As I move forward with customization options, I will assume you have a reasonabl
 
 Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all yet-to-be-covered columns in the matrix. Once a column is chosen, Step 3 loops through all rows that cover that column and those rows are chosen in some order. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
 
-You do have some influence over how rows and columns are chosen simply by how you set up the matrix. In the absence of detailed instruction, `AlgorithmXSolver` will choose colummns from left to right and rows from top to bottom. `AlgorithmXSolver` has one level of default sorting instructions when choosing a column in Step 2 and no instructions for choosing a row in Step 3. However, it is easy to customize the process of choosing a column, choosing a row or both.
+# ALWAYS TRY THIS FIRST
+
+You do have some influence over how rows and columns are chosen simply by how you set up the matrix. In the absence of detailed instruction, `AlgorithmXSolver` will choose colummns from left to right and rows from top to bottom. In the `AlgorithmXSolver` constructor, the matrix is contructed left-to-right and top-to-bottom to mirror the order in which you built the requirements list and the actions dictionary.
+
+`AlgorithmXSolver` does not have any detailed instructions for ordering rows, so top-to-bottom is the default. Columns are a bit different. By default `AlgorithmXSolver` will always choose the column that is covered by the fewest number of rows. This is referred to as Minimum Remaining Value or MRV. But, what about ties? What if several columns have the same MRV? In what order are those columns tried? `AlgorithmXSolver` breaks ties from left to right.
+
+Being careful about how you build your requirements list and your actions dictionary __is always the easiest way to influence the ordering of choices__ in Steps 2 and 3. It is also the most efficient way to handle sorting of choices as the matrix is built in the order you desire and sorting need only be considered one time.
+
+# Dynamic Sorting
+
+In rare cases, you might wish to customize the sorting or rows and columns on some criteria that can change as the 
 
 Before I cover how to customize each of these selection processes, we must first have a short discussion about [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) and the DLX implementation used in `AlgorithmXSolver`.
