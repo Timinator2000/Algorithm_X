@@ -28,7 +28,7 @@ Being careful about how you build your requirements `list` and your actions `dic
 
 In rare cases, you might wish to customize the sorting or rows and columns on some criteria that can change as Algorithm X works its way through the matrix. As actions are chosen to be part of the solution, tiles are placed on the gameboard and the state of the gameboard changes. Maybe you wish the state of the gameboard to influence the choice of columns or rows.
 
-As I was learning Algorithm X, I solved a number of puzzles using various versions of dynamic sorting. Now that I have built this playground and developed a much better understanding of Algorithm X, I must admit, I have removed all dynamic sorting from 100% of the puzzles I have solved with Algorithm X. On several puzzles, I am very careful about how I set up the matrix, but on no puzzles do I use the customization techniques I am about to describe.
+As I was learning Algorithm X, I solved a number of puzzles using various versions of dynamic sorting. Now that I have built this playground and developed a much better understanding of Algorithm X, I must admit, I have removed all dynamic sorting from 100% of those puzzles. On several puzzles, I am very careful about how I set up the matrix, but on no puzzles do I use the customization techniques I am about to describe.
 
 This playground covers quite a lot of material, but it can never cover every possible exact cover problem. Although you may not need these strategies today, you might need them on a future problem. 
 
