@@ -24,7 +24,7 @@ With my Algorithm X setup, a number of the 75 test cases have between 3000 and 5
 
 # A Confession
 
-I placed this puzzle in this section for a reason. Setting up Algorithm X for this puzzle is not terribly difficult, but optimization can be very challenging. My original solution used a clever combination of dynamic sorting for both columns and rows. I kept track of remaining open cells on the gameboard, among a few other things, and made various sorting decision based on that information. Now that my understanding of Algorithm X is much better, my current solution does not do any dynamic sorting. However, the ordering of rows and columns in my matrix is very important!
+I placed this puzzle in this section for a reason. Setting up Algorithm X for this puzzle requires strong attention to detail, but getting Algorithm X to find solutions for the easy test cases is not the toughest part. Optimization is where you will find the most significant challenge. My original solution used a clever combination of dynamic sorting for both columns and rows. I kept track of remaining open cells on the gameboard, among several other things, and made various sorting decision based on that information. Now that my understanding of Algorithm X is much better, my current solution does not use any dynamic sorting. However, the ordering of rows and columns in my matrix is very important!
 
 # Making Your Solution Fast
 
