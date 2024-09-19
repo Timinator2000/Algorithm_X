@@ -22,7 +22,7 @@ You do have some influence over how rows and columns are chosen simply by how yo
 
 `AlgorithmXSolver` does not have any detailed instructions for ordering rows, so top-to-bottom is the default. Columns are a bit different. By default, `AlgorithmXSolver` will always choose the column that is covered by the fewest number of rows. This is referred to as Minimum Remaining Value or MRV. But, what about ties? What if several columns have the same MRV? In what order are those columns tried? Unless instructed otherwise, `AlgorithmXSolver` breaks ties from left to right.
 
-Being careful about how you build your requirements `list` and your actions `dictionary` __is always the easiest way to influence the ordering of choices__ in Steps 2 and 3. It is also the most efficient way to handle sorting of choices as the matrix is built in the order you desire, and sorting need only be considered once.
+Being careful about how you build your requirements `list` and your actions `dictionary` __is always the easiest way to influence the ordering of choices__ in Steps 2 and 3. It is also the most efficient way to handle sorting of choices as the matrix is built in the order you desire, and sort order is only considered once.
 
 # Dynamic Sorting
 
