@@ -16,7 +16,7 @@ As I move forward with customization options, I will assume you have a reasonabl
 
 Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. In Step 2, a column is chosen from all yet-to-be-covered columns in the matrix. Once a column is chosen, Step 3 loops through all rows that cover that column and those rows are chosen in some order. In certain situations, __especially when the matrix is large__, these choices can make a meaningful difference.
 
-# __Always Try This First__
+# Always Try This First
 
 You do have some influence over how rows and columns are chosen simply by how you set up the matrix. In the absence of detailed instruction, `AlgorithmXSolver` will choose columns from left to right and rows from top to bottom. In the `AlgorithmXSolver` constructor, the matrix is contructed left-to-right and top-to-bottom to mirror the order in which you built the requirements `list` and the actions `dictionary`.
 
