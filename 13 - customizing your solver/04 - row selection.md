@@ -36,12 +36,16 @@ The following override will make sure integers for a Sudoku cell are always trie
         return -val
 ```
 
-If you really want to get crazy with your sort criteria, the following override will make sure integers are again tried in descending order, but this time all even numbers are tried before odd numbers:
+If you really want to get crazy with a dynamic strategy, the following override will order rows according to the following two criteia:
+
+* First, how close the number is the average of all remaining cell candidates.
+* Second, being lower than the average is prioritized over being higher than the average. 
 
 ```python
     def _action_sort_criteria(self, row_header: DLXCell):
-        _, _, _, val = row_header.title
-        return (val % 2, -val)
+        _, row, col, val = row_header.title
+        average = sum(all remaining candidates for grid[(row, col)] / number of remaining candidates
+        return (absolute value(average - val), val - average)
 ```
 
-With these new tools in place, let's take a look at the [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255) found on [CodeWars](https://www.codewars.com).
+I understand the example above is strange, but you could try it. Hopefully, you better understand how column and row ordering can affect your Algorithm X solution. With this in mind, let's take a look at [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255) found on [CodeWars](https://www.codewars.com).
