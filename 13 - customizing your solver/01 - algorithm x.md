@@ -34,4 +34,4 @@ This playground covers quite a lot of material, but it can never cover every pos
 
 # But, First…
 
-Before I cover how to dynamically customize the selection processes used in Steps 2 and 3, we must first have a short discussion about [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) and the DLX implementation used in `AlgorithmXSolver`.
+Before I cover how to further customize the selection processes used in Steps 2 and 3, we must first have a short discussion about [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) and the DLX implementation used in `AlgorithmXSolver`.
