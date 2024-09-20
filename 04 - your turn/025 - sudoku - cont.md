@@ -59,4 +59,4 @@ I have never used hints as part of an exact cover solution, but you will run int
 
 # Option 3: Give Algorithm X a Partial Problem
 
-I NEED TO REVISIT THIS AFTER REWORKING THE HARDER PUZZLES
+In some puzzles, a portion of the solution can be determined before Algorithm X begins backtracking and what remains for Algorithm X feels like a puzzle that can stand alone. In these cases, I have chosen to maintain a list of actions that must be part of the final solution, while then giving Algorithm X a smaller version of the problem to solve. The smaller problem feels identical to the larger problem in all ways except size. Later in the playground, I will identify a couple of puzzles with which I used this third technique.
