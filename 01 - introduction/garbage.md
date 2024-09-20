@@ -70,7 +70,7 @@
 |32|59631|[Neural Network xor example from scratch (no libs)](https://tech.io//playgrounds/59631/neural-network-xor-example-from-scratch-no-libs)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|14349|47|en|33|
 |33|46262|[On generating opening book for Yavalath MCTS bot](https://tech.io//playgrounds/46262/on-generating-opening-book-for-yavalath-mcts-bot)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|4008|14|en|33|
 |34|58302|[Using Pragma For Compile Optimization](https://tech.io//playgrounds/58302/using-pragma-for-compile-optimization)|[LazyMammal](https://www.codingame.com/profile/f0bc8a5294a05437ffe941f4217dc12d3497651)|17794|37|en|31|
-|35|17176|[Recueil d'exercices pour apprendre Python au lycée](https://tech.io//playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee)|[M_C](https://www.codingame.com/profile/0a7f61fbebaa2aa7e4344110a9141e0c8068932)|1586377|692|fr|32|
+|35|17176|[Recueil d'exercices pour apprendre Python au lycée](https://tech.io//playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee)|[M_C](https://www.codingame.com/profile/0a7f61fbebaa2aa7e4344110a9141e0c8068932)|1586379|692|fr|32|
 |36|44088|[Code a la Mode Post Mortem](https://tech.io//playgrounds/44088/code-a-la-mode-post-mortem)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|3929|22|en|38|
 |37|58572|[Endgame books in Oware Abapa](https://tech.io//playgrounds/58572/endgame-books-in-oware-abapa)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|1868|17|en|38|
 |38|38626|[Optimizing breadth first search](https://tech.io//playgrounds/38626/optimizing-breadth-first-search)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|18496|46|en|38|
@@ -82,7 +82,7 @@
 
 
 
-[TECH.IO](https://tech.io/) has another 777 playgrounds written by authors below level 30. In an effort to reduce the size of this last list, the following criteria has been used to filter playgroungs.
+[TECH.IO](https://tech.io/) has another 771 playgrounds written by authors below level 30. In an effort to reduce the size of this last list, the following criteria has been used to filter playgroungs.
 
 * Each playground must be in the top 30% based on views.
 
@@ -92,7 +92,7 @@
 
 Playgrounds that meet these criteria are then sorted by adjusted likes.
 
-# Author Level Below 30 - Top 70
+# Author Level Below 30 - Top 65
 
 || ID | Title | Author | Views | Likes | Language | Level |
 |:---:|:---:|:------|:-------|:-----:|:-----:|:--------:|:-----:|
@@ -112,60 +112,53 @@ Playgrounds that meet these criteria are then sorted by adjusted likes.
 |14|56931|[Les bases de Python pour le lycée](https://tech.io//playgrounds/56931/les-bases-de-python-pour-le-lycee)|[smalicet](https://www.codingame.com/profile/e352a1e62930b9afb054b9af7b57c3d85589814)|141943|366|fr|1|
 |15|14213|[How to play with strings in C](https://tech.io//playgrounds/14213/how-to-play-with-strings-in-c)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|2610128|96|en|26|
 |16|56934|[Apprendre le HTML et le CSS en seconde](https://tech.io//playgrounds/56934/apprendre-le-html-et-le-css-en-seconde)|[AssuAOU](https://www.codingame.com/profile/5fb89cf891738da64ae65d731c3de2c00348614)|24149|324|fr|2|
-|17|50785|[Test Java](https://tech.io//playgrounds/50785/test-java)|[[CG]OlogN](https://www.codingame.com/profile/76045133378b06b2fdaa015c7d00ed46980181)|44059|81|en|26|
-|18|1097|[The Most Common Java Pitfalls](https://tech.io//playgrounds/1097/the-most-common-java-pitfalls)|[[CG]OlogN](https://www.codingame.com/profile/76045133378b06b2fdaa015c7d00ed46980181)|51444|75|en|26|
-|19|53303|[Apprendre Python dans le secondaire](https://tech.io//playgrounds/53303/apprendre-python-dans-le-secondaire)|[CarrDav.ous](https://www.codingame.com/profile/8bcfa8109471019bf56e5ff55a05b3af8936273)|321048|304|fr|3|
-|20|18287|[Java  - Les bases](https://tech.io//playgrounds/18287/java---les-bases)|[leon44](https://www.codingame.com/profile/9d26fccbcaf73b74813b3e4989baf0a8642856)|65674|102|fr|23|
-|21|14589|[How to play with pointers in C](https://tech.io//playgrounds/14589/how-to-play-with-pointers-in-c)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|321844|50|en|26|
-|22|35475|[Exercices HTML](https://tech.io//playgrounds/35475/exercices-html)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|91700|216|fr|9|
-|23|491|[Avoiding Null Anti Patterns](https://tech.io//playgrounds/491/avoiding-null-anti-patterns)|[[CG]jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)|43881|25|en|28|
-|24|1434|[Introduction to Functional Programming with Python](https://tech.io//playgrounds/1434/introduction-to-functional-programming-with-python)|[ilovebugs](https://www.codingame.com/profile/6a0582693847374d72403124d755b59a5498171)|44263|42|en|25|
-|25|3151|[How to test if a List contains a specific value in Java](https://tech.io//playgrounds/3151/how-to-test-if-a-list-contains-a-specific-value-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|73169|8|en|28|
-|26|3154|[How to apply a function on each element of a List in Java](https://tech.io//playgrounds/3154/how-to-apply-a-function-on-each-element-of-a-list-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|26331|4|en|28|
-|27|154|[SQL Injection demo](https://tech.io//playgrounds/154/sql-injection-demo)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|122033|33|en|25|
-|28|11292|[Adjustment for Simulated Annealing in CSharp (DRAFT)](https://tech.io//playgrounds/11292/adjustment-for-simulated-annealing-in-csharp-draft)|[Unnamed contributor](https://www.codingame.com/profile/0834cfd00f523531e5cc29f59df6df673131612)|31831|3|en|28|
-|29|304|[Hello World in C++, the long way](https://tech.io//playgrounds/304/hello-world-in-c-the-long-way)|[Matthew-S](https://www.codingame.com/profile/5dd3c6cb2c96149bd3f9fd56cd66139e543998)|34110|142|en|14|
-|30|3743|[👨‍🎓 How to parse JSON in Java](https://tech.io//playgrounds/3743/how-to-parse-json-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|33353|2|en|28|
-|31|8240|[HTML syntax for beginners](https://tech.io//playgrounds/8240/html-syntax-for-beginners)|[Booligoosh](https://www.codingame.com/profile/1f7c0a954e65b4c68398cdf59a5fb7b56803941)|25809|156|en|12|
-|32|64844|[Beginner Java Concepts](https://tech.io//playgrounds/64844/beginner-java-concepts)|[a-Rye](https://www.codingame.com/profile/717d5874113544c75496a2fa42ea08e77460174)|26561|162|en|11|
-|33|53067|[Wie man die Programmierfähigkeiten von Entwicklern vor der Einstellung testet](https://tech.io//playgrounds/53067/wie-man-die-programmierfahigkeiten-von-entwicklern-vor-der-einstellung-testet)|[[CG]OlogN](https://www.codingame.com/profile/76045133378b06b2fdaa015c7d00ed46980181)|30940|7|de|26|
-|34|34542|[Java I: The Java Menace](https://tech.io//playgrounds/34542/java-i-the-java-menace)|[EasyAsPai](https://www.codingame.com/profile/83b67e73312d54a22172212aca01f306169299)|32181|134|en|13|
-|35|4790|[Rich Client Proof of Concept - X11 & fluxbox & Gimp](https://tech.io//playgrounds/4790/rich-client-proof-of-concept---x11-fluxbox-gimp)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|33452|6|en|25|
-|36|503|[Design Patterns](https://tech.io//playgrounds/503/design-patterns)|[Sablier](https://www.codingame.com/profile/301b82e88dc8149b604e41696584ddac406848)|47241|21|en|23|
-|37|36092|[Exercices CSS](https://tech.io//playgrounds/36092/exercices-css)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|62570|155|fr|9|
-|38|52999|[C# Refresh](https://tech.io//playgrounds/52999/c-refresh)|[Nonsultant](https://www.codingame.com/profile/4e0773cb55ce881401c87b65ccb6f4192108863)|53153|221|en|1|
-|39|408|[Tech.io Documentation](https://tech.io//playgrounds/408/tech-io-documentation)|[G-Rom](https://www.codingame.com/profile/7f9a293c196352b682200ce0221fe1c5694481)|1673187|0|en|22|
-|40|6349|[JavaScript: Why does 3 + true = 4? (And Other Quirks)](https://tech.io//playgrounds/6349/javascript-why-does-3-true-4-and-other-quirks)|[bmorelli25](https://www.codingame.com/profile/f16e918d52fe2f9a73b1c02b6abdfe826858491)|172472|181|en|3|
-|41|365|[Getting Started With Rust](https://tech.io//playgrounds/365/getting-started-with-rust)|[lil_firelord](https://www.codingame.com/profile/020b9fd5a1182b9c38d4d13ae46327f41065671)|95945|120|en|8|
-|42|2980|[Practical introduction to Functional Programming with JS](https://tech.io//playgrounds/2980/practical-introduction-to-functional-programming-with-js)|[AndreaZanin](https://www.codingame.com/profile/ebb20ce8c5b4253054c771cd6d9a3d7a3056851)|95410|87|en|10|
-|43|41820|[Exercice PHP - Base](https://tech.io//playgrounds/41820/exercice-php---base)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|38064|97|fr|9|
-|44|34845|[Le PHP - Les bases du langage](https://tech.io//playgrounds/34845/le-php---les-bases-du-langage)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|83621|95|fr|9|
-|45|60055|[C# LINQ Introduction](https://tech.io//playgrounds/60055/c-linq-introduction)|[breigo](https://www.codingame.com/profile/0bd9011d04a41b191f0e386d00863a612285374)|47204|170|en|1|
-|46|55410|[Introduction à JavaScript - WOA JS](https://tech.io//playgrounds/55410/introduction-a-javascript---woa-js)|[stardisblue](https://www.codingame.com/profile/13785c4305386dbd081ab8a39510c7303346541)|29728|93|fr|7|
-|47|3126|[Getting Started with Go](https://tech.io//playgrounds/3126/getting-started-with-go)|[theodesp](https://www.codingame.com/profile/2b2c2f62e9723fe086cbe5e599fc71ec6461312)|49625|151|en|1|
-|48|42852|[PHP Intégration HTML-PHP](https://tech.io//playgrounds/42852/php-integration-html-php)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|27654|71|fr|9|
-|49|20782|[Java Guild Meeting 5/2018](https://tech.io//playgrounds/20782/java-guild-meeting-52018)|[Gi11i4m](https://www.codingame.com/profile/726b9d5f98e244d1b089486ed60d032a2885121)|78002|80|en|8|
-|50|9487|[Deep Learning From Scratch - Theory and Implementation](https://tech.io//playgrounds/9487/deep-learning-from-scratch---theory-and-implementation)|[DanielSabinasz](https://www.codingame.com/profile/8abdaf21dc3dc67d42b40149e4281c985972322)|358888|147|en|1|
-|51|46649|[Java 9 Improvements](https://tech.io//playgrounds/46649/java-9-improvements)|[RunninglVlan](https://www.codingame.com/profile/9636e6591a0a3ded66f13fd2c3d2cc9f2126161)|33094|46|en|11|
-|52|53306|[HTML & CSS](https://tech.io//playgrounds/53306/html-css)|[CarrDav.ous](https://www.codingame.com/profile/8bcfa8109471019bf56e5ff55a05b3af8936273)|27731|124|fr|3|
-|53|9799|[Learn & Solve : call(), apply() and bind() methods in JavaScript](https://tech.io//playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript)|[romeo11](https://www.codingame.com/profile/478ae67c3963af2c86fb08bf465bdc532064912)|201721|142|en|1|
-|54|56810|[Python pour le collège et le lycée. Exercices, Cours, TP, Projets.](https://tech.io//playgrounds/56810/python-pour-le-college-et-le-lycee--exercices-cours-tp-projets-)|[bleucobalt](https://www.codingame.com/profile/6f16b505538cfdebcbb7e4282f487ba29426714)|110414|137|fr|1|
-|55|5529|[Kotlin Starter Pack](https://tech.io//playgrounds/5529/kotlin-starter-pack)|[romainbsl](https://www.codingame.com/profile/d65c2561f8f8210adc87ae91a2572a248722212)|49202|60|en|8|
-|56|56923|[Apprendre les bases de Python pour réussir en N.S.I.](https://tech.io//playgrounds/56923/apprendre-les-bases-de-python-pour-reussir-en-n-s-i-)|[sebmalicet](https://www.codingame.com/profile/66ff8575a2e45c811861587b7565aab98015714)|108597|102|fr|2|
-|57|8747|[React Lifecycle Methods Render And ComponentDidMount](https://tech.io//playgrounds/8747/react-lifecycle-methods-render-and-componentdidmount)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|513911|110|en|1|
-|58|40701|[Help Center](https://tech.io//playgrounds/40701/help-center)|[Tech.IO](https://www.codingame.com/profile/af8ea8bc9b8a961c881d087cabe3ab4e8875302)|172970|109|en|1|
-|59|6181|[JavaScript Arrays - tips, tricks and examples](https://tech.io//playgrounds/6181/javascript-arrays---tips-tricks-and-examples)|[WeeklyWebWisdom](https://www.codingame.com/profile/6a8eef0aaefb5db9900b9742b4db75092870912)|607803|108|en|1|
-|60|53589|[Exercices DOM](https://tech.io//playgrounds/53589/exercices-dom)|[stardisblue](https://www.codingame.com/profile/13785c4305386dbd081ab8a39510c7303346541)|32827|48|fr|7|
-|61|39153|[Le PHP - Intégration au HTML](https://tech.io//playgrounds/39153/le-php---integration-au-html)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|57109|23|fr|9|
-|62|12322|[C# Professional - Basics & OOP - Exercises](https://tech.io//playgrounds/12322/c-professional---basics-oop---exercises)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|42598|103|en|1|
-|63|28826|[Formation Kotlin](https://tech.io//playgrounds/28826/formation-kotlin)|[Takoyaki](https://www.codingame.com/profile/572bd1b2d1232aae7f149623340fae791639812)|37732|50|fr|6|
-|64|6450|[Destructuring objects and arrays in JS](https://tech.io//playgrounds/6450/destructuring-objects-and-arrays-in-js)|[ma[CG]yver](https://www.codingame.com/profile/a15929e60b9fdfcb320eba9be79bf8df3480641)|51273|9|en|10|
-|65|3982|[Hackmyfortress - Hacking Training Center - En/Fr](https://tech.io//playgrounds/3982/hackmyfortress---hacking-training-center---enfr)|[Adrien-fr](https://www.codingame.com/profile/0afdf133ad4ce439f9120899a62ab1e57344981)|130586|58|en|5|
-|66|2205|[7 Features of C++17 that will simplify your code](https://tech.io//playgrounds/2205/7-features-of-c17-that-will-simplify-your-code)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|598084|96|en|1|
-|67|24988|[Programação C](https://tech.io//playgrounds/24988/programacao-c)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|404241|86|pt|2|
-|68|53512|[My First Playground - Node.js](https://tech.io//playgrounds/53512/my-first-playground---node-js)|[Neon_Tuts](https://www.codingame.com/profile/7e769d9600a9fa77678be7950d9d4ea88882573)|23177|34|en|7|
-|69|270|[Functional Programming explained to my grandma](https://tech.io//playgrounds/270/functional-programming-explained-to-my-grandma)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|34921|23|en|8|
-|70|49038|[Exercices Paper](https://tech.io//playgrounds/49038/exercices-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|36894|12|fr|9|
-
-
+|17|1097|[The Most Common Java Pitfalls](https://tech.io//playgrounds/1097/the-most-common-java-pitfalls)|[[CG]OlogN](https://www.codingame.com/profile/76045133378b06b2fdaa015c7d00ed46980181)|51444|75|en|26|
+|18|53303|[Apprendre Python dans le secondaire](https://tech.io//playgrounds/53303/apprendre-python-dans-le-secondaire)|[CarrDav.ous](https://www.codingame.com/profile/8bcfa8109471019bf56e5ff55a05b3af8936273)|321048|304|fr|3|
+|19|18287|[Java  - Les bases](https://tech.io//playgrounds/18287/java---les-bases)|[leon44](https://www.codingame.com/profile/9d26fccbcaf73b74813b3e4989baf0a8642856)|65674|102|fr|23|
+|20|14589|[How to play with pointers in C](https://tech.io//playgrounds/14589/how-to-play-with-pointers-in-c)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|321844|50|en|26|
+|21|35475|[Exercices HTML](https://tech.io//playgrounds/35475/exercices-html)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|91700|216|fr|9|
+|22|491|[Avoiding Null Anti Patterns](https://tech.io//playgrounds/491/avoiding-null-anti-patterns)|[[CG]jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)|43881|25|en|28|
+|23|1434|[Introduction to Functional Programming with Python](https://tech.io//playgrounds/1434/introduction-to-functional-programming-with-python)|[ilovebugs](https://www.codingame.com/profile/6a0582693847374d72403124d755b59a5498171)|44263|42|en|25|
+|24|3151|[How to test if a List contains a specific value in Java](https://tech.io//playgrounds/3151/how-to-test-if-a-list-contains-a-specific-value-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|73169|8|en|28|
+|25|3154|[How to apply a function on each element of a List in Java](https://tech.io//playgrounds/3154/how-to-apply-a-function-on-each-element-of-a-list-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|26331|4|en|28|
+|26|154|[SQL Injection demo](https://tech.io//playgrounds/154/sql-injection-demo)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|122033|33|en|25|
+|27|11292|[Adjustment for Simulated Annealing in CSharp (DRAFT)](https://tech.io//playgrounds/11292/adjustment-for-simulated-annealing-in-csharp-draft)|[Unnamed contributor](https://www.codingame.com/profile/0834cfd00f523531e5cc29f59df6df673131612)|31831|3|en|28|
+|28|304|[Hello World in C++, the long way](https://tech.io//playgrounds/304/hello-world-in-c-the-long-way)|[Matthew-S](https://www.codingame.com/profile/5dd3c6cb2c96149bd3f9fd56cd66139e543998)|34110|142|en|14|
+|29|3743|[👨‍🎓 How to parse JSON in Java](https://tech.io//playgrounds/3743/how-to-parse-json-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|33353|2|en|28|
+|30|8240|[HTML syntax for beginners](https://tech.io//playgrounds/8240/html-syntax-for-beginners)|[Booligoosh](https://www.codingame.com/profile/1f7c0a954e65b4c68398cdf59a5fb7b56803941)|25809|156|en|12|
+|31|64844|[Beginner Java Concepts](https://tech.io//playgrounds/64844/beginner-java-concepts)|[a-Rye](https://www.codingame.com/profile/717d5874113544c75496a2fa42ea08e77460174)|26561|162|en|11|
+|32|53067|[Wie man die Programmierfähigkeiten von Entwicklern vor der Einstellung testet](https://tech.io//playgrounds/53067/wie-man-die-programmierfahigkeiten-von-entwicklern-vor-der-einstellung-testet)|[[CG]OlogN](https://www.codingame.com/profile/76045133378b06b2fdaa015c7d00ed46980181)|30940|7|de|26|
+|33|34542|[Java I: The Java Menace](https://tech.io//playgrounds/34542/java-i-the-java-menace)|[EasyAsPai](https://www.codingame.com/profile/83b67e73312d54a22172212aca01f306169299)|32181|134|en|13|
+|34|4790|[Rich Client Proof of Concept - X11 & fluxbox & Gimp](https://tech.io//playgrounds/4790/rich-client-proof-of-concept---x11-fluxbox-gimp)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|33452|6|en|25|
+|35|503|[Design Patterns](https://tech.io//playgrounds/503/design-patterns)|[Sablier](https://www.codingame.com/profile/301b82e88dc8149b604e41696584ddac406848)|47241|21|en|23|
+|36|36092|[Exercices CSS](https://tech.io//playgrounds/36092/exercices-css)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|62570|155|fr|9|
+|37|52999|[C# Refresh](https://tech.io//playgrounds/52999/c-refresh)|[Nonsultant](https://www.codingame.com/profile/4e0773cb55ce881401c87b65ccb6f4192108863)|53153|221|en|1|
+|38|6349|[JavaScript: Why does 3 + true = 4? (And Other Quirks)](https://tech.io//playgrounds/6349/javascript-why-does-3-true-4-and-other-quirks)|[bmorelli25](https://www.codingame.com/profile/f16e918d52fe2f9a73b1c02b6abdfe826858491)|172472|181|en|3|
+|39|365|[Getting Started With Rust](https://tech.io//playgrounds/365/getting-started-with-rust)|[lil_firelord](https://www.codingame.com/profile/020b9fd5a1182b9c38d4d13ae46327f41065671)|95945|120|en|8|
+|40|2980|[Practical introduction to Functional Programming with JS](https://tech.io//playgrounds/2980/practical-introduction-to-functional-programming-with-js)|[AndreaZanin](https://www.codingame.com/profile/ebb20ce8c5b4253054c771cd6d9a3d7a3056851)|95410|87|en|10|
+|41|41820|[Exercice PHP - Base](https://tech.io//playgrounds/41820/exercice-php---base)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|38064|97|fr|9|
+|42|34845|[Le PHP - Les bases du langage](https://tech.io//playgrounds/34845/le-php---les-bases-du-langage)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|83621|95|fr|9|
+|43|60055|[C# LINQ Introduction](https://tech.io//playgrounds/60055/c-linq-introduction)|[breigo](https://www.codingame.com/profile/0bd9011d04a41b191f0e386d00863a612285374)|47204|170|en|1|
+|44|55410|[Introduction à JavaScript - WOA JS](https://tech.io//playgrounds/55410/introduction-a-javascript---woa-js)|[stardisblue](https://www.codingame.com/profile/13785c4305386dbd081ab8a39510c7303346541)|29728|93|fr|7|
+|45|3126|[Getting Started with Go](https://tech.io//playgrounds/3126/getting-started-with-go)|[theodesp](https://www.codingame.com/profile/2b2c2f62e9723fe086cbe5e599fc71ec6461312)|49626|151|en|1|
+|46|42852|[PHP Intégration HTML-PHP](https://tech.io//playgrounds/42852/php-integration-html-php)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|27654|71|fr|9|
+|47|20782|[Java Guild Meeting 5/2018](https://tech.io//playgrounds/20782/java-guild-meeting-52018)|[Gi11i4m](https://www.codingame.com/profile/726b9d5f98e244d1b089486ed60d032a2885121)|78002|80|en|8|
+|48|9487|[Deep Learning From Scratch - Theory and Implementation](https://tech.io//playgrounds/9487/deep-learning-from-scratch---theory-and-implementation)|[DanielSabinasz](https://www.codingame.com/profile/8abdaf21dc3dc67d42b40149e4281c985972322)|358888|147|en|1|
+|49|46649|[Java 9 Improvements](https://tech.io//playgrounds/46649/java-9-improvements)|[RunninglVlan](https://www.codingame.com/profile/9636e6591a0a3ded66f13fd2c3d2cc9f2126161)|33094|46|en|11|
+|50|53306|[HTML & CSS](https://tech.io//playgrounds/53306/html-css)|[CarrDav.ous](https://www.codingame.com/profile/8bcfa8109471019bf56e5ff55a05b3af8936273)|27731|124|fr|3|
+|51|9799|[Learn & Solve : call(), apply() and bind() methods in JavaScript](https://tech.io//playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript)|[romeo11](https://www.codingame.com/profile/478ae67c3963af2c86fb08bf465bdc532064912)|201721|142|en|1|
+|52|5529|[Kotlin Starter Pack](https://tech.io//playgrounds/5529/kotlin-starter-pack)|[romainbsl](https://www.codingame.com/profile/d65c2561f8f8210adc87ae91a2572a248722212)|49202|60|en|8|
+|53|8747|[React Lifecycle Methods Render And ComponentDidMount](https://tech.io//playgrounds/8747/react-lifecycle-methods-render-and-componentdidmount)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|513911|110|en|1|
+|54|6181|[JavaScript Arrays - tips, tricks and examples](https://tech.io//playgrounds/6181/javascript-arrays---tips-tricks-and-examples)|[WeeklyWebWisdom](https://www.codingame.com/profile/6a8eef0aaefb5db9900b9742b4db75092870912)|607803|108|en|1|
+|55|53589|[Exercices DOM](https://tech.io//playgrounds/53589/exercices-dom)|[stardisblue](https://www.codingame.com/profile/13785c4305386dbd081ab8a39510c7303346541)|32827|48|fr|7|
+|56|39153|[Le PHP - Intégration au HTML](https://tech.io//playgrounds/39153/le-php---integration-au-html)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|57109|23|fr|9|
+|57|12322|[C# Professional - Basics & OOP - Exercises](https://tech.io//playgrounds/12322/c-professional---basics-oop---exercises)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|42598|103|en|1|
+|58|28826|[Formation Kotlin](https://tech.io//playgrounds/28826/formation-kotlin)|[Takoyaki](https://www.codingame.com/profile/572bd1b2d1232aae7f149623340fae791639812)|37732|50|fr|6|
+|59|6450|[Destructuring objects and arrays in JS](https://tech.io//playgrounds/6450/destructuring-objects-and-arrays-in-js)|[ma[CG]yver](https://www.codingame.com/profile/a15929e60b9fdfcb320eba9be79bf8df3480641)|51273|9|en|10|
+|60|3982|[Hackmyfortress - Hacking Training Center - En/Fr](https://tech.io//playgrounds/3982/hackmyfortress---hacking-training-center---enfr)|[Adrien-fr](https://www.codingame.com/profile/0afdf133ad4ce439f9120899a62ab1e57344981)|130586|58|en|5|
+|61|2205|[7 Features of C++17 that will simplify your code](https://tech.io//playgrounds/2205/7-features-of-c17-that-will-simplify-your-code)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|598084|96|en|1|
+|62|24988|[Programação C](https://tech.io//playgrounds/24988/programacao-c)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|404241|86|pt|2|
+|63|270|[Functional Programming explained to my grandma](https://tech.io//playgrounds/270/functional-programming-explained-to-my-grandma)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|34921|23|en|8|
+|64|49038|[Exercices Paper](https://tech.io//playgrounds/49038/exercices-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|36894|12|fr|9|
+|65|10614|[Python Unit Test with unittest](https://tech.io//playgrounds/10614/python-unit-test-with-unittest)|[ask3m](https://www.codingame.com/profile/d443b73d44b9b6d72748e97c9e561486424451)|60057|30|en|7|
 
