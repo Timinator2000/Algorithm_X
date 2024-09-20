@@ -71,7 +71,7 @@ Here is a key difference between Assaf’s code and mine. As I build the diction
                                        ('value in box', box, val)]
 ```
 
-# Step 4: Preselect Known Actions – à la Ali Assaf
+# Preselect Known Actions – à la Ali Assaf
 
 After the matrix is built and ready to go, Assaf uses the following code to add actions to the solution before asking Algorithm X to use backtracking to find the remaining actions that solve the entire Sudoku. For each cell in the Sudoku grid that is prefilled with a number (`n`), Assaf makes a call to `select` to add the appropriate action to the solution and make the necessary adjustments to the matrix.
 
@@ -82,7 +82,7 @@ After the matrix is built and ready to go, Assaf uses the following code to add 
                 select(X, Y, (i, j, n))
 ```
 
-# Step 4: Preselect Known Actions – à la Timinator
+# Preselect Known Actions – à la Timinator
 
 Because I have limited the actions to only what is possible, no preselection is done. Algorithm X has no choice but to select the appropriate actions to include the prefilled numbers as part of the solution.
 
