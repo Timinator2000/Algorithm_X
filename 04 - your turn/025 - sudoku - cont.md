@@ -55,7 +55,7 @@ If you search the internet for DLX Sudoku solutions, you will find solutions tha
                 add the new "hint" to the list of satisfied requirements
 ```
 
-I have never used Option 3 as part of an exact cover solution, but you will run into this technique if you study other Algorithm X solutions found online.
+I have never used hints as part of an exact cover solution, but you will run into this technique if you study other Algorithm X solutions found online.
 
 # Option 3: Give Algorithm X a Partial Problem
 
