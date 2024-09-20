@@ -1,7 +1,7 @@
 # Author Level 50 and Up
 
 || ID | Title | Author | Language |
-|:---:|:---:|:------|:-------|:-----:|:-----:|:--------:|:-----:|
+|:---:|:---:|:------|:-------|:-----:|
 |1|53705|[Contest tools and workflow](https://tech.io//playgrounds/53705/contest-tools-and-workflow)|[eulerscheZahl](https://www.codingame.com/profile/8374201b6f1d19eb99d61c80351465b65150051)|en|
 |2|57902|[Totoro Beam Search C++ Starter](https://tech.io//playgrounds/57902/totoro-beam-search-c-starter)|[Unnamed contributor](https://www.codingame.com/profile/e9c83cc4767eb16667a33d90907479d08093402)|en|
 
@@ -10,7 +10,7 @@
 # Author Level 40 to 49
 
 || ID | Title | Author | Language |
-|:---:|:---:|:------|:-------|:-----:|:-----:|:--------:|:-----:|
+|:---:|:---:|:------|:-------|:-----:|
 |1|9625|[Algorithmie en Java](https://tech.io//playgrounds/9625/algorithmie-en-java)|[egaetan](https://www.codingame.com/profile/30d5a991c36b67dde118002936eb22f80251431)|fr|
 |2|1994|[Haskell](https://tech.io//playgrounds/1994/haskell)|[JBM](https://www.codingame.com/profile/0d71f9df5da706f9f77c07c34d12480e609451)|en|
 |3|2048|[Try Haskell!](https://tech.io//playgrounds/2048/try-haskell)|[JBM](https://www.codingame.com/profile/0d71f9df5da706f9f77c07c34d12480e609451)|en|
@@ -35,7 +35,7 @@
 # Author Level 30 to 39
 
 || ID | Title | Author | Language |
-|:---:|:---:|:------|:-------|:-----:|:-----:|:--------:|:-----:|
+|:---:|:---:|:------|:-------|:-----:|
 |1|2524|[Basic Image Manipulation](https://tech.io//playgrounds/2524/basic-image-manipulation)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
 |2|39380|[Finding Shortest Path in the Plane with Obstacles](https://tech.io//playgrounds/39380/finding-shortest-path-in-the-plane-with-obstacles)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
 |3|37409|[Handwritten Digit Recognition Using scikit-learn](https://tech.io//playgrounds/37409/handwritten-digit-recognition-using-scikit-learn)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
@@ -94,7 +94,7 @@ Playgrounds that meet these criteria are then sorted by adjusted likes.
 # Author Level Below 30 - Top 65
 
 || ID | Title | Author | Language |
-|:---:|:---:|:------|:-------|:-----:|:-----:|:--------:|:-----:|
+|:---:|:---:|:------|:-------|:-----:|
 |1|334|[Genetic Algorithms](https://tech.io//playgrounds/334/genetic-algorithms)|[Sablier](https://www.codingame.com/profile/301b82e88dc8149b604e41696584ddac406848)|en|
 |2|172|[Ternary Operator](https://tech.io//playgrounds/172/ternary-operator)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|en|
 |3|52875|[Apprendre le C++](https://tech.io//playgrounds/52875/apprendre-le-c)|[yantra](https://www.codingame.com/profile/e552f422d889ead3facdfb6273dae41f4860071)|fr|
