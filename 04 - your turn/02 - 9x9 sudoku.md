@@ -55,7 +55,8 @@ Assaf builds a dictionary of actions (`Y`). Notice that __all__ possible actions
 
 # Identify Actions – à la Timinator
 
-Here is a key difference between Assaf’s code and mine. As I build the dictionary of actions, I limit the actions to only what is possible. A cell that is prefilled only has one candidate, while a blank cell has many candidates.
+Here is a key difference between Assaf’s code and mine. As I build the dictionary of actions, I limit the actions to only what is possible. A cell that is prefilled only has one candidate, while a blank cell has many candidates. I have also chosen to include an identifier string in my action tuples due to benefits realized while debugging.
+
 
 ```python
         actions = dict()
@@ -69,8 +70,6 @@ Here is a key difference between Assaf’s code and mine. As I build the diction
                                        ('value in col', col, val),
                                        ('value in box', box, val)]
 ```
-
-I have chosen to include an identifier string in my action tuples due to benefits realized while debugging.
 
 # Step 4: Preselect Known Actions – à la Ali Assaf
 
