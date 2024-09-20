@@ -1,34 +1,25 @@
-# Author Level 50 and Up
-
-|| ID | Title | Author | Language |
-|:---:|:---:|:------|:-------|:-----:|
-|1|53705|[Contest tools and workflow](https://tech.io//playgrounds/53705/contest-tools-and-workflow)|[eulerscheZahl](https://www.codingame.com/profile/8374201b6f1d19eb99d61c80351465b65150051)|en|
-|2|57902|[Totoro Beam Search C++ Starter](https://tech.io//playgrounds/57902/totoro-beam-search-c-starter)|[Unnamed contributor](https://www.codingame.com/profile/e9c83cc4767eb16667a33d90907479d08093402)|en|
-
-
-
-# Author Level 40 to 49
+# Author Level 40 and Up
 
 || ID | Title | Author | Language |
 |:---:|:---:|:------|:-------|:-----:|
 |1|9625|[Algorithmie en Java](https://tech.io//playgrounds/9625/algorithmie-en-java)|[egaetan](https://www.codingame.com/profile/30d5a991c36b67dde118002936eb22f80251431)|fr|
-|2|1994|[Haskell](https://tech.io//playgrounds/1994/haskell)|[JBM](https://www.codingame.com/profile/0d71f9df5da706f9f77c07c34d12480e609451)|en|
-|3|2048|[Try Haskell!](https://tech.io//playgrounds/2048/try-haskell)|[JBM](https://www.codingame.com/profile/0d71f9df5da706f9f77c07c34d12480e609451)|en|
-|4|1939|[Basic simulation and evaluation](https://tech.io//playgrounds/1939/basic-simulation-and-evaluation)|[MadKnight](https://www.codingame.com/profile/b50b600f5dc25555f35bd2da9a0cf8a07356021)|en|
-|5|347|[JavaScript promises, mastering the asynchronous](https://tech.io//playgrounds/347/javascript-promises-mastering-the-asynchronous)|[Magus](https://www.codingame.com/profile/1724dffd64c8c26c9fa9a189691387b5760508)|en|
-|6|482|[JavaScript, async and await keywords](https://tech.io//playgrounds/482/javascript-async-and-await-keywords)|[Magus](https://www.codingame.com/profile/1724dffd64c8c26c9fa9a189691387b5760508)|en|
-|7|58137|[AlphaZero like implementation for Oware Abapa game (Codingame)](https://tech.io//playgrounds/58137/alphazero-like-implementation-for-oware-abapa-game-codingame)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|8|15869|[C++ Runnable Snippets](https://tech.io//playgrounds/15869/c-runnable-snippets)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|9|51348|[CGFunge Batch Runner](https://tech.io//playgrounds/51348/cgfunge-batch-runner)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|10|218|[Regular Expressions Basics](https://tech.io//playgrounds/218/regular-expressions-basics)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|11|283|[SSE & AVX Vectorization](https://tech.io//playgrounds/283/sse-avx-vectorization)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|12|243|[Voronoi Diagrams](https://tech.io//playgrounds/243/voronoi-diagrams)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|13|345|[C# LINQ Background Topics](https://tech.io//playgrounds/345/c-linq-background-topics)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
-|14|2135|[Linux Filesystems 101 - Block Devices](https://tech.io//playgrounds/2135/linux-filesystems-101---block-devices)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
-|15|213|[Using C# LINQ - A Practical Overview](https://tech.io//playgrounds/213/using-c-linq---a-practical-overview)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
-|16|56997|[A Babel of Languages on CodinGame](https://tech.io//playgrounds/56997/a-babel-of-languages-on-codingame)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
-|17|77580|[PHP Dev Tools (for CodinGame or elsewhere)](https://tech.io//playgrounds/77580/php-dev-tools-for-codingame-or-elsewhere)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
-|18|59982|[Swapping languages on CodinGame (a.k.a. system() calls)](https://tech.io//playgrounds/59982/swapping-languages-on-codingame-a-k-a--system-calls)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
+|2|53705|[Contest tools and workflow](https://tech.io//playgrounds/53705/contest-tools-and-workflow)|[eulerscheZahl](https://www.codingame.com/profile/8374201b6f1d19eb99d61c80351465b65150051)|en|
+|3|1939|[Basic simulation and evaluation](https://tech.io//playgrounds/1939/basic-simulation-and-evaluation)|[MadKnight](https://www.codingame.com/profile/b50b600f5dc25555f35bd2da9a0cf8a07356021)|en|
+|4|347|[JavaScript promises, mastering the asynchronous](https://tech.io//playgrounds/347/javascript-promises-mastering-the-asynchronous)|[Magus](https://www.codingame.com/profile/1724dffd64c8c26c9fa9a189691387b5760508)|en|
+|5|482|[JavaScript, async and await keywords](https://tech.io//playgrounds/482/javascript-async-and-await-keywords)|[Magus](https://www.codingame.com/profile/1724dffd64c8c26c9fa9a189691387b5760508)|en|
+|6|58137|[AlphaZero like implementation for Oware Abapa game (Codingame)](https://tech.io//playgrounds/58137/alphazero-like-implementation-for-oware-abapa-game-codingame)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|7|15869|[C++ Runnable Snippets](https://tech.io//playgrounds/15869/c-runnable-snippets)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|8|51348|[CGFunge Batch Runner](https://tech.io//playgrounds/51348/cgfunge-batch-runner)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|9|218|[Regular Expressions Basics](https://tech.io//playgrounds/218/regular-expressions-basics)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|10|283|[SSE & AVX Vectorization](https://tech.io//playgrounds/283/sse-avx-vectorization)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|11|243|[Voronoi Diagrams](https://tech.io//playgrounds/243/voronoi-diagrams)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|12|345|[C# LINQ Background Topics](https://tech.io//playgrounds/345/c-linq-background-topics)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
+|13|2135|[Linux Filesystems 101 - Block Devices](https://tech.io//playgrounds/2135/linux-filesystems-101---block-devices)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
+|14|213|[Using C# LINQ - A Practical Overview](https://tech.io//playgrounds/213/using-c-linq---a-practical-overview)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
+|15|56997|[A Babel of Languages on CodinGame](https://tech.io//playgrounds/56997/a-babel-of-languages-on-codingame)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
+|16|77580|[PHP Dev Tools (for CodinGame or elsewhere)](https://tech.io//playgrounds/77580/php-dev-tools-for-codingame-or-elsewhere)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
+|17|59982|[Swapping languages on CodinGame (a.k.a. system() calls)](https://tech.io//playgrounds/59982/swapping-languages-on-codingame-a-k-a--system-calls)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
+|18|57902|[Totoro Beam Search C++ Starter](https://tech.io//playgrounds/57902/totoro-beam-search-c-starter)|[Unnamed contributor](https://www.codingame.com/profile/e9c83cc4767eb16667a33d90907479d08093402)|en|
 
 
 
@@ -81,7 +72,9 @@
 
 
 
-[TECH.IO](https://tech.io/) has another 771 playgrounds written by authors below level 30. In an effort to reduce the size of this last list, the following criteria has been used to filter playgroungs.
+***
+
+[TECH.IO](https://tech.io/) has over 780 more playgrounds not included above. In an effort to reduce the size of this last list, the following criteria has been used to filter playgroungs.
 
 * Each playground must be in the top 30% based on views.
 
@@ -159,7 +152,6 @@ Playgrounds that meet these criteria are then sorted by adjusted likes.
 |62|24988|[Programação C](https://tech.io//playgrounds/24988/programacao-c)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|pt|
 |63|270|[Functional Programming explained to my grandma](https://tech.io//playgrounds/270/functional-programming-explained-to-my-grandma)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|en|
 |64|49038|[Exercices Paper](https://tech.io//playgrounds/49038/exercices-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|fr|
-|65|10614|[Python Unit Test with unittest](https://tech.io//playgrounds/10614/python-unit-test-with-unittest)|[ask3m](https://www.codingame.com/profile/d443b73d44b9b6d72748e97c9e561486424451)|en|
-
+|65|35462|[Creating Web API in ASP.NET Core 2.0](https://tech.io//playgrounds/35462/creating-web-api-in-asp-net-core-2-0)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|en|
 
 
