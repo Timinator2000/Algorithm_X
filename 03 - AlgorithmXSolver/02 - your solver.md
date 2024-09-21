@@ -17,7 +17,7 @@ The last line might be a bit unfamiliar. When overriding a method, such as the c
 
 # Build the Requirements
 
-Of course, `MrsKnuthPartISolver` needs to know about Mrs. Knuth's availability and all the students that need to be scheduled. For now, I’m going to add parameters to the constructor, but I will leave the details of those parameters to you. For this toy example, I’m going to ignore those parameters and I’m going to _hard code_ the actions and requirements. Obviously, this will not be sufficient for anything other than the first test case in the puzzle.
+Of course, `MrsKnuthPartISolver` needs to know about Mrs. Knuth's availability and all the students that need to be scheduled. For now, I will add parameters to the constructor, but I will leave the details of those parameters to you. For this toy example, I will ignore those parameters and I will  _hard code_ the actions and requirements. Obviously, this will not be sufficient for anything other than the first test case in the puzzle.
 
 ```python
 class MrsKnuthPartISolver(AlgorithmXSolver):
