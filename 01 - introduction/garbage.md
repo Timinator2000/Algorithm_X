@@ -1,3 +1,5 @@
+***
+
 # Author Level 40 and Up
 
 || ID | Title | Author | Language |
@@ -23,6 +25,8 @@
 
 
 
+***
+
 # Author Level 30 to 39
 
 || ID | Title | Author | Language |
@@ -38,18 +42,18 @@
 |9|36505|[Why Learn Python](https://tech.io//playgrounds/36505/why-learn-python)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
 |10|349|[Introduction to MPI](https://tech.io//playgrounds/349/introduction-to-mpi)|[Aveuh](https://www.codingame.com/profile/45184b23e68d79b7b6e386e6517992db751608)|en|
 |11|52463|[Bulls and Cows](https://tech.io//playgrounds/52463/bulls-and-cows)|[CyberLemonade](https://www.codingame.com/profile/d8a0152458f424d53995a613b5abea4f9610312)|en|
-|12|50553|[BrainFuck part 10 - RPN calc tool](https://tech.io//playgrounds/50553/brainfuck-part-10---rpn-calc-tool)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|13|50565|[BrainFuck part 11 - Iterative and recursive ways](https://tech.io//playgrounds/50565/brainfuck-part-11---iterative-and-recursive-ways)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|14|50567|[BrainFuck part 12 - BF self-executables](https://tech.io//playgrounds/50567/brainfuck-part-12---bf-self-executables)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|15|50580|[BrainFuck part 13 - Funky output](https://tech.io//playgrounds/50580/brainfuck-part-13---funky-output)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|16|50443|[BrainFuck part 2 - Working with arrays](https://tech.io//playgrounds/50443/brainfuck-part-2---working-with-arrays)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|17|50446|[BrainFuck part 3 - Write a BF interpreter in BF](https://tech.io//playgrounds/50446/brainfuck-part-3---write-a-bf-interpreter-in-bf)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|18|50455|[BrainFuck part 4 - Advanced maths](https://tech.io//playgrounds/50455/brainfuck-part-4---advanced-maths)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|19|50478|[BrainFuck part 5 - Math sequences](https://tech.io//playgrounds/50478/brainfuck-part-5---math-sequences)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|20|50482|[BrainFuck part 6 - 16-bit integers](https://tech.io//playgrounds/50482/brainfuck-part-6---16-bit-integers)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|21|50485|[BrainFuck part 7 - Quine (+ some non-BF quine theory)](https://tech.io//playgrounds/50485/brainfuck-part-7---quine-some-non-bf-quine-theory)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|22|50499|[BrainFuck part 8 - JS/C#/BF Multi quine](https://tech.io//playgrounds/50499/brainfuck-part-8---jscbf-multi-quine)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|23|50516|[BrainFuck part 9 - Sort arrays with Bubble and QuickSort](https://tech.io//playgrounds/50516/brainfuck-part-9---sort-arrays-with-bubble-and-quicksort)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|12|50443|[BrainFuck part 2 - Working with arrays](https://tech.io//playgrounds/50443/brainfuck-part-2---working-with-arrays)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|13|50446|[BrainFuck part 3 - Write a BF interpreter in BF](https://tech.io//playgrounds/50446/brainfuck-part-3---write-a-bf-interpreter-in-bf)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|14|50455|[BrainFuck part 4 - Advanced maths](https://tech.io//playgrounds/50455/brainfuck-part-4---advanced-maths)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|15|50478|[BrainFuck part 5 - Math sequences](https://tech.io//playgrounds/50478/brainfuck-part-5---math-sequences)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|16|50482|[BrainFuck part 6 - 16-bit integers](https://tech.io//playgrounds/50482/brainfuck-part-6---16-bit-integers)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|17|50485|[BrainFuck part 7 - Quine (+ some non-BF quine theory)](https://tech.io//playgrounds/50485/brainfuck-part-7---quine-some-non-bf-quine-theory)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|18|50499|[BrainFuck part 8 - JS/C#/BF Multi quine](https://tech.io//playgrounds/50499/brainfuck-part-8---jscbf-multi-quine)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|19|50516|[BrainFuck part 9 - Sort arrays with Bubble and QuickSort](https://tech.io//playgrounds/50516/brainfuck-part-9---sort-arrays-with-bubble-and-quicksort)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|20|50553|[BrainFuck part 10 - RPN calc tool](https://tech.io//playgrounds/50553/brainfuck-part-10---rpn-calc-tool)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|21|50565|[BrainFuck part 11 - Iterative and recursive ways](https://tech.io//playgrounds/50565/brainfuck-part-11---iterative-and-recursive-ways)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|22|50567|[BrainFuck part 12 - BF self-executables](https://tech.io//playgrounds/50567/brainfuck-part-12---bf-self-executables)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|23|50580|[BrainFuck part 13 - Funky output](https://tech.io//playgrounds/50580/brainfuck-part-13---funky-output)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
 |24|50426|[Getting started with BrainFuck](https://tech.io//playgrounds/50426/getting-started-with-brainfuck)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
 |25|53455|[Fast 15x15 bit grid BFS: breadth first search](https://tech.io//playgrounds/53455/fast-15x15-bit-grid-bfs-breadth-first-search)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
 |26|75040|[Fast 6x12 Connected Components using bit-optimized BFS](https://tech.io//playgrounds/75040/fast-6x12-connected-components-using-bit-optimized-bfs)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
@@ -74,7 +78,7 @@
 
 ***
 
-[TECH.IO](https://tech.io/) has over 780 more playgrounds not included above. In an effort to reduce the size of this last list, the following criteria has been used to filter playgroungs.
+[TECH.IO](https://tech.io/) has over 769 more playgrounds not included above. In an effort to reduce the size of this last list, the following criteria has been used to filter playgroungs.
 
 * Each playground must be in the top 30% based on views.
 
@@ -153,5 +157,7 @@ Playgrounds that meet these criteria are then sorted by adjusted likes.
 |63|270|[Functional Programming explained to my grandma](https://tech.io//playgrounds/270/functional-programming-explained-to-my-grandma)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|en|
 |64|49038|[Exercices Paper](https://tech.io//playgrounds/49038/exercices-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|fr|
 |65|35462|[Creating Web API in ASP.NET Core 2.0](https://tech.io//playgrounds/35462/creating-web-api-in-asp-net-core-2-0)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|en|
+
+
 
 
