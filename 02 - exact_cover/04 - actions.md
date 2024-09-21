@@ -45,7 +45,7 @@ The first two should be obvious, but what about the 3rd requirement? Why is that
 ('place student', 'Alex', 'Tuba', 'Th', 4)
 ```
 
-Instead of “placing Ayla on Thursday at 2”, we are now “placing Ayla, with her Trumpet, on Thursday at 2. Later in this playground I will explain why these human readable tuples never impact out AlgorithXSolver’s performance, which is why I always prefer having a little extra data in a tuple as compared to having to keep track of a separate list that identifies what instrument each student plays.
+Instead of “placing Ayla on Thursday at 2”, we are now “placing Ayla, with her Trumpet, on Thursday at 2. Later in this playground I will explain why these human readable tuples never impact our `AlgorithXSolver`’s performance, which is why I always prefer having a little extra data in a tuple as compared to having to keep track of a separate list that identifies what instrument each student plays.
 
 # A Complete Model
 
