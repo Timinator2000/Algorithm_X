@@ -1,6 +1,6 @@
 # Shikaku Skill Builder
 
-Puzzle: [Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) - FINAL LINK NEEDED
+Puzzle: [Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) - __FINAL LINK NEEDED__
 
 Author: [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
 
@@ -18,7 +18,7 @@ Algorithm X doesn’t know how to “divide” things up. Algorithm X is extreme
 
 # Skill Building
 
-In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of [Shikaku Skill Builder]() __LINK NEEDED__ is to practice enumerating all the possible actions. Let’s test your understanding.
+In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of [Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) __FINAL LINK NEEDED__ is to practice enumerating all the possible actions. Let’s test your understanding.
 
 # Start Out Easy
 
