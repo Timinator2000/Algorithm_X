@@ -13,11 +13,11 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
         super().__init__(requirements, actions)
 ```
 
-The last line might be a bit unfamiliar. When overriding a method, such as the constructor in this case, the goal is sometimes to simply add functionality to the existing functionality. There is actually a lot going on in the AlgorithmXSolver constructor and it all depends on having a list of requirements and a dictionary of actions that are needed to build the matrix. Once the requirements and actions are built, use `super()` to invoke the inherited AlgorithmXSolver constructor with the newly identified requirements and actions.
+The last line might be a bit unfamiliar. When overriding a method, such as the constructor in this case, the goal is sometimes to simply add functionality to the existing functionality. There is actually a lot going on in the `AlgorithmXSolver` constructor and it all depends on having a list of requirements and a dictionary of actions that are needed to build the matrix. Once the requirements and actions are built, use `super()` to invoke the inherited `AlgorithmXSolver` constructor with the newly identified requirements and actions.
 
 # Build the Requirements
 
-Of course, the MrsKnuthPartISolver will need to know about Mrs. Knuth's availability and all the students that need to be scheduled. For now, I’m going to add parameters to the constructor, but I will leave the details of those parameters up to you. For this toy example, I’m going to ignore those parameters and I’m going to _hard code_ the actions and requirements. Obviously, this will not be sufficient for anything other than the first test case in the puzzle.
+Of course, `MrsKnuthPartISolver` needs to know about Mrs. Knuth's availability and all the students that need to be scheduled. For now, I’m going to add parameters to the constructor, but I will leave the details of those parameters up to you. For this toy example, I’m going to ignore those parameters and I’m going to _hard code_ the actions and requirements. Obviously, this will not be sufficient for anything other than the first test case in the puzzle.
 
 ```python
 class MrsKnuthPartISolver(AlgorithmXSolver):
