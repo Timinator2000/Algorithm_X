@@ -86,7 +86,7 @@ Because I have limited the actions to only what is possible, no preselection is 
 
 _I believe Assaf's code has been vital to me and other Python programmers studying Algorithm X. My `AlgorithmXSolver` has been heavily influenced by Assaf, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although Assaf's technique is elegant, I have chosen to limit actions as a standard process across all solutions. I want to point this out for anyone that might be familiar with Assaf's solver and wonder why <u>it is not possible</u> to preselect actions with the `AlgorithmXSolver` provided in this playground._
 
-# Preselection Can be Problematic
+# Preselection Can Be Problematic
 
 The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
 
