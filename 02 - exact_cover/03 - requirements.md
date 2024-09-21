@@ -64,15 +64,13 @@ How many solutions get eliminated? Because all test cases in Mrs. Knuth - Part I
 
 The first two test cases only have Mrs. Knuth teaching on a single day, so there is no impact to those test cases. However, starting with Test Case 3, the unconstrained results grow rapidly. Remember, every one of these possible solutions would need to be checked to make sure no instrument is taught more than once on the same day!
 
-* Test Case 3 - 96 possible solutions
-
-* Test Case 4 - 1,818 possible solutions
-
-* Test Case 5 - 11,414 possible solutions
-
-* Test Case 6 - 130,235 possible solutions
-
-* Test Case 7 – 241,460,379 possible solutions
+| Test Case | Possible Solutions To Test for Duplicate Instruments |
+|:------------|:------------------------------------------------------------------:|
+| 3 - Two-Day Workweek |96|
+| 4 - Three Reasonable Days |1,818|
+| 5 - Three Long Days |11,414|
+| 6 - Four Moderate Days |130,235|
+| 7 - Five Long Days |241,460,379|
 
 There is a moral to this story. It is best to restrict Algorithm X as much as possible with constraints (requirements). You will not always be able to eliminate the need to further validate potential solutions after Algorithm X finds them, but, by maximizing the knowledge passed to Algorithm X, you will probably be rewarded with a significantly smaller set of possible solutions, and in many cases, you will be rewarded with the _only_ valid solution.
 
