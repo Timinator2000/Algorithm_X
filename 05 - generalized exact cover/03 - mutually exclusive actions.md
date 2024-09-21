@@ -1,4 +1,4 @@
-# Mutually Exclusive Actions
+# Mutual Exclusivity
 
 The [Merriam-Webster Dictionary](https://www.merriam-webster.com/) defines [mutually exclusive](https://www.merriam-webster.com/dictionary/mutually%20exclusive) as:
 
