@@ -27,13 +27,13 @@ If you search the internet for DLX Sudoku solutions, you will find solutions tha
     for each cell in the grid
         if the cell is prefilled
             add a new requirement -> (‘hint’, row, col)
-        for all possible values
-            add an action for placing the value in the cell
-            if the value = the value in the cell
+        for v in all possible values
+            add an action for placing v in the cell
+            if the cell is prefilled and v = the cell's prefilled value
                 add the new "hint" to the list of satisfied requirements
 ```
 
-I have never used hints as part of an exact cover solution, but you will run into this technique if you study other Algorithm X solutions found online.
+I have not used hints as part of an exact cover solution, but you will run into this technique if you study other Algorithm X solutions found online.
 
 # Option 3: Give Algorithm X a Partial Problem
 
