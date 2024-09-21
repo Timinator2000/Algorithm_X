@@ -6,7 +6,7 @@ Puzzle: [Mrs. Knuth – Part I](https://www.codingame.com/contribute/view/94231c
 
 # Puzzle Overview
 
-Of course, you will need to properly organize your input and format your output, but the algorithm for building the schedules is a perfect candidate for Algorithm X. For your convenience, I have copied the scheduling portion of the goal section here:
+Of course, you will need to properly organize your input and format your output, but the algorithm for building the schedules is a perfect candidate for Algorithm X. For your convenience, I have copied the scheduling portion of the puzzle's goal section here:
 
 _Mrs. Knuth, the school band teacher, has asked you to write an algorithm to generate her weekly private lesson schedule for the summer. Her availability is different from week to week, but she will always teach between 1 and 5 days per week. On each day that she teaches, she will teach between 2 and 8 hours. Because she likes consistency, she will teach the same number of hours on each day she teaches, but the actual time slots during which she is available might be different from day to day._
 
