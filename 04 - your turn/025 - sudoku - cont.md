@@ -4,7 +4,7 @@ The following 3 options always leave Algorithm X in charge. Instead of preselect
 
 # Option 1: Restrict Possible Actions
 
-Rather than preselecting certain cells, restrict Algorithm X to a single option for certain cells. Algorithm X will immediately select these options because there are no other paths forward. For instance, to restrict the possible actions in a 9x9 Sudoku, loop through all the cells of the grid. If the cell is empty, add 9 possible actions. If the cell already has a value, only add a single action. The pseudocode looks like this:
+Rather than preselecting certain cells, restrict Algorithm X to a single option for those cells. Algorithm X will immediately select these options because there are no other paths forward. For instance, to restrict the possible actions in a 9x9 Sudoku, loop through all the cells of the grid. If the cell is empty, add 9 possible actions. If the cell already has a value, only add a single action. The pseudocode looks like this:
 
 ```text
     for each cell in the grid
