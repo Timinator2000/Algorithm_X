@@ -93,4 +93,4 @@ class MrsKnuthPartISolver(AlgorithmXSolver):
         super().__init__(requirements, actions)
 ```
 
-That's it! We have an (almost) fully functional MrsKnuthPartISolver. You will make it fully functional when you build the requirements and the actions from the parameters rather than hard coding them like I did. Next, we need to ask our new solver to find the solution for us!
+That's it! We have an (almost) fully functional `MrsKnuthPartISolver`. You will make it fully functional when you build the requirements and the actions from the parameters rather than hard coding them like I did. Next, we need to ask our new solver to find the solution for us!
