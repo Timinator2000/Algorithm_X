@@ -1,6 +1,6 @@
 # Print Your Requirements & Actions
 
-The first troubleshooting to take is simply printing the requirements, the actions and the requirements satisfied by each action. Hopefully, this can be done on a reasonably small test case. If the test case is big and there are a lot of requirements and actions, sifting through the printed data can be daunting.
+The first troubleshooting step to take is simply printing the requirements, the actions and the requirements satisfied by each action. Hopefully, this can be done on a small test case. If the test case is big and there are a lot of requirements and actions, sifting through the printed data can be daunting.
 
 When printing the requirements and actions, I suggest doing it right before you invoke the inherited `AlgorithmXSolver` constructor, similar to this:
 
@@ -18,7 +18,7 @@ When printing the requirements and actions, I suggest doing it right before you 
 
 # Study Your Errors
 
-It is critical the tuples you use for requirements and actions always line up with each other so you don’t get `KeyError`s when `AlgorithmXSolver` is setting up the DLX matrix. For instance, ('slot filled', 'Th', 4) is __not__ the same as ('slot filled', 'Thurs', 4). I’m sure that seems obvious, but when you get a `KeyError`, look for places you might have requirement specs that are supposed to be the same, but are slightly different.
+It is critical the tuples you use for requirements and actions always line up with each other so you do not get `KeyError`s when `AlgorithmXSolver` is setting up the DLX matrix. For instance, `('slot filled', 'Th', 4)` is __not__ the same as `('slot filled', 'Thurs', 4)`. I’m sure that seems obvious, but when you get a `KeyError`, look for places you might have requirement specs that are supposed to be the same, but are slightly different.
 
 ```text
 Traceback (most recent call last):
@@ -51,8 +51,6 @@ In this section, I have duplicated the full _hard coded_ solution to the Mrs. Kn
 
 2) Make very minor changes in the requirements to create a `KeyError`.
 
-3) Find a way to make a very minor change that doesn't result in any runtime issues, but Algorithm X fails to find a solution.
+3) Find a way to make a very minor change that does not result in any runtime issues, but Algorithm X fails to find a solution.
 
-```
-[Try to create the three error situations above.]({"stubs": ["part_I_solver.py"], "command": "python3 part_I_solver_test_2.py"})
-```
+@[Try to create the three error situations above.]({"stubs": ["part_I_solver.py"], "command": "python3 part_I_solver_test_2.py"})
