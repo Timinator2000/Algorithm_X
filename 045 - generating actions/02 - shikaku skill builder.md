@@ -18,7 +18,7 @@ Algorithm X doesn’t know how to “divide” things up. Algorithm X is extreme
 
 # Skill Building
 
-In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of [Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) __FINAL LINK NEEDED__ is to practice enumerating all the possible actions. Let’s test your understanding.
+In the Shikaku Skill Builder puzzle, the grids start very small and even the largest grid is just the smallest test case from the [Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) puzzle. The goal of Shikaku Skill Builder is to practice enumerating all the possible actions. Let’s test your understanding.
 
 # Start Out Easy
 
@@ -83,4 +83,4 @@ In this third example, we see there is one place a 2x2 grid will not work becaus
 
 # Ready for the Puzzle!
 
-With the [Shikaku Skill Builder]() __LINK NEEDED__ puzzle, the goal is not to cover the grid. The goal is to identify __every__ rectangle that could be used to build a potential solution. As I mentioned earlier, Algorithm X is really good at finding a set of actions that make a valid solution, but it cannot do its job unless you give it a full set of possible actions to consider. Hopefully this seems obvious and somewhat easy right now. As the puzzles grow in complexity, this process will get more and more challenging!
+With the Shikaku Skill Builder puzzle, the goal is not to cover the grid. The goal is to identify __every__ rectangle that could be used to build a potential solution. As I mentioned earlier, Algorithm X is really good at finding a set of actions that make a valid solution, but it cannot do its job unless you give it a full set of possible actions to consider. Hopefully this seems obvious and somewhat easy right now. As the puzzles grow in complexity, this process will get more and more challenging!
