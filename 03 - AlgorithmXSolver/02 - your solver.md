@@ -1,6 +1,6 @@
-# Create an AlgorithmXSolver Subclass
+# Create an `AlgorithmXSolver` Subclass
 
-Creating a customized solver only has two required steps. First, create a solver class that inherits from AlgorithmXSolver. Second, override the constructor to build your requirements and actions. Let's create a solver to help Mrs. Knuth:
+Creating a customized solver only has two required steps. First, create a solver class that inherits from `AlgorithmXSolver`. Second, override the constructor to build your requirements and actions. Let's create a solver to help Mrs. Knuth:
 
 ``` python
 class MrsKnuthPartISolver(AlgorithmXSolver):
