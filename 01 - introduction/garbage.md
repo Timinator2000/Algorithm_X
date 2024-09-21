@@ -1,3 +1,5 @@
+
+
 ***
 
 # Author Level 40 and Up
@@ -162,84 +164,82 @@ Playgrounds that meet these criteria are then sorted by adjusted likes.
 
 || ID | Title | Author | Views | Likes | Language | Level |
 |:---:|:---:|:------|:-------|:-----:|:-----:|:--------:|:-----:|
-|1|40348|[Scaffolding Entity Framework Core 2 with CatFactory](https://tech.io//playgrounds/40348/scaffolding-entity-framework-core-2-with-catfactory)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|11685|12|en|1|
-|2|49208|[Scaffolding ASP.NET Core 2 with CatFactory](https://tech.io//playgrounds/49208/scaffolding-asp-net-core-2-with-catfactory)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|9848|13|en|1|
-|3|4356|[Standard Library Utilities in C++](https://tech.io//playgrounds/4356/standard-library-utilities-in-c)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|98311|16|en|1|
-|4|5659|[C++17 Filesystem](https://tech.io//playgrounds/5659/c17-filesystem)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|188140|21|en|1|
-|5|7070|[Non Static Data Members Initialization in C++](https://tech.io//playgrounds/7070/non-static-data-members-initialization-in-c)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|22382|3|en|1|
-|6|7920|[How not_null can improve your code?](https://tech.io//playgrounds/7920/how-not_null-can-improve-your-code)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|57485|4|en|1|
-|7|9271|[Enforcing code contracts with [[nodiscard]]](https://tech.io//playgrounds/9271/enforcing-code-contracts-with-nodiscard)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|21992|0|en|1|
-|8|5598|[Conditional Statement in Vue.js](https://tech.io//playgrounds/5598/conditional-statement-in-vue-js)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|30274|7|en|1|
-|9|3808|[How to use vue-router?](https://tech.io//playgrounds/3808/how-to-use-vue-router)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|114455|6|en|1|
-|10|6661|[Vuex Tutorial](https://tech.io//playgrounds/6661/vuex-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|54519|7|en|1|
-|11|6517|[React Router Tutorial](https://tech.io//playgrounds/6517/react-router-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|311061|43|en|1|
-|12|8003|[Angular Dependency Injection Tutorial](https://tech.io//playgrounds/8003/angular-dependency-injection-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|23358|13|en|1|
-|13|8012|[Angular Form Validation Example Tutorial](https://tech.io//playgrounds/8012/angular-form-validation-example-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|390165|19|en|1|
-|14|8104|[Angular Router Tutorial](https://tech.io//playgrounds/8104/angular-router-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|96092|30|en|1|
-|15|8508|[ReactJS Constructor Tutorial](https://tech.io//playgrounds/8508/reactjs-constructor-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|65660|19|en|1|
-|16|8595|[ReactJS Higher Order Components Tutorial](https://tech.io//playgrounds/8595/reactjs-higher-order-components-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|173156|28|en|1|
-|17|8894|[Redux Tutorial For Beginners](https://tech.io//playgrounds/8894/redux-tutorial-for-beginners)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|90982|25|en|1|
-|18|9087|[Integrate Admin Template In ReactJS](https://tech.io//playgrounds/9087/integrate-admin-template-in-reactjs)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|123888|43|en|1|
-|19|9169|[Simple Redux Create Delete Contact Application](https://tech.io//playgrounds/9169/simple-redux-create-delete-contact-application)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|74630|37|en|1|
-|20|9396|[Redux Form Validation Tutorial](https://tech.io//playgrounds/9396/redux-form-validation-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|51195|20|en|1|
-|21|7337|[ES6 Tutorials - Your guide for quick checks](https://tech.io//playgrounds/7337/es6-tutorials---your-guide-for-quick-checks)|[romeo11](https://www.codingame.com/profile/478ae67c3963af2c86fb08bf465bdc532064912)|47261|7|en|1|
-|22|7998|[ES6 Tutorials : SPREAD Operator with Fun](https://tech.io//playgrounds/7998/es6-tutorials-spread-operator-with-fun)|[romeo11](https://www.codingame.com/profile/478ae67c3963af2c86fb08bf465bdc532064912)|77453|15|en|1|
-|23|14640|[C# Professional - Numbers](https://tech.io//playgrounds/14640/c-professional---numbers)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|67985|16|en|1|
-|24|14207|[C# Professional - Processing Text](https://tech.io//playgrounds/14207/c-professional---processing-text)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|103955|12|en|1|
-|25|12961|[C# Professional - Collections - Exercises](https://tech.io//playgrounds/12961/c-professional---collections---exercises)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|32590|55|en|1|
-|26|12960|[C# Professional - LINQ - Exercices](https://tech.io//playgrounds/12960/c-professional---linq---exercices)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|10998|44|en|1|
-|27|6516|[Closures in Javascript for beginners](https://tech.io//playgrounds/6516/closures-in-javascript-for-beginners)|[WeeklyWebWisdom](https://www.codingame.com/profile/6a8eef0aaefb5db9900b9742b4db75092870912)|58032|52|en|1|
-|28|8958|[The power of JavaScript Functions](https://tech.io//playgrounds/8958/the-power-of-javascript-functions)|[WeeklyWebWisdom](https://www.codingame.com/profile/6a8eef0aaefb5db9900b9742b4db75092870912)|18289|48|en|1|
-|29|24310|[Introdução a Programação C](https://tech.io//playgrounds/24310/introducao-a-programacao-c)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|58644|40|pt|2|
-|30|34774|[Introdução a Programação Python - Prof. MARCO VAZ](https://tech.io//playgrounds/34774/introducao-a-programacao-python---prof--marco-vaz)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|60769|34|pt|2|
-|31|52499|[Programação Python (Intermediário) - Prof. MARCO VAZ](https://tech.io//playgrounds/52499/programacao-python-intermediario---prof--marco-vaz)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|108434|20|pt|2|
-|32|52723|[Programação Python (Parte 3) - Prof. MARCO VAZ](https://tech.io//playgrounds/52723/programacao-python-parte-3---prof--marco-vaz)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|203686|11|pt|2|
-|33|4508|[Discover FortressJS - A fast, secure and easy I/O framework](https://tech.io//playgrounds/4508/discover-fortressjs---a-fast-secure-and-easy-io-framework)|[Adrien-fr](https://www.codingame.com/profile/0afdf133ad4ce439f9120899a62ab1e57344981)|70505|36|en|5|
-|34|55409|[Exercices - WOA - Intro JS](https://tech.io//playgrounds/55409/exercices---woa---intro-js)|[stardisblue](https://www.codingame.com/profile/13785c4305386dbd081ab8a39510c7303346541)|17208|24|fr|7|
-|35|76|[Hibernate](https://tech.io//playgrounds/76/hibernate)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|19386|9|en|8|
-|36|1230|[Dive into Vert.x](https://tech.io//playgrounds/1230/dive-into-vert-x)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|14113|0|en|8|
-|37|6847|[[Kotlin] Operator overloading](https://tech.io//playgrounds/6847/kotlin-operator-overloading)|[romainbsl](https://www.codingame.com/profile/d65c2561f8f8210adc87ae91a2572a248722212)|36109|7|en|8|
-|38|36835|[Ktor as a backend Application](https://tech.io//playgrounds/36835/ktor-as-a-backend-application)|[romainbsl](https://www.codingame.com/profile/d65c2561f8f8210adc87ae91a2572a248722212)|13257|6|en|8|
-|39|35326|[Labo 10](https://tech.io//playgrounds/35326/labo-10)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|11141|11|fr|9|
-|40|35679|[Labo 9](https://tech.io//playgrounds/35679/labo-9)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|10878|2|fr|9|
-|41|35921|[Laboratoire 11](https://tech.io//playgrounds/35921/laboratoire-11)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9104|1|fr|9|
-|42|36388|[Labo 12](https://tech.io//playgrounds/36388/labo-12)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|7797|2|fr|9|
-|43|36389|[Labo 13](https://tech.io//playgrounds/36389/labo-13)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|8854|1|fr|9|
-|44|36601|[Labo 14](https://tech.io//playgrounds/36601/labo-14)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|10589|1|fr|9|
-|45|36939|[Labo de synthèse](https://tech.io//playgrounds/36939/labo-de-synthese)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|13354|1|fr|9|
-|46|40718|[Les structures](https://tech.io//playgrounds/40718/les-structures)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9362|1|fr|9|
-|47|40720|[L'allocation dynamique](https://tech.io//playgrounds/40720/lallocation-dynamique)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|14658|3|fr|9|
-|48|40721|[Les fichiers](https://tech.io//playgrounds/40721/les-fichiers)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|16709|1|fr|9|
-|49|40722|[Intégration](https://tech.io//playgrounds/40722/integration)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|8463|1|fr|9|
-|50|40724|[Les structures de données simples dynamiques](https://tech.io//playgrounds/40724/les-structures-de-donnees-simples-dynamiques)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9801|10|fr|9|
-|51|40715|[Sommaire Labo C](https://tech.io//playgrounds/40715/sommaire-labo-c)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|4061|1|fr|9|
-|52|41455|[Bootstrap](https://tech.io//playgrounds/41455/bootstrap)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|14269|16|fr|9|
-|53|42315|[Demo Paper](https://tech.io//playgrounds/42315/demo-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|3132|4|fr|9|
-|54|44302|[Intégration Fichiers - Liste](https://tech.io//playgrounds/44302/integration-fichiers---liste)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|6363|1|fr|9|
-|55|45019|[Journée immersion](https://tech.io//playgrounds/45019/journee-immersion)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|5044|1|fr|9|
-|56|51045|[Les alternatives](https://tech.io//playgrounds/51045/les-alternatives)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|14783|2|fr|9|
-|57|51044|[Les variables](https://tech.io//playgrounds/51044/les-variables)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|7591|6|fr|9|
-|58|51047|[Les répétitions](https://tech.io//playgrounds/51047/les-repetitions)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9161|3|fr|9|
-|59|50876|[Technique et logique de programmation - Module 1](https://tech.io//playgrounds/50876/technique-et-logique-de-programmation---module-1)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|4539|7|fr|9|
-|60|51438|[Drawing](https://tech.io//playgrounds/51438/drawing)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|10450|6|fr|9|
-|61|5262|[Native ES Modules in Node.js](https://tech.io//playgrounds/5262/native-es-modules-in-node-js)|[ma[CG]yver](https://www.codingame.com/profile/a15929e60b9fdfcb320eba9be79bf8df3480641)|12276|3|en|10|
-|62|8942|[Exercices sur l'histoire et les principes de l'informatique](https://tech.io//playgrounds/8942/exercices-sur-lhistoire-et-les-principes-de-linformatique)|[Roxa](https://www.codingame.com/profile/6c6b6fd8947694213b8bd7a43670b9ea4935601)|17478|7|fr|14|
-|63|22485|[Petit exercice algorithmique en  Swift](https://tech.io//playgrounds/22485/petit-exercice-algorithmique-en-swift)|[leon44](https://www.codingame.com/profile/9d26fccbcaf73b74813b3e4989baf0a8642856)|5678|8|fr|23|
-|64|185|[Introduction to Reason Compilation](https://tech.io//playgrounds/185/introduction-to-reason-compilation)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|13721|1|en|25|
-|65|1107|[File and directory management with Unix](https://tech.io//playgrounds/1107/file-and-directory-management-with-unix)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|6990|6|en|25|
-|66|84444|[Running U-Boot & Linux Kernel in QEMU](https://tech.io//playgrounds/84444/running-u-boot-linux-kernel-in-qemu)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|21206|6|en|26|
-|67|131173|[How to Extract Files from Docker Container](https://tech.io//playgrounds/131173/how-to-extract-files-from-docker-container)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|10081|4|en|26|
-|68|2913|[How to read a text file in Java](https://tech.io//playgrounds/2913/how-to-read-a-text-file-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|9511|11|en|28|
-|69|3140|[How to write to a file in Java](https://tech.io//playgrounds/3140/how-to-write-to-a-file-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5567|6|en|28|
-|70|3146|[How to list files in a directory in Java](https://tech.io//playgrounds/3146/how-to-list-files-in-a-directory-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5944|3|en|28|
-|71|3142|[How to create a temporary file in Java](https://tech.io//playgrounds/3142/how-to-create-a-temporary-file-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5346|0|en|28|
-|72|3744|[How to format an Object into JSON in Java](https://tech.io//playgrounds/3744/how-to-format-an-object-into-json-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|12951|3|en|28|
-|73|3691|[How to send an email in Java](https://tech.io//playgrounds/3691/how-to-send-an-email-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5068|2|en|28|
-|74|3148|[How to encode/decode in base64 in Java](https://tech.io//playgrounds/3148/how-to-encodedecode-in-base64-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|14554|1|en|28|
-|75|3137|[How to ... in Java 8](https://tech.io//playgrounds/3137/how-to-----in-java-8)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|11042|24|en|28|
-|76|425|[Java Collectors](https://tech.io//playgrounds/425/java-collectors)|[[CG]jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)|6817|3|en|28|
-
-
+|1|2913|[How to read a text file in Java](https://tech.io//playgrounds/2913/how-to-read-a-text-file-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|9511|11|en|28|
+|2|3140|[How to write to a file in Java](https://tech.io//playgrounds/3140/how-to-write-to-a-file-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5567|6|en|28|
+|3|3146|[How to list files in a directory in Java](https://tech.io//playgrounds/3146/how-to-list-files-in-a-directory-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5944|3|en|28|
+|4|3142|[How to create a temporary file in Java](https://tech.io//playgrounds/3142/how-to-create-a-temporary-file-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5346|0|en|28|
+|5|3744|[How to format an Object into JSON in Java](https://tech.io//playgrounds/3744/how-to-format-an-object-into-json-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|12951|3|en|28|
+|6|3691|[How to send an email in Java](https://tech.io//playgrounds/3691/how-to-send-an-email-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|5068|2|en|28|
+|7|3148|[How to encode/decode in base64 in Java](https://tech.io//playgrounds/3148/how-to-encodedecode-in-base64-in-java)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|14554|1|en|28|
+|8|3137|[How to ... in Java 8](https://tech.io//playgrounds/3137/how-to-----in-java-8)|[[CG]BOUGA](https://www.codingame.com/profile/e15ea0b5aad3d973642f81a46999e283739451)|11042|24|en|28|
+|9|425|[Java Collectors](https://tech.io//playgrounds/425/java-collectors)|[[CG]jupoulton](https://www.codingame.com/profile/d39436e9a23b5060ed3efaf1c24b4ba8929551)|6817|3|en|28|
+|10|84444|[Running U-Boot & Linux Kernel in QEMU](https://tech.io//playgrounds/84444/running-u-boot-linux-kernel-in-qemu)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|21206|6|en|26|
+|11|131173|[How to Extract Files from Docker Container](https://tech.io//playgrounds/131173/how-to-extract-files-from-docker-container)|[Donotalo](https://www.codingame.com/profile/da68145d55e7d4f1a20586778ff61cf94463811)|10081|4|en|26|
+|12|185|[Introduction to Reason Compilation](https://tech.io//playgrounds/185/introduction-to-reason-compilation)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|13721|1|en|25|
+|13|1107|[File and directory management with Unix](https://tech.io//playgrounds/1107/file-and-directory-management-with-unix)|[[CG]Nick](https://www.codingame.com/profile/4050639030913e02589d4a974761ce3a869551)|6990|6|en|25|
+|14|22485|[Petit exercice algorithmique en  Swift](https://tech.io//playgrounds/22485/petit-exercice-algorithmique-en-swift)|[leon44](https://www.codingame.com/profile/9d26fccbcaf73b74813b3e4989baf0a8642856)|5678|8|fr|23|
+|15|8942|[Exercices sur l'histoire et les principes de l'informatique](https://tech.io//playgrounds/8942/exercices-sur-lhistoire-et-les-principes-de-linformatique)|[Roxa](https://www.codingame.com/profile/6c6b6fd8947694213b8bd7a43670b9ea4935601)|17478|7|fr|14|
+|16|5262|[Native ES Modules in Node.js](https://tech.io//playgrounds/5262/native-es-modules-in-node-js)|[ma[CG]yver](https://www.codingame.com/profile/a15929e60b9fdfcb320eba9be79bf8df3480641)|12276|3|en|10|
+|17|35326|[Labo 10](https://tech.io//playgrounds/35326/labo-10)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|11141|11|fr|9|
+|18|35679|[Labo 9](https://tech.io//playgrounds/35679/labo-9)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|10878|2|fr|9|
+|19|35921|[Laboratoire 11](https://tech.io//playgrounds/35921/laboratoire-11)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9104|1|fr|9|
+|20|36388|[Labo 12](https://tech.io//playgrounds/36388/labo-12)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|7797|2|fr|9|
+|21|36389|[Labo 13](https://tech.io//playgrounds/36389/labo-13)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|8854|1|fr|9|
+|22|36601|[Labo 14](https://tech.io//playgrounds/36601/labo-14)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|10589|1|fr|9|
+|23|36939|[Labo de synthèse](https://tech.io//playgrounds/36939/labo-de-synthese)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|13354|1|fr|9|
+|24|40718|[Les structures](https://tech.io//playgrounds/40718/les-structures)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9362|1|fr|9|
+|25|40720|[L'allocation dynamique](https://tech.io//playgrounds/40720/lallocation-dynamique)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|14658|3|fr|9|
+|26|40721|[Les fichiers](https://tech.io//playgrounds/40721/les-fichiers)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|16709|1|fr|9|
+|27|40722|[Intégration](https://tech.io//playgrounds/40722/integration)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|8463|1|fr|9|
+|28|40724|[Les structures de données simples dynamiques](https://tech.io//playgrounds/40724/les-structures-de-donnees-simples-dynamiques)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9801|10|fr|9|
+|29|40715|[Sommaire Labo C](https://tech.io//playgrounds/40715/sommaire-labo-c)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|4061|1|fr|9|
+|30|41455|[Bootstrap](https://tech.io//playgrounds/41455/bootstrap)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|14269|16|fr|9|
+|31|42315|[Demo Paper](https://tech.io//playgrounds/42315/demo-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|3132|4|fr|9|
+|32|44302|[Intégration Fichiers - Liste](https://tech.io//playgrounds/44302/integration-fichiers---liste)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|6363|1|fr|9|
+|33|45019|[Journée immersion](https://tech.io//playgrounds/45019/journee-immersion)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|5044|1|fr|9|
+|34|51045|[Les alternatives](https://tech.io//playgrounds/51045/les-alternatives)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|14783|2|fr|9|
+|35|51044|[Les variables](https://tech.io//playgrounds/51044/les-variables)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|7591|6|fr|9|
+|36|51047|[Les répétitions](https://tech.io//playgrounds/51047/les-repetitions)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|9161|3|fr|9|
+|37|50876|[Technique et logique de programmation - Module 1](https://tech.io//playgrounds/50876/technique-et-logique-de-programmation---module-1)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|4539|7|fr|9|
+|38|51438|[Drawing](https://tech.io//playgrounds/51438/drawing)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|10450|6|fr|9|
+|39|76|[Hibernate](https://tech.io//playgrounds/76/hibernate)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|19386|9|en|8|
+|40|1230|[Dive into Vert.x](https://tech.io//playgrounds/1230/dive-into-vert-x)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|14113|0|en|8|
+|41|6847|[[Kotlin] Operator overloading](https://tech.io//playgrounds/6847/kotlin-operator-overloading)|[romainbsl](https://www.codingame.com/profile/d65c2561f8f8210adc87ae91a2572a248722212)|36109|7|en|8|
+|42|36835|[Ktor as a backend Application](https://tech.io//playgrounds/36835/ktor-as-a-backend-application)|[romainbsl](https://www.codingame.com/profile/d65c2561f8f8210adc87ae91a2572a248722212)|13257|6|en|8|
+|43|55409|[Exercices - WOA - Intro JS](https://tech.io//playgrounds/55409/exercices---woa---intro-js)|[stardisblue](https://www.codingame.com/profile/13785c4305386dbd081ab8a39510c7303346541)|17208|24|fr|7|
+|44|4508|[Discover FortressJS - A fast, secure and easy I/O framework](https://tech.io//playgrounds/4508/discover-fortressjs---a-fast-secure-and-easy-io-framework)|[Adrien-fr](https://www.codingame.com/profile/0afdf133ad4ce439f9120899a62ab1e57344981)|70505|36|en|5|
+|45|24310|[Introdução a Programação C](https://tech.io//playgrounds/24310/introducao-a-programacao-c)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|58644|40|pt|2|
+|46|34774|[Introdução a Programação Python - Prof. MARCO VAZ](https://tech.io//playgrounds/34774/introducao-a-programacao-python---prof--marco-vaz)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|60769|34|pt|2|
+|47|52499|[Programação Python (Intermediário) - Prof. MARCO VAZ](https://tech.io//playgrounds/52499/programacao-python-intermediario---prof--marco-vaz)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|108434|20|pt|2|
+|48|52723|[Programação Python (Parte 3) - Prof. MARCO VAZ](https://tech.io//playgrounds/52723/programacao-python-parte-3---prof--marco-vaz)|[MarcoVaz](https://www.codingame.com/profile/12ddaf68921204c880c04596dd46b9382520462)|203686|11|pt|2|
+|49|40348|[Scaffolding Entity Framework Core 2 with CatFactory](https://tech.io//playgrounds/40348/scaffolding-entity-framework-core-2-with-catfactory)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|11685|12|en|1|
+|50|49208|[Scaffolding ASP.NET Core 2 with CatFactory](https://tech.io//playgrounds/49208/scaffolding-asp-net-core-2-with-catfactory)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|9848|13|en|1|
+|51|4356|[Standard Library Utilities in C++](https://tech.io//playgrounds/4356/standard-library-utilities-in-c)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|98311|16|en|1|
+|52|5659|[C++17 Filesystem](https://tech.io//playgrounds/5659/c17-filesystem)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|188140|21|en|1|
+|53|7070|[Non Static Data Members Initialization in C++](https://tech.io//playgrounds/7070/non-static-data-members-initialization-in-c)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|22382|3|en|1|
+|54|7920|[How not_null can improve your code?](https://tech.io//playgrounds/7920/how-not_null-can-improve-your-code)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|57485|4|en|1|
+|55|9271|[Enforcing code contracts with [[nodiscard]]](https://tech.io//playgrounds/9271/enforcing-code-contracts-with-nodiscard)|[fenbf](https://www.codingame.com/profile/9a0798a3b262ff044a0a6f307b4b7b450672112)|21992|0|en|1|
+|56|5598|[Conditional Statement in Vue.js](https://tech.io//playgrounds/5598/conditional-statement-in-vue-js)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|30274|7|en|1|
+|57|3808|[How to use vue-router?](https://tech.io//playgrounds/3808/how-to-use-vue-router)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|114455|6|en|1|
+|58|6661|[Vuex Tutorial](https://tech.io//playgrounds/6661/vuex-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|54519|7|en|1|
+|59|6517|[React Router Tutorial](https://tech.io//playgrounds/6517/react-router-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|311061|43|en|1|
+|60|8003|[Angular Dependency Injection Tutorial](https://tech.io//playgrounds/8003/angular-dependency-injection-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|23358|13|en|1|
+|61|8012|[Angular Form Validation Example Tutorial](https://tech.io//playgrounds/8012/angular-form-validation-example-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|390165|19|en|1|
+|62|8104|[Angular Router Tutorial](https://tech.io//playgrounds/8104/angular-router-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|96092|30|en|1|
+|63|8508|[ReactJS Constructor Tutorial](https://tech.io//playgrounds/8508/reactjs-constructor-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|65660|19|en|1|
+|64|8595|[ReactJS Higher Order Components Tutorial](https://tech.io//playgrounds/8595/reactjs-higher-order-components-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|173156|28|en|1|
+|65|8894|[Redux Tutorial For Beginners](https://tech.io//playgrounds/8894/redux-tutorial-for-beginners)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|90982|25|en|1|
+|66|9087|[Integrate Admin Template In ReactJS](https://tech.io//playgrounds/9087/integrate-admin-template-in-reactjs)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|123888|43|en|1|
+|67|9169|[Simple Redux Create Delete Contact Application](https://tech.io//playgrounds/9169/simple-redux-create-delete-contact-application)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|74630|37|en|1|
+|68|9396|[Redux Form Validation Tutorial](https://tech.io//playgrounds/9396/redux-form-validation-tutorial)|[KrunalLathiya](https://www.codingame.com/profile/6904e6a51da85b469dc521d941b93b0c2983412)|51195|20|en|1|
+|69|7337|[ES6 Tutorials - Your guide for quick checks](https://tech.io//playgrounds/7337/es6-tutorials---your-guide-for-quick-checks)|[romeo11](https://www.codingame.com/profile/478ae67c3963af2c86fb08bf465bdc532064912)|47261|7|en|1|
+|70|7998|[ES6 Tutorials : SPREAD Operator with Fun](https://tech.io//playgrounds/7998/es6-tutorials-spread-operator-with-fun)|[romeo11](https://www.codingame.com/profile/478ae67c3963af2c86fb08bf465bdc532064912)|77453|15|en|1|
+|71|14640|[C# Professional - Numbers](https://tech.io//playgrounds/14640/c-professional---numbers)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|67985|16|en|1|
+|72|14207|[C# Professional - Processing Text](https://tech.io//playgrounds/14207/c-professional---processing-text)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|103955|12|en|1|
+|73|12961|[C# Professional - Collections - Exercises](https://tech.io//playgrounds/12961/c-professional---collections---exercises)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|32590|55|en|1|
+|74|12960|[C# Professional - LINQ - Exercices](https://tech.io//playgrounds/12960/c-professional---linq---exercices)|[talent-agile](https://www.codingame.com/profile/33dd51c4e071c2d7e996e8e136048fc09365732)|10998|44|en|1|
+|75|6516|[Closures in Javascript for beginners](https://tech.io//playgrounds/6516/closures-in-javascript-for-beginners)|[WeeklyWebWisdom](https://www.codingame.com/profile/6a8eef0aaefb5db9900b9742b4db75092870912)|58032|52|en|1|
+|76|8958|[The power of JavaScript Functions](https://tech.io//playgrounds/8958/the-power-of-javascript-functions)|[WeeklyWebWisdom](https://www.codingame.com/profile/6a8eef0aaefb5db9900b9742b4db75092870912)|18289|48|en|1|
 
 
 
