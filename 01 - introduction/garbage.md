@@ -1,3 +1,4 @@
+
 ***
 
 # Author Level 40 and Up
@@ -9,18 +10,18 @@
 |3|1939|[Basic simulation and evaluation](https://tech.io//playgrounds/1939/basic-simulation-and-evaluation)|[MadKnight](https://www.codingame.com/profile/b50b600f5dc25555f35bd2da9a0cf8a07356021)|en|
 |4|347|[JavaScript promises, mastering the asynchronous](https://tech.io//playgrounds/347/javascript-promises-mastering-the-asynchronous)|[Magus](https://www.codingame.com/profile/1724dffd64c8c26c9fa9a189691387b5760508)|en|
 |5|482|[JavaScript, async and await keywords](https://tech.io//playgrounds/482/javascript-async-and-await-keywords)|[Magus](https://www.codingame.com/profile/1724dffd64c8c26c9fa9a189691387b5760508)|en|
-|6|58137|[AlphaZero like implementation for Oware Abapa game (Codingame)](https://tech.io//playgrounds/58137/alphazero-like-implementation-for-oware-abapa-game-codingame)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|7|15869|[C++ Runnable Snippets](https://tech.io//playgrounds/15869/c-runnable-snippets)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|8|51348|[CGFunge Batch Runner](https://tech.io//playgrounds/51348/cgfunge-batch-runner)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|9|218|[Regular Expressions Basics](https://tech.io//playgrounds/218/regular-expressions-basics)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|10|283|[SSE & AVX Vectorization](https://tech.io//playgrounds/283/sse-avx-vectorization)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|11|243|[Voronoi Diagrams](https://tech.io//playgrounds/243/voronoi-diagrams)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
-|12|345|[C# LINQ Background Topics](https://tech.io//playgrounds/345/c-linq-background-topics)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
-|13|2135|[Linux Filesystems 101 - Block Devices](https://tech.io//playgrounds/2135/linux-filesystems-101---block-devices)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
-|14|213|[Using C# LINQ - A Practical Overview](https://tech.io//playgrounds/213/using-c-linq---a-practical-overview)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
+|6|218|[Regular Expressions Basics](https://tech.io//playgrounds/218/regular-expressions-basics)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|7|243|[Voronoi Diagrams](https://tech.io//playgrounds/243/voronoi-diagrams)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|8|283|[SSE & AVX Vectorization](https://tech.io//playgrounds/283/sse-avx-vectorization)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|9|15869|[C++ Runnable Snippets](https://tech.io//playgrounds/15869/c-runnable-snippets)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|10|51348|[CGFunge Batch Runner](https://tech.io//playgrounds/51348/cgfunge-batch-runner)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|11|58137|[AlphaZero like implementation for Oware Abapa game (Codingame)](https://tech.io//playgrounds/58137/alphazero-like-implementation-for-oware-abapa-game-codingame)|[Marchete](https://www.codingame.com/profile/356a959a96b807f8516f4f26e0bce4af9529261)|en|
+|12|213|[Using C# LINQ - A Practical Overview](https://tech.io//playgrounds/213/using-c-linq---a-practical-overview)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
+|13|345|[C# LINQ Background Topics](https://tech.io//playgrounds/345/c-linq-background-topics)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
+|14|2135|[Linux Filesystems 101 - Block Devices](https://tech.io//playgrounds/2135/linux-filesystems-101---block-devices)|[player_one](https://www.codingame.com/profile/fefb3b0a360d9451bde5553900470e2d677255)|en|
 |15|56997|[A Babel of Languages on CodinGame](https://tech.io//playgrounds/56997/a-babel-of-languages-on-codingame)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
-|16|77580|[PHP Dev Tools (for CodinGame or elsewhere)](https://tech.io//playgrounds/77580/php-dev-tools-for-codingame-or-elsewhere)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
-|17|59982|[Swapping languages on CodinGame (a.k.a. system() calls)](https://tech.io//playgrounds/59982/swapping-languages-on-codingame-a-k-a--system-calls)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
+|16|59982|[Swapping languages on CodinGame (a.k.a. system() calls)](https://tech.io//playgrounds/59982/swapping-languages-on-codingame-a-k-a--system-calls)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
+|17|77580|[PHP Dev Tools (for CodinGame or elsewhere)](https://tech.io//playgrounds/77580/php-dev-tools-for-codingame-or-elsewhere)|[TBali](https://www.codingame.com/profile/08e6e13d9f7cad047d86ec4d10c777500155033)|en|
 |18|57902|[Totoro Beam Search C++ Starter](https://tech.io//playgrounds/57902/totoro-beam-search-c-starter)|[Unnamed contributor](https://www.codingame.com/profile/e9c83cc4767eb16667a33d90907479d08093402)|en|
 
 
@@ -31,45 +32,45 @@
 
 || ID | Title | Author | Language |
 |:---:|:---:|:------|:-------|:-----:|
-|1|2524|[Basic Image Manipulation](https://tech.io//playgrounds/2524/basic-image-manipulation)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|2|39380|[Finding Shortest Path in the Plane with Obstacles](https://tech.io//playgrounds/39380/finding-shortest-path-in-the-plane-with-obstacles)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|3|37409|[Handwritten Digit Recognition Using scikit-learn](https://tech.io//playgrounds/37409/handwritten-digit-recognition-using-scikit-learn)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|4|38470|[How to Detect Circles in Images](https://tech.io//playgrounds/38470/how-to-detect-circles-in-images)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|5|41655|[How to build a chatbot in less than 50 lines of code](https://tech.io//playgrounds/41655/how-to-build-a-chatbot-in-less-than-50-lines-of-code)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|6|2358|[How to plot the Mandelbrot set](https://tech.io//playgrounds/2358/how-to-plot-the-mandelbrot-set)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|7|37245|[Python dataclass](https://tech.io//playgrounds/37245/python-dataclass)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|8|957|[The controversial for...else statement in Python](https://tech.io//playgrounds/957/the-controversial-for---else-statement-in-python)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
-|9|36505|[Why Learn Python](https://tech.io//playgrounds/36505/why-learn-python)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|1|957|[The controversial for...else statement in Python](https://tech.io//playgrounds/957/the-controversial-for---else-statement-in-python)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|2|2358|[How to plot the Mandelbrot set](https://tech.io//playgrounds/2358/how-to-plot-the-mandelbrot-set)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|3|2524|[Basic Image Manipulation](https://tech.io//playgrounds/2524/basic-image-manipulation)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|4|36505|[Why Learn Python](https://tech.io//playgrounds/36505/why-learn-python)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|5|37245|[Python dataclass](https://tech.io//playgrounds/37245/python-dataclass)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|6|37409|[Handwritten Digit Recognition Using scikit-learn](https://tech.io//playgrounds/37409/handwritten-digit-recognition-using-scikit-learn)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|7|38470|[How to Detect Circles in Images](https://tech.io//playgrounds/38470/how-to-detect-circles-in-images)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|8|39380|[Finding Shortest Path in the Plane with Obstacles](https://tech.io//playgrounds/39380/finding-shortest-path-in-the-plane-with-obstacles)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
+|9|41655|[How to build a chatbot in less than 50 lines of code](https://tech.io//playgrounds/41655/how-to-build-a-chatbot-in-less-than-50-lines-of-code)|[[CG]Maxime](https://www.codingame.com/profile/a858cb9483b31957524b33a65ae29846981812)|en|
 |10|349|[Introduction to MPI](https://tech.io//playgrounds/349/introduction-to-mpi)|[Aveuh](https://www.codingame.com/profile/45184b23e68d79b7b6e386e6517992db751608)|en|
 |11|52463|[Bulls and Cows](https://tech.io//playgrounds/52463/bulls-and-cows)|[CyberLemonade](https://www.codingame.com/profile/d8a0152458f424d53995a613b5abea4f9610312)|en|
-|12|50443|[BrainFuck part 2 - Working with arrays](https://tech.io//playgrounds/50443/brainfuck-part-2---working-with-arrays)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|13|50446|[BrainFuck part 3 - Write a BF interpreter in BF](https://tech.io//playgrounds/50446/brainfuck-part-3---write-a-bf-interpreter-in-bf)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|14|50455|[BrainFuck part 4 - Advanced maths](https://tech.io//playgrounds/50455/brainfuck-part-4---advanced-maths)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|15|50478|[BrainFuck part 5 - Math sequences](https://tech.io//playgrounds/50478/brainfuck-part-5---math-sequences)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|16|50482|[BrainFuck part 6 - 16-bit integers](https://tech.io//playgrounds/50482/brainfuck-part-6---16-bit-integers)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|17|50485|[BrainFuck part 7 - Quine (+ some non-BF quine theory)](https://tech.io//playgrounds/50485/brainfuck-part-7---quine-some-non-bf-quine-theory)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|18|50499|[BrainFuck part 8 - JS/C#/BF Multi quine](https://tech.io//playgrounds/50499/brainfuck-part-8---jscbf-multi-quine)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|19|50516|[BrainFuck part 9 - Sort arrays with Bubble and QuickSort](https://tech.io//playgrounds/50516/brainfuck-part-9---sort-arrays-with-bubble-and-quicksort)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|20|50553|[BrainFuck part 10 - RPN calc tool](https://tech.io//playgrounds/50553/brainfuck-part-10---rpn-calc-tool)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|21|50565|[BrainFuck part 11 - Iterative and recursive ways](https://tech.io//playgrounds/50565/brainfuck-part-11---iterative-and-recursive-ways)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|22|50567|[BrainFuck part 12 - BF self-executables](https://tech.io//playgrounds/50567/brainfuck-part-12---bf-self-executables)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|23|50580|[BrainFuck part 13 - Funky output](https://tech.io//playgrounds/50580/brainfuck-part-13---funky-output)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
-|24|50426|[Getting started with BrainFuck](https://tech.io//playgrounds/50426/getting-started-with-brainfuck)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|12|50426|[Getting started with BrainFuck](https://tech.io//playgrounds/50426/getting-started-with-brainfuck)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|13|50443|[BrainFuck part 2 - Working with arrays](https://tech.io//playgrounds/50443/brainfuck-part-2---working-with-arrays)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|14|50446|[BrainFuck part 3 - Write a BF interpreter in BF](https://tech.io//playgrounds/50446/brainfuck-part-3---write-a-bf-interpreter-in-bf)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|15|50455|[BrainFuck part 4 - Advanced maths](https://tech.io//playgrounds/50455/brainfuck-part-4---advanced-maths)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|16|50478|[BrainFuck part 5 - Math sequences](https://tech.io//playgrounds/50478/brainfuck-part-5---math-sequences)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|17|50482|[BrainFuck part 6 - 16-bit integers](https://tech.io//playgrounds/50482/brainfuck-part-6---16-bit-integers)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|18|50485|[BrainFuck part 7 - Quine (+ some non-BF quine theory)](https://tech.io//playgrounds/50485/brainfuck-part-7---quine-some-non-bf-quine-theory)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|19|50499|[BrainFuck part 8 - JS/C#/BF Multi quine](https://tech.io//playgrounds/50499/brainfuck-part-8---jscbf-multi-quine)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|20|50516|[BrainFuck part 9 - Sort arrays with Bubble and QuickSort](https://tech.io//playgrounds/50516/brainfuck-part-9---sort-arrays-with-bubble-and-quicksort)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|21|50553|[BrainFuck part 10 - RPN calc tool](https://tech.io//playgrounds/50553/brainfuck-part-10---rpn-calc-tool)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|22|50565|[BrainFuck part 11 - Iterative and recursive ways](https://tech.io//playgrounds/50565/brainfuck-part-11---iterative-and-recursive-ways)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|23|50567|[BrainFuck part 12 - BF self-executables](https://tech.io//playgrounds/50567/brainfuck-part-12---bf-self-executables)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
+|24|50580|[BrainFuck part 13 - Funky output](https://tech.io//playgrounds/50580/brainfuck-part-13---funky-output)|[DPAmar](https://www.codingame.com/profile/1aa3b57d313d36f2b421bf8a30a7dfef2532691)|en|
 |25|53455|[Fast 15x15 bit grid BFS: breadth first search](https://tech.io//playgrounds/53455/fast-15x15-bit-grid-bfs-breadth-first-search)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
-|26|75040|[Fast 6x12 Connected Components using bit-optimized BFS](https://tech.io//playgrounds/75040/fast-6x12-connected-components-using-bit-optimized-bfs)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
-|27|58038|[Fast Connected Components for 6x12 bitboard](https://tech.io//playgrounds/58038/fast-connected-components-for-6x12-bitboard)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
-|28|58096|[How to randomize bits and integers efficiently in C++](https://tech.io//playgrounds/58096/how-to-randomize-bits-and-integers-efficiently-in-c)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
+|26|58038|[Fast Connected Components for 6x12 bitboard](https://tech.io//playgrounds/58038/fast-connected-components-for-6x12-bitboard)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
+|27|58096|[How to randomize bits and integers efficiently in C++](https://tech.io//playgrounds/58096/how-to-randomize-bits-and-integers-efficiently-in-c)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
+|28|75040|[Fast 6x12 Connected Components using bit-optimized BFS](https://tech.io//playgrounds/75040/fast-6x12-connected-components-using-bit-optimized-bfs)|[emh](https://www.codingame.com/profile/687d536b4e342533566e83cd9b5a799d2084851)|en|
 |29|57060|[MCTS Tic Tac Toe Playground](https://tech.io//playgrounds/57060/mcts-tic-tac-toe-playground)|[ggrn](https://www.codingame.com/profile/6563e5b72070fbe02a080260966bcdc17844431)|en|
-|30|55004|[Best-First Minimax Search with UCT](https://tech.io//playgrounds/55004/best-first-minimax-search-with-uct)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|en|
-|31|59631|[Neural Network xor example from scratch (no libs)](https://tech.io//playgrounds/59631/neural-network-xor-example-from-scratch-no-libs)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|en|
-|32|46262|[On generating opening book for Yavalath MCTS bot](https://tech.io//playgrounds/46262/on-generating-opening-book-for-yavalath-mcts-bot)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|en|
+|30|46262|[On generating opening book for Yavalath MCTS bot](https://tech.io//playgrounds/46262/on-generating-opening-book-for-yavalath-mcts-bot)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|en|
+|31|55004|[Best-First Minimax Search with UCT](https://tech.io//playgrounds/55004/best-first-minimax-search-with-uct)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|en|
+|32|59631|[Neural Network xor example from scratch (no libs)](https://tech.io//playgrounds/59631/neural-network-xor-example-from-scratch-no-libs)|[jacek](https://www.codingame.com/profile/f0c03de45623ce8d5e05cf647e381a807876313)|en|
 |33|58302|[Using Pragma For Compile Optimization](https://tech.io//playgrounds/58302/using-pragma-for-compile-optimization)|[LazyMammal](https://www.codingame.com/profile/f0bc8a5294a05437ffe941f4217dc12d3497651)|en|
 |34|17176|[Recueil d'exercices pour apprendre Python au lycée](https://tech.io//playgrounds/17176/recueil-dexercices-pour-apprendre-python-au-lycee)|[M_C](https://www.codingame.com/profile/0a7f61fbebaa2aa7e4344110a9141e0c8068932)|fr|
-|35|44088|[Code a la Mode Post Mortem](https://tech.io//playgrounds/44088/code-a-la-mode-post-mortem)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
-|36|58572|[Endgame books in Oware Abapa](https://tech.io//playgrounds/58572/endgame-books-in-oware-abapa)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
+|35|36476|[Smitsimax](https://tech.io//playgrounds/36476/smitsimax)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
+|36|38549|[X-mas Rush Post Mortem](https://tech.io//playgrounds/38549/x-mas-rush-post-mortem)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
 |37|38626|[Optimizing breadth first search](https://tech.io//playgrounds/38626/optimizing-breadth-first-search)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
-|38|36476|[Smitsimax](https://tech.io//playgrounds/36476/smitsimax)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
-|39|38549|[X-mas Rush Post Mortem](https://tech.io//playgrounds/38549/x-mas-rush-post-mortem)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
+|38|44088|[Code a la Mode Post Mortem](https://tech.io//playgrounds/44088/code-a-la-mode-post-mortem)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
+|39|58572|[Endgame books in Oware Abapa](https://tech.io//playgrounds/58572/endgame-books-in-oware-abapa)|[MSmits](https://www.codingame.com/profile/04d6badfff034762c87be88072d7d6840902252)|en|
 |40|56806|[Devenir Mentor sur OpenClassrooms](https://tech.io//playgrounds/56806/devenir-mentor-sur-openclassrooms)|[TwoSteps](https://www.codingame.com/profile/54ef16b306fb1ce337d82f7f39c441fc8366041)|fr|
 |41|54251|[Optimizing Trigonometry](https://tech.io//playgrounds/54251/optimizing-trigonometry)|[WINWINWIN](https://www.codingame.com/profile/1b19be1c6b65d915884e247195239a873979473)|en|
 |42|66330|[BFS and Voronoi diagrams using bit-shift operations](https://tech.io//playgrounds/66330/bfs-and-voronoi-diagrams-using-bit-shift-operations)|[wlesavo](https://www.codingame.com/profile/12f500cba9a112bd54a093b5a66729119113353)|en|
@@ -157,7 +158,6 @@ Playgrounds that meet these criteria are then sorted by adjusted likes.
 |63|270|[Functional Programming explained to my grandma](https://tech.io//playgrounds/270/functional-programming-explained-to-my-grandma)|[CCavalier](https://www.codingame.com/profile/69b4dc6b1418fa1bf08e51a1bb036e0b1832281)|en|
 |64|49038|[Exercices Paper](https://tech.io//playgrounds/49038/exercices-paper)|[profThiernesse](https://www.codingame.com/profile/940bdf462521d081a51d6a28188cfe8f6429162)|fr|
 |65|35462|[Creating Web API in ASP.NET Core 2.0](https://tech.io//playgrounds/35462/creating-web-api-in-asp-net-core-2-0)|[CarloHerzl](https://www.codingame.com/profile/f9834afc8d956b4f90bd09e2b25a747d3115952)|en|
-
 
 
 
