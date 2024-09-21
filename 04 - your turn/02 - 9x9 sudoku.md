@@ -85,3 +85,25 @@ After the matrix is built and ready to go, Assaf uses the following code to add 
 Because I have limited the actions to only what is possible, no preselection is done. Algorithm X has no choice but to select the appropriate actions to include the prefilled numbers as part of the solution.
 
 _I believe Assaf's code has been vital to me and other Python programmers studying Algorithm X. My `AlgorithmXSolver` has been heavily influenced by Assaf, but I have intentionally left out the ability to preselect actions as Assaf has done above. Although Assaf's technique is elegant, I have chosen to limit actions as a standard process across all solutions. I want to point this out for anyone that might be familiar with Assaf's solver and wonder why <u>it is not possible</u> to preselect actions with the `AlgorithmXSolver` provided in this playground._
+
+# Preselection Can be Problematic
+
+The DLX matrix is not meant to handle the selection of improper actions. Every time an action is selected to be part of a solution, DLX removes any impossible actions from the realm of possibility. When Algorithm X is in charge, it is impossible to select an action that cannot possibly be part of the final solution.
+
+Consider the following example. Do solutions exist for the Sudoku board below?
+
+```
+0 0 6 0 0 0 6 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+```
+
+You and I can easily see there are two 6s in the first row, making it is impossible to ever find a proper solution. This is a toy example, but play along with me.  Assume you want to use Algorithm X to determine if the Sudoku can be solved or not. You first create the requirements and the actions. Then you try to preselect the action that puts a 6 in row 1, col 3 and the action that puts a 6 in row 1, col 7. As soon as you preselect the first action, the DLX matrix is adjusted and there is no longer an option to put the second 6 in row 1, col 7. You tried to preselect an action that is no longer possible. You will either get an error, or your solver might produce many solutions since it is starting with a blank Sudoku with a single 6 preselected in row 1, col 3. 
+
+The solution is to __leave Algorithm X in charge__. Next, I will discuss options that handle preselected cells, but since Algorithm X is in charge, error situations are more easily avoided.
