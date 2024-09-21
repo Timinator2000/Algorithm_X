@@ -28,7 +28,7 @@ Bob Drums M Tu W Th 2 3 F
 Alex Tuba M Tu W Th 2 4 F
 ```
 
-In this sample problem, Mrs. Knuth is only available at 2, 3 and 4 on Thursday. There are 3 students that need to be scheduled. Ayla (Trumpet) is available only at 2 on Thursday, Bob (Drums) is available at 2 and 3 on Thursday, and Alex (Tuba) is available at 2 and 4 on Thursday.
+In this example problem, Mrs. Knuth is only available at 2, 3 and 4 on Thursday. There are 3 students that need to be scheduled. Ayla (Trumpet) is available only at 2 on Thursday, Bob (Drums) is available at 2 and 3 on Thursday, and Alex (Tuba) is available at 2 and 4 on Thursday.
 
 This initial Part I puzzle also has some interesting puzzle constraints that should be considered as we build our understanding of the problem.
 
