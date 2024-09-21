@@ -1,6 +1,6 @@
 # A Sudoku Challenge
 
-Between Assaf’s code, my AlgorithmXSolver and my suggestions, you should be able to complete the [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
+Between Assaf’s code, my `AlgorithmXSolver` and my suggestions, you should be able to complete the [Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) puzzle. However, there are  3 more puzzles on Codingame that are all Sudokus of different sizes:
 
 [16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku)
 <BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
