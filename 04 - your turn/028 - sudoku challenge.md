@@ -6,7 +6,7 @@ Between Assaf’s code, my `AlgorithmXSolver` and my suggestions, you should be 
 <BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku)
 <BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver)
 
-My challenge to you is to create a solver that works for all 4 Sudoku puzzles on Codingame. After all, the only difference between one Sudoku and another is the size of the grid and the values that can be put in each cell. Let me get you started:
+My challenge to you is to create a solver that works for all 4 Sudoku puzzles on Codingame. The only difference between one Sudoku and another is the size of the grid and the values that can be put in each cell. Let me get you started:
 
 ```python
 from typing import List
