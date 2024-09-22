@@ -11,8 +11,10 @@ Conceptually, I create two classes, one for a `SudokuCell` and another for a `Su
 In the interest of code reuse across all Sudoku puzzles, my SudokuSolver will require the following:
 
 1. Unknown cells must use a `.` to indicate an unknown cell. Some puzzles use a `0` which is easy to fix with a call to `str.replace('0', '.')`.
-2. All cell values will be treated as characters.
-3. `all_possible_values` will be a string of all characters found in the Sudoku.
+    
+1. All cell values will be treated as characters.
+
+1. `all_possible_values` will be a string of all characters found in the Sudoku.
 
 Let's make the conceptual classes a bit more concrete. First, a class for an individual cell:
 
