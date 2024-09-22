@@ -42,7 +42,7 @@ You can solve the first 3 test cases with no problem-space reduction, only Algor
 > - no more than two of either number adjacent to each other
 > - no identical rows and no identical columns
 
-If you want to set Algorithm X up in steps, consider this. Even if you completely ignore mutual exclusivity, your solver will easily find solutions for __Test Case 1: Test 4x4__ and __Test Case 2: Test 6x6__. Without adding optional requirements to handle mutual exclusivity, I expect you will timeout on 3rd test case.
+If you want to set Algorithm X up in steps, consider this. Even if you completely ignore mutual exclusivity, your solver will easily find solutions for __Test Case 1: Test 4x4__ and __Test Case 2: Test 6x6__. Without adding optional requirements to handle mutual exclusivity, I expect you will timeout on the 3rd test case.
 
 This puzzle is a great example of the power of mutual exclusivity. With decent problem-space reduction, you can pass all validators even if you completely ignore mutual exclusivity. However, if you want super fast solutions for every test case and every validator, mutual exclusivity is critical.
 
