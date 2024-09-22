@@ -10,7 +10,7 @@ If simply solving the puzzle is your goal, a small amount of problem-space reduc
 
 1. Only after you have exhausted all options for 1 and 2, use a combination of both.
 
-There are many ways to approach problem-space reduction. You will need or choose various data structures and build an algorithm to mimic what you would do if you were trying to solve the puzzle with a pencil on paper. In the rest of this section, I will lay out a structure and a process I have used repeatedly that has worked well for me.
+There are many ways to approach problem-space reduction. You will need to choose various data structures and build an algorithm to mimic what you would do if you were trying to solve the puzzle with a pencil on paper. In the rest of this section, I will lay out a structure and a process I have used repeatedly that has worked well for me.
 
 # One More Round of Sudoku
 
