@@ -14,7 +14,7 @@ __Algorithm X Complexity:__ Requirements are Straightforward, Actions are Comple
 
 Let’s start with a quote from the problem statement:
 
-> In this puzzle, you are given a grid representing a golf course. On each course is a certain amount of balls and an equal amount of holes. The objective is to find the route for each ball to a different hole without their paths never crossing.
+> In this puzzle, you are given a grid representing a golf course. On each course is a certain amount of balls and an equal amount of holes. The objective is to find the route for each ball to a different hole without their paths ever crossing.
 
 Using the analogy of laying tiles on a grid, it seems pretty obvious the grid is the map of the golf course given in the input. Per the statement above, the grid will indicate where the holes are and where the balls are. Later in the problem statement, we are told the grid also identifies water hazards and open fairway spaces.
 
