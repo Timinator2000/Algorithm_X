@@ -14,13 +14,13 @@ The next diagram shows the candidates for each cell in row 1.
 ![Sudoku Test Case 1](sudoku04.png)
 <BR>
 
-Because numbers cannot be duplicated in a row, the numbers in the known cells can be removed from each unknown cell's candidates.
+Because numbers cannot be duplicated in a row, the numbers in the known cells can be removed from each unknown cells' candidates.
 
 <BR><BR>
 ![Sudoku Test Case 1](sudoku05.png)
 <BR>
 
-Each of the unknown cells is also in column where, again, numbers cannot repeat. Column 1 already has a 1, column 6 already has a 4 and column 8 already has a 1.
+Each of the unknown cells is also in a column where, again, numbers cannot repeat. Column 1 already has a 1, column 6 already has a 4 and column 8 already has a 1.
 
 <BR><BR>
 ![Sudoku Test Case 1](sudoku06.png)
