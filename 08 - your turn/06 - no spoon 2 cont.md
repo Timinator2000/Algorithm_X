@@ -1,6 +1,6 @@
 # There Is No Spoon - Episode 2 (cont.)
 
-We just finished building the following detailed gameboard and a link can be placed on any dashed lines.
+We just finished building the following detailed gameboard and a link can be placed on any dashed line.
 
 <BR><BR>
 ![Full Gameboard](FullGameboard.png)
