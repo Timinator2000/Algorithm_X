@@ -32,7 +32,7 @@ Did I read that correctly? The puzzle goal couldn’t be any clearer about the r
 
 # Every Story Needs a Hero
 
-If anything, the last rule is the most challenging. For an `N` x `N`square, there are `4 * N` “positions” from which you can look into the square. A clue is given for viewing position indicating how many buildings can been seen. Each building blocks the view of any shorter buildings behind it. In the diagram below, the superhero has a view into the city from the top left-side position.
+If anything, the last rule is the most challenging. For an `N` x `N`square, there are `4 * N` “positions” from which you can look into the square. A clue is given for each viewing position indicating how many buildings can been seen. Each building blocks the view of any shorter buildings behind it. In the diagram below, the superhero has a view into the city from the top left-side position.
 
 <BR><BR>
 ![Multiple City Views](HighRise2.png)
