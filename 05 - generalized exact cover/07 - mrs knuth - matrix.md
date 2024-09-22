@@ -16,7 +16,7 @@ In the next matrix, the rows that make up the only solution are highlighted. It 
 
 <BR>
 
-Like we have done before, let's hide the unused rows to highlight the "exact cover".
+Like we have done before, let's hide the unused rows to highlight the _exact cover_.
 
 <BR><BR>
 
@@ -24,4 +24,4 @@ Like we have done before, let's hide the unused rows to highlight the "exact cov
 
 <BR>
 
-In the next section, I’ll discuss how to add optional requirements to your AlogrithmXSolver subclass.
+In the next section, I’ll discuss how to add optional requirements to your `AlogrithmXSolver` subclass.
