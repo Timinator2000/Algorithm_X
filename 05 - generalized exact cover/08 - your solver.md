@@ -8,7 +8,7 @@ The next paragraph in the Wikipedia article continues with:
 
 >But Knuth goes on to explain that it is better working with the generalized problem directly, because the generalized algorithm is simpler and faster: __A simple change to his Algorithm X allows secondary columns to be handled directly.__ [emphasis added]
 
-__With my AlgorithmXSolver, you never need to add extra rows as is suggested in the first paragraph. Coud you? Yes, you could. You could add the extra rows and only use the requirements argument. You could do some of both. However, I don’t recommend any of that. Conceptually, problems have requirements (primary constraints/columns) and optional requirements (secondary constraints/columns). I recommend always keeping them separate, passing them to the AlgorithmXSolver constructor separately, and letting the AlgorithmXSolver handle the needed algorithmic changes.__
+__With my AlgorithmXSolver, you never need to add extra rows as is suggested in the first paragraph. Coud you? Yes, you could. You could add the extra rows and only use the requirements argument. You could do some of both. However, I don’t recommend any of that. Conceptually, problems have requirements (primary constraints/columns) and optional requirements (secondary constraints/columns). I recommend always keeping them separate, passing them to the `AlgorithmXSolver` constructor separately, and letting the `AlgorithmXSolver` handle the needed algorithmic changes.__
 
 In the genreal sense, your new solver subclass is now going to take the following form:
 
