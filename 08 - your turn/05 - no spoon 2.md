@@ -79,7 +79,7 @@ _Exception #1_: In the above diagram, each Node connected by the Channel needs 1
 ![Two Power 2 Nodes](TwoPower2Nodes.png)
 <BR>
 
-_Exception #2_: In the above diagram, each Node connected by the Channel needs 2 links. If these are the only two Nodes in the puzzle, the Channel capacity is 2. If there are more than two Nodes in the puzzle, the Channel capacity is 1 since putting two links between the two nodes would create a connected group that could not be connected to the rest of the puzzle.
+_Exception #2_: In the above diagram, each Node connected by the Channel needs 2 links. If these are the only two Nodes in the puzzle, the Channel capacity is 2. If there are more than two Nodes in the puzzle, the Channel capacity is 1 since putting two links between the two Nodes would create a connected group that could not be connected to the rest of the puzzle.
 
 # Object-Oriented Analysis
 
