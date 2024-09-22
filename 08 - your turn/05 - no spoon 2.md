@@ -24,7 +24,7 @@ I believe using the analogy of tiles on a gameboard is the key to a successful A
 ![Initial Gameboard](Nodes.png)
 <BR>
 
-I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action we can take to work toward a solution is to put a link between two nodes, similar to this:
+I contend there is much more to the gameboard that is subtly hidden. I will come back to that, but first we need to investigate the action steps that can be taken to create a solution. It seems straightforward the only action we can take to work toward a solution is to put a link between two Nodes, similar to this:
 
 <BR><BR>
 ![Two Nodes with a Link](TwoNodesOneLink.png)
@@ -36,7 +36,7 @@ Where do I put the link? Yes, I know the link goes between the two Nodes, but wh
 ![Two Nodes with a Channel](TwoNodesOneChannel.png)
 <BR>
 
-I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the gameboard anywhere I see an open slot (dashed line) inside a channel between nodes.
+I can put 0, 1 or 2 links in any Channel. Let’s add dotted lines to each Channel to represent a slot or a placeholder for a future link. My gameboard is much clearer now. To create a solution, I can put links on the gameboard anywhere I see an open slot (dashed line) inside a Channel between Nodes.
 
 <BR><BR>
 ![Two Nodes with a Channel and Slots](TwoNodesOneChannelWithSlots.png)
