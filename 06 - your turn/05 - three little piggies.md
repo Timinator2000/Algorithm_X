@@ -36,7 +36,7 @@ This puzzle is another great fit for Algorithm X, but setting up the matrix will
 
 # Rotating a 2-Dimensional Array
 
-I first learned how to rotate a 2-demensional array by looking at another Codingamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting our own. Let’s look at rotating the brick house.
+I first learned how to rotate a 2-demensional array by looking at another Codingamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting our yown. Let’s look at rotating the brick house.
 
 ```python runnable
 # store the brick house as a 2-dimnsional array
