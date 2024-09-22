@@ -1,6 +1,6 @@
 # Visualizing the Model - Mrs Knuth Part II
 
-The matrix below shows which requirements are satisfied by each action. Mrs. Knuth - Part II does not add an overwhelming amount of complexity, yet the matrix has grow enough, even on the example exercise, that it is no longer trivial to identify an exact cover just by looking at it.
+The matrix below shows which requirements are satisfied by each action. Mrs. Knuth - Part II does not add an overwhelming amount of complexity, yet the matrix has grown enough, even on the tiny example exercise, that it is no longer trivial to identify an exact cover just by looking at it.
 
 <BR><BR>
 
