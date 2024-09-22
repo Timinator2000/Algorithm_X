@@ -24,7 +24,7 @@ The next graphic summarizes all important information on the Kakuro grid in a wa
 ![Kakuro Example 1 Summary](Kakuro2.png)
 <BR>
 
-It might be helpfu to keep a copy of the original Kakuro 3x3 grid considering the output needs all elements of the 3x3 grid, including the proper values for the 4 empty cells.
+It might be helpful to keep a copy of the original Kakuro 3x3 grid considering the output needs all elements of the 3x3 grid, including the proper values for the 4 empty cells.
 
 # Tougher Input to Parse
 
