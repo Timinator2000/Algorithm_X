@@ -13,6 +13,7 @@ __Algorithm X Complexity:__ Great Confidence Builder
 The first time Futoshiki was discussed in this playground, a few key distinctions were made.
 
 * Just like Sudoku, Futoshiki is a special kind of Latin Square.
+
 * Inequalities allow for important problem-space reduction.
 
 I think we all like to reuse code wherever possible. Here are a couple of conceptual ideas we know to be true:
