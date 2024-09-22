@@ -59,7 +59,7 @@ This puzzle has a unique multiplicity twist not seen in other puzzles and you wi
 
 Would you ever shade the top-left corner? It is definitely possible. There are multiple `2`s in the row and multiple `2`s in the column. Shading the top-left corner covers requirements associated with the row _and_ requirements associated with the column.
 
-What about the second `2` in the top row? Absolutely possible. However, shading the top row, second from the left removes a `2` from the top row, but what does it do for the column? The answer is nothing! There is only a single `2` in the column. Shading that square does not cover any column requirements because there are no column requirements for the second column from left.
+What about the second `2` in the top row? Absolutely possible. However, shading the top row, second from the left removes a `2` from the top row, but what does it do for the column? The answer is nothing! There is only a single `2` in the column. Shading that square does not cover any column requirements because there are no column requirements involving removing a `2` from the second column from left.
 
 The tricky part of this puzzle is that every square you might want to shade could do any of the following:
 
