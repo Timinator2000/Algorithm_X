@@ -45,7 +45,7 @@ If you really want to get crazy with a dynamic strategy, the following override 
     def _action_sort_criteria(self, row_header: DLXCell):
         _, row, col, val = row_header.title
         average = sum(all remaining candidates for grid[(row, col)] / number of remaining candidates
-        return (absolute value(average - val), val - average)
+        return (absolute_value(average - val), val - average)
 ```
 
 I understand the example above is strange, but you could try it. Hopefully, you better understand how column and row ordering can affect your Algorithm X solution. With this in mind, let's take a look at [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255) found on [CodeWars](https://www.codewars.com).
