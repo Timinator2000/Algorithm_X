@@ -32,7 +32,7 @@ Let’s say you have 10 possible routes from the first ball to the various holes
 
 Going back to the tiles on a board analogy, each tile now has a ball location, `(bx, by)`, and a route number on it, but what does that tile look like? Since we had to generate all the routes and we know all grid coordinates that make up each route, you can visualize each tile as the zigzagging route determined by its coordinates. Algorithm X is going to get a pile of various shaped, sometimes zigzagging, tiles to be placed on the grid, each tile representing one possible route.
 
-Of course, you will need a data structure where you store all the cells for each route. When Algorithm X tells you route 15 for the ball at (3, 4) is part of the solution, you will need to know how to display that route in your output.
+Of course, you will need a data structure where you store all the cells for each route. When Algorithm X tells you route 15 for the ball at `(3, 4)` is part of the solution, you will need to know how to display that route in your output.
 
 To be honest, generating an exhaustive list of routes in this puzzle is harder than setting up Algorithm X.
 
