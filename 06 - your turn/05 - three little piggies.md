@@ -56,9 +56,9 @@ for i in range(4):
 
 <BR>
 
-Keep in mind the brick house does not have equal width and height, and each time the house rotates, the height and width of the house change. You will need to be aware of that when you look to see if the house will fit on the grid.
+Keep in mind the brick house does not have equal height and width, and each time the house rotates, the height and width of the house change. You will need to be aware of that when you look to see if the house will fit on the grid.
 
-Have you played around with Numpy Arrays? Many puzzles that involve 2-dimension grids are great places to experiment with Numpy and learn how to use Arrays. This next code block rotates the hrick house 4 times just like the code block above, but using Numpy. Unfortunately, I cannot import numpy into a runnable code block in this playground, but I am sure you get the idea.
+Have you played around with Numpy Arrays? Many puzzles that involve 2-dimensional grids are great places to experiment with Numpy and learn how to use Arrays. This next code block rotates the hrick house 4 times just like the code block above, but using Numpy. Unfortunately, I cannot import numpy into a runnable code block in this playground, but I am sure you get the idea.
 
 ```python
 import numpy as np
