@@ -21,9 +21,13 @@ The three main requirements of the puzzle are that each of the three houses be p
 It is time to once again use what you learned in Shikaku Skill Builder. Unfortunately, building an exhaustive list of locations you could place each house is no easy task. Here are the key issues you need to work around:
 
 * A house cannot cover any tree location on the gameboard.
+  
 * If it is daytime, a house cannot cover a pig location.
+
 * If it is nighttime:
+  
     * A house cannot cover the wolf’s location
+    
     * Each pig location must be covered by a house and the pig must be in the proper location of the house.
 
 Setting Algorithm X up for success comes down to generating an exhaustive list of every possible location a house could be placed on the gameboard in such a way that all rules are obeyed. Of course, that includes all rotations of the house. 
