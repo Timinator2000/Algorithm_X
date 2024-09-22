@@ -60,7 +60,7 @@ Summarizing the gameboard now, we see the following components:
 
 __Node__ – a location on the gameboard that needs a certain number of links.
 
-__Channel__ – a trench between two nodes, inside of which can be placed some number of links. A Channel’s link capacity is determined by several factors discussed below, but it can never be more than 2. A Channel may or may not pass through Intersections as it travels between the two Nodes it connects
+__Channel__ – a trench between two Nodes, inside of which can be placed some number of links. A Channel’s link capacity is determined by several factors discussed below, but it can never be more than 2. A Channel may or may not pass through Intersections as it travels between the two Nodes it connects
 
 __Intersection__ – a non-Node location on the gameboard that knows about any Channel that passes through that location
 
