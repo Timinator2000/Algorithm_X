@@ -27,6 +27,4 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
 
 The following solution pulls everything together into a hard-coded, runnable code block. Make changes as you wish to explore the code.
 
-```
-[Use Algorithm X to find a schedule for Mrs. Knuth Part II]({"stubs": ["part_II_solver.py"], "command": "python3 part_II_solver_test.py"})
-```
+@[Use Algorithm X to find a schedule for Mrs. Knuth Part II]({"stubs": ["part_II_solver.py"], "command": "python3 part_II_solver_test.py"})
