@@ -25,7 +25,7 @@ The basic Algorithm X requirements and actions seem straightforward. Every cell 
 
 >- an equal number of 1s and 0s in each row and column
 
-If a row is 8 characters long and it already has 2 zeroes and 1 one, you know you must place an additional 2 zeros and 3 ones in that row. This is textbook multiplicity.
+If a row is 8 characters long and it already has two `0`s and one `1`, you know you must place an additional two `0`s and three `1`s in that row. This is textbook multiplicity.
 
 Mutual exclusivity is where Takuzu Solver gets very interesting. Any time you see that something cannot happen, you should look for mutual exclusivity.
 
