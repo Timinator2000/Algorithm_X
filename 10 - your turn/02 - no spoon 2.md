@@ -30,20 +30,19 @@ To do some problem-space reduction, it seems reasonable we will add a `reduce()`
 
 Based on everything said above, the following methods might be useful in each of the classes:
 
-{classes with methods}
+<BR><BR>
+![No Spoon 2 - Classes with Methods](NoSpoonClassMethods.png)
+<BR>
 
 The next diagram captures one sequence of events that could result after a call to `reduce_()` on a particular `Node`.
 
-{sequence diagram}
+<BR><BR>
+![No Spoon 2 - Sequence Diagram](NoSpoonSequenceDiagram.png)
+<BR>
 
-You might think I have made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
+You might be tempting to think I have made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
 
 # Your Goal
 
-
-
-
-Backtracking is guessing. Using only logic, no backtracking at all, you can solve 1 – 8 and 10.
-
-Only a combination of pre-backtracking logic and Algorithm X can solve all the test cases.
+Backtracking is guessing. Using only logic, no backtracking at all, you can solve test cases 1 – 8 and 10. To solve all the test cases with Algorithm X, you will need to use some pre-backtracking logic to shink the size of the problem you give to Algorithm X.
 
