@@ -58,6 +58,8 @@ plan:
         statement: 048 - your turn/01 - shikaku solver.md
       - title: Dominoes Solver
         statement: 048 - your turn/02 - dominoes solver.md
+      - title: Paving with Bricks
+        statement: 048 - your turn/03 - paving with bricks.md
   - title: Generalized Exact Cover
     plan:
       - title: Generalized Exact Cover Definition
