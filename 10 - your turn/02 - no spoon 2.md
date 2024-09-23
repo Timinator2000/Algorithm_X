@@ -40,7 +40,7 @@ The next diagram captures one sequence of events that could result after a call 
 ![No Spoon 2 - Sequence Diagram](NoSpoonSequenceDiagram.png)
 <BR>
 
-You might be tempting to think I have made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
+It might be tempting to think I made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
 
 # Your Goal
 
