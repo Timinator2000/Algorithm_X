@@ -16,7 +16,7 @@ When we last discussed There is No Spoon – Episode 2, I left you with the foll
 
 To do some problem-space reduction, it seems reasonable we will add a `reduce()` method to one or more of the classes, but which ones? Distributing behavior to classes can be difficult and sometimes easy to argue one way or another. Let’s look at each class individually.
 
-`Intersection` - this seems like the least likely location for a `reduce_()` method. `Intersection`s have very little intelligence. They must be able to react to a single event sent by a `Channel` letting the `Intersection` know that a link has been placed and if there is another `Channel` in the intersection, it should be removed from the problem space and should be decommissioned.
+`Intersection` - this seems like the least likely location for a `reduce_()` method. `Intersection`s have very little intelligence. They must be able to react to a single event sent by a `Channel` letting the `Intersection` know that a link has been placed and if there is another `Channel` in the intersection, it should be disabled.
 
 `Channel` - this again seems like an unlikely location for a `reduce_()` method. What would it even mean to reduce a `Channel`? Sure, the `Channel` knows about the `Nodes` on either side, but that is not enough to know whether or not a link must be placed in the `Channel`. I see a `Channel` needing to be able to react to two events:
 
