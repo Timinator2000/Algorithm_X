@@ -51,7 +51,9 @@ This puzzle is a great example of the power of mutual exclusivity. With decent p
 
 To solve all test cases and validators, you will need to do some problem-space reduction. Takuzu has a very similar structure to Sudoku. There are cells and those cells are grouped into rows and columns, but because the cells can only contain zeros and ones, I found little code I could reuse, other than the overall structure.
 
-{TakuzuCell and TukuzuGroup }
+<BR><BR>
+![Takuzu Classes](TakuzuClasses.png)
+<BR>
 
 If you use this structure, setting up the grid, the rows and the columns is extremely similar to setting up a Sudoku.
 
