@@ -1,4 +1,4 @@
-# Dominoes Solver
+# Paving with Bricks
 
 __Puzzle:__ [Paving with Bricks](https://www.codingame.com/training/medium/paving-with-bricks)
 
