@@ -14,7 +14,7 @@ When we last discussed There is No Spoon – Episode 2, I left you with the foll
 ![No Spoon 2 - OOD](NoSpoon2ClassesWithLists.png)
 <BR>
 
-To do some problem-space reduction, it seems reasonable we will add a `reduce()` method to one or more of the classes, but which ones? Distributing behavior to classes can be difficult and sometimes easy to argue one way or another. Let’s look at each class individually.
+To do some problem-space reduction, it seems reasonable we will add a `reduce_()` method to one or more of the classes, but which ones? Distributing behavior to classes can be difficult and sometimes easy to argue one way or another. Let’s look at each class individually.
 
 `Intersection` - this seems like the least likely location for a `reduce_()` method. `Intersection`s have very little intelligence. They must be able to react to a single event sent by a `Channel` letting the `Intersection` know that a link has been placed and if there is another `Channel` in the intersection, it should be disabled.
 
@@ -34,7 +34,7 @@ Based on everything said above, the following methods might be useful in each of
 ![No Spoon 2 - Classes with Methods](NoSpoonClassMethods.png)
 <BR>
 
-The next diagram captures one sequence of events that could result after a call to `reduce_()` on a particular `Node`.
+The next diagram captures one sequence of events that could result after a call to `reduce_()` on a particular `Node`. 
 
 <BR><BR>
 ![No Spoon 2 - Sequence Diagram](NoSpoonSequenceDiagram.png)
@@ -42,7 +42,29 @@ The next diagram captures one sequence of events that could result after a call 
 
 It might be tempting to think I made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
 
+A `Node` determines that a link can be placed in a `Channel`. The `Node` asks the `Channel` to place a link. The `Channel` sends an event to every `Intersection` it passes through telling each `Intersection` to make the path one-way. Any `Intersection` that has a second `Channel` sends a message to the second `Channel` to have that `Channel` disabled. Finally, the original `Channel` needs to the `Node`s on either end to lower their needed link counts appropriately. Any node that has all its links fully satisfied needs to make sure its connected `Channel`s are all disabled.
+
+# Building a Partial Solution
+
+The same code structure can be used for the reduction loop:
+
+```python
+need_to_reduce = True
+while need_to_reduce:
+    need_to_reduce = False
+    for node in self.nodes:
+        if node.reduce_():
+            need_to_reduce = True
+```
+
+Once this loop finishes, you are left with a partial solution. Some number of links have been placed between `Node`s and all those `Node`s have lowered their needed link totals. The remaining problem is a smaller, standalone version of the problem that can be solved with no knowledge of what has been accomplished with the logic above. This puzzle is a great candidate for the 3rd option I discussed many pages ago for handling preselected actions. I suggest the following:
+
+1. Build a list of links placed with the logic above.
+
+1. Feed the remaining, smaller problem to Algorithm X with no knowledge of what was accomplished logically.
+
+1. Combine the original list of links with the solution Algorithm X finds to create an overall solution that can be validated to determine if you have a single group of linked `Node`s.
+
 # Your Goal
 
-Backtracking is guessing. Using only logic, no backtracking at all, you can solve test cases 1 – 8 and 10. To solve all the test cases with Algorithm X, you will need to use some pre-backtracking logic to shink the size of the problem you give to Algorithm X.
-
+Using only problem-space reduction logic, no backtracking at all, you can solve test cases 1 – 8 and 10. To solve all the test cases with Algorithm X, you will need to use some pre-backtracking logic to shink the size of the problem you give to Algorithm X.
