@@ -2,7 +2,7 @@
 
 Mrs. Knuth is moving up the ladder at school and she is once again requesting changes. The details are found here:
 
-[Mrs. Knuth - Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae)
+[Mrs. Knuth - Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae) __FINAL LINK NEEDED__
 
 There seems to be a lot of new information in the puzzle, but only this key paragraph affects our Algorithm X approach:
 
