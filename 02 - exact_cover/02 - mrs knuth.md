@@ -2,7 +2,7 @@
 
 It is highly unlikely that Mrs. Knuth is any relation to Donald Knuth, but one never knows. Mrs. Knuth is the school band teacher, and she needs help scheduling her students for lessons during the summer. We haven’t even covered how Algorithm X works, but we are going to use it to help Mrs. Knuth with her scheduling problem and solve the first Mrs. Knuth puzzle:
 
-Puzzle: [Mrs. Knuth – Part I](https://www.codingame.com/contribute/view/94231c8a12567007bde24553f6a9e3de55981)
+Puzzle: [Mrs. Knuth – Part I](https://www.codingame.com/contribute/view/94231c8a12567007bde24553f6a9e3de55981) __FINAL LINK NEEDED__
 
 # Puzzle Overview
 
