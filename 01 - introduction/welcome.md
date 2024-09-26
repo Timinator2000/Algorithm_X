@@ -15,13 +15,13 @@ I can’t thank @5DN1L enough for all of his guidance, support, ideas, encourage
 A quick Google search will surely bring you to countless implementations of [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X), usually solving a 9x9 Sudoku grid using the famous [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) technique proposed by the brilliant [Donald Knuth]( https://www-cs-faculty.stanford.edu/~knuth/). This playground is NOT just another Sudoku demonstration. By the time you finish working your way through this material, you should feel confident solving any [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problem you run across, including…
 
 __Exact Cover (Algorithm X Candidate) Puzzles Created for this Playground:__
-<BR>[Mrs. Knuth – Part I](https://www.codingame.com/contribute/view/94231c8a12567007bde24553f6a9e3de55981) (+50 XP)
-<BR>[Mrs. Knuth – Part II](https://www.codingame.com/contribute/view/950238e7e8f40105ccd0fd6237bf60c4d25b3) (+50 XP)
-<BR>[Mrs. knuth – Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae) (+50 XP)
-<BR>[Equation Search](https://www.codingame.com/contribute/view/100071e2989e321b98a5118cdacdf90ebf6d26) (+50 XP)
+<BR>[Mrs. Knuth – Part I](https://www.codingame.com/contribute/view/94231c8a12567007bde24553f6a9e3de55981) (+50 XP) __FINAL LINK NEEDED__
+<BR>[Mrs. Knuth – Part II](https://www.codingame.com/contribute/view/950238e7e8f40105ccd0fd6237bf60c4d25b3) (+50 XP) __FINAL LINK NEEDED__
+<BR>[Mrs. knuth – Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae) (+50 XP) __FINAL LINK NEEDED__
+<BR>[Equation Search](https://www.codingame.com/contribute/view/100071e2989e321b98a5118cdacdf90ebf6d26) (+50 XP) __FINAL LINK NEEDED__
 
 __Support Puzzle Created for this Playground__
-<BR>[Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) (+50 XP)
+<BR>[Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) (+50 XP) __FINAL LINK NEEDED__
 
 __Great Candidates for Algorithm X:__
 <BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
