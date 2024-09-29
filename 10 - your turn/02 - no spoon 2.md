@@ -40,9 +40,9 @@ The next diagram captures one sequence of events that could result after a call 
 ![No Spoon 2 - Sequence Diagram](NoSpoonSequenceDiagram.png)
 <BR>
 
-It might be tempting to think I made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
-
 A `Node` determines that a link can be placed in a `Channel`. The `Node` asks the `Channel` to place a link. The `Channel` sends an event to every `Intersection` it passes through telling each `Intersection` to make the path one-way. Any `Intersection` that has a second `Channel` sends a message to the second `Channel` to have that `Channel` disabled. Finally, the original `Channel` needs to the `Node`s on either end to lower their needed link counts appropriately. Any node that has all its links fully satisfied needs to make sure its connected `Channel`s are all disabled.
+
+It might be tempting to think I made this harder than it needs to be. I invite you to play around with it. If you choose to create an object-oriented structure for this puzzle, you can easily run into issues caused by less than optimum allocation of behavior to your classes.
 
 # Building a Partial Solution
 
