@@ -1,6 +1,6 @@
 # High-Rise Buildings (cont.)
 
-For some problems, it is beneficial to keep track of the solution steps Algorithm X is considering so Algorithm X can be guided away from dead ends. [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings) is a perfect candidate puzzle for this strategy.
+For some problems, it is beneficial to keep track of an updated problem space so Algorithm X can be guided away from dead ends. [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings) is a perfect candidate puzzle for this strategy.
 
 Each time Algorithm X chooses a row from the matrix to make part of the solution, we will update the grid of the city to reflect the height assigned to one of the buildings. If any part of the grid indicates one of the `CityView`s is invalid, Algorithm X can be redirected.
 
