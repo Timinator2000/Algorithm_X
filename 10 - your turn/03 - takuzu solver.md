@@ -27,7 +27,7 @@ The basic Algorithm X requirements and actions seem straightforward. Every cell 
 
 If a row is 8 characters long and it already has two `0`s and one `1`, you know you must place an additional two `0`s and three `1`s in that row. This is textbook multiplicity.
 
-Mutual exclusivity is where Takuzu Solver gets very interesting. Any time you see that something cannot happen, you should look for mutual exclusivity.
+Mutual exclusivity is where Takuzu Solver gets very interesting. Any time you see something cannot happen, you should look for mutual exclusivity.
 
 > - no more than two of either number adjacent to each other
 
@@ -82,7 +82,7 @@ The loop for problem-space reduction should look very familar.
                     need_to_reduce = True
 ```
 
-I share this code again to demonstrate the power of a reusable approach to similar problems. You might come up with a completely different approach and that is perfectly okay. Keep in mind that there are many logic puzzles and a significant number of those puzzles are a grid of cells grouped into rows, cols, boxes, cages, etc. More generally,  _a significant number of those puzzles are a grid of cells organized into groups._ Whatever structure works for you, I invite you to look for opportunities to reuse the work you have already done.
+I share this code again to demonstrate the power of a reusable approach to similar problems. You might come up with a completely different approach and that is perfectly okay. Keep in mind, there are many logic puzzles and a significant number of those puzzles are a grid of cells grouped into rows, cols, boxes, cages, etc. More generally,  _a significant number of those puzzles are a grid of cells organized into groups._ Whatever structure works for you, I invite you to look for opportunities to reuse the work you have already done.
 
 Unfortunately, this is where the similarities to Sudoku end! There is a lot of great problem-space reduction possible in Takuzu and the best place to start is again with the puzzle description.
 
