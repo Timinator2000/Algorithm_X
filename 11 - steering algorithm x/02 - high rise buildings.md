@@ -56,4 +56,4 @@ I will call each of the `4 * N` viewing positions a `CityView`. If you think abo
 ![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
 <BR>
 
-Finally, you need to override your solver's `_process_solution()` method and make sure every `CityView` is valid. Using this approach, I am able to solve __Test Case 2: Test 2__ well within the time limit, but I time out on the other test cases. Can you guess what we might do to increase speed?
+Finally, you could override your solver's `_process_solution()` method and make sure every `CityView` is valid. Using this approach, I am able to solve __Test Case 2: Test 2__ well within the time limit, but I time out on the other test cases. Can you guess what we might do to increase speed?
