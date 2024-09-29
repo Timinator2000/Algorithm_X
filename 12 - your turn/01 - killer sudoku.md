@@ -36,7 +36,7 @@ No idea above is significantly more important than the rest. I suggest you exper
 
 # Suggested Path Forward
 
-To get started, I recommend you work on setting up Algorithm X with no problem-space reduction at all. A basic Sudoku Algorithm X setup will quickly solve __Test Case 1: Easy__ and __Test Case 2: Medium__. Of course, you will need to make sure all the cage sums are properly honored. From there it gets tougher.
+To get started, I recommend you work on setting up Algorithm X with no problem-space reduction at all. A basic Sudoku Algorithm X setup will quickly solve __Test Case 1: Easy__ and __Test Case 2: Medium__. Of course, you will need to make sure all the cage sums are properly honored. From there it gets more challenging.
 
 A hardcore Algorithm X setup will quickly solve __Test Case 3: Hard__, and you might eke out a solution for __Test Case 4: Expert__ before timing out. To solve the 4th test case in a more reasonable amount of time will require some problem-space reduction.
 
