@@ -23,4 +23,4 @@ I am making a bit of an assumption that you came up with the same actions for Al
 
 <BR>
 
-Remember, there is never a need to reset `self.solution_is_valid` to `True`. `AlgorithmXSolver` will backtrack as soon as it sees a `False` value that indicates the current path is a dead end. By definition, backtracking returns to a valid state and `AlgorithmXSolver` automatically returns `self.solution_is_valid` to `True`.
+Remember, there is never a need to reset `self.solution_is_valid` to `True`. `AlgorithmXSolver` will backtrack as soon as it sees a `False` value that indicates the current path is a dead end. Backtracking always returns to a valid state and `AlgorithmXSolver` automatically returns `self.solution_is_valid` to `True`.
