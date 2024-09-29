@@ -62,10 +62,15 @@ __Groups in Kakuro are 100% identical to cages in Killer Sudoku.__ Hopefully you
 The big-picture structure of your code can be exactly the same as what you wrote for [High-Rise Buildings]( https://www.codingame.com/training/expert/high-rise-buildings) and [Killer Sudoku Solver]( https://www.codingame.com/training/medium/killer-sudoku-solver).
 
 * Create a dictionary of cells.
+  
 * Create a list of cages.
+
 * Reduce the cell candidates using what you know must be true about the cages.
-*	Run Algorithm X.
+
+* Run Algorithm X.
+  
     *	Update cells when Algorithm X selects/deselects rows.
+
     *	Validate cages and redirect Algorithm X as necessary.
 
 Start by setting up Algorithm X with no problem-space reduction at all. A basic Algorithm X setup with requirements and actions will quickly solve the first 6 test cases assuming you properly validate all the cages. A slightly more dialed-in Algorithm X setup might solve all the first 9 test cases, but you could see a few timeout issues. A hardcore Algorithm X setup will solve the first 9 test cases without ever getting close to the time limit. To solve __Test Case 10: Test 10 (7 * 7)__, you will need to do some problem space reduction.
