@@ -18,7 +18,7 @@ This puzzle is extremely interesting, especially when you look at __Test Case 4:
 
 Unless you have a tremendous amount of computing power and a good amount of time on your hands, some problem-space reduction will be critical.
 
-More than any other puzzle covered so far, this puzzle can be attacked in many ways. First, you will need a good set of requirements and actions. Since Killer Sudoku extends the traditional Sudoku, you should be able to reuse much of your previous work. After that, you will have a lot of options, but ultimately, you will need some combination of the following:
+More than any puzzle covered so far, this puzzle can be attacked in many ways. First, you need a good set of requirements and actions. Since Killer Sudoku extends the traditional Sudoku, you should be able to reuse much of your previous work. After that, you have a lot of options, but ultimately, you will need some combination of the following:
 
 1.	You could add some optional requirements.
 
