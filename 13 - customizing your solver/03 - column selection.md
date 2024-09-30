@@ -12,7 +12,7 @@ To customize the sort criteria, you must override `AlgorithmXSolver`’s `_requi
 
 1. `col_header.title` - the requirement tuple
 
-In the `AlgorithmXSolver` code below, you can see the default is to return `col_header.size`.
+In the `AlgorithmXSolver` code below, you see the default is to return `col_header.size`.
 
 ```python
     # In some cases it may be beneficial to have Algorithm X try covering certain requirements
