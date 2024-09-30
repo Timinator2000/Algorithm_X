@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ No Worse than Trying to Survive a Zombie Apocalypse
 
 # Strategy
 
-This puzzle on [Codewars](https://www.codewars.com) is a complex exact cover problem. You are given a number of rectangular puzzle pieces and you need to use those pieces to cover all the open locations on the puzzle board. Pieces can be rotated if necessary. The Sample Test Suite has 5 test cases and the last 3 test cases all have shapes that repeat. Because there might be multiple shapes with the same size (e.g. multiple `2 x 3` shapes or multiple `3 x 5` shapes), you will need to put together a strong Algorithm X model to handle multiplicity.
+This puzzle on [Codewars](https://www.codewars.com) is a complex exact cover problem. You are given a number of rectangular puzzle pieces and you need to use those pieces to cover all the open locations on the puzzle board. Pieces can be rotated if necessary. The Sample Test Suite has 5 test cases and the last 3 test cases all have shapes that repeat. Because there might be multiple shapes with the same size (e.g. multiple `2 x 3` shapes or multiple `3 x 5` shapes), you need to put together a strong Algorithm X model to handle multiplicity.
 
 Once you get a working Algorithm X setup, the real work begins. When you attempt to pass the full test suite, you get 12 seconds to complete 75 tests. I was stuck for quite a while timing out on many different variations of my solver. I tried every technique discussed in this playground.
 
