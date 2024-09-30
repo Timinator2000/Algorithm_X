@@ -20,7 +20,7 @@ Backtracking involves making a guess and then backing up if that guess leads to 
 ![Killer Sudoku Classes](KillerSudokuClasses.png)
 <BR>
 
-A `SudokuGroup`could be a row, a column or a box. All `SudokuGroup`s behave identically. `Cage`s are another way to group cells and these groups have significantly different behavior which calls for a separate class. If you study how cells behave on a Killer Sudoku grid, you will find even more interesting behavior that can help you find the values of more unknown cells. For an example click below.
+A `SudokuGroup`could be a row, a column or a box. All `SudokuGroup`s behave identically. `Cage`s are another way to group cells and these groups have significantly different behavior which calls for a separate class. If you study how cells behave on a Killer Sudoku grid, you will find even more interesting behavior that can help you find the values of more unknown cells. For an example, click below.
 
 <details>
 <summary>Spoiler Alert: Creating Even More Groups for Killer Sudoku</summary>
