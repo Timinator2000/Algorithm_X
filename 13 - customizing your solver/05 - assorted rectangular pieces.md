@@ -20,7 +20,7 @@ Right after you call the inherited `AlgorithmXSolver` constructor, add this line
         print(len(requirements), len(actions), file=sys.stderr, flush=True)
 ```
 
-With my Algorithm X setup, a number of the 75 test cases have between 3000 and 5000 rows. One test case actually has many more rows than that. What does this tell you? It should tell you the matrix is big and influencing how Algorithm X chooses columns and/or chooses rows could make a significant difference.
+With my Algorithm X setup, a number of the 75 test cases have between 3000 and 5000 rows. One test case actually has many more rows than that. What does this tell you? It should tell you the matrix is big, and influencing how Algorithm X chooses columns and/or chooses rows could make a significant difference.
 
 # A Confession
 
