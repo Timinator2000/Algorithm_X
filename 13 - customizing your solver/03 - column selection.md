@@ -6,7 +6,7 @@ In Step 2 of Algorithm X, a column is chosen from all remaining yet-to-be-covere
 
 1. You may want to specify some non-MRV-based criteria.
 
-To customize the sort criteria, you must override `AlgorithmXSolver`’s `self. _requirement_sort_criteria(self, col_header: DLXCell)` method. Algorithm X loops through the column headers to determine which column to choose. Because each argument passed into the method is a column header `DLXCell`, it is easy to accesss:
+To customize the sort criteria, you must override `AlgorithmXSolver`’s `_requirement_sort_criteria(self, col_header: DLXCell)` method. Algorithm X loops through the column headers to determine which column to choose. Because each argument passed to the method is a column header `DLXCell`, it is easy to accesss:
 
 1. `col_header.size` - the number of rows that cover this column
 
