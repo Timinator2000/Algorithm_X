@@ -186,6 +186,8 @@ plan:
     plan:
       - title: Solving With Logic Only
         statement: 16 - odds and ends/01 - solving with logic only.md
+      - title: Revision History
+        statement: 16 - odds and ends/02 - revision history.md
 projects:
   python:
     root: /python-project
