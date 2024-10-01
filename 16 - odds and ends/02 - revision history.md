@@ -1,5 +1,5 @@
 # Revision History
 
-|Date|Synopsis|
+|Date|Details|
 |:--------:|:----------------|
 | TBD | Initial publication.|
