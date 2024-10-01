@@ -73,4 +73,4 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 As promised, follow this link to my progress toward solving logic puzzles with logic alone. No guessing. No backtracking
 
-[Solving with Logic Only](01 - solving with logic only.md)
+[Solving with Logic Only]("01 - solving with logic only.md")
