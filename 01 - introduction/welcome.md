@@ -50,6 +50,10 @@ __Great Candidates for Algorithm X:__
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
 <BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
 
+# Prerequisites
+
+Python, Backtracking ???
+
 # My Promise to You
 
 I wholeheartedly believe that working through this playground and the accompanying puzzles will be a great experience on multiple levels. How can I say this? All these things happened for me as I studied [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X) and applied it to as many puzzles as possible. I promise…
