@@ -1,5 +1,5 @@
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
-#  (DLX Based Algorithm X Solver Last Revised 01 October 2024)
+#  (DLX-Based Algorithm X Solver Last Revised 01 October 2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
 #  playgound on Tech.io by following the link in my Codingame profile:
@@ -106,20 +106,20 @@ class DLXCell:
 
 
 class AlgorithmXSolver():
-    # R - a list of requirements.  The __init__() method converts R to a dictionary, but R must
+    # R - a list of requirements. The __init__() method converts R to a dictionary, but R must
     #     originally be passed in as a simple list of requirements. Each requirement is a tuple
     #     of values that uniquely identify that requirement from all other requirements.
     #
     # A - must be passed in as a dictionary - keys are actions, values are lists of covered requirements
     #
-    # O - list of optional requirements.  They can be covered, but they never cause failure.
+    # O - list of optional requirements. They can be covered, but they never cause failure.
     #     Optional requirements are important because if they get covered, no other action can 
     #     also cover that same requirement. Also referred to as "at most one time contraints".
     #
     def __init__(self, R: list, A: dict, O: list = []):
-        self.A  = A
-        self.R  = R + list(O)
-        self.O  = set(O)
+        self.A = A
+        self.R = R + list(O)
+        self.O = set(O)
 
         # The list of actions (rows) that produce the current path through the matrix.
         self.solution = []
@@ -130,9 +130,9 @@ class AlgorithmXSolver():
         # the _process_row_selection() method to add history in cases of multiplicity. 
         self.history = [set()]
 
-        # For the basic Algorithm X Solver, all solutions are always valid.  However, a subclass
+        # For the basic Algorithm X Solver, all solutions are always valid. However, a subclass
         # can add functionality to check solutions as they are being built to steer away from
-        # invalid solutions.  The basic Algorithm X Solver never modifies this attribue.
+        # invalid solutions. The basic Algorithm X Solver never modifies this attribue.
         self.solution_is_valid = True
 
         # Create a column in the matrix for every requirement.
@@ -244,8 +244,8 @@ class AlgorithmXSolver():
 
     # Algorithm X Step 4 - Clean Up:
     #
-    # The select() method selects a row as part of the solution being explored.  Eventually that
-    # exploration ends and it is time to move on to the next row (action).  Before moving on,
+    # The select() method selects a row as part of the solution being explored. Eventually that
+    # exploration ends and it is time to move on to the next row (action). Before moving on,
     # the matrix and the partial solution need to be restored to their prior states.
     def deselect(self, node):
 
