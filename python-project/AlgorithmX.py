@@ -1,38 +1,10 @@
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
-#  (DLX Based Algorithm X Solver Last Revised 09/17/2024)
+#  (DLX Based Algorithm X Solver Last Revised 01 October 2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
 #  playgound on Tech.io by following the link in my Codingame profile:
 #
 #  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
-#
-#  June 02, 2024 - history added to allow subclasses to make adaptations for multiplicity.
-#                - giving this Solver similar functionality to Knuth's Algorithm M.
-#
-#  August 02, 2024 - abstracted history into a single call to self._remember()
-#                  - added self.solution_count
-#                  - self.process_solution can now set self.solution_is_valid to False
-#                    and the solution will not be part of the full solution set.
-#                  - self.solution_is_valid automatically set to True upon backtracking
-#
-#  August 13, 2024 - Made changes to allow rows to be preselected by action before
-#                    backtracking begins. This is to mimic the way Assaf preselects
-#                    rows in the matrix that correspond to prefilled cells in a Sudoku.
-#                    Algorithm X uses DLX to select rows by node. A subclass would have
-#                    a hard time knowing about nodes, whereas selecting a row by action
-#                    is straightforward.
-#
-#  Sept 02, 2024 - Significant speed increase by changing O to a set and skipping
-#                - optional requirements when looking for next column to cover. 
-#
-#  Sept 12, 2024 - Removed the August 13th changes and updated comments.
-#
-#  Sept 17, 2024 - Changed matrix_a_root to matrix_root.
-#                  Change parameter for _action_sort_criteria() and _requirement_sort_criteria()
-#                  Just a name change for requirements. For actions, I the parameter is now
-#                  the row_header, so when the method is overridden, the action tuple is easy
-#                  to access by using {passed in parameter}.title.
-#                  Parameters were changed from 'node' to 'col_header' and 'row_header'
 #
 
 # DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
