@@ -96,3 +96,10 @@ The third bullet point does not help. Logical problem-space reduction is only co
 The first two bullet points are the guidance you need to logically fill in more cells of the grid before Algorithm X begins searching for a full soluion. There are plenty of techniques you can find to fill in unknown cells. You do not have to find them all to pass every test case and validator. However, if you are overcome by the sweet, sweet logic pulling at you like the Death Star's tractor beam, it might be best not to fight it.
 
 [Wookieepedia- Tractor Beam](https://starwars.fandom.com/wiki/Tractor_beam/Legends)
+
+<BR>
+
+# Solving Logic Puzzles Logically
+
+Many __Takuzu__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
+
