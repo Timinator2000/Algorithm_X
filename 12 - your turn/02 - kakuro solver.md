@@ -88,3 +88,7 @@ Cages cannot have duplicate numbers. Are you using optional requirements to make
   
 Cages present significant opportunity for optional requirements to handle mutual exclusivity. Adding these me_requirements will add significant speed to Algorithm X. Is there a way to determine that placing a number in a cell makes it impossible to place another number in another cell? Remember, you are looking for knowledge that is not already captured by existing requirements, such as no duplicate numbers allowed in a cage.
 </details>
+
+# Solving Logic Puzzles Logically
+
+Many __Kakuro__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
