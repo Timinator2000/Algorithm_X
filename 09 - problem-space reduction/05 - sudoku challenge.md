@@ -71,6 +71,6 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 <BR>
 
-### Solving Logic Puzzles Logically
+## Solving Logic Puzzles Logically
 
 Click [here](solving-with-logic-only) to see my progress toward trying to solve as many logic puzzles as possible without making any guesses
