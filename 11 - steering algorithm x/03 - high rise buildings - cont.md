@@ -24,3 +24,7 @@ I am making a bit of an assumption that you came up with the same actions for Al
 <BR>
 
 Remember, there is never a need to reset `self.solution_is_valid` to `True`. `AlgorithmXSolver` will backtrack as soon as it sees a `False` value that indicates the current path is a dead end. Backtracking always returns to a valid state and `AlgorithmXSolver` automatically returns `self.solution_is_valid` to `True`.
+
+# Maximizing Speed
+
+To maximize your speed, consider adding a bit of problem-space reduction. It can be challenging to logically determine the heights of many buildings, but you should be able to limit the candidate heights enough to make your solution very fast for all test cases.
