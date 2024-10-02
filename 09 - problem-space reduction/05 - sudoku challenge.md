@@ -71,6 +71,6 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 <BR>
 
-#### Solving Logic Puzzles Logically
+# Solving Logic Puzzles Logically
 
 Many Sudoku puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward trying to solve as many logic puzzles as possible, strictly with logic, no guessing.
