@@ -70,6 +70,7 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 ```
 
 <BR>
+***
 
 ## Solving Logic Puzzles Logically
 
