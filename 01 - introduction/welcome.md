@@ -65,3 +65,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
 * You will earn up to __1900 [Codingame](https://www.codingame.com) XP!__
+
+# Future Updates
+
+If this is not your first time visiting this playground, be sure to click [here](revision-history) to see if any major updates (e.g. new puzzle) have been made since your last visit.
