@@ -52,7 +52,9 @@ __Great Candidates for Algorithm X:__
 
 # Prerequisites
 
-Python, Backtracking ???
+* Intermediate level knowledge of Python, including object-oriented programming concepts such as classes and class method overriding. However, if you are new to Python, going through this playground will identify some intermediate level concepts that you might consider moving to the top of your to-study list.
+
+* Cursory understanding of backtracking. To complete this playground, it is more important that you understand the general concept of backtracking than it is you be able to code a backtracking algorithm.
 
 # My Promise to You
 
