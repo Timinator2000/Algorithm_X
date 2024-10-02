@@ -65,3 +65,9 @@ As I alluded to earlier, a bit more than just basic `SudokuGroup` reduction logi
                 if group.reduce_():
                     finished_reducing = False
 ```
+
+<BR>
+
+# Solving Logic Puzzles Logically
+
+Many __Futoshiki__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
