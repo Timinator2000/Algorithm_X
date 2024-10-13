@@ -170,6 +170,18 @@ plan:
         statement: 12 - your turn/03 - killer sudoku extreme.md
       - title: Tetris Floor
         statement: 12 - your turn/04 - tetris floor.md
+  - title: Coloring Your Requirements
+    plan:
+      - title: What is Coloring?
+        statement: 13 - coloring your requirements/01 - coloring your requirements.md
+      - title: Coloring with Your Solver
+        statement: 13 - coloring your requirements/02 - constructing a word search.md
+  - title: Your Turn
+    plan:
+      - title: Agent X, Mission 2
+        statement: 14 - your turn/01 - agent x mission 2.md
+      - title: Ye_ An_th_r W_rd Se_rch
+        statement: 14 - your turn/02 - yet another word search.md
   - title: Customizing Your Solver
     plan:
       - title: How Does Algorithm X Work?
