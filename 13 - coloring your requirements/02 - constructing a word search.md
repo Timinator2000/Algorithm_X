@@ -40,7 +40,7 @@ Each time a row is selected, logic must be added to check the coloring of each g
 
 ```
     def _process_row_selection(self, row):
-        word and location = unpack the row tuple
+        word and location = unpack the row
         for each letter in word:
             if self.location_colors[grid location] not empty and letter is inappropriate:
                 self.solution_is_valid = False
