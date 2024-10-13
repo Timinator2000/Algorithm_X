@@ -59,4 +59,4 @@ The last line above might be a little confusing. Why is the letter getting added
 
 # Tremendous Power From Minimal Effort
 
-It is much more difficult to find research done on Algorithm C or the coloring of requirements than it is to find material on Algorithm X. One way or another, modifications must be made to Algorithm X if you wish to handle requirements that can be colored. The technique laid out above requires a minimal amount of customization to your solver subclass and provides tremendous power. In the next section, I will identify a couple of puzzles where you might benefit from this newfound power!
+It is much more difficult to find research done on Algorithm C or the coloring of requirements than it is to find material on Algorithm X. One way or another, modifications must be made to Algorithm X if you wish to handle requirements that can be colored. The technique laid out above requires a minimal amount of customization to your solver subclass and provides tremendous power. In the next section, I will identify puzzles with which you can employ this newfound power!
