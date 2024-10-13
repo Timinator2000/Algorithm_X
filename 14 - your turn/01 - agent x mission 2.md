@@ -19,15 +19,15 @@ For clarity, let’s assume the ciphertext has been parsed into a set of unique 
 
 The following are easily pulled from the above statements:
 
-•	Requirements: Every cipher word must be mapped to exactly one register word.
+* Requirements: Every cipher word must be mapped to exactly one register word.
 
-•	Optional Requirements: Each register word might remain unused or it might be mapped to exactly one cipher word.
+* Optional Requirements: Each register word might remain unused or it might be mapped to exactly one cipher word.
 
 Ultimately, mapping the register words to the cipher words results in a substitution matrix that maps cipher letters to register letters. It is tempting to say:
 
-•	Requirements: Every cipher letter must be mapped to exactly one register letter.
+* Requirements: Every cipher letter must be mapped to exactly one register letter.
 
-•	Optional Requirements: Each register letter might remain unused or it might be mapped to exactly one cipher letter.
+* Optional Requirements: Each register letter might remain unused or it might be mapped to exactly one cipher letter.
 
 # Avoid The Temptation Above!
 
@@ -35,7 +35,15 @@ Although both statements are accurate, taking a step back and looking at the til
 
 In the end, both statements above end up perfectly true, but during the process of placing tiles on the gameboard, each letter requirement could be covered many times. To find a proper solution, all the colorings across every covering must be consistent.
 
+Never forget the Algorithm X matrix is binary data. Requirements that can be covered many times do not fit into the binary mold.
+
 # Setting Up Your Solver
 
 
 More to come...
+
+
+# Making This Puzzle Harder
+
+I'm sure that subsection header has you super excited to see what I'm about to suggest, right?
+
