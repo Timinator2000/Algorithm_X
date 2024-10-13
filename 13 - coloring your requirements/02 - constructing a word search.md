@@ -32,12 +32,11 @@ Finally, logic must be added to make sure coloring requirements are satisfied.
 
 # Adding Coloring Logic To Your Solver
 
-Each time a row is selected, logic must be added to check the coloring of each grid cell. This is accomplished by overriding the `AlgorithmXSolver` `_process_row_selection()` method to do the following:
+Each time a row is selected, logic must be added to check the coloring of each grid cell covered by the word being placed on the grid. This is accomplished by overriding the `AlgorithmXSolver` `_process_row_selection()` method to do the following:
 
 1. Update the coloring of any covered grid location.
 
 1. Redirect Algorithm X if any color violations have occurred.
-
 
 ```
     def _process_row_selection(self, row):
