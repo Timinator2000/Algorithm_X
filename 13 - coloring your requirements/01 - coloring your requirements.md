@@ -10,13 +10,11 @@ Constructing a word search is a great fit for Algorithm X, until we get to the o
 
 What about the requirements satisfied by each action? A word has been placed on the grid and a certain number of cells have been covered. But what about multiple words that overlap. Two words that overlap were each placed on the board by a separate action and each of those actions covers the cell where the overlap occurs. You might be tempted to see this as an instance of the multiplicity discussed earlier, but there is a slight difference. In this example, each cell could be left uncovered or it could be covered multiple times, as long as it is covered by the same letter each time. For all multiplicity examples discussed previously, certain requirements needed to be covered an exact number of times.
 
-To summarize:
+__What does "coloring" mean?__
 
-* __What does "coloring" mean?__
-
-  * Mandatory Requirements: __Must__ be satisfied at least once, but may be satisfied many times as long as it is always satisfied or "colored" the same way.
+* __Mandatory Requirements:__ _Must_ be satisfied at least once, but may be satisfied many times as long as it is always satisfied or "colored" the same way.
  
-  * Optional Requirement: Does __not__ need to be satisfied, but if satisfied, it may be satisfied any number of times as long as it is always satisfied or "colored" the same way.
+* __Optional Requirement:__ Does _not_ need to be satisfied, but if satisfied, it may be satisfied any number of times as long as it is always satisfied or "colored" the same way.
  
   
 
