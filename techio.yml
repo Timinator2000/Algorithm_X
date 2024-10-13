@@ -173,15 +173,15 @@ plan:
   - title: Customizing Your Solver
     plan:
       - title: How Does Algorithm X Work?
-        statement: 13 - customizing your solver/01 - algorithm x.md
+        statement: 14 - customizing your solver/01 - algorithm x.md
       - title: Dancing Links (DLX)
-        statement: 13 - customizing your solver/02 - dancing links.md
+        statement: 14 - customizing your solver/02 - dancing links.md
       - title: Customizing Column Selection
-        statement: 13 - customizing your solver/03 - column selection.md
+        statement: 14 - customizing your solver/03 - column selection.md
       - title: Customizing Row Selection
-        statement: 13 - customizing your solver/04 - row selection.md
+        statement: 14 - customizing your solver/04 - row selection.md
       - title: Assorted Rectangular Pieces
-        statement: 13 - customizing your solver/05 - assorted rectangular pieces.md
+        statement: 14 - customizing your solver/05 - assorted rectangular pieces.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
