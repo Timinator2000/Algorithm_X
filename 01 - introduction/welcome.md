@@ -48,6 +48,7 @@ __Great Candidates for Algorithm X:__
 <BR>[Killer Sudoku Solver](https://www.codingame.com/training/medium/killer-sudoku-solver) (+50 XP)
 <BR>[Kakuro Solver](https://www.codingame.com/training/hard/kakuro-solver) (+50 XP)
 <BR>[Killer Sudoku Extreme Challenge](https://www.codingame.com/training/hard/killer-sudoku-extreme-challenge) (+50 XP)
+<BR>[Agent X, Mission 2—Mysterious Cryptogram](https://www.codingame.com/training/medium/agent-x-mission-2mysterious-cryptogram) (+50 XP)
 <BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
 
 # My Promise to You
@@ -58,7 +59,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to __1900 [Codingame](https://www.codingame.com) XP!__
+* You will earn up to __1950 [Codingame](https://www.codingame.com) XP!__
 
 # Prerequisites
 
