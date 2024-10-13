@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Donald Knuth Should Be Proud
 
 # Strategy
 
-This puzzle is pretty straightforward. You need to find hidden words in a word search puzzle. The only catch is that some, and in some cases, many of the letters are illegible. There isn't too much I can say about this puzzle without completely giving the solution away.
+This puzzle is pretty straightforward. You need to find hidden words in a word search puzzle. The only catch is that some (or maybe many) of the letters are illegible. There isn't too much I can say about this puzzle without completely giving the solution away.
 
 <details>
 <summary>Spoiler Alert: Only click here if you really need help.</summary>
