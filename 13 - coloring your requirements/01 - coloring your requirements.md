@@ -4,6 +4,8 @@ In his book, Donald Knuth identifies a category of problems where it is not only
 
 Going back to the analogy of tiles on a gameboard, the concept of coloring allows tiles to overlap. However, it is critical that the tiles be identical at the point of overlap. In his book, Knuth uses an example of building a word search puzzle. Given a list of words and a grid, put all the words on the grid, including horizontal words, vertical words, diagonal words and certain amount of overlap.
 
+# Constructing a Word Search
+
 Constructing a word search is a great fit for Algorithm X, until we get to the overlapping location. What are the mandatory requirements? Each word must be placed somewhere on the grid. Are there any optional requirements? Each square of the grid may be covered by a letter, or it may be left empty, later to be filled with a letter that is not part of the solution. What about actions? Each action is simply putting a word on the grid at a specified location and in a specified direction.
 
 What about the requirements satisfied by each action? A word has been placed on the grid and a certain number of cells have been covered. But what about multiple words that overlap. Two words that overlap were each placed on the board by a separate action and each of those actions covers the cell where the overlap occurs. You might be tempted to see this as an instance the multiplicity discussed earlier, but there is a slight difference. In this example, each cell could be left uncovered or it could be covered multiple times, as long as it is covered by the same letter each time.
