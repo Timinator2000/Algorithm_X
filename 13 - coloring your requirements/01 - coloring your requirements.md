@@ -12,5 +12,6 @@ What about the requirements satisfied by each action? A word has been placed on 
 
 The following table summarizes the concept of coloring requirements:
 
+# Algorithm C
 
 Knuth proposes Algorithm C to solve exact cover problems that include the coloring of requirements. I am not going to cover Algorithm C here. This is an Algorithm X playground and on the next page, I will show you how to easily customize `AlgorithmXSolver` to handle requirements that can be colored.
