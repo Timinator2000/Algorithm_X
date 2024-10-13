@@ -34,7 +34,7 @@ This is your last chance to change your mind...
 <summary>I rufuse to change my mind. <b>Show me the money!</b></summary>
 <br>
 
-Thinking of this puzzle as a word search is painful road to travel. Instead, think of this puzzle as a word search construction puzzle. Given a list of a words and partially filled in grid, you must construct a word search that fits inside the parameters defined by the prefilled cells. In this puzzle, you must implement the word search construction example Knuth uses in his book to discuss the topic of “coloring”. The coloring discussion in the previous section should be enough to guide you to a solution!
+Thinking of this puzzle as a word search is a painful road to travel. Instead, think of this puzzle as a word search construction puzzle. Given a list of a words and partially filled in grid, you must construct a word search that fits inside the parameters defined by the prefilled cells. In this puzzle, you must implement the word search construction example Knuth uses in his book to discuss the topic of “coloring”. The coloring discussion in the previous section should be enough to guide you to a solution!
 </details>
 </details>
 </details>
