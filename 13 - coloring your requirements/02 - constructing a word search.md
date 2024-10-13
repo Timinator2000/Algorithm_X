@@ -42,7 +42,7 @@ Each time a row is selected, logic must be added to check the coloring of each g
     def _process_row_selection(self, row):
         word and location = unpack the row tuple
         for each letter in word:
-            if self.location_colors[grid location] not empty and letter does not match the most recent letter in the list:
+            if self.location_colors[grid location] not empty and letter is inappropriate:
                 self.solution_is_valid = False
 
             self.location_colors[grid_location].append(letter)
