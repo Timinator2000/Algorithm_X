@@ -43,7 +43,7 @@ Never forget the Algorithm X matrix is binary data. Requirements that can be cov
 More to come...
 
 
-# Making This Puzzle Harder
+# Solving This Puzzle Without Coloring
 
 I'm sure that subsection header has you super excited to see what I'm about to suggest, right?
 
