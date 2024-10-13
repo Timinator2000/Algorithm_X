@@ -41,7 +41,7 @@ Each time a row is selected, logic must be added to check the coloring of each g
 ```
     def _process_row_selection(self, row):
         word and location = unpack the row
-        for each letter in word:
+        for each letter in the word:
             if self.location_colors[grid location] not empty and letter is inappropriate:
                 self.solution_is_valid = False
 
@@ -52,8 +52,8 @@ The last line above might be a little confusing. Why is the letter getting added
 
 ```
     def _process_row_deselection(self, row):
-        word and location = unpack the row tuple
-        for each letter in word:
+        word and location = unpack the row
+        for each location covered by the word:
             remove the most recent addition to self.location_colors[grid location]
 ```
 
