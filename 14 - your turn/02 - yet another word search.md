@@ -16,10 +16,10 @@ This puzzle is pretty straightforward. You need to find hidden words in a word s
 <summary>Spoiler Alert: Only click here if you really need help.</summary>
 <br>
 
-I'm not kidding. This puzzle will get significantly easier if you click below.
+I'm not kidding. This puzzle will get significantly easier if you click below. Are you sure this is what you want?
 
 <details>
-<summary>Spoiler Alert: Only click here if you're absolute sure you want help.</summary>
+<summary>Spoiler Alert: I'm positive. Give me the deets!</summary>
 <br>
 
 I feel bad about this. I don't like the idea of just giving the solution away.
