@@ -31,7 +31,7 @@ I feel bad about this. I don't like the idea of just giving the solution away.
 This is your last chance to change your mind...
 
 <details>
-<summary>Spoiler Alert: I rufuse to change my mind. Show me the money!</summary>
+<summary>Spoiler Alert: I rufuse to change my mind. __Show me the money!__</summary>
 <br>
 
 Thinking of this puzzle as a word search is a road filled with dead ends. Instead, think of this puzzle as a word search construction puzzle. Given a list of a words and partially filled in grid, you must construct a word search that fits inside the parameters defined by the prefilled cells. In this puzzle, you must implement the word search construction example Knuth uses in his book to discuss the topic of “coloring”. The coloring discussion in the previous section should be enough to guide you to a solution!
