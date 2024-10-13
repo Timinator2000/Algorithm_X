@@ -4,5 +4,5 @@ Let's revisit the challenge of constructing a word search. Given a list of words
 
 1. Each word must be placed on the grid.
 
-2. Each location may or many not be used, and if it is used, it must always be colored with the same letter.
+2. Each location may or man not be used, but if it is used more than once, it must always be colored with the same letter.
 
