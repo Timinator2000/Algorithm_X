@@ -19,19 +19,19 @@ This puzzle is pretty straightforward. You need to find hidden words in a word s
 I'm not kidding. This puzzle will get significantly easier if you click below. Are you sure this is what you want?
 
 <details>
-<summary>Spoiler Alert: I'm positive. Give me the deets!</summary>
+<summary>I'm positive. Give me the deets!</summary>
 <br>
 
 I feel bad about this. I don't like the idea of just giving the solution away.
 
 <details>
-<summary>Spoiler Alert: But, if you're sure...</summary>
+<summary>But, if you're sure...</summary>
 <br>
 
 This is your last chance to change your mind...
 
 <details>
-<summary>Spoiler Alert: I rufuse to change my mind. <b>Show me the money!</b></summary>
+<summary>I rufuse to change my mind. <b>Show me the money!</b></summary>
 <br>
 
 Thinking of this puzzle as a word search is a road filled with dead ends. Instead, think of this puzzle as a word search construction puzzle. Given a list of a words and partially filled in grid, you must construct a word search that fits inside the parameters defined by the prefilled cells. In this puzzle, you must implement the word search construction example Knuth uses in his book to discuss the topic of “coloring”. The coloring discussion in the previous section should be enough to guide you to a solution!
