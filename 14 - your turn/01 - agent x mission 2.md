@@ -49,7 +49,7 @@ More to come...
 <br>
 
 Because significant attention is paid to the cipher letters and the register letters, the optional requirements end up being excess baggage for Algorithm X. They are completely legitimate and there is nothing wrong with leaving them where they are, but you may want to compare run times with and without them. In many puzzles, removing legitimate requirements is not a good idea, but in a situation like this, the word requirements and the letter requirements have some overlap that allow for the optional requirements to be omitted.
-<details>
+</details>
 
 # Solving This Puzzle Without Coloring
 
