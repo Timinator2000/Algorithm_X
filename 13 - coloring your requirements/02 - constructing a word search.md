@@ -22,7 +22,7 @@ First, put the binary requirements into the Algorithm X matrix. For the word sea
 requirements = [('word placed', word) for word in word_list]
 ```
 
-For the non-binary requirements that can be colored, add an attribute to your solver subclass to keep track of the color assignments. There are many ways you could do this. For this example, I will use a `dictionary` where the grid locations are the `key`s and each `value` is a `list`. Every time a location is covered by a word, the letter that colors the location is added to the list. A cell that has an empty list may be covered by any color (letter). A cell that has a non-empty list can only be properly covered again if the new color matches what is already in the list.
+For the non-binary requirements that can be colored, add an attribute to your solver subclass to keep track of the color assignments. There are many ways you could do this. For this example, I will use a `dictionary` where the grid locations are the `key`s and each `value` is a `list`. Every time a location is covered by a word, the letter that colors the location is added to the list. A cell that has an empty list may be covered by any color (letter). A cell that has a non-empty list can only be covered again properly if the new color matches what is already in the list.
 
 ```python
 self.location_colors = {(r, c):[] for r in range(height) for c in range(width)}
