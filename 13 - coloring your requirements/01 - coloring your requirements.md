@@ -12,7 +12,7 @@ What about the requirements satisfied by each action? A word has been placed on 
 
 __What does "coloring" mean?__
 
-* __Mandatory Requirements:__ _Must_ be satisfied at least once, but may be satisfied many times as long as it is always satisfied or "colored" the same way.
+* __Mandatory Requirement:__ _Must_ be satisfied at least once, but may be satisfied many times as long as it is always satisfied or "colored" the same way.
  
 * __Optional Requirement:__ Does _not_ need to be satisfied, but if satisfied, it may be satisfied any number of times as long as it is always satisfied or "colored" the same way.
  
