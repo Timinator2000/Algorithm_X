@@ -45,5 +45,5 @@ More to come...
 
 # Solving This Puzzle Without Coloring
 
-I'm sure that subsection header has you super excited to see what I'm about to suggest, right?
+
 
