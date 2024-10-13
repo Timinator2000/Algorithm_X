@@ -8,9 +8,9 @@ Let's revisit the challenge of constructing a word search. Given a list of words
 
 The first set of requirements are easy, and they fit perfectly into the paradigms discussed earlier in this playground. The second set of requirements are troublesome. There is no way to know how many words will intersect at a single location on the grid and some sort of checking must be done to ensure grid locations are only colored a single way. Using the perspective of words being placed on the grid, it makes sense to say:
 
-•	Each grid location may be covered by 0 to 4 words.
+* Each grid location may be covered by 0 to 4 words.
 
-•	Any location covered by 2 to 4 words must be covered (“colored”) with the same letter by each word.
+* Any location covered by 2 to 4 words must be covered (“colored”) with the same letter by each word.
 
 These non-binary stipulations do not fit into an Algorithm X matrix where everything is binary.  The solution is to customize `AlgorithmXSolver`to monitor these non-binary requirements outside the Algorithm X matrix.
 
