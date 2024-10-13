@@ -16,7 +16,7 @@ These non-binary stipulations do not fit into an Algorithm X matrix where everyt
 
 # Requirements
 
-First, put the binary requirements into the Algorithm X matrix. For our word search construction exercise:
+First, put the binary requirements into the Algorithm X matrix. For the word search construction exercise:
 
 ```python
 requirements = [('word placed', word) for word in word_list]
