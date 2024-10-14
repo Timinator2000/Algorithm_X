@@ -37,6 +37,10 @@ After all mappings are complete, both letter-mapping requirements above are true
 
 Remember, the Algorithm X matrix is binary data. Requirements that can be covered many times do not fit into the binary mold. In the multiplicity section of this playground, we discussed a strategy for requirements that must be covered a certain number of times. Now, we have have a new category of requirements that can be covered an arbitrary number of times and the way they are covered (the color applied to the requirement) must be consistent.
 
+# Tiles on a Gameboard
+
+![Agent X - Mapping a Word](AgentX-PlacingCipherWord.png)
+
 # Setting Up Your Solver
 
 
