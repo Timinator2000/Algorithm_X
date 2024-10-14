@@ -21,7 +21,7 @@ The following are easily pulled from the above statements:
 
 * Requirements: Every cipher word must be mapped to exactly one register word.
 
-* Optional Requirements: Each register word might remain unused or it might be mapped to exactly one cipher word.
+* Optional Requirements: Each register word might remain unused or it may be mapped to exactly one cipher word.
 
 Ultimately, mapping the register words to the cipher words results in a substitution matrix that maps cipher letters to register letters. It is tempting to say:
 
