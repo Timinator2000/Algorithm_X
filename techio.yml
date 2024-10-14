@@ -182,7 +182,7 @@ plan:
         statement: 14 - your turn/01 - agent x mission 2.md
       - title: Ye_ An_th_r W_rd Se_rch
         statement: 14 - your turn/02 - yet another word search.md
-      - title: Breaking Bifid Revisited
+      - title: Breaking Bifid (Revisited)
         statement: 14 - your turn/03 - breaking bifid revisited.md
   - title: Customizing Your Solver
     plan:
