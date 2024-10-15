@@ -4,8 +4,9 @@
 
 # Setting Up Your Solver
 
+To set up your solver, follow the exact instructions presented [here](constructing-a-word-search), taking care to consider the following:
 
-More to come...
+1. kdkdkd
 
 # Minor Spoiler
 
