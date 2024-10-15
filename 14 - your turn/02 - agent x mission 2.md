@@ -8,8 +8,6 @@ __Published Difficulty:__ Medium
 
 __Algorithm X Complexity:__ Very Hard or Not Too Bad, Your Choice
 
-# THIS PAGE IS UNDER CONSTRUCTION
-
 # Strategy
 
 Let’s begin with an excerpt from the puzzle statement:
