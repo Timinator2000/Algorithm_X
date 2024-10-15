@@ -41,9 +41,11 @@ Remember, the Algorithm X matrix is binary data. Requirements that can be covere
 
 # Tiles on a Gameboard
 
+Consider the following gameboard visual for the Example Test Case, which shows a group of cipher words and group of register words. Each action takes a register word and matches it up to one of the cipher words.
+
 ![Agent X - Gameboard](AgentX-PlacingWord1.png)
 
-Hello world!
+It appears everything needed is on the gameboard, but with these types of problems, it is often necessary to look at the gameboard from a different perspective. The next diagram contains a second view of the gameboard. A set of letters found across the cipher words and a set of letters found across the register words has been added.
 
 ![Agent X - Extended Gameboard](AgentX-PlacingWord2.png)
 
