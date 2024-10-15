@@ -21,7 +21,7 @@ Because significant attention is paid to the cipher letters and the register let
 
 This puzzle can be solved without any coloring. I found this approach challenging, in a very fun way of course.
 
-Coloring allows us to easily model and implement things that must be the same or situations where consistency is crucial. How else can we model things that must be the same? Based on what must be the same, we can identify everything that must be different. This technique was used multiple times in the section on Generalized Exact Cover, more specifically on puzzles that featured [Mutual Exclusivity](mutual-exclusivity).
+Coloring allows us to easily model and implement things that must be the same or situations where consistency is crucial. How else can we model things that must be the same? Based on what must be the same, we can identify everything that must be different. This technique was used multiple times in the section on Generalized Exact Cover, more specifically on puzzles that featured [mutual exclusivity](mutual-exclusivity).
 
 Let’s consider how this puzzle can be solved without coloring. Since we will be strictly using the requirements, optional requirements and actions of Algorithm X, actions cannot involve placing one register word on one cipher word. Instead, we must be more granular and make all actions assigning one register letter to one cipher letter. Cipher letters are either covered, or they are not. Register letters are either used, or they are not. All cipher letters __must__ be covered. All register letters __may__ be used.
 
@@ -48,7 +48,7 @@ Mutual Exclusivity allows Algorithm X to easily ensure certain situation do not 
 
 All that for just one possible mapping of a register word to a cipher word. After considering all legitimate combinations of register words and cipher words, what is left is a comprehensive matrix of __what is possible__.
 
-Because the sets of letters are finite, a comprehensive matrix of __what is not possible__ can be determined and how do we tell Algorithm X what is not possible? We build a list of `me_requirements`to handle mutual exclusivity.
+Because the sets of letters are finite, a comprehensive matrix of __what is not possible__ can be determined and how do we tell Algorithm X what is not possible? We build a list of `me_requirements`to handle [mutual exclusivity](mutual-exclusivity).
 
 # Are You Kidding Me?
 
