@@ -45,7 +45,7 @@ Each time a row is selected, logic must be added to check the coloring of each g
             if self.location_colors[grid location] not empty and letter is inappropriate:
                 self.solution_is_valid = False
 
-            self.location_colors[grid_location].append(letter)
+            self.location_colors[location].append(letter)
 ```
 
 The last line above might be a little confusing. Why is the letter being added to the list even if the coloring was inappropriate and `self.solution_is_valid` was set to `False`? This must be done this way because backtracking can happen naturally or it can be forced because the current path is not valid. Either way, the backtracking is going to "undo" the most recent row processing which means popping the most recent addition out of the `location_colors` `list`. This cleanup is accomplished by overriding the `AlgorithmXSolver` `_process_row_deselection()` method as follows:
@@ -54,7 +54,7 @@ The last line above might be a little confusing. Why is the letter being added t
     def _process_row_deselection(self, row):
         word and location = unpack the row
         for each location covered by the word:
-            remove the most recent addition to self.location_colors[grid location]
+            remove the most recent addition to self.location_colors[location]
 ```
 
 # Tremendous Power From Minimal Effort
