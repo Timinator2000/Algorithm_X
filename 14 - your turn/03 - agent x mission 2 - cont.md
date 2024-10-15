@@ -28,13 +28,9 @@ Let’s consider how this puzzle can be solved without coloring. Since we will b
 Mutual Exclusivity allows Algorithm X to easily ensure certain situation do not happen. In order to determine what must __not__ happen in this puzzle, it is necessary to first identify what could happen. Once again, consider the Example Test Case. Go through each combination of words and build a matrix of _what is possible_. On the previous page, the gameboard shows the register word `PART` is matched to the cipher word `TIFS`. This is a legitimate possibility. Because it is possible, what do we know is possible about the cipher letters and register letters?
 
 * If register letter `P` is mapped to cipher letter `T`, the following are also possible:
-  
   * Register letter `A` could be mapped to cipher letter `I`.
-  
   * Register letter `R` could be mapped to cipher letter `F`.
-  
   * Register letter `T` could be mapped to cipher letter `S`.
-
 * If register letter `A` is mapped to cipher letter `I`, the following are also possible:
   * Register letter `P` could be mapped to cipher letter `T`.
   * Register letter `R` could be mapped to cipher letter `F`.
@@ -47,6 +43,8 @@ Mutual Exclusivity allows Algorithm X to easily ensure certain situation do not 
   * Register letter `P` could be mapped to cipher letter `T`.
   * Register letter `A` could be mapped to cipher letter `I`.
   * Register letter `R` could be mapped to cipher letter `F`.
+
+<BR>
 
 All that for just one possible mapping of a register word to a cipher word. After considering all legitimate combinations of register words and cipher words, what is left is a comprehensive matrix of what is possible.
 
