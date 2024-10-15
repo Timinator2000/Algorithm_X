@@ -183,7 +183,7 @@ plan:
       - title: Agent X, Mission 2
         statement: 14 - your turn/02 - agent x mission 2.md
       - title: Einstein's Riddle Solver
-        statement: 14 - your turn/03 - einstein riddle.md
+        statement: 14 - your turn/03 - einstein revisited.md
       - title: Breaking Bifid (Revisited)
         statement: 14 - your turn/04 - breaking bifid revisited.md
   - title: Customizing Your Solver
