@@ -8,10 +8,9 @@ If you love repeatability, take a break from your work right now. Get up, open a
 
 <BR>
 
-| 🔥🔥🔥 I LOVE REPEATABILITY! 🔥🔥🔥|
+| <span style="font-size: 250%">🔥🔥🔥 I LOVE REPEATABILITY! 🔥🔥🔥</span>|
 |:-------:|
 
-__I LOVE REPEATABILITY!__
 
 <BR>
 
