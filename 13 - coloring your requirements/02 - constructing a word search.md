@@ -38,6 +38,8 @@ Each time a row is selected, logic must be added to check the coloring of each g
 
 1. Redirect Algorithm X if any color violations have occurred.
 
+The pseudocode looks like this:
+
 ```
     def _process_row_selection(self, row):
         word and location = unpack the row
