@@ -41,7 +41,17 @@ Remember, the Algorithm X matrix is binary data. Requirements that can be covere
 
 # Tiles on a Gameboard
 
-![Agent X - Mapping a Word](AgentX-PlacingCipherWord.png)
+![Agent X - Gameboard](AgentX-PlacingCipherWord1.png)
+
+Hello world!
+
+![Agent X - Extended Gameboard](AgentX-PlacingCipherWord2.png)
+
+Hello world!
+
+![Agent X - Placing a Tile](AgentX-PlacingCipherWord3.png)
+
+Hello world!
 
 # Setting Up Your Solver
 
