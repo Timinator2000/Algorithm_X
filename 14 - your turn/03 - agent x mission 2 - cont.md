@@ -8,7 +8,7 @@ If you love repeatability, take a break from your work right now. Get up, open a
 
 <BR>
 
-<span style="text-align:center">__I love repeatability.__</span>
+__I LOVE REPEATABILITY!__
 
 <BR>
 
