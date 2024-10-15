@@ -43,15 +43,27 @@ Remember, the Algorithm X matrix is binary data. Requirements that can be covere
 
 Consider the following gameboard visual for the Example Test Case, which shows a group of cipher words and group of register words. Each action takes a register word and matches it up to one of the cipher words.
 
+<BR>
+
 ![Agent X - Gameboard](AgentX-PlacingWord1.png)
+
+<BR>
 
 It appears everything needed is on the gameboard, but with these types of problems, it is often necessary to look at the gameboard from a different perspective. The next diagram contains a second view of the gameboard. A set of letters found across the cipher words and a set of letters found across the register words has been added.
 
+<BR>
+
 ![Agent X - Extended Gameboard](AgentX-PlacingWord2.png)
+
+<BR>
 
 Finally, the last diagram below shows the full effect of matching one register word to one cipher word. Each time a word pair is created, the letters of each word need to be dropped on their counterparts. The next cipher-word-register-word pair can drop letters on letters that have not been colored with a counterpart letter, but if the counterpart already has a tile present, the new letter tile must match.
 
+<BR>
+
 ![Agent X - Placing a Tile](AgentX-PlacingWord3.png)
+
+<BR>
 
 # Consistency Is Key
 
