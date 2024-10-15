@@ -50,7 +50,7 @@ The pseudocode looks like this:
             self.location_colors[location].append(letter)
 ```
 
-The last line above might be a little confusing. Why is the letter being added to the list even if the coloring was inappropriate and `self.solution_is_valid` was set to `False`? This must be done this way because backtracking can happen naturally or it can be forced because the current path is not valid. Either way, the backtracking is going to "undo" the most recent row processing which means popping the most recent addition out of the `location_colors` `list`. This cleanup is accomplished by overriding the `AlgorithmXSolver` `_process_row_deselection()` method as follows:
+The last line above might be a little confusing. Why is the letter being added to the list even if the coloring was inappropriate and `self.solution_is_valid` was set to `False`? Backtracking can happen naturally or it can be forced because the current path is not valid. Either way, the backtracking is going to "undo" the most recent row processing which means popping the most recent addition out of the `location_colors` `list`. This cleanup is accomplished by overriding the `AlgorithmXSolver` `_process_row_deselection()` method as follows:
 
 ```
     def _process_row_deselection(self, row):
