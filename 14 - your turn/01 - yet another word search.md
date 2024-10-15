@@ -6,7 +6,7 @@ __Author:__ [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b3
 
 __Published Difficulty:__ Medium
 
-__Algorithm X Complexity:__ Donald Knuth Should Be Proud
+__Algorithm X Complexity:__ Donald Knuth Would Be Proud
 
 # Strategy
 
