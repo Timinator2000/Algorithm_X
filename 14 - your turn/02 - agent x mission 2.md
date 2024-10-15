@@ -57,7 +57,7 @@ It appears everything needed is on the gameboard, but with these types of proble
 
 <BR>
 
-Finally, the last diagram below shows the full effect of matching one register word to one cipher word. Each time a word pair is created, the letters of each word need to be dropped on their counterparts. The next cipher-word-register-word pair can drop letters on letters that have not been colored with a counterpart letter, but if the counterpart already has a tile present, the new letter tile must match.
+The next diagram below shows the full effect of matching one register word to one cipher word. Each time a word pair is created, the letters of each word need to be dropped on their counterparts in the bottom right. The next cipher-word-register-word pair can drop letters on letters that have not been colored with a counterpart letter, but if the counterpart already has a tile present, the new letter tile must match.
 
 <BR>
 
