@@ -8,7 +8,7 @@ Going back to the analogy of tiles on a gameboard, the concept of coloring allow
 
 Constructing a word search is a great fit for Algorithm X, until we get to the overlapping locations. What are the requirements of the exercise? Each word must be placed somewhere on the grid. Are there any optional requirements? Each square of the grid may be covered by a letter, or it may be left empty, later to be filled with a letter that is not part of the solution. What about actions? Each action is simply putting a word on the grid at a specified location and in a specified direction.
 
-What about the requirements satisfied by each action? A word has been placed on the grid and a certain number of cells have been covered. But what about multiple words that overlap. Two words that overlap were each placed on the grid by a separate action and each of those actions covers the cell where the overlap occurs.
+What about the requirements satisfied by each action? A word has been placed on the grid and a certain number of cells have been covered. But what about multiple words that overlap? Two words that overlap were each placed on the grid by a separate action and each of those actions covers the cell where the overlap occurs.
 
 You might be tempted to see this as an instance of the multiplicity discussed earlier, but there is a slight difference. In this example, each cell could be left uncovered or it could be covered multiple times, as long as it is covered by the same letter each time. For all multiplicity examples discussed previously, certain requirements needed to be covered an exact number of times.
 
