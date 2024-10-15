@@ -10,9 +10,9 @@ The first set of requirements is easy. These requiremets fit perfectly into the 
 
 * Each grid location may be covered by 0 to 4 words.
 
-* Any location covered by 2 to 4 words must be covered (“colored”) with the same letter by each word.
+* Any location covered by 2 to 4 words must be colored with the same letter by each word.
 
-These non-binary stipulations do not fit into an Algorithm X matrix where everything is binary.  The solution is to customize `AlgorithmXSolver`to monitor these non-binary requirements outside the Algorithm X matrix.
+These non-binary stipulations do not fit into an Algorithm X matrix where everything is binary. The solution is to customize `AlgorithmXSolver`to monitor these non-binary requirements outside the Algorithm X matrix.
 
 # Requirements
 
