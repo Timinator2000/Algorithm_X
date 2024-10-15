@@ -28,7 +28,7 @@ For the non-binary requirements that can be colored, add an attribute to your so
 self.location_colors = {(r, c):[] for r in range(height) for c in range(width)}
 ```
 
-Finally, logic must be added to make sure coloring requirements are satisfied.
+Finally, logic must be added to ensure coloring requirements are obeyed.
 
 # Adding Coloring Logic To Your Solver
 
