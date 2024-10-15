@@ -49,9 +49,10 @@ It appears everything needed is on the gameboard, but with these types of proble
 
 ![Agent X - Extended Gameboard](AgentX-PlacingWord2.png)
 
-Hello world!
+Finally, the last diagram below shows the full effect of matching one register word to one cipher word. Each time a word pair is created, the letters of each word need to be dropped on their counterparts. The next cipher-word-register-word pair can drop letters on letters that have not been colored with a counterpart letter, but if the counterpart already has a tile present, the new letter tile must match.
 
 ![Agent X - Placing a Tile](AgentX-PlacingWord3.png)
 
-Hello world!
+# Consistency Is Key
 
+It can be challenging to visualize an Exact Cover problem that requires coloring. In the previous diagrams, think of the two sets of letters in the bottom right as the __Color Police__. When the gameboard is first considered, these groups are often not obvious, but at some point in the gameboard exploration, a need for consistency arises. This need is a telltale sign, it is time consider adding the Color Police to your gameboard.
