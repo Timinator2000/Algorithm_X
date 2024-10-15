@@ -4,7 +4,7 @@
 
 # Setting Up Your Solver
 
-To set up your solver, follow the exact instructions presented [here](constructing-a-word-search), taking care to consider the following:
+To set up your solver, follow the exact instructions presented [here](coloring-with-your-solver), taking care to consider the following:
 
 1. kdkdkd
 
