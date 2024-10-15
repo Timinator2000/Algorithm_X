@@ -178,12 +178,14 @@ plan:
         statement: 13 - coloring your requirements/02 - constructing a word search.md
   - title: Your Turn
     plan:
-      - title: Agent X, Mission 2
-        statement: 14 - your turn/01 - agent x mission 2.md
-      - title: Breaking Bifid (Revisited)
-        statement: 14 - your turn/02 - breaking bifid revisited.md
       - title: Ye_ An_th_r W_rd Se_rch
-        statement: 14 - your turn/03 - yet another word search.md
+        statement: 14 - your turn/01 - yet another word search.md
+      - title: Agent X, Mission 2
+        statement: 14 - your turn/02 - agent x mission 2.md
+      - title: Einstein's Riddle Solver
+        statement: 14 - your turn/03 - einstein riddle.md
+      - title: Breaking Bifid (Revisited)
+        statement: 14 - your turn/04 - breaking bifid revisited.md
   - title: Customizing Your Solver
     plan:
       - title: How Does Algorithm X Work?
