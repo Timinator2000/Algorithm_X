@@ -62,8 +62,8 @@ I optimized my code by only considering register words that truly could be mappe
 <BR>
 
 | Test Case | Number of me_requirements |
-|:-------|:---------------------:|
-| TC 1| 91,000,000 |
+|:-------:|:---------------------:|
+| TC 1 | 91,000,000 |
 
 <BR>
 
