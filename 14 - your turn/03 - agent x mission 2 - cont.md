@@ -19,4 +19,46 @@ Because significant attention is paid to the cipher letters and the register let
 
 # Solving This Puzzle Without Coloring
 
+This puzzle can be solved without any coloring. I found this approach challenging, in a very fun way of course.
+
+Coloring allows us to easily model and implement things that must be the same or situations where consistency is crucial. How else can we model things that must be the same? Based on what must be the same, we can identify everything that must be different. This technique was used multiple times in the section on Generalized Exact Cover, more specifically on puzzles that featured [Mutual Exclusivity](mutual-exclusivity).
+
+Let’s consider how this puzzle can be solved without coloring. Since we will be strictly using the requirements, optional requirements and actions of Algorithm X, actions cannot involve placing one register word on one cipher word. Instead, we must be more granular and make all actions assigning one register letter to one cipher letter. Cipher letters are either covered, or they are not. Register letters are either used, or they are not. All cipher letters __must__ be covered. All register letters __may__ be used.
+
+Mutual Exclusivity allows Algorithm X to easily ensure certain situation do not happen. In order to determine what must __not__ happen in this puzzle, it is necessary to first identify what could happen. Once again, consider the Example Test Case. Go through each combination of words and build a matrix of _what is possible_. On the previous page, the gameboard shows the register word `PART` is matched to the cipher word `TIFS`. This is a legitimate possibility. Because it is possible, what do we know is possible about the cipher letters and register letters?
+
+* If register letter `P` is mapped to cipher letter `T`, the following are also possible:
+  
+  * Register letter `A` could be mapped to cipher letter `I`.
+  
+  * Register letter `R` could be mapped to cipher letter `F`.
+  
+  * Register letter `T` could be mapped to cipher letter `S`.
+
+* If register letter `A` is mapped to cipher letter `I`, the following are also possible:
+  * Register letter `P` could be mapped to cipher letter `T`.
+  * Register letter `R` could be mapped to cipher letter `F`.
+  * Register letter `T` could be mapped to cipher letter `S`.
+* If register letter `R` is mapped to cipher letter `F`, the following are also possible:
+  * Register letter `P` could be mapped to cipher letter `T`.
+  * Register letter `A` could be mapped to cipher letter `I`.
+  * Register letter `T` could be mapped to cipher letter `S`.
+* If register letter `T` is mapped to cipher letter `S`, the following are also possible:
+  * Register letter `P` could be mapped to cipher letter `T`.
+  * Register letter `A` could be mapped to cipher letter `I`.
+  * Register letter `R` could be mapped to cipher letter `F`.
+
+All that for just one possible mapping of a register word to a cipher word. After considering all legitimate combinations of register words and cipher words, what is left is a comprehensive matrix of what is possible.
+
+Because the sets of letters are finite, a comprehensive matrix of __what is not possible__ can be determined and how do we tell Algorithm X what is not possible? We build a list of `me_requirements`to handle mutual exclusivity.
+
+# Are You Kidding Me?
+
+I optimized my code by only considering register words that truly could be mapped to certain cipher words. Of course, the words must be of the same length, but some pattern matching can also limit legitimate pairs. The next table displays how many requirements I constructed to handle mutual exclusivity for each test case.
+
+{Insert Table}
+
+There is good news and bad news about the size of these numbers. The good news is Algorithm X and DLX chewed through the matrix data like a hot knife through butter. No issues at all. The bad news is setting up the actions to feed to Algorithm X required a bit of optimization. Afterall, the more often you filter a list of 10s of thousands of `me_requirements`, the better chance that filtering takes an unreasonable amount of time.
+
+
 
