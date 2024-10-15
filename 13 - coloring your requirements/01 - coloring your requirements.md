@@ -10,7 +10,7 @@ Constructing a word search is a great fit for Algorithm X, until we get to the o
 
 What about the requirements satisfied by each action? A word has been placed on the grid and a certain number of cells have been covered. But what about multiple words that overlap? Two words that overlap are each placed on the grid by a separate action and each of those actions covers the cell where the overlap occurs.
 
-You might be tempted to see this as an instance of multiplicity as discussed earlier, but there is a slight difference. In this example, each cell could be left uncovered or it could be covered multiple times, as long as it is covered by the same letter each time. For all multiplicity examples discussed previously, certain requirements needed to be covered an exact number of times.
+You might be tempted to see this as an instance of multiplicity as discussed earlier, but there is a slight difference. In this example, each cell could be left uncovered or it could be covered multiple times, as long as it is covered, or _colored_ by the same letter each time. For all multiplicity examples discussed previously, certain requirements needed to be covered an exact number of times.
 
 # Algorithm C
 
