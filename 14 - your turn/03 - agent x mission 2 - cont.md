@@ -12,7 +12,7 @@ The first puzzle covered in this section was building a word search. I have a fe
 
 # Solving Agent X, Mission 2 Without Coloring
 
-This puzzle can be solved without any coloring. I found this approach challenging, in a very fun way of course.
+This puzzle can be solved without any coloring at all. I found this approach challenging, in a very fun way of course.
 
 Coloring allows us to easily model and implement things that must be the same or situations where consistency is crucial. How else can we model things that must be the same? Based on what must be the same, we can identify everything that must be different. This technique was used multiple times in the section on Generalized Exact Cover, more specifically on puzzles that featured [mutual exclusivity](mutual-exclusivity).
 
