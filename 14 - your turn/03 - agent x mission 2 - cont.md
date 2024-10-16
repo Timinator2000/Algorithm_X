@@ -10,7 +10,7 @@ Coloring is a great fit for Agent X, Mission 2. You could use coloring on just a
 
 The first puzzle covered in this section was building a word search. I have a few ideas in regard to how that puzzle could be approached purely with Algorithm X, but each of those ideas feels like climbing an enormous mountain. This Agent X, Mission 2 puzzle is a different story. Although the climb is strenuous, there is much to be learned by solving this puzzle with and without coloring.
 
-# Solving This Puzzle Without Coloring
+# Solving Agent X, Mission 2 Without Coloring
 
 This puzzle can be solved without any coloring. I found this approach challenging, in a very fun way of course.
 
