@@ -2,6 +2,8 @@
 
 # THIS PAGE IS UNDER CONSTRUCTION
 
+# I Thought There Was a Choice To Be Made
+
 On the previous page, I indicated the Algorithm X setup could be “Very Hard or Not Too Bad, Your Choice”. In this section, I will cover the harder option. 
 
 Coloring is a great fit for Agent X, Mission 2. You could use coloring on just about any puzzle you wish to, but I don’t recommend that. This is an Algorithm X playground and my goal is to demonstrate the tremendous power of Algorithm X and the many different types of problems it can solve. Every now and then, coloring is a better option.
