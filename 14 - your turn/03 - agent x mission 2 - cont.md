@@ -2,27 +2,11 @@
 
 # THIS PAGE IS UNDER CONSTRUCTION
 
-# Setting Up Your Solver
+On the previous page, I indicated the Algorithm X setup could be “Very Hard or Not Too Bad, Your Choice”. In this section, I will cover the harder option. 
 
-If you love repeatability, take a break from your work right now. Get up, open a window and yell for all the world to hear, 
+Coloring is a great fit for Agent X, Mission 2. You could use coloring on just about any puzzle you wish to, but I don’t recommend that. This is an Algorithm X playground and my goal is to demonstrate the tremendous power of Algorithm X and the many different types of problems it can solve. Every now and then, coloring is a better option.
 
-<BR>
-
-| <span style="font-size: 250%">🔥🔥🔥  I LOVE REPEATABILITY!  🔥🔥🔥</span>|
-|:-------:|
-
-<BR>
-
-To set up your solver, follow the exact instructions presented [just a few short pages ago](coloring-with-your-solver). Of course, you will need to handle two distinct sets of letters. You might choose to keep it simple and add two attributes to your solver or you might wish to be clever and implement the color police with a single `dictionary`.
-
-# Minor Spoiler
-
-<details>
-<summary>I was able to speed up my solution by doing this...</summary>
-<br>
-
-Because significant attention is paid to the cipher letters and the register letters, the optional requirements end up being excess baggage for Algorithm X. They are completely legitimate and there is nothing wrong with leaving them where they are, but you may want to compare run times with and without them. In many puzzles, removing legitimate requirements is not a good idea, but in a situation like this, the word requirements and the letter requirements have some overlap that allows for the optional requirements to be omitted.
-</details>
+The first puzzle covered in this section was building a word search. I have a few ideas in regard to how that puzzle could be approached purely with Algorithm X, but each of those ideas feels like climbing an enormous mountain. This Agent X, Mission 2 puzzle is a different story. Although the climb is strenuous, there is much to be learned by solving this puzzle with and without coloring.
 
 # Solving This Puzzle Without Coloring
 
