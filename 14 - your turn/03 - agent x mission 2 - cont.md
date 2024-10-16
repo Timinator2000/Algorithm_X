@@ -64,13 +64,13 @@ I optimized my code by only considering register words that truly could be mappe
 | Test Case | Number of me_requirements |
 |:----|:---------------------:|
 | 1 - First Contact | 1,412 |
-| 2 -Longer Message with More Words | 28,236 |
+| 2 - Longer Message with More Words | 28,236 |
 | 3 - A Lot More Words | 47,211 |
 | 4 - Final Test | 35,491 |
 
 <BR>
 
-There is good news and bad news about the size of these numbers. The good news is Algorithm X and DLX chewed through the matrix data like a hot knife through butter; no issues at all. The bad news is setting up the actions to feed to Algorithm X required a bit of optimization. Afterall, the more often you filter a list of 10s of thousands of `me_requirements`, the better chance that filtering takes an unreasonable amount of time.
+There is good news and bad news about the size of these numbers. The good news is Algorithm X and DLX chewed through the matrix data like a hot knife through butter; no significant issues at all. The bad news is setting up the actions to feed to Algorithm X required a bit of optimization. Afterall, the more often you filter a list of 10s of thousands of `me_requirements`, the better chance that filtering takes an unreasonable amount of time.
 
 # Conclusion
 
