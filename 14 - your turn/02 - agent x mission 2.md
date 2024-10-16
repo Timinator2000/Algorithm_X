@@ -66,3 +66,25 @@ The next diagram below shows the full effect of matching one register word to on
 # Consistency Is Key
 
 It can be challenging to visualize an Exact Cover problem that requires coloring. In the previous diagrams, think of the two sets of letters in the bottom right as the __Color Police__. When the gameboard is first considered, these groups are often not obvious, but at some point in the gameboard exploration, a need for consistency arises. This need is a telltale sign, it is time consider adding the Color Police to your gameboard.
+
+# Setting Up Your Solver
+
+If you love repeatability, take a break from your work right now. Get up, open a window and yell for all the world to hear, 
+
+<BR>
+
+| <span style="font-size: 250%">🔥🔥🔥  I LOVE REPEATABILITY!  🔥🔥🔥</span>|
+|:-------:|
+
+<BR>
+
+To set up your solver, follow the exact instructions presented [just a few short pages ago](coloring-with-your-solver). Of course, you will need to handle two distinct sets of letters. You might choose to keep it simple and add two attributes to your solver or you might wish to be clever and implement the color police with a single `dictionary`.
+
+# Minor Spoiler
+
+<details>
+<summary>I was able to speed up my solution by doing this...</summary>
+<br>
+
+Because significant attention is paid to the cipher letters and the register letters, the optional requirements end up being excess baggage for Algorithm X. They are completely legitimate and there is nothing wrong with leaving them where they are, but you may want to compare run times with and without them. In many puzzles, removing legitimate requirements is not a good idea, but in a situation like this, the word requirements and the letter requirements have some overlap that allows for the optional requirements to be omitted.
+</details>
