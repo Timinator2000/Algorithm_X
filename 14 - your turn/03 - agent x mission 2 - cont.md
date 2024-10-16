@@ -55,6 +55,14 @@ Mutual Exclusivity allows Algorithm X to easily ensure certain situation do not 
 
 All that for just one possible mapping of a register word to a cipher word??? After considering all legitimate combinations of register words and cipher words, what is left is a comprehensive matrix of __what is possible__. Because the sets of letters are finite, a comprehensive matrix of __what is NOT possible__ can be determined and how do we tell Algorithm X what is not possible? We build a list of optional requirements (`me_requirements`) to handle [mutual exclusivity](mutual-exclusivity).
 
+To make this process just a bit more concrete. `Each me_requirement` will take the form:
+
+```python
+((register_letter_1, cipher_letter_1), (register_letter_2, cipher_letter_2))
+'''
+
+In other words, `register_letter_1` can be assinged to `cipher_letter_1` __OR__ `register_letter_2' can be assinged to `cipher_letter_2`, but both cannot happen in the same solution.
+
 # Are You Kidding Me?
 
 I optimized my code by only considering register words that truly could be mapped to certain cipher words. Of course, the words must be of the same length, but some pattern matching can also limit legitimate pairs. The next table displays how many requirements I constructed to handle mutual exclusivity for each test case.
