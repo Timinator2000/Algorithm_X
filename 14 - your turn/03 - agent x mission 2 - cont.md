@@ -13,7 +13,7 @@ If you love repeatability, take a break from your work right now. Get up, open a
 
 <BR>
 
-To set up your solver, follow the exact instructions presented [just a few short pages ago](coloring-with-your-solver). Of course, you will need to handle two distinct sets of letters. You might choose to keep it simple and add two attributes to your solver or you might wish to be clever and handle all coloring with a single additional attribute.
+To set up your solver, follow the exact instructions presented [just a few short pages ago](coloring-with-your-solver). Of course, you will need to handle two distinct sets of letters. You might choose to keep it simple and add two attributes to your solver or you might wish to be clever and implement the color police with a single `dictionary`.
 
 # Minor Spoiler
 
