@@ -62,11 +62,11 @@ I optimized my code by only considering register words that truly could be mappe
 <BR>
 
 | Test Case | Number of me_requirements |
-|:-------:|:---------------------:|
-| First Contact | 1,412 |
-| Longer Message with More Words | 28,236 |
-| A Lot More Words | 47,211 |
-| Final Test | 35,491 |
+|:----|:---------------------:|
+| 1 - First Contact | 1,412 |
+| 2 -Longer Message with More Words | 28,236 |
+| 3 - A Lot More Words | 47,211 |
+| 4 - Final Test | 35,491 |
 
 <BR>
 
