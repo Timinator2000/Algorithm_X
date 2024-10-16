@@ -68,7 +68,7 @@ There is good news and bad news about the size of these numbers. The good news i
 
 # Conclusion
 
-9 3 2
-205 18 10
-652 116 40
-303 318 100
+9 3 2<BR>
+205 18 10<BR>
+652 116 40<BR>
+303 318 100<BR>
