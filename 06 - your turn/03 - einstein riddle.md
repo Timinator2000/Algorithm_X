@@ -41,4 +41,4 @@ If `a` and `c` must be chosen together, I could shift my perspective and say:
 
 The only options left are to choose both `a` and `c` or to choose some combination of  `b`, `d` and `e`.
 
-If Georges must have Salad, you can accomplish that by making sure Georges cannot have any of the other food options and Salad cannot go with anybody except Georges. Later in the playground, I will discuss another way to handle mutual inclusivity, but changing the mutually inclusive requirement to a set of mutually exclusive requirements is an easy and often effective solution that works wonderfully on Einstein's various riddles.
+If Georges must have Salad, you can accomplish that by making sure Georges cannot have any of the other food options and Salad cannot go with anybody except Georges. [Later in the playground](einsteins-riddle-solver-2), I will discuss another way to handle mutual inclusivity, but changing the mutually inclusive requirement to a set of mutually exclusive requirements is an easy and often effective solution that works wonderfully on Einstein's various riddles.
