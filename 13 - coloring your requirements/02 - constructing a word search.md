@@ -40,7 +40,7 @@ Each time a row is selected, logic must be added to check the coloring of each g
 
 The pseudocode looks like this:
 
-```
+```python
     def _process_row_selection(self, row):
         word and location = unpack the row
         for each letter in the word:
@@ -52,7 +52,7 @@ The pseudocode looks like this:
 
 The last line above might be a little confusing. Why is the letter being added to the list even if the coloring was inappropriate and `self.solution_is_valid` was set to `False`? Backtracking can happen naturally or it can be forced because the current path is not valid. Either way, backtracking will "undo" the most recent row processing which means popping the most recent addition out of the `location_colors` `list`. This cleanup is accomplished by overriding the `AlgorithmXSolver` `_process_row_deselection()` method as follows:
 
-```
+```python
     def _process_row_deselection(self, row):
         word and location = unpack the row
         for each location covered by the word:
