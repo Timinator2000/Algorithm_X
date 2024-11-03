@@ -204,16 +204,20 @@ plan:
         statement: 17 - customizing your solver/03 - column selection.md
       - title: Customizing Row Selection
         statement: 17 - customizing your solver/04 - row selection.md
+  - title: Your Turn
+    plan:
+      - title: Harmless Rooks
+        statement: 18 - your turn/01 - harmless rooks.md
       - title: Assorted Rectangular Pieces
-        statement: 17 - customizing your solver/05 - assorted rectangular pieces.md
+        statement: 18 - your turn/02 - assorted rectangular pieces.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
-        statement: 18 - odds and ends/01 - solving with logic only.md
+        statement: 19 - odds and ends/01 - solving with logic only.md
       # - title: Afterword
-      #   statement: 18 - odds and ends/afterword.md
+      #   statement: 19 - odds and ends/afterword.md
       - title: Revision History
-        statement: 18 - odds and ends/02 - revision history.md
+        statement: 19 - odds and ends/02 - revision history.md
 projects:
   python:
     root: /python-project
