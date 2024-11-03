@@ -184,30 +184,36 @@ plan:
         statement: 14 - your turn/02 - agent x mission 2.md
       - title: Agent X, Mission 2 (cont.)
         statement: 14 - your turn/03 - agent x mission 2 - cont.md
+  - title: Mutual Inclusivity
+    plan:
+      - title: Mutual Inclusivity
+        statement: 15 - mutual inclusivity/01 - mutual inclusivity.md
+  - title: Your Turn
+    plan:
       - title: Einstein's Riddle Solver
-        statement: 14 - your turn/04 - einstein revisited.md
+        statement: 16 - your turn/01 - einstein revisited.md
       - title: Breaking Bifid (Revisited)
-        statement: 14 - your turn/05 - breaking bifid revisited.md
+        statement: 16 - your turn/02 - breaking bifid revisited.md
   - title: Customizing Your Solver
     plan:
       - title: How Does Algorithm X Work?
-        statement: 15 - customizing your solver/01 - algorithm x.md
+        statement: 17 - customizing your solver/01 - algorithm x.md
       - title: Dancing Links (DLX)
-        statement: 15 - customizing your solver/02 - dancing links.md
+        statement: 17 - customizing your solver/02 - dancing links.md
       - title: Customizing Column Selection
-        statement: 15 - customizing your solver/03 - column selection.md
+        statement: 17 - customizing your solver/03 - column selection.md
       - title: Customizing Row Selection
-        statement: 15 - customizing your solver/04 - row selection.md
+        statement: 17 - customizing your solver/04 - row selection.md
       - title: Assorted Rectangular Pieces
-        statement: 15 - customizing your solver/05 - assorted rectangular pieces.md
+        statement: 17 - customizing your solver/05 - assorted rectangular pieces.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
-        statement: 16 - odds and ends/01 - solving with logic only.md
+        statement: 18 - odds and ends/01 - solving with logic only.md
       # - title: Afterword
-      #   statement: 16 - odds and ends/afterword.md
+      #   statement: 18 - odds and ends/afterword.md
       - title: Revision History
-        statement: 16 - odds and ends/02 - revision history.md
+        statement: 18 - odds and ends/02 - revision history.md
 projects:
   python:
     root: /python-project
