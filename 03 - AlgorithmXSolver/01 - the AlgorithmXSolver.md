@@ -21,13 +21,13 @@ __This import statement will not work in your coding environment unless you have
 #  (DLX-Based Algorithm X Solver Last Revised 01 October 2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
-#  playgound on Tech.io by following the link in my Codingame profile:
+#  playgound on Tech.io by following the link in my CodinGame profile:
 #
 #  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
 #
 
 # DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
-# copied from @RoboStac's solution to Constrained Latin Squares on Codingame.com.
+# copied from @RoboStac's solution to Constrained Latin Squares on www.codingame.com.
 #
 # https://www.codingame.com/training/medium/constrained-latin-squares
 #
