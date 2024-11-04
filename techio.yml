@@ -85,19 +85,21 @@ plan:
       - title: n Queens
         statement: 06 - your turn/02 - n queens.md
       - title: Finish the Eight Queens
-        statement: 06 - your turn/025 - finish eight queens.md
+        statement: 06 - your turn/03 - finish eight queens.md
+      - title: Optimized Coloring
+        statement: 06 - your turn/04 - optimized coloring.md
       - title: Einstein's Riddle Solver
-        statement: 06 - your turn/03 - einstein riddle.md
+        statement: 06 - your turn/05 - einstein riddle.md
       - title: Winamax Sponsored Contest
-        statement: 06 - your turn/04 - winamax.md
+        statement: 06 - your turn/06 - winamax.md
       - title: Three Little Piggies
-        statement: 06 - your turn/05 - three little piggies.md
+        statement: 06 - your turn/07 - three little piggies.md
       - title: Breaking Bifid
-        statement: 06 - your turn/06 - breaking bifid.md
+        statement: 06 - your turn/08 - breaking bifid.md
       - title: Futoshiki Solver
-        statement: 06 - your turn/07 - futoshiki solver.md
+        statement: 06 - your turn/09 - futoshiki solver.md
       - title: Suguru Solver
-        statement: 06 - your turn/08 - suguru solver.md
+        statement: 06 - your turn/10 - suguru solver.md
   - title: Multiplicity
     plan:
       - title: Emma Wants More Lessons!
