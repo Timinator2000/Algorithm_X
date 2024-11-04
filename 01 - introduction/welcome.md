@@ -19,6 +19,7 @@ __Exact Cover (Algorithm X Candidate) Puzzles Created for this Playground:__
 <BR>[Mrs. Knuth – Part II](https://www.codingame.com/contribute/view/950238e7e8f40105ccd0fd6237bf60c4d25b3) (+50 XP) __FINAL LINK NEEDED__
 <BR>[Mrs. knuth – Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae) (+50 XP) __FINAL LINK NEEDED__
 <BR>[Equation Search](https://www.codingame.com/contribute/view/100071e2989e321b98a5118cdacdf90ebf6d26) (+50 XP) __FINAL LINK NEEDED__
+<BR>[Ye_ An_th_r W_rd Se_rch](https://www.codingame.com/contribute/view/493839424591127bcdbb6371018895b7bf742) (+50 XP) __FINAL LINK NEEDED__
 
 __Support Puzzle Created for this Playground__
 <BR>[Shikaku Skill Builder](https://www.codingame.com/contribute/view/10244722a13a0e3269ba38f7c562148ed31d32) (+50 XP) __FINAL LINK NEEDED__
@@ -62,7 +63,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to __2050 [Codingame](https://www.codingame.com) XP!__
+* You will earn up to __2100 [Codingame](https://www.codingame.com) XP!__
 
 # Prerequisites
 
