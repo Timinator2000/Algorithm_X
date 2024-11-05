@@ -11,7 +11,7 @@ copy all the AlgorithmX code
 
 define MrsKnuthPartISolver as a subclass of AlgorithmXSolver 
     override the constructor to build your requirements and actions from 
-    the passed in techer_availability and students
+    the passed in teacher_availability and students
 
 read all input
 organize input
