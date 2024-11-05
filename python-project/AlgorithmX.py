@@ -2,7 +2,7 @@
 #  (DLX-Based Algorithm X Solver Last Revised 01 October 2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
-#  playgound on Tech.io by following the link in my CodinGame profile:
+#  playground on Tech.io by following the link in my CodinGame profile:
 #
 #  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
 #
@@ -114,7 +114,7 @@ class AlgorithmXSolver():
     #
     # O - list of optional requirements. They can be covered, but they never cause failure.
     #     Optional requirements are important because if they get covered, no other action can 
-    #     also cover that same requirement. Also referred to as "at most one time contraints".
+    #     also cover that same requirement. Also referred to as "at-most-one-time constraints".
     #
     def __init__(self, R: list, A: dict, O: list = []):
         self.A = A
@@ -132,7 +132,7 @@ class AlgorithmXSolver():
 
         # For the basic Algorithm X Solver, all solutions are always valid. However, a subclass
         # can add functionality to check solutions as they are being built to steer away from
-        # invalid solutions. The basic Algorithm X Solver never modifies this attribue.
+        # invalid solutions. The basic Algorithm X Solver never modifies this attribute.
         self.solution_is_valid = True
 
         # Create a column in the matrix for every requirement.
@@ -173,7 +173,7 @@ class AlgorithmXSolver():
         #
         # Choose the column (requirement) with the best value for "sort criteria". For
         # the basic implementation of sort criteria, Algorithm X always chooses the column
-        # covered by thew fewest number of actions. Optional requirements are not eligible 
+        # covered by the fewest number of actions. Optional requirements are not eligible 
         # for this step.
         best_column = self.matrix_root
         best_value  = 'root'
@@ -181,7 +181,7 @@ class AlgorithmXSolver():
         node = self.matrix_root.next_x
         while node != self.matrix_root:
             
-            # Optional requirements (at most one time constraints) are never chosen as best.
+            # Optional requirements (at-most-one-time constraints) are never chosen as best.
             if node.title not in self.O:
                 
                 # Get the sort criteria for this requirement (column).
@@ -277,7 +277,7 @@ class AlgorithmXSolver():
 
     # In some cases it may be beneficial to have Algorithm X try covering certain requirements
     # before others as it looks for paths through the matrix. The default is to sort the requirements
-    # by how many actions cover each requirement, but in some case there might be several 
+    # by how many actions cover each requirement, but in some cases there might be several 
     # requirements covered by the same number of actions. By overriding this method, the
     # Algorithm X Solver can be directed to break ties a certain way or consider some other way
     # of prioritizing the requirements.
