@@ -1,6 +1,6 @@
 # Background
 
-In August, 2022, I attempted to solve [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares), a recently published puzzle by [@darkhorse64]( https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292) on [Codingame](www.codingame.com). I noticed [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) had, a week earlier, posted a link to [Puzzles solvable by Algorithm X / Dancing Links](https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871), a post where he had compiled a list of puzzles on Codingame he had solved with Algorithm X. I love processes that are repeatable and the idea of using a single algorithm to solve a long list of medium/hard puzzles intrigued me.
+In August, 2022, I attempted to solve [Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares), a recently published puzzle by [@darkhorse64]( https://www.codingame.com/profile/c9ebe76a83b33730956eda0534d6cad86053292) on [CodinGame](www.codingame.com). I noticed [@5DN1L]( https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) had, a week earlier, posted a link to [Puzzles solvable by Algorithm X / Dancing Links](https://www.codingame.com/forum/t/puzzles-solvable-by-algorithm-x-dancing-links/196871), a post where he had compiled a list of puzzles on CodinGame he had solved with Algorithm X. I love processes that are repeatable and the idea of using a single algorithm to solve a long list of medium/hard puzzles intrigued me.
 
 For the next 18 months, I worked on @5DN1L’s list, reaching out to him over and over again with questions and ideas. I saw tremendous opportunity for not only a reusable software architecture, but also a repeatable engineering process for solving [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problems. Eventually, he suggested I build an Algorithm X playground, and here we are!
 
@@ -17,7 +17,7 @@ A quick Google search will surely bring you to countless implementations of [Alg
 __Exact Cover (Algorithm X Candidate) Puzzles Created for this Playground:__
 <BR>[Mrs. Knuth – Part I](https://www.codingame.com/contribute/view/94231c8a12567007bde24553f6a9e3de55981) (+50 XP) __FINAL LINK NEEDED__
 <BR>[Mrs. Knuth – Part II](https://www.codingame.com/contribute/view/950238e7e8f40105ccd0fd6237bf60c4d25b3) (+50 XP) __FINAL LINK NEEDED__
-<BR>[Mrs. knuth – Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae) (+50 XP) __FINAL LINK NEEDED__
+<BR>[Mrs. Knuth – Part III](https://www.codingame.com/contribute/view/959460130d2f9792d933f75838edb639a6dae) (+50 XP) __FINAL LINK NEEDED__
 <BR>[Equation Search](https://www.codingame.com/contribute/view/100071e2989e321b98a5118cdacdf90ebf6d26) (+50 XP) __FINAL LINK NEEDED__
 <BR>[Ye_ An_th_r W_rd Se_rch](https://www.codingame.com/contribute/view/493839424591127bcdbb6371018895b7bf742) (+50 XP) __FINAL LINK NEEDED__
 
@@ -63,7 +63,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to __2100 [Codingame](https://www.codingame.com) XP!__
+* You will earn up to __2100 [CodinGame](https://www.codingame.com) XP!__
 
 # Prerequisites
 
