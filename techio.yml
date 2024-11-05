@@ -192,7 +192,7 @@ plan:
         statement: 15 - mutual inclusivity/01 - mutual inclusivity.md
   - title: Your Turn
     plan:
-      - title: Einstein's Riddle Solver
+      - title: Einstein's Riddle Solver (Revisited)
         statement: 16 - your turn/01 - einstein revisited.md
       - title: Breaking Bifid (Revisited)
         statement: 16 - your turn/02 - breaking bifid revisited.md
