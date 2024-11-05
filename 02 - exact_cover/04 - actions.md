@@ -26,7 +26,7 @@ Bob is available on Thursday at 2 and 3. Alex is available on Thursday at 2 and 
 
 So far, we’ve built a complete list of requirements that must be satisfied by any potential solution and we have a list of actions that can be used to build potential solutions. The last thing we need to define is a map between the actions and the requirements. For each action, we must identify the requirements satisfied by that action. 
 
-Let look at the first action in our list: `('place student', 'Ayla', 'Th', 2)`. If we add this action to a potential solution, which requirements from our requirements list will be satisfied? A simple example like this makes it easy to go through the requirements one by one to determine which requirements are satisfied and we end up with the following:
+Let's look at the first action in our list: `('place student', 'Ayla', 'Th', 2)`. If we add this action to a potential solution, which requirements from our requirements list will be satisfied? A simple example like this makes it easy to go through the requirements one by one to determine which requirements are satisfied and we end up with the following:
 
 ```text
 Action: ('place student', 'Ayla', 'Th', 2)
