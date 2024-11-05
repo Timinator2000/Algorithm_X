@@ -41,7 +41,7 @@ In this playground, is is best to ignore the `Traceback`. It is unlikely to make
 
 Algorithm X not finding any solutions can be the most frustrating situation of all, and it always comes down to some issue with your model. Assuming your problem is guaranteed to have a solution, the only reason Algorithm X will fail to find a solution is that something in your model is not sufficient. __The requirements cannot be perfectly covered by any possible combination of actions.__ Something is wrong in your mapping of satisfied requirements for each action.
 
-Although this can be frustrating, you will get better and better at building models with practice. The flip side of this frustration is that after you become proficient at building models you will experience elation when you suprise yourself by solving an exact cover problem much faster than you ever expected!
+Although this can be frustrating, you will get better and better at building models with practice. The flip side of this frustration is that after you become proficient at building models you will experience elation when you surprise yourself by solving an exact cover problem much faster than you ever expected!
 
 # Practice Makes Perfect
 
