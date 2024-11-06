@@ -10,7 +10,7 @@ Mrs. Knuth might have more hours of availability than students. In Part I, it wa
 
 _You might be impressed with Mrs. Knuth's newfound flexibility, but don't get too relaxed. She still requires that no instrument be taught more than one hour on any one day._
 
-It is important to note that Mrs. Knuth might not teach the same number of hours on each day and becuase of that, it is not guaranteed that she will teach all the same instruments on each day. Still, we must make sure she does not teach a single instrument more than one time per day, but it is also possible certain instruments will not be taught on certain days.
+It is important to note that Mrs. Knuth might not teach the same number of hours on each day and because of that, it is not guaranteed that she will teach all the same instruments on each day. Still, we must make sure she does not teach a single instrument more than one time per day, but it is also possible certain instruments will not be taught on certain days.
 
 _On top of that, she has struggled with `loudInstrument`s, specifically the __Trumpet__, the __Drums__ and the __Trombone__. In the interest of her long-term hearing, she has asked that you make sure no two `loudInstrument`s are ever scheduled back-to-back. (A lesson at 11am and a lesson at 1pm are not considered back-to-back since there is an hour lunch break between the two.)_
 
@@ -94,7 +94,7 @@ Optional Requirements to Handle Mutual Exclusivity of Back-to-Back Loud Instrume
     (('loud instrument', 'F', 10), ('loud instrument', 'F', 11))
 ```
 
-The first requirement states, I can put a loud instrument in the Friday at 8 timeslot __or__ I can put a loud instrument in the Friday at 9 timeslot, but I cannot do both. I can't do both becuase actions in our scheduling domain all involve placing one student with that student's instrument on some day at some time. Since the requirement may only be covered once, either the first action could happen or the second action could happen, not both.
+The first requirement states, I can put a loud instrument in the Friday at 8 timeslot __or__ I can put a loud instrument in the Friday at 9 timeslot, but I cannot do both. I can't do both because actions in our scheduling domain all involve placing one student with that student's instrument on some day at some time. Since the requirement may only be covered once, either the first action could happen or the second action could happen, not both.
 
 # The Full List of Requirements
 
