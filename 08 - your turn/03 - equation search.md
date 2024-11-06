@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Specifically Designed to Test What You Have Learned 
 
 # Strategy
 
-An important part to creating an Algorithm X solution for Equation Search is coming up with a gameboard/tiles analogy. What does the gameboard look like? It is temptating to make every operand and every operator a tile. The gameboard would be made up of several equations, each equation having 3 spots for 2 operands and 1 operator. Given right sides of 5, 7 and 10, the gameboard might look like:
+An important part to creating an Algorithm X solution for Equation Search is coming up with a gameboard/tiles analogy. What does the gameboard look like? It is tempting to make every operand and every operator a tile. The gameboard would be made up of several equations, each equation having 3 spots for 2 operands and 1 operator. Given right sides of 5, 7 and 10, the gameboard might look like:
 
 <BR><BR>
 ![Initial Gameboard](Gameboard1.png)
@@ -58,14 +58,14 @@ There is a fair amount of multiplicity in this puzzle and to solve the bigger te
 |7 - 10 Equations, Multiple Solutions|31|445,824|
 |8 - 13 Equations|227|I stopped counting at 250,000,000.|
 |9 - 14 Equations|674|?|
-|10 - 15 Equations, 1 Solutions|1|?|
+|10 - 15 Equations, 1 Solution|1|?|
 |11 - 15 Equations, Multiple Solutions|2898|?|
 |12 - So Many Solutions|4059|?|
 <BR>
 
 # Setting Up Algorithm X
 
-The requirements for this puzzle are straightforward multiplicity. Each opperand needs to occur a certain number of times. Successfully solving this problem will require good answers to these questions:
+The requirements for this puzzle are straightforward multiplicity. Each operand needs to occur a certain number of times. Successfully solving this problem will require good answers to these questions:
 
 * What are the individual action steps you can use to build a solution?
   
