@@ -36,10 +36,10 @@ This puzzle is another great fit for Algorithm X, but setting up the matrix will
 
 # Rotating a 2-Dimensional Array
 
-I first learned how to rotate a 2-dimensional array by looking at another CodinGamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting our yown. Let’s look at rotating the brick house.
+I first learned how to rotate a 2-dimensional array by looking at another CodinGamer’s code on another puzzle. I can’t say enough about what can be learned by looking at other solutions after submitting your own. Let’s look at rotating the brick house.
 
 ```python runnable
-# store the brick house as a 2-dimnsional array
+# store the brick house as a 2-dimensional array
 house = [['H', 'B', 'B'], [' ', ' ', 'B']]
 
 # print the house and rotate it 4 times
@@ -58,12 +58,12 @@ for i in range(4):
 
 Keep in mind the brick house does not have equal height and width, and each time the house rotates, the height and width of the house change. You will need to be aware of that when you look to see if the house will fit on the grid.
 
-Have you played around with Numpy Arrays? Many puzzles that involve 2-dimensional grids are great places to experiment with Numpy and learn how to use Arrays. This next code block rotates the hrick house 4 times just like the code block above, but using Numpy. Unfortunately, I cannot import numpy into a runnable code block in this playground, but I am sure you get the idea.
+Have you played around with Numpy Arrays? Many puzzles that involve 2-dimensional grids are great places to experiment with Numpy and learn how to use Arrays. This next code block rotates the brick house 4 times just like the code block above, but using Numpy. Unfortunately, I cannot import numpy into a runnable code block in this playground, but I am sure you get the idea.
 
 ```python
 import numpy as np
 
-# store the brick house as a 2-dimnsional numpy array
+# store the brick house as a 2-dimensional numpy array
 house = np.array([['H', 'B', 'B'], [' ', ' ', 'B']])
 
 # print the house and rotate it 4 times
@@ -73,6 +73,6 @@ for i in range(4):
         print(*line, sep='')
     print()
 
-    # rotate the house 90 degrees to the right
+    # rotate the house 90 degrees to the left
     house = np.rot90(house)
 ```
