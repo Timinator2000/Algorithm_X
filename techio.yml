@@ -102,7 +102,7 @@ plan:
         statement: 06 - your turn/10 - suguru solver.md
   - title: Multiplicity
     plan:
-      - title: Emma Wants More Lessons!
+      - title: Ella Wants More Lessons!
         statement: 07 - multiplicity/01 - multiplicity.md
       - title: Multiplicity with Algorithm X
         statement: 07 - multiplicity/02 - multiplicity with algorithm x.md
