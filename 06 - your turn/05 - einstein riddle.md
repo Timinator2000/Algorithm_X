@@ -16,7 +16,7 @@ Einstein’s Riddle Solver lends itself perfectly to the tiles on a gameboard an
 
 And what are the tiles? They are the characteristics, of course. Your job is to place all the tiles on the grid. I am sure that sounds familiar.
 
-In Sudoku, some cells are prefilled and I suggested handling that by limiting the actions available for those cell to a single action, putting the correct number tile on each prefilled grid position. This puzzle has essentially prefilled the entire first row:
+In Sudoku, some cells are prefilled and I suggested handling that by limiting the actions available for those cells to a single action, putting the correct number tile on each prefilled grid position. This puzzle has essentially prefilled the entire first row:
 
 >The characteristics in the first line will be ordered alphabetically…
 
@@ -26,7 +26,7 @@ You can choose to put any characteristic in any column, as long as you obey the 
 >
 >1. Georges ! Salad which means Georges doesn't eat Salad.
 
-#1 is very clear. You cannot put salad in the same column as Georges! Sounds like mutual exclusivity, right? But what about #2. How can we handle mutual inclusivity, actions that _must_ happen together?
+#2 is very clear. You cannot put salad in the same column as Georges! Sounds like mutual exclusivity, right? But what about #1. How can we handle mutual inclusivity, actions that _must_ happen together?
 
 Assume I have a set of items: `{a, b, c, d, e}` and it is given that `a` and `c` are mutually inclusive. I have to choose two items from the set, but if I choose `a`, I must also choose `c` or if I first choose `c`, I must also choose `a`. Any combination of `b`, `d` and `e` would be fine. In this playground, we have only covered mutual exclusivity, never inclusivity. Is there a way we can handle this situation with what we already know? There sure is!
 
