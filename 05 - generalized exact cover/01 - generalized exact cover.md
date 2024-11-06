@@ -6,8 +6,8 @@ If you completed all, or at least some portion, of the suggested puzzles, you sh
 
 | Playground Term | Equivalent Terms          | Definition                                |
 |:--|:----|:------------------------------------------------------------------|
-| requirements|<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
-| actions |<BR>options<BR>rows<BR><BR>| The individual steps that can be taken to build a solution.|
+| requirements|<BR>items (preferred by Knuth)<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
+| actions |<BR>options (preferred by Knuth)<BR>rows<BR><BR>| The individual steps that can be taken to build a solution.|
 
 <BR>
 
