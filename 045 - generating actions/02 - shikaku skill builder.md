@@ -61,7 +61,7 @@ In this second example, rectangles of different widths and heights exist. In the
 
 ![2x1 vs 1x2](CoverArea2.png)
 
-# Ractangles Cannot Cover Two Numbers
+# Rectangles Cannot Cover Two Numbers
 
 ```
           0 2 0 0
