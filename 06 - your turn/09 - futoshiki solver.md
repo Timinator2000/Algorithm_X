@@ -43,10 +43,10 @@ Ultimately, an inequality identifies what must be true, and from that, it is eas
 
 ?[How do we tell Algorithm X certain things are not allowed?]
 -[] Send an email.
--[] Post a message in the Codingame Forum. 
+-[] Post a message in the CodinGame Forum. 
 -[x] Create requirements to handle mutual exclusivity.
 -[] Call a special AlgorithmXSolver method.
--[] Ask @5DN1L to reach out to Codingame directly.
+-[] Ask @5DN1L to reach out to CodinGame directly.
 
 It looks like you will need some requirements to handle the mutual exclusivity created by each inequality.
 
