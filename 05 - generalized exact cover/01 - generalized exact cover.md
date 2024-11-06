@@ -25,8 +25,8 @@ There is a reason the term “optional requirement” works for me. There is onl
 
 | Playground Term | Equivalent Terms          | Definition                                |
 |:--|:----|:------------------------------------------------------------------|
-| requirements|<BR>constraints<BR>columns<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
-| optional requirements|<BR>secondary constraints<BR>secondary columns<BR>at-most-one-time constraints<BR><BR>| __May__ be satisfied, but if so, one time only. |
+| requirements|<BR>items<BR>constraints<BR>columns<BR>primary items<BR>primary constraints<BR>primary columns<BR><BR>| __Must__ be satisfied exactly once. |
+| optional requirements|<BR>secondary items<BR>secondary constraints<BR>secondary columns<BR>at-most-one-time constraints<BR><BR>| __May__ be satisfied, but if so, one time only. |
 | actions |<BR>options<BR>rows<BR><BR>| The individual steps that can be taken to build a solution.|
 
 To demonstrate a generalized exact cover, I will use the well-known, and widely-studied, [Eight Queens Puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle).
