@@ -28,7 +28,7 @@ You can choose to put any characteristic in any column, as long as you obey the 
 
 #2 is very clear. You cannot put salad in the same column as Georges! Sounds like mutual exclusivity, right? But what about #1. How can we handle mutual inclusivity, actions that _must_ happen together?
 
-Assume I have a set of items: `{a, b, c, d, e}` and it is given that `a` and `c` are mutually inclusive. I have to choose two items from the set, but if I choose `a`, I must also choose `c` or if I first choose `c`, I must also choose `a`. Any combination of `b`, `d` and `e` would be fine. In this playground, we have only covered mutual exclusivity, never inclusivity. Is there a way we can handle this situation with what we already know? There sure is!
+Assume I have a set of options: `{a, b, c, d, e}` and it is given that `a` and `c` are mutually inclusive. I have to choose two options from the set, but if I choose `a`, I must also choose `c` or if I first choose `c`, I must also choose `a`. Any combination of `b`, `d` and `e` would be fine. In this playground, we have only covered mutual exclusivity, never inclusivity. Is there a way we can handle this situation with what we already know? There sure is!
 
 If `a` and `c` must be chosen together, I could shift my perspective and say:
 
