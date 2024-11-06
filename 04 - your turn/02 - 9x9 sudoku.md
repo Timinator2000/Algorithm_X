@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 # Strategy
 
-Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution. In the following sections I will compare portions of [Assaf’s Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code to my current Sudoku code. Ultimately, I will end with a discussion of several techniques for handling partial solutions that are already be in place.
+Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution. In the following sections I will compare portions of [Assaf’s Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code to my current Sudoku code. Ultimately, I will end with a discussion of several techniques for handling partial solutions that are already in place.
 
 # Identify Requirements – à la Ali Assaf
 
@@ -104,6 +104,6 @@ Consider the following example. Do solutions exist for the Sudoku board below?
 0 0 0 0 0 0 0 0 0
 ```
 
-You and I can easily see there are two 6s in the first row, making it is impossible to ever find a proper solution. This is a toy example, but play along with me.  Assume you want to use Algorithm X to determine if the Sudoku can be solved or not. You first create the requirements and the actions. Then you try to preselect the action that puts a 6 in row 1, col 3 and the action that puts a 6 in row 1, col 7. As soon as you preselect the first action, the DLX matrix is adjusted and there is no longer an option to put the second 6 in row 1, col 7. You tried to preselect an action that is no longer possible. You will either get an error, or your solver might produce many solutions since it is starting with a blank Sudoku with a single 6 preselected in row 1, col 3. 
+You and I can easily see there are two 6s in the first row, making it impossible to find a proper solution. This is a toy example, but play along with me.  Assume you want to use Algorithm X to determine if the Sudoku can be solved or not. You first create the requirements and the actions. Then you try to preselect the action that puts a 6 in row 1, col 3 and the action that puts a 6 in row 1, col 7. As soon as you preselect the first action, the DLX matrix is adjusted and there is no longer an option to put the second 6 in row 1, col 7. You tried to preselect an action that is no longer possible. You will either get an error, or your solver might produce many solutions since it is starting with a blank Sudoku with a single 6 preselected in row 1, col 3. 
 
 The solution is to __leave Algorithm X in charge__. Next, I will discuss options that handle preselected cells, but since Algorithm X is in charge, error situations are more easily avoided.
