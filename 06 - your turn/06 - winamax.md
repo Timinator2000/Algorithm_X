@@ -8,7 +8,7 @@ __Algorithm X Complexity:__ Requirements are Straightforward, Actions are Comple
 
 # Big Payoff
 
-250 XP! Need I say more? Puzzles on Codingame that offer unusually high XP are always popular. This puzzle is so creative, I am not sure it even needs the high XP.
+250 XP! Need I say more? Puzzles on CodinGame that offer unusually high XP are always popular. This puzzle is so creative, I am not sure it even needs the high XP.
 
 # Visualizing the Problem
 
