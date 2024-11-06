@@ -85,7 +85,7 @@ Optional Requirements to Handle Mutual Exclusivity of Troublesome Pairs:
 
 # Loud Instruments
 
-The last detail we need to handle is making sure no two loud instruments are scheduled back-to-back. Because this is a very simple test case, it will be tempting to look at the students and see where two loud instruments might conflict, like what we did above with Emma and Drew. Do your best to avoid that temptation! As the test cases get harder, this will be more challenging and it just is not necessary. Instead, only focus on Mrs. Knuth’s availability and add an optional requirement for every pair of back-to-back time slots:
+The last detail we need to handle is making sure no two loud instruments are scheduled back-to-back. Because this is a very simple test case, it will be tempting to look at the students and see where two loud instruments might conflict, like what we did above with Ella and Drew. Do your best to avoid that temptation! As the test cases get harder, this will be more challenging and it just is not necessary. Instead, only focus on Mrs. Knuth’s availability and add an optional requirement for every pair of back-to-back time slots:
 
 ```text
 Optional Requirements to Handle Mutual Exclusivity of Back-to-Back Loud Instruments:
@@ -98,7 +98,7 @@ The first requirement states, I can put a loud instrument in the Friday at 8 tim
 
 # The Full List of Requirements
 
-Putting all the requirements in once place results in the following:
+Putting all the requirements in one place results in the following:
 
 ```text
 Requirements:
