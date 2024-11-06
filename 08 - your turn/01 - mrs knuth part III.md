@@ -39,7 +39,7 @@ What is that second method definition? Each time Algorithm X finds a potential s
         # Your code to score the current solution goes here. The actions that make up the
         # current solution are stored in the AlgorithmXSolver attribute self.solution.
         # You can loop through this list of actions, just like we have already done in
-        # Mrs. Knuth - Parts I and II. Just remember to include "self." becuase this
+        # Mrs. Knuth - Parts I and II. Just remember to include "self." because this
         # functionality is taking place inside the class.
     
         # If the current score is better than the best score, update the best score
