@@ -6,7 +6,7 @@ Let's take another look at the Object-Oriented Design model. Everything Algorith
 ![No Spoon 2 - OOD](ClassesWithLists.png)
 <BR>
 
-This is one of the toughest Algorithm X puzzle on [Codingame](https://www.codingame.com) due to the amount of multiplicity. The requirements are straightforward. Just like Emma needed some number of lessons for Mrs. Knuth – Part III, each Node needs some number of links.
+This is one of the toughest Algorithm X puzzle on [CodinGame](https://www.codingame.com) due to the amount of multiplicity. The requirements are straightforward. Just like Ella needed some number of lessons for Mrs. Knuth – Part III, each Node needs some number of links.
 
 __Step 1:__ Loop through all `Node`s and create the appropriate requirements.
 
@@ -30,12 +30,12 @@ Using the techniques covered so far, you can solve most of the test cases for th
 
 __Test Cases 1 through 7, 9 and 10:__ These can all be solved with Algorithm X by following the processes covered in the Mrs. Knuth puzzles and the guidelines given here.
 
-__Test Cases 11 and 12:__ Algorithm X will generate multiple solutions and you will need to determine which solution has a _single connected group_ of nodes. Just like in Mrs. Knuth – Part III, this is a perfect opportunity to override the `AlgorithmXSolver` method `_process_solution(self)`. If the solution if valid, you do not need to do anything. The solver will `yield` the solution just as expected. If the solution is not valid, add the following line before exiting the method to tell Algorithm X this solution is not valid and should not be included in the solution generator.
+__Test Cases 11 and 12:__ Algorithm X will generate multiple solutions and you will need to determine which solution has a _single connected group_ of nodes. Just like in Mrs. Knuth – Part III, this is a perfect opportunity to override the `AlgorithmXSolver` method `_process_solution(self)`. If the solution is valid, you do not need to do anything. The solver will `yield` the solution just as expected. If the solution is not valid, add the following line before exiting the method to tell Algorithm X this solution is not valid and should not be included in the solution generator.
 
 ```python
 self.solution_is_valid = False
 ```
 
-__You never need to specifically set this attribute back to `True`. Invalid solutions immediately cause backtracking and `AlgorithXSolver` automatically resets this attribute to `True` every time backtracking occurs.__
+__You never need to specifically set this attribute back to `True`. Invalid solutions immediately cause backtracking and `AlgorithmXSolver` automatically resets this attribute to `True` every time backtracking occurs.__
 
-In the next section, I will discuss how to solve part of a problem with logic so the task given to Algorithm X is more manageable. Much of There is No Spoon – Episode 2 can be solve with only logic, no backtracking. However, only a combination of logical problem-space reduction and backtracking can solve all test cases and validators.
+In the next section, I will discuss how to solve part of a problem with logic so the task given to Algorithm X is more manageable. Much of There is No Spoon – Episode 2 can be solved with only logic, no backtracking. However, only a combination of logical problem-space reduction and backtracking can solve all test cases and validators.
