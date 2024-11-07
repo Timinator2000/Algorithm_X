@@ -4,7 +4,7 @@ You may have already finished all the Sudoku puzzles without any problem-space r
 
 # Initial Challenge - Lone Singles
 
-My initial challenge is for you to implement the reduction technique covered in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be removed from the candidate lists of all other cells in the same groups. With just this one reduction technique, you can achieve the following results on each of the [Codingame](https://www.codingame.com/) Sudoku puzzles...without any backtracking.
+My initial challenge is for you to implement the reduction technique covered in the previous pages. On the website [Learn-Sudoku.com](https://learn-sudoku.com), this technique is referred to as [Lone Singles](https://learn-sudoku.com/lone-singles.html). For any cell that has been reduced to a single candidate, that value may be removed from the candidate lists of all other cells in the same groups. With just this one reduction technique, you can achieve the following results on each of the [CodinGame](https://www.codingame.com/) Sudoku puzzles...without any backtracking.
 
 <BR>
 
@@ -33,7 +33,7 @@ Going back to [Learn-Sudoku.com](https://learn-sudoku.com), let's add another fa
 
 # Ultimate Sudoku Logic Challenge
 
-[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my own progress updated in a table at the end of this playground. If you take on this challenge, I do have one suggestion for your data structure. I have found it helpful if each cell has pointers to the groups to which it belongs. Conceptionally, the object model has one small addition shown below.
+[Learn-Sudoku.com](https://learn-sudoku.com) has several more reduction strategies. Can you implement enough to solve __every__ traditional Sudoku puzzle with logic alone? I will keep my own progress updated in a table at the end of this playground. If you take on this challenge, I do have one suggestion for your data structure. I have found it helpful if each cell has pointers to the groups to which it belongs. Conceptually, the object model has one small addition shown below.
 
 <BR><BR>
 ![Sudoku Data Structure](SudokuDataStructure2.png)
@@ -73,4 +73,4 @@ As the groups are being built in the `SudokuSolver` constructor, give each cell 
 
 # Solving Logic Puzzles Logically
 
-Many __Sudoku__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing.
+Many __Sudoku__ puzzles can be solved without making any guesses. Click [here](solving-with-logic-only) to see my progress toward solving as many logic puzzles as possible, strictly with logic, no guessing and no backtracking.
