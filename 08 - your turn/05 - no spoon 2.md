@@ -18,7 +18,7 @@ __Codingame uses the terms _NODE_ and _LINK_ instead of the terms _island_ and _
 
 # Visualizing the Problem
 
-I believe using the analogy of tiles on a gameboard is the key to a successful Algorithm X approach to this puzzle. What does the gameboard look like? At first glance, the gameborad appears to be a blank slate with nothing except a bunch of nodes, each with a number indicating how many links need to be connected to the node.
+I believe using the analogy of tiles on a gameboard is the key to a successful Algorithm X approach to this puzzle. What does the gameboard look like? At first glance, the gameboard appears to be a blank slate with nothing except a bunch of nodes, each with a number indicating how many links need to be connected to the node.
 
 <BR><BR>
 ![Initial Gameboard](Nodes.png)
@@ -48,7 +48,7 @@ What about the places where Channels cross? These seem to be very important loca
 ![Nodes and Intersections](NodesAndIntersections.png)
 <BR>
 
-Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing Channels. Even then, nothing is terribly important about an Intersection until a link is place in one of the slots of a Channel. At that point, the other Channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can an ever be placed in the second Channel.
+Once I fully understand the layout of my gameboard, the only important Intersections will be the intersections that have crossing Channels. Even then, nothing is terribly important about an Intersection until a link is placed in one of the slots of a Channel. At that point, the other Channel in the Intersection is no longer in play. It needs to be removed from the realm of possibility. No links can ever be placed in the second Channel.
 
 This next diagram displays the entire gameboard before any links are placed. For just a minute, consider how much more detailed this gameboard is compared to the original gameboard. No actions have been taken. No links have been placed. We have only taken the time to build a more detailed, and possibly more meaningful, understanding of the gameboard.
 
@@ -64,7 +64,7 @@ __Channel__ – a trench between two Nodes, inside of which can be placed some n
 
 __Intersection__ – a non-Node location on the gameboard that knows about any Channel that passes through that location
 
-Every Channel has capacity for a certain number of links. For now, this is the only attribute that requires a bit discussion:
+Every Channel has capacity for a certain number of links. For now, this is the only attribute that requires a bit of discussion:
 
 __Channel Capacity__ – in general, a Channel’s initial link capacity is determined by the following formula: `minimum(2, node1 links needed, node 2 links needed)`. There are two important exceptions to this rule.
 
