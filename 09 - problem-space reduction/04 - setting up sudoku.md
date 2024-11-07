@@ -93,7 +93,7 @@ The last setup step is to put all the cells into the groups to which they belong
 
 I cannot emphasize enough how powerful this pointer-based structure can be. In an object-oriented approach, objects have relationships with other objects. Despite any bad memories the word "pointer" might stir up, Python makes pointers very straightforward and pointers are a very common way for one object to "have a relationship" with another object.
 
-# A Short Algorithm to Facilate Problem-Space Reduction
+# A Short Algorithm to Facilitate Problem-Space Reduction
 
 Before exiting the constructor, the last task is to loop over all 27 groups, one at a time, reducing the problem space where possible.
 
