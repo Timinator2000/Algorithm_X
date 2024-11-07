@@ -1,6 +1,6 @@
 # A Sudoku Data Structure
 
-A few pages ago, I intentionally drew the original sudoku grid as 81 disconnected cells to create the perception of each cell being a standalone entity, or object. Since each cell is a standalone object, I can put a pointer to that cell into each group to which it belongs. I will demonstrate how to do this with Sudoku, and later I will give an overview of how this same general structure can be used on several other puzzles.
+A few pages ago, I intentionally drew the original Sudoku grid as 81 disconnected cells to create the perception of each cell being a standalone entity, or object. Since each cell is a standalone object, I can put a pointer to that cell into each group to which it belongs. I will demonstrate how to do this with Sudoku, and later I will give an overview of how this same general structure can be used on several other puzzles.
 
 Conceptually, I create two classes, one for a `SudokuCell` and another for a `SudokuGroup`. The `SudokuGroup` will have an attribute that is a list of pointers to the 9 `SudokuCell`s that are part of that group.
 
@@ -64,7 +64,7 @@ class SudokuSolver(AlgorithmXSolver):
 
 <BR>
 
-It would have been just as easy to create a two-dimensional array of `SudokuCell` instances. I chose to use a dictionary to hold the cells to intentionally blur the visual of a Sudoku grid. I find it beneficial to think in terms of rows, columns and boxs as compared to maintaining the visual of a two-dimensional grid.
+It would have been just as easy to create a two-dimensional array of `SudokuCell` instances. I chose to use a dictionary to hold the cells to intentionally blur the visual of a Sudoku grid. I find it beneficial to think in terms of rows, columns and boxes as compared to maintaining the visual of a two-dimensional grid.
 
 Continuing in the constructor, I create a list of `SudokuGroup`s for the rows, another for the columns and a third for the boxes.
 
@@ -93,7 +93,7 @@ The last setup step is to put all the cells into the groups to which they belong
 
 I cannot emphasize enough how powerful this pointer-based structure can be. In an object-oriented approach, objects have relationships with other objects. Despite any bad memories the word "pointer" might stir up, Python makes pointers very straightforward and pointers are a very common way for one object to "have a relationship" with another object.
 
-# A Short Algorithm to Fascilate Problem-Space Reduction
+# A Short Algorithm to Facilate Problem-Space Reduction
 
 Before exiting the constructor, the last task is to loop over all 27 groups, one at a time, reducing the problem space where possible.
 
@@ -112,4 +112,4 @@ The `while` loop will continue as long as at least one group is able to reduce t
 
 This framework will get you going in a good direction, but there is still a lot of code to write. You may have already completed all the Sudoku puzzles using Algorithm X, but there is a lot to be learned if you take on the challenge of solving those puzzles again, using only logic this time. Fortunately, Sudoku has been well studied and a simple Google search results in many strategies for solving a Sudoku by hand.
 
-On the next page, I'll give you a few hints as to what is possible on all the Sudoku puzzles using only logical, problem-space reduction. Later in the playground, I'll explore a several puzzles that require a bit of problem-space reduction before backtracking begins if you hope to find solutions within the given time.
+On the next page, I'll give you a few hints as to what is possible on all the Sudoku puzzles using only logical, problem-space reduction. Later in the playground, I will explore several puzzles that require a bit of problem-space reduction before backtracking begins if you hope to find solutions within the given time.
