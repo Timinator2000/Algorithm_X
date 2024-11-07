@@ -1,6 +1,6 @@
 # Solving Logic Puzzles Logically
 
-Many logic puzzles can be solved with no guessing at all. On this page, I will keep track of my personal progress toward solving all logic puzzles with logic alone, no guessing.
+Many logic puzzles can be solved with no guessing at all. On this page, I will keep track of my personal progress toward solving all logic puzzles with logic alone, no guessing and no backtracking.
 
 | Puzzle | Results                                |
 |:--|:------------------------------------------------------------------|
