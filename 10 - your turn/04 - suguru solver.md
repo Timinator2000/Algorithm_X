@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Sudoku Times Two
 
 # Strategy
 
-Suguru is full of wonderful opportunities for problem-space reduction. Just a couple of strategies will be enough to make your `SudokuSolver` very fast. If you are so inclined, you can solve many of the test cases and validators completely with logic.
+Suguru is full of wonderful opportunities for problem-space reduction. Just a couple of strategies will be enough to make your `SuguruSolver` very fast. If you are so inclined, you can solve many of the test cases and validators completely with logic.
 
 The cages make Suguru a bit tougher to get organized at first, but a `SuguruCell` is very similar to a `SudokuCell` and a `SuguruGroup` is very similar to a `SudokuGroup`. The key differences are the number of groups to which a cell belongs and the range of candidates for each cell. 
 
