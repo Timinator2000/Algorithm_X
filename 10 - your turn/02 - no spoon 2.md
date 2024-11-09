@@ -67,4 +67,4 @@ Once this loop finishes, you are left with a partial solution. Some number of li
 
 # Your Goal
 
-Using only problem-space reduction logic, no backtracking at all, you can solve test cases 1 – 8 and 10. To solve all the test cases with Algorithm X, you will need to use some pre-backtracking logic to shink the size of the problem you give to Algorithm X.
+Using only problem-space reduction logic, no backtracking at all, you can solve test cases 1 – 8 and 10. To solve all the test cases with Algorithm X, you will need to use some pre-backtracking logic to shrink the size of the problem you give to Algorithm X.
