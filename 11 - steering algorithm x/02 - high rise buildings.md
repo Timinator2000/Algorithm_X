@@ -53,7 +53,7 @@ These superheroes are not important, but they illustrate a point. From the persp
 I will call each of the `4 * N` viewing positions a `CityView`. If you think about it, the layout of this puzzle is incredibly similar to every grid-based logic puzzle we have already looked at. There is some number of _cells_ and some number of _groupings_ of those cells. Once again, I suggest you use the exact same code structure to create a dictionary of all cells and then create a list of all the cell groups. To honor the puzzle's storyline, I will use the class names `Building` and `CityView` instead of a variation of `Cell` and `Group` like what was done multiple times before.
 
 <BR><BR>
-![Bigh Rise Buildings Classes](HighRiseBuildingsClasses.png)
+![High Rise Buildings Classes](HighRiseBuildingsClasses.png)
 <BR>
 
 Finally, you could override your solver's `_process_solution()` method and make sure every `CityView` is valid. Using this approach, I am able to solve __Test Case 2: Test 2__ well within the time limit, but I time out on the other test cases. Can you guess what we might do to increase speed?
