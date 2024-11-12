@@ -17,7 +17,7 @@ In the `AlgorithmXSolver` code below, you see the default is to return `col_head
 ```python
     # In some cases it may be beneficial to have Algorithm X try covering certain requirements
     # before others as it looks for paths through the matrix. The default is to sort the requirements
-    # by how many actions cover each requirement, but in some case there might be several 
+    # by how many actions cover each requirement, but in some cases there might be several 
     # requirements covered by the same number of actions. By overriding this method, the
     # Algorithm X Solver can be directed to break ties a certain way or consider some other way
     # of prioritizing the requirements.
