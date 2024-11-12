@@ -36,7 +36,7 @@ The following override will make sure integers for a Sudoku cell are always trie
         return -val
 ```
 
-If you really want to get crazy with a dynamic strategy, the following override will order rows according to the following two criteia:
+If you really want to get crazy with a dynamic strategy, the following override will order rows according to the following two criteria:
 
 * First, how close the number is the average of all remaining cell candidates.
 * Second, being lower than the average is prioritized over being higher than the average. 
