@@ -279,7 +279,7 @@ class AlgorithmXSolver():
     # before others as it looks for paths through the matrix. The default is to sort the requirements
     # by how many actions cover each requirement, but in some cases there might be several 
     # requirements covered by the same number of actions. By overriding this method, the
-    # Algorithm X Solver can be directed to break ties a certain way or consider some other way
+    # Algorithm X Solver can be directed to break ties a certain way or consider another way
     # of prioritizing the requirements.
     def _requirement_sort_criteria(self, col_header: DLXCell):
         return col_header.size
