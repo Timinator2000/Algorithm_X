@@ -269,8 +269,8 @@ class AlgorithmXSolver():
     # In some cases it may be beneficial to have Algorithm X try certain paths through the matrix.
     # This can be the case when there is reason to believe certain actions have a better chance than
     # other actions at producing complete paths through the matrix. The method included here does
-    # nothing, but can be overridden when a subclass wishes to influence the order in which
-    # Algorithm X tries rows (actions) that cover some particular column.
+    # nothing, but can be overridden to influence the order in which Algorithm X tries rows (actions) 
+    # that cover some particular column.
     def _action_sort_criteria(self, row_header: DLXCell):
         return 0
     
