@@ -18,7 +18,7 @@ Looking at the algorithm above, Step 2 and Step 3 both involve making a choice. 
 
 # Always Try This First
 
-You do have some influence over how rows and columns are chosen simply by how you set up the matrix. In the absence of detailed instruction, `AlgorithmXSolver` will choose columns from left to right and rows from top to bottom. In the `AlgorithmXSolver` constructor, the matrix is contructed left-to-right and top-to-bottom to mirror the order in which you built the requirements `list` and the actions `dictionary`.
+You do have some influence over how rows and columns are chosen simply by how you set up the matrix. In the absence of detailed instruction, `AlgorithmXSolver` will choose columns from left to right and rows from top to bottom. In the `AlgorithmXSolver` constructor, the matrix is constructed left-to-right and top-to-bottom to mirror the order in which you built the requirements `list` and the actions `dictionary`.
 
 `AlgorithmXSolver` does not have any detailed instructions for ordering rows, so top-to-bottom is the default. Columns are a bit different. By default, `AlgorithmXSolver` always chooses the column covered by the fewest number of rows. This is referred to as Minimum Remaining Value or MRV. But, what about ties? What if several columns have the same MRV? In what order are those columns tried? Unless instructed otherwise, `AlgorithmXSolver` breaks ties from left to right.
 
