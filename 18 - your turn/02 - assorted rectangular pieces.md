@@ -30,4 +30,4 @@ My original solution used a clever combination of dynamic sorting for both colum
 
 # Making Your Solution Fast
 
-If you want to maximize speed, you might need to add some problem-space reduction. Are there any ways you can reduce the size of the problem before building the matrix for Algorithm X? Keep in mind that this process takes time. If you attempt to add problem-space reduction, is there a way you can quantify how much benefit you are get and at what cost?
+If you want to maximize speed, you might need to add some problem-space reduction. Are there any ways you can reduce the size of the problem before building the matrix for Algorithm X? Keep in mind that this process takes time. If you attempt to add problem-space reduction, is there a way you can quantify how much benefit you get and at what cost?
