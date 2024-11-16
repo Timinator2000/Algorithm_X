@@ -20,7 +20,7 @@ I will move forward assuming you have created a list of zones where each zone is
 
 >two adjacent zones must be filled with two different colors.
 
-To simplify this discussion, let’s assume each zone has been given a unique integer identifier and let’s call “two adjacent zones” a set of neighbors. Algorithm X needs to know all the sets of neighbors so that it can make sure no neighbors are ever assigned the same color. And how do we ensure something doesn’t happen? Correct! Mutual exclusivity.
+Let’s call “two adjacent zones” a set of neighbors. Algorithm X needs to know ever set of neighbor zones so that it can make sure no neighbors are ever assigned the same color. And how do we ensure something doesn’t happen? Correct! Mutual exclusivity.
 
 <details>
 <summary>Spoiler Alert: Suggestions for the novice Python programmer.</summary>
