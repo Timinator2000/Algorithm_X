@@ -68,4 +68,31 @@ In the Python code above, I have intentionally left out the details needed to re
 
 # Algorithm X Setup
 
+This puzzle asks us to find the __least__ number of colors with which the picture can successfully be colored without any two neighbor zones having the same color. Depending on where you are in your Algorithm X journey, something might seem a bit odd. Compare this puzzle’s request to another _hypothetical_ puzzle that might ask:
+
+>Given 5 different colors, find all possible ways a picture can be colored, such that no two neighbor zones are colored the same.
+
+In this _hypothetical_ puzzle, what are the requirements? Each zone must be colored. How do we make sure no two neighbors are colored the same? We create an optional requirement to handle mutual exclusivity for every color for every set of neighbors. For instance, assume zone 1 and zone 2 are neighbors. If zone 1 is assigned color 1, then zone 2 must not be assigned color 1. This sentence could be restated as: If zone 1 and zone 2 are neighbors, one or the other can be assigned color 1, but not both.
+
+Assuming the problem has `x` zones and `y` colors, there are `x * y` actions. Each action assigns a specific color to a specific zone. Each action then covers exactly one requirement and 0 or more `me_requirements` that make sure none of the neighbors receive the same color.
+
+Knowing how to approach this hypothetical puzzle should put you on a path to solving [Optimized coloring]( https://www.codingame.com/training/medium/optimized-coloring). If you are stuck and want further guidance, click below.
+
+<details>
+
+<summary>Spoiler Alert: Transitioning from the hypothetical puzzle to the actual puzzle.
+
+<br>
+    
+The thought exercise above asked you to position Algorithm X to find all solutions to a hypothetical problem using 5 distinct colors. What if the solver returns zero solutions? There are no proper ways to color the entire picture with only 5 colors. What should you try next?
+
+ <details>
+<summary>Spoiler Alert: Quit being so cryptic. Just tell me what to do!
+    
+<br>
+
+I really thought about providing more details, but I believe the hypothetical problem and the questions above are enough of a push in the right direction. Good luck!
+
+</details>
+</details>
 
