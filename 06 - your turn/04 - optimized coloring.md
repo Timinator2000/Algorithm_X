@@ -16,7 +16,7 @@ Before putting any thought into an Algorithm X approach to this puzzle, the cell
 
 >A zone is made of "space" characters.
 
-I will move forward assuming you have created a list of zones where each zone is a list of row, col `(r, c)` tuples. Each `(r, c)` tuple identifies one “space” character found in the zone. Again from the problem statement:
+I will move forward assuming you have created a list of zones where each zone is a list of row, col `(r, c)` `tuple`s. Each `(r, c)` `tuple` identifies one “space” character found in the zone. Again from the problem statement:
 
 >two adjacent zones must be filled with two different colors.
 
