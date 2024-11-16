@@ -34,12 +34,13 @@ You need to look at every combination of 2 zones and determine if those two zone
 
 from itertools import combinations
 
+neighbors = []
 for zone_1, zone_2 in combinations(zones, 2):
     for (r1, c1) in zone_1:
         for (r2, c2) in zone_2:
             if the two cells indicate the zones are neighbors:
                 add (zone_1, zone_2) to the list of neighbors
-                stop checking (zone_1, zone_2)
+                stop checking and move on to the next combination of zones
 ```
 
 If you really want to make your code “Pythonic”, try this:
@@ -50,6 +51,7 @@ If you really want to make your code “Pythonic”, try this:
 
 from itertools import combinations
 
+neighbors = []
 for zone_1, zone_2 in combinations(zones, 2):
     if any((r1, c1, r2, c2 indicate zones are neighbors) for (r1, c1) in zone_1 for (r2, c2) in zone_2):
         add (zone_1, zone_2) to the list of neighbors
