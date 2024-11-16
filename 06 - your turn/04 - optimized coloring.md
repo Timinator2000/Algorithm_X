@@ -80,19 +80,16 @@ Knowing how to approach this hypothetical puzzle should put you on a path to sol
 
 <details>
 
-<summary>Spoiler Alert: Transitioning from the hypothetical puzzle to the actual puzzle.
-
+<summary>Spoiler Alert: Transitioning from the hypothetical puzzle to the actual puzzle.</summary>
 <br>
     
 The thought exercise above asked you to position Algorithm X to find all solutions to a hypothetical problem using 5 distinct colors. What if the solver returns zero solutions? There are no proper ways to color the entire picture with only 5 colors. What should you try next?
 
- <details>
-<summary>Spoiler Alert: Quit being so cryptic. Just tell me what to do!
-    
+<details>
+<summary>Spoiler Alert: Quit being so cryptic. Just tell me what to do!</summary>
 <br>
 
 I really thought about providing more details, but I believe the hypothetical problem and the questions above are enough of a push in the right direction. Good luck!
-
 </details>
 </details>
 
