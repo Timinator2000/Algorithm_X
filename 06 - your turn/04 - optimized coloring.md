@@ -62,7 +62,7 @@ for zone_1, zone_2 in combinations(zones, 2):
 The code is still very readable, but the use of `any` has shortened the code and eliminated the need to do further checking to break out of the nested `for` loops.
 </details>
 
-In the Python code above, I have intentionally left out the details needed to replace `(r1, c1, r2, c2 indicate zones are neighbors)` with code. Several CodinGamers have asked for clarification on how to determine when two zones are neighbors and when they are not neighbors. Almost every puzzle on CodinGame has a discussion tab and if you want more information in regards to determining neighbors, click [here]( https://www.codingame.com/training/medium/optimized-coloring/discuss) to jump to this puzzle’s discussion tab.
+In the Python code above, I have intentionally left out the details needed to replace `(r1, c1, r2, c2 indicate zones are neighbors)` with code. Several CodinGamers have asked for clarification on how to determine when two zones are neighbors and when they are not neighbors. Almost every puzzle on CodinGame has a discussion tab and if you need more help determining neighbors, click [here]( https://www.codingame.com/training/medium/optimized-coloring/discuss) to open this puzzle’s discussion tab.
 
 # Algorithm X Setup
 
