@@ -39,7 +39,7 @@ Remember, the Algorithm X matrix is binary data. Requirements that can be covere
 
 # Tiles on a Gameboard
 
-Consider the following gameboard visual for the Example Test Case, which shows a group of cipher words and group of register words. Each action takes a register word and tries matching it to a cipher word of equal length.
+Consider the following gameboard visual for the Example Test Case, which shows a group of cipher words and a group of register words. Each action takes a register word and tries matching it to a cipher word of equal length.
 
 <BR>
 
