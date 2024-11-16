@@ -34,7 +34,7 @@ You need to look at every combination of 2 zones and determine if those two zone
 
 ```python
 # assumed data structure
-# Zones : List[List[tuple]] – each zone in zones is a list if (r, c) tuples
+# zones : List[List[tuple]] – each zone in zones is a list if (r, c) tuples
 
 from itertools import combinations
 
@@ -50,7 +50,7 @@ If you really want to make your code “Pythonic”, try this:
 
 ```python
 # assumed data structure
-# Zones : List[List[tuple]] – each zone in zones is a list if (r, c) tuples
+# zones : List[List[tuple]] – each zone in zones is a list if (r, c) tuples
 
 from itertools import combinations
 
