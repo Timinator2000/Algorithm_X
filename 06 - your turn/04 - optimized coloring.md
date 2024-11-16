@@ -24,7 +24,7 @@ Let’s call “two adjacent zones” a set of neighbors and let’s rephrase th
 
 >two neighbors must never be filled with the same color
 
-Algorithm X needs to know every set of neighbor zones so it can make sure no neighbors are ever assigned the same color. And how do we ensure something doesn’t happen? Correct! Mutual exclusivity.
+Algorithm X needs to know every set of neighbor zones so it can make sure no neighbors are ever assigned the same color. And, how do we ensure something doesn’t happen? Correct! Mutual exclusivity.
 
 <details>
 <summary>Spoiler Alert: Python suggestions for finding neighbor zones.</summary>
