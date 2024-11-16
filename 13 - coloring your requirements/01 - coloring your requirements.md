@@ -14,4 +14,4 @@ You might be tempted to see this as an instance of multiplicity as discussed ear
 
 # Algorithm C
 
-Knuth proposes Algorithm C to solve exact cover problems that include the coloring of requirements. I am not going to cover Algorithm C here. This is an Algorithm X playground and on the next page, I will show you how to easily customize `AlgorithmXSolver` to handle the coloring of requirements.
+Knuth proposes Algorithm C to solve exact cover problems that include the coloring of requirements. I am not going to cover Algorithm C here, but on the next page, I will show you how to easily customize `AlgorithmXSolver` to handle the coloring of requirements.
