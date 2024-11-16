@@ -43,7 +43,7 @@ for zone_1, zone_2 in combinations(zones, 2):
         for (r2, c2) in zone_2:
             if the two cells indicate the zones are neighbors:
                 add (zone_1, zone_2) to the list of neighbors
-                stop checking (zone_1, zone_2)
+                stop checking and move on to the next combination of zones
 ```
 
 If you really want to make your code “Pythonic”, try this:
