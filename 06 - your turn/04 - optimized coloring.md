@@ -65,3 +65,5 @@ The code is still very readable, but the use of `any` has shortened the code and
 In the Python code above, I have intentionally left our the details needed to replace `(r1, c1, r2, c2 indicate zones are neighbors)` with code. Several CodinGamers have asked for clarification on how to determine when two zones are neighbors and when they are not neighbors. Almost every puzzle on CodinGame has a discussion tab and if you want more information in regards to determining neighbors, click [here]( https://www.codingame.com/training/medium/optimized-coloring/discuss) to jump to this puzzle’s discussion tab.
 
 # Algorithm X Setup
+
+
