@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ Algorithm X is the Easy Part
 
 # Problem Statement
 
-Harmless Rooks is a hard puzzle, but a very short Algorithm X setup can easily solve the first two test cases and get you moving in a powerful direction. Although the Algorithm X setup is not terriblycomplex, some background is helpful. For convenience, I have copied the entire goal statement here:
+Harmless Rooks is a hard puzzle, but a very short Algorithm X setup can easily solve the first two test cases and get you moving in a powerful direction. Although the Algorithm X setup is not terribly complex, some background is helpful. For convenience, I have copied the entire goal statement here:
 
 > The __rook__ is a chess piece that can move along its current line (horizontally) or column (vertically) through any number of free (unoccupied) squares.
 >
