@@ -26,7 +26,7 @@ Placing a single rook on a standard 8 x 8 chessboard covers two `AttackLine`s, o
 
 >Given an `N x N` chessboard with all free squares, how many different ways can `N` rooks be placed on the board, such that no rook threatens any other rook?
 
-How could we set up Algorithm X to solve this problem? What are the requirements? Every one of the `N * N` `AttackLine`s must be covered by a rook. What are the actions? Each action is simply placing a rook at location `(r, c)` and each action coves two requirements, one for each `AttackLine` coved by the rook placement.
+How could Algorithm X be set up to solve this problem? What are the requirements? Every one of the `N * N` `AttackLine`s must be covered by a rook. What are the actions? Each action is simply placing a rook at location `(r, c)` and each action coves two requirements, one for each `AttackLine` coved by the rook placement.
 
 Asking Algorithm X to find the number of possible configurations for values of `N` between 2 and 10 results in the following:
 
