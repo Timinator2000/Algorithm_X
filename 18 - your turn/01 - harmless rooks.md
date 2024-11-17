@@ -42,7 +42,7 @@ Asking Algorithm X to find the number of possible configurations for values of `
 |9|362880|
 |10|3628800|
 
-It is not difficult to show that for any `N x N` chessboard, there are `N` factorial ways to arrange the rooks. However, I chose to illustrate how Algorithm X could produce these results to lay the groundwork for an Algorithm X approach to oddly configured boards in Harmless Rooks.
+It is not difficult to show that for any `N x N` chessboard, there are `N` factorial ways to arrange the rooks. However, I chose to illustrate how Algorithm X could produce these results to lay the groundwork for an Algorithm X approach to the oddly configured boards found in Harmless Rooks.
 
 # Handling Occupied Spaces
 
