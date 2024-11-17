@@ -7,7 +7,7 @@ Algorithm X is designed to be efficient, and it is extremely efficient at identi
 How does Algorithm X know when a path is a dead end? The matrix has at least one requirement that no longer has any rows that cover it. Since it is impossible for one of the (mandatory) requirements to be satisfied, Algorithm X backtracks. `AlgorithmXSolver` implements this process by sorting requirements by the number of rows remaining that cover each requirement, often referred to as Minimum Remaining Value (MRV). Columns that are not covered by any rows are sifted to the front of the line and Algorithm X immediately knows it is time to backtrack. This default behavior is found in the `AlgorithmXSolver` method `_requirement_sort_criteria()` as shown below. 
 
 
-```
+```python
     def _requirement_sort_criteria(self, col_header: DLXCell):
         return col_header.size
 ```
@@ -16,7 +16,7 @@ The `size` attribute of a `DLXCell` is only meaningful when the `DLXCell` instan
 
 In this puzzle, occupied cells most likely create boards where Algorithm X cannot cover every `AttackLine` and I don’t want Algorithm X to backtrack just because it finds one `AttackLine` that cannot be covered. Instead, I want Algorithm X to keep placing rooks until none of the remaining `AttackLine`s can be covered. This is easily accomplished simply be reversing the sort order to push requirements that cannot be covered to the end of the line. To implement this in your solver, override the `_requirement_sort_criteria()` method as follows:
 
-```
+```python
     def _requirement_sort_criteria(self, col_header: DLXCell):
         return -col_header.size
 ```
@@ -34,7 +34,7 @@ self.most_rooks_placed = 0
 
 Then, because each action (row) is the placement of a rook at a particular location, the following overrides will keep track of the current number of rooks placed and the max number of rooks placed:
 
-```
+```python
     def _process_row_selection(self, row):
         self.rooks_placed += 1
         self.max_rooks_placed = max(self.rooks_placed, self.max_rooks_placed)
