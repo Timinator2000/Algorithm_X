@@ -54,5 +54,7 @@ On a board with no occupied spaces, the maximum number of rooks is always `N`. E
 
 The board now has 11 `AttackLine`s. Each rook placed covers exactly 2 `AttackLine`s, making it is impossible to cover every `AttackLine`. However, we might consider asking Algorithm X to attempt the following:
 
+<BR>
+
 >Try to cover every `AttackLine` by placing rooks on open squares. If no solution exists that covers all `AttackLine`s, return the length of the partial solution that gets the closest.
 
