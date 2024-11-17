@@ -88,15 +88,16 @@ self.rooks_placed = 0
 self.most_rooks_placed = 0
 ```
 
-Then, override the `_process_row_selection()` and `_process_row_deselection()` as follows:
+Then, because each action (row) is the placement of a rook at a particular location, the following overrides will keep track of the current number of rooks placed and the max number of rooks placed:
 
 ```
     def _process_row_selection(self, row):
         self.rooks_placed += 1
         self.max_rooks_placed = max(self.rooks_placed, self.max_rooks_placed)
 
-def _process_row_deselection(self, row):
+
+    def _process_row_deselection(self, row):
         self.rooks_placed -= 1
 ```
 
-You now have a fully functional solver that can finish test cases 1 and 2, but you will probably have timeout issues after that. To solve the remaining test cases, you will need to find ways to reduce the problem space by placing rooks logically. 
+We now have a fully functional solver that can finish test cases 1 and 2, but you will probably run into timeout issues after that. To solve the remaining test cases, you will need to find ways to reduce the problem space by placing rooks logically. 
