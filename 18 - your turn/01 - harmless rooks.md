@@ -54,11 +54,11 @@ On a board with no occupied spaces, the maximum number of rooks is always `N`. E
 
 The board now has 11 `AttackLine`s. Each rook placed covers exactly 2 `AttackLine`s, making it is impossible to cover every `AttackLine`. However, we might consider asking Algorithm X to attempt the following:
 
->Try to cover every `AttackLine` by placing rooks on open squares. If no solution exists that covers all AttackLine`s, identify the closest you were able to get to a perfect solution.
+>Try to cover every `AttackLine` by placing rooks on open squares. If no solution exists that covers all AttackLine`s, identify the partial solution that gets the closest.
 
 # Customizing Algorithm X To Be Inefficient
 
-Algorithm X is designed to be efficient, and it is extremely efficient at identifying when paths are dead ends. As soon as Algorithm X determines that a path will eventually be a dead end, paths forward are no longer explored and backtracking happens. Without any customization, Algorithm X can quickly determine if __all__ `AttackLine`s can be covered, but it is not designed to tell us how close it can get to a proper solution.
+Algorithm X is designed to be efficient, and it is extremely efficient at identifying when paths are dead ends. As soon as Algorithm X determines that a path will eventually be a dead end, paths forward are no longer explored and backtracking happens. Without any customization, Algorithm X can quickly determine if __all__ `AttackLine`s can be covered, but it is not designed to tell us how close it can get to a proper solution when no full solution is possible.
 
 How does Algorithm X know when a path is a dead end? The matrix has at least one requirement that no longer has any rows that cover it. Since it is impossible for one of the (mandatory) requirements to be satisfied, Algorithm X backtracks. `AlgorithmXSolver` implements this process by sorting requirements by the number of rows remaining that cover each requirement, often referred to as Minimum Remaining Value (MRV). Columns that are not covered by any rows are sifted to the front of the line and Algorithm X immediately knows it is time to backtrack. The default behavior happens in the `AlgorithmXSolver` method `_requirement_sort_criteria(self, col_header: DLXCell)` as shown below. 
 
