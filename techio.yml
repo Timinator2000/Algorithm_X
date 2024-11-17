@@ -210,8 +210,12 @@ plan:
     plan:
       - title: Harmless Rooks
         statement: 18 - your turn/01 - harmless rooks.md
+      - title: Harmless Rooks - Algorithm X
+        statement: 18 - your turn/02 - harmless rooks cont.md
+      - title: Harmless Rooks - Problem-Space Reduction
+        statement: 18 - your turn/03 - harmless rooks cont.md
       - title: Assorted Rectangular Pieces
-        statement: 18 - your turn/02 - assorted rectangular pieces.md
+        statement: 18 - your turn/04 - assorted rectangular pieces.md
   - title: Odds & Ends
     plan:
       - title: Solving With Logic Only
