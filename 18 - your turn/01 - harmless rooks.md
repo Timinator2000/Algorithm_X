@@ -77,7 +77,7 @@ In this puzzle, occupied cells most likely create boards where Algorithm X canno
         return -col_header.size
 ```
 
-A single `-` sign is all that is needed. As long as a rook can be placed, Algorithm X will continue exploring, looking for a solution that covers all `AttackLine`s. Backtracking will __only__ happen when the matrix shows that none of the remaining `AttackLine`s can be covered by any rook placement. 
+A single `-` sign is all that is needed! As long as a rook can be placed, Algorithm X will continue exploring, looking for a solution that covers all `AttackLine`s. Backtracking will __only__ happen when the matrix shows that none of the remaining `AttackLine`s can be covered by any rook placement. 
 
 # Counting Rooks
 
