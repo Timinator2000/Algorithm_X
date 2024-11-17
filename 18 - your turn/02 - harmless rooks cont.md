@@ -1,5 +1,9 @@
 # Harmless Rooks (cont.)
 
+On the previous page, the following task was proposed for Algorithm X:
+
+>Try to cover every `AttackLine` by placing rooks on open squares. If no solution exists that covers all `AttackLine`s, return the length of the partial solution that gets the closest.
+
 Algorithm X is designed to be efficient, and it is extremely efficient at identifying when paths are dead ends. As soon as Algorithm X determines a path will eventually be a dead end, all forward exploration stops and the algorithm backtracks. Without any customization, Algorithm X can quickly determine if __all__ `AttackLine`s can be covered, but it is not designed to tell us how close it can get to a proper solution when no full solution is possible.
 
 # Customizing Algorithm X To Be Inefficient
