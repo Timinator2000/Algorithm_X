@@ -70,7 +70,7 @@ How does Algorithm X know when a path is a dead end? The matrix has at least one
 
 The `size` attribute of a `DLXCell` is only meaningful when the `DLXCell` instance is a column header and it keeps track of the number of rows that still cover the requirement. `AlgorithmXSolver` will sort all remaining requirements by the number of rows covering each requirement and then pick the requirement with the _minimum remaining value (number of rows)_.
 
-For this puzzle, I know that occupied cells will most likely create a squares where I cannot cover ever `AttackLine`, so I don’t want Algorithm X to backtrack just because it finds one `AttackLine` cannot be covered. Instead, I want Algorithm X to keep placing rooks until none of the remaining `AttackLine`s can be coved. This is easily accomplish simply be reversing the sort order to push requirements that cannot be covered to the end of the line. To implement this in your solver, override the `_requirement_sort_criteria()` method as follows:
+In this puzzle, occupied cells most likely create boards where Algorithm X cannot cover every `AttackLine` and I don’t want Algorithm X to backtrack just because it finds one `AttackLine` that cannot be covered. Instead, I want Algorithm X to keep placing rooks until none of the remaining `AttackLine`s can be covere d. This is easily accomplished simply be reversing the sort order to push requirements that cannot be covered to the end of the line. To implement this in your solver, override the `_requirement_sort_criteria()` method as follows:
 
 ```
     def _requirement_sort_criteria(self, col_header: DLXCell):
