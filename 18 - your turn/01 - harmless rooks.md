@@ -48,9 +48,13 @@ It is not difficult to show that for any `N x N` chessboard, there are `N` facto
 
 Harmless Rooks has some large boards with many spaces already occupied. Since rooks cannot cross occupied squares, each occupied square either shortens an `AttackLine` or divides an `AttackLine` into two separate lines. Even a single location, bordered on all sides by occupied spaces forms two `AttackLine`s, one horizontal and one vertical. Placing a rook on that isolated space occupies both `AttackLine`s.
 
-On a board with no occupied spaces, the maximum number of rooks is always `N`. Each rook placed covers one column and one row. Said another way, each rook covers exactly two `AttackLine`s and __all__ `AttackLine`s are covered. As soon as occupied spaces show up on a board, it can get much more difficult to cover every `AttackLine`. Consider the following 5 x 5 board with a single occupied space.
+On a board with no occupied spaces, the maximum number of rooks is always `N`. Each rook placed covers one column and one row. Said another way, each rook covers exactly two `AttackLine`s and __all__ `AttackLine`s are covered. As soon as occupied spaces show up on a board, it can get much more difficult to cover every `AttackLine`. The following diagrams shows all attack lines on a 5 x 5 board with a single edge square occupied.
 
-{5 x 5 board with one occupied space}
+<BR>
+
+![Attack Lines](AttackLines.png)
+
+<BR>
 
 The board now has 11 `AttackLine`s. Each rook placed covers exactly 2 `AttackLine`s, making it is impossible to cover every `AttackLine`. However, we might consider asking Algorithm X to attempt the following:
 
