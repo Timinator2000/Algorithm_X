@@ -38,5 +38,5 @@ Every time you find a location where a rook can be placed logically, `AttackLine
 
 To solve this puzzle with the Algorithm X implementation discussed in the previous pages, you mst figure out ways to place many more rooks logically. We already handicapped Algorithm X by customizing it to be inefficient. The boards it can solve need to be a lot smaller than the large test cases.
 
-Algorithm X might not be the best solution to this puzzle, but this is a hard puzzle and any solution is commendable. Getting an Algorithm X-based solution up and running quickly that solves the boards once they are reduced enough provides a feedback system that might be exactly what you need to persevere and solve all test cases.
+Algorithm X might not be the best solution to this puzzle, but this is a hard puzzle and any solution is commendable. Getting an Algorithm X-based solution up and running quickly, that solves the boards once they are reduced enough, provides a feedback system that might be exactly what you need to persevere and solve all test cases.
 
