@@ -34,7 +34,7 @@ Placing a rook on either `Square` in the isolated area will eliminate 3 `AttackL
 
 Every time you find a location where a rook can be placed logically, `AttackLine`s and `Square`s are eliminated from future consideration. This process shrinks the size of the problem since Algorithm X only needs to know about `AttackLine`s and `Square`s that must be considered to determine the maximum rook placements going forward.
 
-# Conclusion
+# On to the Puzzle
 
 To solve this puzzle with the existing Algorithm X implementation, you will need to figure out ways to place many more rooks logically. We already handicapped Algorithm X by customizing it to be inefficient. The boards it can solve will need to be a lot smaller than the large test cases.
 
