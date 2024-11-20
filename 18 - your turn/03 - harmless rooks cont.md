@@ -12,7 +12,7 @@ A `Square` is uniquely identified by its `row` and `col`, but it is a bit more c
 
 # Problem-Space Reduction
 
-What does it mean to reduce a `Square` or an `AttackLine`? Somehow, we need to shrink the size of the larger boards by placing rooks logically. Consider the following diagram where 3 `X` locations isolate a single `Square`:
+What does it mean to reduce a `Square` or an `AttackLine`? Somehow, we need to shrink the size of the larger boards by placing rooks logically. Consider the following diagram where three `X` locations isolate a single `Square`:
 
 <BR>
 
@@ -20,7 +20,7 @@ What does it mean to reduce a `Square` or an `AttackLine`? Somehow, we need to s
 
 <BR>
 
-Obviously, a rook can be placed on the isolated `Square`. Placing a rook in that location does not change what is possible with the rest of the board. Now, consider the following diagram where 4 `X` locations isolate a group of 2 `Squares`:
+Obviously, a rook can be placed on the isolated `Square`. Placing a rook in that location does not change what is possible with the rest of the board. Now, consider the following diagram where four `X` locations isolate a group of two `Squares`:
 
 
 <BR>
