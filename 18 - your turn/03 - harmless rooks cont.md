@@ -8,7 +8,7 @@ Harmless Rooks fits the same cells and groups model used on many of the previous
 
 <BR>
 
-A `Square` is uniquely identified by its `row` and `col`, but it is a bit more challenging to uniquely identify an `AttackLine`. In the class diagram above, I have added an integer `id` for each `AttackLine`. Each class also has a `reduce_` method as we have seen in many puzzles before.
+A `Square` is uniquely identified by its `row` and `col`, but it is a bit more challenging to uniquely identify an `AttackLine`. In the class diagram above, I have added an integer `id` for each `AttackLine`. Each class also has a `reduce_()` method as seen in many puzzles before.
 
 # Problem-Space Reduction
 
