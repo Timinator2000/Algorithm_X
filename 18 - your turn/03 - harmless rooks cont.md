@@ -32,6 +32,9 @@ Obviously, a rook can be placed on the isolated `Square`. Placing a rook in that
 
 Placing a rook on either `Square` in the isolated area will eliminate 3 `AttackLine`s from the game, the two covered by the rook and the second `AttackLine` covered by the other location that is now ineligible for a rook. In this case, placing a rook on each `Square` does the same amount of _damage_ to the board as far as placing more future rooks. Because these two `Square`s are isolated and neither causes more damage than the other, a rook can be placed on either `Square`, eliminating the other `Square` from consideration.
 
+Every time you find a location where a rook can be placed logically, `AttackLine`s and `Square`s are eliminated from future consideration. This process shrinks the size of the problem since Algorithm X only needs to know about `AttackLine`s and `Square`s that must be considered to determine the maximum rook placements going forward.
+
+# Conclusion
 
 To solve this puzzle with the existing Algorithm X implementation, you will need to figure out ways to place many more rooks logically. We already handicapped Algorithm X by customizing it to be inefficient. The boards it can solve will need to be a lot smaller than the large test cases.
 
