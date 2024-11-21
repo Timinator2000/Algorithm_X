@@ -65,7 +65,7 @@ The next diagram shows the full effect of matching one register word to one ciph
 
 # Consistency Is Key
 
-It can be challenging to visualize an Exact Cover problem that requires coloring. In the previous diagrams, think of the two sets of letters in the bottom right as the __Color Police__. When the gameboard is first considered, these groups are often not obvious, but at some point in the gameboard exploration, a need for consistency arises. This need is a telltale sign, it is time consider adding the Color Police to your gameboard.
+It can be challenging to visualize an Exact Cover problem that requires coloring. In the previous diagrams, think of the two sets of letters in the bottom right as the __Color Police__. When the gameboard is first considered, these groups are often not obvious, but at some point in the gameboard exploration, a need for consistency arises. This need is a telltale sign, it is time to consider adding the Color Police to your gameboard.
 
 # Setting Up Your Solver
 
