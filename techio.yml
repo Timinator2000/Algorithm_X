@@ -188,8 +188,8 @@ plan:
         statement: 14 - your turn/03 - agent x mission 2 - cont.md
   - title: All or Nothing
     plan:
-      - title: All or Nothing
-        statement: 15 - all or nothing/01 - all or nothing.md
+      - title: All or None
+        statement: 15 - all or none/01 - all or none.md
   - title: Your Turn
     plan:
       - title: Einstein's Riddle Solver (Revisited)
