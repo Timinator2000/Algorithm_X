@@ -22,7 +22,7 @@ The binary requirements can first be put into the Algorithm X matrix. For the wo
 requirements = [('word placed', word) for word in word_list]
 ```
 
-For the non-binary requirements that can be colored, add an attribute to your solver subclass to keep track of the color assignments. There are many ways you could do this. For this example, I will use a `dictionary` where the grid locations are the `key`s and each `value` is a `list`. Every time a location is covered by a word, the letter that colors the location is added to the list. A cell that has an empty list may be covered by any color (letter). A cell that has a non-empty list can only be covered again properly if the new color matches what is already in the list.
+For the non-binary requirements that can be colored, add an attribute to your solver subclass to keep track of the color assignments. There are many ways you could do this. For this example, I will use a `dictionary` where the grid locations are the `key`s and each `value` is a `list`. Every time a location is covered by a word, the letter that colors the location is added to the `list`. A cell that has an empty `list` may be covered by any color (letter). A cell that has a non-empty `list` can only be covered again properly if the new color matches what is already in the `list`.
 
 ```python
 self.location_colors = {(r, c):[] for r in range(height) for c in range(width)}
@@ -50,7 +50,7 @@ The pseudocode looks like this:
             self.location_colors[location].append(letter)
 ```
 
-The last line above might be a little confusing. Why is the letter being added to the list even if the coloring was inappropriate and `self.solution_is_valid` was set to `False`? Backtracking can happen naturally or it can be forced because the current path is not valid. Either way, backtracking will "undo" the most recent row processing which means popping the most recent addition out of the `location_colors` `list`. This cleanup is accomplished by overriding the `AlgorithmXSolver` `_process_row_deselection()` method as follows:
+The last line above might be a little confusing. Why is the letter being added to the `list` even if the coloring was inappropriate and `self.solution_is_valid` was set to `False`? Backtracking can happen naturally or it can be forced because the current path is not valid. Either way, backtracking will "undo" the most recent row processing which means popping the most recent addition out of the `location_colors` `list`. This cleanup is accomplished by overriding the `AlgorithmXSolver` `_process_row_deselection()` method as follows:
 
 ```python
     def _process_row_deselection(self, row):
