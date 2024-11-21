@@ -1,7 +1,3 @@
-# Agent X, Mission 2 — Mysterious Cryptogram (cont.)
-
-# THIS PAGE IS UNDER CONSTRUCTION
-
 # I Thought There Was a Choice To Be Made
 
 On the previous page, I indicated the Algorithm X setup could be “Very Hard or Not Too Bad, Your Choice”. In this section, I will cover the harder option.
@@ -66,4 +62,6 @@ There is good news and bad news about the size of these numbers. The good news i
 
 # Conclusion
 
-In his book, Knuth states
+I cannot say enough about the value you might find by solving Agent X, Mission 2 both with and without coloring. In his book, Knuth goes through the math behind how to convert any problem with coloring to a standard Algorithm X problem without coloring. I contend a deep dive into the trenches of a puzzle like this is the way to really solidify that knowledge and understanding.
+
+Having done this puzzle both ways, I can say coloring makes the path to success quite a bit shorter. My solution with coloring was much easier to put together and significantly faster on all test cases. Hence, my original Algorithm X Complexity: _Very Hard or Not Too Bad, Your Choice_.
