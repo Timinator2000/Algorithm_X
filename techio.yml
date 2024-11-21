@@ -186,10 +186,10 @@ plan:
         statement: 14 - your turn/02 - agent x mission 2.md
       - title: Agent X, Mission 2 (cont.)
         statement: 14 - your turn/03 - agent x mission 2 - cont.md
-  - title: Mutual Inclusivity
+  - title: All or Nothing
     plan:
-      - title: Mutual Inclusivity
-        statement: 15 - mutual inclusivity/01 - mutual inclusivity.md
+      - title: All or Nothing
+        statement: 15 - all or nothing/01 - all or nothing.md
   - title: Your Turn
     plan:
       - title: Einstein's Riddle Solver (Revisited)
