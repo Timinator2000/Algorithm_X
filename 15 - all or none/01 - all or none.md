@@ -15,11 +15,11 @@ Consider a slightly more interesting scenario with the following all-or-none set
 1. `a` and `h`
 
 ?[How many all-or-none sets of events are present in this scenario?]
-[] 1 – Please make the next question harder.
-[] 2 – I’m just guessing.
-[x] 3 – I’ve always liked the number 3.
-[] 4 – I’m excluding `x` and `y` as they should only be used in math equations.
-[] 5 – Don’t insult me, I know how to count!
+-[] 1 – Please make the next question harder.
+-[] 2 – I’m just guessing.
+-[x] 3 – I’ve always liked the number 3.
+-[] 4 – I’m excluding `x` and `y` as they should only be used in math equations.
+-[] 5 – Don’t insult me, I know how to count!
 
 The correct answer is 3, but why? Any sets that intersect in any way must be joined together. Let’s rewrite the sets from 1, 3 and 5 above:
 
