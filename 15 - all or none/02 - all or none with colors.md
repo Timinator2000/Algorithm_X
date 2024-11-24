@@ -13,6 +13,8 @@ To explore implementation options for all-or-none sets of events, consider the f
 
 Each child will be assigned to either the red, the green or the blue team. To help the parents during drop-off and pickup, it is important that siblings be assigned to the same team. All siblings share identical last names.
 
+This year, the 2nd gade students will be team captains. Brenda Walsh is the red team captain, Arnold Jackson is the green team captain and Arthur Fonzarelli is the blue team captain.
+
 # All-or-None Sets
 
 Grouping the children by last name results in the following all-or-none sets of names:
