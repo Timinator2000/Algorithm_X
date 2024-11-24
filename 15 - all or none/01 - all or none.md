@@ -23,7 +23,7 @@ Consider a slightly more interesting scenario with the following all-or-none set
 
 The correct answer is 3, but why? Any sets that intersect in any way must be joined together. Let’s rewrite the sets from 1, 3 and 5 above:
 
-<div align="center">`b` and `a` &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp `a` and `h` &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp `h` and `g`</div>
+`b` and `a` &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp `a` and `h` &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp `h` and `g`
 
 Any solution that has `b` must also have `a` and then must also have `h` and then must also have `g`. The same logic applies starting with `a`, `h` or `g`. Since these sets must be combined, the final 3 all-or-none sets of events are:
 
