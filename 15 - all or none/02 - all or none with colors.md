@@ -1,1 +1,17 @@
+# The School Scavenger Hunt
+
+To explore implementation options for all-or-none sets of events, consider the following scenario. You must divide a group of 18 children into 3 teams for the elementary school scavenger hunt. To make things fair for the younger kids, each team will have one child from 1st grade, one child from 2nd grade, one child from 3rd grade, etc. Fortunately, you have a very accommodating distribution of ages:
+
+| Grade | Names |
+|:-----:|:--------|
+|1|Wednesday Addams<br>Maggie Simpson<br>Michelle Tanner|
+|2|Brenda Walsh<br>Arnold Jackson<br>Arthur Fonzarelli|
+|3|Stephanie Tanner<br>Darlene Conner<br>Carlton Banks|
+|4|Willis Jackson<br>Pugsley Addams<br>Marcia Brady|
+|5|Mallory Keaton<br>Lisa Simpson<br>Joanie Cunningham|
+|6|Richie Cunningham<br>Bart Simpson<br>D.J. Tanner|
+
+Each child will be assigned to either the red, the green or the blue team. To help the parents during drop-off and pickup, it is important that siblings be assigned to the same team. All siblings share identical last names.
+
 # All-or-None Sets of Events with Colors
+
