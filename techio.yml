@@ -186,10 +186,14 @@ plan:
         statement: 14 - your turn/02 - agent x mission 2.md
       - title: Agent X, Mission 2 (cont.)
         statement: 14 - your turn/03 - agent x mission 2 - cont.md
-  - title: All or Nothing
+  - title: Enforcing "Sameness"
     plan:
-      - title: All or None
+      - title: All-or-None Sets of Events
         statement: 15 - all or none/01 - all or none.md
+      - title: Implemention with Colors
+        statement: 15 - all or none/02 - all or none with colors.md
+      - title: Complex Actions
+        statement: 15 - all or none/03 - all or none with complex actions.md
   - title: Your Turn
     plan:
       - title: Einstein's Riddle Solver (Revisited)
