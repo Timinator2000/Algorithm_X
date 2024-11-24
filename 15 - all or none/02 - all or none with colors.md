@@ -9,7 +9,7 @@ To explore implementation options for all-or-none sets of events, consider the f
 |3|Stephanie Tanner<br>Darlene Conner<br>Carlton Banks|
 |4|Willis Jackson<br>Pugsley Addams<br>Marcia Brady|
 |5|Mallory Keaton<br>Lisa Simpson<br>Joanie Cunningham|
-|6|Richie Cunningham<br>Bart Simpson<br>D.J. Tanner|
+|6|Richie Cunningham<br>Bart Simpson<br>D. J. Tanner|
 
 Each child will be assigned to either the red, the green or the blue team. To help the parents during drop-off and pickup, it is important that siblings be assigned to the same team. All siblings share identical last names.
 
@@ -18,7 +18,7 @@ Each child will be assigned to either the red, the green or the blue team. To he
 Grouping the children by last name results in the following all-or-none sets of names:
 
 * Bart Simpson, Maggie Simpson, Lisa Simpson
-* D.J. Tanner, Michelle Tanner, Stephanie Tanner
+* D. J. Tanner, Michelle Tanner, Stephanie Tanner
 * Wednesday Addams, Pugsley Addams
 * Richie Cunningham, Joanie Cunningham
 * Willis Jackson, Arnold Jackson
