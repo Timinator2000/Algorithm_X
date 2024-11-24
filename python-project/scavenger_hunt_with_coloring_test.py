@@ -9,7 +9,7 @@ if __name__ == "__main__":
     main_program()
     channel = f'{random.choice(CONGRATS)} 🌟'
     
-    message = 'Four solutions were generated that assign all students to teams and ' + \
+    message = 'Only four solutions exist that assign all students to teams and ' + \
               'ensure all siblings are assigned to the same team.'
     
     send_msg(channel, message)
