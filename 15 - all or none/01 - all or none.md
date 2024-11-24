@@ -21,6 +21,8 @@ Consider a slightly more interesting scenario with the following all-or-none set
 -[] 4 – I’m excluding `x` and `y` as they should only be used in math equations.
 -[] 5 – Don’t insult me, I know how to count!
 
+<br>
+
 The correct answer is 3, but why? Any sets that intersect in any way must be joined together. Let’s rewrite the sets from 1, 3 and 5 above:
 
 `b` and `a` . . . . . . `a` and `h` . . . . . . `h` and `g`
