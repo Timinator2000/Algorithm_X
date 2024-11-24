@@ -32,3 +32,6 @@ Grouping the children by last name results in the following all-or-none sets of 
 
 # Setting Up Algorithm X
 
+
+
+@[Assigning Teams for the School Scavenger Hunt]({"stubs": ["scavenger_hunt_with_coloring.py"], "command": "python3 scavenger_hunt_with_coloring_test.py"})
