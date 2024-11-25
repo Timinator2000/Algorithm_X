@@ -69,4 +69,4 @@ As I loop through the actions of each solution, I append the name of each studen
 
 Putting it all together results in the following. Feel free to make changes and experiment. Most importantly, this solution is provided as a comparison to the second approach to enforcing sameness covered next: complex actions.
 
-@[Assigning Teams for the School Scavenger Hunt Using Colors]({"stubs": ["scavenger_hunt_with_coloring.py"], "command": "python3 scavenger_hunt_with_coloring_test.py"})
+@[Enforcing Sameness with Colors]({"stubs": ["scavenger_hunt_with_coloring.py"], "command": "python3 scavenger_hunt_with_coloring_test.py"})
