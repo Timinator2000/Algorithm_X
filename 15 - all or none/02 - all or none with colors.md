@@ -34,4 +34,4 @@ Grouping the children by last name results in the following all-or-none sets of 
 
 
 
-@[Assigning Teams for the School Scavenger Hunt]({"stubs": ["scavenger_hunt_with_coloring.py"], "command": "python3 scavenger_hunt_with_coloring_test.py"})
+@[Assigning Teams for the School Scavenger Hunt Using Colors]({"stubs": ["scavenger_hunt_with_coloring.py"], "command": "python3 scavenger_hunt_with_coloring_test.py"})
