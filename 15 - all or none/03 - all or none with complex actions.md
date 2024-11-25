@@ -4,4 +4,4 @@
 
 
 
-@[Assigning Teams for the School Scavenger Hunt - Option 2]({"stubs": ["scavenger_hunt_with_complex_actions.py"], "command": "python3 scavenger_hunt_with_complex_actions_test.py"})
+@[Assigning Teams for the School Scavenger Hunt Using Complex Actions]({"stubs": ["scavenger_hunt_with_complex_actions.py"], "command": "python3 scavenger_hunt_with_complex_actions_test.py"})
