@@ -9,7 +9,7 @@ from typing import List, Dict
 
 Student = namedtuple('Student', 'name grade')
 
-class ScavengerHuntSolver(AlgorithmXSolver):
+class ScavengerHuntSolverUsingColors(AlgorithmXSolver):
     
     def __init__(self, students: List[Student], captains: Dict[str, str]):
         
@@ -18,7 +18,7 @@ class ScavengerHuntSolver(AlgorithmXSolver):
         self.families = defaultdict(list)
         for student in students:
             last_name = student.name.split()[-1]
-            self.families[last_name].append(student.name)
+            self.families[last_name].append(student)
             
         requirements = [('student assigned', student.name) for student in students]
         requirements += [('grade covered', grade, team_color) for grade in range(1, 7) for team_color in 'rgb']
@@ -36,16 +36,16 @@ class ScavengerHuntSolver(AlgorithmXSolver):
     def _process_row_selection(self, row):
         _, name, team_color = row
         for sibling in self.families[name.split()[-1]]:
-            if self.student_colors[sibling] and team_color != self.student_colors[sibling][-1]:
+            if self.student_colors[sibling.name] and team_color != self.student_colors[sibling.name][-1]:
                 self.solution_is_valid = False
 
-            self.student_colors[sibling].append(team_color)
+            self.student_colors[sibling.name].append(team_color)
 
             
     def _process_row_deselection(self, row):
         _, name, team_color = row
         for sibling in self.families[name.split()[-1]]:
-            self.student_colors[sibling].pop()
+            self.student_colors[sibling.name].pop()
 
 
 def main_program():
@@ -59,7 +59,7 @@ def main_program():
     
     captains = {'Brenda Walsh': 'r', 'Arnold Jackson': 'g', 'Arthur Fonzarelli': 'b'}
   
-    solver = ScavengerHuntSolver(students, captains)
+    solver = ScavengerHuntSolverUsingColors(students, captains)
     
     count = 0
     for solution in solver.solve():
