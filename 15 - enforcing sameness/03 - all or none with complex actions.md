@@ -42,7 +42,7 @@ The following code blocks are identical to the code used previously:
         requirements += [('grade covered', grade, team_color) for grade in range(1, 7) for team_color in 'rgb']
 ```
 
-# No Method Overrides Necessary (other than __init__(), of course)
+# No Method Overrides Necessary (other than initializing your solver subclass)
 
 The `AlgorithmXSolver` `_process_row_selection()` and `_process_row_deselection()` methods no longer need to be customized. In the full solution below, you will see this shortens the code a fair amount.
 
