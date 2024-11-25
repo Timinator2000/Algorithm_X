@@ -190,9 +190,9 @@ plan:
     plan:
       - title: All-or-None Sets of Events
         statement: 15 - all or none/01 - all or none.md
-      - title: Implemention with Colors
+      - title: Implementing All-or_none with Colors
         statement: 15 - all or none/02 - all or none with colors.md
-      - title: Complex Actions
+      - title: Implementating All-or_none with Complex Actions
         statement: 15 - all or none/03 - all or none with complex actions.md
   - title: Your Turn
     plan:
