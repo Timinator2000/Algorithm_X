@@ -68,6 +68,6 @@ def main_program():
         for _, name, team_color in solution:
             teams[team_color].append(name)
             
-        print(f'\n{count}')
+        print(f'\nOption {count}')
         for color in teams:
             print(f'{color}:', ', '.join(sorted(teams[color], key=lambda s:s.split()[-1])))
