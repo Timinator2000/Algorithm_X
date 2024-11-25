@@ -190,10 +190,12 @@ plan:
     plan:
       - title: All-or-None Sets of Events
         statement: 15 - all or none/01 - all or none.md
-      - title: Implementing All-or_none with Colors
+      - title: Implementing All-or-None with Colors
         statement: 15 - all or none/02 - all or none with colors.md
-      - title: Implementating All-or_none with Complex Actions
+      - title: Implementing All-or-None with Complex Actions
         statement: 15 - all or none/03 - all or none with complex actions.md
+      - title: Building All-or-None Sets of Events
+        statement: 15 - all or none/04 - building all or none.md
   - title: Your Turn
     plan:
       - title: Einstein's Riddle Solver (Revisited)
