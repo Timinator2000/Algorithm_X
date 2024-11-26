@@ -30,7 +30,7 @@ Two list comprehensions capture all the requirements. 1 to 3 actions is created 
                 actions[action] = [('student assigned', student.name), ('grade covered', student.grade, team_color)]
 ```
 
-# Enforcing Sames Using Colors
+# Enforcing Sameness Using Colors
 
 Per the [steps]( coloring-with-your-solver) outlined a few pages earlier, an attribute is added to track color assignments and the `AlgorithmXSolver` `_process_row_selection()` and `_process_row_deselection()` methods are overridden:
 
