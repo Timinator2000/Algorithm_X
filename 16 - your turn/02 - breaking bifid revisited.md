@@ -8,7 +8,6 @@ __Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ Imagine Untangling the World's Largest Pile of Holiday Lights
 
-***
 
 # All-or-None Sets of Events
 
