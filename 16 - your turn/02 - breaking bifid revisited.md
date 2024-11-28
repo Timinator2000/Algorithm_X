@@ -11,6 +11,15 @@ __Algorithm X Complexity:__ Imagine Untangling the World's Largest Pile of Holid
 # THIS PAGE IS UNDER CONSTRUCTION
 
 
+[original Breaking Bifid discussion] (breaking-bifid)
+
+
+<BR><BR>
+![Breaking Bifid Toy Example - Conclusion](Toy4.png)
+<BR>
+
+
+
 
 # Puzzle Overview
 
