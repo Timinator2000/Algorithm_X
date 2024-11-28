@@ -51,14 +51,20 @@ __KEY POINT:__ Using colors in this way eliminates the need for any `me_requirem
 
 # Enforcing Sameness with Complex Actions
 
+I highly recommend you go down this route on your own. Once you remove all overlap from the all-or-none sets of events, things become possible I never envisioned. I will explain further, but I urge you to explore this on your own before opening the spoiler below.
 
 <details>
-<summary>Spoiler Alert: I highly recommend you go down this route on your own. Once you remove all overlap from the all-or-none sets of events, things become possible I never envisioned. I will explain further, but I urge you to explore this on your own before opening the spoiler below.
-</summary>
+<summary>Spoiler Alert: I am serious. I did not see this coming.</summary>
 
 <br>
 
-# Well, I Did Not See This Coming
+After reducing the all-or-none sets of events, how many distinct sets remain? For __Test Case 1: Long test__, only 5 sets remain. More importantly, each set has 5 `('row', letter)`elements and 5 ` ('col', letter)` elements. That means the row assignment of 5 letters and the col assignments of 5 letters all need to be the same. And, this is exactly what is expected.
+
+For a message of reasonable length, all 25 letters are part of the key. If that is the case, for each number from 1 to 5, there are exactly 9 letters where either the letter’s row or column is equal to that number. In the graphic below, every location where row = 3 or column = 3 has been highlighted.
+
+<BR><BR>
+![One Set of All-or-None Events](BifidAllOrNone.png)
+<BR>
 
 When this puzzle was originally discussed, I wrote the following:
 
