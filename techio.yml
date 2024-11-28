@@ -190,9 +190,9 @@ plan:
     plan:
       - title: All-or-None Sets of Events
         statement: 15 - enforcing sameness/01 - all or none.md
-      - title: Implementing All-or-None with Colors
+      - title: All-or-None with Colors
         statement: 15 - enforcing sameness/02 - all or none with colors.md
-      - title: Implementing All-or-None with Complex Actions
+      - title: Complex Actions
         statement: 15 - enforcing sameness/03 - all or none with complex actions.md
       - title: Test Your Skills
         statement: 15 - enforcing sameness/04 - test your skills.md
