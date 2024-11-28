@@ -18,90 +18,39 @@ Breaking Bifid is a complex puzzle and I encourage you to revisit the [original 
 <BR>
 
 
+Drawing two more purple boxes around the `M` and the `E` produces the following:
+
+```python
+('row', 'A') must be equal to ('row', 'S')
+('row', 'N') must be equal to ('col', 'S')
+('row', 'D') must be equal to ('row', 'M')
+('col', 'A') must be equal to ('col', 'M')
+('col', 'N') must be equal to ('row', 'E')
+('col', 'D') must be equal to ('col', 'E')
+```
+
+Each row above is an all-or-none set of events. The two elements in each row must be the same. There is no overlap in this toy example, but if there was, you would probably want to review the exercise a few pages back and combine any sets that had overlap.
+
+# Enforcing Sameness with Colors
+
+When this puzzle was originally discussed, I wrote the following:
+
+Each time a letter is placed on the grid, that letter is assigned to a particular row and column. Based on the all-or-none sets of events, several other letters might need to have their row or column colored with the same number. The first step in a coloring solution is to add an attribute to your solver to keep track of color assignments. In this case, two attributes could be used, one for row assignments and one for column assignments.
+
+```
+        row_color_assignments = {letter:[] for letter in all_letters_in_plaintext_or_ciphertext}
+        col_color_assignments = {letter:[] for letter in all_letters_in_plaintext_or_ciphertext}
+```
+
+We might also consider the following to keep track of colors with a single attribute:
+
+```
+        color_assignments = {letter:{'row':[], 'col':[]} for letter in all_letters_in_plaintext_or_ciphertext}
+```
 
 
-# Puzzle Overview
+# Enforcing Sameness with Complex Actions
 
-<BR><BR>
-
-__WHEN I LAST SPOKE ABOUT THIS PUZZLE, I IMPLIED YOU CREATE A BUNCH OF REQUIREMENTS FOR MUTUAL EXCLUSIVITY.__
-
-__NOW THAT WE COLORFUL CONSTRAINTS, LET'S TAKE A LOOK AT ANOTHER APPROACH....__
-
-<BR><BR>
+>The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered.
 
 
-
-__ORIGINAL TEXT: I HAVE REMOVED THE EXCLAMATION POINTS IN FRONT OF ALL THE IMAGES BECAUSE THEY ARE NOT YET COPIED TO THIS DIRECTORY.__
-
-<BR><BR>
-
-
-In Breaking Bifid, you are given a `plainText1` string and a `cipherText1` string. You need to figure out the makeup of the key, the _Polybius square_, used to encrypt `plainText1`. Once you have the key (a completed square) you can decode a third string, `cipherText2`. Before we explore how to look at this problem as an exact cover, let’s first review the process laid out in the goal statement.
-
->Bifid uses a Polybius square as a key. This is a 5 by 5 square containing 25 letters of the alphabet (the J is merged with I), in an arbitrary order. For example:
-
-<BR><BR>
-[Polybius square](PolybiusSquare.png)
-<BR>
-
->To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
-
-<BR><BR>
-[Bifid - Step 1](FLEEATONCE1.png)
-<BR>
-
->The two lines of numbers are written after each other:
-
-<BR><BR>
-[Bifid - Step 2](FLEEATONCE2.png)
-<BR>
-
->The numbers are then grouped in pairs, and the pairs are used as coordinates into the Polybius square (the first number being the row, and second being the column), to find the letters of the ciphertext:
-
-<BR><BR>
-[Bifid - Step 3](FLEEATONCE3.png)
-<BR>
-
-
-# Looking at the Puzzle as an Exact Cover
-
-Let’s now consider an example similar in structure to the test cases and try to identify actions and requirements for Algorithm X in hopes that Algorithm X can identify how the Polybius square should be constructed. In the next diagram, I have short 3-letter strings for `plainText1` and `cipherText1`, but the entire Polybius square is completely blank.
-
-<BR><BR>
-[Toy Example](ToyBifid.png)
-<BR>
-
-The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered. That is not super helpful because a tremendous number of possible combinations satisfy those requirements. Let's work through the process laid out by the author once again, this time taking into account we don't know the letters in the key.
-
->To encrypt a plaintext, we start by removing spaces and replacing each J by an I. Underneath each letter in the resulting text we write the coordinates (row and column) of that letter in the Polybius square:
-
-Each letter's coordinates are unknown so I will add subscripts to refer to the rows and columns of the letters.
-
-<BR><BR>
-[Toy Example - Step 1](Toy1.png)
-<BR>
-
->The two lines of numbers are written after each other:
-
-<BR><BR>
-[Toy Example - Step 2](Toy2.png)
-<BR>
-
->The numbers are then grouped in pairs, and the pairs are used as coordinates into the Polybius square (the first number being the row, and second being the column), to find the letters of the ciphertext:
-
-<BR><BR>
-[Toy Example - Step 3](Toy3.png)
-<BR>
-
-At the risk of being repetitive, I will quote the author's problem statement one last time:
-
->the pairs are used as coordinates into the Polybius square (the first number being the row, and second being the column), to find the letters of the ciphertext:
-
-The first pair, (row of A, row of N), tells us where to look in the Polybius square to find the first ciphertext letter, S. From that, we know:
-
-<BR><BR>
-[Toy Example - Conclusion](Toy4.png)
-<BR>
-
-We finally have some requirements more interesting than a letter needing to be put on the grid. We know that A and S must be in the same row! This feels like mutual inclusivity considering these two things must be the same, or in other words...they must not be different. Hopefully you did [Einstein's Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) and you remember how to turn mutually inclusive items into a set of mutually exclusive items. If not, it might be time to go back and finish that puzzle first! 
