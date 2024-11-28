@@ -76,7 +76,7 @@ The first 4 test cases all reduce to exactly 5 all-or-none sets of events. In ea
 
 1. Algorithm X could be used to determine how 6 or 7 or 8 sets can be assigned to only 5 numbers. To be honest, Algorithm X still seems like overkill.
 
-<details>
+1. <details>
 <summary>Spoiler Alert: Click here for Option 2.</summary>
 
 <BR>
