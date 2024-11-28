@@ -2,7 +2,7 @@ from all_or_none import minimize_all_or_none_sets
 from copy import deepcopy
 
 
-IMPROPER_RETURN_STRUCTURE = f'Improper return value structure. Try returning List[List[str]] or List[Set[str]]'
+IMPROPER_RETURN_STRUCTURE = f'Improper return value structure. Try returning list[list[str]] or list[set[str]].'
 
 error_messages = []
 
