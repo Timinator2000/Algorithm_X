@@ -1,8 +1,8 @@
-from typing import List, Tuple
+from typing import List, Set
 
-def minimize_all_or_none_sets(all_or_none_groups: List[Tuple[str]]):
+def minimize_all_or_none_sets(all_or_none_sets: List[Set[str]]):
 
-    # Combine any groups that can be combined and return
-    # a minimum number of groups.
+    # Reduce the number of sets in the list by
+    # combining any sets that overlap.
     
-    return all_or_none_groups
+    return all_or_none_sets
