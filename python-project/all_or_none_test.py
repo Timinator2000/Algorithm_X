@@ -44,17 +44,17 @@ def check_answer(test, answer):
 
     if len(proper_answers) != len(answers):
         verb = 'was' if len(proper_answers) == 1 else 'were' 
-        error_messages.append(f'Your answer has {len(answers)} all-or-none groups. {len(proper_answers)} {verb} expected.')
+        error_messages.append(f'Your answer has {len(answers)} all-or-none sets. {len(proper_answers)} {verb} expected.')
     elif proper_answers != answers:
-        error_messages.append(f'Although you have the correct number of all-or-none groups, the group members are not correct.')
+        error_messages.append(f'Although you have the correct number of all-or-none sets, the set members are not correct.')
         error_messages.append('')
-        error_messages.append('These are the expected all-or-none groups:')
+        error_messages.append('These are the expected all-or-none sets (coverted to sorted lists):')
         error_messages.append('')
         for group in sorted(proper_answers):
             error_messages.append(f'   {list(group)}')
 
         error_messages.append('')
-        error_messages.append('These are the groups you found:')
+        error_messages.append('These are the sets you found:')
         error_messages.append('')
         for group in sorted(answers):
             error_messages.append(f'   {list(group)}')
