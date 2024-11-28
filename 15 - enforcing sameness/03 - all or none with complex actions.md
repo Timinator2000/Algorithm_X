@@ -18,7 +18,7 @@ Keep in mind, actions must be `tuple`s as they are used as `key`s in a `dictiona
 (('assign student', 'Bart Simpson', 'r'), ('assign student', 'Lisa Simpson', 'r'), ('assign student', 'Maggie Simpson', 'r'))
 ```
 
-Packing simple actions into a complex action can be done many ways. Ultimately, what matters is that you properly unpack the complex action `tuple` when you building a solution. In the code below, I have chosen to pack simple actions into a complex action as follows:
+Packing simple actions into a complex action can be done many ways. Ultimately, what matters is that you properly unpack the complex action `tuple` when building a solution. In the code below, I have chosen to pack simple actions into a complex action as follows:
 
 ```python
 ('assign students', ('Bart Simpson', 'Lisa Simpson', 'Maggie Simpson'), 'r')
