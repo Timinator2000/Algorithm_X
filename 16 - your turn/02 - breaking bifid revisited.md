@@ -79,9 +79,9 @@ The first 4 test cases all reduce to exactly 5 all-or-none sets of events. In ea
 <details>
 <summary>One last SPOILER for this puzzle.</summary>
 
-<br>
+<BR>
 
-1. Assuming you have `n` all-or-none sets, you could expand the matrix to `n` by `n`, making it very easy to assign `n` sets to `n` numbers.
+2. Assuming you have `n` all-or-none sets, you could expand the matrix to `n` by `n`, making it very easy to assign `n` sets to `n` numbers.
 
 Let’s briefly discuss option 2. The all-or-none sets of events are completely independent of each other. The first set assigned to one of the numbers always works, so matter which number it gets assigned to. A 100 x 100 matrix could be used and numbers chosen randomly between 0 and 99. The consistency of the number across all elements of the set assign to it is what matters, not the size of the matrix.
 
