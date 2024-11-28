@@ -12,13 +12,13 @@ In the realm of sameness, the fundamental building block is two items that need 
 
 The following exercise gives you a chance to practice reducing a list of sets that might have overlap to a list of sets where no two sets overlap with each other. The number of distinct elements does not change, but any two sets that have overlap must be combined, resulting in a shorter list of all-or-none sets. Each set in the final list contains a group of elements that all must be the same in some way.
 
-Input: You are given a `list` of `set`s and each `set` contains exactly two single character `str`ings.  For instance:
+__Input:__ You are given a `list` of `set`s and each `set` contains exactly two single character `str`ings.  For instance:
 
 ```python
 [{'A', 'B'}, {'B', 'C'}, {'C', 'D'}, {'E', 'F'}]
 ```
 
-Output: You must return a `list` of `list`s, `set`s or `tuple`s with the sets combined wherever possible. Order is not important for any part of the required output. For instance, the following would all be considered correct for the above input. 
+__Output:__ You must return a `list` of `list`s, `set`s or `tuple`s with the sets combined wherever possible. Order is not important for any part of the required output. For instance, the following would all be considered correct for the above input. 
 
 ```python
 [{'A', 'B', 'C', 'D'}, {'E', 'F'}]
