@@ -2,6 +2,8 @@ from all_or_none import minimize_all_or_none_sets
 from copy import deepcopy
 
 
+IMPROPER_RETURN_STRUCTURE = f'Improper return value structure. Try returning List[List[str]] or List[Set[str]]'
+
 error_messages = []
 
 
@@ -82,12 +84,10 @@ def test_all_or_none():
             assert type(answer) in [list], f'Your code must return a list. {type(answer)} not allowed for return value.'
 
             for group in answer:
-                assert type(group) in [list, set, tuple], 
-                            f'Improper return value structure. Try returning List[List[str]] or List[Set[str]]'
-
+                assert type(group) in [list, set, tuple], IMPROPER_RETURN_STRUCTURE
+                
                 for element in group:
-                    assert type(element) == str, 
-                            f'Improper return value structure. Try returning List[List[str]] or List[Set[str]]'
+                    assert type(element) == str, IMPROPER_RETURN_STRUCTURE
 
             assert check_answer(deepcopy(test), answer), f'Failed Test: {test}'
             send_msg("Successful Test Cases:", f'Test Input: {test}')
