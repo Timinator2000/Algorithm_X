@@ -8,11 +8,7 @@ __Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ Imagine Untangling the World's Largest Pile of Holiday Lights
 
-# THIS PAGE IS UNDER CONSTRUCTION
-
-
-[original Breaking Bifid discussion](breaking-bifid)
-
+Breaking Bifid is a complex puzzle and I encourage you to revisit the [original discussion](breaking-bifid) that ended with the following graphic:
 
 <BR><BR>
 ![Breaking Bifid Toy Example - Conclusion](Toy4.png)
