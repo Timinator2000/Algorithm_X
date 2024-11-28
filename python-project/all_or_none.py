@@ -1,4 +1,4 @@
-from Typing import List, Tuple
+from typing import List, Tuple
 
 def minimize_all_or_none_sets(all_or_none_groups: List[Tuple[str]]):
 
