@@ -29,7 +29,7 @@ Drawing two more purple boxes around the `M` and the `E` produces the following:
 ('col', 'D') must be the same as ('col', 'E')
 ```
 
-Each row above is an all-or-none set of events. The two elements in each row must be the same. There is no overlap in this toy example, but if there was, you would want to review the exercise a few pages back and combine any sets that had overlap.
+Each row above is an all-or-none set of events. The two elements in each row must be the same. There is no overlap in this toy example, but if there was, you would want to review the exercise a few pages back and combine any sets that overlap.
 
 # Enforcing Sameness with Colors
 
