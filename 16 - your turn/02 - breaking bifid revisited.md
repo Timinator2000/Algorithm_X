@@ -59,7 +59,7 @@ I highly recommend you go down this route on your own. Once you remove all overl
 
 After reducing the all-or-none sets of events, how many distinct sets remain? For __Test Case 1: Long test__, only 5 sets remain. More importantly, each set has 5 `('row', letter)`elements and 5 ` ('col', letter)` elements. That means the row assignment of 5 letters and the col assignments of 5 letters all need to be the same. And, this is exactly what is expected.
 
-For a message of reasonable length, all 25 letters are part of the key. If that is the case, for each number from 1 to 5, there are exactly 9 letters where either the letter’s row or column is equal to that number. In the graphic below, every location where row = 3 or column = 3 has been highlighted.
+For a message of reasonable length, all 25 letters are probably part of the key. If that is the case, for each number from 1 to 5, there are exactly 9 letters where either the letter’s row or column is equal to that number. In the graphic below, every location where row = 3 or column = 3 has been highlighted.
 
 <BR><BR>
 ![One Set of All-or-None Events](BifidAllOrNone.png)
