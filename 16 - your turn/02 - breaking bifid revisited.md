@@ -46,8 +46,7 @@ We might also consider the following to keep track of colors with a single attri
         color_assignments = {letter:{'row':[], 'col':[]} for letter in all_letters_in_plaintext_or_ciphertext}
 ```
 
-__KEY POINT:__ Using colors in this way eliminates the need for any `me_requirements` as outlined in the original discussion. The colors enforce sameness. In the original discussion, each all-or-none set of 2 events was converted to a group of option requirements used to enforce mutual exclusivity and the Algorithm X matrix was tasked with enforcing that mutual exclusivity.
-
+__KEY POINT:__ Using colors in this way eliminates the need for any `me_requirements` as outlined in the original discussion. The colors enforce sameness. In the original discussion, each all-or-none set of 2 events was converted to a group of optional requirements used by Algorithm X to enforce mutual exclusivity.
 
 # Enforcing Sameness with Complex Actions
 
