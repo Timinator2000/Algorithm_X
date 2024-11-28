@@ -83,7 +83,4 @@ A very minor change must be made as the actions that make up a solution are unpa
 
 Putting it all together results in the following. Feel free to make changes and experiment. Most importantly, this solution is provided as a comparison to the first approach to enforcing sameness covered previously: using colors.
 
-__TEASER: I will save a comparison of the two approaches until I revisit [Breaking Bifid](breaking-bifid-revisited) in a few pages.__
-
 @[Enforcing Sameness with Complex Actions]({"stubs": ["scavenger_hunt_with_complex_actions.py"], "command": "python3 scavenger_hunt_with_complex_actions_test.py"})
-
