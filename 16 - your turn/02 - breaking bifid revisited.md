@@ -82,7 +82,7 @@ The first 4 test cases all reduce to exactly 5 all-or-none sets of events. In ea
 
 Assuming you have `n` all-or-none sets, you could expand the matrix to `n` by `n`, making it very easy to assign `n` sets to `n` numbers.
 
-Let’s briefly discuss this second option. The all-or-none sets of events are completely independent of each other. The first set assigned to one of the numbers always works, so matter which number it gets assigned to. A 100 x 100 matrix could be used and numbers chosen randomly between 0 and 99. The consistency of the number across all elements of the set assigned to it is what matters, not the size of the matrix.
+Let’s briefly discuss this second option. The all-or-none sets of events are completely independent of each other. The first set assigned to one of the numbers always works, no matter which number it gets assigned to. A 100 x 100 matrix could be used and numbers chosen randomly between 0 and 99. The consistency of the number across all elements of the set assigned to it is what matters, not the size of the matrix.
 
 Breaking Bifid is a wonderful puzzle and the complexity gave me a tremendous opportunity to explore Algorithm X techniques. Only after travelling down the path of complex actions did I determine how to solve the puzzle with absolutely no backtracking.
 
