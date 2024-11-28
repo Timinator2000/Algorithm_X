@@ -67,10 +67,10 @@ def test_all_or_none():
     global error_message
 
     TESTS = [
-                 [('A', 'B'), ('C', 'D'), ('E', 'F')],  
-                 [('A', 'B'), ('B', 'C')],  
-                 [('A', 'B'), ('B', 'C'), ('C', 'D'), ('E', 'F')],
-                 [('A', 'B'), ('A', 'C'), ('A', 'D'), ('A', 'F'), ('X', 'Y'), ('Z', 'Y'), ('E', 'F'), ('J', 'K'), ('Z', 'P')]
+                 [{'A', 'B'}, {'C', 'D'}, {'E', 'F'}],  
+                 [{'A', 'B'}, {'B', 'C'}],  
+                 [{'A', 'B'}, {'B', 'C'}, {'C', 'D'}, {'E', 'F'}],
+                 [{'A', 'B'}, {'A', 'C'}, {'A', 'D'}, {'A', 'F'}, {'X', 'Y'}, {'Z', 'Y'}, {'E', 'F'}, {'J', 'K'}, {'Z', 'P'}]
             ]
 
     all_tests_passed = True
@@ -79,10 +79,10 @@ def test_all_or_none():
         try:
             answer = minimize_all_or_none_sets(deepcopy(test))
 
-            assert type(answer) in [list, set], f'Your code must return a list or set. {type(answer)} not allowed for return value.'
+            assert type(answer) in [list], f'Your code must return a list. {type(answer)} not allowed for return value.'
 
             for group in answer:
-                assert type(group) in [list, set], f'Improper return value structure. Try returning List[List[str]]'
+                assert type(group) in [list, set, tuple], f'Improper return value structure. Try returning List[List[str]]'
 
                 for element in group:
                     assert type(element) == str, f'Improper return value structure. Try returning a List[List[str]]'
