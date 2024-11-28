@@ -33,8 +33,6 @@ Each row above is an all-or-none set of events. The two elements in each row mus
 
 # Enforcing Sameness with Colors
 
-When this puzzle was originally discussed, I wrote the following:
-
 Each time a letter is placed on the grid, that letter is assigned to a particular row and column. Based on the all-or-none sets of events, several other letters might need to have their row or column colored with the same number. The first step in a coloring solution is to add an attribute to your solver to keep track of color assignments. In this case, two attributes could be used, one for row assignments and one for column assignments.
 
 ```
@@ -48,8 +46,12 @@ We might also consider the following to keep track of colors with a single attri
         color_assignments = {letter:{'row':[], 'col':[]} for letter in all_letters_in_plaintext_or_ciphertext}
 ```
 
+__KEY POINT:__ Using colors as outlined here eliminates the need for any `me_requirements` as outlined in the original discussion. The colors enforce sameness. In the original discussion, each all-or-none set of 2 events was converted to a group of option requirements used to enforce mutual exclusivity.
+
 
 # Enforcing Sameness with Complex Actions
+
+When this puzzle was originally discussed, I wrote the following:
 
 >The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered.
 
