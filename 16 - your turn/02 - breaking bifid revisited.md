@@ -70,6 +70,24 @@ When this puzzle was originally discussed, I wrote the following:
 
 >The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered.
 
+Let’s now consider a completely different gameboard and tiles. The gameboard simply has the numbers 1 through 5. The tiles are the all-or-none sets of events. Each set needs to be assigned to one number on the gameboard. There are 5 sets and there are 5 numbers. __I honestly did not see this coming. It seems to easy to need a gameboard analogy. Does it even need Algorithm X?
+
+The first 4 test cases all reduce to exactly 5 all-or-none sets of events. In each of those cases, 5 sets need to be assigned to 5 different numbers. Too easy, right? What about __Test Case 5: Minimal text__? Because the text is so short, the all-or-none sets do not reduce down to 5, leaving the following options.
+
+1. Algorithm X could be used to determine how 6 or 7 or 8 sets can be assigned to only 5 numbers. To be honest, Algorithm X still seems like overkill.
+
+<details>
+<summary>One last SPOILER for this puzzle.</summary>
+
+<br>
+
+1. Assuming you have `n` all-or-none sets, you could expand the matrix to `n` by `n`, making it very easy to assign `n` sets to `n` numbers.
+
+Let’s briefly discuss option 2. The all-or-none sets of events are completely independent of each other. The first set assigned to one of the numbers always works, so matter which number it gets assigned to. A 100 x 100 matrix could be used and numbers chosen randomly between 0 and 99. The consistency of the number across all elements of the set assign to it is what matters, not the size of the matrix.
+
+The complexity of Breaking Bifid gave me a wonderful opportunity to explore Algorithm X techniques. Only after travelling down the path of complex actions did I determine how to solve the puzzle with absolutely no backtracking.
+
+</details>
 </details>
 
 
