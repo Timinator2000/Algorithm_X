@@ -51,8 +51,20 @@ __KEY POINT:__ Using colors in this way eliminates the need for any `me_requirem
 
 # Enforcing Sameness with Complex Actions
 
+I highly recommend you go down this route on your own.
+
+<details>
+<summary>Spoiler Alert: There is no easy way to discuss what is about to be discussed.</summary>
+<br>
+
+# Well, I Did Not See This Coming
+
 When this puzzle was originally discussed, I wrote the following:
 
 >The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered.
+
+</details>
+
+
 
 
