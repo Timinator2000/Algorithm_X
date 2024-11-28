@@ -21,12 +21,12 @@ Breaking Bifid is a complex puzzle and I encourage you to revisit the [original 
 Drawing two more purple boxes around the `M` and the `E` produces the following:
 
 ```python
-('row', 'A') must be equal to ('row', 'S')
-('row', 'N') must be equal to ('col', 'S')
-('row', 'D') must be equal to ('row', 'M')
-('col', 'A') must be equal to ('col', 'M')
-('col', 'N') must be equal to ('row', 'E')
-('col', 'D') must be equal to ('col', 'E')
+('row', 'A') must be the same as ('row', 'S')
+('row', 'N') must be the same as ('col', 'S')
+('row', 'D') must be the same as ('row', 'M')
+('col', 'A') must be the same as ('col', 'M')
+('col', 'N') must be the same as ('row', 'E')
+('col', 'D') must be the same as ('col', 'E')
 ```
 
 Each row above is an all-or-none set of events. The two elements in each row must be the same. There is no overlap in this toy example, but if there was, you would want to review the exercise a few pages back and combine any sets that had overlap.
@@ -51,10 +51,11 @@ __KEY POINT:__ Using colors in this way eliminates the need for any `me_requirem
 
 # Enforcing Sameness with Complex Actions
 
-I highly recommend you go down this route on your own.
 
 <details>
-<summary>Spoiler Alert: There is no easy way to discuss what is about to be discussed.</summary>
+<summary>Spoiler Alert: I highly recommend you go down this route on your own. Once you remove all overlap from the all-or-none sets of events, things become possible I never envisioned. I will explain further, but I urge you to explore this on your own before opening the spoiler below.
+</summary>
+
 <br>
 
 # Well, I Did Not See This Coming
