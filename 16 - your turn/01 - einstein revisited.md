@@ -37,9 +37,9 @@ The following table compares my solvers using each of the three techniques discu
 |    Colors | 80 | 44 | 6 |
 |    Complex Actions | 45 | 44 | 1 |
 | __<span style="color:red">Test Case 3: 7 * 6 Hard</span>__ |
-|    Mutual Exclusivity | 222 | 564 | 27 |
-|    Colors | 222 | 99 | 3300 |
-|    Complex Actions | 114 | 99 | 5 |
+|    Mutual Exclusivity | 222 | 564 | 35 |
+|    Colors | 222 | 99 | 3600 |
+|    Complex Actions | 114 | 99 | 6 |
 | __<span style="color:red">Test Case 4: 5 * 5 Medium</span>__ |
 |    Mutual Exclusivity | 105 | 183 | 4 |
 |    Colors | 105 | 43 | 8 |
