@@ -8,39 +8,35 @@ __Published Difficulty:__ Hard
 
 __Algorithm X Complexity:__ No More Perspective Shift Needed
 
-# THIS PAGE IS UNDER CONSTRUCTION
+# Memory Refresh
 
-# Strategy
+Einstein’s Riddle Solver is unique because some characteristics _must_ be the same and other characteristics _must not_ me the same. In the [original discussion](einsteins-riddle-solver), I suggested converting all characteristics that must be the same into a group of characteristics that must be different. In that way, all characteristic relationships could be handled with option requirements used to implement [mutual exclusivity]( mutual-exclusivity). Let’s now consider solutions for Einstein’s Riddle Solver that use [coloring]( all-or-none-with-colors) or [complex actions](complex-actions) to enforce sameness.
 
-Einstein’s Riddle Solver lends itself perfectly to the tiles on a gameboard analogy. Even the problem statement directs you to…
+Einstein’s Riddle Solver is extremely similar to [scavenger hunt](all-or-none-sets-of-events) presented in the previous section, with one key difference. The scavenger hunt did not have any mutual exclusivity. The scavenger hunt can be thought of as a grid, just like the gameboard and tiles analogy proposed in the original Einstein discussion. In the scavenger hunt, each child already has a grade level, but must be assigned a team color. In the Einstein puzzle, each characteristic already has a row and must be assigned a column.
 
->solve the riddle and print it as a grid, separated by space and newline, with each person in their own column and each characteristic category on its own line.
+# All-Or-None Sets of Characteristics
 
-And what are the tiles? They are the characteristics, of course. Your job is to place all the tiles on the grid. I am sure that sounds familiar.
+Because every characteristic must be accounted for, start with a list of sets where each set contains exactly one characteristic. Then, add another set to the list for each group of 2 characteristics that must be the same. The last step is to combine the all-or-none sets that overlap, per the skills practice on the [previous page](test-your-skills). In the end, you will have some sets with multiple characteristics that must be the same and several sets that still only contain a single characteristic, meaning that characteristic is not required to be the same column as any other characteristic.
 
-In Sudoku, some cells are prefilled and I suggested handling that by limiting the actions available for those cell to a single action, putting the correct number tile on each prefilled grid position. This puzzle has essentially prefilled the entire first row:
+# Enforcing Sameness with Colors
 
->The characteristics in the first line will be ordered alphabetically…
+To build a solution using colors, you will follow the same steps used to build a solution for the scavenger hunt to add the coloring mechanisms. Other than that, handling the mutually exclusive characteristics does not change from the original discussion.
 
-You can choose to put any characteristic in any column, as long as you obey the rules. The examples given in the problem statement are:
+# Enforcing Sameness with Complex Actions
 
->1. Georges & Salad which means Georges eats Salad
->
->1. Georges ! Salad which means Georges doesn't eat Salad.
+Again, building Einstein’s complex actions is almost the exact same process as described in the scavenger hunt. With complex actions, tremendous care must be taken when identifying the requirements covered by each complex action. Don not overlook the `me requirements` for each simple action that is part of the complex action.
 
-#1 is very clear. You cannot put salad in the same column as Georges! Sounds like mutual exclusivity, right? But what about #2. How can we handle mutual inclusivity, actions that _must_ happen together?
+# Comparison
 
-Assume I have a set of items: `{a, b, c, d, e}` and it is given that `a` and `c` are mutually inclusive. I have to choose two items from the set, but if I choose `a`, I must also choose `c` or if I first choose `c`, I must also choose `a`. Any combination of `b`, `d` and `e` would be fine. In this playground, we have only covered mutual exclusivity, never inclusivity. Is there a way we can handle this situation with what we already know? There sure is!
+The following table compares my solvers using each of the three techniques discussed here. It is important to remember my solution with coloring is an Algorithm X solution, _adapted_ for coloring. It is not an implementation of Donald Knuth’s Algorithm C.
 
-If `a` and `c` must be chosen together, I could shift my perspective and say:
-
-* `a` _must not_ be chosen with `b`
-* `a` _must not_ be chosen with `d`
-* `a` _must not_ be chosen with `e`
-* `c` _must not_ be chosen with `b`
-* `c` _must not_ be chosen with `d`
-* `c` _must not_ be chosen with `e`
-
-The only options left are to choose both `a` and `c` or to choose some combination of  `b`, `d` and `e`.
-
-If Georges must have Salad, you can accomplish that by making sure Georges cannot have any of the other food options and Salad cannot go with anybody except Georges. Later in the playground, I will discuss another way to handle mutual inclusivity, but changing the mutually inclusive requirement to a set of mutually exclusive requirements is an easy and often effective solution that works wonderfully on Einstein's various riddles.
+| Sameness Enforce With | Actions | me_requirements | Execution Time |
+|:------|:------:|:------:|:------:|
+| Test Case 1 |  |  |  |
+| Mutual Exclusivity | 0 | 0 | 0 |
+| Colors | 0 | 0 | 0 |
+| Complex Actions | 0 | 0 | 0 |
+| Test Case 1 |  |  |  |
+| Mutual Exclusivity | 0 | 0 | 0 |
+| Colors | 0 | 0 | 0 |
+| Complex Actions | 0 | 0 | 0 |
