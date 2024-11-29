@@ -69,7 +69,7 @@ When this puzzle was originally discussed, I wrote the following:
 
 >The action steps I can take to build a solution are pretty simple. One at a time, a letter of the alphabet (J is excluded) can be placed in one of the 25 squares. As for requirements, the only obvious requirements are that every letter be used and every square be covered.
 
-Let’s now consider a completely different gameboard and tiles. The gameboard simply has the numbers 1 through 5. The tiles are the all-or-none sets of events. Each set needs to be assigned to one number on the gameboard. There are 5 sets and there are 5 numbers. __I honestly did not see this coming. Is a gameboard analogy really needed? Does it even need Algorithm X?__
+Let’s now consider a completely different gameboard and tiles. The gameboard simply has the numbers 1 through 5. The tiles are the all-or-none sets of events. Each set needs to be assigned to one number on the gameboard. There are 5 sets and there are 5 numbers. __I honestly did not see this coming. Is a gameboard analogy really needed? Is Algorithm X even needed?__
 
 The first 4 test cases all reduce to exactly 5 all-or-none sets of events. In each of those cases, 5 sets need to be assigned to 5 different numbers. Too easy, right? What about __Test Case 5: Minimal text__? Because the text is so short, the all-or-none sets do not reduce down to 5, leaving the following options.
 
