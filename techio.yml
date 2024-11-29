@@ -147,7 +147,7 @@ plan:
   - title: Your Turn
     plan:
       - title: Literary Alfabet Soupe (Revisited)
-        statement: 10 - your turn/003 - literary alfabet soupe.md
+        statement: 10 - your turn/002 - literary alfabet soupe.md
       - title: 25x25 Sudoku (Revisited)
         statement: 10 - your turn/005 - 25x25 sudoku.md
       - title: Futoshiki Solver (Revisited)
