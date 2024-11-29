@@ -30,13 +30,21 @@ Again, building Einstein’s complex actions is almost the exact same process as
 
 The following table compares my solvers using each of the three techniques discussed here. It is important to remember my solution with coloring is an Algorithm X solution, _adapted_ for coloring. It is not an implementation of Donald Knuth’s Algorithm C.
 
-| Sameness Enforce With: | Actions | me_requirements | Execution Time |
+| Sameness Enforce With: | Actions | me_requirements | Execution Time (ms) |
 |:------|:------:|:------:|:------:|
-| __<span style="color:red">Test Case 1</span>__ |
-|    Mutual Exclusivity | 0 | 0 | 0 |
-|    Colors | 0 | 0 | 0 |
-|    Complex Actions | 0 | 0 | 0 |
-| __<span style="color:red">Test Case 2</span>__ |
-|    Mutual Exclusivity | 0 | 0 | 0 |
-|    Colors | 0 | 0 | 0 |
-|    Complex Actions | 0 | 0 | 0 |
+| __<span style="color:red">Test Case 2: 4 * 5 Medium</span>__ |
+|    Mutual Exclusivity | 80 | 152 | 3 |
+|    Colors | 80 | 44 | 6 |
+|    Complex Actions | 45 | 44 | 1 |
+| __<span style="color:red">Test Case 3: 7 * 6 Hard</span>__ |
+|    Mutual Exclusivity | 222 | 564 | 27 |
+|    Colors | 222 | 99 | 3300 |
+|    Complex Actions | 114 | 99 | 5 |
+| __<span style="color:red">Test Case 4: 5 * 5 Medium</span>__ |
+|    Mutual Exclusivity | 105 | 183 | 4 |
+|    Colors | 105 | 43 | 8 |
+|    Complex Actions | 55 | 43 | 1 |
+
+# Observations
+
+Hmmm?
