@@ -30,13 +30,13 @@ Again, building Einstein’s complex actions is almost the exact same process as
 
 The following table compares my solvers using each of the three techniques discussed here. It is important to remember my solution with coloring is an Algorithm X solution, _adapted_ for coloring. It is not an implementation of Donald Knuth’s Algorithm C.
 
-| Sameness Enforce With | Actions | me_requirements | Execution Time |
+| Sameness Enforce With: | Actions | me_requirements | Execution Time |
 |:------|:------:|:------:|:------:|
-| Test Case 1 |  |  |  |
-| Mutual Exclusivity | 0 | 0 | 0 |
-| Colors | 0 | 0 | 0 |
-| Complex Actions | 0 | 0 | 0 |
-| Test Case 1 |  |  |  |
-| Mutual Exclusivity | 0 | 0 | 0 |
-| Colors | 0 | 0 | 0 |
-| Complex Actions | 0 | 0 | 0 |
+| __Test Case 1__ |  |  |  |
+|    Mutual Exclusivity | 0 | 0 | 0 |
+|    Colors | 0 | 0 | 0 |
+|    Complex Actions | 0 | 0 | 0 |
+| __Test Case 2__ |  |  |  |
+|    Mutual Exclusivity | 0 | 0 | 0 |
+|    Colors | 0 | 0 | 0 |
+|    Complex Actions | 0 | 0 | 0 |
