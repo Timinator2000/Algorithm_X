@@ -46,6 +46,8 @@ plan:
         statement: 04 - your turn/05 - mini sudoku solver.md
       - title: Constrained Latin Squares
         statement: 04 - your turn/06 - constrained latin squares.md
+      - title: Literary Alfabet Soupe
+        statement: 04 - your turn/07 - literary alfabet soupe.md
   - title: Skill Building - Generating Actions
     plan:
       - title: Finding ALL Possibile Actions
@@ -144,6 +146,8 @@ plan:
         statement: 09 - problem-space reduction/05 - sudoku challenge.md
   - title: Your Turn
     plan:
+      - title: Literary Alfabet Soupe (Revisited)
+        statement: 10 - your turn/003 - literary alfabet soupe.md
       - title: 25x25 Sudoku (Revisited)
         statement: 10 - your turn/005 - 25x25 sudoku.md
       - title: Futoshiki Solver (Revisited)
