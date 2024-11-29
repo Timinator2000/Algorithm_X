@@ -52,7 +52,13 @@ Each child will be assigned to either the red, the green or the blue team. To he
 
 This year, the 2nd grade students will be team captains. Brenda Walsh is the red team captain, Arnold Jackson is the green team captain and Arthur Fonzarelli is the blue team captain.
 
-# All-or-None Sets
+# All-or-None Sets of Children
+
+Sounds like a Jeopardy question, doesn't it? 
+
+Contestant: "Common words for $300, Alex."
+Alex: "This word is commonly used to refer to an all-or-none set of children"
+Contestant: "What is a _family_."
 
 Grouping the children by last name results in the following all-or-none sets of names:
 
