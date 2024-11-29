@@ -32,7 +32,7 @@ The following table compares my solvers using each of the three techniques discu
 
 | Sameness Enforce With: | Actions | me_requirements | Execution Time |
 |:------|:------:|:------:|:------:|
-| __Test Case 1__ |  |  |  |
+| __Test Case 1__ |
 |    Mutual Exclusivity | 0 | 0 | 0 |
 |    Colors | 0 | 0 | 0 |
 |    Complex Actions | 0 | 0 | 0 |
