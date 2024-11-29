@@ -26,10 +26,11 @@ __Support Puzzle Created for this Playground__
 
 __Great Candidates for Algorithm X:__
 <BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
-<BR>[16x16 Sudoku]( https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
+<BR>[16x16 Sudoku](https://www.codingame.com/training/medium/16x16-sudoku) (+50 XP)
 <BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
-<BR>[Mini Sudoku Solver]( https://www.codingame.com/training/hard/mini-sudoku-solver) (+50 XP)
-<BR>[Constrained Latin Squares]( https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
+<BR>[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver) (+50 XP)
+<BR>[Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
+<BR>[Literary Alfabet Soupe](https://www.codingame.com/training/medium/literary-alfabet-soupe) (+50 XP)
 <BR>[Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
 <BR>[Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
 <BR>[Paving with Bricks](https://www.codingame.com/training/medium/paving-with-bricks) (+50 XP)
@@ -37,8 +38,8 @@ __Great Candidates for Algorithm X:__
 <BR>[Finish the Eight Queens](https://www.codingame.com/training/medium/finish-the-eight-queens) (+50 XP)
 <BR>[Optimized Coloring](https://www.codingame.com/training/medium/optimized-coloring) (+50 XP)
 <BR>[Einstein’s Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
-<BR>[Winamax]( https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
-<BR>[Three Little Piggies]( https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
+<BR>[Winamax](https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
+<BR>[Three Little Piggies](https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
 <BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
 <BR>[Suguru Solver](https://www.codingame.com/training/medium/suguru-solver) (+50 XP)
@@ -63,7 +64,7 @@ I wholeheartedly believe that working through this playground and the accompanyi
 * You will experience the compelling nature of reusable software architectures.
 * You will find every puzzle listed above significantly easier than it would have been otherwise. I’m not saying they’ll all be easy, but they will indeed be easier.
 * You will have a lot of fun.
-* You will earn up to __2100 [CodinGame](https://www.codingame.com) XP!__
+* You will earn up to __2150 [CodinGame](https://www.codingame.com) XP!__
 
 # Prerequisites
 
