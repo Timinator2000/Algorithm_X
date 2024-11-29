@@ -56,11 +56,11 @@ This year, the 2nd grade students will be team captains. Brenda Walsh is the red
 
 Sounds like a Jeopardy question, doesn't it? 
 
-Contestant: "Common words for $300, Alex."
+* Contestant: "Common words for $300, Alex."
+* Alex: "This word is commonly used to refer to an all-or-none set of children"
+* Contestant: "What is a _family_."
 
-Alex: "This word is commonly used to refer to an all-or-none set of children"
-
-Contestant: "What is a _family_."
+<br>
 
 Grouping the children by last name results in the following all-or-none sets of names:
 
