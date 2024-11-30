@@ -8,7 +8,7 @@ The first puzzle covered in this section was building a word search. I have a fe
 
 # Solving Agent X, Mission 2 Without Coloring
 
-Coloring allows us to easily model and implement things that must be the same or situations where consistency is crucial. How else can we model things that must be the same? Based on what must be the same, we can identify everything that must be different. This technique was used multiple times in the section on Generalized Exact Cover, more specifically on puzzles that featured [mutual exclusivity](mutual-exclusivity).
+Coloring allows us to easily model and implement things that must be the same or situations where consistency is crucial. How else can we model things that must be the same? Based on what must be the same, we can identify everything that must be different. This technique was detailed in the discussion for [Einstein's Riddle Solver](einsteins-riddle-solver).
 
 Let’s consider how this puzzle can be solved without coloring. Since we will strictly use the requirements, optional requirements and actions of Algorithm X, actions cannot involve placing one register word on one cipher word. Instead, we must be more granular and make all actions assign one register letter to one cipher letter. Cipher letters are either covered, or they are not. Register letters are either used, or they are not. All cipher letters __must__ be covered. All register letters __may__ be used. Everything is binary and suitable for Algorithm X.
 
