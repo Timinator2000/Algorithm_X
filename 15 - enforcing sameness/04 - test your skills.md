@@ -15,18 +15,18 @@ The following exercise gives you a chance to practice reducing a list of sets th
 __Input:__ You are given a `list` of `set`s and each `set` contains exactly two single character `str`ings.  For instance:
 
 ```python
-[{'A', 'B'}, {'B', 'C'}, {'C', 'D'}, {'E', 'F'}]
+[{'A', 'B'}, {'B', 'C'}, {'C', 'D'}, {'E', 'F'}, {'A'}, {'Z'}]
 ```
 
 __Output:__ You must return a `list` of `list`s, `set`s or `tuple`s with the sets combined wherever possible. Order is not important for any part of the required output. For instance, the following would all be considered correct for the above input. 
 
 ```python
-[{'A', 'B', 'C', 'D'}, {'E', 'F'}]
-[['A', 'B', 'C', 'D'], ['E', 'F']]
-[('A', 'B', 'C', 'D'), ('E', 'F')]
+[{'A', 'B', 'C', 'D'}, {'E', 'F'}, {'Z'}]
+[['A', 'B', 'C', 'D'], ['E', 'F'], ['Z']]
+[('A', 'B', 'C', 'D'), ('E', 'F'), ('Z',)]
 
 # other arrangements of the lists or tuples are also valid, such as:
-[('F', 'E'), ('C', 'B', 'A', 'D')]
+[('F', 'E'), ('Z',), ('C', 'B', 'A', 'D')]
 ```
 
 @[Minimize the list of all-or-none sets of events.]({"stubs": ["all_or_none.py"], "command": "python3 all_or_none_test.py"})
