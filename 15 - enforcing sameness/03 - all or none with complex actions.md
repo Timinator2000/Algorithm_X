@@ -2,7 +2,7 @@
 
 The problem has not changed, so it makes sense the requirements remain exactly the same. However, in this approach, we will look at actions a bit differently. Previously, each action assigned one student to one team color, creating a _simple_ action that accomplished a single task. Here, each action will assign a team color to 1 or more students.
 
-__Complex Action:__ Combining multiple simple actions into a single action.
+__Complex Action:__ Multiple simple actions combined into a single action.
 
 Using simple actions, it takes 3 separate `tuple`s to assign Bart, Lisa and Maggie Simpson to the red team:
 
