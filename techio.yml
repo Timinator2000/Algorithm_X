@@ -231,9 +231,9 @@ plan:
       - title: Solving With Logic Only
         statement: 19 - odds and ends/01 - solving with logic only.md
       - title: Afterword
-        statement: 19 - odds and ends/afterword.md
+        statement: 19 - odds and ends/02 - afterword.md
       - title: Revision History
-        statement: 19 - odds and ends/02 - revision history.md
+        statement: 19 - odds and ends/03 - revision history.md
 projects:
   python:
     root: /python-project
