@@ -73,7 +73,7 @@ Let’s now consider a completely different gameboard and tiles. The gameboard s
 
 The first 4 test cases all reduce to exactly 5 all-or-none sets of events. In each of those cases, 5 sets need to be assigned to 5 different numbers. Too easy, right? What about __Test Case 5: Minimal text__? Because the text is so short, the all-or-none sets do not reduce down to 5, leaving the following options.
 
-1. Algorithm X could be used to determine how 6 or 7 or 8 sets can be assigned to only 5 numbers. To be honest, Algorithm X still seems like a bit too much compared to a simple algorithm to combine independent sets until the total number of sets gets to 5.
+1. Algorithm X could be used to determine how more than 5 sets can be assigned to only 5 numbers. To be honest, Algorithm X still seems like a bit too much compared to a simple algorithm to combine independent sets until the total number of sets gets to 5.
 
 <details>
 <summary>Spoiler Alert: Click here for Option 2.</summary>
