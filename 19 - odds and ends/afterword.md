@@ -1,6 +1,6 @@
 # The Chances are a Million to One
 
-When [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) first suggested I do an Algorithm X playground, I ran the idea past my wife. I told her my first thought was, “I do not want to do that, and even if I did want to do it, the chances of me actually doing it are a million to one.” She just looked at me and said...
+When [@5DN1L](https://www.codingame.com/profile/bbb8f47ea4601179303c20acdbf5fb6c1904782) first suggested I do an Algorithm X playground, I ran the idea past my wife. I told her, “I do not want to do that, and even if I did want to do it, the chances of me actually doing it are a million to one.” She just looked at me and said...
 
 "Then there's still a chance."
 
