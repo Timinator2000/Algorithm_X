@@ -12,7 +12,7 @@ She was quoting one of the greatest motivational movies of all time, _Chicken Ru
 
 As I look back over my Algorithm X journey, I did a lot of interesting things that supported the possibility that I may never finish this playground. I made a shocking number of Algorithm X blunders, several of which were not discovered until a year or more after they pushed my approach down some very strange paths.
 
-@5DN1L and I shared a lot of ideas over the past two years. We sometimes didn’t see eye to eye, and that always made me wonder what I was missing. I originally stuck with my plan to build this playground simply because I told @5DN1L I would do it. Somewhere in the journey, closer to the end than the beginning, the process became fun.
+@5DN1L and I shared a lot of ideas over the past two years. We sometimes didn’t see eye to eye, and that always made me wonder what I was missing. I originally stuck with my plan to build this playground simply because I told @5DN1L I would do it. Somewhere in the journey, the process became fun.
 
 The best part of this process was discovering and correcting my biggest mistakes. After completing my first draft, I truly thought I was very close to the finish line. @5DN1L had brought up the idea of “coloring” and Knuth’s Algorithm C many times, but I was able to complete all puzzles without any coloring…until @5DN1L added [Agent X, Mission 2 - Mysterious Cryptogram](https://www.codingame.com/training/medium/agent-x-mission-2mysterious-cryptogram) to his list. A few months later, I had eaten several servings of humble pie, coloring had been added and the playground had grown by about 40%.
 
