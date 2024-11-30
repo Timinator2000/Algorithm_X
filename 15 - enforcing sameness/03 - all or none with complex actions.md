@@ -12,7 +12,7 @@ Using simple actions, it takes 3 separate `tuple`s to assign Bart, Lisa and Magg
 ('assign student', 'Maggie Simpson', 'r')
 ```
 
-Keep in mind, actions must be `tuple`s as they are used as `key`s in a `dictionary`. These three simple actions could easily be combined into the following complex action `tuple`:
+Keep in mind, each action must be a `tuple` as it is used as a `key` in the `actions` `dictionary`. These three simple actions could easily be combined into the following complex action `tuple`:
 
 ```python
 (('assign student', 'Bart Simpson', 'r'), ('assign student', 'Lisa Simpson', 'r'), ('assign student', 'Maggie Simpson', 'r'))
