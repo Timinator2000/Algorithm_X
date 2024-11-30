@@ -54,7 +54,7 @@ This year, the 2nd grade students will be team captains. Brenda Walsh is the red
 
 # All-or-None Sets of Children
 
-Sounds like a Jeopardy question, doesn't it? 
+That sounds like a Jeopardy question, doesn't it? 
 
 * Contestant: "_Common Words_ for $300, Alex."
 * Alex: "This word is commonly used to refer to an all-or-none set of children."
