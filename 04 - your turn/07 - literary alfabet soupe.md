@@ -18,4 +18,4 @@ Let’s assume you are at a point where you have some number of “candidate” 
 
 What are the requirements? Every excerpt must be assigned a language. What are the actions? Each candidate language translates to one action that matches that language to that excerpt. That is all there is to it, textbook Algorithm X.
 
-Identifying the candidate languages for the excerpts is quite a bit more challenging than finding an exact cover that uniquely matches the 13 languages to the 13 excerpts. Later in this playground, I will revisit this puzzle with a bit more information on non-Algorithm X options once you have identified candidate languages for each excerpt. If you want to jump ahead, click [here](literary-alfabet-soupe-revisited).
+Identifying the candidate languages for the excerpts is quite a bit more challenging than finding an exact cover that uniquely matches the 13 languages to the 13 excerpts. Later in this playground, I will revisit this puzzle with a bit more information on options once you have identified candidate languages for each excerpt. If you want to jump ahead, click [here](literary-alfabet-soupe-revisited).
