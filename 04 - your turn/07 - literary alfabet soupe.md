@@ -12,7 +12,7 @@ __Algorithm X Complexity:__ Straightforward
 
 This puzzle provides an opportunity to practice Algorithm X with a very basic and straightforward setup. There is just one little problem. Understanding, analyzing and organizing the problem space is challenging enough on its own to make this puzzle deserving of its “medium” rating. What do I mean by that?
 
-You are given 13 excerpts and 13 languages. You need to identify the language used in each excerpt. Before you can even consider Algorithm X, you need to use the information (inclusions and exclusions) provided about each language to determine which languages _could match_ each excerpt. This is a very nice algorithmic challenge with many ways in which it could be approached, and that is all I am going to say about that.
+You are given 13 excerpts and 13 languages. You need to identify the language used in each excerpt. Before you can even consider Algorithm X, you need to use the information (inclusions and exclusions) provided about each language to determine which languages _could match_ each excerpt. This is a very nice algorithmic challenge with many ways in which it can be approached, and that is all I am going to say about that.
 
 Let’s assume you are at a point where you have some number of “candidate” languages for each excerpt. Some excerpts might have just one candidate language while others might have 2, 3, 4 or more candidate languages. Because every language must be assigned to exactly one excerpt, Algorithm X can easily take it from here.
 
