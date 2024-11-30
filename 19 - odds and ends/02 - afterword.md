@@ -16,7 +16,7 @@ As I look back over my Algorithm X journey, I did a lot of interesting things th
 
 The best part of this process was discovering and correcting my biggest mistakes. After completing my first draft, I truly thought I was very close to the finish line. @5DN1L had brought up the idea of “coloring” and Knuth’s Algorithm C many times, but I was able to complete all puzzles without any coloring…until @5DN1L added [Agent X, Mission 2 - Mysterious Cryptogram](https://www.codingame.com/training/medium/agent-x-mission-2mysterious-cryptogram) to his list. A few months later, I had eaten several servings of humble pie, coloring had been added and the playground had grown by about 40%.
 
-Whatever it is you want to accomplish, tell somebody your plan. Tell somebody that you really don’t want to go back to and say, “I changed my mind. I’m not going to do it anymore.” I don’t think @5ND1L and I ever talked specifically about accountability, but it was there, and it is the primary reason I never gave up.
+Whatever it is you want to accomplish, tell somebody your plan. Tell somebody that you really don’t want to go back to and say, “I changed my mind. I’m not going to do it anymore.” I don’t think @5DN1L and I ever talked specifically about accountability, but it was there, and it is the primary reason I never gave up.
 
 # What’s Next
 
