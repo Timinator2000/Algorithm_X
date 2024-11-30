@@ -230,8 +230,8 @@ plan:
     plan:
       - title: Solving With Logic Only
         statement: 19 - odds and ends/01 - solving with logic only.md
-      # - title: Afterword
-      #   statement: 19 - odds and ends/afterword.md
+      - title: Afterword
+        statement: 19 - odds and ends/afterword.md
       - title: Revision History
         statement: 19 - odds and ends/02 - revision history.md
 projects:
