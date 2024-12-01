@@ -33,7 +33,7 @@ Mutual Exclusivity allows Algorithm X to easily ensure certain situations do not
 
 <BR>
 
-All that for just one possible mapping of a register word to a cipher word??? After considering all legitimate combinations of register words and cipher words, what is left is a comprehensive matrix of __what is possible__. Because the sets of letters are finite, a comprehensive matrix of __what is NOT possible__ can be determined, and how do we tell Algorithm X what is not possible? We build a list of optional requirements (`me_requirements`) to handle [mutual exclusivity](mutual-exclusivity).
+All that for just one possible mapping of a register word to a cipher word??? After considering all legitimate combinations of register words and cipher words, what is left is a comprehensive catalog of __what is possible__. Because the sets of letters are finite, a comprehensive catalog of __what is NOT possible__ can be determined, and how do we tell Algorithm X what is not possible? We build a list of optional requirements (`me_requirements`) to handle [mutual exclusivity](mutual-exclusivity).
 
 To make this process just a bit more concrete, each `me_requirement` takes the form:
 
