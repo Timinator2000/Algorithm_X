@@ -18,7 +18,7 @@ __This import statement will not work in your coding environment unless you have
 
 ```python
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
-#  (DLX-Based Algorithm X Solver Last Revised 01 October 2024)
+#  (DLX-Based Algorithm X Solver Last Revised 01 December 2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
 #  playground on Tech.io by following the link in my CodinGame profile:
@@ -26,10 +26,10 @@ __This import statement will not work in your coding environment unless you have
 #  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
 #
 
-# DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
-# copied from @RoboStac's solution to Constrained Latin Squares on www.codingame.com.
+#  DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
+#  copied from @RoboStac's solution to Constrained Latin Squares on www.codingame.com.
 #
-# https://www.codingame.com/training/medium/constrained-latin-squares
+#  https://www.codingame.com/training/medium/constrained-latin-squares
 #
 class DLXCell:
     def __init__(self, title=None):
@@ -288,8 +288,8 @@ class AlgorithmXSolver():
     # In some cases it may be beneficial to have Algorithm X try certain paths through the matrix.
     # This can be the case when there is reason to believe certain actions have a better chance than
     # other actions at producing complete paths through the matrix. The method included here does
-    # nothing, but can be overridden in the case a subclass wishes to influence the order in which
-    # Algorithm X tries rows (actions) that cover some particular column.
+    # nothing, but can be overridden to influence the order in which Algorithm X tries rows (actions) 
+    # that cover some particular column.
     def _action_sort_criteria(self, row_header: DLXCell):
         return 0
     
@@ -298,7 +298,7 @@ class AlgorithmXSolver():
     # before others as it looks for paths through the matrix. The default is to sort the requirements
     # by how many actions cover each requirement, but in some cases there might be several 
     # requirements covered by the same number of actions. By overriding this method, the
-    # Algorithm X Solver can be directed to break ties a certain way or consider some other way
+    # Algorithm X Solver can be directed to break ties a certain way or consider another way
     # of prioritizing the requirements.
     def _requirement_sort_criteria(self, col_header: DLXCell):
         return col_header.size
