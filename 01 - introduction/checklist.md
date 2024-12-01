@@ -23,7 +23,6 @@ __Great Candidates for Algorithm X:__
 <BR>[Einstein’s Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
 <BR>[Winamax](https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
 <BR>[Three Little Piggies](https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
-<BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[Futoshiki Solver](https://www.codingame.com/training/medium/futoshiki-solver) (+50 XP)
 <BR>[Suguru Solver](https://www.codingame.com/training/medium/suguru-solver) (+50 XP)
 <BR>[Dumbbells Solver](https://www.codingame.com/training/hard/dumbbells-solver) (+50 XP)
@@ -43,5 +42,6 @@ __Great Candidates for Algorithm X:__
 # Update Finished
 
 <BR>[Paving with Bricks](https://www.codingame.com/training/medium/paving-with-bricks) (+50 XP)
+<BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 
 
