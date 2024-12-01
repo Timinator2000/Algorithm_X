@@ -17,7 +17,6 @@ __Great Candidates for Algorithm X:__
 <BR>[Literary Alfabet Soupe](https://www.codingame.com/training/medium/literary-alfabet-soupe) (+50 XP)
 <BR>[Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
 <BR>[Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
-<BR>[Paving with Bricks](https://www.codingame.com/training/medium/paving-with-bricks) (+50 XP)
 <BR>[n Queens](https://www.codingame.com/training/hard/n-queens) (+50 XP)
 <BR>[Finish the Eight Queens](https://www.codingame.com/training/medium/finish-the-eight-queens) (+50 XP)
 <BR>[Optimized Coloring](https://www.codingame.com/training/medium/optimized-coloring) (+50 XP)
@@ -38,4 +37,11 @@ __Great Candidates for Algorithm X:__
 <BR>[Tetris Floor](https://www.codingame.com/training/hard/tetris-floor) (+50 XP)
 <BR>[Agent X, Mission 2—Mysterious Cryptogram](https://www.codingame.com/training/medium/agent-x-mission-2mysterious-cryptogram) (+50 XP)
 <BR>[Harmless Rooks](https://www.codingame.com/training/hard/harmless-rooks) (+50 XP)
+
+
+
+# Update Finished
+
+<BR>[Paving with Bricks](https://www.codingame.com/training/medium/paving-with-bricks) (+50 XP)
+
 
