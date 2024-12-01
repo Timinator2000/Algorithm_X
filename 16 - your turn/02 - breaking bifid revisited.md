@@ -50,7 +50,7 @@ __KEY POINT:__ Using colors in this way eliminates the need for any `me_requirem
 
 # Enforcing Sameness with Complex Actions
 
-I highly recommend you go down this route on your own. Once you remove all overlap from the all-or-none sets of events, things become possible I never envisioned. I will explain further, but I urge you to explore this on your own before opening the spoiler below.
+I highly recommend you go down this route on your own. Once you remove all overlap from the all-or-none sets of events, things become possible I did not envision. I will explain further, but I urge you to explore this on your own before opening the spoiler below.
 
 <details>
 <summary>Spoiler Alert: I am serious. I did not see this coming.</summary>
