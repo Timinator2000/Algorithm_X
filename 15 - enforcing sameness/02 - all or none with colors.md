@@ -5,7 +5,7 @@ This toy example is a straightforward Algorithm X setup. What are the requiremen
 
 # Building the All-or-None Sets
 
-Because all siblings share identical last names, the all-or-none sets are easily built using a dictionary to organize the `Student`s into families. Each key is a last name and each value is a list of all the `Student`s that are part of that family.
+Because all siblings share identical last names, the all-or-none sets are easily built using a `dictionary` to organize the `Student`s into families. Each key is a last name and each value is a list of all the `Student`s that are part of that family.
 
 ```python
         self.families = defaultdict(list)
