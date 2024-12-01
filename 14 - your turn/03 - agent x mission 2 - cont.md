@@ -45,7 +45,7 @@ In other words, `register_letter_1` can be assinged to `cipher_letter_1` __OR__ 
 
 # Are You Kidding Me?
 
-I optimized my code by only considering register words that truly could be mapped to certain cipher words. Of course, the words must be the same length, but some pattern matching can also limit legitimate pairs. The next table displays how many requirements I constructed to handle mutual exclusivity for each test case.
+I optimized my code by only considering register words that truly could be mapped to certain cipher words. Of course, the words must be the same length, but some pattern matching can also limit legitimate pairs. The next table displays how many `me_requirements` I constructed to handle mutual exclusivity for each test case.
 
 <BR>
 
