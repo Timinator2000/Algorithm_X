@@ -1,6 +1,6 @@
 # Simple vs Complex Actions
 
-The problem has not changed, so it makes sense the requirements remain exactly the same. However, in this approach, we will look at actions a bit differently. Previously, each action assigned one student to one team color, creating a _simple_ action that accomplished a single task. Here, each action will assign a team color to 1 or more students.
+The problem has not changed, so it makes sense the requirements remain exactly the same. However, in this approach, we will look at actions a bit differently. Previously, each action assigned a team color to one student, creating a _simple_ action that accomplished a single task. Here, each action will assign a team color to 1 or more students.
 
 __Complex Action:__ Multiple simple actions combined into a single action.
 
