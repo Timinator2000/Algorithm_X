@@ -2,7 +2,7 @@
 
 Many puzzles have been discussed where it is important to make sure 2 items are not part of the same solution. Optional Requirements were used to enforce [mutual exclusivity](mutual-exclusivity). Specifically, if either `a` __or__ `b` can be part of a solution, but they cannot _both_ be part of the same solution, an additional requirement was added to the optional requirements list to enforce the needed mutual exclusivity.
 
-What if `a` and `b` can only be part of a solution if they are __both__ part of the solution? In this case, `a` and `b` form an _all-or-none_ set of events. The set only contains two items, `a` and `b`, and only two options exist. All items in the set may be part of the solution or none of the items in the set may be part of the solution. Mutual exclusivity allows the enforcement of items that must be different. All-or-none sets of events allow the enforcement of items that must be the same. 
+What if `a` and `b` can only be part of a solution if they are __both__ part of the solution? In this case, `a` and `b` form an _all-or-none set of events_. The set only contains two items, `a` and `b`, and only two options exist. All items in the set may be part of the solution or none of the items in the set may be part of the solution. Mutual exclusivity allows the enforcement of items that must be different. All-or-none sets of events allow the enforcement of items that must be the same. 
 
 # Quiz Time
 
