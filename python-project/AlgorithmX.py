@@ -1,5 +1,5 @@
 #  This solution uses Knuth's Algorithm X and his Dancing Links (DLX):
-#  (DLX-Based Algorithm X Solver Last Revised 01 October 2024)
+#  (DLX-Based Algorithm X Solver Last Revised 01 December 2024)
 #
 #  For a detailed explanation and tutorial, please see my Algorithm X
 #  playground on Tech.io by following the link in my CodinGame profile:
@@ -7,10 +7,10 @@
 #  https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334/playgrounds
 #
 
-# DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
-# copied from @RoboStac's solution to Constrained Latin Squares on www.codingame.com.
+#  DLXCell is one cell in the Algorithm X matrix. This implementation was mostly
+#  copied from @RoboStac's solution to Constrained Latin Squares on www.codingame.com.
 #
-# https://www.codingame.com/training/medium/constrained-latin-squares
+#  https://www.codingame.com/training/medium/constrained-latin-squares
 #
 class DLXCell:
     def __init__(self, title=None):
