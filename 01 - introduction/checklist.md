@@ -14,7 +14,6 @@ __Great Candidates for Algorithm X:__
 <BR>[25x25 Sudoku](https://www.codingame.com/training/expert/25x25-sudoku) (+50 XP)
 <BR>[Mini Sudoku Solver](https://www.codingame.com/training/hard/mini-sudoku-solver) (+50 XP)
 <BR>[Constrained Latin Squares](https://www.codingame.com/training/medium/constrained-latin-squares) (+50 XP)
-<BR>[Literary Alfabet Soupe](https://www.codingame.com/training/medium/literary-alfabet-soupe) (+50 XP)
 <BR>[Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
 <BR>[Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
 <BR>[n Queens](https://www.codingame.com/training/hard/n-queens) (+50 XP)
@@ -43,5 +42,6 @@ __Great Candidates for Algorithm X:__
 
 <BR>[Paving with Bricks](https://www.codingame.com/training/medium/paving-with-bricks) (+50 XP)
 <BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
+<BR>[Literary Alfabet Soupe](https://www.codingame.com/training/medium/literary-alfabet-soupe) (+50 XP)
 
 
