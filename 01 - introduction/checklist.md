@@ -17,7 +17,6 @@ __Great Candidates for Algorithm X:__
 <BR>[Shikaku Solver](https://www.codingame.com/training/medium/shikaku-solver) (+50 XP)
 <BR>[Dominoes Solver](https://www.codingame.com/training/hard/dominoes-solver) (+50 XP)
 <BR>[n Queens](https://www.codingame.com/training/hard/n-queens) (+50 XP)
-<BR>[Optimized Coloring](https://www.codingame.com/training/medium/optimized-coloring) (+50 XP)
 <BR>[Einstein’s Riddle Solver](https://www.codingame.com/training/hard/einsteins-riddle-solver) (+50 XP)
 <BR>[Winamax](https://www.codingame.com/training/hard/winamax-sponsored-contest) (+250 XP) 🚀🚀🚀
 <BR>[Three Little Piggies](https://www.codingame.com/training/hard/three-little-piggies) (+50 XP)
@@ -43,6 +42,7 @@ __Great Candidates for Algorithm X:__
 <BR>[Breaking Bifid](https://www.codingame.com/training/hard/breaking-bifid) (+50 XP)
 <BR>[Literary Alfabet Soupe](https://www.codingame.com/training/medium/literary-alfabet-soupe) (+50 XP)
 <BR>[Finish the Eight Queens](https://www.codingame.com/training/medium/finish-the-eight-queens) (+50 XP)
+<BR>[Optimized Coloring](https://www.codingame.com/training/medium/optimized-coloring) (+50 XP)
 
 
 
