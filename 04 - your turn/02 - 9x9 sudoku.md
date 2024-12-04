@@ -10,7 +10,7 @@ __Algorithm X Complexity:__ If Only They Were All This Straightforward
 
 # Strategy
 
-Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution. In the following sections I will compare portions of [Assaf’s Sudoku]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) code to my current Sudoku code. Ultimately, I will end with a discussion of several techniques for handling partial solutions that are already in place.
+Sudoku is a great place to start because a basic Sudoku always comes with a partial solution already in place. Some portion of the grid has already been prefilled. Some number of actions have already been taken and are required to be a part of any complete solution. In the following sections I will compare portions of [Assaf’s Sudoku code]( https://www.cs.mcgill.ca/~aassaf9/python/sudoku.txt) to my current Sudoku code. Ultimately, I will end with a discussion of several techniques for handling partial solutions that are already in place.
 
 # Identify Requirements – à la Ali Assaf
 
