@@ -48,4 +48,4 @@ If you really want to get crazy with a dynamic strategy, the following override 
         return (absolute_value(average - val), val - average)
 ```
 
-I understand the example above is strange, but you could try it. Hopefully, you better understand how column and row ordering can affect your Algorithm X solution. With this in mind, let's take a look at [Assorted Rectangular Pieces Puzzle](https://www.codewars.com/kata/5a8f42da5084d7dca2000255) found on [CodeWars](https://www.codewars.com).
+I understand the example above is strange, but you could try it. Hopefully, you better understand how column and row ordering can affect your Algorithm X solution. With this in mind, let's take a look at a couple of puzzles where these techniques could be used.
