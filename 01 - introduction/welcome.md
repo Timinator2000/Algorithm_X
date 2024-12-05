@@ -15,14 +15,14 @@ I can’t thank @5DN1L enough for all of his guidance, support, ideas, encourage
 A quick Google search will surely bring you to countless implementations of [Algorithm X]( https://en.wikipedia.org/wiki/Knuth%27s_Algorithm_X), usually solving a 9x9 Sudoku grid using the famous [Dancing Links (DLX)]( https://en.wikipedia.org/wiki/Dancing_Links) technique proposed by the brilliant [Donald Knuth]( https://www-cs-faculty.stanford.edu/~knuth/). This playground is NOT just another Sudoku demonstration. By the time you finish working your way through this material, you should feel confident solving any [Exact Cover]( https://en.wikipedia.org/wiki/Exact_cover) problem you run across, including…
 
 __Exact Cover (Algorithm X Candidate) Puzzles Created for this Playground:__
-<BR>Mrs. Knuth – Part I (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community?type=puzzle)
-<BR>Mrs. Knuth – Part II (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community?type=puzzle)
-<BR>Mrs. Knuth – Part III (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community?type=puzzle)
-<BR>Equation Search (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community?type=puzzle)
-<BR>Ye_ An_th_r W_rd Se_rch (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community?type=puzzle)
+<BR>Mrs. Knuth – Part I (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+<BR>Mrs. Knuth – Part II (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+<BR>Mrs. Knuth – Part III (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+<BR>Equation Search (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+<BR>Ye_ An_th_r W_rd Se_rch (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
 
 __Support Puzzle Created for this Playground__
-<BR>Shikaku Skill Builder (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community?type=puzzle)
+<BR>Shikaku Skill Builder (+50 XP) [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
 
 __Great Candidates for Algorithm X:__
 <BR>[Sudoku Solver](https://www.codingame.com/training/medium/sudoku-solver) (+50 XP)
