@@ -1,5 +1,7 @@
 # Solving Mrs. Knuth Part III
 
+Puzzle: Mrs. Knuth Part III [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
+
 You already have everything you need to instruct Algorithm X to find scheduling options for Mrs. Knuth. The last thing to cover is the process of evaluating the options and determining which one is best. I’m going to leave all the score calculations to you, but I do want to show you how to make your `AlgorithmXSolver` subclass handle some of the details for you.
 
 Your code will need to evaluate a bunch of scheduling options and score each option. In order to keep track of the current best score and the current best option, let’s create a couple of new attributes in your subclass constructor.
