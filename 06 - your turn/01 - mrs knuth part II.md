@@ -61,6 +61,6 @@ class MrsKnuthPartIISolver(AlgorithmXSolver):
         super().__init__(requirements, actions, optional_requirements)
 ```
 
-Problems that feature mutual exclusivity can have a significant number of `me_requirements`. Keeping the ME requirements separate until the rest of your setup is complete makes it easy to use a list comprehension to filter out and include just the appropriate ME requirements.
+Problems that feature mutual exclusivity can have a significant number of `me_requirements`. Keeping the `me_requirements` separate until the rest of your setup is complete makes it easy to use a list comprehension to filter out and include just the appropriate `me_requirements`.
 
 Now, on to the puzzle!
