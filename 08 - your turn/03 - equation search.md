@@ -1,6 +1,6 @@
 # Equation Search
 
-__Puzzle:__ [Equation Search](https://www.codingame.com/contribute/view/100071e2989e321b98a5118cdacdf90ebf6d26) PRIVATE LINK
+__Puzzle:__ Equation Search [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
 
 __Author:__ [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
 
