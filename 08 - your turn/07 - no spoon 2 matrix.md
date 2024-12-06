@@ -8,11 +8,15 @@ Let's take another look at the Object-Oriented Design model. Everything Algorith
 
 This is one of the toughest Algorithm X puzzle on [CodinGame](https://www.codingame.com) due to the amount of multiplicity. The requirements are straightforward. Just like Ella needed some number of lessons for Mrs. Knuth – Part III, each Node needs some number of links.
 
+<BR>
+
 __Step 1:__ Loop through all `Node`s and create the appropriate requirements.
 
 <BR>
 
 Let’s dig a bit deeper into the actions. As mentioned earlier, all actions involve putting some link between two `Node`s, but what does that actually look like? Looking at the gameboard, the link must be placed in a specific slot and it needs to be tied to one of the link requirements for each `Node`. That looks like triple multiplicity, doesn’t it!
+
+<BR>
 
 __Step 2:__ Loop through all `Channel`s and create the appropriate actions, including the lists of requirements covered by each action. Make sure you properly handle all the multiplicity.
 
@@ -20,7 +24,11 @@ __Step 2:__ Loop through all `Channel`s and create the appropriate actions, incl
 
 What about those pesky `Intersection`s? Putting a link in a `Channel` might eliminate any possibility of putting links in a crossing `Channel`. Sounds like textbook mutual exclusivity, right? You’ll need to create optional requirements to handle all the mutual exclusivity.
 
+<BR>
+
 __Step 3:__ Loop through all `Intersection`s and create the appropriate optional requirements to handle all mutual exclusivity created by `Channel`s that pass through the same `Intersection`.
+
+<BR>
 
 __Step 4:__ Make sure all the proper `me_requirements` are added to the lists of requirements covered by the actions that cover them. If you use the code structure recommended in Mrs. Knuth – Part III, make sure you append the `me_requirements` to the rest of the `optional_requirements` before invoking the inherited `AlgorithmXSolver` constructor.
 
