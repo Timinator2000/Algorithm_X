@@ -1,6 +1,6 @@
 # Ye_ An_th_r W_rd Se_rch
 
-__Puzzle:__ Ye_ An_th_r W_rd Se_rch - COMING SOON
+__Puzzle:__ Ye_ An_th_r W_rd Se_rch [Awaiting Approval - See CG Contribution Page](https://www.codingame.com/contribute/community)
 
 __Author:__ [@Timinator](https://www.codingame.com/profile/2df7157da821f39bbf6b36efae1568142907334)
 
